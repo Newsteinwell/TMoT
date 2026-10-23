@@ -1,0 +1,4362 @@
+[
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_er_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.763428930193186,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1546588160,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0398981706392474,
+    "average_rmse": 0.8361745922321513,
+    "run_id": "air_quality_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_er_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.16075960546732,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1585041408,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0337972677464926,
+    "average_rmse": 0.840285842467831,
+    "run_id": "air_quality_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.849316153675318,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1567367168,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0127330420369043,
+    "average_rmse": 0.8383584679235027,
+    "run_id": "air_quality_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.179573472589254,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1597755392,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0483269941649245,
+    "average_rmse": 0.8554968943140299,
+    "run_id": "air_quality_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_er_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.158244770020247,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1608818688,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.037640494991135,
+    "average_rmse": 0.8358012377996239,
+    "run_id": "air_quality_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_er_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.224809870123863,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1641201664,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.010509509708261,
+    "average_rmse": 0.8349218553908498,
+    "run_id": "air_quality_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.047834880650043,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1625235456,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0507908612215118,
+    "average_rmse": 0.8338963598906434,
+    "run_id": "air_quality_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.998173512518406,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1652531200,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0697469601584961,
+    "average_rmse": 0.8738468817297154,
+    "run_id": "air_quality_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_er_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 10.731710817664862,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1522216960,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8621543744121002,
+    "average_rmse": 0.8393857376806725,
+    "run_id": "air_quality_summary_mse_er_warm0_o17_s42",
+    "variant": "summary_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_er_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.059933591634035,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1549930496,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8524268228077914,
+    "average_rmse": 0.8372352152841989,
+    "run_id": "air_quality_summary_mse_er_warm1_o17_s42",
+    "variant": "summary_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_gaussian_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.973612617701292,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1546039296,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.024016100136838,
+    "average_rmse": 0.9003032861680463,
+    "run_id": "air_quality_summary_mse_gaussian_warm0_o17_s42",
+    "variant": "summary_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_gaussian_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.050823502242565,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1587228672,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0866964575876505,
+    "average_rmse": 0.9149520354060426,
+    "run_id": "air_quality_summary_mse_gaussian_warm1_o17_s42",
+    "variant": "summary_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_er_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 9.934568867087364,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1576259584,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8498183044243298,
+    "average_rmse": 0.8294928825511574,
+    "run_id": "air_quality_summary_task_er_warm0_o17_s42",
+    "variant": "summary_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_er_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 10.872014474123716,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1635557376,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8748574691954424,
+    "average_rmse": 0.8430050999619565,
+    "run_id": "air_quality_summary_task_er_warm1_o17_s42",
+    "variant": "summary_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_gaussian_warm0_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 11.614369504153728,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1599516672,
+    "gpu_peak_bytes": 78798336,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0155119868038485,
+    "average_rmse": 0.8785353485594614,
+    "run_id": "air_quality_summary_task_gaussian_warm0_o17_s42",
+    "variant": "summary_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_gaussian_warm1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 11.64001177251339,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1628778496,
+    "gpu_peak_bytes": 79458816,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0411208343723777,
+    "average_rmse": 0.9002921002069245,
+    "run_id": "air_quality_summary_task_gaussian_warm1_o17_s42",
+    "variant": "summary_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_er_warm0_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 36.08854344114661,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1571569664,
+    "gpu_peak_bytes": 79689216,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.994392684610076,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_er_warm1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 36.35907055065036,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1583546368,
+    "gpu_peak_bytes": 80375296,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.994392684610076,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 41.19718778133392,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1552666624,
+    "gpu_peak_bytes": 79689216,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.996376811594203,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 40.53862765431404,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1587109888,
+    "gpu_peak_bytes": 80375296,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 0.98,
+    "average_macro_accuracy": 0.9907418909592823,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_er_warm0_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 35.40329560264945,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1602818048,
+    "gpu_peak_bytes": 79689216,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.9876984126984127,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_er_warm1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 35.83939480036497,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1680265216,
+    "gpu_peak_bytes": 80375296,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.9712075206118818,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 40.8908588886261,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1603321856,
+    "gpu_peak_bytes": 79689216,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.9850931677018634,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 40.31818335130811,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1643008000,
+    "gpu_peak_bytes": 80375296,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 0.9739852983896596,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_er_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 14.914152845740318,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1595981824,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 44.274733104628645,
+    "average_rmse": 53.148616907027545,
+    "run_id": "beijing_pm25_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_er_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 14.21407826244831,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1622687744,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 45.54829063082015,
+    "average_rmse": 53.06578670448802,
+    "run_id": "beijing_pm25_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 14.70027307793498,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1609408512,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 51.353975591077095,
+    "average_rmse": 55.28894797364065,
+    "run_id": "beijing_pm25_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.550404340028763,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1644396544,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 56.723087122720166,
+    "average_rmse": 56.523011287646774,
+    "run_id": "beijing_pm25_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_er_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.078326515853405,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1665282048,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 44.87766316185504,
+    "average_rmse": 52.66723164487147,
+    "run_id": "beijing_pm25_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_er_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 14.857753105461597,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1677320192,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 46.02304806099957,
+    "average_rmse": 52.962881242127686,
+    "run_id": "beijing_pm25_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.569368559867144,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1670111232,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 49.15058942644764,
+    "average_rmse": 54.93556944585866,
+    "run_id": "beijing_pm25_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.85605126619339,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1701351424,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 52.161963024817084,
+    "average_rmse": 55.41154021557293,
+    "run_id": "beijing_pm25_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_er_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.477333758026361,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1557000192,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 39.98299538770621,
+    "average_rmse": 50.448690808134884,
+    "run_id": "beijing_pm25_summary_mse_er_warm0_o17_s42",
+    "variant": "summary_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_er_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 12.343051817268133,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1559326720,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 39.94698470926604,
+    "average_rmse": 50.31468379205806,
+    "run_id": "beijing_pm25_summary_mse_er_warm1_o17_s42",
+    "variant": "summary_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_gaussian_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.143282853066921,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1542090752,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 50.85854197322376,
+    "average_rmse": 56.5960053511557,
+    "run_id": "beijing_pm25_summary_mse_gaussian_warm0_o17_s42",
+    "variant": "summary_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_gaussian_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 14.450894385576248,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1579552768,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 52.648590713425165,
+    "average_rmse": 56.56749096727174,
+    "run_id": "beijing_pm25_summary_mse_gaussian_warm1_o17_s42",
+    "variant": "summary_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_er_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.682717893272638,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1584779264,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 40.23771203689283,
+    "average_rmse": 50.68578881337239,
+    "run_id": "beijing_pm25_summary_task_er_warm0_o17_s42",
+    "variant": "summary_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_er_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.902984961867332,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1617448960,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 39.44440050078975,
+    "average_rmse": 50.09983975348064,
+    "run_id": "beijing_pm25_summary_task_er_warm1_o17_s42",
+    "variant": "summary_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_gaussian_warm0_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.76306777447462,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1600630784,
+    "gpu_peak_bytes": 79087616,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 49.811331851465134,
+    "average_rmse": 55.96675701295927,
+    "run_id": "beijing_pm25_summary_task_gaussian_warm0_o17_s42",
+    "variant": "summary_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_gaussian_warm1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 13.728782091289759,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1634615296,
+    "gpu_peak_bytes": 79749120,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 51.07316085980921,
+    "average_rmse": 56.28455432070355,
+    "run_id": "beijing_pm25_summary_task_gaussian_warm1_o17_s42",
+    "variant": "summary_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_er_warm0_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 7.609028294682503,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1491365888,
+    "gpu_peak_bytes": 78975488,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 0.9583333333333334,
+    "average_macro_accuracy": 0.9791666666666667,
+    "forgetting": 0.08333333333333326,
+    "run_id": "epilepsy_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_er_warm1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 7.945550471544266,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1523953664,
+    "gpu_peak_bytes": 79637504,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 0.9583333333333334,
+    "average_macro_accuracy": 0.9791666666666667,
+    "forgetting": 0.08333333333333326,
+    "run_id": "epilepsy_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 8.00882812589407,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1493757952,
+    "gpu_peak_bytes": 78975488,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 6.899702612310648,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1546752000,
+    "gpu_peak_bytes": 79637504,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_er_warm0_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 7.891920872032642,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1547960320,
+    "gpu_peak_bytes": 78975488,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_er_warm1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 7.361055463552475,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1572462592,
+    "gpu_peak_bytes": 79637504,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 7.769749108701944,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1542770688,
+    "gpu_peak_bytes": 78975488,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 1.0,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 8.055915363132954,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1574780928,
+    "gpu_peak_bytes": 79637504,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_er_warm0_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 11.02623786777258,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1541488640,
+    "gpu_peak_bytes": 79029760,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9444444444444445,
+    "average_macro_accuracy": 0.9120370370370371,
+    "forgetting": 5.551115123125783e-17,
+    "run_id": "natops_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_er_warm1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.782529179006815,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1582170112,
+    "gpu_peak_bytes": 79694848,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9444444444444445,
+    "average_macro_accuracy": 0.9120370370370371,
+    "forgetting": 5.551115123125783e-17,
+    "run_id": "natops_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.457935616374016,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1526939648,
+    "gpu_peak_bytes": 79029760,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9027777777777778,
+    "forgetting": 0.041666666666666685,
+    "run_id": "natops_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.712513536214828,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1597702144,
+    "gpu_peak_bytes": 79694848,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9027777777777778,
+    "forgetting": 0.041666666666666685,
+    "run_id": "natops_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_er_warm0_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.44650561362505,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1574014976,
+    "gpu_peak_bytes": 79029760,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.888888888888889,
+    "average_macro_accuracy": 0.8657407407407408,
+    "forgetting": 0.08333333333333337,
+    "run_id": "natops_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_er_warm1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.681701071560383,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1608511488,
+    "gpu_peak_bytes": 79694848,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.8888888888888888,
+    "forgetting": 0.041666666666666685,
+    "run_id": "natops_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.871511872857809,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1575243776,
+    "gpu_peak_bytes": 79029760,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.888888888888889,
+    "average_macro_accuracy": 0.8657407407407408,
+    "forgetting": 0.08333333333333337,
+    "run_id": "natops_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.001,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 10.282550290226936,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1619341312,
+    "gpu_peak_bytes": 79694848,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.8611111111111112,
+    "average_macro_accuracy": 0.8703703703703703,
+    "forgetting": 0.125,
+    "run_id": "natops_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_er_warm0_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 18.947134535759687,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1566240768,
+    "gpu_peak_bytes": 81552384,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9959256021756022,
+    "average_macro_accuracy": 0.9983002481389578,
+    "forgetting": 0.004224941724941728,
+    "run_id": "pendigits_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_er_warm1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 19.57803627476096,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1599741952,
+    "gpu_peak_bytes": 82293760,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9973193473193473,
+    "average_macro_accuracy": 0.9984322756096949,
+    "forgetting": 0.003350815850815869,
+    "run_id": "pendigits_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 18.75256686285138,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1555562496,
+    "gpu_peak_bytes": 81552384,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9921828708925483,
+    "average_macro_accuracy": 0.9955616713036068,
+    "forgetting": 0.00897012933303254,
+    "run_id": "pendigits_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 19.027211509644985,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1632194560,
+    "gpu_peak_bytes": 82293760,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.992882171591849,
+    "average_macro_accuracy": 0.9967310574729928,
+    "forgetting": 0.00889728551018873,
+    "run_id": "pendigits_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_er_warm0_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 19.245572857558727,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1619656704,
+    "gpu_peak_bytes": 81552384,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9973193473193473,
+    "average_macro_accuracy": 0.9987548562548563,
+    "forgetting": 0.0033508158508158414,
+    "run_id": "pendigits_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_er_warm1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 19.009468242526054,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1654403072,
+    "gpu_peak_bytes": 82293760,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.998076923076923,
+    "average_macro_accuracy": 0.9990811965811964,
+    "forgetting": 0.0024038461538461453,
+    "run_id": "pendigits_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 19.430835012346506,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1605840896,
+    "gpu_peak_bytes": 81552384,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9908466802015189,
+    "average_macro_accuracy": 0.9948476577186256,
+    "forgetting": 0.010567523873975443,
+    "run_id": "pendigits_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 20.35953562706709,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1642033152,
+    "gpu_peak_bytes": 82293760,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9927697571245957,
+    "average_macro_accuracy": 0.9966881156477931,
+    "forgetting": 0.00816367772012927,
+    "run_id": "pendigits_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_er_warm0_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 3.926572371274233,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1495597056,
+    "gpu_peak_bytes": 78977536,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.0,
+    "run_id": "racketsports_mantis_mse_er_warm0_o17_s42",
+    "variant": "mantis_mse_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_er_warm1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 4.105871044099331,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1524064256,
+    "gpu_peak_bytes": 79639552,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.9330357142857143,
+    "average_macro_accuracy": 0.9352678571428572,
+    "forgetting": 0.0,
+    "run_id": "racketsports_mantis_mse_er_warm1_o17_s42",
+    "variant": "mantis_mse_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_gaussian_warm0_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 3.858540218323469,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1505816576,
+    "gpu_peak_bytes": 78977536,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.0,
+    "run_id": "racketsports_mantis_mse_gaussian_warm0_o17_s42",
+    "variant": "mantis_mse_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_gaussian_warm1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "mse",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 4.338517282158136,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1532264448,
+    "gpu_peak_bytes": 79639552,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.0,
+    "run_id": "racketsports_mantis_mse_gaussian_warm1_o17_s42",
+    "variant": "mantis_mse_gaussian_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_er_warm0_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 4.685084477066994,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1553666048,
+    "gpu_peak_bytes": 78977536,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8660714285714286,
+    "average_macro_accuracy": 0.9330357142857143,
+    "forgetting": 0.125,
+    "run_id": "racketsports_mantis_task_er_warm0_o17_s42",
+    "variant": "mantis_task_er_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_er_warm1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 4.343904301524162,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1577902080,
+    "gpu_peak_bytes": 79639552,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.9330357142857143,
+    "average_macro_accuracy": 0.9665178571428572,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_task_er_warm1_o17_s42",
+    "variant": "mantis_task_er_warm1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": false,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_gaussian_warm0_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 4.226407248526812,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1582567424,
+    "gpu_peak_bytes": 78977536,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9486607142857143,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_task_gaussian_warm0_o17_s42",
+    "variant": "mantis_task_gaussian_warm0"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "warm_start": true,
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_gaussian_warm1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "gaussian",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.1,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "residual_loss": "task",
+      "calibrate_replay": false,
+      "preserve_targets": false,
+      "local_components": 4,
+      "er_resample": true,
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 5.225144241005182,
+    "git_commit": "b3486a2",
+    "max_rss_bytes": 1587646464,
+    "gpu_peak_bytes": 79639552,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9486607142857143,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_task_gaussian_warm1_o17_s42",
+    "variant": "mantis_task_gaussian_warm1"
+  }
+]
