@@ -1,0 +1,8 @@
+{
+  "calibrated_stages": 144,
+  "max_errors": {
+    "after_cross_error": 6.601020721336867e-09,
+    "after_target_cov_error": 4.343003323648573e-09,
+    "after_input_variance_error": 2.4218274408877835e-09
+  }
+}
