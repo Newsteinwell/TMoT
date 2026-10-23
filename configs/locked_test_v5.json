@@ -1,0 +1,8 @@
+{
+  "decision_basis": "Only diagnosis_v2 and transport_v3 validation; no round-two test outcomes inspected",
+  "classification": {"datasets": ["har", "uwave", "dailysports"], "variants": ["full", "ridge", "matched_ridge", "matched_slda"], "additional_uwave": ["no_amplitude"]},
+  "regression": {"dataset": "energy", "ridge_by_variant": {"full": 1, "no_hist": 1, "frozen": 0.1, "matched_ridge": 1}, "criterion": "full/no_hist/frozen minimize mean final validation RMSE over seeds 42,43; matched baseline receives same lambda as full, not independently tuned"},
+  "orders": [17], "seeds": [42, 43], "expected_runs": 34,
+  "prior_test_exposure": "Pilot test already inspected; exploratory replication, not untouched confirmatory test",
+  "future_change": "No config changes from these test results; preserve all outcomes"
+}

@@ -1,0 +1,3916 @@
+[
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_frozen_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 40.69536317139864,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3020394496,
+    "gpu_peak_bytes": 191137792,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8912280701754386,
+    "average_macro_accuracy": 0.9134476339189102,
+    "forgetting": 0.06006944444444444,
+    "run_id": "dailysports_frozen_o17_s42",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_frozen_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 40.60058894753456,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3036258304,
+    "gpu_peak_bytes": 191137792,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8894736842105264,
+    "average_macro_accuracy": 0.8966798511277356,
+    "forgetting": 0.04027777777777777,
+    "run_id": "dailysports_frozen_o17_s43",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_full_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 74.73578189685941,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3035611136,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9456140350877192,
+    "average_macro_accuracy": 0.9760252574700458,
+    "forgetting": 0.023611111111111124,
+    "run_id": "dailysports_full_o17_s42",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_full_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 74.56929501891136,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3079610368,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9342105263157895,
+    "average_macro_accuracy": 0.9561654356803996,
+    "forgetting": 0.043402777777777776,
+    "run_id": "dailysports_full_o17_s43",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8026174157857895,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_amplitude_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 68.91447944566607,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3059798016,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9017543859649124,
+    "average_macro_accuracy": 0.9366637135367785,
+    "forgetting": 0.04374999999999998,
+    "run_id": "dailysports_no_amplitude_o17_s42",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8042328357696533,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_amplitude_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 70.98443389683962,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3034296320,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9105263157894735,
+    "average_macro_accuracy": 0.9385206491708039,
+    "forgetting": 0.032986111111111105,
+    "run_id": "dailysports_no_amplitude_o17_s43",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_hist_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 74.23947120457888,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3015544832,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9368421052631579,
+    "average_macro_accuracy": 0.9698216880776221,
+    "forgetting": 0.03125,
+    "run_id": "dailysports_no_hist_o17_s42",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_hist_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 75.01075053587556,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3057512448,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9175438596491228,
+    "average_macro_accuracy": 0.9248641782353513,
+    "forgetting": 0.04861111111111112,
+    "run_id": "dailysports_no_hist_o17_s43",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_new_ce_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 66.28901086002588,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3034189824,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9184210526315787,
+    "average_macro_accuracy": 0.9745160209969291,
+    "forgetting": 0.0579861111111111,
+    "run_id": "dailysports_no_new_ce_o17_s42",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_new_ce_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 66.95829864218831,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3034771456,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9368421052631577,
+    "average_macro_accuracy": 0.9556492325979771,
+    "forgetting": 0.03888888888888889,
+    "run_id": "dailysports_no_new_ce_o17_s43",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_pca_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 75.33508137986064,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3036311552,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9201754385964911,
+    "average_macro_accuracy": 0.9617173813458643,
+    "forgetting": 0.048958333333333326,
+    "run_id": "dailysports_no_pca_o17_s42",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_no_pca_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 74.1878648661077,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3034025984,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9149122807017543,
+    "average_macro_accuracy": 0.92103117690321,
+    "forgetting": 0.035069444444444445,
+    "run_id": "dailysports_no_pca_o17_s43",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8028108924627304,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_ridge_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 54.90705444291234,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3019386880,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9561403508771928,
+    "average_macro_accuracy": 0.9757222538956286,
+    "forgetting": 0.018402777777777782,
+    "run_id": "dailysports_ridge_o17_s42",
+    "variant": "ridge"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 900,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.8747483381270578,
+      "final_training_loss": 1.8044357001781464,
+      "task": "classification",
+      "semantic_dim": 23040,
+      "amplitude_dim": 90,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/dailysports_ridge_o17_s43",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 55.84984752908349,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 3051597824,
+    "gpu_peak_bytes": 191475712,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9447368421052633,
+    "average_macro_accuracy": 0.9766330340530546,
+    "forgetting": 0.03194444444444444,
+    "run_id": "dailysports_ridge_o17_s43",
+    "variant": "ridge"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 4.195190399514104e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_frozen_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.3219092674553394,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1497350144,
+    "gpu_peak_bytes": 115112448,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 71.57862243643544,
+    "average_rmse": 82.6916120451745,
+    "run_id": "energy_frozen_o17_s42",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.6299434807697253e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_frozen_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.122822903096676,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1497284608,
+    "gpu_peak_bytes": 115112448,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 68.16511604174016,
+    "average_rmse": 82.37059862244374,
+    "run_id": "energy_frozen_o17_s43",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 4.195190399514104e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_full_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.23663979396224,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682042880,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 71.16503255707586,
+    "average_rmse": 77.36955319285589,
+    "run_id": "energy_full_o17_s42",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.6299434807697253e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_full_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.122684940695763,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682296832,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 69.30271735151926,
+    "average_rmse": 80.14365647268819,
+    "run_id": "energy_full_o17_s43",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.557550544679543e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_amplitude_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.297856476157904,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1681788928,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 73.18136140054519,
+    "average_rmse": 77.94220836046037,
+    "run_id": "energy_no_amplitude_o17_s42",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.739731712608773e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_amplitude_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 3.7525555677711964,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682259968,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 80.62709131157534,
+    "average_rmse": 84.30580315982915,
+    "run_id": "energy_no_amplitude_o17_s43",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 4.195190399514104e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_hist_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.815629731863737,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1681883136,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 77.3837894625699,
+    "average_rmse": 81.50600758956709,
+    "run_id": "energy_no_hist_o17_s42",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.6299434807697253e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_hist_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.625011790543795,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682235392,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 72.20185762087591,
+    "average_rmse": 81.37587548019633,
+    "run_id": "energy_no_hist_o17_s43",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 4.195190399514104e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_pca_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.125238601118326,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682006016,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 73.59057440081715,
+    "average_rmse": 82.16743581410513,
+    "run_id": "energy_no_pca_o17_s42",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 78,
+      "pca_rank": 77,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999999,
+      "final_training_loss": 2.6299434807697253e-07,
+      "task": "regression",
+      "semantic_dim": 10240,
+      "amplitude_dim": 40,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/energy_no_pca_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 4.246469385921955,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1682116608,
+    "gpu_peak_bytes": 121306112,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 67.67906646975575,
+    "average_rmse": 81.89877939395849,
+    "run_id": "energy_no_pca_o17_s43",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_frozen_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 25.980377607047558,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2281889792,
+    "gpu_peak_bytes": 94294528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9407249373634435,
+    "average_macro_accuracy": 0.9787641402619102,
+    "forgetting": 0.04061713940938022,
+    "run_id": "har_frozen_o17_s42",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_frozen_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 26.923054106533527,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2297798656,
+    "gpu_peak_bytes": 94294528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9398879751510125,
+    "average_macro_accuracy": 0.9792129548956122,
+    "forgetting": 0.04092561303105691,
+    "run_id": "har_frozen_o17_s43",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_full_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 48.7507662139833,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2289500160,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9580031766427526,
+    "average_macro_accuracy": 0.9860010588809175,
+    "forgetting": 0.019434628975265045,
+    "run_id": "har_full_o17_s42",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_full_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 48.71037232130766,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2288357376,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9604012742263626,
+    "average_macro_accuracy": 0.9868004247421208,
+    "forgetting": 0.016784452296819796,
+    "run_id": "har_full_o17_s43",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0577003796895346,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_amplitude_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 47.7224851436913,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2292588544,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9045166186764915,
+    "average_macro_accuracy": 0.9681722062254972,
+    "forgetting": 0.02582668538892402,
+    "run_id": "har_no_amplitude_o17_s42",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.058066701889038,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_amplitude_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 45.96719792485237,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2305957888,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9027169830823095,
+    "average_macro_accuracy": 0.9675723276941032,
+    "forgetting": 0.022084805653710238,
+    "run_id": "har_no_amplitude_o17_s43",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_hist_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 52.33285031095147,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2284339200,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9446652925009816,
+    "average_macro_accuracy": 0.9815550975003272,
+    "forgetting": 0.030918727915194344,
+    "run_id": "har_no_hist_o17_s42",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_hist_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 53.4354143589735,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2283003904,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.944330674233501,
+    "average_macro_accuracy": 0.9814435580778337,
+    "forgetting": 0.03710247349823326,
+    "run_id": "har_no_hist_o17_s43",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_new_ce_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 45.13607696071267,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2291007488,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9483684013277652,
+    "average_macro_accuracy": 0.9827894671092551,
+    "forgetting": 0.02915194346289751,
+    "run_id": "har_no_new_ce_o17_s42",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_new_ce_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 47.50874662771821,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2320220160,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9480337830602849,
+    "average_macro_accuracy": 0.9826779276867615,
+    "forgetting": 0.035335689045936425,
+    "run_id": "har_no_new_ce_o17_s43",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_pca_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 48.89663155004382,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2308255744,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9465037100490575,
+    "average_macro_accuracy": 0.9817821008805501,
+    "forgetting": 0.03384291977489862,
+    "run_id": "har_no_pca_o17_s42",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_no_pca_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 49.27933510392904,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2284982272,
+    "gpu_peak_bytes": 103702528,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9463662540818558,
+    "average_macro_accuracy": 0.9821220846939519,
+    "forgetting": 0.03310213402873147,
+    "run_id": "har_no_pca_o17_s43",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0578036308288574,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_ridge_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 46.654401034116745,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2280787968,
+    "gpu_peak_bytes": 98583040,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9585921047935182,
+    "average_macro_accuracy": 0.9861973682645061,
+    "forgetting": 0.01855123674911663,
+    "run_id": "har_ridge_o17_s42",
+    "variant": "ridge"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 1854,
+      "pca_rank": 256,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.967389830477155,
+      "final_training_loss": 2.0581658204396565,
+      "task": "classification",
+      "semantic_dim": 4608,
+      "amplitude_dim": 18,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/har_ridge_o17_s43",
+      "dataset": "har",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 50.04467313364148,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2279243776,
+    "gpu_peak_bytes": 98583040,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9586344897740657,
+    "average_macro_accuracy": 0.9862114965913552,
+    "forgetting": 0.019434628975265045,
+    "run_id": "har_ridge_o17_s43",
+    "variant": "ridge"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_frozen_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 4.290176399052143,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1975517184,
+    "gpu_peak_bytes": 76958208,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.5833333333333333,
+    "average_macro_accuracy": 0.625,
+    "forgetting": 0.11111111111111109,
+    "run_id": "uwave_frozen_o17_s42",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_frozen_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": true,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 4.26174770668149,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1972969472,
+    "gpu_peak_bytes": 76958208,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.45833333333333326,
+    "average_macro_accuracy": 0.65625,
+    "forgetting": 0.27777777777777773,
+    "run_id": "uwave_frozen_o17_s43",
+    "variant": "frozen"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_full_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 7.02911838889122,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2004144128,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.625,
+    "average_macro_accuracy": 0.7118055555555556,
+    "forgetting": 0.27777777777777773,
+    "run_id": "uwave_full_o17_s42",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_full_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 7.066781170666218,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2003283968,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.625,
+    "average_macro_accuracy": 0.7743055555555556,
+    "forgetting": 0.16666666666666663,
+    "run_id": "uwave_full_o17_s43",
+    "variant": "full"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19963538646698,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_amplitude_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.071912694722414,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1986367488,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.8402777777777777,
+    "forgetting": 0.2222222222222223,
+    "run_id": "uwave_no_amplitude_o17_s42",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.1997158527374268,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": false,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_amplitude_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": true,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.471376266330481,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1986867200,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.8402777777777777,
+    "forgetting": 0.1666666666666667,
+    "run_id": "uwave_no_amplitude_o17_s43",
+    "variant": "no_amplitude"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_hist_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.447566993534565,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1991110656,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.6666666666666666,
+    "average_macro_accuracy": 0.6874999999999999,
+    "forgetting": 0.055555555555555546,
+    "run_id": "uwave_no_hist_o17_s42",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_hist_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 0.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.364906873553991,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 2003030016,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.5833333333333333,
+    "average_macro_accuracy": 0.75,
+    "forgetting": 0.16666666666666666,
+    "run_id": "uwave_no_hist_o17_s43",
+    "variant": "no_hist"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_new_ce_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.180378254503012,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1988915200,
+    "gpu_peak_bytes": 83456512,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.625,
+    "average_macro_accuracy": 0.6493055555555555,
+    "forgetting": 0.0,
+    "run_id": "uwave_no_new_ce_o17_s42",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_new_ce_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": true,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 5.976369637995958,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1984520192,
+    "gpu_peak_bytes": 83456512,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.49999999999999994,
+    "average_macro_accuracy": 0.7430555555555556,
+    "forgetting": 0.27777777777777773,
+    "run_id": "uwave_no_new_ce_o17_s43",
+    "variant": "no_new_ce"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_pca_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.631316788494587,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1988734976,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.75,
+    "average_macro_accuracy": 0.6805555555555556,
+    "forgetting": -3.700743415417188e-17,
+    "run_id": "uwave_no_pca_o17_s42",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": false
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_no_pca_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "oscl",
+      "first_epochs": 100,
+      "no_pca": true,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 6.826013837009668,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1985810432,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.5833333333333333,
+    "average_macro_accuracy": 0.7361111111111112,
+    "forgetting": 0.27777777777777773,
+    "run_id": "uwave_no_pca_o17_s43",
+    "variant": "no_pca"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.19939124584198,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_ridge_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 5.701219744980335,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1967767552,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.5416666666666666,
+    "average_macro_accuracy": 0.6145833333333333,
+    "forgetting": 0.22222222222222218,
+    "run_id": "uwave_ridge_o17_s42",
+    "variant": "ridge"
+  },
+  {
+    "basis_metadata": {
+      "first_rows": 24,
+      "pca_rank": 23,
+      "pca_padded_to": 256,
+      "pca_captured_energy": 0.9999999999999996,
+      "final_training_loss": 1.199600100517273,
+      "task": "classification",
+      "semantic_dim": 1536,
+      "amplitude_dim": 6,
+      "use_amplitude": true,
+      "use_pca": true
+    },
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/transport_v3/uwave_ridge_o17_s43",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 50,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "first_epochs": 100,
+      "no_pca": false,
+      "no_amplitude": false,
+      "frozen": false,
+      "no_new_ce": false,
+      "current_loss": "ce",
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 5.677944328635931,
+    "git_commit": "ae4055a",
+    "max_rss_bytes": 1967390720,
+    "gpu_peak_bytes": 83455488,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.6666666666666666,
+    "average_macro_accuracy": 0.7430555555555555,
+    "forgetting": 0.2777777777777778,
+    "run_id": "uwave_ridge_o17_s43",
+    "variant": "ridge"
+  }
+]
