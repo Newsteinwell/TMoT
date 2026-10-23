@@ -5,7 +5,7 @@ import numpy as np
 import torch
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args()
 report={'queues':{},'paired_readout_state':[]}
-for name,expected in [('diagnosis_v2',112),('transport_v3',52)]:
+for name,expected in [('diagnosis_v2',112),('transport_v3',52),('followups_v4',12),('locked_test_v5',34)]:
     queue=a.root/'runs'/name;checked=[]
     for f in sorted(queue.glob('*/summary.json')):
         s=json.loads(f.read_text());assert (f.parent/'final.pt').exists()
@@ -16,7 +16,7 @@ for name,expected in [('diagnosis_v2',112),('transport_v3',52)]:
                 metric=(np.mean([np.mean(ps[ys==c]==c) for c in np.unique(ys)]) if s['task']=='classification'
                         else np.sqrt(np.mean((ys-ps)**2)))
                 np.testing.assert_allclose(metric,stage['macro_accuracy' if s['task']=='classification' else 'rmse'],rtol=1e-6,atol=1e-12)
-        assert s['config']['eval_split']=='val'
+        assert s['config']['eval_split']==('test' if name=='locked_test_v5' else 'val')
         checked.append(f.parent.name)
     report['queues'][name]=dict(expected=expected,completed_metric_checked=len(checked),checked=checked)
 queue=a.root/'runs'/'diagnosis_v2'

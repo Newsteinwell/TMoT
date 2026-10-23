@@ -1,0 +1,223 @@
+{
+  "evaluation": "val",
+  "criterion": "final validation RMSE",
+  "rows": [
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 0.001,
+      "rmse": 72.99215168684749
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 0.01,
+      "rmse": 71.16503372891083
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 0.1,
+      "rmse": 66.55592069245915
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 1.0,
+      "rmse": 64.35125268262398
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 10.0,
+      "rmse": 69.96332458523875
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "ridge": 100.0,
+      "rmse": 77.05092526502378
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 0.001,
+      "rmse": 69.9690389650807
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 0.01,
+      "rmse": 69.30272518088445
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 0.1,
+      "rmse": 67.66839425112623
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 1.0,
+      "rmse": 65.84962293614542
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 10.0,
+      "rmse": 70.89544265563157
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "ridge": 100.0,
+      "rmse": 77.3066734848554
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 0.001,
+      "rmse": 79.9209849981709
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 0.01,
+      "rmse": 77.38378533026594
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 0.1,
+      "rmse": 70.88558276537509
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 1.0,
+      "rmse": 67.72418419209491
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 10.0,
+      "rmse": 71.15641512024644
+    },
+    {
+      "variant": "no_hist",
+      "seed": 42,
+      "ridge": 100.0,
+      "rmse": 77.18286388889132
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 0.001,
+      "rmse": 73.01556031062121
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 0.01,
+      "rmse": 72.20186586338453
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 0.1,
+      "rmse": 70.42801150414924
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 1.0,
+      "rmse": 68.70092760990455
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 10.0,
+      "rmse": 71.9528369045167
+    },
+    {
+      "variant": "no_hist",
+      "seed": 43,
+      "ridge": 100.0,
+      "rmse": 77.39788277905231
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 0.001,
+      "rmse": 73.82723965905829
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 0.01,
+      "rmse": 71.57861616714429
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 0.1,
+      "rmse": 66.63041514513924
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 1.0,
+      "rmse": 66.43473322274244
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 10.0,
+      "rmse": 71.84838329959588
+    },
+    {
+      "variant": "frozen",
+      "seed": 42,
+      "ridge": 100.0,
+      "rmse": 77.399647582576
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 0.001,
+      "rmse": 68.97018852833135
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 0.01,
+      "rmse": 68.16512815144418
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 0.1,
+      "rmse": 66.82970947202394
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 1.0,
+      "rmse": 68.07019763788868
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 10.0,
+      "rmse": 73.91158183943665
+    },
+    {
+      "variant": "frozen",
+      "seed": 43,
+      "ridge": 100.0,
+      "rmse": 77.83919001889464
+    }
+  ],
+  "global_training_mean_rmse": 78.71295928955078
+}
