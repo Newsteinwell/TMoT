@@ -1,0 +1,392 @@
+[
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_er_o17_s42",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.2289287708699703,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1316126720,
+    "gpu_peak_bytes": 69024768,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 76.64119720458984,
+    "average_rmse": 72.71362609863282
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_er_o17_s43",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "er",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.1958687342703342,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1316433920,
+    "gpu_peak_bytes": 69024768,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 78.32836151123047,
+    "average_rmse": 70.89472274780273
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_ft_o17_s42",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "ft",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.627376802265644,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1304395776,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 61.75286865234375,
+    "average_rmse": 66.13405685424804
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_ft_o17_s43",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "ft",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.680043175816536,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1304297472,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 62.05553436279297,
+    "average_rmse": 65.42496337890626
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_no_hist_o17_s42",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "no_hist",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.6079376824200153,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1310208000,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 63.84599606580703,
+    "average_rmse": 69.98196817969442
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_no_hist_o17_s43",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "no_hist",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.5249536857008934,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1309691904,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 63.44830502735657,
+    "average_rmse": 70.36971244626133
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_ridge_o17_s42",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "ridge",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.36083629727363586,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 673525760,
+    "gpu_peak_bytes": 66048,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 90.6350957202141,
+    "average_rmse": 89.27318342838751
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_ridge_o17_s43",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "ridge",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.28948695585131645,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 673816576,
+    "gpu_peak_bytes": 66048,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 90.6350957202141,
+    "average_rmse": 89.27318342838751
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_tmot_o17_s42",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.2235158681869507,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1495105536,
+    "gpu_peak_bytes": 69161472,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 72.36762530480715,
+    "average_rmse": 78.51381515349772
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_v1/energy_tmot_o17_s43",
+      "dataset": "energy",
+      "encoder": "summary",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.1235706321895123,
+    "git_commit": "be6a527d2557b9f6588942bd144c550cfb60e441",
+    "max_rss_bytes": 1495199744,
+    "gpu_peak_bytes": 69161472,
+    "input_hashes": {
+      "train": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+      "test": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb"
+    },
+    "final_rmse": 70.03698535733606,
+    "average_rmse": 74.41623151322742
+  }
+]
