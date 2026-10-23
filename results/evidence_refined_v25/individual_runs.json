@@ -1,0 +1,1038 @@
+[
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/air_quality_mantis_ard_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 47.464293871074915,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1389133824,
+    "gpu_peak_bytes": 50392064,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.8445364123993122,
+    "average_rmse": 1.1262829229123916,
+    "run_id": "air_quality_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/air_quality_mantis_isotropic_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 16.56408281624317,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1388826624,
+    "gpu_peak_bytes": 50366976,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "final_rmse": 1.0628550009232272,
+    "average_rmse": 0.821755691944043,
+    "run_id": "air_quality_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/air_quality_summary_ard_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 39.121772311627865,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1366827008,
+    "gpu_peak_bytes": 50392064,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.2133386989703978,
+    "average_rmse": 1.1603656266249764,
+    "run_id": "air_quality_summary_ard_o17_s42",
+    "variant": "summary_ard"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/air_quality_summary_isotropic_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.45847712084651,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1366114304,
+    "gpu_peak_bytes": 50366976,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9016054558886518,
+    "average_rmse": 0.7196618997278706,
+    "run_id": "air_quality_summary_isotropic_o17_s42",
+    "variant": "summary_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/articulary_mantis_ard_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 101.07922910153866,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1430413312,
+    "gpu_peak_bytes": 50785280,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9844534370621328,
+    "forgetting": 0.045454545454545456,
+    "run_id": "articulary_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/articulary_mantis_isotropic_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 50.945698760449886,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1429475328,
+    "gpu_peak_bytes": 50760192,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/beijing_pm25_mantis_ard_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 75.98523135483265,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1458511872,
+    "gpu_peak_bytes": 50392064,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 87.8972223172099,
+    "average_rmse": 70.78821452353941,
+    "run_id": "beijing_pm25_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/beijing_pm25_mantis_isotropic_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 19.55428944155574,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1457618944,
+    "gpu_peak_bytes": 50366976,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "final_rmse": 43.52162863486618,
+    "average_rmse": 53.088864900363056,
+    "run_id": "beijing_pm25_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/beijing_pm25_summary_ard_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 64.36344643682241,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1371078656,
+    "gpu_peak_bytes": 50392064,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.930180568589634,
+    "average_rmse": 63.17731433968895,
+    "run_id": "beijing_pm25_summary_ard_o17_s42",
+    "variant": "summary_ard"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/beijing_pm25_summary_isotropic_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 15.768738597631454,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1370755072,
+    "gpu_peak_bytes": 50366976,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.699329482992745,
+    "average_rmse": 57.45617154078582,
+    "run_id": "beijing_pm25_summary_isotropic_o17_s42",
+    "variant": "summary_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/epilepsy_mantis_ard_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 24.1026299148798,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1364516864,
+    "gpu_peak_bytes": 50441216,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/epilepsy_mantis_isotropic_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 11.473925612866879,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1370091520,
+    "gpu_peak_bytes": 50416128,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 0.9583333333333334,
+    "average_macro_accuracy": 0.9791666666666667,
+    "forgetting": 0.08333333333333326,
+    "run_id": "epilepsy_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/natops_mantis_ard_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 38.847610369324684,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1404661760,
+    "gpu_peak_bytes": 50473984,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.8055555555555555,
+    "average_macro_accuracy": 0.8240740740740741,
+    "forgetting": 0.125,
+    "run_id": "natops_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/natops_mantis_isotropic_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 18.499199230223894,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1397227520,
+    "gpu_peak_bytes": 50448896,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9027777777777778,
+    "forgetting": 0.041666666666666685,
+    "run_id": "natops_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/pendigits_mantis_ard_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 79.13955484703183,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1426677760,
+    "gpu_peak_bytes": 50539520,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9952852971401359,
+    "average_macro_accuracy": 0.9982752023961702,
+    "forgetting": 0.002409015715467311,
+    "run_id": "pendigits_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/pendigits_mantis_isotropic_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 21.943334385752678,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1422434304,
+    "gpu_peak_bytes": 50514432,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9952852971401359,
+    "average_macro_accuracy": 0.9982752023961702,
+    "forgetting": 0.002409015715467311,
+    "run_id": "pendigits_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/racketsports_mantis_ard_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "ard",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 28.56271768733859,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1372368896,
+    "gpu_peak_bytes": 50441216,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8392857142857143,
+    "average_macro_accuracy": 0.8883928571428572,
+    "forgetting": 0.1875,
+    "run_id": "racketsports_mantis_ard_o17_s42",
+    "variant": "mantis_ard"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/evidence_refined_v25/racketsports_mantis_isotropic_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "method": "isotropic",
+      "evidence_steps": 60,
+      "refine": true,
+      "basis_seed": 1701,
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "eval_split": "val",
+      "readout": "ridge",
+      "current_loss": "ce",
+      "alpha": 1.0,
+      "residual_weight": 0.1,
+      "device": "cuda",
+      "threads": 1
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 11.818991832435131,
+    "git_commit": "9b22ffe",
+    "max_rss_bytes": 1368588288,
+    "gpu_peak_bytes": 50416128,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8973214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.0,
+    "run_id": "racketsports_mantis_isotropic_o17_s42",
+    "variant": "mantis_isotropic"
+  }
+]

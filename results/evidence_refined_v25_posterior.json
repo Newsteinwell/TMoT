@@ -1,0 +1,372 @@
+{
+  "complete": true,
+  "checked": [
+    "air_quality_mantis_ard_o17_s42",
+    "air_quality_mantis_isotropic_o17_s42",
+    "air_quality_summary_ard_o17_s42",
+    "air_quality_summary_isotropic_o17_s42",
+    "articulary_mantis_ard_o17_s42",
+    "articulary_mantis_isotropic_o17_s42",
+    "beijing_pm25_mantis_ard_o17_s42",
+    "beijing_pm25_mantis_isotropic_o17_s42",
+    "beijing_pm25_summary_ard_o17_s42",
+    "beijing_pm25_summary_isotropic_o17_s42",
+    "epilepsy_mantis_ard_o17_s42",
+    "epilepsy_mantis_isotropic_o17_s42",
+    "natops_mantis_ard_o17_s42",
+    "natops_mantis_isotropic_o17_s42",
+    "pendigits_mantis_ard_o17_s42",
+    "pendigits_mantis_isotropic_o17_s42",
+    "racketsports_mantis_ard_o17_s42",
+    "racketsports_mantis_isotropic_o17_s42"
+  ],
+  "optimization": [
+    {
+      "run": "air_quality_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.008262213163073438,
+      "alpha_min": 0.07831303364386245,
+      "alpha_max": 162754.79141900392,
+      "beta": 162754.79141900392,
+      "refinement": {
+        "adam_best_evidence": -3.0320705749854824,
+        "refined_evidence": -113.24788575805724,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 61,
+        "optimizer_evaluations": 62,
+        "initial_normalized_max_gradient": 0.0272858358490684,
+        "normalized_projected_gradient": 7.205690378680429e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 410
+      }
+    },
+    {
+      "run": "air_quality_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 2.619104742459494e-07,
+      "alpha_min": 172.52153521073515,
+      "alpha_max": 172.52153521073515,
+      "beta": 0.9604249448242345,
+      "refinement": {
+        "adam_best_evidence": 84.93458990331747,
+        "refined_evidence": 82.13935011210887,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 7,
+        "optimizer_evaluations": 8,
+        "initial_normalized_max_gradient": 0.03397417102207892,
+        "normalized_projected_gradient": 2.619104743653683e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "air_quality_summary_ard_o17_s42",
+      "normalized_max_gradient": 0.002103064601764636,
+      "alpha_min": 0.3075630603336421,
+      "alpha_max": 162754.79141900392,
+      "beta": 49.84004424710421,
+      "refinement": {
+        "adam_best_evidence": 36.622334074790615,
+        "refined_evidence": -21.125577829613576,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "optimizer_iterations": 300,
+        "optimizer_evaluations": 363,
+        "initial_normalized_max_gradient": 0.008199296064873112,
+        "normalized_projected_gradient": 0.0021030646017051653,
+        "gradient_tolerance_met": false,
+        "active_bounds": 430
+      }
+    },
+    {
+      "run": "air_quality_summary_isotropic_o17_s42",
+      "normalized_max_gradient": 1.2634764232427736e-07,
+      "alpha_min": 479.0731441101264,
+      "alpha_max": 479.0731441101264,
+      "beta": 1.7118190340158268,
+      "refinement": {
+        "adam_best_evidence": 65.79774890044416,
+        "refined_evidence": 58.4993060518883,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 6,
+        "optimizer_evaluations": 8,
+        "initial_normalized_max_gradient": 0.09604805975433019,
+        "normalized_projected_gradient": 1.2634764196602054e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "articulary_mantis_ard_o17_s42",
+      "normalized_max_gradient": 4.040644702870487e-05,
+      "alpha_min": 4.972149690556134,
+      "alpha_max": 162754.79141900392,
+      "beta": 227.7621051706623,
+      "refinement": {
+        "adam_best_evidence": -3640.913302158471,
+        "refined_evidence": -8760.509831501737,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 247,
+        "optimizer_evaluations": 282,
+        "initial_normalized_max_gradient": 0.001231368663473014,
+        "normalized_projected_gradient": 8.83846632392327e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 129
+      }
+    },
+    {
+      "run": "articulary_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 4.840582362088983e-07,
+      "alpha_min": 11798.91296657043,
+      "alpha_max": 11798.91296657043,
+      "beta": 194.44849762624,
+      "refinement": {
+        "adam_best_evidence": -3640.2340576122515,
+        "refined_evidence": -8480.386379715772,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 11,
+        "optimizer_evaluations": 21,
+        "initial_normalized_max_gradient": 0.45209628334001983,
+        "normalized_projected_gradient": 4.840582361661808e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "beijing_pm25_mantis_ard_o17_s42",
+      "normalized_max_gradient": 4.408712119181668e-05,
+      "alpha_min": 0.534984796316784,
+      "alpha_max": 162754.79141900392,
+      "beta": 3.0730301576131196,
+      "refinement": {
+        "adam_best_evidence": 170.2216454012521,
+        "refined_evidence": 131.9755675000472,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "optimizer_iterations": 300,
+        "optimizer_evaluations": 349,
+        "initial_normalized_max_gradient": 0.014658956508289384,
+        "normalized_projected_gradient": 4.408712118962495e-05,
+        "gradient_tolerance_met": false,
+        "active_bounds": 141
+      }
+    },
+    {
+      "run": "beijing_pm25_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 5.6687998702030956e-08,
+      "alpha_min": 42.82654941390734,
+      "alpha_max": 42.82654941390734,
+      "beta": 2.2310271210467363,
+      "refinement": {
+        "adam_best_evidence": 259.9407363650014,
+        "refined_evidence": 259.93935085618386,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 5,
+        "optimizer_evaluations": 6,
+        "initial_normalized_max_gradient": 0.001042288349141098,
+        "normalized_projected_gradient": 5.668799778292095e-08,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "beijing_pm25_summary_ard_o17_s42",
+      "normalized_max_gradient": 2.991763039887443e-05,
+      "alpha_min": 2.0894818156451676,
+      "alpha_max": 162754.79141900392,
+      "beta": 2.6312779208601036,
+      "refinement": {
+        "adam_best_evidence": 215.3331152314222,
+        "refined_evidence": 103.13987783235507,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "optimizer_iterations": 300,
+        "optimizer_evaluations": 336,
+        "initial_normalized_max_gradient": 0.01707117393030628,
+        "normalized_projected_gradient": 2.9917630398167422e-05,
+        "gradient_tolerance_met": false,
+        "active_bounds": 402
+      }
+    },
+    {
+      "run": "beijing_pm25_summary_isotropic_o17_s42",
+      "normalized_max_gradient": 3.8354879559724064e-07,
+      "alpha_min": 223.4392121753647,
+      "alpha_max": 223.4392121753647,
+      "beta": 2.264224650719013,
+      "refinement": {
+        "adam_best_evidence": 282.78477905911245,
+        "refined_evidence": 279.57329276420046,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 6,
+        "optimizer_evaluations": 7,
+        "initial_normalized_max_gradient": 0.019980828387398925,
+        "normalized_projected_gradient": 3.835487955364965e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "epilepsy_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.00887490476614639,
+      "alpha_min": 46.11343392930594,
+      "alpha_max": 162754.79141900392,
+      "beta": 162754.79141900392,
+      "refinement": {
+        "adam_best_evidence": -349.25338788027875,
+        "refined_evidence": -898.7738954238594,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 149,
+        "optimizer_evaluations": 163,
+        "initial_normalized_max_gradient": 0.009724087868607966,
+        "normalized_projected_gradient": 7.273960079445137e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 414
+      }
+    },
+    {
+      "run": "epilepsy_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 5.365143844438838e-08,
+      "alpha_min": 4501.77697784854,
+      "alpha_max": 4501.77697784854,
+      "beta": 344.4979709275486,
+      "refinement": {
+        "adam_best_evidence": -348.14226627291646,
+        "refined_evidence": -601.4842739767482,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 13,
+        "optimizer_evaluations": 20,
+        "initial_normalized_max_gradient": 0.4211349085286438,
+        "normalized_projected_gradient": 5.3651440371764114e-08,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "natops_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.00036575679927350834,
+      "alpha_min": 79.64856749292129,
+      "alpha_max": 162754.79141900392,
+      "beta": 162754.79141900392,
+      "refinement": {
+        "adam_best_evidence": -166.17881387958187,
+        "refined_evidence": -1202.9509325809777,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 144,
+        "optimizer_evaluations": 152,
+        "initial_normalized_max_gradient": 0.0014157581058286983,
+        "normalized_projected_gradient": 8.73474132170735e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 368
+      }
+    },
+    {
+      "run": "natops_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 2.1887608998346974e-08,
+      "alpha_min": 5391.324950124572,
+      "alpha_max": 5391.324950124572,
+      "beta": 73.62816855675074,
+      "refinement": {
+        "adam_best_evidence": -164.93985703447834,
+        "refined_evidence": -734.2651391385466,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 19,
+        "optimizer_evaluations": 25,
+        "initial_normalized_max_gradient": 0.4426904901462644,
+        "normalized_projected_gradient": 2.188761489404709e-08,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "pendigits_mantis_ard_o17_s42",
+      "normalized_max_gradient": 4.065125459829218e-05,
+      "alpha_min": 74.14102761531511,
+      "alpha_max": 162754.79141900392,
+      "beta": 111.1818715281227,
+      "refinement": {
+        "adam_best_evidence": -103495.51880611252,
+        "refined_evidence": -103884.64411292353,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "optimizer_iterations": 300,
+        "optimizer_evaluations": 333,
+        "initial_normalized_max_gradient": 0.03543468483393926,
+        "normalized_projected_gradient": 4.0651254584827165e-05,
+        "gradient_tolerance_met": false,
+        "active_bounds": 40
+      }
+    },
+    {
+      "run": "pendigits_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 2.014463079766279e-08,
+      "alpha_min": 343.58689702261046,
+      "alpha_max": 343.58689702261046,
+      "beta": 111.15172248078107,
+      "refinement": {
+        "adam_best_evidence": -103364.99576755727,
+        "refined_evidence": -103539.56928821027,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 7,
+        "optimizer_evaluations": 9,
+        "initial_normalized_max_gradient": 0.034839307242873714,
+        "normalized_projected_gradient": 2.0144632427946146e-08,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    },
+    {
+      "run": "racketsports_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.0008674925798865357,
+      "alpha_min": 32.92368725224407,
+      "alpha_max": 162754.79141900392,
+      "beta": 162754.79141900392,
+      "refinement": {
+        "adam_best_evidence": -177.15987271234917,
+        "refined_evidence": -695.0016352646053,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 166,
+        "optimizer_evaluations": 187,
+        "initial_normalized_max_gradient": 0.0012262784747709224,
+        "normalized_projected_gradient": 7.463122905534286e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 400
+      }
+    },
+    {
+      "run": "racketsports_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 1.0818417084909668e-07,
+      "alpha_min": 3228.189865234063,
+      "alpha_max": 3228.189865234063,
+      "beta": 44.804686254715975,
+      "refinement": {
+        "adam_best_evidence": -173.10292114339245,
+        "refined_evidence": -367.9147345386134,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "optimizer_iterations": 13,
+        "optimizer_evaluations": 23,
+        "initial_normalized_max_gradient": 0.3768719402884879,
+        "normalized_projected_gradient": 1.0818417078239567e-07,
+        "gradient_tolerance_met": true,
+        "active_bounds": 0
+      }
+    }
+  ],
+  "checks": [
+    "18 identical independent bases and sufficient statistics",
+    "CPU reconstruction of final objective and posterior",
+    "finite per-stage objective and improvement over initialization"
+  ]
+}
