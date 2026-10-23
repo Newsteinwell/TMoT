@@ -42,7 +42,7 @@ def run(a):
     basis=StableSemanticBasis(2*channels,a.dimension).fit(x[stages[0]])
     learner=NonlinearMomentLearner(a.dimension,task,a.seed,ridge=a.ridge,mode=a.method,
                                     epochs=a.epochs,residual_weight=a.residual_weight,
-                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample)
+                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample,local_components=a.local_components)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -87,7 +87,7 @@ def run(a):
 
 def parser():
     p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--out',required=True)
-    p.add_argument('--dataset',required=True);p.add_argument('--encoder',default='mantis');p.add_argument('--method',choices=['gaussian','er','no_history'],default='gaussian')
+    p.add_argument('--dataset',required=True);p.add_argument('--encoder',default='mantis');p.add_argument('--method',choices=['gaussian','local','er','no_history'],default='gaussian')
     p.add_argument('--seed',type=int,default=42);p.add_argument('--order',type=int,default=17)
     p.add_argument('--dimension',type=int,default=512);p.add_argument('--bottleneck',type=int,default=64)
     p.add_argument('--epochs',type=int,default=30);p.add_argument('--hist-weight',type=float,default=1.)
@@ -95,6 +95,7 @@ def parser():
     p.add_argument('--eval-split',choices=['val','test'],default='test')
     p.add_argument('--readout',choices=['ridge','trained'],default='ridge')
     p.add_argument('--current-loss',choices=['ce','mse'],default='ce')
+    p.add_argument('--local-components',type=int,choices=[1,4],default=4)
     p.add_argument('--er-resample',action='store_true')
     p.add_argument('--alpha',type=float,default=1.)
     p.add_argument('--residual-weight',type=float,default=.1)

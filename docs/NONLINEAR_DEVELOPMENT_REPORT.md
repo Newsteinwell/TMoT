@@ -23,3 +23,26 @@ v10共56条探索实验，v11共48条对齐更新次数实验，均完成且指�
 - ER缓冲区4MiB，Gaussian存类或到达批次的全协方差；尚不等字节预算。
 - 候选架构已扩展到v12的7个新增数据、2表示、2种子，168条，仅VAL；基础参数来源已冻结于配置。官方TEST仍不读。
 - 生成特征回放与协方差方法已有研究，见ROUND3_PROTOCOL.md的原始论文链接；当前模块不单独声称原创性。
+
+## v12跨数据验证结果（168条完成）
+
+84对Gaussian/ER实际优化次数、基底、基础读出及验证ID/标签审计通过。表中每种方法各取固定3点残差惩罚中，两种子均值最优的配置。只是VAL开发结果，不代表独立测试。
+
+| 数据 | 表示 | 高斯矩回放残差 | 真实回放残差 |
+|---|---|---:|---:|
+| natops | mantis | 93.056% | 94.444% |
+| natops | summary | 84.722% | 86.111% |
+| epilepsy | mantis | 100.000% | 100.000% |
+| epilepsy | summary | 82.440% | 80.357% |
+| racketsports | mantis | 89.732% | 89.955% |
+| racketsports | summary | 82.143% | 83.482% |
+| pendigits | mantis | 99.315% | 99.767% |
+| pendigits | summary | 97.054% | 99.538% |
+| articulary | mantis | 100.000% | 100.000% |
+| articulary | summary | 98.000% | 99.000% |
+| beijing_pm25 | mantis | 45.2333 | 43.0025 |
+| beijing_pm25 | summary | 45.4286 | 40.0803 |
+| air_quality | mantis | 1.0065 | 1.0269 |
+| air_quality | summary | 0.9576 | 0.8269 |
+
+单高斯残差没有跨数据集普遍优势。相同非线性网络在真实回放下对PenDigits、Beijing等更好，支持进一步检验多模态历史近似。v14通过K1/K4的低秩局部矩消融区分低秩正则化与分区的作用；v13独立补齐FeCAM分类读出基线。正式TEST仍封存。

@@ -23,19 +23,22 @@ def sample_cell(cell, count, rng, shrinkage=.1):
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False):
-        if mode not in ('gaussian', 'er', 'no_history'): raise ValueError(mode)
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4):
+        if mode not in ('gaussian', 'local', 'er', 'no_history'): raise ValueError(mode)
         self.dimension, self.task, self.seed = dimension, task, seed
         self.ridge, self.mode, self.epochs = ridge, mode, epochs
         self.residual_weight, self.device = residual_weight, device
         self.replay_count, self.replay_bytes, self.width, self.alpha = replay_count, replay_bytes, width, alpha
         self.er_resample=er_resample
+        from .local_moments import LocalMomentMixture
+        self.local=LocalMomentMixture(dimension,task,seed+676,components=local_components) if mode=='local' else None
         self.classes=[]; self.memory=None; self.joint_cells=[]; self.stage=0; self.seen=0
         self.buffer=None; self.keys=None; self.last_loss=None
         self.rng=np.random.default_rng(seed)
 
     def _historical(self, outputs):
         if not self.stage or self.mode=='no_history': return None
+        if self.mode=='local':return self.local.sample(self.replay_count,self.classes,self.rng)
         if self.mode=='er':
             x,y=self.buffer
             count=self.replay_count if self.er_resample else min(len(x),self.replay_count)
@@ -113,7 +116,8 @@ class NonlinearMomentLearner:
                 self.optimizer_steps+=1
                 self.last_loss=float(loss.detach())
         self.net.eval()
-        if self.mode=='er':self._store_buffer(x,y)
+        if self.mode=='local':self.local.update(x,y)
+        elif self.mode=='er':self._store_buffer(x,y)
         elif self.mode=='gaussian' and self.task=='regression':self.joint_cells.append(Cell.from_x(np.concatenate([x,y],axis=1)))
         self.stage+=1;self.seen+=len(x)
 
@@ -129,5 +133,6 @@ class NonlinearMomentLearner:
         size=self.memory.nbytes+self.base.nbytes+self.mean.nbytes+self.sd.nbytes
         size+=sum(p.numel()*p.element_size() for p in self.net.parameters())
         size+=sum(c.total.nbytes+c.gram.nbytes+8 for c in self.joint_cells)
+        if self.local is not None:size+=self.local.nbytes
         if self.buffer is not None:size+=sum(v.nbytes for v in self.buffer)+self.keys.nbytes
         return size
