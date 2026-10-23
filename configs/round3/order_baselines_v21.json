@@ -1,0 +1,77 @@
+{
+  "natops_linear": {
+    "ridge": 0.001,
+    "source_run": "natops_mantis_linear_r0.001_o17_s42",
+    "validation_value": 0.9444444444444445
+  },
+  "natops_static": {
+    "ridge": 0.001,
+    "source_run": "natops_mantis_static_r0.001_o17_s42",
+    "validation_value": 0.8611111111111112
+  },
+  "natops_slda": {
+    "ridge": 0.1,
+    "source_run": "natops_mantis_slda_r0.1_o17_s42",
+    "validation_value": 0.9166666666666666
+  },
+  "epilepsy_linear": {
+    "ridge": 1.0,
+    "source_run": "epilepsy_mantis_linear_r1_o17_s42",
+    "validation_value": 1.0
+  },
+  "epilepsy_static": {
+    "ridge": 0.001,
+    "source_run": "epilepsy_mantis_static_r0.001_o17_s42",
+    "validation_value": 1.0
+  },
+  "epilepsy_slda": {
+    "ridge": 0.1,
+    "source_run": "epilepsy_mantis_slda_r0.1_o17_s42",
+    "validation_value": 0.9583333333333334
+  },
+  "racketsports_linear": {
+    "ridge": 0.1,
+    "source_run": "racketsports_mantis_linear_r0.1_o17_s42",
+    "validation_value": 0.8973214285714286
+  },
+  "racketsports_static": {
+    "ridge": 0.001,
+    "source_run": "racketsports_mantis_static_r0.001_o17_s42",
+    "validation_value": 0.8616071428571428
+  },
+  "racketsports_slda": {
+    "ridge": 0.1,
+    "source_run": "racketsports_mantis_slda_r0.1_o17_s42",
+    "validation_value": 0.8973214285714286
+  },
+  "pendigits_linear": {
+    "ridge": 0.01,
+    "source_run": "pendigits_mantis_linear_r0.01_o17_s42",
+    "validation_value": 0.9959304584304585
+  },
+  "pendigits_static": {
+    "ridge": 0.001,
+    "source_run": "pendigits_mantis_static_r0.001_o17_s42",
+    "validation_value": 0.9939901183046345
+  },
+  "pendigits_slda": {
+    "ridge": 0.1,
+    "source_run": "pendigits_mantis_slda_r0.1_o17_s42",
+    "validation_value": 0.9927114820663208
+  },
+  "articulary_linear": {
+    "ridge": 0.001,
+    "source_run": "articulary_mantis_linear_r0.001_o17_s42",
+    "validation_value": 1.0
+  },
+  "articulary_static": {
+    "ridge": 0.001,
+    "source_run": "articulary_mantis_static_r0.001_o17_s42",
+    "validation_value": 1.0
+  },
+  "articulary_slda": {
+    "ridge": 0.1,
+    "source_run": "articulary_mantis_slda_r0.1_o17_s42",
+    "validation_value": 1.0
+  }
+}
