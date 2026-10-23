@@ -1,0 +1,215 @@
+{
+  "scope": "same six-value VAL selection per width; random projections are not nested; no TEST",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "dimension": 256,
+      "ridge": 0.1,
+      "metric": "final_rmse",
+      "value": 1.0780775125371564,
+      "average": 0.8120875580842748,
+      "final_persistent_bytes": 598312,
+      "elapsed_s": 0.14473124220967293
+    },
+    {
+      "dataset": "air_quality",
+      "dimension": 512,
+      "ridge": 0.1,
+      "metric": "final_rmse",
+      "value": 1.0162368038501508,
+      "average": 0.836444000404829,
+      "final_persistent_bytes": 2244904,
+      "elapsed_s": 0.28256477043032646
+    },
+    {
+      "dataset": "air_quality",
+      "dimension": 1024,
+      "ridge": 1.0,
+      "metric": "final_rmse",
+      "value": 1.0159976266563695,
+      "average": 0.7735392968568546,
+      "final_persistent_bytes": 8683816,
+      "elapsed_s": 0.7727792263031006
+    },
+    {
+      "dataset": "articulary",
+      "dimension": 256,
+      "ridge": 1.0,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 1.0,
+      "final_persistent_bytes": 13378592,
+      "elapsed_s": 0.23398777469992638
+    },
+    {
+      "dataset": "articulary",
+      "dimension": 512,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 0.994392684610076,
+      "final_persistent_bytes": 52970528,
+      "elapsed_s": 0.4931822866201401
+    },
+    {
+      "dataset": "articulary",
+      "dimension": 1024,
+      "ridge": 1.0,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 1.0,
+      "final_persistent_bytes": 210797600,
+      "elapsed_s": 1.6176131702959538
+    },
+    {
+      "dataset": "beijing_pm25",
+      "dimension": 256,
+      "ridge": 0.01,
+      "metric": "final_rmse",
+      "value": 46.65432117020472,
+      "average": 58.63608301620527,
+      "final_persistent_bytes": 598312,
+      "elapsed_s": 0.4134466126561165
+    },
+    {
+      "dataset": "beijing_pm25",
+      "dimension": 512,
+      "ridge": 0.01,
+      "metric": "final_rmse",
+      "value": 44.120007086141115,
+      "average": 53.463375034858835,
+      "final_persistent_bytes": 2244904,
+      "elapsed_s": 0.7238262668251991
+    },
+    {
+      "dataset": "beijing_pm25",
+      "dimension": 1024,
+      "ridge": 0.01,
+      "metric": "final_rmse",
+      "value": 46.1488848838363,
+      "average": 60.410764358132965,
+      "final_persistent_bytes": 8683816,
+      "elapsed_s": 1.455835573375225
+    },
+    {
+      "dataset": "epilepsy",
+      "dimension": 256,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 1.0,
+      "final_persistent_bytes": 2195840,
+      "elapsed_s": 0.07643946260213852
+    },
+    {
+      "dataset": "epilepsy",
+      "dimension": 512,
+      "ridge": 1.0,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 1.0,
+      "final_persistent_bytes": 8585600,
+      "elapsed_s": 0.09250679612159729
+    },
+    {
+      "dataset": "epilepsy",
+      "dimension": 1024,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 1.0,
+      "average": 1.0,
+      "final_persistent_bytes": 33948032,
+      "elapsed_s": 0.2089303731918335
+    },
+    {
+      "dataset": "natops",
+      "dimension": 256,
+      "ridge": 0.01,
+      "metric": "final_macro_accuracy",
+      "value": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "final_persistent_bytes": 3260864,
+      "elapsed_s": 0.36136239767074585
+    },
+    {
+      "dataset": "natops",
+      "dimension": 512,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 0.9444444444444445,
+      "average": 0.9120370370370371,
+      "final_persistent_bytes": 12812736,
+      "elapsed_s": 0.3339500240981579
+    },
+    {
+      "dataset": "natops",
+      "dimension": 1024,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 0.888888888888889,
+      "average": 0.8796296296296297,
+      "final_persistent_bytes": 50790848,
+      "elapsed_s": 0.7050399854779243
+    },
+    {
+      "dataset": "pendigits",
+      "dimension": 256,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 0.9918519249567638,
+      "average": 0.9966987994084768,
+      "final_persistent_bytes": 5390912,
+      "elapsed_s": 0.3607453778386116
+    },
+    {
+      "dataset": "pendigits",
+      "dimension": 512,
+      "ridge": 0.01,
+      "metric": "final_macro_accuracy",
+      "value": 0.9959304584304585,
+      "average": 0.9978360528360529,
+      "final_persistent_bytes": 21267008,
+      "elapsed_s": 0.5036108158528805
+    },
+    {
+      "dataset": "pendigits",
+      "dimension": 1024,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 0.9966256234804621,
+      "average": 0.9981669235782139,
+      "final_persistent_bytes": 84476480,
+      "elapsed_s": 0.954241193830967
+    },
+    {
+      "dataset": "racketsports",
+      "dimension": 256,
+      "ridge": 0.1,
+      "metric": "final_macro_accuracy",
+      "value": 0.8973214285714286,
+      "average": 0.9486607142857143,
+      "final_persistent_bytes": 2195840,
+      "elapsed_s": 0.09420233592391014
+    },
+    {
+      "dataset": "racketsports",
+      "dimension": 512,
+      "ridge": 0.1,
+      "metric": "final_macro_accuracy",
+      "value": 0.8973214285714286,
+      "average": 0.9174107142857143,
+      "final_persistent_bytes": 8585600,
+      "elapsed_s": 0.10942910239100456
+    },
+    {
+      "dataset": "racketsports",
+      "dimension": 1024,
+      "ridge": 0.001,
+      "metric": "final_macro_accuracy",
+      "value": 0.9330357142857143,
+      "average": 0.9665178571428572,
+      "final_persistent_bytes": 33948032,
+      "elapsed_s": 0.2837628163397312
+    }
+  ]
+}

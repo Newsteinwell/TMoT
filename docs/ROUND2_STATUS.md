@@ -67,3 +67,7 @@
 - v20 150条、v21 45条全部完成，无失败；75对同更新数/基底/捷径/ID审计通过。
 - 高斯矩回放在五集均未超过本轮最强参考；PenDigits的15对全部弱于ER，Epilepsy仅与ridge持平。详见CLASSIFICATION_ROBUSTNESS_REPORT.md。
 - 当前训练队列结束。多数数据集稳健优势尚未实现，正式TEST仍未使用；下一步需根据稳定负结果设计新的表示适配或历史约束机制。
+
+## 表示宽度诊断
+- v22 126条完成，42条独立512维控制精确复现；加宽对RacketSports有改善，对NATOPS/北京不利，未形成多数优势。
+- 报告见PROJECTION_DIAGNOSTIC_REPORT.md；准备v23的70条固定参数投影种子复核，不针对新种子调参。
