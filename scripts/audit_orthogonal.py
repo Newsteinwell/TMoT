@@ -5,13 +5,19 @@ import numpy as np
 import torch
 from tmot.moments import ridge_readout
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args()
-torch.set_num_threads(1);checked=[];controls=0;cache={};max_orth=0.;max_psd=0.
+torch.set_num_threads(1);checked=[];controls=0;cache={};max_orth=0.;max_psd=0.;geometry=[];numerical_failures=[]
 for path in sorted((a.root/'runs/orthogonal_v40').glob('*/summary.json')):
     s=json.loads(path.read_text());c=s['config'];ck=torch.load(path.parent/'final.pt',map_location='cpu',weights_only=False);m=ck['learner']
     key=c['dataset'],c['encoder'],c['method']
     olddir=a.root/'runs/exact_base_v39'/f"{c['dataset']}_{c['encoder']}_{c['method']}_exact1_r0.1_o17_s42"
     if key not in cache:cache[key]=(torch.load(olddir/'final.pt',map_location='cpu',weights_only=False)['learner'],json.loads((olddir/'summary.json').read_text()))
     old,prior=cache[key]
+    if c['orthogonal'] and c['ridge']==.1:
+        ag,ak,_=m.exact_memory.risk_moments(m.classes)
+        av=np.eye(len(m.classes))/len(m.classes) if m.task=='classification' else m.exact_memory.target_gram/m.exact_memory.n
+        ev,eq=np.linalg.eigh((ag+ag.T)/2);mask=ev>max(np.max(abs(ev))*1e-12,1e-14)
+        target_residual=av-ak.T@(eq[:,mask]/ev[mask])@(eq[:,mask].T@ak)
+        geometry.append(dict(dataset=c['dataset'],encoder=c['encoder'],method=c['method'],input_rank=int(mask.sum()),input_dimension=len(ag),target_residual_trace=float(np.trace(target_residual)),target_total_trace=float(np.trace(av)),correction_weight_norm=m.innovation_diagnostics['correction_weight_norm']))
     assert s['input_hashes']==prior['input_hashes'] and s['order']==prior['order']
     for field in ('g','k'):np.testing.assert_array_equal(getattr(m,field),getattr(old,field))
     for name,v in m.function.net.state_dict().items():torch.testing.assert_close(v,old.function.net.state_dict()[name],rtol=0,atol=0)
@@ -32,7 +38,8 @@ for path in sorted((a.root/'runs/orthogonal_v40').glob('*/summary.json')):
         gram=np.zeros_like(m.g);gram[:len(phi),:len(phi)]=aa;gram[len(phi):,len(phi):]=residual
         penalty=np.eye(len(m.g))*c['ridge'];penalty[len(phi)-1,len(phi)-1]=0
         expected=transform@np.linalg.solve((gram+gram.T)/2+penalty,transform.T@m.k)
-        np.testing.assert_allclose(m.readout,expected,rtol=1e-6,atol=2e-7)
+        if not np.allclose(m.readout,expected,rtol=1e-6,atol=2e-7):
+            numerical_failures.append(dict(run=path.parent.name,max_weight_difference=float(np.max(np.abs(m.readout-expected))),relative_weight_error=float(np.linalg.norm(m.readout-expected)/max(np.linalg.norm(m.readout),1e-30))))
     else:
         controls+=1;np.testing.assert_array_equal(m.readout,old.readout)
         for stage in range(1,len(s['stages'])+1):
@@ -40,5 +47,5 @@ for path in sorted((a.root/'runs/orthogonal_v40').glob('*/summary.json')):
                 for field in x.files:np.testing.assert_array_equal(x[field],y[field])
     checked.append(path.parent.name)
 assert len(checked)==126 and controls==18
-a.out.write_text(json.dumps(dict(complete=True,trajectories=len(checked),exact_controls=controls,max_orthogonality_error=max_orth,max_residual_psd_adjustment=max_psd,checks=['v39 moments/functions unchanged','paired stage training budgets and completed moments unchanged','independent transformed-coordinate dense solve','18 all-stage exact prediction controls'],checked=checked),indent=2))
-print(f'{len(checked)} state audits, {controls} exact controls; orthogonality {max_orth:.3g}, PSD adjustment {max_psd:.3g}')
+a.out.write_text(json.dumps(dict(coverage_complete=True,complete=not numerical_failures,numerical_failures=numerical_failures,numerical_tolerance=dict(rtol=1e-6,atol=2e-7),trajectories=len(checked),exact_controls=controls,max_orthogonality_error=max_orth,max_residual_psd_adjustment=max_psd,geometry=geometry,checks=['v39 moments/functions unchanged','paired stage training budgets and completed moments unchanged','independent transformed-coordinate dense solve','18 all-stage exact prediction controls'],checked=checked),indent=2))
+print(f'{len(checked)} checked, {len(numerical_failures)} numerical reconstruction failures, {controls} exact controls; orthogonality {max_orth:.3g}, PSD adjustment {max_psd:.3g}')
