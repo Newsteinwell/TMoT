@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "har",
+    "method": "v42_local",
+    "final": 0.974247778134704,
+    "average": 0.9914159260449013,
+    "ridge": 0.01,
+    "selected_run": "har_mantis_local_reg1_r0.01_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 17227712
+  },
+  {
+    "dataset": "har",
+    "method": "joint_control_local",
+    "final": 0.9705446693079202,
+    "average": 0.9901815564359734,
+    "ridge": 0.1,
+    "selected_run": "har_mantis_local_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 17227712
+  },
+  {
+    "dataset": "har",
+    "method": "v42_er",
+    "final": 0.9677943550146141,
+    "average": 0.9892647850048714,
+    "ridge": 0.001,
+    "selected_run": "har_mantis_er_reg1_r0.001_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 20536832
+  },
+  {
+    "dataset": "har",
+    "method": "joint_control_er",
+    "final": 0.9668616604180227,
+    "average": 0.9889538868060076,
+    "ridge": 0.1,
+    "selected_run": "har_mantis_er_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 20536832
+  },
+  {
+    "dataset": "har",
+    "method": "v7_ridge",
+    "final": 0.962228358489318,
+    "average": 0.9870236503606368,
+    "ridge": 1.0,
+    "selected_run": "har_ridge_r1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "har",
+    "method": "v11_er",
+    "final": 0.9668415604811366,
+    "average": 0.9889471868270455,
+    "ridge": 1.0,
+    "selected_run": "har_er_w1_o17_s42",
+    "candidates": 3,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "uwave",
+    "method": "v42_local",
+    "final": 0.9166666666666666,
+    "average": 0.9444444444444443,
+    "ridge": 0.1,
+    "selected_run": "uwave_mantis_local_reg1_r0.1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 20803504
+  },
+  {
+    "dataset": "uwave",
+    "method": "joint_control_local",
+    "final": 0.9166666666666666,
+    "average": 0.9583333333333333,
+    "ridge": 0.1,
+    "selected_run": "uwave_mantis_local_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 20803504
+  },
+  {
+    "dataset": "uwave",
+    "method": "v42_er",
+    "final": 0.9166666666666666,
+    "average": 0.9444444444444443,
+    "ridge": 0.01,
+    "selected_run": "uwave_mantis_er_reg1_r0.01_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 20780368
+  },
+  {
+    "dataset": "uwave",
+    "method": "joint_control_er",
+    "final": 0.9166666666666666,
+    "average": 0.9444444444444443,
+    "ridge": 0.1,
+    "selected_run": "uwave_mantis_er_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 20780368
+  },
+  {
+    "dataset": "uwave",
+    "method": "v7_ridge",
+    "final": 0.9166666666666666,
+    "average": 0.9444444444444443,
+    "ridge": 0.1,
+    "selected_run": "uwave_ridge_r0.1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "uwave",
+    "method": "v11_er",
+    "final": 0.9166666666666666,
+    "average": 0.9444444444444443,
+    "ridge": 0.1,
+    "selected_run": "uwave_er_w0.01_o17_s42",
+    "candidates": 3,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "dailysports",
+    "method": "v42_local",
+    "final": 0.9736842105263156,
+    "average": 0.9771334266518303,
+    "ridge": 0.1,
+    "selected_run": "dailysports_mantis_local_reg1_r0.1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 46680936
+  },
+  {
+    "dataset": "dailysports",
+    "method": "joint_control_local",
+    "final": 0.9719298245614032,
+    "average": 0.9761781683006314,
+    "ridge": 0.1,
+    "selected_run": "dailysports_mantis_local_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 46680936
+  },
+  {
+    "dataset": "dailysports",
+    "method": "v42_er",
+    "final": 0.9807017543859649,
+    "average": 0.9821468793536217,
+    "ridge": 0.001,
+    "selected_run": "dailysports_mantis_er_reg1_r0.001_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 48093192
+  },
+  {
+    "dataset": "dailysports",
+    "method": "joint_control_er",
+    "final": 0.9728070175438597,
+    "average": 0.97830424948416,
+    "ridge": 0.1,
+    "selected_run": "dailysports_mantis_er_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 48093192
+  },
+  {
+    "dataset": "dailysports",
+    "method": "v7_ridge",
+    "final": 0.9692982456140351,
+    "average": 0.9771001771483367,
+    "ridge": 0.1,
+    "selected_run": "dailysports_ridge_r0.1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "dailysports",
+    "method": "v11_er",
+    "final": 0.9771929824561405,
+    "average": 0.9810174914715678,
+    "ridge": 0.1,
+    "selected_run": "dailysports_er_w1_o17_s42",
+    "candidates": 3,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "energy",
+    "method": "v42_local",
+    "final": 63.71637738635612,
+    "average": 71.54000338330133,
+    "ridge": 1.0,
+    "selected_run": "energy_mantis_local_reg1_r1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 6357884
+  },
+  {
+    "dataset": "energy",
+    "method": "joint_control_local",
+    "final": 66.5805709614274,
+    "average": 74.84797338940152,
+    "ridge": 0.1,
+    "selected_run": "energy_mantis_local_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 6357884
+  },
+  {
+    "dataset": "energy",
+    "method": "v42_er",
+    "final": 66.97469662509774,
+    "average": 71.79707560410205,
+    "ridge": 10.0,
+    "selected_run": "energy_mantis_er_reg1_r10_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": 6547592
+  },
+  {
+    "dataset": "energy",
+    "method": "joint_control_er",
+    "final": 67.84137459141824,
+    "average": 72.58134797221915,
+    "ridge": 0.1,
+    "selected_run": "energy_mantis_er_reg0_r0.1_o17_s42",
+    "candidates": 1,
+    "persistent_bytes": 6547592
+  },
+  {
+    "dataset": "energy",
+    "method": "v7_ridge",
+    "final": 64.97614122989617,
+    "average": 71.0589924252959,
+    "ridge": 1.0,
+    "selected_run": "energy_ridge_r1_o17_s42",
+    "candidates": 6,
+    "persistent_bytes": null
+  },
+  {
+    "dataset": "energy",
+    "method": "v11_er",
+    "final": 64.99800313136299,
+    "average": 70.86280404785919,
+    "ridge": 1.0,
+    "selected_run": "energy_er_w1_o17_s42",
+    "candidates": 3,
+    "persistent_bytes": null
+  }
+]

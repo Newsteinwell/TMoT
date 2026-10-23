@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from tmot.moments import ClassificationMoments,RegressionMoments,ridge_readout
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args()
-torch.set_num_threads(1);root=a.root;folder=root/'runs/history_scale_v42';cache={};checked=[];failures=[];storage=[];pairs=0
+torch.set_num_threads(1);root=a.root;folder=root/'runs/history_scale_v42';cache={};checked=[];failures=[];storage=[];pairs=0;max_mass_error=0.
 for path in sorted(folder.glob('*/summary.json')):
     s=json.loads(path.read_text());c=s['config'];m=torch.load(path.parent/'final.pt',map_location='cpu',weights_only=False);learner=m['learner']
     key=c['dataset'],c['method'];control=folder/f"{c['dataset']}_mantis_{c['method']}_reg0_r0.1_o17_s42"
@@ -16,6 +16,11 @@ for path in sorted(folder.glob('*/summary.json')):
         else:
             parts=[np.flatnonzero(data['groups']==g) for g in s['order']];y=(y-m['target_mean'])/m['target_sd'];memory=RegressionMoments(512,y.shape[1])
         for ids in parts:memory.update(ck['basis'].transform(data['x'][ids]),y[ids])
+        baseline=root/'runs/stable_development_v7'/f"{c['dataset']}_ridge_r0.1_o17_s42"
+        baseline_summary=json.loads((baseline/'summary.json').read_text())
+        assert baseline_summary['input_hashes']==s['input_hashes'] and baseline_summary['order']==s['order']
+        baseline_state=torch.load(baseline/'final.pt',map_location='cpu',weights_only=False)
+        np.testing.assert_array_equal(baseline_state['basis'].transform(data['x'][:20]),ck['basis'].transform(data['x'][:20]))
         cache[key]=(ref,prior,memory)
         storage.append(dict(dataset=c['dataset'],method=c['method'],train_samples=len(y),retained_rows=len(ref.buffer[0]) if ref.buffer is not None else 0,buffer_bytes=sum(v.nbytes for v in ref.buffer)+ref.keys.nbytes if ref.buffer is not None else 0,persistent_bytes=ref.persistent_bytes))
     ref,prior,memory=cache[key]
@@ -40,11 +45,14 @@ for path in sorted(folder.glob('*/summary.json')):
     if c['method']=='local':
         erdir=path.parent.with_name(path.parent.name.replace('_local_','_er_'));er=json.loads((erdir/'summary.json').read_text())
         for row,other in zip(s['stages'],er['stages']):
-            for field in ('optimizer_steps','historical_training_samples','representative_mass'):assert row[field]==other[field]
+            for field in ('optimizer_steps','historical_training_samples'):assert row[field]==other[field]
+            for field in ('current','history','total'):
+                error=abs(row['representative_mass'][field]-other['representative_mass'][field]);max_mass_error=max(max_mass_error,error)
+                assert error<=1e-12
         with np.load(path.parent/'predictions_stage1.npz') as x,np.load(erdir/'predictions_stage1.npz') as y:
             for field in x.files:np.testing.assert_array_equal(x[field],y[field])
         pairs+=1
     checked.append(path.parent.name)
 assert len(checked)==56 and pairs==28
-report=dict(coverage_complete=True,complete=not failures,trajectories=56,matched_pairs=pairs,numerical_failures=failures,storage=storage,checked=checked,checks=['exact TRAIN moments independently rebuilt','functions and moments invariant across ridge/readout','28 paired budgets and exact first-stage predictions','ER buffer byte bound','independent Cholesky residual solve or joint solve'])
+report=dict(coverage_complete=True,complete=not failures,trajectories=56,matched_pairs=pairs,max_representative_mass_error=max_mass_error,mass_tolerance=1e-12,numerical_failures=failures,storage=storage,checked=checked,checks=['exact TRAIN moments independently rebuilt','v7 inputs/order and sampled fixed basis outputs match','functions and moments invariant across ridge/readout','28 paired budgets and exact first-stage predictions','ER buffer byte bound','independent Cholesky residual solve or joint solve'])
 a.out.write_text(json.dumps(report,indent=2));print(f'56 states; 28 pairs; {len(failures)} numerical failures')
