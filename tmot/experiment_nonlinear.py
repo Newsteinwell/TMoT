@@ -42,7 +42,7 @@ def run(a):
     basis=StableSemanticBasis(2*channels,a.dimension).fit(x[stages[0]])
     learner=NonlinearMomentLearner(a.dimension,task,a.seed,ridge=a.ridge,mode=a.method,
                                     epochs=a.epochs,residual_weight=a.residual_weight,
-                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample,local_components=a.local_components,preserve_targets=a.preserve_targets,calibrate_replay=a.calibrate_replay,loss=a.residual_loss)
+                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample,local_components=a.local_components,preserve_targets=a.preserve_targets,calibrate_replay=a.calibrate_replay,loss=a.residual_loss,warm_start=a.warm_start)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -58,7 +58,7 @@ def run(a):
         truth=np.concatenate(all_y);pred=np.concatenate(all_p)
         item=dict(stage=stage+1,fit_s=fit_s,eval_s=time.perf_counter()-t,current_samples=len(ids),
                   persistent_bytes=learner.persistent_bytes,loss=learner.last_loss,scores=scores,
-                  optimizer_steps=learner.optimizer_steps,historical_training_samples=learner.historical_training_samples,calibration=learner.last_calibration)
+                  optimizer_steps=learner.optimizer_steps,historical_training_samples=learner.historical_training_samples,calibration=learner.last_calibration,warm_init_error=learner.warm_init_error)
         if task=='classification':
             item.update(macro_accuracy=macro_accuracy(truth,pred),accuracy=float(np.mean(truth==pred)))
         else:
@@ -86,7 +86,7 @@ def run(a):
 
 
 def parser():
-    p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--out',required=True)
+    p=argparse.ArgumentParser();p.add_argument('--warm-start',action='store_true');p.add_argument('--root',required=True);p.add_argument('--out',required=True)
     p.add_argument('--dataset',required=True);p.add_argument('--encoder',default='mantis');p.add_argument('--method',choices=['gaussian','local','er','no_history'],default='gaussian')
     p.add_argument('--seed',type=int,default=42);p.add_argument('--order',type=int,default=17)
     p.add_argument('--dimension',type=int,default=512);p.add_argument('--bottleneck',type=int,default=64)

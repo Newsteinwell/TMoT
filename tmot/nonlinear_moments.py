@@ -10,6 +10,24 @@ from torch import nn
 from .moments import Cell, ClassificationMoments, RegressionMoments, augment, ridge_readout
 
 
+def transport_residual_network(old, new, old_mean, old_sd, mean, sd):
+    """Preserve the residual function under changing input normalization.
+
+    Existing output coordinates are a prefix; new class residuals start at zero.
+    The independently refitted analytic shortcut is not preserved by this map.
+    """
+    with torch.no_grad():
+        device=new[0].weight.device
+        ratio=torch.as_tensor(sd/old_sd,device=device)
+        offset=torch.as_tensor((mean-old_mean)/old_sd,device=device)
+        new[0].weight.copy_(old[0].weight*ratio[None])
+        new[0].bias.copy_(old[0].bias+old[0].weight@offset)
+        new[2].load_state_dict(old[2].state_dict())
+        new[-1].weight.zero_();new[-1].bias.zero_()
+        n=old[-1].out_features
+        new[-1].weight[:n].copy_(old[-1].weight);new[-1].bias[:n].copy_(old[-1].bias)
+
+
 def sample_cell(cell, count, rng, shrinkage=.1):
     mean = cell.total[:-1] / cell.n
     cov = cell.gram[:-1, :-1] / cell.n - np.outer(mean, mean)
@@ -32,10 +50,11 @@ def per_sample_loss(prediction, target, task, loss):
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False, loss="mse"):
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False, loss="mse", warm_start=False):
         if mode not in ('gaussian', 'local', 'er', 'no_history'): raise ValueError(mode)
         if loss not in ('mse','task'):raise ValueError(loss)
         self.loss=loss
+        self.warm_start=warm_start;self.warm_init_error=None
         self.dimension, self.task, self.seed = dimension, task, seed
         self.ridge, self.mode, self.epochs = ridge, mode, epochs
         self.residual_weight, self.device = residual_weight, device
@@ -80,6 +99,8 @@ class NonlinearMomentLearner:
 
     def observe(self,x,y):
         x=np.asarray(x,np.float32);y=np.asarray(y)
+        previous=(self.net,self.mean.copy(),self.sd.copy()) if self.warm_start and self.stage else None
+        self.warm_init_error=None
         if self.task=='regression' and y.ndim==1:y=y[:,None]
         # Snapshot historical distributions before adding any current observations.
         historical=self._historical(None)
@@ -116,6 +137,13 @@ class NonlinearMomentLearner:
         self.net=nn.Sequential(nn.Linear(self.dimension,self.width),nn.ReLU(),
                                nn.Linear(self.width,self.width),nn.ReLU(),nn.Linear(self.width,outputs)).to(self.device)
         nn.init.zeros_(self.net[-1].weight);nn.init.zeros_(self.net[-1].bias)
+        if previous is not None:
+            old,old_mean,old_sd=previous
+            transport_residual_network(old,self.net,old_mean,old_sd,self.mean,self.sd)
+            with torch.no_grad():
+                before=old(torch.as_tensor((x-old_mean)/old_sd,device=self.device))
+                after=self.net(torch.as_tensor((x-self.mean)/self.sd,device=self.device))[:,:before.shape[1]]
+                self.warm_init_error=float((after-before).abs().max())
         optimizer=torch.optim.AdamW(self.net.parameters(),lr=.001,weight_decay=1e-4)
         features=torch.as_tensor((tx-self.mean)/self.sd,device=self.device)
         base=torch.as_tensor(augment(tx)@self.base,dtype=torch.float32,device=self.device)
