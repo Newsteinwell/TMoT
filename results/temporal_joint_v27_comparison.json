@@ -1,0 +1,229 @@
+{
+  "scope": "VAL best of same six-point ridge grids; one seed/order; not test evidence",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "metric": "final_rmse",
+      "final": 1.0162368038501508,
+      "average": 0.836444000404829,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis_joint",
+      "metric": "final_rmse",
+      "final": 0.9183792625390131,
+      "average": 0.7946493914430485,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis_trace",
+      "metric": "final_rmse",
+      "final": 0.9191801132323791,
+      "average": 0.7936349493923796,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "temporal_joint",
+      "metric": "final_rmse",
+      "final": 0.8967308553749005,
+      "average": 0.8121013006273573,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.994392684610076,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis_joint",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis_trace",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "temporal_joint",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "metric": "final_rmse",
+      "final": 44.120007086141115,
+      "average": 53.463375034858835,
+      "ridge": 0.01
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis_joint",
+      "metric": "final_rmse",
+      "final": 42.93193260941272,
+      "average": 54.3605163269541,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis_trace",
+      "metric": "final_rmse",
+      "final": 42.938400340521916,
+      "average": 51.942803685081,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "temporal_joint",
+      "metric": "final_rmse",
+      "final": 42.23144170176991,
+      "average": 54.227054143972964,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis_joint",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis_trace",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "temporal_joint",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.9583333333333334,
+      "ridge": 1.0
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.9444444444444445,
+      "average": 0.9120370370370371,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis_trace",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.8888888888888888,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "natops",
+      "encoder": "temporal_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.888888888888889,
+      "average": 0.8240740740740741,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.9959304584304585,
+      "average": 0.9978360528360529,
+      "ridge": 0.01
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.9980145123693511,
+      "average": 0.999194977065945,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis_trace",
+      "metric": "final_macro_accuracy",
+      "final": 0.9959797415845804,
+      "average": 0.9980207346417025,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "temporal_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.9401398601398601,
+      "average": 0.9753634859763892,
+      "ridge": 0.001
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9174107142857143,
+      "ridge": 0.1
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.8080357142857143,
+      "average": 0.9040178571428572,
+      "ridge": 10.0
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis_trace",
+      "metric": "final_macro_accuracy",
+      "final": 0.8080357142857143,
+      "average": 0.9040178571428572,
+      "ridge": 10.0
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "temporal_joint",
+      "metric": "final_macro_accuracy",
+      "final": 0.8303571428571429,
+      "average": 0.9151785714285714,
+      "ridge": 100.0
+    }
+  ]
+}
