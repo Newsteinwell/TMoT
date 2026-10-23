@@ -1,0 +1,182 @@
+[
+  {
+    "name": "epilepsy_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 12.832490853965282
+  },
+  {
+    "name": "natops_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.990397434681654
+  },
+  {
+    "name": "epilepsy_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.238863546401262
+  },
+  {
+    "name": "epilepsy_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.486400701105595
+  },
+  {
+    "name": "epilepsy_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.538345474749804
+  },
+  {
+    "name": "natops_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.689152602106333
+  },
+  {
+    "name": "natops_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.737491223961115
+  },
+  {
+    "name": "natops_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.889257490634918
+  },
+  {
+    "name": "racketsports_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.284986093640327
+  },
+  {
+    "name": "racketsports_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.13442374393344
+  },
+  {
+    "name": "racketsports_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.436167433857918
+  },
+  {
+    "name": "racketsports_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.584966886788607
+  },
+  {
+    "name": "pendigits_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.988202542066574
+  },
+  {
+    "name": "pendigits_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.83760828152299
+  },
+  {
+    "name": "pendigits_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 16.389073241502047
+  },
+  {
+    "name": "pendigits_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 16.239992555230856
+  },
+  {
+    "name": "articulary_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 17.091217946261168
+  },
+  {
+    "name": "beijing_pm25_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.488191444426775
+  },
+  {
+    "name": "beijing_pm25_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.788670904934406
+  },
+  {
+    "name": "articulary_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 17.392961151897907
+  },
+  {
+    "name": "articulary_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 16.79331023618579
+  },
+  {
+    "name": "articulary_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 17.49443620815873
+  },
+  {
+    "name": "beijing_pm25_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.08856887742877
+  },
+  {
+    "name": "beijing_pm25_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.287342123687267
+  },
+  {
+    "name": "beijing_pm25_summary_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 13.186570435762405
+  },
+  {
+    "name": "beijing_pm25_summary_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.335743565112352
+  },
+  {
+    "name": "air_quality_mantis_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.235744554549456
+  },
+  {
+    "name": "beijing_pm25_summary_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 15.03725977614522
+  },
+  {
+    "name": "air_quality_mantis_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.587334010750055
+  },
+  {
+    "name": "beijing_pm25_summary_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.7361830919981
+  },
+  {
+    "name": "air_quality_mantis_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.4371742233634
+  },
+  {
+    "name": "air_quality_mantis_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 14.787544436752796
+  },
+  {
+    "name": "air_quality_summary_mse_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 12.633417285978794
+  },
+  {
+    "name": "air_quality_summary_mse_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 11.179992582648993
+  },
+  {
+    "name": "air_quality_summary_task_er_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 10.579586248844862
+  },
+  {
+    "name": "air_quality_summary_task_gaussian_warm1_o17_s42",
+    "status": "completed",
+    "seconds": 10.829733438789845
+  }
+]

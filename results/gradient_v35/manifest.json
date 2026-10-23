@@ -1,0 +1,366 @@
+{
+  "jobs": [
+    {
+      "name": "natops_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/natops_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "natops_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/natops_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "natops_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/natops_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "natops_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/natops_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/natops_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "epilepsy_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/epilepsy_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "epilepsy_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/epilepsy_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "epilepsy_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/epilepsy_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "epilepsy_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/epilepsy_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/epilepsy_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "racketsports_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/racketsports_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "racketsports_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/racketsports_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "racketsports_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/racketsports_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "racketsports_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/racketsports_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/racketsports_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "pendigits_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/pendigits_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "pendigits_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/pendigits_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "pendigits_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/pendigits_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "pendigits_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/pendigits_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/pendigits_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "articulary_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/articulary_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "articulary_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/articulary_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "articulary_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/articulary_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "articulary_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/articulary_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/articulary_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_summary_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_summary_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_summary_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_summary_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_summary_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_summary_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "beijing_pm25_summary_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/beijing_pm25_summary_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/beijing_pm25_summary_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_mantis_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_mantis_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_mantis_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_mantis_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_mantis_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_mantis_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_mantis_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_mantis_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_mantis_task_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_summary_mse_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_summary_mse_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_summary_mse_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_mse_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_summary_mse_er_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_summary_task_gaussian_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_gaussian_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_summary_task_gaussian_warm1_o17_s42.json"
+      ]
+    },
+    {
+      "name": "air_quality_summary_task_er_warm1_o17_s42",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_gradients.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "/root/autodl-tmp/tmot-artifacts/runs/warm_transport_v31/air_quality_summary_task_er_warm1_o17_s42",
+        "/root/autodl-tmp/tmot-artifacts/gradient_v35/air_quality_summary_task_er_warm1_o17_s42.json"
+      ]
+    }
+  ],
+  "workers": 8,
+  "source": "4ff5191"
+}
