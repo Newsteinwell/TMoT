@@ -1,0 +1,46 @@
+{
+  "scope": "development VAL only; no inference about untouched TEST headroom",
+  "rows": [
+    {
+      "dataset": "natops",
+      "best_declared_baseline_val": 0.9444444444444445,
+      "queue": "round3_validation_v9",
+      "variant": "mantis_linear_r0.001",
+      "maximum_possible_gain_pp": 5.5555555555555465,
+      "one_pp_gain_possible_on_this_val": true
+    },
+    {
+      "dataset": "epilepsy",
+      "best_declared_baseline_val": 1.0,
+      "queue": "round3_validation_v9",
+      "variant": "mantis_static_r100",
+      "maximum_possible_gain_pp": 0.0,
+      "one_pp_gain_possible_on_this_val": false
+    },
+    {
+      "dataset": "racketsports",
+      "best_declared_baseline_val": 0.8995535714285714,
+      "queue": "nonlinear_validation_v12",
+      "variant": "mantis_er_w0.1",
+      "maximum_possible_gain_pp": 10.044642857142861,
+      "one_pp_gain_possible_on_this_val": true
+    },
+    {
+      "dataset": "pendigits",
+      "best_declared_baseline_val": 0.9976689976689976,
+      "queue": "nonlinear_validation_v12",
+      "variant": "mantis_er_w1",
+      "maximum_possible_gain_pp": 0.2331002331002363,
+      "one_pp_gain_possible_on_this_val": false
+    },
+    {
+      "dataset": "articulary",
+      "best_declared_baseline_val": 1.0,
+      "queue": "round3_validation_v9",
+      "variant": "mantis_static_r10",
+      "maximum_possible_gain_pp": 0.0,
+      "one_pp_gain_possible_on_this_val": false
+    }
+  ],
+  "eligible_count": 2
+}

@@ -1,0 +1,319 @@
+{
+  "scope": "VAL only; input channel zero in original units; causal filled inputs",
+  "datasets": [
+    {
+      "dataset": "beijing_pm25",
+      "split": "val",
+      "hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "train_val_nonoverlap": true,
+      "stages": [
+        {
+          "stage": 1,
+          "method": "seen_train_mean",
+          "n": 46,
+          "rmse": 112.8782501356042,
+          "mae": 70.91666666666667
+        },
+        {
+          "stage": 1,
+          "method": "last_value",
+          "n": 46,
+          "rmse": 35.69109789007665,
+          "mae": 25.735507246376816
+        },
+        {
+          "stage": 1,
+          "method": "last_six_mean",
+          "n": 46,
+          "rmse": 54.59739557767141,
+          "mae": 39.38405797101449
+        },
+        {
+          "stage": 1,
+          "method": "last_24_mean",
+          "n": 46,
+          "rmse": 71.24291483121212,
+          "mae": 49.99275362318839
+        },
+        {
+          "stage": 2,
+          "method": "seen_train_mean",
+          "n": 94,
+          "rmse": 99.68663191962287,
+          "mae": 67.75528415453527
+        },
+        {
+          "stage": 2,
+          "method": "last_value",
+          "n": 94,
+          "rmse": 30.03294093776296,
+          "mae": 21.180851063829785
+        },
+        {
+          "stage": 2,
+          "method": "last_six_mean",
+          "n": 94,
+          "rmse": 49.298468008555226,
+          "mae": 32.82092198581561
+        },
+        {
+          "stage": 2,
+          "method": "last_24_mean",
+          "n": 94,
+          "rmse": 65.67830675783024,
+          "mae": 45.55895390070922
+        },
+        {
+          "stage": 3,
+          "method": "seen_train_mean",
+          "n": 145,
+          "rmse": 90.62195159377876,
+          "mae": 64.07950478722096
+        },
+        {
+          "stage": 3,
+          "method": "last_value",
+          "n": 145,
+          "rmse": 29.574232856359025,
+          "mae": 20.94022988505747
+        },
+        {
+          "stage": 3,
+          "method": "last_six_mean",
+          "n": 145,
+          "rmse": 46.724922587465,
+          "mae": 31.197701149425285
+        },
+        {
+          "stage": 3,
+          "method": "last_24_mean",
+          "n": 145,
+          "rmse": 60.397580318530416,
+          "mae": 42.172701149425286
+        },
+        {
+          "stage": 4,
+          "method": "seen_train_mean",
+          "n": 200,
+          "rmse": 85.21314651948165,
+          "mae": 62.427230083857445
+        },
+        {
+          "stage": 4,
+          "method": "last_value",
+          "n": 200,
+          "rmse": 28.20320608252426,
+          "mae": 19.853333333333335
+        },
+        {
+          "stage": 4,
+          "method": "last_six_mean",
+          "n": 200,
+          "rmse": 43.900873187975044,
+          "mae": 29.365
+        },
+        {
+          "stage": 4,
+          "method": "last_24_mean",
+          "n": 200,
+          "rmse": 56.86314528468036,
+          "mae": 40.08958333333334
+        },
+        {
+          "stage": 5,
+          "method": "seen_train_mean",
+          "n": 257,
+          "rmse": 84.20086633188309,
+          "mae": 61.44754251556823
+        },
+        {
+          "stage": 5,
+          "method": "last_value",
+          "n": 257,
+          "rmse": 28.79884241921113,
+          "mae": 20.07782101167315
+        },
+        {
+          "stage": 5,
+          "method": "last_six_mean",
+          "n": 257,
+          "rmse": 42.64371570826932,
+          "mae": 29.088845654993513
+        },
+        {
+          "stage": 5,
+          "method": "last_24_mean",
+          "n": 257,
+          "rmse": 56.1798327793089,
+          "mae": 40.05739299610895
+        }
+      ],
+      "average_stage_rmse": {
+        "seen_train_mean": 94.52016930007412,
+        "last_value": 30.460064037186804,
+        "last_six_mean": 47.4330750139872,
+        "last_24_mean": 62.07235599431241
+      }
+    },
+    {
+      "dataset": "air_quality",
+      "split": "val",
+      "hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "train_val_nonoverlap": true,
+      "stages": [
+        {
+          "stage": 1,
+          "method": "seen_train_mean",
+          "n": 7,
+          "rmse": 0.5067726000170015,
+          "mae": 0.4617913832199546
+        },
+        {
+          "stage": 1,
+          "method": "last_value",
+          "n": 7,
+          "rmse": 1.3039013507929558,
+          "mae": 1.133333335036323
+        },
+        {
+          "stage": 1,
+          "method": "last_six_mean",
+          "n": 7,
+          "rmse": 0.7794992349746666,
+          "mae": 0.5047619118576959
+        },
+        {
+          "stage": 1,
+          "method": "last_24_mean",
+          "n": 7,
+          "rmse": 0.664794616748959,
+          "mae": 0.5505952370308693
+        },
+        {
+          "stage": 2,
+          "method": "seen_train_mean",
+          "n": 14,
+          "rmse": 0.7598557402768935,
+          "mae": 0.6823333333333333
+        },
+        {
+          "stage": 2,
+          "method": "last_value",
+          "n": 14,
+          "rmse": 1.1067792433603543,
+          "mae": 0.9047618860290163
+        },
+        {
+          "stage": 2,
+          "method": "last_six_mean",
+          "n": 14,
+          "rmse": 0.9646324997880816,
+          "mae": 0.7119047580730349
+        },
+        {
+          "stage": 2,
+          "method": "last_24_mean",
+          "n": 14,
+          "rmse": 0.7144839727997567,
+          "mae": 0.6223214277554125
+        },
+        {
+          "stage": 3,
+          "method": "seen_train_mean",
+          "n": 18,
+          "rmse": 0.7576271131583086,
+          "mae": 0.6916666666666667
+        },
+        {
+          "stage": 3,
+          "method": "last_value",
+          "n": 18,
+          "rmse": 1.255211373717242,
+          "mae": 1.0296296283050819
+        },
+        {
+          "stage": 3,
+          "method": "last_six_mean",
+          "n": 18,
+          "rmse": 1.0767463572368403,
+          "mae": 0.8166666685431092
+        },
+        {
+          "stage": 3,
+          "method": "last_24_mean",
+          "n": 18,
+          "rmse": 0.6980648670984183,
+          "mae": 0.60856481478722
+        },
+        {
+          "stage": 4,
+          "method": "seen_train_mean",
+          "n": 24,
+          "rmse": 1.3091794793893345,
+          "mae": 0.8274926900584795
+        },
+        {
+          "stage": 4,
+          "method": "last_value",
+          "n": 24,
+          "rmse": 1.350107155859254,
+          "mae": 1.0520833232750493
+        },
+        {
+          "stage": 4,
+          "method": "last_six_mean",
+          "n": 24,
+          "rmse": 1.3207741799853057,
+          "mae": 0.9999999986961484
+        },
+        {
+          "stage": 4,
+          "method": "last_24_mean",
+          "n": 24,
+          "rmse": 1.2300552917539773,
+          "mae": 0.7946180559022143
+        },
+        {
+          "stage": 5,
+          "method": "seen_train_mean",
+          "n": 33,
+          "rmse": 1.1975007175674823,
+          "mae": 0.7817845117845117
+        },
+        {
+          "stage": 5,
+          "method": "last_value",
+          "n": 33,
+          "rmse": 1.3876711822126215,
+          "mae": 1.0964646362596084
+        },
+        {
+          "stage": 5,
+          "method": "last_six_mean",
+          "n": 33,
+          "rmse": 1.2461590784909984,
+          "mae": 0.9535353512926534
+        },
+        {
+          "stage": 5,
+          "method": "last_24_mean",
+          "n": 33,
+          "rmse": 1.1386662897873476,
+          "mae": 0.7625000003461885
+        }
+      ],
+      "average_stage_rmse": {
+        "seen_train_mean": 0.9061871300818043,
+        "last_value": 1.2807340611884854,
+        "last_six_mean": 1.0775622700951786,
+        "last_24_mean": 0.8892130076376918
+      }
+    }
+  ]
+}

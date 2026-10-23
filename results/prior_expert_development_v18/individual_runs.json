@@ -1,0 +1,6890 @@
+[
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.1160249337553978,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556998656,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9911736251333514,
+    "average_rmse": 0.8498797397123941,
+    "run_id": "air_quality_summary_k1_gaussian_r0.001_o17_s42",
+    "variant": "summary_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.12792938947677612,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556728320,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9865979995114126,
+    "average_rmse": 0.850672532243831,
+    "run_id": "air_quality_summary_k1_gaussian_r0.01_o17_s42",
+    "variant": "summary_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13149983808398247,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556752896,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0095822873418685,
+    "average_rmse": 0.9153522005072627,
+    "run_id": "air_quality_summary_k1_gaussian_r0.1_o17_s42",
+    "variant": "summary_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r100_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.143476203083992,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 554479616,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9171393698531524,
+    "average_rmse": 0.8265663547199275,
+    "run_id": "air_quality_summary_k1_gaussian_r100_o17_s42",
+    "variant": "summary_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r10_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.1360546462237835,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 554369024,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9374315440898375,
+    "average_rmse": 0.8476121245516837,
+    "run_id": "air_quality_summary_k1_gaussian_r10_o17_s42",
+    "variant": "summary_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_gaussian_r1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13342538848519325,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556572672,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8955161048580481,
+    "average_rmse": 0.8968686818193794,
+    "run_id": "air_quality_summary_k1_gaussian_r1_o17_s42",
+    "variant": "summary_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.1489948034286499,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557121536,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.039122773385627,
+    "average_rmse": 0.9018126188233062,
+    "run_id": "air_quality_summary_k1_student_r0.001_o17_s42",
+    "variant": "summary_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.10730806365609169,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556650496,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0460368664290398,
+    "average_rmse": 0.9072453396840041,
+    "run_id": "air_quality_summary_k1_student_r0.01_o17_s42",
+    "variant": "summary_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13084780797362328,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557342720,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0217413444168417,
+    "average_rmse": 0.9331403708777064,
+    "run_id": "air_quality_summary_k1_student_r0.1_o17_s42",
+    "variant": "summary_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r100_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.106346994638443,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 555573248,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8906689802751041,
+    "average_rmse": 0.8206371298008394,
+    "run_id": "air_quality_summary_k1_student_r100_o17_s42",
+    "variant": "summary_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r10_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13118189200758934,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557027328,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.925884006024328,
+    "average_rmse": 0.8482270019016536,
+    "run_id": "air_quality_summary_k1_student_r10_o17_s42",
+    "variant": "summary_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k1_student_r1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.15617386996746063,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 555524096,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9467009820505161,
+    "average_rmse": 0.884251699200429,
+    "run_id": "air_quality_summary_k1_student_r1_o17_s42",
+    "variant": "summary_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13466384634375572,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556613632,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9911736251333514,
+    "average_rmse": 0.8498797397123941,
+    "run_id": "air_quality_summary_k4_gaussian_r0.001_o17_s42",
+    "variant": "summary_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.15482641384005547,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557281280,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9865979995114126,
+    "average_rmse": 0.850672532243831,
+    "run_id": "air_quality_summary_k4_gaussian_r0.01_o17_s42",
+    "variant": "summary_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13599619641900063,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556388352,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0095822873418685,
+    "average_rmse": 0.9153522005072627,
+    "run_id": "air_quality_summary_k4_gaussian_r0.1_o17_s42",
+    "variant": "summary_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r100_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13433114811778069,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556457984,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9171393698531524,
+    "average_rmse": 0.8265663547199275,
+    "run_id": "air_quality_summary_k4_gaussian_r100_o17_s42",
+    "variant": "summary_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r10_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.15280453488230705,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556843008,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9374315440898375,
+    "average_rmse": 0.8476121245516837,
+    "run_id": "air_quality_summary_k4_gaussian_r10_o17_s42",
+    "variant": "summary_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_gaussian_r1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13473014906048775,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557236224,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8955161048580481,
+    "average_rmse": 0.8968686818193794,
+    "run_id": "air_quality_summary_k4_gaussian_r1_o17_s42",
+    "variant": "summary_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.11034948006272316,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556716032,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.039122773385627,
+    "average_rmse": 0.9018126188233062,
+    "run_id": "air_quality_summary_k4_student_r0.001_o17_s42",
+    "variant": "summary_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.11306660622358322,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 557117440,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0460368664290398,
+    "average_rmse": 0.9072453396840041,
+    "run_id": "air_quality_summary_k4_student_r0.01_o17_s42",
+    "variant": "summary_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.13029864057898521,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 551440384,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 1.0217413444168417,
+    "average_rmse": 0.9331403708777064,
+    "run_id": "air_quality_summary_k4_student_r0.1_o17_s42",
+    "variant": "summary_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r100_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.12213408946990967,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 556531712,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.8906689802751041,
+    "average_rmse": 0.8206371298008394,
+    "run_id": "air_quality_summary_k4_student_r100_o17_s42",
+    "variant": "summary_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r10_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.10047367215156555,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 554942464,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.925884006024328,
+    "average_rmse": 0.8482270019016536,
+    "run_id": "air_quality_summary_k4_student_r10_o17_s42",
+    "variant": "summary_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/air_quality_summary_k4_student_r1_o17_s42",
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.10810660943388939,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 550625280,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "final_rmse": 0.9467009820505161,
+    "average_rmse": 0.884251699200429,
+    "run_id": "air_quality_summary_k4_student_r1_o17_s42",
+    "variant": "summary_k4_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.21919691935181618,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561623040,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 63.22793492036568,
+    "average_rmse": 74.32682638625657,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r0.001_o17_s42",
+    "variant": "summary_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22174211964011192,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 562061312,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 62.54504345550434,
+    "average_rmse": 73.49807733761745,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r0.01_o17_s42",
+    "variant": "summary_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22109494358301163,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561823744,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 57.34068343659248,
+    "average_rmse": 67.81130537192604,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r0.1_o17_s42",
+    "variant": "summary_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.21315466985106468,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561610752,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.53423301959052,
+    "average_rmse": 53.3103541910588,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r100_o17_s42",
+    "variant": "summary_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2048729583621025,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561795072,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.72278942950156,
+    "average_rmse": 53.33372804219903,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r10_o17_s42",
+    "variant": "summary_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_gaussian_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22125956788659096,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561790976,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 46.5385869895515,
+    "average_rmse": 55.800513118596506,
+    "run_id": "beijing_pm25_summary_k1_gaussian_r1_o17_s42",
+    "variant": "summary_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.21957319974899292,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561594368,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 63.08236817913263,
+    "average_rmse": 73.7008176260226,
+    "run_id": "beijing_pm25_summary_k1_student_r0.001_o17_s42",
+    "variant": "summary_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22234416380524635,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561930240,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 62.41393302145649,
+    "average_rmse": 72.910648581296,
+    "run_id": "beijing_pm25_summary_k1_student_r0.01_o17_s42",
+    "variant": "summary_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.21734366938471794,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561868800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 57.426212108143346,
+    "average_rmse": 67.52349886367548,
+    "run_id": "beijing_pm25_summary_k1_student_r0.1_o17_s42",
+    "variant": "summary_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2177862636744976,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561696768,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.52309919902382,
+    "average_rmse": 53.352242935514695,
+    "run_id": "beijing_pm25_summary_k1_student_r100_o17_s42",
+    "variant": "summary_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.19891143217682838,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561500160,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 44.1104744913465,
+    "average_rmse": 53.86016932432377,
+    "run_id": "beijing_pm25_summary_k1_student_r10_o17_s42",
+    "variant": "summary_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k1_student_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22268232703208923,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 561926144,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 46.88297794362835,
+    "average_rmse": 56.913855419467744,
+    "run_id": "beijing_pm25_summary_k1_student_r1_o17_s42",
+    "variant": "summary_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2469458393752575,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 562098176,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 65.73817409228845,
+    "average_rmse": 75.95257056803605,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r0.001_o17_s42",
+    "variant": "summary_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.24648182094097137,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 562126848,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 63.58646929264824,
+    "average_rmse": 74.3620915375881,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r0.01_o17_s42",
+    "variant": "summary_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.23056291043758392,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563294208,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 55.626331349892936,
+    "average_rmse": 65.84667078577345,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r0.1_o17_s42",
+    "variant": "summary_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.22602226957678795,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563294208,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.975193946261264,
+    "average_rmse": 53.494039423912604,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r100_o17_s42",
+    "variant": "summary_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.23152761906385422,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563073024,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 45.760327407806486,
+    "average_rmse": 54.18469259674339,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r10_o17_s42",
+    "variant": "summary_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_gaussian_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.24115875735878944,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 562966528,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 49.403549641638,
+    "average_rmse": 56.88313477554495,
+    "run_id": "beijing_pm25_summary_k4_gaussian_r1_o17_s42",
+    "variant": "summary_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2801465392112732,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563175424,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 64.09897323514697,
+    "average_rmse": 74.81657600334674,
+    "run_id": "beijing_pm25_summary_k4_student_r0.001_o17_s42",
+    "variant": "summary_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.23553252965211868,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563171328,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 62.917748958781345,
+    "average_rmse": 73.28676462140052,
+    "run_id": "beijing_pm25_summary_k4_student_r0.01_o17_s42",
+    "variant": "summary_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2889430709183216,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563408896,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 57.11488805230284,
+    "average_rmse": 65.91252925983375,
+    "run_id": "beijing_pm25_summary_k4_student_r0.1_o17_s42",
+    "variant": "summary_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2398315630853176,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563269632,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 43.584211579422245,
+    "average_rmse": 53.25885511772566,
+    "run_id": "beijing_pm25_summary_k4_student_r100_o17_s42",
+    "variant": "summary_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.28622349351644516,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563273728,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 44.78704606845602,
+    "average_rmse": 53.74770452342354,
+    "run_id": "beijing_pm25_summary_k4_student_r10_o17_s42",
+    "variant": "summary_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/beijing_pm25_summary_k4_student_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.2675561457872391,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 563154944,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "final_rmse": 47.92853230781642,
+    "average_rmse": 56.157207556876344,
+    "run_id": "beijing_pm25_summary_k4_student_r1_o17_s42",
+    "variant": "summary_k4_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.75409272313118,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1460994048,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.7964912280701754,
+    "average_macro_accuracy": 0.8696234443740464,
+    "forgetting": 0.1472222222222222,
+    "run_id": "dailysports_mantis_k1_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.4597909450531,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464901632,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8052631578947369,
+    "average_macro_accuracy": 0.8747213365823617,
+    "forgetting": 0.13680555555555557,
+    "run_id": "dailysports_mantis_k1_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.36503653973341,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463357440,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8657894736842104,
+    "average_macro_accuracy": 0.9192389154755856,
+    "forgetting": 0.07465277777777776,
+    "run_id": "dailysports_mantis_k1_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.682825800031424,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1457520640,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9728070175438597,
+    "average_macro_accuracy": 0.9790334113897925,
+    "forgetting": 0.015277777777777779,
+    "run_id": "dailysports_mantis_k1_gaussian_r100_o17_s42",
+    "variant": "mantis_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.32888288795948,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464840192,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9543859649122807,
+    "average_macro_accuracy": 0.9647555206963531,
+    "forgetting": 0.03437500000000002,
+    "run_id": "dailysports_mantis_k1_gaussian_r10_o17_s42",
+    "variant": "mantis_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_gaussian_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.394836459308863,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463386112,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9184210526315789,
+    "average_macro_accuracy": 0.9180037799095248,
+    "forgetting": 0.011111111111111127,
+    "run_id": "dailysports_mantis_k1_gaussian_r1_o17_s42",
+    "variant": "mantis_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.367078751325607,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1457053696,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9052631578947368,
+    "average_macro_accuracy": 0.9104794588764317,
+    "forgetting": 0.0031250000000000028,
+    "run_id": "dailysports_mantis_k1_student_r0.001_o17_s42",
+    "variant": "mantis_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.41217078641057,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463332864,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9078947368421051,
+    "average_macro_accuracy": 0.911896374720592,
+    "forgetting": 0.0031250000000000028,
+    "run_id": "dailysports_mantis_k1_student_r0.01_o17_s42",
+    "variant": "mantis_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.46744741871953,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464737792,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9175438596491228,
+    "average_macro_accuracy": 0.9172600829841974,
+    "forgetting": 0.00208333333333334,
+    "run_id": "dailysports_mantis_k1_student_r0.1_o17_s42",
+    "variant": "mantis_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.706974316388369,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463762944,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9701754385964912,
+    "average_macro_accuracy": 0.976576617969807,
+    "forgetting": 0.018402777777777768,
+    "run_id": "dailysports_mantis_k1_student_r100_o17_s42",
+    "variant": "mantis_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.704916033893824,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1462005760,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9552631578947368,
+    "average_macro_accuracy": 0.9653367584396135,
+    "forgetting": 0.03368055555555556,
+    "run_id": "dailysports_mantis_k1_student_r10_o17_s42",
+    "variant": "mantis_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k1_student_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 9.292664289474487,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1462419456,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9166666666666667,
+    "average_macro_accuracy": 0.9182871352805994,
+    "forgetting": 0.006944444444444434,
+    "run_id": "dailysports_mantis_k1_student_r1_o17_s42",
+    "variant": "mantis_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.40774168074131,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464823808,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.581578947368421,
+    "average_macro_accuracy": 0.7054899473750523,
+    "forgetting": 0.20555555555555557,
+    "run_id": "dailysports_mantis_k4_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.240269623696804,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464868864,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.5921052631578947,
+    "average_macro_accuracy": 0.7161052145881865,
+    "forgetting": 0.20069444444444445,
+    "run_id": "dailysports_mantis_k4_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.493472553789616,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464971264,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.6736842105263158,
+    "average_macro_accuracy": 0.7777920611666742,
+    "forgetting": 0.14201388888888894,
+    "run_id": "dailysports_mantis_k4_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.285578858107328,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463209984,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9622807017543861,
+    "average_macro_accuracy": 0.9727049950648161,
+    "forgetting": 0.02604166666666667,
+    "run_id": "dailysports_mantis_k4_gaussian_r100_o17_s42",
+    "variant": "mantis_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.149393409490585,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464872960,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9456140350877192,
+    "average_macro_accuracy": 0.9564494786132212,
+    "forgetting": 0.04131944444444445,
+    "run_id": "dailysports_mantis_k4_gaussian_r10_o17_s42",
+    "variant": "mantis_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_gaussian_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.466391779482365,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464602624,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9175438596491227,
+    "average_macro_accuracy": 0.962657662891581,
+    "forgetting": 0.030208333333333337,
+    "run_id": "dailysports_mantis_k4_gaussian_r1_o17_s42",
+    "variant": "mantis_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.12141078710556,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464872960,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.7929824561403509,
+    "average_macro_accuracy": 0.8704507659650419,
+    "forgetting": 0.07777777777777778,
+    "run_id": "dailysports_mantis_k4_student_r0.001_o17_s42",
+    "variant": "mantis_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.156780656427145,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1463541760,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8342105263157894,
+    "average_macro_accuracy": 0.8877158702373701,
+    "forgetting": 0.06875,
+    "run_id": "dailysports_mantis_k4_student_r0.01_o17_s42",
+    "variant": "mantis_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.09523206576705,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464791040,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9,
+    "average_macro_accuracy": 0.9187753229583294,
+    "forgetting": 0.030208333333333323,
+    "run_id": "dailysports_mantis_k4_student_r0.1_o17_s42",
+    "variant": "mantis_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.257038217037916,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464832000,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9649122807017543,
+    "average_macro_accuracy": 0.9706954874171936,
+    "forgetting": 0.024652777777777773,
+    "run_id": "dailysports_mantis_k4_student_r100_o17_s42",
+    "variant": "mantis_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.2325470559299,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464893440,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9473684210526314,
+    "average_macro_accuracy": 0.9583350218816334,
+    "forgetting": 0.04027777777777777,
+    "run_id": "dailysports_mantis_k4_student_r10_o17_s42",
+    "variant": "mantis_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/dailysports_mantis_k4_student_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.36398984119296,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 1464934400,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9070175438596492,
+    "average_macro_accuracy": 0.9218635041270059,
+    "forgetting": 0.027083333333333334,
+    "run_id": "dailysports_mantis_k4_student_r1_o17_s42",
+    "variant": "mantis_k4_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5135689042508602,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617889792,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 76.65436634520441,
+    "average_rmse": 86.81220700696997,
+    "run_id": "energy_mantis_k1_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5316835977137089,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617607168,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 76.38792362039491,
+    "average_rmse": 86.49493847662073,
+    "run_id": "energy_mantis_k1_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5374673455953598,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617697280,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 74.58541100179434,
+    "average_rmse": 83.66823743363254,
+    "run_id": "energy_mantis_k1_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.528524212539196,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617545728,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 64.50855404123465,
+    "average_rmse": 70.62335116833894,
+    "run_id": "energy_mantis_k1_gaussian_r100_o17_s42",
+    "variant": "mantis_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6212046183645725,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617742336,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 65.300563448411,
+    "average_rmse": 71.27532253620367,
+    "run_id": "energy_mantis_k1_gaussian_r10_o17_s42",
+    "variant": "mantis_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_gaussian_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.4710495285689831,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617795584,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 69.33474130220085,
+    "average_rmse": 76.68490166582099,
+    "run_id": "energy_mantis_k1_gaussian_r1_o17_s42",
+    "variant": "mantis_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5492527857422829,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 615112704,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 77.20608620194449,
+    "average_rmse": 86.69628591147072,
+    "run_id": "energy_mantis_k1_student_r0.001_o17_s42",
+    "variant": "mantis_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5282421447336674,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 614944768,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 77.00833489787904,
+    "average_rmse": 86.42295173868851,
+    "run_id": "energy_mantis_k1_student_r0.01_o17_s42",
+    "variant": "mantis_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5689911544322968,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617775104,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 74.68713192149323,
+    "average_rmse": 83.73229764289661,
+    "run_id": "energy_mantis_k1_student_r0.1_o17_s42",
+    "variant": "mantis_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5602786168456078,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617807872,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 64.92656507535361,
+    "average_rmse": 71.12115306305236,
+    "run_id": "energy_mantis_k1_student_r100_o17_s42",
+    "variant": "mantis_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5687554962933064,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617918464,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 65.91170446151648,
+    "average_rmse": 72.48418872434425,
+    "run_id": "energy_mantis_k1_student_r10_o17_s42",
+    "variant": "mantis_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k1_student_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.563300222158432,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617897984,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 68.91155778392853,
+    "average_rmse": 77.08717272456724,
+    "run_id": "energy_mantis_k1_student_r1_o17_s42",
+    "variant": "mantis_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5802566818892956,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617504768,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 86.65598958516121,
+    "average_rmse": 84.56429789166293,
+    "run_id": "energy_mantis_k4_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5387359037995338,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617725952,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 86.25323949142611,
+    "average_rmse": 84.63206428743311,
+    "run_id": "energy_mantis_k4_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5756714791059494,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617721856,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 77.872719944723,
+    "average_rmse": 79.3019097896826,
+    "run_id": "energy_mantis_k4_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5917081199586391,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617857024,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 64.99626503209014,
+    "average_rmse": 71.87375185015257,
+    "run_id": "energy_mantis_k4_gaussian_r100_o17_s42",
+    "variant": "mantis_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5869752243161201,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617742336,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 68.57529838862062,
+    "average_rmse": 73.92341834986215,
+    "run_id": "energy_mantis_k4_gaussian_r10_o17_s42",
+    "variant": "mantis_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_gaussian_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.566292017698288,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617717760,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 72.84337970305123,
+    "average_rmse": 77.60526299204466,
+    "run_id": "energy_mantis_k4_gaussian_r1_o17_s42",
+    "variant": "mantis_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5844749473035336,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617971712,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 78.82495998723792,
+    "average_rmse": 83.41359345339504,
+    "run_id": "energy_mantis_k4_student_r0.001_o17_s42",
+    "variant": "mantis_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5991041772067547,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617660416,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 78.15821454239622,
+    "average_rmse": 82.47467706714569,
+    "run_id": "energy_mantis_k4_student_r0.01_o17_s42",
+    "variant": "mantis_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5835738778114319,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617619456,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 76.35530318526646,
+    "average_rmse": 79.09373524662315,
+    "run_id": "energy_mantis_k4_student_r0.1_o17_s42",
+    "variant": "mantis_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5235155895352364,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617689088,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 65.70227001650792,
+    "average_rmse": 72.00439714715773,
+    "run_id": "energy_mantis_k4_student_r100_o17_s42",
+    "variant": "mantis_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5883998088538647,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617836544,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 66.94762294701029,
+    "average_rmse": 73.4186186330556,
+    "run_id": "energy_mantis_k4_student_r10_o17_s42",
+    "variant": "mantis_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/energy_mantis_k4_student_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5535638146102428,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 617668608,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 71.26699627447266,
+    "average_rmse": 76.37468233190228,
+    "run_id": "energy_mantis_k4_student_r1_o17_s42",
+    "variant": "mantis_k4_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6269641034305096,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 846626816,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9398277839109848,
+    "average_macro_accuracy": 0.9752813183345378,
+    "forgetting": 0.010342246979492875,
+    "run_id": "har_mantis_k1_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6711963303387165,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 848846848,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9393894485927369,
+    "average_macro_accuracy": 0.97659081063748,
+    "forgetting": 0.009250543922724397,
+    "run_id": "har_mantis_k1_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6659241169691086,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 849338368,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9387815733522987,
+    "average_macro_accuracy": 0.9781382537084081,
+    "forgetting": 0.00550866418751067,
+    "run_id": "har_mantis_k1_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.5750598534941673,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 846708736,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9664670587277789,
+    "average_macro_accuracy": 0.9884365504401238,
+    "forgetting": 0.014408290799633572,
+    "run_id": "har_mantis_k1_gaussian_r100_o17_s42",
+    "variant": "mantis_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.4209564179182053,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 847982592,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9579476547968891,
+    "average_macro_accuracy": 0.9833732727087655,
+    "forgetting": 0.03189209527548753,
+    "run_id": "har_mantis_k1_gaussian_r10_o17_s42",
+    "variant": "mantis_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_gaussian_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6090495362877846,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 847466496,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.8740151515151515,
+    "average_macro_accuracy": 0.9550883838383838,
+    "forgetting": 0.0012499999999999734,
+    "run_id": "har_mantis_k1_gaussian_r1_o17_s42",
+    "variant": "mantis_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.612711053341627,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 847052800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9435091790807609,
+    "average_macro_accuracy": 0.9797835592281023,
+    "forgetting": 0.00795053003533569,
+    "run_id": "har_mantis_k1_student_r0.001_o17_s42",
+    "variant": "mantis_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.667705290019512,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 847667200,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9440981072315265,
+    "average_macro_accuracy": 0.9799798686116908,
+    "forgetting": 0.007067137809187274,
+    "run_id": "har_mantis_k1_student_r0.01_o17_s42",
+    "variant": "mantis_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.783487346023321,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 848080896,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9480555259415954,
+    "average_macro_accuracy": 0.9815934722570966,
+    "forgetting": 0.0114840989399293,
+    "run_id": "har_mantis_k1_student_r0.1_o17_s42",
+    "variant": "mantis_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6165355667471886,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 848576512,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9615747603143435,
+    "average_macro_accuracy": 0.9871915867714479,
+    "forgetting": 0.009717314487632522,
+    "run_id": "har_mantis_k1_student_r100_o17_s42",
+    "variant": "mantis_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6609438620507717,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 846430208,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9540593025492444,
+    "average_macro_accuracy": 0.9846864341830814,
+    "forgetting": 0.007067137809187274,
+    "run_id": "har_mantis_k1_student_r10_o17_s42",
+    "variant": "mantis_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k1_student_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.4106412902474403,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 847867904,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9525387264874897,
+    "average_macro_accuracy": 0.9837629088291632,
+    "forgetting": 0.015017667844522964,
+    "run_id": "har_mantis_k1_student_r1_o17_s42",
+    "variant": "mantis_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.692031592130661,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 855343104,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9482974349790435,
+    "average_macro_accuracy": 0.9714848800730728,
+    "forgetting": 0.027443023130217403,
+    "run_id": "har_mantis_k4_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.499403342604637,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 855289856,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9451408693224778,
+    "average_macro_accuracy": 0.9704326915208842,
+    "forgetting": 0.027443023130217403,
+    "run_id": "har_mantis_k4_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6075584813952446,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 856150016,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9522159171762995,
+    "average_macro_accuracy": 0.9800690611839484,
+    "forgetting": 0.016317681731911615,
+    "run_id": "har_mantis_k4_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.323030933737755,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 857923584,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9648829510629882,
+    "average_macro_accuracy": 0.988294317020996,
+    "forgetting": 0.016784452296819796,
+    "run_id": "har_mantis_k4_gaussian_r100_o17_s42",
+    "variant": "mantis_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.306871384382248,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 857993216,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9445451268555743,
+    "average_macro_accuracy": 0.9815150422851914,
+    "forgetting": 0.0114840989399293,
+    "run_id": "har_mantis_k4_gaussian_r10_o17_s42",
+    "variant": "mantis_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_gaussian_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.6124840825796127,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 856129536,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.916095763286576,
+    "average_macro_accuracy": 0.9691152544288587,
+    "forgetting": 0.004416961130742025,
+    "run_id": "har_mantis_k4_gaussian_r1_o17_s42",
+    "variant": "mantis_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.3613879904150963,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 858025984,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9593650583792467,
+    "average_macro_accuracy": 0.9849994153840576,
+    "forgetting": 0.013459194222846305,
+    "run_id": "har_mantis_k4_student_r0.001_o17_s42",
+    "variant": "mantis_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.461934220045805,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 853053440,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9575676078918399,
+    "average_macro_accuracy": 0.9854919682783572,
+    "forgetting": 0.013459194222846249,
+    "run_id": "har_mantis_k4_student_r0.01_o17_s42",
+    "variant": "mantis_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.3032079190015793,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 853635072,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9576099928723872,
+    "average_macro_accuracy": 0.9855060966052062,
+    "forgetting": 0.014342586448994665,
+    "run_id": "har_mantis_k4_student_r0.1_o17_s42",
+    "variant": "mantis_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.395017970353365,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 855183360,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9621012035476754,
+    "average_macro_accuracy": 0.9873670678492251,
+    "forgetting": 0.008833922261484106,
+    "run_id": "har_mantis_k4_student_r100_o17_s42",
+    "variant": "mantis_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.3364487178623676,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 855261184,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9633660149170767,
+    "average_macro_accuracy": 0.9877886716390255,
+    "forgetting": 0.0114840989399293,
+    "run_id": "har_mantis_k4_student_r10_o17_s42",
+    "variant": "mantis_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/har_mantis_k4_student_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 1.0,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.319024298340082,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 855306240,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9627993718099725,
+    "average_macro_accuracy": 0.9875997906033241,
+    "forgetting": 0.014134275618374548,
+    "run_id": "har_mantis_k4_student_r1_o17_s42",
+    "variant": "mantis_k4_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.13161877915263176,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 572829696,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k1_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.15792185813188553,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 572956672,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k1_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.14943914860486984,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573505536,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k1_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k1_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.1683901883661747,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573751296,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_gaussian_r100_o17_s42",
+    "variant": "mantis_k1_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.15402988344430923,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573747200,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_gaussian_r10_o17_s42",
+    "variant": "mantis_k1_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_gaussian_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.12913915142416954,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573394944,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9583333333333333,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_gaussian_r1_o17_s42",
+    "variant": "mantis_k1_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.11721206083893776,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573419520,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9097222222222221,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r0.001_o17_s42",
+    "variant": "mantis_k1_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.13872436806559563,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573108224,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9097222222222221,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r0.01_o17_s42",
+    "variant": "mantis_k1_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.14863918721675873,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 571789312,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r0.1_o17_s42",
+    "variant": "mantis_k1_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.1432090438902378,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 566059008,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r100_o17_s42",
+    "variant": "mantis_k1_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.13918887823820114,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573370368,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r10_o17_s42",
+    "variant": "mantis_k1_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k1_student_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 1,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.1473304033279419,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 571715584,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9583333333333333,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k1_student_r1_o17_s42",
+    "variant": "mantis_k1_student_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.1364758349955082,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 566808576,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k4_gaussian_r0.001_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.15955891460180283,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 565960704,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k4_gaussian_r0.01_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.14186127111315727,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 567304192,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_k4_gaussian_r0.1_o17_s42",
+    "variant": "mantis_k4_gaussian_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.14282459393143654,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 566427648,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_gaussian_r100_o17_s42",
+    "variant": "mantis_k4_gaussian_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.1268964633345604,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 565727232,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_gaussian_r10_o17_s42",
+    "variant": "mantis_k4_gaussian_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_gaussian_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "gaussian",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.13795209676027298,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 566423552,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9583333333333333,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_gaussian_r1_o17_s42",
+    "variant": "mantis_k4_gaussian_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.001,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.14261296391487122,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573071360,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9097222222222221,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r0.001_o17_s42",
+    "variant": "mantis_k4_student_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.01,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.16745277494192123,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 572063744,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9097222222222221,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r0.01_o17_s42",
+    "variant": "mantis_k4_student_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 0.1,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.11951105296611786,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573841408,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r0.1_o17_s42",
+    "variant": "mantis_k4_student_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 100.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.12082111835479736,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 569675776,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r100_o17_s42",
+    "variant": "mantis_k4_student_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 10.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.12160275876522064,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 573747200,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9444444444444443,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r10_o17_s42",
+    "variant": "mantis_k4_student_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/prior_expert_development_v18/uwave_mantis_k4_student_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "ridge": 1.0,
+      "global_ridge": 0.1,
+      "components": 4,
+      "density": "student",
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.15120631456375122,
+    "git_commit": "999b3f4",
+    "max_rss_bytes": 574197760,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9583333333333333,
+    "forgetting": 0.05555555555555558,
+    "run_id": "uwave_mantis_k4_student_r1_o17_s42",
+    "variant": "mantis_k4_student_r1"
+  }
+]
