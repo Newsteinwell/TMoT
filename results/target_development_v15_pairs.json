@@ -1,0 +1,192 @@
+{
+  "complete": true,
+  "paired": 36,
+  "checks": [
+    "identical analytic shortcut and basis",
+    "equal optimizer/replay counts",
+    "identical validated sample IDs and labels",
+    "protected empirical XY and YY covariance within 1e-5 relative tolerance"
+  ],
+  "runs": [
+    {
+      "run": "air_quality_summary_local_k1_w0.01_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k1_w0.01_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k1_w0.1_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k1_w0.1_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k1_w1_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k1_w1_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w0.01_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w0.01_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w0.1_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w0.1_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w1_o17_s42",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "air_quality_summary_local_k4_w1_o17_s43",
+      "cross_relative_error": 1.9004998031752694e-08,
+      "target_covariance_relative_error": 1.2169149541473456e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w0.01_o17_s42",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w0.01_o17_s43",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w0.1_o17_s42",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w0.1_o17_s43",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w1_o17_s42",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k1_w1_o17_s43",
+      "cross_relative_error": 1.4614436541951144e-08,
+      "target_covariance_relative_error": 5.39057114111382e-09
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w0.01_o17_s42",
+      "cross_relative_error": 1.0370781519228365e-08,
+      "target_covariance_relative_error": 1.0440692232138002e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w0.01_o17_s43",
+      "cross_relative_error": 1.1659718873904895e-08,
+      "target_covariance_relative_error": 1.1092154523321359e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w0.1_o17_s42",
+      "cross_relative_error": 1.0370781519228365e-08,
+      "target_covariance_relative_error": 1.0440692232138002e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w0.1_o17_s43",
+      "cross_relative_error": 1.1659718873904895e-08,
+      "target_covariance_relative_error": 1.1092154523321359e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w1_o17_s42",
+      "cross_relative_error": 1.0370781519228365e-08,
+      "target_covariance_relative_error": 1.0440692232138002e-08
+    },
+    {
+      "run": "beijing_pm25_summary_local_k4_w1_o17_s43",
+      "cross_relative_error": 1.1659718873904895e-08,
+      "target_covariance_relative_error": 1.1092154523321359e-08
+    },
+    {
+      "run": "energy_mantis_local_k1_w0.01_o17_s42",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k1_w0.01_o17_s43",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k1_w0.1_o17_s42",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k1_w0.1_o17_s43",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k1_w1_o17_s42",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k1_w1_o17_s43",
+      "cross_relative_error": 1.8503461340157978e-08,
+      "target_covariance_relative_error": 4.3529982140672657e-10
+    },
+    {
+      "run": "energy_mantis_local_k4_w0.01_o17_s42",
+      "cross_relative_error": 1.731159302156381e-08,
+      "target_covariance_relative_error": 2.4059315926692432e-09
+    },
+    {
+      "run": "energy_mantis_local_k4_w0.01_o17_s43",
+      "cross_relative_error": 1.729169802528043e-08,
+      "target_covariance_relative_error": 6.09397438863318e-10
+    },
+    {
+      "run": "energy_mantis_local_k4_w0.1_o17_s42",
+      "cross_relative_error": 1.731159302156381e-08,
+      "target_covariance_relative_error": 2.4059315926692432e-09
+    },
+    {
+      "run": "energy_mantis_local_k4_w0.1_o17_s43",
+      "cross_relative_error": 1.729169802528043e-08,
+      "target_covariance_relative_error": 6.09397438863318e-10
+    },
+    {
+      "run": "energy_mantis_local_k4_w1_o17_s42",
+      "cross_relative_error": 1.731159302156381e-08,
+      "target_covariance_relative_error": 2.4059315926692432e-09
+    },
+    {
+      "run": "energy_mantis_local_k4_w1_o17_s43",
+      "cross_relative_error": 1.729169802528043e-08,
+      "target_covariance_relative_error": 6.09397438863318e-10
+    }
+  ]
+}
