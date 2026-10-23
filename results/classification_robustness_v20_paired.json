@@ -1,0 +1,1244 @@
+{
+  "scope": "VAL descriptive paired effects; no independent-run significance claims",
+  "completed": 150,
+  "orders": [
+    {
+      "dataset": "articulary",
+      "order_seed": 17,
+      "actual_class_chunks": [
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          16,
+          24
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          19,
+          21
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.988,
+            "seed_sd": 0.010954451150103331
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9967570738440303,
+            "seed_sd": 0.0019880215026585207
+          },
+          "forgetting": {
+            "mean": 0.013636363636363637,
+            "seed_sd": 0.01244823994329923
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.994392684610076,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.01200000000000001,
+          "seed_sd": 0.010954451150103331,
+          "min": -0.020000000000000018,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.002364389233954367,
+          "seed_sd": 0.0019880215026585207,
+          "min": 0.0001449275362317426,
+          "max": 0.005607315389923984
+        },
+        "forgetting": {
+          "mean": 0.013636363636363637,
+          "seed_sd": 0.01244823994329923,
+          "min": 0.0,
+          "max": 0.022727272727272728
+        }
+      }
+    },
+    {
+      "dataset": "articulary",
+      "order_seed": 29,
+      "actual_class_chunks": [
+        [
+          0,
+          8,
+          14
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          17,
+          20
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9992408557625949,
+            "seed_sd": 0.0016974981195650581
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9938387635756056,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.00540209218698926,
+          "seed_sd": 0.0016974981195650581,
+          "min": 0.0023655152373688315,
+          "max": 0.006161236424394367
+        },
+        "forgetting": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "articulary",
+      "order_seed": 41,
+      "actual_class_chunks": [
+        [
+          5,
+          8,
+          15
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          6,
+          23
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.992,
+            "seed_sd": 0.010954451150103331
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9987777777777778,
+            "seed_sd": 0.0012044157438154722
+          },
+          "forgetting": {
+            "mean": 0.00909090909090909,
+            "seed_sd": 0.01244823994329923
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9962042788129745,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.008000000000000007,
+          "seed_sd": 0.010954451150103331,
+          "min": -0.020000000000000018,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.0025734989648033444,
+          "seed_sd": 0.0012044157438154722,
+          "min": 0.001017943409247768,
+          "max": 0.003795721187025536
+        },
+        "forgetting": {
+          "mean": 0.00909090909090909,
+          "seed_sd": 0.01244823994329923,
+          "min": 0.0,
+          "max": 0.022727272727272728
+        }
+      }
+    },
+    {
+      "dataset": "epilepsy",
+      "order_seed": 17,
+      "actual_class_chunks": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.975,
+            "seed_sd": 0.022821773229381902
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9875,
+            "seed_sd": 0.01141088661469092
+          },
+          "forgetting": {
+            "mean": 0.049999999999999954,
+            "seed_sd": 0.045643546458763805
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.024999999999999977,
+          "seed_sd": 0.022821773229381902,
+          "min": 0.0,
+          "max": 0.04166666666666663
+        },
+        "average_macro_accuracy": {
+          "mean": 0.012499999999999956,
+          "seed_sd": 0.01141088661469092,
+          "min": 0.0,
+          "max": 0.02083333333333326
+        },
+        "forgetting": {
+          "mean": -0.049999999999999954,
+          "seed_sd": 0.045643546458763805,
+          "min": -0.08333333333333326,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "epilepsy",
+      "order_seed": 29,
+      "actual_class_chunks": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "forgetting": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "epilepsy",
+      "order_seed": 41,
+      "actual_class_chunks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 1.0,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9833333333333334,
+            "seed_sd": 0.022821773229381902
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9916666666666667,
+            "seed_sd": 0.01141088661469092
+          },
+          "forgetting": {
+            "mean": 0.033333333333333305,
+            "seed_sd": 0.045643546458763805
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.016666666666666653,
+          "seed_sd": 0.022821773229381902,
+          "min": 0.0,
+          "max": 0.04166666666666663
+        },
+        "average_macro_accuracy": {
+          "mean": 0.008333333333333304,
+          "seed_sd": 0.01141088661469092,
+          "min": 0.0,
+          "max": 0.02083333333333326
+        },
+        "forgetting": {
+          "mean": -0.033333333333333305,
+          "seed_sd": 0.045643546458763805,
+          "min": -0.08333333333333326,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "natops",
+      "order_seed": 17,
+      "actual_class_chunks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9166666666666667,
+            "seed_sd": 0.02777777777777779
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9027777777777778,
+            "seed_sd": 0.009259259259259245
+          },
+          "forgetting": {
+            "mean": 0.041666666666666706,
+            "seed_sd": 0.04166666666666666
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9444444444444445,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9120370370370371,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 5.551115123125783e-17,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.02777777777777781,
+          "seed_sd": 0.02777777777777779,
+          "min": -0.05555555555555558,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": -0.009259259259259255,
+          "seed_sd": 0.009259259259259245,
+          "min": -0.01851851851851849,
+          "max": 0.0
+        },
+        "forgetting": {
+          "mean": 0.04166666666666665,
+          "seed_sd": 0.04166666666666666,
+          "min": 0.0,
+          "max": 0.08333333333333331
+        }
+      }
+    },
+    {
+      "dataset": "natops",
+      "order_seed": 29,
+      "actual_class_chunks": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9333333333333333,
+            "seed_sd": 0.015214515486254682
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9638888888888889,
+            "seed_sd": 0.005071505162084894
+          },
+          "forgetting": {
+            "mean": 0.05833333333333328,
+            "seed_sd": 0.022821773229381902
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.888888888888889,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9490740740740741,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.125,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.04444444444444442,
+          "seed_sd": 0.015214515486254682,
+          "min": 0.02777777777777768,
+          "max": 0.05555555555555558
+        },
+        "average_macro_accuracy": {
+          "mean": 0.014814814814814881,
+          "seed_sd": 0.005071505162084894,
+          "min": 0.0092592592592593,
+          "max": 0.0185185185185186
+        },
+        "forgetting": {
+          "mean": -0.06666666666666672,
+          "seed_sd": 0.022821773229381902,
+          "min": -0.08333333333333337,
+          "max": -0.04166666666666674
+        }
+      }
+    },
+    {
+      "dataset": "natops",
+      "order_seed": 41,
+      "actual_class_chunks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9166666666666666,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.8916666666666666,
+            "seed_sd": 0.0062112999374994435
+          },
+          "forgetting": {
+            "mean": 0.041666666666666706,
+            "seed_sd": 3.0404709722440586e-17
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9444444444444445,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.8981481481481483,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 5.551115123125783e-17,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.0277777777777779,
+          "seed_sd": 0.0,
+          "min": -0.0277777777777779,
+          "max": -0.0277777777777779
+        },
+        "average_macro_accuracy": {
+          "mean": -0.006481481481481621,
+          "seed_sd": 0.0062112999374994435,
+          "min": -0.009259259259259411,
+          "max": 0.004629629629629539
+        },
+        "forgetting": {
+          "mean": 0.04166666666666665,
+          "seed_sd": 3.0404709722440586e-17,
+          "min": 0.04166666666666663,
+          "max": 0.041666666666666685
+        }
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "order_seed": 17,
+      "actual_class_chunks": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9916026016993759,
+            "seed_sd": 0.0012966288898124906
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9955081284307091,
+            "seed_sd": 0.0005390957372487689
+          },
+          "forgetting": {
+            "mean": 0.010161666290698512,
+            "seed_sd": 0.002036770318112942
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9976126651126651,
+            "seed_sd": 0.0012336827772290167
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9987313504148182,
+            "seed_sd": 0.0003383279969310945
+          },
+          "forgetting": {
+            "mean": 0.002636946386946387,
+            "seed_sd": 0.0011028083256279452
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.0060100634132892235,
+          "seed_sd": 0.00197835777078899,
+          "min": -0.008632979923302586,
+          "max": -0.0037427312830539128
+        },
+        "average_macro_accuracy": {
+          "mean": -0.0032232219841090703,
+          "seed_sd": 0.0007297361460012306,
+          "min": -0.004093741384063931,
+          "max": -0.0024651336566657855
+        },
+        "forgetting": {
+          "mean": 0.007524719903752125,
+          "seed_sd": 0.002671428107170356,
+          "min": 0.004745187608090812,
+          "max": 0.010791224904128094
+        }
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "order_seed": 29,
+      "actual_class_chunks": [
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9912082362082363,
+            "seed_sd": 0.0014889256798488926
+          },
+          "average_macro_accuracy": {
+            "mean": 0.994612505326215,
+            "seed_sd": 0.00048173459496410456
+          },
+          "forgetting": {
+            "mean": 0.009387140637140617,
+            "seed_sd": 0.0018611570998111552
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9971689475399154,
+            "seed_sd": 0.0012645607864454978
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9984337879414492,
+            "seed_sd": 0.0004256764159805924
+          },
+          "forgetting": {
+            "mean": 0.0025772771135674334,
+            "seed_sd": 0.001747156911123738
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.0059607113316790805,
+          "seed_sd": 0.0013046173909278189,
+          "min": -0.008085664335664378,
+          "max": -0.004603729603729567
+        },
+        "average_macro_accuracy": {
+          "mean": -0.003821282615234245,
+          "seed_sd": 0.0006220261856865125,
+          "min": -0.004319215730505976,
+          "max": -0.0027697649572649974
+        },
+        "forgetting": {
+          "mean": 0.006809863523573184,
+          "seed_sd": 0.001451981012160779,
+          "min": 0.005754662004661959,
+          "max": 0.009305798368298368
+        }
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "order_seed": 41,
+      "actual_class_chunks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9902024525653558,
+            "seed_sd": 0.001260425801138069
+          },
+          "average_macro_accuracy": {
+            "mean": 0.995201555254781,
+            "seed_sd": 0.0003535556158115142
+          },
+          "forgetting": {
+            "mean": 0.01137280841917936,
+            "seed_sd": 0.0015755322514225713
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9970533686743364,
+            "seed_sd": 0.0011064503588077642
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9989709790209791,
+            "seed_sd": 0.0003112930017643788
+          },
+          "forgetting": {
+            "mean": 0.002983988457778758,
+            "seed_sd": 0.001088787742699452
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.0068509161089806096,
+          "seed_sd": 0.0021191917591258337,
+          "min": -0.010551200591523147,
+          "max": -0.0052350427350428275
+        },
+        "average_macro_accuracy": {
+          "mean": -0.0037694237661980434,
+          "seed_sd": 0.00041686518668095025,
+          "min": -0.0043985700679248785,
+          "max": -0.003377634909893068
+        },
+        "forgetting": {
+          "mean": 0.0083888199614006,
+          "seed_sd": 0.0022690073002956074,
+          "min": 0.0065438034188033956,
+          "max": 0.012314874865278075
+        }
+      }
+    },
+    {
+      "dataset": "racketsports",
+      "order_seed": 17,
+      "actual_class_chunks": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.8973214285714286,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9174107142857143,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.8982142857142857,
+            "seed_sd": 0.0019964892656248053
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9178571428571429,
+            "seed_sd": 0.0009982446328124274
+          },
+          "forgetting": {
+            "mean": 0.0125,
+            "seed_sd": 0.02795084971874737
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": -0.0008928571428571397,
+          "seed_sd": 0.0019964892656248053,
+          "min": -0.004464285714285698,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": -0.00044642857142858096,
+          "seed_sd": 0.0009982446328124274,
+          "min": -0.0022321428571429047,
+          "max": 0.0
+        },
+        "forgetting": {
+          "mean": -0.0125,
+          "seed_sd": 0.02795084971874737,
+          "min": -0.0625,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "racketsports",
+      "order_seed": 29,
+      "actual_class_chunks": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.8973214285714286,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9486607142857143,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.8973214285714286,
+            "seed_sd": 0.0
+          },
+          "average_macro_accuracy": {
+            "mean": 0.9486607142857143,
+            "seed_sd": 0.0
+          },
+          "forgetting": {
+            "mean": 0.0,
+            "seed_sd": 0.0
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "forgetting": {
+          "mean": 0.0,
+          "seed_sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "racketsports",
+      "order_seed": 41,
+      "actual_class_chunks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "methods": {
+        "gaussian": {
+          "final_macro_accuracy": {
+            "mean": 0.9187500000000001,
+            "seed_sd": 0.01956151991089878
+          },
+          "average_macro_accuracy": {
+            "mean": 0.8566964285714287,
+            "seed_sd": 0.009780759955449421
+          },
+          "forgetting": {
+            "mean": -0.04285714285714284,
+            "seed_sd": 0.03912303982179756
+          }
+        },
+        "er": {
+          "final_macro_accuracy": {
+            "mean": 0.9187500000000001,
+            "seed_sd": 0.01956151991089878
+          },
+          "average_macro_accuracy": {
+            "mean": 0.8566964285714287,
+            "seed_sd": 0.009780759955449421
+          },
+          "forgetting": {
+            "mean": -0.04285714285714284,
+            "seed_sd": 0.03912303982179756
+          }
+        }
+      },
+      "gaussian_minus_er": {
+        "final_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.025253813613805257,
+          "min": -0.0357142857142857,
+          "max": 0.0357142857142857
+        },
+        "average_macro_accuracy": {
+          "mean": 0.0,
+          "seed_sd": 0.012626906806902668,
+          "min": -0.017857142857142905,
+          "max": 0.017857142857142905
+        },
+        "forgetting": {
+          "mean": 0.0,
+          "seed_sd": 0.05050762722761051,
+          "min": -0.0714285714285714,
+          "max": 0.0714285714285714
+        }
+      }
+    }
+  ],
+  "datasets": [
+    {
+      "dataset": "articulary",
+      "distinct_unordered_arrival_sequences": 3,
+      "paired_differences": {
+        "final_macro_accuracy": {
+          "mean": -0.006666666666666672,
+          "min": -0.020000000000000018,
+          "max": 0.0
+        },
+        "average_macro_accuracy": {
+          "mean": 0.003446660128582324,
+          "min": 0.0001449275362317426,
+          "max": 0.006161236424394367
+        },
+        "forgetting": {
+          "mean": 0.007575757575757576,
+          "min": 0.0,
+          "max": 0.022727272727272728
+        }
+      }
+    },
+    {
+      "dataset": "epilepsy",
+      "distinct_unordered_arrival_sequences": 3,
+      "paired_differences": {
+        "final_macro_accuracy": {
+          "mean": 0.013888888888888876,
+          "min": 0.0,
+          "max": 0.04166666666666663
+        },
+        "average_macro_accuracy": {
+          "mean": 0.00694444444444442,
+          "min": 0.0,
+          "max": 0.02083333333333326
+        },
+        "forgetting": {
+          "mean": -0.027777777777777752,
+          "min": -0.08333333333333326,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "natops",
+      "distinct_unordered_arrival_sequences": 3,
+      "paired_differences": {
+        "final_macro_accuracy": {
+          "mean": -0.0037037037037037646,
+          "min": -0.05555555555555558,
+          "max": 0.05555555555555558
+        },
+        "average_macro_accuracy": {
+          "mean": -0.00030864197530866555,
+          "min": -0.01851851851851849,
+          "max": 0.0185185185185186
+        },
+        "forgetting": {
+          "mean": 0.005555555555555528,
+          "min": -0.08333333333333337,
+          "max": 0.08333333333333331
+        }
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "distinct_unordered_arrival_sequences": 3,
+      "paired_differences": {
+        "final_macro_accuracy": {
+          "mean": -0.0062738969513163045,
+          "min": -0.010551200591523147,
+          "max": -0.0037427312830539128
+        },
+        "average_macro_accuracy": {
+          "mean": -0.0036046427885137863,
+          "min": -0.0043985700679248785,
+          "max": -0.0024651336566657855
+        },
+        "forgetting": {
+          "mean": 0.0075744677962419705,
+          "min": 0.004745187608090812,
+          "max": 0.012314874865278075
+        }
+      }
+    },
+    {
+      "dataset": "racketsports",
+      "distinct_unordered_arrival_sequences": 3,
+      "paired_differences": {
+        "final_macro_accuracy": {
+          "mean": -0.00029761904761904656,
+          "min": -0.0357142857142857,
+          "max": 0.0357142857142857
+        },
+        "average_macro_accuracy": {
+          "mean": -0.000148809523809527,
+          "min": -0.017857142857142905,
+          "max": 0.017857142857142905
+        },
+        "forgetting": {
+          "mean": -0.004166666666666667,
+          "min": -0.0714285714285714,
+          "max": 0.0714285714285714
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+dataset,variant,n,metric,mean,sd,elapsed_mean
+articulary,mantis_linear_r0.001,3,final_macro_accuracy,1.0,0.0,0.4649790736536185
+articulary,mantis_slda_r0.1,3,final_macro_accuracy,1.0,0.0,0.892752238859733
+articulary,mantis_static_r0.001,3,final_macro_accuracy,0.9866666666666667,0.011547005383792526,1.1218883742888768
+epilepsy,mantis_linear_r1,3,final_macro_accuracy,1.0,0.0,0.10832906762758891
+epilepsy,mantis_slda_r0.1,3,final_macro_accuracy,0.9583333333333334,0.0,0.14602619037032127
+epilepsy,mantis_static_r0.001,3,final_macro_accuracy,1.0,0.0,0.2242994929353396
+natops,mantis_linear_r0.001,3,final_macro_accuracy,0.925925925925926,0.03207501495497923,0.3616715557873249
+natops,mantis_slda_r0.1,3,final_macro_accuracy,0.9166666666666666,0.0,0.4171561524271965
+natops,mantis_static_r0.001,3,final_macro_accuracy,0.8611111111111112,6.409875621278546e-17,0.37253013749917346
+pendigits,mantis_linear_r0.01,3,final_macro_accuracy,0.9956973581973583,0.000403741446985745,0.5210594969491164
+pendigits,mantis_slda_r0.1,3,final_macro_accuracy,0.9927114820663208,0.0,0.658955187847217
+pendigits,mantis_static_r0.001,3,final_macro_accuracy,0.9959765040813429,0.0017554349054985324,0.9359908898671468
+racketsports,mantis_linear_r0.1,3,final_macro_accuracy,0.886904761904762,0.018042195912175804,0.12052680303653081
+racketsports,mantis_slda_r0.1,3,final_macro_accuracy,0.8973214285714286,0.0,0.1682873231669267
+racketsports,mantis_static_r0.001,3,final_macro_accuracy,0.875,0.023197109029940367,0.2131978583832582

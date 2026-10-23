@@ -1,0 +1,300 @@
+{
+  "scope": "Shared VAL, fixed parameters, means across three orders; stochastic methods five seeds per order; no independent-data significance claim",
+  "datasets": [
+    {
+      "dataset": "natops",
+      "means": {
+        "gaussian": {
+          "final_macro_accuracy": 0.9222222222222223,
+          "average_macro_accuracy": 0.9194444444444445,
+          "forgetting": 0.047222222222222235
+        },
+        "er": {
+          "final_macro_accuracy": 0.925925925925926,
+          "average_macro_accuracy": 0.9197530864197532,
+          "forgetting": 0.041666666666666706
+        },
+        "linear": {
+          "final_macro_accuracy": 0.925925925925926,
+          "average_macro_accuracy": 0.9197530864197532,
+          "forgetting": 0.041666666666666706
+        },
+        "slda": {
+          "final_macro_accuracy": 0.9166666666666666,
+          "average_macro_accuracy": 0.9166666666666666,
+          "forgetting": 0.055555555555555546
+        },
+        "static": {
+          "final_macro_accuracy": 0.8611111111111112,
+          "average_macro_accuracy": 0.8796296296296297,
+          "forgetting": 0.125
+        }
+      },
+      "final_by_order": {
+        "gaussian": {
+          "17": 0.9166666666666667,
+          "29": 0.9333333333333333,
+          "41": 0.9166666666666666
+        },
+        "er": {
+          "17": 0.9444444444444445,
+          "29": 0.888888888888889,
+          "41": 0.9444444444444445
+        },
+        "linear": {
+          "17": 0.9444444444444445,
+          "29": 0.888888888888889,
+          "41": 0.9444444444444445
+        },
+        "slda": {
+          "17": 0.9166666666666666,
+          "29": 0.9166666666666666,
+          "41": 0.9166666666666666
+        },
+        "static": {
+          "17": 0.8611111111111112,
+          "29": 0.861111111111111,
+          "41": 0.8611111111111112
+        }
+      },
+      "strongest_observed_reference": "er",
+      "gaussian_final_gap_pp": -0.37037037037037646
+    },
+    {
+      "dataset": "epilepsy",
+      "means": {
+        "gaussian": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 1.0,
+          "forgetting": 0.0
+        },
+        "er": {
+          "final_macro_accuracy": 0.9861111111111112,
+          "average_macro_accuracy": 0.9930555555555556,
+          "forgetting": 0.027777777777777752
+        },
+        "linear": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 1.0,
+          "forgetting": 0.0
+        },
+        "slda": {
+          "final_macro_accuracy": 0.9583333333333334,
+          "average_macro_accuracy": 0.9791666666666667,
+          "forgetting": 0.055555555555555504
+        },
+        "static": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 1.0,
+          "forgetting": 0.0
+        }
+      },
+      "final_by_order": {
+        "gaussian": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        },
+        "er": {
+          "17": 0.975,
+          "29": 1.0,
+          "41": 0.9833333333333334
+        },
+        "linear": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        },
+        "slda": {
+          "17": 0.9583333333333334,
+          "29": 0.9583333333333334,
+          "41": 0.9583333333333334
+        },
+        "static": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        }
+      },
+      "strongest_observed_reference": "linear",
+      "gaussian_final_gap_pp": 0.0
+    },
+    {
+      "dataset": "racketsports",
+      "means": {
+        "gaussian": {
+          "final_macro_accuracy": 0.9044642857142857,
+          "average_macro_accuracy": 0.9075892857142858,
+          "forgetting": -0.01428571428571428
+        },
+        "er": {
+          "final_macro_accuracy": 0.9047619047619048,
+          "average_macro_accuracy": 0.9077380952380952,
+          "forgetting": -0.010119047619047613
+        },
+        "linear": {
+          "final_macro_accuracy": 0.886904761904762,
+          "average_macro_accuracy": 0.8988095238095238,
+          "forgetting": 0.020833333333333332
+        },
+        "slda": {
+          "final_macro_accuracy": 0.8973214285714286,
+          "average_macro_accuracy": 0.9040178571428572,
+          "forgetting": 0.0
+        },
+        "static": {
+          "final_macro_accuracy": 0.875,
+          "average_macro_accuracy": 0.9151785714285714,
+          "forgetting": 0.041666666666666664
+        }
+      },
+      "final_by_order": {
+        "gaussian": {
+          "17": 0.8973214285714286,
+          "29": 0.8973214285714286,
+          "41": 0.9187500000000001
+        },
+        "er": {
+          "17": 0.8982142857142857,
+          "29": 0.8973214285714286,
+          "41": 0.9187500000000001
+        },
+        "linear": {
+          "17": 0.8973214285714286,
+          "29": 0.8973214285714286,
+          "41": 0.8660714285714286
+        },
+        "slda": {
+          "17": 0.8973214285714286,
+          "29": 0.8973214285714286,
+          "41": 0.8973214285714286
+        },
+        "static": {
+          "17": 0.8616071428571428,
+          "29": 0.8616071428571428,
+          "41": 0.9017857142857143
+        }
+      },
+      "strongest_observed_reference": "er",
+      "gaussian_final_gap_pp": -0.029761904761904656
+    },
+    {
+      "dataset": "pendigits",
+      "means": {
+        "gaussian": {
+          "final_macro_accuracy": 0.9910044301576559,
+          "average_macro_accuracy": 0.9951073963372351,
+          "forgetting": 0.010307205115672829
+        },
+        "er": {
+          "final_macro_accuracy": 0.9972783271089722,
+          "average_macro_accuracy": 0.9987120391257488,
+          "forgetting": 0.0027327373194308596
+        },
+        "linear": {
+          "final_macro_accuracy": 0.9956973581973583,
+          "average_macro_accuracy": 0.9974392881113312,
+          "forgetting": 0.0019647597772597947
+        },
+        "slda": {
+          "final_macro_accuracy": 0.9927114820663208,
+          "average_macro_accuracy": 0.9960572280915023,
+          "forgetting": 0.004910287218754944
+        },
+        "static": {
+          "final_macro_accuracy": 0.9959765040813429,
+          "average_macro_accuracy": 0.9973463627173306,
+          "forgetting": 0.0021904842469358623
+        }
+      },
+      "final_by_order": {
+        "gaussian": {
+          "17": 0.9916026016993759,
+          "29": 0.9912082362082363,
+          "41": 0.9902024525653558
+        },
+        "er": {
+          "17": 0.9976126651126651,
+          "29": 0.9971689475399154,
+          "41": 0.9970533686743364
+        },
+        "linear": {
+          "17": 0.9959304584304585,
+          "29": 0.9959304584304585,
+          "41": 0.9952311577311578
+        },
+        "slda": {
+          "17": 0.9927114820663208,
+          "29": 0.9927114820663208,
+          "41": 0.9927114820663208
+        },
+        "static": {
+          "17": 0.9939901183046345,
+          "29": 0.9966200466200468,
+          "41": 0.9973193473193473
+        }
+      },
+      "strongest_observed_reference": "er",
+      "gaussian_final_gap_pp": -0.6273896951316305
+    },
+    {
+      "dataset": "articulary",
+      "means": {
+        "gaussian": {
+          "final_macro_accuracy": 0.9933333333333333,
+          "average_macro_accuracy": 0.9982585691281344,
+          "forgetting": 0.007575757575757576
+        },
+        "er": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 0.9948119089995521,
+          "forgetting": 0.0
+        },
+        "linear": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 0.9948119089995521,
+          "forgetting": 0.0
+        },
+        "slda": {
+          "final_macro_accuracy": 1.0,
+          "average_macro_accuracy": 0.9916111800169771,
+          "forgetting": 0.0
+        },
+        "static": {
+          "final_macro_accuracy": 0.9866666666666667,
+          "average_macro_accuracy": 0.9932439299830604,
+          "forgetting": 0.015151515151515152
+        }
+      },
+      "final_by_order": {
+        "gaussian": {
+          "17": 0.988,
+          "29": 1.0,
+          "41": 0.992
+        },
+        "er": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        },
+        "linear": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        },
+        "slda": {
+          "17": 1.0,
+          "29": 1.0,
+          "41": 1.0
+        },
+        "static": {
+          "17": 1.0,
+          "29": 0.98,
+          "41": 0.98
+        }
+      },
+      "strongest_observed_reference": "er",
+      "gaussian_final_gap_pp": -0.666666666666671
+    }
+  ]
+}
