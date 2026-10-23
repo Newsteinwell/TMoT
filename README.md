@@ -41,3 +41,7 @@ The first server run uses Python 3.12, PyTorch 2.8.0+cu128 and one 96GB RTX PRO 
 The queue refuses to overwrite incomplete jobs, does not auto-retry failures, and has a four-hour per-trajectory timeout. Output folders are immutable per run name. Run-specific config and source hashes must accompany all results. Validation data are prepared but the initial pilot uses prespecified hyperparameters, without validation or test-driven selection. Public pilot test results become exploratory evidence; future confirmatory claims need an independent locked protocol.
 
 See [protocol](docs/PROTOCOL.md), [mathematical design](docs/DESIGN.md), and [data sources](docs/DATA.md). Raw datasets, feature banks and training checkpoints are excluded from Git; compact aggregate results may be published under `results/`.
+
+## Pilot results
+
+See [execution status](docs/STATUS_2026-10-24.md) and [initial regression records](results/pilot_regression_v1/summary.csv). The first regression pilot does not outperform simple baselines; negative results are retained. Classification and the second-encoder regression queue are launched separately. These are exploratory results, not paper-ready validation.

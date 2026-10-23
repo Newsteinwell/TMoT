@@ -1,0 +1,95 @@
+{
+  "nonoverlap_audit": "passed",
+  "stages": [
+    {
+      "stage": 1,
+      "method": "seen_train_mean",
+      "rmse": 58.32608413696289,
+      "mae": 51.306705474853516
+    },
+    {
+      "stage": 1,
+      "method": "last_value",
+      "rmse": 43.06996154785156,
+      "mae": 27.371795654296875
+    },
+    {
+      "stage": 1,
+      "method": "last_six_mean",
+      "rmse": 45.139862060546875,
+      "mae": 29.230772018432617
+    },
+    {
+      "stage": 2,
+      "method": "seen_train_mean",
+      "rmse": 54.93355178833008,
+      "mae": 46.89102554321289
+    },
+    {
+      "stage": 2,
+      "method": "last_value",
+      "rmse": 44.6185188293457,
+      "mae": 25.961536407470703
+    },
+    {
+      "stage": 2,
+      "method": "last_six_mean",
+      "rmse": 45.68391036987305,
+      "mae": 28.493589401245117
+    },
+    {
+      "stage": 3,
+      "method": "seen_train_mean",
+      "rmse": 50.735591888427734,
+      "mae": 42.91218948364258
+    },
+    {
+      "stage": 3,
+      "method": "last_value",
+      "rmse": 55.290287017822266,
+      "mae": 27.158119201660156
+    },
+    {
+      "stage": 3,
+      "method": "last_six_mean",
+      "rmse": 42.07407760620117,
+      "mae": 24.65812110900879
+    },
+    {
+      "stage": 4,
+      "method": "seen_train_mean",
+      "rmse": 49.903419494628906,
+      "mae": 43.12232208251953
+    },
+    {
+      "stage": 4,
+      "method": "last_value",
+      "rmse": 51.64055252075195,
+      "mae": 25.68910026550293
+    },
+    {
+      "stage": 4,
+      "method": "last_six_mean",
+      "rmse": 51.296234130859375,
+      "mae": 27.94871711730957
+    },
+    {
+      "stage": 5,
+      "method": "seen_train_mean",
+      "rmse": 60.68999481201172,
+      "mae": 45.90894317626953
+    },
+    {
+      "stage": 5,
+      "method": "last_value",
+      "rmse": 65.40668487548828,
+      "mae": 31.74359130859375
+    },
+    {
+      "stage": 5,
+      "method": "last_six_mean",
+      "rmse": 62.55732345581055,
+      "mae": 32.87179183959961
+    }
+  ]
+}
