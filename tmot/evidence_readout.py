@@ -22,9 +22,10 @@ def evidence_objective(scatter, cross, target_scatter, count, log_alpha, log_bet
 
 
 class EvidenceReadout:
-    def __init__(self, dimension, task='classification', mode='isotropic', steps=60, device='cuda'):
+    def __init__(self, dimension, task='classification', mode='isotropic', steps=60, device='cuda', refine=False):
         if mode not in ('isotropic','ard'): raise ValueError(mode)
         self.dimension,self.task,self.mode,self.steps,self.device=dimension,task,mode,steps,device
+        self.refine=refine
         self.classes=[];self.memory=None;self.last_loss=None;self.diagnostics=None
 
     def observe(self, x, y):
@@ -59,8 +60,37 @@ class EvidenceReadout:
             if step==self.steps:break
             optimizer.zero_grad();loss.backward();optimizer.step()
             with torch.no_grad():la.clamp_(-12,12);lb.clamp_(-12,12)
+        refinement={}
+        if self.refine:
+            from scipy.optimize import minimize
+            normalizer=(n-1)*cross.shape[1]
+            adam_best=best[0]
+            def evaluate(theta):
+                nonlocal best
+                a=torch.tensor(theta[:-1],dtype=torch.float64,device=self.device,requires_grad=True)
+                b=torch.tensor(theta[-1],dtype=torch.float64,device=self.device,requires_grad=True)
+                value,posterior=evidence_objective(*tensors,n-1,a,b)
+                if not torch.isfinite(value):raise FloatingPointError('Nonfinite refinement evidence')
+                raw=float(value.detach());value.backward()
+                gradient=np.r_[a.grad.detach().cpu().numpy(),float(b.grad.detach())]/normalizer
+                if raw<best[0]:best=(raw,posterior.detach().cpu().numpy().copy(),theta[:-1].copy(),float(theta[-1]))
+                return raw/normalizer,gradient
+            start=np.r_[best[2],best[3]]
+            initial_gradient=evaluate(start)[1]
+            result=minimize(evaluate,start,method='L-BFGS-B',jac=True,bounds=[(-12.,12.)]*len(start),
+                            options=dict(maxiter=300,maxls=30,gtol=1e-6,ftol=1e-12))
+            theta=np.r_[best[2],best[3]];gradient=evaluate(theta)[1]
+            projected=gradient.copy()
+            projected[((theta<=-12+1e-8)&(gradient>0))|((theta>=12-1e-8)&(gradient<0))]=0
+            refinement=dict(adam_best_evidence=adam_best,refined_evidence=best[0],
+                            optimizer_success=bool(result.success),optimizer_message=str(result.message),
+                            optimizer_iterations=int(result.nit),optimizer_evaluations=int(result.nfev),
+                            initial_normalized_max_gradient=float(np.abs(initial_gradient).max()),
+                            normalized_projected_gradient=float(np.abs(projected).max()),
+                            gradient_tolerance_met=bool(np.abs(projected).max()<=1e-6),
+                            active_bounds=int(np.sum((theta<=-12+1e-8)|(theta>=12-1e-8))))
         self.last_loss,self.readout,self.log_alpha,self.log_beta=best
-        self.diagnostics=dict(initial_evidence=initial,best_evidence=best[0],last_evidence=history[-1],steps=self.steps,
+        self.diagnostics=dict(refinement=refinement,initial_evidence=initial,best_evidence=best[0],last_evidence=history[-1],steps=self.steps,
                               observations=n,weighting='class-balanced weighted Gaussian surrogate' if self.task=='classification' else 'sample-weighted Gaussian',
                               alpha_min=float(np.exp(self.log_alpha).min()),alpha_max=float(np.exp(self.log_alpha).max()),beta=float(np.exp(self.log_beta)))
 

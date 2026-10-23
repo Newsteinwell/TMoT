@@ -45,3 +45,13 @@ def test_balanced_class_statistics_match_weighted_observations():
     np.testing.assert_allclose(16*(g[:-1,:-1]-np.outer(g[:-1,-1],g[:-1,-1])),dx.T@(w[:,None]*dx),atol=1e-12)
     np.testing.assert_allclose(16*(k[:-1]-np.outer(g[:-1,-1],k[-1])),dx.T@(w[:,None]*dy),atol=1e-12)
     np.testing.assert_allclose(16*(v-k[-1]@k[-1]),np.sum(w[:,None]*dy*dy),atol=1e-12)
+
+
+def test_bounded_refinement_decreases_objective_and_meets_gradient_tolerance():
+    rng=np.random.default_rng(21);x=rng.normal(size=(80,4));y=x[:,:1]*.6+rng.normal(size=(80,1))*.4
+    model=EvidenceReadout(4,task='regression',mode='isotropic',steps=2,device='cpu',refine=True)
+    model.observe(x,y);r=model.diagnostics['refinement']
+    assert r['refined_evidence']<=r['adam_best_evidence']
+    assert r['gradient_tolerance_met']
+    assert np.all(np.abs(model.log_alpha)<=12) and abs(model.log_beta)<=12
+    assert np.isfinite(model.predict(x)).all()

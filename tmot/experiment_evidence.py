@@ -40,7 +40,7 @@ def run(a):
         y=(y-target_mu)/target_sd
     channels=meta['shapes']['train'][1]
     basis=StableSemanticBasis(2*channels,a.dimension,seed=a.basis_seed).fit(x[stages[0]])
-    learner=EvidenceReadout(a.dimension,task,mode=a.method,steps=a.evidence_steps,device=a.device)
+    learner=EvidenceReadout(a.dimension,task,mode=a.method,steps=a.evidence_steps,device=a.device,refine=a.refine)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -86,6 +86,7 @@ def parser():
     p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--out',required=True)
     p.add_argument('--dataset',required=True);p.add_argument('--encoder',default='mantis');p.add_argument('--method',choices=['isotropic','ard'],default='isotropic')
     p.add_argument('--evidence-steps',type=int,default=60)
+    p.add_argument('--refine',action='store_true')
     p.add_argument('--basis-seed',type=int,default=1701)
     p.add_argument('--seed',type=int,default=42);p.add_argument('--order',type=int,default=17)
     p.add_argument('--dimension',type=int,default=512);p.add_argument('--bottleneck',type=int,default=64)
