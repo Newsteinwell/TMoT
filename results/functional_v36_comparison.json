@@ -1,0 +1,146 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 1.0131965509438936,
+    "average": 0.7721007204899321,
+    "ridge": 1.0
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 0.9173614570060749,
+    "average": 0.7401343292900611,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "mode": "random",
+    "final": 0.9060776344203123,
+    "average": 0.7504154058878759,
+    "ridge": 10.0
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "mode": "trained",
+    "final": 0.8731230701967161,
+    "average": 0.8438144137543514,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 1.0,
+    "average": 0.9857142857142858,
+    "ridge": 10.0
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 1.0,
+    "average": 0.9953703703703703,
+    "ridge": 0.001
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 46.562016311338965,
+    "average": 54.91916612674633,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 44.66348506145368,
+    "average": 50.750912329913795,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "mode": "random",
+    "final": 45.94688670103333,
+    "average": 56.77243265423673,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "mode": "trained",
+    "final": 43.19849079709107,
+    "average": 54.770202143302164,
+    "ridge": 0.1
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 1.0
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 1.0
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 0.9166666666666666,
+    "average": 0.9027777777777778,
+    "ridge": 0.001
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 0.9166666666666666,
+    "average": 0.8888888888888888,
+    "ridge": 0.001
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 0.9953387159435547,
+    "average": 0.9981245958342733,
+    "ridge": 0.001
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 0.9959797415845804,
+    "average": 0.9980061658771338,
+    "ridge": 0.01
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "mode": "random",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "ridge": 0.001
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "mode": "trained",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "ridge": 1.0
+  }
+]
