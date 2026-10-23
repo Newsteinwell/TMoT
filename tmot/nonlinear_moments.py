@@ -23,13 +23,14 @@ def sample_cell(cell, count, rng, shrinkage=.1):
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False):
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False):
         if mode not in ('gaussian', 'local', 'er', 'no_history'): raise ValueError(mode)
         self.dimension, self.task, self.seed = dimension, task, seed
         self.ridge, self.mode, self.epochs = ridge, mode, epochs
         self.residual_weight, self.device = residual_weight, device
         self.replay_count, self.replay_bytes, self.width, self.alpha = replay_count, replay_bytes, width, alpha
         self.er_resample=er_resample
+        self.calibrate_replay=calibrate_replay;self.last_calibration=None
         from .local_moments import LocalMomentMixture
         self.local=LocalMomentMixture(dimension,task,seed+676,components=local_components,preserve_targets=preserve_targets) if mode=='local' else None
         self.classes=[]; self.memory=None; self.joint_cells=[]; self.stage=0; self.seen=0
@@ -71,6 +72,12 @@ class NonlinearMomentLearner:
         if self.task=='regression' and y.ndim==1:y=y[:,None]
         # Snapshot historical distributions before adding any current observations.
         historical=self._historical(None)
+        self.last_calibration=None
+        if historical is not None and self.calibrate_replay:
+            if self.task!='regression':raise ValueError('Finite calibration currently supports regression')
+            from .replay_calibration import calibrate_regression
+            hx,hy,self.last_calibration=calibrate_regression(*historical,self.memory,self.rng)
+            historical=(hx,hy)
         if self.task=='classification':
             self.classes.extend(sorted(set(y.tolist())-set(self.classes)));outputs=len(self.classes)
             if self.memory is None:self.memory=ClassificationMoments(self.dimension)
