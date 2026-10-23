@@ -1,0 +1,268 @@
+{
+  "complete": true,
+  "matched_pairs": 36,
+  "max_warm_residual_error": 9.5367431640625e-07,
+  "checks": [
+    "first-stage predictions",
+    "input/order/update/replay budgets",
+    "moments/readout/normalization",
+    "all local cell statistics and total counts",
+    "no real-row buffer"
+  ],
+  "component_counts": [
+    {
+      "run": "air_quality_mantis_mse_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_mantis_mse_k4_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_mantis_task_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_mantis_task_k4_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_summary_mse_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_summary_mse_k4_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_summary_task_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "air_quality_summary_task_k4_warm0_o17_s42",
+      "components": 5,
+      "seen": 120,
+      "local_bytes": 194980
+    },
+    {
+      "run": "articulary_mantis_mse_k1_warm0_o17_s42",
+      "components": 25,
+      "seen": 225,
+      "local_bytes": 512200
+    },
+    {
+      "run": "articulary_mantis_mse_k4_warm0_o17_s42",
+      "components": 25,
+      "seen": 225,
+      "local_bytes": 512200
+    },
+    {
+      "run": "articulary_mantis_task_k1_warm0_o17_s42",
+      "components": 25,
+      "seen": 225,
+      "local_bytes": 512200
+    },
+    {
+      "run": "articulary_mantis_task_k4_warm0_o17_s42",
+      "components": 25,
+      "seen": 225,
+      "local_bytes": 512200
+    },
+    {
+      "run": "beijing_pm25_mantis_mse_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 805,
+      "local_bytes": 194980
+    },
+    {
+      "run": "beijing_pm25_mantis_mse_k4_warm0_o17_s42",
+      "components": 20,
+      "seen": 805,
+      "local_bytes": 732724
+    },
+    {
+      "run": "beijing_pm25_mantis_task_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 805,
+      "local_bytes": 194980
+    },
+    {
+      "run": "beijing_pm25_mantis_task_k4_warm0_o17_s42",
+      "components": 20,
+      "seen": 805,
+      "local_bytes": 732724
+    },
+    {
+      "run": "beijing_pm25_summary_mse_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 805,
+      "local_bytes": 194980
+    },
+    {
+      "run": "beijing_pm25_summary_mse_k4_warm0_o17_s42",
+      "components": 20,
+      "seen": 805,
+      "local_bytes": 779920
+    },
+    {
+      "run": "beijing_pm25_summary_task_k1_warm0_o17_s42",
+      "components": 5,
+      "seen": 805,
+      "local_bytes": 194980
+    },
+    {
+      "run": "beijing_pm25_summary_task_k4_warm0_o17_s42",
+      "components": 20,
+      "seen": 805,
+      "local_bytes": 779920
+    },
+    {
+      "run": "epilepsy_mantis_mse_k1_warm0_o17_s42",
+      "components": 4,
+      "seen": 111,
+      "local_bytes": 147488
+    },
+    {
+      "run": "epilepsy_mantis_mse_k4_warm0_o17_s42",
+      "components": 4,
+      "seen": 111,
+      "local_bytes": 147488
+    },
+    {
+      "run": "epilepsy_mantis_task_k1_warm0_o17_s42",
+      "components": 4,
+      "seen": 111,
+      "local_bytes": 147488
+    },
+    {
+      "run": "epilepsy_mantis_task_k4_warm0_o17_s42",
+      "components": 4,
+      "seen": 111,
+      "local_bytes": 147488
+    },
+    {
+      "run": "natops_mantis_mse_k1_warm0_o17_s42",
+      "components": 6,
+      "seen": 144,
+      "local_bytes": 221232
+    },
+    {
+      "run": "natops_mantis_mse_k4_warm0_o17_s42",
+      "components": 6,
+      "seen": 144,
+      "local_bytes": 221232
+    },
+    {
+      "run": "natops_mantis_task_k1_warm0_o17_s42",
+      "components": 6,
+      "seen": 144,
+      "local_bytes": 221232
+    },
+    {
+      "run": "natops_mantis_task_k4_warm0_o17_s42",
+      "components": 6,
+      "seen": 144,
+      "local_bytes": 221232
+    },
+    {
+      "run": "pendigits_mantis_mse_k1_warm0_o17_s42",
+      "components": 10,
+      "seen": 5999,
+      "local_bytes": 368720
+    },
+    {
+      "run": "pendigits_mantis_mse_k4_warm0_o17_s42",
+      "components": 40,
+      "seen": 5999,
+      "local_bytes": 1474880
+    },
+    {
+      "run": "pendigits_mantis_task_k1_warm0_o17_s42",
+      "components": 10,
+      "seen": 5999,
+      "local_bytes": 368720
+    },
+    {
+      "run": "pendigits_mantis_task_k4_warm0_o17_s42",
+      "components": 40,
+      "seen": 5999,
+      "local_bytes": 1474880
+    },
+    {
+      "run": "racketsports_mantis_mse_k1_warm0_o17_s42",
+      "components": 4,
+      "seen": 123,
+      "local_bytes": 147488
+    },
+    {
+      "run": "racketsports_mantis_mse_k4_warm0_o17_s42",
+      "components": 6,
+      "seen": 123,
+      "local_bytes": 200752
+    },
+    {
+      "run": "racketsports_mantis_task_k1_warm0_o17_s42",
+      "components": 4,
+      "seen": 123,
+      "local_bytes": 147488
+    },
+    {
+      "run": "racketsports_mantis_task_k4_warm0_o17_s42",
+      "components": 6,
+      "seen": 123,
+      "local_bytes": 200752
+    }
+  ],
+  "checked": [
+    "air_quality_mantis_mse_k1_warm0_o17_s42",
+    "air_quality_mantis_mse_k4_warm0_o17_s42",
+    "air_quality_mantis_task_k1_warm0_o17_s42",
+    "air_quality_mantis_task_k4_warm0_o17_s42",
+    "air_quality_summary_mse_k1_warm0_o17_s42",
+    "air_quality_summary_mse_k4_warm0_o17_s42",
+    "air_quality_summary_task_k1_warm0_o17_s42",
+    "air_quality_summary_task_k4_warm0_o17_s42",
+    "articulary_mantis_mse_k1_warm0_o17_s42",
+    "articulary_mantis_mse_k4_warm0_o17_s42",
+    "articulary_mantis_task_k1_warm0_o17_s42",
+    "articulary_mantis_task_k4_warm0_o17_s42",
+    "beijing_pm25_mantis_mse_k1_warm0_o17_s42",
+    "beijing_pm25_mantis_mse_k4_warm0_o17_s42",
+    "beijing_pm25_mantis_task_k1_warm0_o17_s42",
+    "beijing_pm25_mantis_task_k4_warm0_o17_s42",
+    "beijing_pm25_summary_mse_k1_warm0_o17_s42",
+    "beijing_pm25_summary_mse_k4_warm0_o17_s42",
+    "beijing_pm25_summary_task_k1_warm0_o17_s42",
+    "beijing_pm25_summary_task_k4_warm0_o17_s42",
+    "epilepsy_mantis_mse_k1_warm0_o17_s42",
+    "epilepsy_mantis_mse_k4_warm0_o17_s42",
+    "epilepsy_mantis_task_k1_warm0_o17_s42",
+    "epilepsy_mantis_task_k4_warm0_o17_s42",
+    "natops_mantis_mse_k1_warm0_o17_s42",
+    "natops_mantis_mse_k4_warm0_o17_s42",
+    "natops_mantis_task_k1_warm0_o17_s42",
+    "natops_mantis_task_k4_warm0_o17_s42",
+    "pendigits_mantis_mse_k1_warm0_o17_s42",
+    "pendigits_mantis_mse_k4_warm0_o17_s42",
+    "pendigits_mantis_task_k1_warm0_o17_s42",
+    "pendigits_mantis_task_k4_warm0_o17_s42",
+    "racketsports_mantis_mse_k1_warm0_o17_s42",
+    "racketsports_mantis_mse_k4_warm0_o17_s42",
+    "racketsports_mantis_task_k1_warm0_o17_s42",
+    "racketsports_mantis_task_k4_warm0_o17_s42"
+  ]
+}
