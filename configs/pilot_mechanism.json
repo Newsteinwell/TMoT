@@ -1,0 +1,9 @@
+{
+  "stage": "planned mechanism controls; no hyperparameter tuning",
+  "encoder": "mantis",
+  "datasets": ["har", "uwave", "dailysports"],
+  "methods": ["no_hist", "frozen_adapter"],
+  "orders": [17, 29],
+  "seeds": [42, 43],
+  "epochs": 30
+}
