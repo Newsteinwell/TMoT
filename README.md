@@ -5,6 +5,12 @@ We investigate class-incremental classification, domain changes and continuous-t
 
 TMoT builds on the ideas of [WiMoT](https://github.com/Newsteinwell/WiMoT) and [OSCL](https://openreview.net/forum?id=Vf6WcUDnY7c). This repository starts a new experimental implementation; it is **not a renamed reproduction** of the full WiMoT pipeline. In particular, the initial TMoT pilot uses a common fixed feature basis, an adaptive affine bottleneck and an analytic ridge readout instead of the original dual stem and OSCL classifier.
 
+## Round-two results
+
+[Full report](docs/ROUND2_REPORT_2026-10-24.md): 240 completed trajectories, including migrated dual stems/PCA, OSCL/Student-t, growing classes, domain experts, regression, and matched-basis baselines. Read [migration details](docs/WIMOT_MIGRATION.md) and [source snapshots](docs/SOURCE_SNAPSHOTS.md).
+
+The full method improves on the first prototype but does **not** consistently beat matched-basis statistical heads. Small-sample semantic rank completion helps UWave; stronger regression regularization helps Energy. Negative results are retained. The active research objective is now robust, clear gains on the majority of datasets, evaluated with independent additional benchmarks.
+
 ## Implemented
 
 - Class growth without knowing future labels: sparse class moments and dynamically expanded outputs.
@@ -18,7 +24,7 @@ TMoT builds on the ideas of [WiMoT](https://github.com/Newsteinwell/WiMoT) and [
 
 ## Current limitations
 
-The basis stays fixed after first-stage normalization. Adaptation is affine. Classification currently pools domains within each class and uses a global readout; sparse domain-conditioned OSCL and fixed-byte memory compression are planned. Regression currently has a fixed continuous output dimension. There is no assertion of zero forgetting, formal privacy, arbitrary nonlinear representational adaptation or established performance superiority.
+The basis stays fixed after first-stage supervised training and calibration. Adaptation is affine. Full-class domains use WiMoT domain experts; missing-class domains use pooled observed class moments with global OSCL. Fixed-byte memory compression remains future work. Regression currently has a fixed continuous output dimension. There is no assertion of zero forgetting, formal privacy, arbitrary nonlinear representational adaptation or established performance superiority.
 
 ## Setup
 
@@ -44,4 +50,4 @@ See [protocol](docs/PROTOCOL.md), [mathematical design](docs/DESIGN.md), and [da
 
 ## Pilot results
 
-See [execution status](docs/STATUS_2026-10-24.md) and [initial regression records](results/pilot_regression_v1/summary.csv). The first regression pilot does not outperform simple baselines; negative results are retained. All116 pilot trajectories have completed, including mechanism controls. See the [full pilot report](docs/PILOT_REPORT_2026-10-24.md). These are exploratory results, not paper-ready validation.
+See [execution status](docs/STATUS_2026-10-24.md) and [initial regression records](results/pilot_regression_v1/summary.csv). The first regression pilot does not outperform simple baselines; negative results are retained. All 116 pilot trajectories have completed, including mechanism controls. See the [full pilot report](docs/PILOT_REPORT_2026-10-24.md). These are exploratory results, not paper-ready validation.

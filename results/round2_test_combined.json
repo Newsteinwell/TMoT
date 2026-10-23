@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "dailysports",
+    "variant": "full",
+    "n": 4,
+    "mean": 0.9208333333333334,
+    "sd": 0.010195206650065023,
+    "average": 0.9570462365642105,
+    "elapsed": 79.48164416477084,
+    "memory_MB": 93.604436
+  },
+  {
+    "dataset": "dailysports",
+    "variant": "matched_ridge",
+    "n": 4,
+    "mean": 0.918969298245614,
+    "sd": 0.01304225500105194,
+    "average": 0.9614090463041272,
+    "elapsed": 30.86075293365866,
+    "memory_MB": 40.420448
+  },
+  {
+    "dataset": "dailysports",
+    "variant": "matched_slda",
+    "n": 4,
+    "mean": 0.9254385964912282,
+    "sd": 0.010665502783531828,
+    "average": 0.9631983988790834,
+    "elapsed": 31.481116538867354,
+    "memory_MB": 42.517448
+  },
+  {
+    "dataset": "dailysports",
+    "variant": "ridge",
+    "n": 4,
+    "mean": 0.917763157894737,
+    "sd": 0.007567113622577531,
+    "average": 0.9590144992415375,
+    "elapsed": 61.65128691773862,
+    "memory_MB": 80.517444
+  },
+  {
+    "dataset": "energy",
+    "variant": "frozen_r01",
+    "n": 2,
+    "mean": 57.701101954391106,
+    "sd": 1.4858847571362575,
+    "average": 57.45440762876366,
+    "elapsed": 2.716718478128314,
+    "memory_MB": 12.987036
+  },
+  {
+    "dataset": "energy",
+    "variant": "full_r1",
+    "n": 2,
+    "mean": 55.31759973575578,
+    "sd": 0.1800681048068189,
+    "average": 53.147177083125825,
+    "elapsed": 4.400603745132685,
+    "memory_MB": 12.987036
+  },
+  {
+    "dataset": "energy",
+    "variant": "matched_ridge_r1",
+    "n": 2,
+    "mean": 53.832307853807436,
+    "sd": 0.2530887079977662,
+    "average": 50.007672446608474,
+    "elapsed": 2.3434364330023527,
+    "memory_MB": 2.376232
+  },
+  {
+    "dataset": "energy",
+    "variant": "no_hist_r1",
+    "n": 2,
+    "mean": 56.63090764902511,
+    "sd": 1.9751225172621043,
+    "average": 52.51745837893081,
+    "elapsed": 4.610395383089781,
+    "memory_MB": 12.987036
+  },
+  {
+    "dataset": "har",
+    "variant": "full",
+    "n": 4,
+    "mean": 0.9613558562696372,
+    "sd": 0.0025548059434421784,
+    "average": 0.9861288917197479,
+    "elapsed": 56.58718752581626,
+    "memory_MB": 29.912112
+  },
+  {
+    "dataset": "har",
+    "variant": "matched_ridge",
+    "n": 4,
+    "mean": 0.9624998625779293,
+    "sd": 0.0034929238108849466,
+    "average": 0.9864031369131714,
+    "elapsed": 30.178992782719433,
+    "memory_MB": 12.944064
+  },
+  {
+    "dataset": "har",
+    "variant": "matched_slda",
+    "n": 4,
+    "mean": 0.9635314419496569,
+    "sd": 0.003523812576539046,
+    "average": 0.987304515773866,
+    "elapsed": 29.129240074194968,
+    "memory_MB": 15.041168
+  },
+  {
+    "dataset": "har",
+    "variant": "ridge",
+    "n": 4,
+    "mean": 0.9613810178581027,
+    "sd": 0.003993805875191683,
+    "average": 0.9859336394920191,
+    "elapsed": 54.72576666902751,
+    "memory_MB": 25.651464
+  },
+  {
+    "dataset": "uwave",
+    "variant": "full",
+    "n": 4,
+    "mean": 0.68359375,
+    "sd": 0.0595324119527898,
+    "average": 0.7712890625,
+    "elapsed": 8.430116116069257,
+    "memory_MB": 39.668384
+  },
+  {
+    "dataset": "uwave",
+    "variant": "matched_ridge",
+    "n": 4,
+    "mean": 0.6765625,
+    "sd": 0.04631611265711606,
+    "average": 0.77421875,
+    "elapsed": 4.418951126746833,
+    "memory_MB": 17.1712
+  },
+  {
+    "dataset": "uwave",
+    "variant": "matched_slda",
+    "n": 4,
+    "mean": 0.73671875,
+    "sd": 0.053300873097132925,
+    "average": 0.8132161458333333,
+    "elapsed": 3.8341228319332004,
+    "memory_MB": 19.268288
+  },
+  {
+    "dataset": "uwave",
+    "variant": "no_amplitude",
+    "n": 4,
+    "mean": 0.80703125,
+    "sd": 0.03665497564565188,
+    "average": 0.8560546874999999,
+    "elapsed": 8.502800490707159,
+    "memory_MB": 39.668384
+  },
+  {
+    "dataset": "uwave",
+    "variant": "rank_completed",
+    "n": 4,
+    "mean": 0.81015625,
+    "sd": 0.006929236820651072,
+    "average": 0.8587890625,
+    "elapsed": 9.107434889301658,
+    "memory_MB": 39.668384
+  },
+  {
+    "dataset": "uwave",
+    "variant": "ridge",
+    "n": 4,
+    "mean": 0.63359375,
+    "sd": 0.054209218062214015,
+    "average": 0.7473307291666667,
+    "elapsed": 7.079424377530813,
+    "memory_MB": 34.092384
+  }
+]
