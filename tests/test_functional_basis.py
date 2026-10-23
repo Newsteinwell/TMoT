@@ -26,3 +26,12 @@ def test_random_determinism_and_vector_regression():
     np.testing.assert_array_equal(a.transform(x),b.transform(x));assert a.optimizer_steps==0
     c=FunctionalBasis(base,'regression',width=8,epochs=2,device='cpu').fit(x,y)
     assert c.transform(x).shape==(12,13) and c.optimizer_steps==2
+
+def test_explicit_first_calibration_preserves_default_and_can_stay_fixed():
+    torch.set_num_threads(1);rng=np.random.default_rng(13);x=rng.normal(size=(24,5));y=rng.normal(size=(24,2))
+    base=RawCoordinateBasis(5).fit(x[:12])
+    a=FunctionalBasis(base,'regression',width=8,epochs=2,device='cpu').fit(x[:12],y[:12])
+    b=FunctionalBasis(base,'regression',width=8,epochs=2,device='cpu').fit(x[:12],y[:12],calibration_x=x[:12])
+    np.testing.assert_array_equal(a.transform(x),b.transform(x))
+    c=FunctionalBasis(base,'regression',width=8,epochs=2,device='cpu').fit(x,y,calibration_x=x[:12])
+    np.testing.assert_array_equal(a.mean,c.mean);np.testing.assert_array_equal(a.sd,c.sd)

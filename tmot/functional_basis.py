@@ -7,10 +7,11 @@ class FunctionalBasis:
     def __init__(self,base,task,mode='trained',seed=42,width=128,epochs=30,device='cuda'):
         self.base=base;self.task=task;self.mode=mode;self.seed=seed
         self.width=width;self.epochs=epochs;self.device=device;self.dimension=base.dimension+width
-    def fit(self,x,y):
+    def fit(self,x,y,calibration_x=None):
         if hasattr(self,'net'):raise RuntimeError('Functional basis must remain fixed after first arrival')
         z=self.base.transform(x).astype(np.float32);y=np.asarray(y)
-        self.mean=z.mean(0);sd=z.std(0);self.sd=np.maximum(sd,max(float(np.median(sd))*.01,1e-4))
+        cal=z if calibration_x is None else self.base.transform(calibration_x).astype(np.float32)
+        self.mean=cal.mean(0);sd=cal.std(0);self.sd=np.maximum(sd,max(float(np.median(sd))*.01,1e-4))
         torch.manual_seed(self.seed)
         self.net=nn.Sequential(nn.Linear(self.base.dimension,self.width),nn.ReLU(),nn.Linear(self.width,self.width),nn.ReLU()).to(self.device)
         if self.task=='classification':
@@ -34,7 +35,7 @@ class FunctionalBasis:
         elif self.mode!='random':raise ValueError(self.mode)
         self.net=self.net.to('cpu').eval()
         for p in self.net.parameters():p.requires_grad_(False)
-        with torch.no_grad():h=self.net(torch.from_numpy((z-self.mean)/self.sd)).numpy()
+        with torch.no_grad():h=self.net(torch.from_numpy((cal-self.mean)/self.sd)).numpy()
         self.hidden_mean=h.mean(0);self.hidden_scale=max(float(np.sqrt(np.mean((h-self.hidden_mean)**2))),1e-4)
         return self
     def transform(self,x):
