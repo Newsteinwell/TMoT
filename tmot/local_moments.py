@@ -26,6 +26,33 @@ class LocalCell:
         residual=np.maximum(np.mean(center**2,axis=0)-np.sum(factor**2,axis=1),0)
         return cls(len(rows),mean.astype(np.float32),factor.astype(np.float32),np.sqrt(residual).astype(np.float32))
 
+    @classmethod
+    def fit_target_preserving(cls,rows,input_dim,rank=16,shrinkage=.1):
+        """Protect empirical XY and YY covariance, compress only X residual.
+
+        SVD of centered targets avoids inverting a singular YY matrix. If U
+        spans the observed target column space, X = UU'X + (I-UU')X.
+        The first part and Y share latent draws; only the orthogonal residual
+        is truncated/shrunk. XY, YY and diagonal XX are preserved to rounding
+        tolerance (target singular values below 1e-12 relative are discarded).
+        """
+        rows=np.asarray(rows,dtype=np.float64);mean=rows.mean(0);center=rows-mean
+        x,y=center[:,:input_dim],center[:,input_dim:]
+        if not y.shape[1]:raise ValueError('At least one target required')
+        u,values,vectors=np.linalg.svd(y,full_matrices=False)
+        keep=values>max(float(values.max(initial=0))*1e-12,1e-15)
+        u,values,vectors=u[:,keep],values[keep],vectors[keep]
+        target_x=x.T@u/np.sqrt(len(x))
+        target_y=vectors.T*values/np.sqrt(len(x))
+        residual=x-u@(u.T@x)
+        compressed=cls.fit(residual,rank,shrinkage)
+        factor=np.zeros((rows.shape[1],len(values)+compressed.factor.shape[1]))
+        factor[:input_dim,:len(values)]=target_x
+        factor[input_dim:,:len(values)]=target_y
+        factor[:input_dim,len(values):]=compressed.factor
+        diagonal=np.r_[compressed.residual_sd,np.zeros(y.shape[1])]
+        return cls(len(rows),mean.astype(np.float32),factor.astype(np.float32),diagonal.astype(np.float32))
+
     def sample(self,n,rng):
         return (self.mean+rng.normal(size=(n,self.factor.shape[1]))@self.factor.T+
                 rng.normal(size=(n,len(self.mean)))*self.residual_sd).astype(np.float32)
@@ -54,8 +81,9 @@ def local_partition(x,k,rng):
 
 
 class LocalMomentMixture:
-    def __init__(self,dimension,task,seed=42,components=4,rank=16):
+    def __init__(self,dimension,task,seed=42,components=4,rank=16,preserve_targets=False):
         self.dimension,self.task,self.components,self.rank=dimension,task,components,rank
+        self.preserve_targets=preserve_targets
         self.cells={};self.rng=np.random.default_rng(seed)
 
     def update(self,x,y):
@@ -70,7 +98,11 @@ class LocalMomentMixture:
             k=min(self.components,max(1,len(inputs)//16))
             assignment=local_partition(inputs,k,self.rng)
             for component in np.unique(assignment):
-                self.cells.setdefault(label,[]).append(LocalCell.fit(rows[assignment==component],self.rank))
+                batch=rows[assignment==component]
+                cell=(LocalCell.fit_target_preserving(batch,self.dimension,self.rank)
+                      if self.preserve_targets and self.task=='regression'
+                      else LocalCell.fit(batch,self.rank))
+                self.cells.setdefault(label,[]).append(cell)
 
     def sample(self,count,classes,rng):
         labels=list(classes) if self.task=='classification' else [None]
