@@ -1,0 +1,607 @@
+{
+  "scope": "VAL only, fixed five-member ensemble; smallest seen class label breaks ties; no weight selection; summed learner states exclude shared encoder and basis",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "dimension": 512,
+      "metric": "rmse",
+      "final": 0.9877438785240447,
+      "average": 0.8169205084383148,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 0.6723824918495769,
+          "vote_ties": 0,
+          "n": 7,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 2,
+          "value": 0.6311477682777562,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 3,
+          "value": 0.6813227116908547,
+          "vote_ties": 0,
+          "n": 18,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 4,
+          "value": 1.1120056918493408,
+          "vote_ties": 0,
+          "n": 24,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 5,
+          "value": 0.9877438785240447,
+          "vote_ties": 0,
+          "n": 33,
+          "persistent_bytes": 11224520
+        }
+      ]
+    },
+    {
+      "dataset": "air_quality",
+      "dimension": 1024,
+      "metric": "rmse",
+      "final": 1.0021434224589683,
+      "average": 0.7724467451352245,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 0.6066127250070732,
+          "vote_ties": 0,
+          "n": 7,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 2,
+          "value": 0.5495058888782385,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 3,
+          "value": 0.5741908880731854,
+          "vote_ties": 0,
+          "n": 18,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 4,
+          "value": 1.129780801258657,
+          "vote_ties": 0,
+          "n": 24,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 5,
+          "value": 1.0021434224589683,
+          "vote_ties": 0,
+          "n": 33,
+          "persistent_bytes": 43419080
+        }
+      ]
+    },
+    {
+      "dataset": "articulary",
+      "dimension": 512,
+      "metric": "macro_accuracy",
+      "final": 1.0,
+      "average": 0.9981884057971014,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 6,
+          "persistent_bytes": 32360160
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 10,
+          "persistent_bytes": 53495840
+        },
+        {
+          "stage": 3,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 74631520
+        },
+        {
+          "stage": 4,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 18,
+          "persistent_bytes": 95767200
+        },
+        {
+          "stage": 5,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 22,
+          "persistent_bytes": 116902880
+        },
+        {
+          "stage": 6,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 26,
+          "persistent_bytes": 138038560
+        },
+        {
+          "stage": 7,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 30,
+          "persistent_bytes": 159174240
+        },
+        {
+          "stage": 8,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 34,
+          "persistent_bytes": 180309920
+        },
+        {
+          "stage": 9,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 38,
+          "persistent_bytes": 201445600
+        },
+        {
+          "stage": 10,
+          "value": 1.0,
+          "vote_ties": 1,
+          "n": 42,
+          "persistent_bytes": 222581280
+        },
+        {
+          "stage": 11,
+          "value": 0.9782608695652174,
+          "vote_ties": 0,
+          "n": 46,
+          "persistent_bytes": 243716960
+        },
+        {
+          "stage": 12,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 50,
+          "persistent_bytes": 264852640
+        }
+      ]
+    },
+    {
+      "dataset": "articulary",
+      "dimension": 1024,
+      "metric": "macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 6,
+          "persistent_bytes": 127633120
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 10,
+          "persistent_bytes": 211847200
+        },
+        {
+          "stage": 3,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 296061280
+        },
+        {
+          "stage": 4,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 18,
+          "persistent_bytes": 380275360
+        },
+        {
+          "stage": 5,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 22,
+          "persistent_bytes": 464489440
+        },
+        {
+          "stage": 6,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 26,
+          "persistent_bytes": 548703520
+        },
+        {
+          "stage": 7,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 30,
+          "persistent_bytes": 632917600
+        },
+        {
+          "stage": 8,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 34,
+          "persistent_bytes": 717131680
+        },
+        {
+          "stage": 9,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 38,
+          "persistent_bytes": 801345760
+        },
+        {
+          "stage": 10,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 42,
+          "persistent_bytes": 885559840
+        },
+        {
+          "stage": 11,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 46,
+          "persistent_bytes": 969773920
+        },
+        {
+          "stage": 12,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 50,
+          "persistent_bytes": 1053988000
+        }
+      ]
+    },
+    {
+      "dataset": "beijing_pm25",
+      "dimension": 512,
+      "metric": "rmse",
+      "final": 44.231630441189864,
+      "average": 53.867184591235855,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 71.19311993695325,
+          "vote_ties": 0,
+          "n": 46,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 2,
+          "value": 53.771463220540305,
+          "vote_ties": 0,
+          "n": 94,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 3,
+          "value": 55.580941875342155,
+          "vote_ties": 0,
+          "n": 145,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 4,
+          "value": 44.55876748215371,
+          "vote_ties": 0,
+          "n": 200,
+          "persistent_bytes": 11224520
+        },
+        {
+          "stage": 5,
+          "value": 44.231630441189864,
+          "vote_ties": 0,
+          "n": 257,
+          "persistent_bytes": 11224520
+        }
+      ]
+    },
+    {
+      "dataset": "beijing_pm25",
+      "dimension": 1024,
+      "metric": "rmse",
+      "final": 43.95712503804141,
+      "average": 56.26005084338474,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 72.38190701569546,
+          "vote_ties": 0,
+          "n": 46,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 2,
+          "value": 57.07470939658628,
+          "vote_ties": 0,
+          "n": 94,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 3,
+          "value": 59.62178959555905,
+          "vote_ties": 0,
+          "n": 145,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 4,
+          "value": 48.26472317104148,
+          "vote_ties": 0,
+          "n": 200,
+          "persistent_bytes": 43419080
+        },
+        {
+          "stage": 5,
+          "value": 43.95712503804141,
+          "vote_ties": 0,
+          "n": 257,
+          "persistent_bytes": 43419080
+        }
+      ]
+    },
+    {
+      "dataset": "epilepsy",
+      "dimension": 512,
+      "metric": "macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 12,
+          "persistent_bytes": 21792320
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 26,
+          "persistent_bytes": 42928000
+        }
+      ]
+    },
+    {
+      "dataset": "epilepsy",
+      "dimension": 1024,
+      "metric": "macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 12,
+          "persistent_bytes": 85526080
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 26,
+          "persistent_bytes": 169740160
+        }
+      ]
+    },
+    {
+      "dataset": "natops",
+      "dimension": 512,
+      "metric": "macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 0.9166666666666667,
+          "vote_ties": 0,
+          "n": 12,
+          "persistent_bytes": 21792320
+        },
+        {
+          "stage": 2,
+          "value": 0.875,
+          "vote_ties": 0,
+          "n": 24,
+          "persistent_bytes": 42928000
+        },
+        {
+          "stage": 3,
+          "value": 0.9166666666666666,
+          "vote_ties": 0,
+          "n": 36,
+          "persistent_bytes": 64063680
+        }
+      ]
+    },
+    {
+      "dataset": "natops",
+      "dimension": 1024,
+      "metric": "macro_accuracy",
+      "final": 0.888888888888889,
+      "average": 0.8796296296296297,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 0.9166666666666667,
+          "vote_ties": 0,
+          "n": 12,
+          "persistent_bytes": 85526080
+        },
+        {
+          "stage": 2,
+          "value": 0.8333333333333334,
+          "vote_ties": 0,
+          "n": 24,
+          "persistent_bytes": 169740160
+        },
+        {
+          "stage": 3,
+          "value": 0.888888888888889,
+          "vote_ties": 0,
+          "n": 36,
+          "persistent_bytes": 253954240
+        }
+      ]
+    },
+    {
+      "dataset": "pendigits",
+      "dimension": 512,
+      "metric": "macro_accuracy",
+      "final": 0.9959845978394366,
+      "average": 0.9980217058926737,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 312,
+          "persistent_bytes": 21792320
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 622,
+          "persistent_bytes": 42928000
+        },
+        {
+          "stage": 3,
+          "value": 0.9966006216006216,
+          "vote_ties": 0,
+          "n": 909,
+          "persistent_bytes": 64063680
+        },
+        {
+          "stage": 4,
+          "value": 0.9975233100233101,
+          "vote_ties": 0,
+          "n": 1208,
+          "persistent_bytes": 85199360
+        },
+        {
+          "stage": 5,
+          "value": 0.9959845978394366,
+          "vote_ties": 0,
+          "n": 1495,
+          "persistent_bytes": 106335040
+        }
+      ]
+    },
+    {
+      "dataset": "pendigits",
+      "dimension": 1024,
+      "metric": "macro_accuracy",
+      "final": 0.9966256234804621,
+      "average": 0.9981669235782139,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 312,
+          "persistent_bytes": 85526080
+        },
+        {
+          "stage": 2,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 622,
+          "persistent_bytes": 169740160
+        },
+        {
+          "stage": 3,
+          "value": 0.9966908539489184,
+          "vote_ties": 0,
+          "n": 909,
+          "persistent_bytes": 253954240
+        },
+        {
+          "stage": 4,
+          "value": 0.9975181404616889,
+          "vote_ties": 0,
+          "n": 1208,
+          "persistent_bytes": 338168320
+        },
+        {
+          "stage": 5,
+          "value": 0.9966256234804621,
+          "vote_ties": 0,
+          "n": 1495,
+          "persistent_bytes": 422382400
+        }
+      ]
+    },
+    {
+      "dataset": "racketsports",
+      "dimension": 512,
+      "metric": "macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9486607142857143,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 21792320
+        },
+        {
+          "stage": 2,
+          "value": 0.8973214285714286,
+          "vote_ties": 0,
+          "n": 28,
+          "persistent_bytes": 42928000
+        }
+      ]
+    },
+    {
+      "dataset": "racketsports",
+      "dimension": 1024,
+      "metric": "macro_accuracy",
+      "final": 0.9330357142857143,
+      "average": 0.9665178571428572,
+      "stages": [
+        {
+          "stage": 1,
+          "value": 1.0,
+          "vote_ties": 0,
+          "n": 14,
+          "persistent_bytes": 85526080
+        },
+        {
+          "stage": 2,
+          "value": 0.9330357142857143,
+          "vote_ties": 0,
+          "n": 28,
+          "persistent_bytes": 169740160
+        }
+      ]
+    }
+  ]
+}
