@@ -1,0 +1,141 @@
+[
+  {
+    "name": "NATOPS",
+    "page": "https://www.timeseriesclassification.com/description.php?Dataset=NATOPS",
+    "download": "https://www.timeseriesclassification.com/aeon-toolkit/NATOPS.zip",
+    "files": [
+      "NATOPS.jpg",
+      "NATOPS.txt",
+      "NATOPS_TEST.arff",
+      "NATOPS_TEST.ts",
+      "NATOPS_TRAIN.arff",
+      "NATOPS_TRAIN.ts"
+    ],
+    "status": "downloaded",
+    "bytes": 3479750,
+    "sha256": "38e91561d70426b508abf6db253070b1bed00a1c303d70844997ef4d4ab3b7ff"
+  },
+  {
+    "name": "Epilepsy",
+    "page": "https://www.timeseriesclassification.com/description.php?Dataset=Epilepsy",
+    "download": "https://www.timeseriesclassification.com/aeon-toolkit/Epilepsy.zip",
+    "files": [
+      "Epilepsy.jpg",
+      "Epilepsy.txt",
+      "EpilepsyDimension1_TEST.arff",
+      "EpilepsyDimension1_TRAIN.arff",
+      "EpilepsyDimension2_TEST.arff",
+      "EpilepsyDimension2_TRAIN.arff",
+      "EpilepsyDimension3_TEST.arff",
+      "EpilepsyDimension3_TRAIN.arff",
+      "Epilepsy_TEST.arff",
+      "Epilepsy_TRAIN.arff",
+      "Epilepsy_TEST.ts",
+      "Epilepsy_TRAIN.ts"
+    ],
+    "status": "downloaded",
+    "bytes": 809010,
+    "sha256": "8e5ce818a4989e520aa620f3009621692f06c8e8e73d72ee98cc0dbdee7c10c9"
+  },
+  {
+    "name": "RacketSports",
+    "page": "https://www.timeseriesclassification.com/description.php?Dataset=RacketSports",
+    "download": "https://www.timeseriesclassification.com/aeon-toolkit/RacketSports.zip",
+    "files": [
+      "RacketSports.jpg",
+      "RacketSports.txt",
+      "RacketSportsDimension1_TEST.arff",
+      "RacketSportsDimension1_TRAIN.arff",
+      "RacketSportsDimension2_TEST.arff",
+      "RacketSportsDimension2_TRAIN.arff",
+      "RacketSportsDimension3_TEST.arff",
+      "RacketSportsDimension3_TRAIN.arff",
+      "RacketSportsDimension4_TEST.arff",
+      "RacketSportsDimension4_TRAIN.arff",
+      "RacketSportsDimension5_TEST.arff",
+      "RacketSportsDimension5_TRAIN.arff",
+      "RacketSportsDimension6_TEST.arff",
+      "RacketSportsDimension6_TRAIN.arff",
+      "RacketSports_TEST.arff",
+      "RacketSports_TRAIN.arff",
+      "RacketSports_TEST.ts",
+      "RacketSports_TRAIN.ts"
+    ],
+    "status": "downloaded",
+    "bytes": 675914,
+    "sha256": "230c10f30f6800297313eb9aa77a9c2c8ba0714ce1364d3356cb3c342f69a90a"
+  },
+  {
+    "name": "PenDigits",
+    "page": "https://www.timeseriesclassification.com/description.php?Dataset=PenDigits",
+    "download": "https://www.timeseriesclassification.com/aeon-toolkit/PenDigits.zip",
+    "files": [
+      "PenDigits.PNG",
+      "PenDigits.txt",
+      "PenDigitsDimension1_TEST.arff",
+      "PenDigitsDimension1_TRAIN.arff",
+      "PenDigitsDimension2_TEST.arff",
+      "PenDigitsDimension2_TRAIN.arff",
+      "PenDigits_TEST.arff",
+      "PenDigits_TRAIN.arff",
+      "PenDigits_TEST.ts",
+      "PenDigits_TRAIN.ts"
+    ],
+    "status": "downloaded",
+    "bytes": 650057,
+    "sha256": "4a9a706463eb98b8773fb6c2bb24038f2855ce1f0c55d1d0109e9f0bd0052842"
+  },
+  {
+    "name": "ArticularyWordRecognition",
+    "page": "https://www.timeseriesclassification.com/description.php?Dataset=ArticularyWordRecognition",
+    "download": "https://www.timeseriesclassification.com/aeon-toolkit/ArticularyWordRecognition.zip",
+    "files": [
+      "ArticularyWordRecognition.jpg",
+      "ArticularyWordRecognition.txt",
+      "ArticularyWordRecognitionDimension1_TEST.arff",
+      "ArticularyWordRecognitionDimension1_TRAIN.arff",
+      "ArticularyWordRecognitionDimension2_TEST.arff",
+      "ArticularyWordRecognitionDimension2_TRAIN.arff",
+      "ArticularyWordRecognitionDimension3_TEST.arff",
+      "ArticularyWordRecognitionDimension3_TRAIN.arff",
+      "ArticularyWordRecognitionDimension4_TEST.arff",
+      "ArticularyWordRecognitionDimension4_TRAIN.arff",
+      "ArticularyWordRecognitionDimension5_TEST.arff",
+      "ArticularyWordRecognitionDimension5_TRAIN.arff",
+      "ArticularyWordRecognitionDimension6_TEST.arff",
+      "ArticularyWordRecognitionDimension6_TRAIN.arff",
+      "ArticularyWordRecognitionDimension7_TEST.arff",
+      "ArticularyWordRecognitionDimension7_TRAIN.arff",
+      "ArticularyWordRecognitionDimension8_TEST.arff",
+      "ArticularyWordRecognitionDimension8_TRAIN.arff",
+      "ArticularyWordRecognitionDimension9_TEST.arff",
+      "ArticularyWordRecognitionDimension9_TRAIN.arff"
+    ],
+    "status": "downloaded",
+    "bytes": 7227737,
+    "sha256": "b5ac536689b7d5a6d4425f01a55897d5aba11fd0c2613bdacffb74eceb6518a2"
+  },
+  {
+    "name": "beijing_pm25",
+    "page": "https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data",
+    "download": "https://archive.ics.uci.edu/static/public/381/beijing+pm2+5+data.zip",
+    "files": [
+      "PRSA_data_2010.1.1-2014.12.31.csv"
+    ],
+    "status": "downloaded",
+    "bytes": 2010658,
+    "sha256": "40cdd29c24918e855133dce280ff59779bb0b5852898e05bafcf422a4cc0a175"
+  },
+  {
+    "name": "air_quality",
+    "page": "https://archive.ics.uci.edu/dataset/360/air+quality",
+    "download": "https://archive.ics.uci.edu/static/public/360/air+quality.zip",
+    "files": [
+      "AirQualityUCI.csv",
+      "AirQualityUCI.xlsx"
+    ],
+    "status": "downloaded",
+    "bytes": 1543989,
+    "sha256": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a"
+  }
+]

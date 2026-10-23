@@ -4,7 +4,7 @@
 用户选择“多数数据集有明确增益，整体优势稳健”，并继续要求一般多维时间序列持续学习主题，包含类别增长和回归。本轮不以单数据集最好数字或GPU使用率作为成功标准。
 
 ## 固定验收口径（在新测试集读取前）
-- 主要新验证集合：NATOPS、Epilepsy、RacketSports、PenDigits、ArticularyWordRecognition（分类），Beijing PM2.5、Air Quality（回归）。下载、维度和样本核验尚在进行，任何不可用数据的替换必须在读取结果前记录原因。
+- 主要新验证集合：NATOPS、Epilepsy、RacketSports、PenDigits、ArticularyWordRecognition（分类），Beijing PM2.5、Air Quality（回归）。7个官方归档已下载，维度和样本核验尚在进行，任何不可用数据的替换必须在读取结果前记录原因。
 - 原HAR/UWave/DailySports/Energy保留为开发与回归检查集，不能被称为新的盲测证据。
 - “明确增益”工作阈值：相对同数据集最强的预先声明强基线，分类最终宏准确率至少+1个百分点，回归最终RMSE至少降低5%；平均阶段指标也不得反向显著恶化。
 - 多数：7个新数据集至少4个达到阈值，其中分类至少3个、回归至少1个；两个任务族的整体方向均为改善。若实际来源核验导致集合变化，在任何测试前重新锁定分母。

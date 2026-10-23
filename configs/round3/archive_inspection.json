@@ -1,0 +1,291 @@
+[
+  {
+    "dataset": "NATOPS",
+    "splits": {
+      "TRAIN": {
+        "n": 180,
+        "dimensions": [
+          24
+        ],
+        "lengths": [
+          51
+        ],
+        "class_counts": {
+          "4.0": 30,
+          "3.0": 30,
+          "5.0": 30,
+          "1.0": 30,
+          "6.0": 30,
+          "2.0": 30
+        },
+        "missing_tokens": 0
+      },
+      "TEST": {
+        "n": 180,
+        "dimensions": [
+          24
+        ],
+        "lengths": [
+          51
+        ],
+        "class_counts": {
+          "4.0": 30,
+          "5.0": 30,
+          "6.0": 30,
+          "1.0": 30,
+          "3.0": 30,
+          "2.0": 30
+        },
+        "missing_tokens": 0
+      }
+    }
+  },
+  {
+    "dataset": "Epilepsy",
+    "splits": {
+      "TRAIN": {
+        "n": 137,
+        "dimensions": [
+          3
+        ],
+        "lengths": [
+          206
+        ],
+        "class_counts": {
+          "EPILEPSY": 34,
+          "WALKING": 37,
+          "RUNNING": 36,
+          "SAWING": 30
+        },
+        "missing_tokens": 0
+      },
+      "TEST": {
+        "n": 138,
+        "dimensions": [
+          3
+        ],
+        "lengths": [
+          206
+        ],
+        "class_counts": {
+          "EPILEPSY": 34,
+          "WALKING": 37,
+          "RUNNING": 37,
+          "SAWING": 30
+        },
+        "missing_tokens": 0
+      }
+    }
+  },
+  {
+    "dataset": "RacketSports",
+    "splits": {
+      "TRAIN": {
+        "n": 151,
+        "dimensions": [
+          6
+        ],
+        "lengths": [
+          30
+        ],
+        "class_counts": {
+          "Badminton_Smash": 39,
+          "Badminton_Clear": 43,
+          "Squash_ForehandBoast": 35,
+          "Squash_BackhandBoast": 34
+        },
+        "missing_tokens": 0
+      },
+      "TEST": {
+        "n": 152,
+        "dimensions": [
+          6
+        ],
+        "lengths": [
+          30
+        ],
+        "class_counts": {
+          "Badminton_Smash": 40,
+          "Badminton_Clear": 43,
+          "Squash_ForehandBoast": 35,
+          "Squash_BackhandBoast": 34
+        },
+        "missing_tokens": 0
+      }
+    }
+  },
+  {
+    "dataset": "PenDigits",
+    "splits": {
+      "TRAIN": {
+        "n": 7494,
+        "dimensions": [
+          2
+        ],
+        "lengths": [
+          8
+        ],
+        "class_counts": {
+          "8": 719,
+          "2": 780,
+          "1": 779,
+          "4": 780,
+          "6": 720,
+          "0": 780,
+          "5": 720,
+          "9": 719,
+          "7": 778,
+          "3": 719
+        },
+        "missing_tokens": 0
+      },
+      "TEST": {
+        "n": 3498,
+        "dimensions": [
+          2
+        ],
+        "lengths": [
+          8
+        ],
+        "class_counts": {
+          "8": 336,
+          "9": 336,
+          "1": 364,
+          "4": 364,
+          "7": 364,
+          "0": 363,
+          "2": 364,
+          "5": 335,
+          "3": 336,
+          "6": 336
+        },
+        "missing_tokens": 0
+      }
+    }
+  },
+  {
+    "dataset": "ArticularyWordRecognition",
+    "splits": {
+      "TRAIN": {
+        "n": 275,
+        "dimensions": [
+          9
+        ],
+        "lengths": [
+          144
+        ],
+        "class_counts": {
+          "1.0": 11,
+          "2.0": 11,
+          "3.0": 11,
+          "4.0": 11,
+          "5.0": 11,
+          "6.0": 11,
+          "7.0": 11,
+          "8.0": 11,
+          "9.0": 11,
+          "10.0": 11,
+          "11.0": 11,
+          "12.0": 11,
+          "13.0": 11,
+          "14.0": 11,
+          "15.0": 11,
+          "16.0": 11,
+          "17.0": 11,
+          "18.0": 11,
+          "19.0": 11,
+          "20.0": 11,
+          "21.0": 11,
+          "22.0": 11,
+          "23.0": 11,
+          "24.0": 11,
+          "25.0": 11
+        },
+        "missing_tokens": 0
+      },
+      "TEST": {
+        "n": 300,
+        "dimensions": [
+          9
+        ],
+        "lengths": [
+          144
+        ],
+        "class_counts": {
+          "1.0": 12,
+          "2.0": 12,
+          "3.0": 12,
+          "4.0": 12,
+          "5.0": 12,
+          "6.0": 12,
+          "7.0": 12,
+          "8.0": 12,
+          "9.0": 12,
+          "10.0": 12,
+          "11.0": 12,
+          "12.0": 12,
+          "13.0": 12,
+          "14.0": 12,
+          "15.0": 12,
+          "16.0": 12,
+          "17.0": 12,
+          "18.0": 12,
+          "19.0": 12,
+          "20.0": 12,
+          "21.0": 12,
+          "22.0": 12,
+          "23.0": 12,
+          "24.0": 12,
+          "25.0": 12
+        },
+        "missing_tokens": 0
+      }
+    }
+  },
+  {
+    "dataset": "beijing_pm25",
+    "csv": "PRSA_data_2010.1.1-2014.12.31.csv",
+    "header": [
+      "No",
+      "year",
+      "month",
+      "day",
+      "hour",
+      "pm2.5",
+      "DEWP",
+      "TEMP",
+      "PRES",
+      "cbwd",
+      "Iws",
+      "Is",
+      "Ir"
+    ],
+    "nonempty_rows": 43824,
+    "missing_code": "NA"
+  },
+  {
+    "dataset": "air_quality",
+    "csv": "AirQualityUCI.csv",
+    "header": [
+      "Date",
+      "Time",
+      "CO(GT)",
+      "PT08.S1(CO)",
+      "NMHC(GT)",
+      "C6H6(GT)",
+      "PT08.S2(NMHC)",
+      "NOx(GT)",
+      "PT08.S3(NOx)",
+      "NO2(GT)",
+      "PT08.S4(NO2)",
+      "PT08.S5(O3)",
+      "T",
+      "RH",
+      "AH",
+      "",
+      ""
+    ],
+    "nonempty_rows": 9357,
+    "missing_code": "-200"
+  }
+]

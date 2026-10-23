@@ -10,6 +10,6 @@
 用户新增要求普遍明显优势，并确认标准为“多数数据集有明确增益，整体优势稳健”。当前方法尚未满足；不要标记总目标完成。
 - 固定口径和下一轮集合见ROUND3_PROTOCOL.md。
 - 计划新增5个分类集、2个回归集，原4个集保留为开发集，不冒充新盲测。
-- 下载工作目录：`research/tmot_next`；成功/失败和SHA256见download_manifest.json；初次两页字符编码读取失败已修复，保留download_attempt1.json。
+- 7个官方归档已全部下载并记录SHA256，传至服务器raw/round3；下载工作目录：`research/tmot_next`；成功/失败和SHA256见download_manifest.json；初次两页字符编码读取失败已修复，保留download_attempt1.json。
 - 下一步：核验新数据归档和划分、准备/提取新特征；实现保留稳定语义分支的矩约束残差；先开发val淘汰，再锁定新test；同预算强基线及16总并发。
 - 不能根据第二轮已见test反复挑参，也不能删除弱数据集来满足多数标准。
