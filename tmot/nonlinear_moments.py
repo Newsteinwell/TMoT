@@ -20,11 +20,22 @@ def sample_cell(cell, count, rng, shrinkage=.1):
     return (mean + rng.normal(size=(count, len(mean))) @ factor.T).astype(np.float32)
 
 
+def per_sample_loss(prediction, target, task, loss):
+    if loss=='mse':return (prediction-target).square().mean(1)
+    if loss!='task':raise ValueError(loss)
+    if task=='classification':
+        return nn.functional.cross_entropy(prediction,target.argmax(1),reduction='none')
+    # Matches MSE's local curvature for residual magnitude <= one target SD.
+    return 2*nn.functional.huber_loss(prediction,target,reduction='none',delta=1.).mean(1)
+
+
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False):
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False, loss="mse"):
         if mode not in ('gaussian', 'local', 'er', 'no_history'): raise ValueError(mode)
+        if loss not in ('mse','task'):raise ValueError(loss)
+        self.loss=loss
         self.dimension, self.task, self.seed = dimension, task, seed
         self.ridge, self.mode, self.epochs = ridge, mode, epochs
         self.residual_weight, self.device = residual_weight, device
@@ -117,7 +128,7 @@ class NonlinearMomentLearner:
             order=torch.randperm(len(tx),device=self.device)
             for batch in order.split(256):
                 delta=self.net(features[batch]);pred=base[batch]+self.alpha*delta
-                error=(pred-targets[batch]).square().mean(1)
+                error=per_sample_loss(pred,targets[batch],self.task,self.loss)
                 loss=(weight[batch]*(error+self.residual_weight*delta.square().mean(1))).mean()
                 optimizer.zero_grad();loss.backward();torch.nn.utils.clip_grad_norm_(self.net.parameters(),5.);optimizer.step()
                 self.optimizer_steps+=1

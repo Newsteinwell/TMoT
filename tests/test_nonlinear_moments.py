@@ -41,3 +41,26 @@ def test_matched_replay_uses_identical_update_counts():
         model.observe(x[:10],y[:10]);model.observe(x[10:],y[10:]);models.append(model)
     assert [m.historical_training_samples for m in models]==[300,300]
     assert [m.optimizer_steps for m in models]==[4,4]
+
+
+def test_task_losses_have_expected_invariances_and_robust_tail():
+    import torch
+    from tmot.nonlinear_moments import per_sample_loss
+    scores=torch.tensor([[2.,-.5,1.],[-1.,3.,.2]],requires_grad=True);target=torch.eye(3)[torch.tensor([0,1])]
+    loss=per_sample_loss(scores,target,'classification','task')
+    torch.testing.assert_close(loss,per_sample_loss(scores+100,target,'classification','task'))
+    loss.sum().backward();assert torch.isfinite(scores.grad).all()
+    small=torch.tensor([[.5,-.8]])
+    torch.testing.assert_close(per_sample_loss(small,torch.zeros_like(small),'regression','task'),per_sample_loss(small,torch.zeros_like(small),'regression','mse'))
+    tail=torch.tensor([[10.]],requires_grad=True)
+    per_sample_loss(tail,torch.zeros_like(tail),'regression','task').sum().backward()
+    assert tail.grad.item()==2.
+
+
+def test_task_loss_supports_class_growth_and_vector_regression():
+    rng=np.random.default_rng(8);x=rng.normal(size=(24,4)).astype('float32')
+    for task,y in [('classification',np.repeat([2,7,9],8)),('regression',rng.normal(size=(24,2)))]:
+        m=NonlinearMomentLearner(4,task=task,loss='task',device='cpu',epochs=1,width=8,replay_count=32)
+        m.observe(x[:16],y[:16]);m.observe(x[16:],y[16:])
+        assert np.isfinite(m.predict(x)).all()
+        assert m.predict(x).shape==y.shape
