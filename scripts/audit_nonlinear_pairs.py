@@ -3,10 +3,10 @@ import argparse,json
 from pathlib import Path
 import numpy as np
 import torch
-p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);p.add_argument('--queue',default='nonlinear_matched_v11');p.add_argument('--expected-pairs',type=int,default=24);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);p.add_argument('--queue',default='nonlinear_matched_v11');p.add_argument('--expected-pairs',type=int,default=24);p.add_argument('--left-token',default='gaussian');p.add_argument('--right-token',default='er');a=p.parse_args()
 folder=a.root/'runs'/a.queue;pairs=[]
-for path in sorted(folder.glob('*_gaussian_*/summary.json')):
-    other=path.parent.with_name(path.parent.name.replace('_gaussian_','_er_'))
+for path in sorted(folder.glob('*_'+a.left_token+'_*/summary.json')):
+    other=path.parent.with_name(path.parent.name.replace('_'+a.left_token+'_','_'+a.right_token+'_'))
     g=json.loads(path.read_text());e=json.loads((other/'summary.json').read_text())
     assert g['input_hashes']==e['input_hashes'] and g['order']==e['order']
     for x,y in zip(g['stages'],e['stages'],strict=True):

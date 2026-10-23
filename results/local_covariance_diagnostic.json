@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "energy",
+    "components": 1,
+    "effective_cells": 5,
+    "samples": 390,
+    "cross_cov_relative_error": 0.19889343370028123,
+    "input_variance_relative_error": 2.175276725744118e-08,
+    "target_variance_relative_error": 1.3141540747189132e-09
+  },
+  {
+    "dataset": "energy",
+    "components": 4,
+    "effective_cells": 20,
+    "samples": 390,
+    "cross_cov_relative_error": 0.11514329284132013,
+    "input_variance_relative_error": 1.4952181155687447e-08,
+    "target_variance_relative_error": 8.407883807571119e-09
+  },
+  {
+    "dataset": "beijing_pm25",
+    "components": 1,
+    "effective_cells": 5,
+    "samples": 805,
+    "cross_cov_relative_error": 0.22571008338978438,
+    "input_variance_relative_error": 1.2310038746155975e-08,
+    "target_variance_relative_error": 1.2068553273819966e-08
+  },
+  {
+    "dataset": "beijing_pm25",
+    "components": 4,
+    "effective_cells": 20,
+    "samples": 805,
+    "cross_cov_relative_error": 0.14818125649139102,
+    "input_variance_relative_error": 5.825575241349053e-09,
+    "target_variance_relative_error": 3.0560709696280046e-09
+  },
+  {
+    "dataset": "air_quality",
+    "components": 1,
+    "effective_cells": 5,
+    "samples": 120,
+    "cross_cov_relative_error": 0.10460666619300542,
+    "input_variance_relative_error": 1.557198493485321e-08,
+    "target_variance_relative_error": 7.3346266513979444e-09
+  },
+  {
+    "dataset": "air_quality",
+    "components": 4,
+    "effective_cells": 5,
+    "samples": 120,
+    "cross_cov_relative_error": 0.10460666619300542,
+    "input_variance_relative_error": 1.557198493485321e-08,
+    "target_variance_relative_error": 7.3346266513979444e-09
+  }
+]
