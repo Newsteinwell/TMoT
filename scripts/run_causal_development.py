@@ -5,7 +5,8 @@ p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('--w
 if a.wait_pid:
     path=Path(f'/proc/{a.wait_pid}/cmdline')
     while path.exists() and b'extract_features.py' in path.read_bytes():time.sleep(5)
-out=a.root/'runs'/'causal_development_v19';out.mkdir(parents=True,exist_ok=True)
+os.environ['CUBLAS_WORKSPACE_CONFIG']=':4096:8'
+out=a.root/'runs'/'causal_development_v19_retry';out.mkdir(parents=True,exist_ok=True)
 jobs=[]
 for dataset in ('beijing_pm25','air_quality'):
     for encoder in ('summary','mantis'):
