@@ -1,0 +1,585 @@
+{
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "numpy": "2.3.2",
+    "scipy": "1.18.1",
+    "mantis-tsfm": "1.1.0",
+    "huggingface-hub": "2.2.0",
+    "pytest": "9.1.1"
+  },
+  "datasets": {
+    "dailysports_manifest": {
+      "task": "classification",
+      "source": "UCI 256",
+      "source_sha256": "f42ad7744ecf14151c9fa3a86dfb5b24de9d7cb7ffe956ef5de242983459c77e",
+      "protocol": "p1-p5 train; p6 validation; p7-p8 test; all 19 original classes",
+      "notes": "Subject-disjoint; differs from TSCIL processed 18-class variant. Five-second segments never split.",
+      "sizes": {
+        "train": 5700,
+        "val": 1140,
+        "test": 2280
+      },
+      "shapes": {
+        "train": [
+          5700,
+          45,
+          125
+        ],
+        "val": [
+          1140,
+          45,
+          125
+        ],
+        "test": [
+          2280,
+          45,
+          125
+        ]
+      },
+      "files": {
+        "train": "0036fcef04b0fd21ef9022839e819427e4e4021420959ffcbfeef5928880cdab",
+        "val": "bece15dbf304ff44a76f6397964aef4d3187c2bcdc71bf3954471787acc0df05",
+        "test": "5254c81b0552edd5bb65c74fc8b8ff7e5ea4799a2bd72ca5556b826697b55f3a"
+      }
+    },
+    "energy_manifest": {
+      "task": "regression",
+      "source": "UCI 374",
+      "source_sha256": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+      "columns": [
+        "Appliances",
+        "lights",
+        "T1",
+        "RH_1",
+        "T2",
+        "RH_2",
+        "T3",
+        "RH_3",
+        "T4",
+        "RH_4",
+        "T5",
+        "RH_5",
+        "T6",
+        "RH_6",
+        "T7",
+        "RH_7",
+        "T8",
+        "RH_8",
+        "T9",
+        "RH_9"
+      ],
+      "target": "mean Appliances Wh per 10-min interval over next six intervals, NOT six-interval sum",
+      "protocol": "5 chronological domains; each raw timeline split 60/20/20 before 24-step lookback / 6-step future / stride30",
+      "notes": "No raw timestamp overlap across windows. Pilot sequence-to-vector regression. Weather interpolation omitted. Not a general forecasting benchmark.",
+      "sizes": {
+        "train": 390,
+        "val": 130,
+        "test": 130
+      },
+      "shapes": {
+        "train": [
+          390,
+          20,
+          24
+        ],
+        "val": [
+          130,
+          20,
+          24
+        ],
+        "test": [
+          130,
+          20,
+          24
+        ]
+      },
+      "files": {
+        "train": "8b0f38e6d7da55f7bdc07fae29e3208108c7c45422195af2fb6bc65c1f9c4b8f",
+        "val": "f0af23a1bdb22c2ebba8dc92e55289ec2f4c281fbdedb32457c27249476dcf3d",
+        "test": "4a01443cc2dd98f1676d86f5a7baca60b0db73186f25ec55ee5bc806a45d3b73"
+      }
+    },
+    "har_manifest": {
+      "task": "classification",
+      "source": "UCI 240",
+      "source_sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+      "protocol": "official subject-disjoint test; largest four training subject IDs for validation",
+      "notes": "Existing 50%-overlapping windows; all train/val/test subjects disjoint. Pilot, not TSCIL exact split.",
+      "sizes": {
+        "train": 5867,
+        "val": 1485,
+        "test": 2947
+      },
+      "shapes": {
+        "train": [
+          5867,
+          9,
+          128
+        ],
+        "val": [
+          1485,
+          9,
+          128
+        ],
+        "test": [
+          2947,
+          9,
+          128
+        ]
+      },
+      "files": {
+        "train": "9ce4836b28a2456edc2b3efed542d970be27f4e9ea85958847a8824f6bc7e43e",
+        "val": "79e390ee7f5cfc4606391b5003c1aefae935bce7e74a28a25c60f4ad1c9ac335",
+        "test": "16fff9ad8da7039bf48c391c82a5e17a59992ff65d55d25ac2764fd47b288472"
+      }
+    },
+    "uwave_manifest": {
+      "task": "classification",
+      "source": "UEA multivariate UWaveGestureLibrary",
+      "source_sha256": "c6a771794bb14a815e204307b7d7e85d7a8291ddb16626cb9460aa5a75b6e042",
+      "protocol": "official train/test; stratified 20% train validation",
+      "notes": "Subject metadata unavailable in ts files; do not claim subject-independent validation; pilot only.",
+      "sizes": {
+        "train": 96,
+        "val": 24,
+        "test": 320
+      },
+      "shapes": {
+        "train": [
+          96,
+          3,
+          315
+        ],
+        "val": [
+          24,
+          3,
+          315
+        ],
+        "test": [
+          320,
+          3,
+          315
+        ]
+      },
+      "files": {
+        "train": "f57ea332689ec10b9ad01e026bf4ffb606368a108915806783d466a1a33b011d",
+        "val": "459634ad2e31983ff89314691109cd220f934495ba2ac51ffe4905f3b825841c",
+        "test": "2b25a94f3ea5a2d5cae53f6bad50a83fe600c0e265ce6408f78ac8b44881fc67"
+      }
+    }
+  },
+  "features": {
+    "mantis": [
+      {
+        "dataset": "dailysports",
+        "split": "test",
+        "encoder": "mantis",
+        "seconds": 12.766080930829048,
+        "shape": [
+          2280,
+          23130
+        ],
+        "source_sha256": "5254c81b0552edd5bb65c74fc8b8ff7e5ea4799a2bd72ca5556b826697b55f3a",
+        "cache_sha256": "e9c0b3f9ed8c50246b3880e3a64bbdf77508597e35e7cee4ecb35ea4cabe677c",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 331336192,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "dailysports",
+        "split": "train",
+        "encoder": "mantis",
+        "seconds": 32.74006936699152,
+        "shape": [
+          5700,
+          23130
+        ],
+        "source_sha256": "0036fcef04b0fd21ef9022839e819427e4e4021420959ffcbfeef5928880cdab",
+        "cache_sha256": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 331336192,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "dailysports",
+        "split": "val",
+        "encoder": "mantis",
+        "seconds": 6.419248428195715,
+        "shape": [
+          1140,
+          23130
+        ],
+        "source_sha256": "bece15dbf304ff44a76f6397964aef4d3187c2bcdc71bf3954471787acc0df05",
+        "cache_sha256": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 331336192,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "energy",
+        "split": "test",
+        "encoder": "mantis",
+        "seconds": 0.31369419395923615,
+        "shape": [
+          130,
+          10280
+        ],
+        "source_sha256": "4a01443cc2dd98f1676d86f5a7baca60b0db73186f25ec55ee5bc806a45d3b73",
+        "cache_sha256": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 328372736,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "energy",
+        "split": "train",
+        "encoder": "mantis",
+        "seconds": 0.9913971535861492,
+        "shape": [
+          390,
+          10280
+        ],
+        "source_sha256": "8b0f38e6d7da55f7bdc07fae29e3208108c7c45422195af2fb6bc65c1f9c4b8f",
+        "cache_sha256": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 328372736,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "energy",
+        "split": "val",
+        "encoder": "mantis",
+        "seconds": 0.3229258842766285,
+        "shape": [
+          130,
+          10280
+        ],
+        "source_sha256": "f0af23a1bdb22c2ebba8dc92e55289ec2f4c281fbdedb32457c27249476dcf3d",
+        "cache_sha256": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 328372736,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "har",
+        "split": "test",
+        "encoder": "mantis",
+        "seconds": 3.6104844585061073,
+        "shape": [
+          2947,
+          4626
+        ],
+        "source_sha256": "16fff9ad8da7039bf48c391c82a5e17a59992ff65d55d25ac2764fd47b288472",
+        "cache_sha256": "f7b7f773d4e01a917712a52d95b1904d2d06a3340c73dd2eeee8f92341315d00",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 327821824,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "har",
+        "split": "train",
+        "encoder": "mantis",
+        "seconds": 7.893184386193752,
+        "shape": [
+          5867,
+          4626
+        ],
+        "source_sha256": "9ce4836b28a2456edc2b3efed542d970be27f4e9ea85958847a8824f6bc7e43e",
+        "cache_sha256": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 327821824,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "har",
+        "split": "val",
+        "encoder": "mantis",
+        "seconds": 1.835633423179388,
+        "shape": [
+          1485,
+          4626
+        ],
+        "source_sha256": "79e390ee7f5cfc4606391b5003c1aefae935bce7e74a28a25c60f4ad1c9ac335",
+        "cache_sha256": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 327821824,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "uwave",
+        "split": "test",
+        "encoder": "mantis",
+        "seconds": 0.13272175937891006,
+        "shape": [
+          320,
+          1542
+        ],
+        "source_sha256": "2b25a94f3ea5a2d5cae53f6bad50a83fe600c0e265ce6408f78ac8b44881fc67",
+        "cache_sha256": "d39c32bad954766efb7da571a9b4ea98eb9d3eacfd2a8a5bea94a233c67e76ae",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 258749952,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "uwave",
+        "split": "train",
+        "encoder": "mantis",
+        "seconds": 0.04596801474690437,
+        "shape": [
+          96,
+          1542
+        ],
+        "source_sha256": "f57ea332689ec10b9ad01e026bf4ffb606368a108915806783d466a1a33b011d",
+        "cache_sha256": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 258749952,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "uwave",
+        "split": "val",
+        "encoder": "mantis",
+        "seconds": 0.012205146253108978,
+        "shape": [
+          24,
+          1542
+        ],
+        "source_sha256": "459634ad2e31983ff89314691109cd220f934495ba2ac51ffe4905f3b825841c",
+        "cache_sha256": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280",
+        "weights": {
+          "model.safetensors": "49d46d9a49cccdc87c46f4e0088fa52c0a6ef7eb4c13de5cc9815426b7b17ab1",
+          "config.json": "f28885b7aa662cedcaf5627659fc0fba9cf8ee49d5b991280522e04fa5b1ae80"
+        },
+        "gpu_peak_bytes": 207172096,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      }
+    ],
+    "summary": [
+      {
+        "dataset": "energy",
+        "split": "test",
+        "encoder": "summary",
+        "seconds": 0.01345524936914444,
+        "shape": [
+          130,
+          680
+        ],
+        "source_sha256": "4a01443cc2dd98f1676d86f5a7baca60b0db73186f25ec55ee5bc806a45d3b73",
+        "cache_sha256": "b95794305c1d787a2be9f71e1db40d144bdcc07e45dacfd2accc86f004eaf3eb",
+        "weights": {},
+        "gpu_peak_bytes": 250880,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "energy",
+        "split": "train",
+        "encoder": "summary",
+        "seconds": 0.4120442532002926,
+        "shape": [
+          390,
+          680
+        ],
+        "source_sha256": "8b0f38e6d7da55f7bdc07fae29e3208108c7c45422195af2fb6bc65c1f9c4b8f",
+        "cache_sha256": "e2b648a4f17712cd9e5770289015bcea0eef580e9e5f342fcacd853c6da5134b",
+        "weights": {},
+        "gpu_peak_bytes": 250880,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      },
+      {
+        "dataset": "energy",
+        "split": "val",
+        "encoder": "summary",
+        "seconds": 0.013763908296823502,
+        "shape": [
+          130,
+          680
+        ],
+        "source_sha256": "f0af23a1bdb22c2ebba8dc92e55289ec2f4c281fbdedb32457c27249476dcf3d",
+        "cache_sha256": "b4dbaf138da04faa248ca0b5860963c3c16900898b98badfa92aa237aba64941",
+        "weights": {},
+        "gpu_peak_bytes": 250880,
+        "preprocessing": "sample-local zscore to encoder; ordered channel concat + channel mean/population-SD"
+      }
+    ]
+  },
+  "queues": {
+    "pilot_cil_v1": {
+      "expected": 72,
+      "completed_metric_checked": 72,
+      "checked": [
+        "dailysports_er_o17_s42",
+        "dailysports_er_o17_s43",
+        "dailysports_er_o29_s42",
+        "dailysports_er_o29_s43",
+        "dailysports_ft_o17_s42",
+        "dailysports_ft_o17_s43",
+        "dailysports_ft_o29_s42",
+        "dailysports_ft_o29_s43",
+        "dailysports_ranpac_o17_s42",
+        "dailysports_ranpac_o17_s43",
+        "dailysports_ranpac_o29_s42",
+        "dailysports_ranpac_o29_s43",
+        "dailysports_ridge_o17_s42",
+        "dailysports_ridge_o17_s43",
+        "dailysports_ridge_o29_s42",
+        "dailysports_ridge_o29_s43",
+        "dailysports_slda_o17_s42",
+        "dailysports_slda_o17_s43",
+        "dailysports_slda_o29_s42",
+        "dailysports_slda_o29_s43",
+        "dailysports_tmot_o17_s42",
+        "dailysports_tmot_o17_s43",
+        "dailysports_tmot_o29_s42",
+        "dailysports_tmot_o29_s43",
+        "har_er_o17_s42",
+        "har_er_o17_s43",
+        "har_er_o29_s42",
+        "har_er_o29_s43",
+        "har_ft_o17_s42",
+        "har_ft_o17_s43",
+        "har_ft_o29_s42",
+        "har_ft_o29_s43",
+        "har_ranpac_o17_s42",
+        "har_ranpac_o17_s43",
+        "har_ranpac_o29_s42",
+        "har_ranpac_o29_s43",
+        "har_ridge_o17_s42",
+        "har_ridge_o17_s43",
+        "har_ridge_o29_s42",
+        "har_ridge_o29_s43",
+        "har_slda_o17_s42",
+        "har_slda_o17_s43",
+        "har_slda_o29_s42",
+        "har_slda_o29_s43",
+        "har_tmot_o17_s42",
+        "har_tmot_o17_s43",
+        "har_tmot_o29_s42",
+        "har_tmot_o29_s43",
+        "uwave_er_o17_s42",
+        "uwave_er_o17_s43",
+        "uwave_er_o29_s42",
+        "uwave_er_o29_s43",
+        "uwave_ft_o17_s42",
+        "uwave_ft_o17_s43",
+        "uwave_ft_o29_s42",
+        "uwave_ft_o29_s43",
+        "uwave_ranpac_o17_s42",
+        "uwave_ranpac_o17_s43",
+        "uwave_ranpac_o29_s42",
+        "uwave_ranpac_o29_s43",
+        "uwave_ridge_o17_s42",
+        "uwave_ridge_o17_s43",
+        "uwave_ridge_o29_s42",
+        "uwave_ridge_o29_s43",
+        "uwave_slda_o17_s42",
+        "uwave_slda_o17_s43",
+        "uwave_slda_o29_s42",
+        "uwave_slda_o29_s43",
+        "uwave_tmot_o17_s42",
+        "uwave_tmot_o17_s43",
+        "uwave_tmot_o29_s42",
+        "uwave_tmot_o29_s43"
+      ],
+      "failed": []
+    },
+    "pilot_mechanism_v1": {
+      "expected": 24,
+      "completed_metric_checked": 24,
+      "checked": [
+        "dailysports_frozen_adapter_o17_s42",
+        "dailysports_frozen_adapter_o17_s43",
+        "dailysports_frozen_adapter_o29_s42",
+        "dailysports_frozen_adapter_o29_s43",
+        "dailysports_no_hist_o17_s42",
+        "dailysports_no_hist_o17_s43",
+        "dailysports_no_hist_o29_s42",
+        "dailysports_no_hist_o29_s43",
+        "har_frozen_adapter_o17_s42",
+        "har_frozen_adapter_o17_s43",
+        "har_frozen_adapter_o29_s42",
+        "har_frozen_adapter_o29_s43",
+        "har_no_hist_o17_s42",
+        "har_no_hist_o17_s43",
+        "har_no_hist_o29_s42",
+        "har_no_hist_o29_s43",
+        "uwave_frozen_adapter_o17_s42",
+        "uwave_frozen_adapter_o17_s43",
+        "uwave_frozen_adapter_o29_s42",
+        "uwave_frozen_adapter_o29_s43",
+        "uwave_no_hist_o17_s42",
+        "uwave_no_hist_o17_s43",
+        "uwave_no_hist_o29_s42",
+        "uwave_no_hist_o29_s43"
+      ],
+      "failed": []
+    },
+    "pilot_regression_mantis_v1": {
+      "expected": 10,
+      "completed_metric_checked": 10,
+      "checked": [
+        "energy_er_o17_s42",
+        "energy_er_o17_s43",
+        "energy_ft_o17_s42",
+        "energy_ft_o17_s43",
+        "energy_no_hist_o17_s42",
+        "energy_no_hist_o17_s43",
+        "energy_ridge_o17_s42",
+        "energy_ridge_o17_s43",
+        "energy_tmot_o17_s42",
+        "energy_tmot_o17_s43"
+      ],
+      "failed": []
+    },
+    "pilot_regression_v1": {
+      "expected": 10,
+      "completed_metric_checked": 10,
+      "checked": [
+        "energy_er_o17_s42",
+        "energy_er_o17_s43",
+        "energy_ft_o17_s42",
+        "energy_ft_o17_s43",
+        "energy_no_hist_o17_s42",
+        "energy_no_hist_o17_s43",
+        "energy_ridge_o17_s42",
+        "energy_ridge_o17_s43",
+        "energy_tmot_o17_s42",
+        "energy_tmot_o17_s43"
+      ],
+      "failed": []
+    }
+  }
+}

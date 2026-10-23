@@ -44,4 +44,4 @@ See [protocol](docs/PROTOCOL.md), [mathematical design](docs/DESIGN.md), and [da
 
 ## Pilot results
 
-See [execution status](docs/STATUS_2026-10-24.md) and [initial regression records](results/pilot_regression_v1/summary.csv). The first regression pilot does not outperform simple baselines; negative results are retained. Classification and the second-encoder regression queue are launched separately. These are exploratory results, not paper-ready validation.
+See [execution status](docs/STATUS_2026-10-24.md) and [initial regression records](results/pilot_regression_v1/summary.csv). The first regression pilot does not outperform simple baselines; negative results are retained. All116 pilot trajectories have completed, including mechanism controls. See the [full pilot report](docs/PILOT_REPORT_2026-10-24.md). These are exploratory results, not paper-ready validation.
