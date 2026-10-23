@@ -50,7 +50,7 @@ def per_sample_loss(prediction, target, task, loss):
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False, loss="mse", warm_start=False, local_support=16):
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False, local_components=4, preserve_targets=False, calibrate_replay=False, loss="mse", warm_start=False, local_support=16, local_min_cell=1):
         if mode not in ('gaussian', 'local', 'er', 'no_history'): raise ValueError(mode)
         if loss not in ('mse','task'):raise ValueError(loss)
         self.loss=loss
@@ -62,7 +62,7 @@ class NonlinearMomentLearner:
         self.er_resample=er_resample
         self.calibrate_replay=calibrate_replay;self.last_calibration=None
         from .local_moments import LocalMomentMixture
-        self.local=LocalMomentMixture(dimension,task,seed+676,components=local_components,preserve_targets=preserve_targets,support=local_support) if mode=='local' else None
+        self.local=LocalMomentMixture(dimension,task,seed+676,components=local_components,preserve_targets=preserve_targets,support=local_support,min_cell=local_min_cell) if mode=='local' else None
         self.classes=[]; self.memory=None; self.joint_cells=[]; self.stage=0; self.seen=0
         self.buffer=None; self.keys=None; self.last_loss=None
         self.rng=np.random.default_rng(seed)

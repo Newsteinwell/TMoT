@@ -80,11 +80,35 @@ def local_partition(x,k,rng):
     return ((z[:,None]-centers[None])**2).sum(2).argmin(1)
 
 
+def merge_small_cells(x, assignment, minimum):
+    """Merge the smallest undersized cell into its nearest standardized centroid.
+
+    Uses only the current arrival, no targets or RNG. If the entire arrival is
+    smaller than minimum, a single undersized cell is unavoidable.
+    """
+    if minimum<1:raise ValueError('minimum must be positive')
+    labels=np.asarray(assignment).copy()
+    if minimum==1:return labels
+    x=np.asarray(x,dtype=np.float64)
+    z=(x-x.mean(0))/np.maximum(x.std(0),1e-6)
+    while True:
+        keys,counts=np.unique(labels,return_counts=True)
+        if len(keys)==1 or counts.min()>=minimum:return labels
+        source=keys[np.argmin(counts)]
+        candidates=keys[keys!=source]
+        center=z[labels==source].mean(0)
+        distances=np.array([np.sum((z[labels==k].mean(0)-center)**2) for k in candidates])
+        target=candidates[np.argmin(distances)]
+        labels[labels==source]=target
+
+
 class LocalMomentMixture:
-    def __init__(self,dimension,task,seed=42,components=4,rank=16,preserve_targets=False,support=16):
+    def __init__(self,dimension,task,seed=42,components=4,rank=16,preserve_targets=False,support=16,min_cell=1):
         self.dimension,self.task,self.components,self.rank=dimension,task,components,rank
         if support<1:raise ValueError("support must be positive")
         self.support=support
+        if min_cell<1:raise ValueError('min_cell must be positive')
+        self.min_cell=min_cell
         self.preserve_targets=preserve_targets
         self.cells={};self.rng=np.random.default_rng(seed)
 
@@ -99,6 +123,7 @@ class LocalMomentMixture:
             rows=inputs if label is not None else np.concatenate([inputs,targets],axis=1)
             k=min(self.components,max(1,len(inputs)//self.support))
             assignment=local_partition(inputs,k,self.rng)
+            assignment=merge_small_cells(inputs,assignment,self.min_cell)
             for component in np.unique(assignment):
                 batch=rows[assignment==component]
                 cell=(LocalCell.fit_target_preserving(batch,self.dimension,self.rank)
