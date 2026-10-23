@@ -1,0 +1,106 @@
+{
+  "source": "results/history_scale_v42_comparison.json",
+  "selection": "Frozen best final VAL with lower-ridge tie break; no reselection for new seeds or orders",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "classification_orders": [
+    17,
+    23,
+    29
+  ],
+  "selected": {
+    "har": {
+      "local": {
+        "dataset": "har",
+        "method": "v42_local",
+        "final": 0.974247778134704,
+        "average": 0.9914159260449013,
+        "ridge": 0.01,
+        "selected_run": "har_mantis_local_reg1_r0.01_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 17227712
+      },
+      "er": {
+        "dataset": "har",
+        "method": "v42_er",
+        "final": 0.9677943550146141,
+        "average": 0.9892647850048714,
+        "ridge": 0.001,
+        "selected_run": "har_mantis_er_reg1_r0.001_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 20536832
+      }
+    },
+    "uwave": {
+      "local": {
+        "dataset": "uwave",
+        "method": "v42_local",
+        "final": 0.9166666666666666,
+        "average": 0.9444444444444443,
+        "ridge": 0.1,
+        "selected_run": "uwave_mantis_local_reg1_r0.1_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 20803504
+      },
+      "er": {
+        "dataset": "uwave",
+        "method": "v42_er",
+        "final": 0.9166666666666666,
+        "average": 0.9444444444444443,
+        "ridge": 0.01,
+        "selected_run": "uwave_mantis_er_reg1_r0.01_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 20780368
+      }
+    },
+    "dailysports": {
+      "local": {
+        "dataset": "dailysports",
+        "method": "v42_local",
+        "final": 0.9736842105263156,
+        "average": 0.9771334266518303,
+        "ridge": 0.1,
+        "selected_run": "dailysports_mantis_local_reg1_r0.1_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 46680936
+      },
+      "er": {
+        "dataset": "dailysports",
+        "method": "v42_er",
+        "final": 0.9807017543859649,
+        "average": 0.9821468793536217,
+        "ridge": 0.001,
+        "selected_run": "dailysports_mantis_er_reg1_r0.001_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 48093192
+      }
+    },
+    "energy": {
+      "local": {
+        "dataset": "energy",
+        "method": "v42_local",
+        "final": 63.71637738635612,
+        "average": 71.54000338330133,
+        "ridge": 1.0,
+        "selected_run": "energy_mantis_local_reg1_r1_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 6357884
+      },
+      "er": {
+        "dataset": "energy",
+        "method": "v42_er",
+        "final": 66.97469662509774,
+        "average": 71.79707560410205,
+        "ridge": 10.0,
+        "selected_run": "energy_mantis_er_reg1_r10_o17_s42",
+        "candidates": 6,
+        "persistent_bytes": 6547592
+      }
+    }
+  }
+}
