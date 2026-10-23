@@ -5,7 +5,7 @@ import numpy as np
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('queue');p.add_argument('out',type=Path);a=p.parse_args()
 folder=a.root/'runs'/a.queue;manifest=json.loads((folder/'manifest.json').read_text());jobs=manifest['jobs']
 pruned={};pruned_checked=[]
-for filename in ('expert_checkpoint_pruning.json','projection_checkpoint_pruning.json','feature_checkpoint_pruning.json','function_checkpoint_pruning.json','replay_checkpoint_pruning.json'):
+for filename in ('expert_checkpoint_pruning.json','projection_checkpoint_pruning.json','feature_checkpoint_pruning.json','function_checkpoint_pruning.json','replay_checkpoint_pruning.json','orthogonal_checkpoint_pruning.json'):
     retention=a.root/filename
     if retention.exists():
         record=json.loads(retention.read_text())

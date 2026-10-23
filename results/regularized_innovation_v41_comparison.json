@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 0.987200519317693,
+    "average": 0.7500280759935456,
+    "ridge": 10.0,
+    "persistent_bytes": 5991872
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 0.9862612821505219,
+    "average": 0.7503606707634739,
+    "ridge": 10.0,
+    "persistent_bytes": 5991872
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 0.9883685441942669,
+    "average": 0.7730712922681281,
+    "ridge": 10.0,
+    "persistent_bytes": 6043888
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 0.9883202322867797,
+    "average": 0.7727624909683464,
+    "ridge": 10.0,
+    "persistent_bytes": 6043888
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "method": "er",
+    "version": "joint",
+    "final": 0.7541863646582347,
+    "average": 0.6948724725494235,
+    "ridge": 0.01,
+    "persistent_bytes": 5991872
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "method": "er",
+    "version": "regularized",
+    "final": 0.7515480874923031,
+    "average": 0.786324022921632,
+    "ridge": 0.01,
+    "persistent_bytes": 5991872
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "method": "local",
+    "version": "joint",
+    "final": 0.8247297608487779,
+    "average": 0.764932274830785,
+    "ridge": 0.1,
+    "persistent_bytes": 6056224
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "method": "local",
+    "version": "regularized",
+    "final": 0.8399310627607218,
+    "average": 0.7654045687302625,
+    "ridge": 1.0,
+    "persistent_bytes": 6056224
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 1.0,
+    "average": 0.9940476190476191,
+    "ridge": 1.0,
+    "persistent_bytes": 57081864
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 1.0,
+    "average": 0.994392684610076,
+    "ridge": 0.001,
+    "persistent_bytes": 57081864
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 1.0,
+    "average": 0.994392684610076,
+    "ridge": 0.001,
+    "persistent_bytes": 57144056
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 1.0,
+    "average": 0.994392684610076,
+    "ridge": 0.001,
+    "persistent_bytes": 57144056
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 42.92942373658284,
+    "average": 50.13693978366344,
+    "ridge": 1.0,
+    "persistent_bytes": 7405712
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 42.92421240175181,
+    "average": 50.09247476429035,
+    "ridge": 1.0,
+    "persistent_bytes": 7405712
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 46.27160567298917,
+    "average": 52.508273509032406,
+    "ridge": 1.0,
+    "persistent_bytes": 6476916
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 46.149781596884566,
+    "average": 52.688264073743014,
+    "ridge": 1.0,
+    "persistent_bytes": 6476916
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "method": "er",
+    "version": "joint",
+    "final": 39.281637294427426,
+    "average": 52.65830021354428,
+    "ridge": 1.0,
+    "persistent_bytes": 7405712
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "method": "er",
+    "version": "regularized",
+    "final": 39.28178334844671,
+    "average": 52.68096759885177,
+    "ridge": 1.0,
+    "persistent_bytes": 7405712
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "method": "local",
+    "version": "joint",
+    "final": 45.656936723897275,
+    "average": 56.306638680511924,
+    "ridge": 1.0,
+    "persistent_bytes": 6524112
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "method": "local",
+    "version": "regularized",
+    "final": 45.587006130195945,
+    "average": 56.36225971723091,
+    "ridge": 1.0,
+    "persistent_bytes": 6524112
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 0.001,
+    "persistent_bytes": 12332448
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 0.01,
+    "persistent_bytes": 12332448
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 0.01,
+    "persistent_bytes": 12359456
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 1.0,
+    "average": 1.0,
+    "ridge": 0.1,
+    "persistent_bytes": 12359456
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 0.9166666666666666,
+    "average": 0.8888888888888888,
+    "ridge": 0.001,
+    "persistent_bytes": 16640000
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 0.9444444444444445,
+    "average": 0.9120370370370371,
+    "ridge": 0.001,
+    "persistent_bytes": 16640000
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 0.9166666666666666,
+    "average": 0.9027777777777778,
+    "ridge": 0.001,
+    "persistent_bytes": 16674704
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 0.9444444444444445,
+    "average": 0.9120370370370371,
+    "ridge": 0.001,
+    "persistent_bytes": 16674704
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 0.995979020979021,
+    "average": 0.9979175752562851,
+    "ridge": 0.001,
+    "persistent_bytes": 29015712
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 0.9966783216783217,
+    "average": 0.9980574353961451,
+    "ridge": 0.001,
+    "persistent_bytes": 29015712
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 0.9960331603879992,
+    "average": 0.99810426222523,
+    "ridge": 0.001,
+    "persistent_bytes": 26296544
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 0.9960331603879992,
+    "average": 0.99810426222523,
+    "ridge": 0.001,
+    "persistent_bytes": 26296544
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "joint",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "ridge": 0.001,
+    "persistent_bytes": 12357216
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "er",
+    "version": "regularized",
+    "final": 0.8973214285714286,
+    "average": 0.9174107142857143,
+    "ridge": 0.01,
+    "persistent_bytes": 12357216
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "joint",
+    "final": 0.9330357142857143,
+    "average": 0.9665178571428572,
+    "ridge": 0.1,
+    "persistent_bytes": 12379936
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "local",
+    "version": "regularized",
+    "final": 0.9330357142857143,
+    "average": 0.9665178571428572,
+    "ridge": 1.0,
+    "persistent_bytes": 12379936
+  }
+]

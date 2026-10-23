@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 import torch
 p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args()
-torch.set_num_threads(1);cache={};checked=[];controls=0;failures=[];diagnostics=[]
+torch.set_num_threads(1);cache={};checked=[];controls=0;failures=[];diagnostics=[];validation_cache={}
 for path in sorted((a.root/'runs/regularized_innovation_v41').glob('*/summary.json')):
     s=json.loads(path.read_text());c=s['config'];ck=torch.load(path.parent/'final.pt',map_location='cpu',weights_only=False);m=ck['learner']
     key=c['dataset'],c['encoder'],c['method'];olddir=a.root/'runs/exact_base_v39'/f"{key[0]}_{key[1]}_{key[2]}_exact1_r0.1_o17_s42"
@@ -32,7 +32,26 @@ for path in sorted((a.root/'runs/regularized_innovation_v41').glob('*/summary.js
         expected=transform@np.r_[base,correction]
         error=float(np.max(np.abs(m.readout-expected)))
         if not np.allclose(m.readout,expected,rtol=1e-6,atol=2e-7):failures.append(dict(run=path.parent.name,max_weight_difference=error))
-        diagnostics.append(dict(run=path.parent.name,max_weight_difference=error,**m.innovation_diagnostics))
+        if key not in validation_cache:
+            with np.load(a.root/'features'/c['encoder']/f"{c['dataset']}_val.npz") as data:
+                validation_cache[key]=(ck['basis'].transform(data['x']),data['y'].copy())
+        vx,vy=validation_cache[key];features=m.function.transform(vx)
+        zp=np.c_[vx.astype(np.float64),np.ones(len(vx))]
+        pred_base=zp@base
+        pred_all=np.c_[features.astype(np.float64),np.ones(len(vx))]@m.readout
+        delta=pred_all-pred_base
+        if s['task']=='classification':
+            target=np.eye(len(m.classes))[[m.classes.index(int(v)) for v in vy]]
+            weights=np.array([1/(len(m.classes)*np.sum(vy==v)) for v in vy])
+        else:
+            target=(vy-ck['target_mean'])/ck['target_sd'];weights=np.full(len(vy),1/len(vy))
+        residual=target-pred_base
+        base_risk=float(weights@np.sum(residual**2,axis=1))
+        benefit=float(2*weights@np.sum(residual*delta,axis=1))
+        cost=float(weights@np.sum(delta**2,axis=1))
+        combined=float(weights@np.sum((target-pred_all)**2,axis=1))
+        np.testing.assert_allclose(base_risk-benefit+cost,combined,rtol=1e-9,atol=1e-9)
+        diagnostics.append(dict(run=path.parent.name,max_weight_difference=error,validation_base_quadratic_risk=base_risk,validation_alignment_benefit=benefit,validation_correction_cost=cost,validation_combined_quadratic_risk=combined,**m.innovation_diagnostics))
     else:
         controls+=1;np.testing.assert_array_equal(m.readout,old.readout)
         for stage in range(1,len(s['stages'])+1):
