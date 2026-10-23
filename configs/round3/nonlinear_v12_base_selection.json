@@ -1,0 +1,86 @@
+{
+  "air_quality_mantis": {
+    "ridge": 0.1,
+    "source_run": "air_quality_mantis_linear_r0.1_o17_s42",
+    "metric": "final_rmse",
+    "validation_value": 1.0162368038501508
+  },
+  "air_quality_summary": {
+    "ridge": 1.0,
+    "source_run": "air_quality_summary_linear_r1_o17_s42",
+    "metric": "final_rmse",
+    "validation_value": 0.9068621144161777
+  },
+  "articulary_mantis": {
+    "ridge": 0.001,
+    "source_run": "articulary_mantis_linear_r0.001_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 1.0
+  },
+  "articulary_summary": {
+    "ridge": 1.0,
+    "source_run": "articulary_summary_linear_r1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.98
+  },
+  "beijing_pm25_mantis": {
+    "ridge": 0.01,
+    "source_run": "beijing_pm25_mantis_linear_r0.01_o17_s42",
+    "metric": "final_rmse",
+    "validation_value": 44.120007086141115
+  },
+  "beijing_pm25_summary": {
+    "ridge": 0.1,
+    "source_run": "beijing_pm25_summary_linear_r0.1_o17_s42",
+    "metric": "final_rmse",
+    "validation_value": 43.64984784541407
+  },
+  "epilepsy_mantis": {
+    "ridge": 1.0,
+    "source_run": "epilepsy_mantis_linear_r1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 1.0
+  },
+  "epilepsy_summary": {
+    "ridge": 0.1,
+    "source_run": "epilepsy_summary_linear_r0.1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.8035714285714286
+  },
+  "natops_mantis": {
+    "ridge": 0.001,
+    "source_run": "natops_mantis_linear_r0.001_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.9444444444444445
+  },
+  "natops_summary": {
+    "ridge": 1.0,
+    "source_run": "natops_summary_linear_r1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.8611111111111112
+  },
+  "pendigits_mantis": {
+    "ridge": 0.01,
+    "source_run": "pendigits_mantis_linear_r0.01_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.9959304584304585
+  },
+  "pendigits_summary": {
+    "ridge": 0.1,
+    "source_run": "pendigits_summary_linear_r0.1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.8843267664235407
+  },
+  "racketsports_mantis": {
+    "ridge": 0.1,
+    "source_run": "racketsports_mantis_linear_r0.1_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.8973214285714286
+  },
+  "racketsports_summary": {
+    "ridge": 10.0,
+    "source_run": "racketsports_summary_linear_r10_o17_s42",
+    "metric": "final_macro_accuracy",
+    "validation_value": 0.8616071428571429
+  }
+}

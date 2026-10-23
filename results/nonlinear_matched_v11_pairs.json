@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "pairs": 24,
+  "checked": [
+    "dailysports_gaussian_w0.01_o17_s42",
+    "dailysports_gaussian_w0.01_o17_s43",
+    "dailysports_gaussian_w0.1_o17_s42",
+    "dailysports_gaussian_w0.1_o17_s43",
+    "dailysports_gaussian_w1_o17_s42",
+    "dailysports_gaussian_w1_o17_s43",
+    "energy_gaussian_w0.01_o17_s42",
+    "energy_gaussian_w0.01_o17_s43",
+    "energy_gaussian_w0.1_o17_s42",
+    "energy_gaussian_w0.1_o17_s43",
+    "energy_gaussian_w1_o17_s42",
+    "energy_gaussian_w1_o17_s43",
+    "har_gaussian_w0.01_o17_s42",
+    "har_gaussian_w0.01_o17_s43",
+    "har_gaussian_w0.1_o17_s42",
+    "har_gaussian_w0.1_o17_s43",
+    "har_gaussian_w1_o17_s42",
+    "har_gaussian_w1_o17_s43",
+    "uwave_gaussian_w0.01_o17_s42",
+    "uwave_gaussian_w0.01_o17_s43",
+    "uwave_gaussian_w0.1_o17_s42",
+    "uwave_gaussian_w0.1_o17_s43",
+    "uwave_gaussian_w1_o17_s42",
+    "uwave_gaussian_w1_o17_s43"
+  ],
+  "checks": [
+    "identical basis and analytic shortcut",
+    "equal per-stage optimizer steps and replay counts",
+    "exact source validation IDs and labels",
+    "no extra or missing stage evaluation IDs"
+  ]
+}

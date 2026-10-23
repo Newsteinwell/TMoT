@@ -6,7 +6,7 @@ p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('que
 folder=a.root/'runs'/a.queue;manifest=json.loads((folder/'manifest.json').read_text());jobs=manifest['jobs']
 if a.queue=='stable_development_v7':names={f'{d}_{v}_o17_s{seed}' for d,v,m,r,seed,args in jobs}
 elif a.queue=='kernel_development_v8':names={f'{d}_{v}_r{r:g}_o17_s42' for d,v,r in jobs}
-elif a.queue in ('round3_validation_v9','nonlinear_development_v10','nonlinear_matched_v11'):names={job['name'] for job in jobs}
+elif a.queue in ('round3_validation_v9','nonlinear_development_v10','nonlinear_matched_v11','nonlinear_validation_v12'):names={job['name'] for job in jobs}
 else:raise ValueError(a.queue)
 hashes={};checked=[]
 for path in sorted(folder.glob('*/summary.json')):

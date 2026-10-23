@@ -3,8 +3,8 @@ import argparse,json
 from pathlib import Path
 import numpy as np
 import torch
-p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args()
-folder=a.root/'runs'/'nonlinear_matched_v11';pairs=[]
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);p.add_argument('--queue',default='nonlinear_matched_v11');p.add_argument('--expected-pairs',type=int,default=24);a=p.parse_args()
+folder=a.root/'runs'/a.queue;pairs=[]
 for path in sorted(folder.glob('*_gaussian_*/summary.json')):
     other=path.parent.with_name(path.parent.name.replace('_gaussian_','_er_'))
     g=json.loads(path.read_text());e=json.loads((other/'summary.json').read_text())
@@ -34,6 +34,6 @@ for path in sorted(folder.glob('*_gaussian_*/summary.json')):
             expected=[str(v) for v in ids[mask]]
             assert len(observed)==len(set(observed)) and sorted(observed)==sorted(expected)
     pairs.append(path.parent.name)
-assert len(pairs)==24
+assert len(pairs)==a.expected_pairs
 report=dict(complete=True,pairs=len(pairs),checked=pairs,checks=['identical basis and analytic shortcut','equal per-stage optimizer steps and replay counts','exact source validation IDs and labels','no extra or missing stage evaluation IDs'])
 a.out.write_text(json.dumps(report,indent=2));print(json.dumps(report))
