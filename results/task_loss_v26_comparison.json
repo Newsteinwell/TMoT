@@ -1,0 +1,365 @@
+{
+  "scope": "VAL best of identical three-point regularization grids; one seed/order; no independent test evidence",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 1.0237757963142133,
+      "average": 0.8329626609064601,
+      "weight": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 0.9996547576302761,
+      "average": 0.83190683958642,
+      "weight": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 1.0160432412939693,
+      "average": 0.8329260380991439,
+      "weight": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 1.019787718142535,
+      "average": 0.8326521760977835,
+      "weight": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 0.8381166601506442,
+      "average": 0.8365020253998111,
+      "weight": 0.01
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 0.9602557946468224,
+      "average": 0.8531098179935374,
+      "weight": 1.0
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 0.8412237681981963,
+      "average": 0.8307107256858274,
+      "weight": 0.01
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 0.9595114787548215,
+      "average": 0.8456765832350783,
+      "weight": 1.0
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.994392684610076,
+      "weight": 0.01
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.998015873015873,
+      "weight": 0.01
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.9792809042809042,
+      "weight": 0.01
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.9714942464942465,
+      "weight": 0.01
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 42.64747465028005,
+      "average": 52.29454108604504,
+      "weight": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 44.369253713544445,
+      "average": 52.280424402442954,
+      "weight": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 43.50944452737293,
+      "average": 52.61429111061707,
+      "weight": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 43.410027755838065,
+      "average": 52.566263615458716,
+      "weight": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 39.881118689025215,
+      "average": 50.52115165590921,
+      "weight": 0.01
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 44.181713914475054,
+      "average": 53.32695873268553,
+      "weight": 1.0
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_rmse",
+      "final": 40.22266241583627,
+      "average": 50.64373613897002,
+      "weight": 0.01
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_rmse",
+      "final": 45.95351418971533,
+      "average": 53.725035363986464,
+      "weight": 1.0
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "weight": 1.0
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "weight": 0.01
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "weight": 0.01
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "weight": 0.01
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.9444444444444445,
+      "average": 0.9120370370370371,
+      "weight": 0.01
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "weight": 0.01
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.875,
+      "weight": 1.0
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.888888888888889,
+      "average": 0.8796296296296297,
+      "weight": 0.01
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.998018648018648,
+      "average": 0.9984857570744667,
+      "weight": 1.0
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.9921828708925483,
+      "average": 0.9955616713036068,
+      "weight": 0.1
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.9973193473193473,
+      "average": 0.9985800310800311,
+      "weight": 0.01
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.9915418452515228,
+      "average": 0.9953072035491392,
+      "weight": 1.0
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9174107142857143,
+      "weight": 0.01
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "loss": "mse",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9174107142857143,
+      "weight": 0.01
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "er",
+      "metric": "final_macro_accuracy",
+      "final": 0.9330357142857143,
+      "average": 0.9665178571428572,
+      "weight": 1.0
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "loss": "task",
+      "mode": "gaussian",
+      "metric": "final_macro_accuracy",
+      "final": 0.9330357142857143,
+      "average": 0.9665178571428572,
+      "weight": 1.0
+    }
+  ]
+}
