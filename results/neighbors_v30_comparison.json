@@ -1,0 +1,422 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 1.1549240297214474,
+    "average": 0.8866988587447555,
+    "k": 11,
+    "buffer_bytes": 246720
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 1.1549240297214474,
+    "average": 0.8866988587447555,
+    "k": 11,
+    "buffer_bytes": 246720
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 1.1426224138991457,
+    "average": 0.8814152706283483,
+    "k": 21,
+    "buffer_bytes": 255360
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 1.1426224138991457,
+    "average": 0.8814152706283483,
+    "k": 21,
+    "buffer_bytes": 255360
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 1.0203503575860415,
+    "average": 0.8140713786768086,
+    "k": 3,
+    "buffer_bytes": 78720
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 1.0203503575860415,
+    "average": 0.8140713786768086,
+    "k": 3,
+    "buffer_bytes": 78720
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.98,
+    "average": 0.9983333333333334,
+    "k": 1,
+    "buffer_bytes": 462600
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.98,
+    "average": 0.9983333333333334,
+    "k": 1,
+    "buffer_bytes": 462600
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.98,
+    "average": 0.9983333333333334,
+    "k": 1,
+    "buffer_bytes": 470700
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.98,
+    "average": 0.9983333333333334,
+    "k": 1,
+    "buffer_bytes": 470700
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.96,
+    "average": 0.9595408539452152,
+    "k": 1,
+    "buffer_bytes": 74700
+  },
+  {
+    "dataset": "articulary",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.96,
+    "average": 0.9595408539452152,
+    "k": 1,
+    "buffer_bytes": 74700
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 64.24045950575528,
+    "average": 75.94646730458916,
+    "k": 11,
+    "buffer_bytes": 1655080
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 64.24045950575528,
+    "average": 75.94646730458916,
+    "k": 11,
+    "buffer_bytes": 1655080
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 59.212606512820614,
+    "average": 69.61568832024204,
+    "k": 11,
+    "buffer_bytes": 1725920
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 59.212606512820614,
+    "average": 69.61568832024204,
+    "k": 11,
+    "buffer_bytes": 1725920
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_rmse",
+    "final": 53.27877461937377,
+    "average": 62.336988167187044,
+    "k": 11,
+    "buffer_bytes": 644000
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_rmse",
+    "final": 53.27877461937377,
+    "average": 62.336988167187044,
+    "k": 11,
+    "buffer_bytes": 644000
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 1.0,
+    "average": 1.0,
+    "k": 1,
+    "buffer_bytes": 228216
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 1.0,
+    "average": 1.0,
+    "k": 1,
+    "buffer_bytes": 228216
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 1.0,
+    "average": 1.0,
+    "k": 1,
+    "buffer_bytes": 229548
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 1.0,
+    "average": 1.0,
+    "k": 1,
+    "buffer_bytes": 229548
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8035714285714286,
+    "average": 0.7767857142857143,
+    "k": 1,
+    "buffer_bytes": 12876
+  },
+  {
+    "dataset": "epilepsy",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8035714285714286,
+    "average": 0.7767857142857143,
+    "k": 1,
+    "buffer_bytes": 12876
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8611111111111112,
+    "average": 0.9120370370370371,
+    "k": 11,
+    "buffer_bytes": 296064
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8611111111111112,
+    "average": 0.9120370370370371,
+    "k": 11,
+    "buffer_bytes": 296064
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8333333333333334,
+    "average": 0.9027777777777778,
+    "k": 11,
+    "buffer_bytes": 309888
+  },
+  {
+    "dataset": "natops",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8333333333333334,
+    "average": 0.9027777777777778,
+    "k": 11,
+    "buffer_bytes": 309888
+  },
+  {
+    "dataset": "natops",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.7222222222222223,
+    "average": 0.6435185185185186,
+    "k": 21,
+    "buffer_bytes": 125568
+  },
+  {
+    "dataset": "natops",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.7222222222222223,
+    "average": 0.6435185185185186,
+    "k": 21,
+    "buffer_bytes": 125568
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.9830941236183172,
+    "average": 0.9949840213549891,
+    "k": 1,
+    "buffer_bytes": 4194240
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.9938818394866781,
+    "average": 0.9979060643657418,
+    "k": 1,
+    "buffer_bytes": 12333944
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.9919414993608543,
+    "average": 0.9973164774293807,
+    "k": 1,
+    "buffer_bytes": 4194048
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.9938818394866781,
+    "average": 0.9979060643657418,
+    "k": 1,
+    "buffer_bytes": 12381936
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.9945818607915383,
+    "average": 0.9980256096949647,
+    "k": 3,
+    "buffer_bytes": 479920
+  },
+  {
+    "dataset": "pendigits",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.9945818607915383,
+    "average": 0.9980256096949647,
+    "k": 3,
+    "buffer_bytes": 479920
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8660714285714286,
+    "average": 0.9330357142857143,
+    "k": 3,
+    "buffer_bytes": 252888
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8660714285714286,
+    "average": 0.9330357142857143,
+    "k": 3,
+    "buffer_bytes": 252888
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "k": 21,
+    "buffer_bytes": 255840
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "mantis_raw_last",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "k": 21,
+    "buffer_bytes": 255840
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "raw_windows",
+    "method": "neighbors_buffer",
+    "metric": "final_macro_accuracy",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "k": 1,
+    "buffer_bytes": 27552
+  },
+  {
+    "dataset": "racketsports",
+    "encoder": "raw_windows",
+    "method": "neighbors_full",
+    "metric": "final_macro_accuracy",
+    "final": 0.8973214285714286,
+    "average": 0.9486607142857143,
+    "k": 1,
+    "buffer_bytes": 27552
+  }
+]
