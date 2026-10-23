@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "7d3ce9512198867ef827721cbeb4fde53c16424d",
+  "original_sha256": {
+    "wimot/method/readout.py": "d40e0c719d8957b57c3ce74ec73ed427957fa97268e73c5712db3d4ae7a8feec",
+    "wimot/method/statistics.py": "3f23b9a3acd995bacdaffc91de758a4234b200d52999baed631063002cb2a3ca",
+    "wimot/method/calibration.py": "4987669bcdd9354a50870806743853682866f326ee6c9146c122a0366968d024",
+    "wimot/method/hist_loss.py": "a3411f51efb14a65949fc7cb54c7f109808d8550db1fd887fbc968fbdb7e67b1"
+  }
+}

@@ -1,0 +1,2 @@
+"""Pinned upstream method parameters; no data-dependent overrides."""
+PROTOCOL = {'method': {'supcon_temperature': 0.07, 'supcon_weight': 0.5, 'pca_dimension': 256, 'residual_projection_seed': 20261011, 'readout': {'kappa': 0.25, 'white_rho': 0.5, 'precondition_rho': 0.1, 'alpha': 1.0, 'gamma': 0.5, 'mean_prior_strength': 0.5, 'maxiter': 200, 'degrees_of_freedom': [3, 10, 30], 'gate_modes': ['gaussian', 'student'], 'calibration_seed': 42}}}
