@@ -1,0 +1,9 @@
+{
+  "stage": "exploratory pilot; no test-driven selection",
+  "encoder": "mantis",
+  "datasets": ["har", "uwave", "dailysports"],
+  "methods": ["ft", "er", "slda", "ridge", "ranpac", "tmot"],
+  "orders": [17, 29],
+  "seeds": [42, 43],
+  "epochs": 30
+}

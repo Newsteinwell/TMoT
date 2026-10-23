@@ -1,0 +1,9 @@
+{
+  "stage": "exploratory real-data sequence-to-vector regression pilot",
+  "encoder": "summary",
+  "datasets": ["energy"],
+  "methods": ["ft", "er", "ridge", "tmot", "no_hist"],
+  "orders": [17],
+  "seeds": [42, 43],
+  "epochs": 30
+}
