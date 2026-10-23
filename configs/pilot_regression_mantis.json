@@ -1,0 +1,22 @@
+{
+  "stage": "prespecified second-encoder regression pilot, no hyperparameter change",
+  "encoder": "mantis",
+  "datasets": [
+    "energy"
+  ],
+  "methods": [
+    "ft",
+    "er",
+    "ridge",
+    "tmot",
+    "no_hist"
+  ],
+  "orders": [
+    17
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "epochs": 30
+}
