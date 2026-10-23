@@ -23,7 +23,7 @@ for (dataset,dimension),runs in sorted(groups.items()):
                 preds.append(np.concatenate([d[f'pred_{k}'] for k in keys]))
         predictions=np.stack(preds)
         if classification:
-            labels=np.unique(truth);counts=np.stack([(predictions==label).sum(0) for label in labels]);pred=labels[counts.argmax(0)]
+            labels=np.sort(np.concatenate(ref['order'][:stage['stage']]));counts=np.stack([(predictions==label).sum(0) for label in labels]);pred=labels[counts.argmax(0)]
             ties=int(np.sum((counts==counts.max(0)).sum(0)>1))
             value=float(np.mean([np.mean(pred[truth==c]==c) for c in labels]))
         else:
