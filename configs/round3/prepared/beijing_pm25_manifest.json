@@ -1,0 +1,66 @@
+{
+  "task": "regression",
+  "source": "UCI 381",
+  "source_sha256": "40cdd29c24918e855133dce280ff59779bb0b5852898e05bafcf422a4cc0a175",
+  "columns": [
+    "pm2.5",
+    "DEWP",
+    "TEMP",
+    "PRES",
+    "Iws",
+    "Is",
+    "Ir",
+    "wind_NE",
+    "wind_NW",
+    "wind_SE",
+    "wind_cv",
+    "pm2.5_observed",
+    "DEWP_observed",
+    "TEMP_observed",
+    "PRES_observed",
+    "Iws_observed",
+    "Is_observed",
+    "Ir_observed",
+    "wind_NE_observed",
+    "wind_NW_observed",
+    "wind_SE_observed",
+    "wind_cv_observed"
+  ],
+  "target": "mean future six-hour PM2.5 concentration",
+  "raw_rows": 43824,
+  "dropped_windows": {
+    "gap": 0,
+    "target_missing": 94,
+    "input_prefix_missing": 26
+  },
+  "protocol": "5 chronological domains, raw 60/20/20 split before lookback24/horizon6/stride30",
+  "imputation": "causal forward-fill strictly inside each input window; leading missing input or any missing target => discard window",
+  "raw_overlap": false,
+  "sizes": {
+    "train": 805,
+    "val": 257,
+    "test": 273
+  },
+  "shapes": {
+    "train": [
+      805,
+      22,
+      24
+    ],
+    "val": [
+      257,
+      22,
+      24
+    ],
+    "test": [
+      273,
+      22,
+      24
+    ]
+  },
+  "files": {
+    "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+    "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+    "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+  }
+}

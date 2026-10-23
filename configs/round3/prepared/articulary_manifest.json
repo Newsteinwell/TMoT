@@ -1,0 +1,61 @@
+{
+  "task": "classification",
+  "source": "UEA ArticularyWordRecognition",
+  "source_sha256": "b5ac536689b7d5a6d4425f01a55897d5aba11fd0c2613bdacffb74eceb6518a2",
+  "classes": {
+    "1.0": 0,
+    "10.0": 1,
+    "11.0": 2,
+    "12.0": 3,
+    "13.0": 4,
+    "14.0": 5,
+    "15.0": 6,
+    "16.0": 7,
+    "17.0": 8,
+    "18.0": 9,
+    "19.0": 10,
+    "2.0": 11,
+    "20.0": 12,
+    "21.0": 13,
+    "22.0": 14,
+    "23.0": 15,
+    "24.0": 16,
+    "25.0": 17,
+    "3.0": 18,
+    "4.0": 19,
+    "5.0": 20,
+    "6.0": 21,
+    "7.0": 22,
+    "8.0": 23,
+    "9.0": 24
+  },
+  "protocol": "official TEST; stratified 20% TRAIN validation seed1701",
+  "notes": "Subject identifiers unavailable; no subject-independent validation claim",
+  "sizes": {
+    "train": 225,
+    "val": 50,
+    "test": 300
+  },
+  "shapes": {
+    "train": [
+      225,
+      9,
+      144
+    ],
+    "val": [
+      50,
+      9,
+      144
+    ],
+    "test": [
+      300,
+      9,
+      144
+    ]
+  },
+  "files": {
+    "train": "862954fb4131c158d1fb39218e070ed2100f38f22b999f4c899d399c785bf25c",
+    "val": "d4884cbb853a7bfabbae3455dfd286aaf15831571bcb8e3a7fc6e9ae2a6d83ba",
+    "test": "899c31ba1acd43c6d68949bda8691dfe8c80fbe0273317c808ecb693336057e3"
+  }
+}

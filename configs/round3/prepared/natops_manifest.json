@@ -1,0 +1,42 @@
+{
+  "task": "classification",
+  "source": "UEA NATOPS",
+  "source_sha256": "38e91561d70426b508abf6db253070b1bed00a1c303d70844997ef4d4ab3b7ff",
+  "classes": {
+    "1.0": 0,
+    "2.0": 1,
+    "3.0": 2,
+    "4.0": 3,
+    "5.0": 4,
+    "6.0": 5
+  },
+  "protocol": "official TEST; stratified 20% TRAIN validation seed1701",
+  "notes": "Subject identifiers unavailable; no subject-independent validation claim",
+  "sizes": {
+    "train": 144,
+    "val": 36,
+    "test": 180
+  },
+  "shapes": {
+    "train": [
+      144,
+      24,
+      51
+    ],
+    "val": [
+      36,
+      24,
+      51
+    ],
+    "test": [
+      180,
+      24,
+      51
+    ]
+  },
+  "files": {
+    "train": "4ed01a73a59a6fa9f76d79f4411eba44a164f821a6bd896a1bd612b6401b97e3",
+    "val": "fcb81d9bd0f6b3b767605b9c7ad326f48ff36dadcf9cc02d7431251e28c338ea",
+    "test": "a19373944864db3441392b83bdeb3abc3aa2d2f19b531b4f878294b692dffac2"
+  }
+}

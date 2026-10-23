@@ -1,0 +1,40 @@
+{
+  "task": "classification",
+  "source": "UEA RacketSports",
+  "source_sha256": "230c10f30f6800297313eb9aa77a9c2c8ba0714ce1364d3356cb3c342f69a90a",
+  "classes": {
+    "Badminton_Clear": 0,
+    "Badminton_Smash": 1,
+    "Squash_BackhandBoast": 2,
+    "Squash_ForehandBoast": 3
+  },
+  "protocol": "official TEST; stratified 20% TRAIN validation seed1701",
+  "notes": "Subject identifiers unavailable; no subject-independent validation claim",
+  "sizes": {
+    "train": 123,
+    "val": 28,
+    "test": 152
+  },
+  "shapes": {
+    "train": [
+      123,
+      6,
+      30
+    ],
+    "val": [
+      28,
+      6,
+      30
+    ],
+    "test": [
+      152,
+      6,
+      30
+    ]
+  },
+  "files": {
+    "train": "3b65386dbf97a268e752b50aff1ea6b7e9c04927a1561ac4310317b5f1046e2f",
+    "val": "37deb3a5b6e0c8526b78c53b14196dce0624df80493dd361784d9a293912e72c",
+    "test": "368d8f2ff0b0621db7c1328e5e45d48d9361d69a517a92761957875d0d6c5968"
+  }
+}

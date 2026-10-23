@@ -1,0 +1,62 @@
+{
+  "task": "regression",
+  "source": "UCI 360",
+  "source_sha256": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+  "columns": [
+    "CO(GT)",
+    "PT08.S1(CO)",
+    "PT08.S2(NMHC)",
+    "PT08.S3(NOx)",
+    "PT08.S4(NO2)",
+    "PT08.S5(O3)",
+    "T",
+    "RH",
+    "AH",
+    "CO(GT)_observed",
+    "PT08.S1(CO)_observed",
+    "PT08.S2(NMHC)_observed",
+    "PT08.S3(NOx)_observed",
+    "PT08.S4(NO2)_observed",
+    "PT08.S5(O3)_observed",
+    "T_observed",
+    "RH_observed",
+    "AH_observed"
+  ],
+  "target": "mean future six-hour CO concentration (mg/m^3)",
+  "raw_rows": 9357,
+  "dropped_windows": {
+    "gap": 0,
+    "target_missing": 84,
+    "input_prefix_missing": 30
+  },
+  "protocol": "5 chronological domains, raw 60/20/20 split before lookback24/horizon6/stride30",
+  "imputation": "causal forward-fill strictly inside each input window; leading missing input or any missing target => discard window",
+  "raw_overlap": false,
+  "sizes": {
+    "train": 120,
+    "val": 33,
+    "test": 38
+  },
+  "shapes": {
+    "train": [
+      120,
+      18,
+      24
+    ],
+    "val": [
+      33,
+      18,
+      24
+    ],
+    "test": [
+      38,
+      18,
+      24
+    ]
+  },
+  "files": {
+    "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+    "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+    "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+  }
+}

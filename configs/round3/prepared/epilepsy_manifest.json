@@ -1,0 +1,40 @@
+{
+  "task": "classification",
+  "source": "UEA Epilepsy",
+  "source_sha256": "8e5ce818a4989e520aa620f3009621692f06c8e8e73d72ee98cc0dbdee7c10c9",
+  "classes": {
+    "EPILEPSY": 0,
+    "RUNNING": 1,
+    "SAWING": 2,
+    "WALKING": 3
+  },
+  "protocol": "official TEST; stratified 20% TRAIN validation seed1701",
+  "notes": "Subject identifiers unavailable; no subject-independent validation claim",
+  "sizes": {
+    "train": 111,
+    "val": 26,
+    "test": 138
+  },
+  "shapes": {
+    "train": [
+      111,
+      3,
+      206
+    ],
+    "val": [
+      26,
+      3,
+      206
+    ],
+    "test": [
+      138,
+      3,
+      206
+    ]
+  },
+  "files": {
+    "train": "2fff25e6dd59ce72160cc1571f65e6c45367948c578746f5da47d08e24038eb7",
+    "val": "fd78969d1ddaf7ff3632a303ea9793bcf92432a27c6b1286544fc320ade69948",
+    "test": "6ec67a7cd22cb3b49bd54eda0a6dddf3ad1d464bbbb81cd339f59c35310c4438"
+  }
+}

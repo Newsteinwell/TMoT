@@ -1,0 +1,46 @@
+{
+  "task": "classification",
+  "source": "UEA PenDigits",
+  "source_sha256": "4a9a706463eb98b8773fb6c2bb24038f2855ce1f0c55d1d0109e9f0bd0052842",
+  "classes": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "protocol": "official TEST; stratified 20% TRAIN validation seed1701",
+  "notes": "Subject identifiers unavailable; no subject-independent validation claim",
+  "sizes": {
+    "train": 5999,
+    "val": 1495,
+    "test": 3498
+  },
+  "shapes": {
+    "train": [
+      5999,
+      2,
+      8
+    ],
+    "val": [
+      1495,
+      2,
+      8
+    ],
+    "test": [
+      3498,
+      2,
+      8
+    ]
+  },
+  "files": {
+    "train": "d849e0554e66db4f9271066260ee84703def7cd4b67e1d576de33d0cbb78b08b",
+    "val": "40e14d131978021f6dbf17e39bbcaeb948a1fc908a19adb3e04b27745e612e5f",
+    "test": "10896b7cc1552da448f4db49b82da5a4a10657e9e33c118ce84c5990d1f55487"
+  }
+}
