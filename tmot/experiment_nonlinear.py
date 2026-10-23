@@ -42,7 +42,7 @@ def run(a):
     basis=StableSemanticBasis(2*channels,a.dimension).fit(x[stages[0]])
     learner=NonlinearMomentLearner(a.dimension,task,a.seed,ridge=a.ridge,mode=a.method,
                                     epochs=a.epochs,residual_weight=a.residual_weight,
-                                    alpha=a.alpha,device=a.device)
+                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -57,7 +57,8 @@ def run(a):
             predictions[f'pred_{s}']=pred;predictions[f'ids_{s}']=test['ids'][inds];predictions[f'y_{s}']=truth
         truth=np.concatenate(all_y);pred=np.concatenate(all_p)
         item=dict(stage=stage+1,fit_s=fit_s,eval_s=time.perf_counter()-t,current_samples=len(ids),
-                  persistent_bytes=learner.persistent_bytes,loss=learner.last_loss,scores=scores)
+                  persistent_bytes=learner.persistent_bytes,loss=learner.last_loss,scores=scores,
+                  optimizer_steps=learner.optimizer_steps,historical_training_samples=learner.historical_training_samples)
         if task=='classification':
             item.update(macro_accuracy=macro_accuracy(truth,pred),accuracy=float(np.mean(truth==pred)))
         else:
@@ -94,6 +95,7 @@ def parser():
     p.add_argument('--eval-split',choices=['val','test'],default='test')
     p.add_argument('--readout',choices=['ridge','trained'],default='ridge')
     p.add_argument('--current-loss',choices=['ce','mse'],default='ce')
+    p.add_argument('--er-resample',action='store_true')
     p.add_argument('--alpha',type=float,default=1.)
     p.add_argument('--residual-weight',type=float,default=.1)
     p.add_argument('--device',default='cuda');p.add_argument('--threads',type=int,default=2)

@@ -30,3 +30,14 @@ def test_class_growth_replay_only_arrived_classes_and_er_budget():
         m.observe(x[16:],y[16:]);assert set(m.classes)==set([2,7,9])
         assert m.predict(x).shape==(24,)
         if mode=='er':assert sum(v.nbytes for v in m.buffer)+m.keys.nbytes<=256
+
+
+def test_matched_replay_uses_identical_update_counts():
+    rng=np.random.default_rng(4);x=rng.normal(size=(20,4)).astype('float32');y=np.repeat([2,7],10)
+    models=[]
+    for mode in ('gaussian','er'):
+        model=NonlinearMomentLearner(4,mode=mode,device='cpu',epochs=2,width=8,
+                                    replay_count=300,replay_bytes=256,er_resample=True)
+        model.observe(x[:10],y[:10]);model.observe(x[10:],y[10:]);models.append(model)
+    assert [m.historical_training_samples for m in models]==[300,300]
+    assert [m.optimizer_steps for m in models]==[4,4]

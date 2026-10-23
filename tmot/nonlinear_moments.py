@@ -23,12 +23,13 @@ def sample_cell(cell, count, rng, shrinkage=.1):
 class NonlinearMomentLearner:
     def __init__(self, dimension, task='classification', seed=42, ridge=.1,
                  mode='gaussian', epochs=30, residual_weight=.1, device='cuda',
-                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1.):
+                 replay_count=4096, replay_bytes=4*1024**2, width=128, alpha=1., er_resample=False):
         if mode not in ('gaussian', 'er', 'no_history'): raise ValueError(mode)
         self.dimension, self.task, self.seed = dimension, task, seed
         self.ridge, self.mode, self.epochs = ridge, mode, epochs
         self.residual_weight, self.device = residual_weight, device
         self.replay_count, self.replay_bytes, self.width, self.alpha = replay_count, replay_bytes, width, alpha
+        self.er_resample=er_resample
         self.classes=[]; self.memory=None; self.joint_cells=[]; self.stage=0; self.seen=0
         self.buffer=None; self.keys=None; self.last_loss=None
         self.rng=np.random.default_rng(seed)
@@ -37,7 +38,8 @@ class NonlinearMomentLearner:
         if not self.stage or self.mode=='no_history': return None
         if self.mode=='er':
             x,y=self.buffer
-            ids=self.rng.choice(len(x), size=min(len(x),self.replay_count), replace=False)
+            count=self.replay_count if self.er_resample else min(len(x),self.replay_count)
+            ids=self.rng.choice(len(x), size=count, replace=count>len(x))
             return x[ids].copy(), y[ids].copy()
         if self.task=='classification':
             # Balanced class sampling matches the macro-risk shortcut objective.
@@ -99,6 +101,8 @@ class NonlinearMomentLearner:
         targets=torch.as_tensor(targets,device=self.device)
         weight=torch.as_tensor(weight*len(tx),dtype=torch.float32,device=self.device)
         self.net.train()
+        self.historical_training_samples=0 if historical is None else len(historical[0])
+        self.optimizer_steps=0
         for epoch in range(self.epochs):
             order=torch.randperm(len(tx),device=self.device)
             for batch in order.split(256):
@@ -106,6 +110,7 @@ class NonlinearMomentLearner:
                 error=(pred-targets[batch]).square().mean(1)
                 loss=(weight[batch]*(error+self.residual_weight*delta.square().mean(1))).mean()
                 optimizer.zero_grad();loss.backward();torch.nn.utils.clip_grad_norm_(self.net.parameters(),5.);optimizer.step()
+                self.optimizer_steps+=1
                 self.last_loss=float(loss.detach())
         self.net.eval()
         if self.mode=='er':self._store_buffer(x,y)
