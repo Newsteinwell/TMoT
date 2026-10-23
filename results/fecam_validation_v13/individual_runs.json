@@ -1,0 +1,5018 @@
+[
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a0.01_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.8423388674855232,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 679149568,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9618854836353826,
+    "forgetting": 0.045454545454545456,
+    "run_id": "articulary_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a0.1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.8925101086497307,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 675602432,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9618854836353826,
+    "forgetting": 0.045454545454545456,
+    "run_id": "articulary_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a0.5_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.8815649151802063,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 675598336,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 0.98,
+    "average_macro_accuracy": 0.9923446296901673,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a10_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.9070616252720356,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 679387136,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.937201801687479,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 679260160,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_mantis_fecam_a2_o17_s42",
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.983198408037424,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 679096320,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8e321269198727b7c5fc0c9bf11776e1d946d4e5ee9bfc35794c048d2fcfcd8d",
+      "val": "ff20feae7b797c0cf9d91049482d2c02c66f115e8663f724cb013ad311259bb6"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "articulary_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a0.01_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5157618634402752,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666808320,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9906779630235008,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a0.1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5493217147886753,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666611712,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9906779630235008,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a0.5_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5526318848133087,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666406912,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9906779630235008,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a10_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5460811480879784,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666705920,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.98,
+    "average_macro_accuracy": 0.9983333333333334,
+    "forgetting": 0.0,
+    "run_id": "articulary_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a1_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5657650083303452,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666574848,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.96,
+    "average_macro_accuracy": 0.9906779630235008,
+    "forgetting": 0.022727272727272728,
+    "run_id": "articulary_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/articulary_summary_fecam_a2_o17_s42",
+      "dataset": "articulary",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        21,
+        19
+      ]
+    ],
+    "elapsed_s": 1.5369626805186272,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 666468352,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "70f1ca09ae956bd746a8197f38883efa03aa6861a8a18a99febb959c40f38e7a",
+      "val": "cd23a4662a277761688f97cd5286f863f106b202bc3418c95017d72430911b65"
+    },
+    "final_macro_accuracy": 0.98,
+    "average_macro_accuracy": 0.9983333333333334,
+    "forgetting": 0.0,
+    "run_id": "articulary_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.171324715018272,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1456168960,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.7675438596491229,
+    "average_macro_accuracy": 0.7800421109296239,
+    "forgetting": 0.03680555555555558,
+    "run_id": "dailysports_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.121777065098286,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1456517120,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.7807017543859649,
+    "average_macro_accuracy": 0.7851655842023919,
+    "forgetting": 0.03784722222222224,
+    "run_id": "dailysports_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a0.5_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.08532726764679,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1465602048,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8833333333333332,
+    "average_macro_accuracy": 0.9016091630470715,
+    "forgetting": 0.035069444444444445,
+    "run_id": "dailysports_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.136986218392849,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1464913920,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9201754385964913,
+    "average_macro_accuracy": 0.9254241079284079,
+    "forgetting": 0.02395833333333333,
+    "run_id": "dailysports_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.07167423516512,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1463169024,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8938596491228069,
+    "average_macro_accuracy": 0.9144616096869278,
+    "forgetting": 0.03541666666666665,
+    "run_id": "dailysports_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_mantis_fecam_a2_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 10.593452583998442,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 1464954880,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.8991228070175438,
+    "average_macro_accuracy": 0.9170874963307024,
+    "forgetting": 0.031249999999999986,
+    "run_id": "dailysports_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.3058740869164467,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 683360256,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.8429824561403508,
+    "average_macro_accuracy": 0.8185891707701134,
+    "forgetting": 0.01701388888888891,
+    "run_id": "dailysports_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.2704027332365513,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 685596672,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.874561403508772,
+    "average_macro_accuracy": 0.8330271853285268,
+    "forgetting": 0.0065972222222222265,
+    "run_id": "dailysports_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a0.5_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.2922570444643497,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 684883968,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.9350877192982455,
+    "average_macro_accuracy": 0.9267443276696802,
+    "forgetting": 0.004166666666666666,
+    "run_id": "dailysports_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.261363673955202,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 685576192,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.9289473684210525,
+    "average_macro_accuracy": 0.9287143234270856,
+    "forgetting": 0.0072916666666666685,
+    "run_id": "dailysports_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.2478177919983864,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 684851200,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.9350877192982455,
+    "average_macro_accuracy": 0.9274940064585747,
+    "forgetting": 0.005208333333333329,
+    "run_id": "dailysports_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/dailysports_summary_fecam_a2_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 2.3040216863155365,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 685670400,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b209310d16680a12a6b93577e3a5d869c0a11a9a8295e96c0d13521525d67823",
+      "val": "5d78592db4306742f2a48a4875e0c59662aaadf866ae7c27ea5efb09cc42a0cb"
+    },
+    "final_macro_accuracy": 0.9377192982456141,
+    "average_macro_accuracy": 0.9289109223027352,
+    "forgetting": 0.0038194444444444448,
+    "run_id": "dailysports_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a0.01_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2467660829424858,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562454528,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a0.1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.24182409048080444,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562610176,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a0.5_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2774827256798744,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562577408,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a10_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.26012714579701424,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562249728,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.27145831286907196,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562585600,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_mantis_fecam_a2_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2675066739320755,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562466816,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "b7c065fcd45844f378c3fc91a76a810444c502dd89b54c74c7e3d3b9ecb95a63",
+      "val": "6c09a8094bf1e11760a63e9403350fa5c47f8132c65dce66277805ebc240313c"
+    },
+    "final_macro_accuracy": 1.0,
+    "average_macro_accuracy": 1.0,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a0.01_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2270730696618557,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 559525888,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.7559523809523809,
+    "average_macro_accuracy": 0.7113095238095237,
+    "forgetting": 0.08333333333333337,
+    "run_id": "epilepsy_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a0.1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2262609712779522,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 559341568,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.7559523809523809,
+    "average_macro_accuracy": 0.7529761904761905,
+    "forgetting": 0.16666666666666674,
+    "run_id": "epilepsy_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a0.5_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2210668846964836,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 558067712,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.7916666666666666,
+    "average_macro_accuracy": 0.7708333333333333,
+    "forgetting": 0.16666666666666674,
+    "run_id": "epilepsy_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a10_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.23903276771306992,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 557895680,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.9166666666666667,
+    "average_macro_accuracy": 0.875,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a1_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2383289486169815,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 553160704,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.8333333333333334,
+    "average_macro_accuracy": 0.7916666666666667,
+    "forgetting": 0.08333333333333326,
+    "run_id": "epilepsy_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/epilepsy_summary_fecam_a2_o17_s42",
+      "dataset": "epilepsy",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.22305937111377716,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 553250816,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fed80ea482b9d270c7f2e4d9d990659dd1da19a2c8a2f78797bef061bc24a200",
+      "val": "14b23248d2c62fb3723c193eb69d7ed4da0a642abd86df6f3a1506a2cf250ce4"
+    },
+    "final_macro_accuracy": 0.9166666666666667,
+    "average_macro_accuracy": 0.875,
+    "forgetting": 0.0,
+    "run_id": "epilepsy_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.957625187933445,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 850882560,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.8773639230735301,
+    "average_macro_accuracy": 0.9444239520385809,
+    "forgetting": 0.029566957787481862,
+    "run_id": "har_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9893819391727448,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 854290432,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9239515396029482,
+    "average_macro_accuracy": 0.9735369086940012,
+    "forgetting": 0.004224205747092924,
+    "run_id": "har_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a0.5_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9299332983791828,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 848314368,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9495797194560446,
+    "average_macro_accuracy": 0.9831932398186815,
+    "forgetting": 0.0017667844522968323,
+    "run_id": "har_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.0164512805640697,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 854265856,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9576640967983724,
+    "average_macro_accuracy": 0.9858880322661241,
+    "forgetting": 0.012367491166077715,
+    "run_id": "har_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9854085370898247,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 853831680,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9540836813363316,
+    "average_macro_accuracy": 0.9846945604454439,
+    "forgetting": 0.0035335689045936647,
+    "run_id": "har_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_mantis_fecam_a2_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.967648021876812,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 848605184,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9561471606524611,
+    "average_macro_accuracy": 0.9853823868841537,
+    "forgetting": 0.007067137809187274,
+    "run_id": "har_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.6540863960981369,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 590753792,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.7925819182194166,
+    "average_macro_accuracy": 0.8125765674888487,
+    "forgetting": 0.099763385756797,
+    "run_id": "har_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.7395592629909515,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 594911232,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.9535648990890451,
+    "average_macro_accuracy": 0.9829784231531384,
+    "forgetting": 0.009046590760371731,
+    "run_id": "har_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a0.5_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.6894710659980774,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 592089088,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.9598926544597922,
+    "average_macro_accuracy": 0.9866308848199307,
+    "forgetting": 0.006183745583038858,
+    "run_id": "har_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a10_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.7650769762694836,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 594833408,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.9499561378716538,
+    "average_macro_accuracy": 0.9810078737646469,
+    "forgetting": 0.024125605287266094,
+    "run_id": "har_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a1_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.7233810611069202,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 590684160,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.9554193586146154,
+    "average_macro_accuracy": 0.9840480831481032,
+    "forgetting": 0.007067137809187274,
+    "run_id": "har_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/har_summary_fecam_a2_o17_s42",
+      "dataset": "har",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.7387669235467911,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 595161088,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "fdfa397147eb9eea880c6793b775c03f311d4fd8ba73ec1dad31f5b63b509ce1",
+      "val": "75854db1cb0e2b770b116f4d786d1734d68795e6fe2ba72eb155ed44440e7222"
+    },
+    "final_macro_accuracy": 0.9548304304638497,
+    "average_macro_accuracy": 0.9838517737645147,
+    "forgetting": 0.00795053003533569,
+    "run_id": "har_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a0.01_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5964584872126579,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 592855040,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a0.1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5632283538579941,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 593039360,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a0.5_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5669620484113693,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 598347776,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a10_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5801156461238861,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 589033472,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a1_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5715361349284649,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 598200320,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_mantis_fecam_a2_o17_s42",
+      "dataset": "natops",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5808927305042744,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 588771328,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2f6e259715635ae58e53bf36fc2b396b1b65ea7112dbbfd80294d261143c240d",
+      "val": "57ca4acbf5848b7d48d074971d1ea0379c6eca2cc881f9848de22135a0a44deb"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a0.01_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3325407914817333,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 562331648,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.7222222222222222,
+    "average_macro_accuracy": 0.6851851851851851,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a0.1_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3519049547612667,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 561496064,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.7222222222222222,
+    "average_macro_accuracy": 0.6851851851851851,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a0.5_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3590475246310234,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 569188352,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.7222222222222222,
+    "average_macro_accuracy": 0.6851851851851851,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a10_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.351091668009758,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 569221120,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.7777777777777777,
+    "average_macro_accuracy": 0.7314814814814814,
+    "forgetting": 0.125,
+    "run_id": "natops_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a1_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3542235866189003,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 569577472,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.7222222222222222,
+    "average_macro_accuracy": 0.6851851851851851,
+    "forgetting": 0.16666666666666669,
+    "run_id": "natops_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/natops_summary_fecam_a2_o17_s42",
+      "dataset": "natops",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3347795121371746,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 569331712,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "ca75eefcc6aba947ee16faa592e7795a89794f48a8ea350e1f552ba33c000fdc",
+      "val": "d86032c24344c8c3632c92c7bad8c5da3e09601090c4bcbc407beacda591c330"
+    },
+    "final_macro_accuracy": 0.75,
+    "average_macro_accuracy": 0.7083333333333334,
+    "forgetting": 0.125,
+    "run_id": "natops_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a0.01_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.2005950026214123,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 618745856,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.8045320763465925,
+    "average_macro_accuracy": 0.9177829478615769,
+    "forgetting": 0.08220730882021202,
+    "run_id": "pendigits_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a0.1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.2475857473909855,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 618184704,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.8798624269995239,
+    "average_macro_accuracy": 0.9547184750733138,
+    "forgetting": 0.0362076095947064,
+    "run_id": "pendigits_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a0.5_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.2441012002527714,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 627335168,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9442541732461087,
+    "average_macro_accuracy": 0.9843086384941223,
+    "forgetting": 0.01691997518610422,
+    "run_id": "pendigits_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a10_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.3062145747244358,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 618377216,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.982116042559591,
+    "average_macro_accuracy": 0.992535823495501,
+    "forgetting": 0.012065756823821328,
+    "run_id": "pendigits_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.2487633787095547,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 627232768,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.9598772777401811,
+    "average_macro_accuracy": 0.9882397110058401,
+    "forgetting": 0.011279983457402831,
+    "run_id": "pendigits_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_mantis_fecam_a2_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.235931470990181,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 627466240,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "f721cf14c2de6ebaa8c41324a09e57e49ae7acf5745bba56063d295907bc532a",
+      "val": "a2f2d33c2cc88a50df89899c9399b4fa6c272ad0aca6601bd8e37aa5eeaa062d"
+    },
+    "final_macro_accuracy": 0.979124589568138,
+    "average_macro_accuracy": 0.9934332593929369,
+    "forgetting": 0.008860628618693134,
+    "run_id": "pendigits_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a0.01_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.9403568133711815,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 587210752,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.7201454683309523,
+    "average_macro_accuracy": 0.8271197630774243,
+    "forgetting": 0.11835856236057851,
+    "run_id": "pendigits_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a0.1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.9432081021368504,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 587313152,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.7301221896383187,
+    "average_macro_accuracy": 0.8413582036243327,
+    "forgetting": 0.1141970260921874,
+    "run_id": "pendigits_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a0.5_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.9573527462780476,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 595972096,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.8016290698548764,
+    "average_macro_accuracy": 0.8948359588440236,
+    "forgetting": 0.05872715993683736,
+    "run_id": "pendigits_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a10_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.969319686293602,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 596774912,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.9485460372960374,
+    "average_macro_accuracy": 0.9795265496152593,
+    "forgetting": 0.03089518008872852,
+    "run_id": "pendigits_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a1_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.9882638342678547,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 595795968,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.8725899190415319,
+    "average_macro_accuracy": 0.9312132867132868,
+    "forgetting": 0.045365253026543345,
+    "run_id": "pendigits_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/pendigits_summary_fecam_a2_o17_s42",
+      "dataset": "pendigits",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.9757333733141422,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 596795392,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "d458b68528a2921f93fc6e15a1518b44c8527b1a32d0110ae5b29286c75e4efa",
+      "val": "ff3b64cedc9f3bfc1b3bb812dd5ff1a6b4d69557e6ec8f84eb2345a00d6bd8d5"
+    },
+    "final_macro_accuracy": 0.9286839549339548,
+    "average_macro_accuracy": 0.9719331528686368,
+    "forgetting": 0.0334343747650199,
+    "run_id": "pendigits_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a0.01_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2921903543174267,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566444032,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a0.1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2924177348613739,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566587392,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a0.5_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.29205096140503883,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566534144,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a10_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.29255760088562965,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566583296,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.26987652853131294,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566644736,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_mantis_fecam_a2_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.30598388984799385,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 566587392,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "2e6a963e71e5cec14cc7731700a8e0664a8e451f57e59b1f727ef26545c025f4",
+      "val": "7c00048856f83887793550479818bc0656e0387a3328a0f8e7ce09e16d827425"
+    },
+    "final_macro_accuracy": 0.8616071428571428,
+    "average_macro_accuracy": 0.9308035714285714,
+    "forgetting": 0.0625,
+    "run_id": "racketsports_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a0.01_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2609582468867302,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 559869952,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8035714285714286,
+    "average_macro_accuracy": 0.9017857142857143,
+    "forgetting": 0.25,
+    "run_id": "racketsports_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a0.1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.24442705512046814,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 560058368,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8035714285714286,
+    "average_macro_accuracy": 0.9017857142857143,
+    "forgetting": 0.25,
+    "run_id": "racketsports_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a0.5_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.23304005339741707,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 552783872,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8035714285714286,
+    "average_macro_accuracy": 0.9017857142857143,
+    "forgetting": 0.25,
+    "run_id": "racketsports_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a10_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.2504963390529156,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 557772800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8348214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.1875,
+    "run_id": "racketsports_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a1_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.22834408655762672,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 552574976,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8348214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.1875,
+    "run_id": "racketsports_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/racketsports_summary_fecam_a2_o17_s42",
+      "dataset": "racketsports",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "elapsed_s": 0.24929804354906082,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 557314048,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "a6da8b58b67f89bf5b5836faa0b9a3f2965e0156a741ed361aecc3c97c491450",
+      "val": "08d91edce237758a8966643f43169df872a3f95f59e60b0df7794a766c27c9d2"
+    },
+    "final_macro_accuracy": 0.8348214285714286,
+    "average_macro_accuracy": 0.9174107142857143,
+    "forgetting": 0.1875,
+    "run_id": "racketsports_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5065840110182762,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 580288512,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a0.01_o17_s42",
+    "variant": "mantis_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4404706507921219,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 581066752,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a0.1_o17_s42",
+    "variant": "mantis_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a0.5_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4327613301575184,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 580923392,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a0.5_o17_s42",
+    "variant": "mantis_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4777150899171829,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 583303168,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9652777777777778,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a10_o17_s42",
+    "variant": "mantis_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.5154062360525131,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 581181440,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a1_o17_s42",
+    "variant": "mantis_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_mantis_fecam_a2_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4869290627539158,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 583086080,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9444444444444444,
+    "forgetting": 0.0,
+    "run_id": "uwave_mantis_fecam_a2_o17_s42",
+    "variant": "mantis_fecam_a2"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.01,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4145929366350174,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 579764224,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a0.01_o17_s42",
+    "variant": "summary_fecam_a0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.1,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4424513764679432,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 575983616,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a0.1_o17_s42",
+    "variant": "summary_fecam_a0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a0.5_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 0.5,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4469027519226074,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 576319488,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a0.5_o17_s42",
+    "variant": "summary_fecam_a0.5"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 10.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.45247287675738335,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 575180800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a10_o17_s42",
+    "variant": "summary_fecam_a10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 1.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4476117081940174,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 579960832,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a1_o17_s42",
+    "variant": "summary_fecam_a1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/fecam_validation_v13/uwave_summary_fecam_a2_o17_s42",
+      "dataset": "uwave",
+      "encoder": "summary",
+      "seed": 42,
+      "order": 17,
+      "dimension": 512,
+      "alpha1": 2.0,
+      "device": "cpu",
+      "threads": 1,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.43803396821022034,
+    "git_commit": "09227fc",
+    "max_rss_bytes": 580005888,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "5e17537d33bf6cc9fbc053621f71ecadb27a66aea2e63694c257f551671899cd",
+      "val": "6b6b3f52e5cd8f2a7359685c1bd80f71006fb1891e1bb02ea3da17ca6c46e217"
+    },
+    "final_macro_accuracy": 0.9166666666666666,
+    "average_macro_accuracy": 0.9791666666666666,
+    "forgetting": 0.0,
+    "run_id": "uwave_summary_fecam_a2_o17_s42",
+    "variant": "summary_fecam_a2"
+  }
+]
