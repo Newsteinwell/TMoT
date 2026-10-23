@@ -1,0 +1,156 @@
+{
+  "complete": true,
+  "checked": [
+    "air_quality_mantis_ard_o17_s42",
+    "air_quality_mantis_isotropic_o17_s42",
+    "air_quality_summary_ard_o17_s42",
+    "air_quality_summary_isotropic_o17_s42",
+    "articulary_mantis_ard_o17_s42",
+    "articulary_mantis_isotropic_o17_s42",
+    "beijing_pm25_mantis_ard_o17_s42",
+    "beijing_pm25_mantis_isotropic_o17_s42",
+    "beijing_pm25_summary_ard_o17_s42",
+    "beijing_pm25_summary_isotropic_o17_s42",
+    "epilepsy_mantis_ard_o17_s42",
+    "epilepsy_mantis_isotropic_o17_s42",
+    "natops_mantis_ard_o17_s42",
+    "natops_mantis_isotropic_o17_s42",
+    "pendigits_mantis_ard_o17_s42",
+    "pendigits_mantis_isotropic_o17_s42",
+    "racketsports_mantis_ard_o17_s42",
+    "racketsports_mantis_isotropic_o17_s42"
+  ],
+  "optimization": [
+    {
+      "run": "air_quality_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.027285835847735983,
+      "alpha_min": 0.09031601781865597,
+      "alpha_max": 317.5568215983269,
+      "beta": 89.25465935038577
+    },
+    {
+      "run": "air_quality_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.03397417102207892,
+      "alpha_min": 50.16531881751476,
+      "alpha_max": 50.16531881751476,
+      "beta": 1.385480575966313
+    },
+    {
+      "run": "air_quality_summary_ard_o17_s42",
+      "normalized_max_gradient": 0.008199296064873112,
+      "alpha_min": 0.74961026719544,
+      "alpha_max": 307.04216165291456,
+      "beta": 14.141478063635077
+    },
+    {
+      "run": "air_quality_summary_isotropic_o17_s42",
+      "normalized_max_gradient": 0.09604805975433019,
+      "alpha_min": 124.49956588841427,
+      "alpha_max": 124.49956588841427,
+      "beta": 2.2349277053397767
+    },
+    {
+      "run": "articulary_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.001231368663471027,
+      "alpha_min": 341.5209824497209,
+      "alpha_max": 397.4562390021776,
+      "beta": 9830.62899500143
+    },
+    {
+      "run": "articulary_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.4520962833399062,
+      "alpha_min": 391.4046454617091,
+      "alpha_max": 391.4046454617091,
+      "beta": 9829.86499294928
+    },
+    {
+      "run": "beijing_pm25_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.014658956508290303,
+      "alpha_min": 0.5967518634333987,
+      "alpha_max": 246.08110670266316,
+      "beta": 3.145280684979156
+    },
+    {
+      "run": "beijing_pm25_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.0010422883491426533,
+      "alpha_min": 42.695415721285634,
+      "alpha_max": 42.695415721285634,
+      "beta": 2.23833634996045
+    },
+    {
+      "run": "beijing_pm25_summary_ard_o17_s42",
+      "normalized_max_gradient": 0.01707117393030628,
+      "alpha_min": 1.6065329532183574,
+      "alpha_max": 291.3938454024469,
+      "beta": 2.623433298765589
+    },
+    {
+      "run": "beijing_pm25_summary_isotropic_o17_s42",
+      "normalized_max_gradient": 0.01998082838739857,
+      "alpha_min": 161.7094856855124,
+      "alpha_max": 161.7094856855124,
+      "beta": 2.448542804745417
+    },
+    {
+      "run": "epilepsy_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.009724087868740839,
+      "alpha_min": 262.1468142641964,
+      "alpha_max": 402.0106076389971,
+      "beta": 2057.0130829076425
+    },
+    {
+      "run": "epilepsy_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.42113490852864005,
+      "alpha_min": 385.63015716276163,
+      "alpha_max": 385.63015716276163,
+      "beta": 2055.0130690610827
+    },
+    {
+      "run": "natops_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.0014157581062746295,
+      "alpha_min": 332.1733626764541,
+      "alpha_max": 400.66969732883155,
+      "beta": 2761.822939395014
+    },
+    {
+      "run": "natops_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.44269049014493356,
+      "alpha_min": 388.9579641947496,
+      "alpha_max": 388.9579641947496,
+      "beta": 2759.5602557101834
+    },
+    {
+      "run": "pendigits_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.03543468483392119,
+      "alpha_min": 72.11662836304286,
+      "alpha_max": 402.8453450269522,
+      "beta": 103.80244670948179
+    },
+    {
+      "run": "pendigits_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.03483930724287924,
+      "alpha_min": 227.6784317975492,
+      "alpha_max": 227.6784317975492,
+      "beta": 103.6928016587167
+    },
+    {
+      "run": "racketsports_mantis_ard_o17_s42",
+      "normalized_max_gradient": 0.0012262784747719005,
+      "alpha_min": 233.55247217599722,
+      "alpha_max": 398.04674667162925,
+      "beta": 1886.7015886062889
+    },
+    {
+      "run": "racketsports_mantis_isotropic_o17_s42",
+      "normalized_max_gradient": 0.37687194028851473,
+      "alpha_min": 371.48381229303277,
+      "alpha_max": 371.48381229303277,
+      "beta": 1871.688907468632
+    }
+  ],
+  "checks": [
+    "18 identical independent bases and sufficient statistics",
+    "CPU reconstruction of final objective and posterior",
+    "finite per-stage objective and improvement over initialization"
+  ]
+}
