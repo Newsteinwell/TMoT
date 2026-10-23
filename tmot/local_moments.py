@@ -81,8 +81,10 @@ def local_partition(x,k,rng):
 
 
 class LocalMomentMixture:
-    def __init__(self,dimension,task,seed=42,components=4,rank=16,preserve_targets=False):
+    def __init__(self,dimension,task,seed=42,components=4,rank=16,preserve_targets=False,support=16):
         self.dimension,self.task,self.components,self.rank=dimension,task,components,rank
+        if support<1:raise ValueError("support must be positive")
+        self.support=support
         self.preserve_targets=preserve_targets
         self.cells={};self.rng=np.random.default_rng(seed)
 
@@ -95,7 +97,7 @@ class LocalMomentMixture:
             targets=y[mask]
             if targets.ndim==1:targets=targets[:,None]
             rows=inputs if label is not None else np.concatenate([inputs,targets],axis=1)
-            k=min(self.components,max(1,len(inputs)//16))
+            k=min(self.components,max(1,len(inputs)//self.support))
             assignment=local_partition(inputs,k,self.rng)
             for component in np.unique(assignment):
                 batch=rows[assignment==component]

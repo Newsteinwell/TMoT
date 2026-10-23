@@ -11,7 +11,7 @@ if retention.exists():
     if record['applied']:pruned={r['path']:r for r in record['removed_candidates']}
 if a.queue in ('stable_development_v7','causal_development_v19_retry'):names={f'{d}_{v}_o17_s{seed}' for d,v,m,r,seed,args in jobs}
 elif a.queue=='kernel_development_v8':names={f'{d}_{v}_r{r:g}_o17_s42' for d,v,r in jobs}
-elif a.queue in ('round3_validation_v9','nonlinear_development_v10','nonlinear_matched_v11','nonlinear_validation_v12','fecam_validation_v13','local_development_v14','target_development_v15','calibrated_development_v16','expert_development_v17','prior_expert_development_v18','classification_robustness_v20','order_baselines_v21','projection_diagnostic_v22','projection_seed_v23','evidence_development_v24','evidence_refined_v25','task_loss_v26','temporal_joint_v27','raw_temporal_v28','raw_transport_v29','neighbors_v30','warm_transport_v31','local_warm_v32'):names={job['name'] for job in jobs}
+elif a.queue in ('round3_validation_v9','nonlinear_development_v10','nonlinear_matched_v11','nonlinear_validation_v12','fecam_validation_v13','local_development_v14','target_development_v15','calibrated_development_v16','expert_development_v17','prior_expert_development_v18','classification_robustness_v20','order_baselines_v21','projection_diagnostic_v22','projection_seed_v23','evidence_development_v24','evidence_refined_v25','task_loss_v26','temporal_joint_v27','raw_temporal_v28','raw_transport_v29','neighbors_v30','warm_transport_v31','local_warm_v32','local_support_v33'):names={job['name'] for job in jobs}
 else:raise ValueError(a.queue)
 hashes={};checked=[]
 for path in sorted(folder.glob('*/summary.json')):

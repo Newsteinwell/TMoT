@@ -42,7 +42,7 @@ def run(a):
     basis=StableSemanticBasis(2*channels,a.dimension).fit(x[stages[0]])
     learner=NonlinearMomentLearner(a.dimension,task,a.seed,ridge=a.ridge,mode=a.method,
                                     epochs=a.epochs,residual_weight=a.residual_weight,
-                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample,local_components=a.local_components,preserve_targets=a.preserve_targets,calibrate_replay=a.calibrate_replay,loss=a.residual_loss,warm_start=a.warm_start)
+                                    alpha=a.alpha,device=a.device,er_resample=a.er_resample,local_components=a.local_components,preserve_targets=a.preserve_targets,calibrate_replay=a.calibrate_replay,loss=a.residual_loss,warm_start=a.warm_start,local_support=a.local_support)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -98,6 +98,7 @@ def parser():
     p.add_argument('--residual-loss',choices=['mse','task'],default='mse')
     p.add_argument('--calibrate-replay',action='store_true')
     p.add_argument('--preserve-targets',action='store_true')
+    p.add_argument('--local-support',type=int,default=16)
     p.add_argument('--local-components',type=int,choices=[1,4],default=4)
     p.add_argument('--er-resample',action='store_true')
     p.add_argument('--alpha',type=float,default=1.)
