@@ -1,0 +1,72 @@
+{
+  "air_quality_d512": {
+    "ridge": 0.1,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "air_quality_d1024": {
+    "ridge": 1.0,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "articulary_d512": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "articulary_d1024": {
+    "ridge": 1.0,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "beijing_pm25_d512": {
+    "ridge": 0.01,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "beijing_pm25_d1024": {
+    "ridge": 0.01,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "epilepsy_d512": {
+    "ridge": 1.0,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "epilepsy_d1024": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "natops_d512": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "natops_d1024": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "pendigits_d512": {
+    "ridge": 0.01,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "pendigits_d1024": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "racketsports_d512": {
+    "ridge": 0.1,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  },
+  "racketsports_d1024": {
+    "ridge": 0.001,
+    "source_queue": "projection_diagnostic_v22",
+    "source_basis_seed": 1701
+  }
+}
