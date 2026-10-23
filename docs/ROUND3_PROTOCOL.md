@@ -118,3 +118,12 @@ v15分布矩精确并没有消除4096条生成样本的7%–15%平均XY相对误
 门控比较Gaussian和df10 Student-t，后者沿用WiMoT等协方差缩放(df-2)/df公式并用数值测试对齐官方迁移核。Woodbury求逆和行式二次型避免存储完整每分量精度阵。输入协方差增加lambda×平均边际方差的对角正则；lambda六点0.001/0.01/0.1/1/10/100，K1/K4，共24种/数据。固定原三分类Mantis、Energy/Mantis、Beijing和Air Quality/summary六组，共144条，仅VAL，一训练分区种子42、类序17。此为探索机制筛查，24点预算不冒充此前6点ridge的严格等HPO预算。暂不添加与ridge的可调混合，避免把额外搜索收益混同于局部专家收益。
 
 Gaussian mixture regression是已有统计构件，参考Calinon等[原始资料](https://www.idiap.ch/~scalinon/papers/Calinon-HRI2007.pdf)和[混合模型章节](https://calinon.ch/papers/Calinon_MMchapter2019.pdf)，不将公式/混合分布思想本身作为原创贡献。v17是对WiMoT式门控连续目标扩展的模块候选，不是完整WiMoT OSCL+训练期适配的重复实现。36项测试通过，包括与稠密条件回归公式及WiMoT Student密度的数值一致性。正式七数据集合、TEST封存和多数明确优势标准不变。
+
+v17共144条完成并通过审计。分类最好HAR96.28%、UWave91.67%、DailySports94.21%；回归Energy69.21、Beijing59.86、Air Quality0.906，未达目标。已知域路由仅作为诊断：Beijing最佳正常配置的RMSE59.86→已知域69.09，说明不能只归因于门控；局部分片估计不足/域内验证漂移同样重要。诊断使用VAL域标记，明确不作为无任务ID方法结果。
+
+## v18：向共享统计读出收缩局部专家
+为避免局部数据碎片化，新增共享累计ridge先验W0。每个局部条件斜率变为(Cxx+lambda*s*I)^(-1)(Cxy+lambda*s*W0_x)，中心输出变为(mu_y+lambda*f0(mu_x))/(1+lambda)。分类将每个类别分量的目标设为动态已见类别one-hot（其类内Cxy为零）；回归用连续联合矩。两任务共享相同的先验收缩公式及Student/Gaussian门控。lambda趋于无穷时预测退化为共享ridge，已有数值测试；这并不保证有限lambda更好。
+
+它是新层次读出候选，不等于WiMoT原MeanPriorDecoder（原模块混合白化类均值方向）。保留该区别，不把常见先验收缩公式当成原创证明。新方法额外存共享累计矩，不能称与v17等字节记忆。
+
+144条固定VAL矩阵与v17相同，仍K1/K4、Gaussian/Student、六lambda、六数据/表示。共享ridge参数沿用既有线性验证选择：HAR1、UWave0.1、DailySports0.1、Energy1、Beijing/summary0.1、AirQuality/summary1。预先检查公共基底/局部分布/门控不变，共享读出与已完成的同配置线性基线一致；只改变局部条件输出的先验约束。38项测试通过，包括稠密正规方程一致性和强先验极限。正式TEST仍封存，7数据分母/阈值不变。

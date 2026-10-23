@@ -24,3 +24,30 @@ def test_class_growth_and_multitarget_outputs_have_finite_normalized_gates():
     model=GatedLocalLearner(6,'regression',components=1)
     model.observe(x[:24],x[:24,:2]**2);model.observe(x[24:],x[24:,:2]**2)
     assert model.predict(x).shape==(48,2) and np.isfinite(model.predict(x)).all()
+
+
+def test_large_prior_strength_recovers_global_readout_and_expands_classes():
+    from tmot.local_experts import PriorGatedLocalLearner
+    from tmot.moments import augment
+    rng=np.random.default_rng(17);x=rng.normal(size=(60,5));y=rng.normal(size=(60,2))
+    model=PriorGatedLocalLearner(5,'regression',ridge=1e10,components=1)
+    model.observe(x[:30],y[:30]);model.observe(x[30:],y[30:])
+    np.testing.assert_allclose(model.predict(x),augment(x)@model.global_readout,atol=1e-7)
+    model=PriorGatedLocalLearner(5,ridge=1.,components=1)
+    model.observe(x[:30],np.repeat([4,9],15));model.observe(x[30:],np.repeat([7,2],15))
+    assert model.global_readout.shape==(6,4)
+    assert set(model.predict(x))<=set([2,4,7,9])
+
+
+def test_prior_expert_satisfies_centered_dense_normal_equation():
+    from tmot.local_experts import PriorGatedLocalLearner
+    from tmot.moments import augment
+    rng=np.random.default_rng(29);x=rng.normal(size=(40,5));y=x[:,:2]**2
+    model=PriorGatedLocalLearner(5,'regression',ridge=.3,components=1);model.observe(x,y)
+    expert=model.experts[0];cell=model.local.cells[None][0]
+    f=cell.factor.astype(float);cov=f[:5]@f[:5].T+np.diag(cell.residual_sd[:5].astype(float)**2)
+    cross=f[:5]@f[5:].T
+    expected=np.linalg.solve(cov+expert.regularization*np.eye(5),cross+expert.regularization*model.global_readout[:-1])
+    np.testing.assert_allclose(expert.beta,expected,rtol=1e-8,atol=1e-8)
+    center=(cell.mean[5:]+.3*(augment(cell.mean[:5][None])@model.global_readout)[0])/1.3
+    np.testing.assert_allclose(expert.target_mean,center,atol=1e-9)

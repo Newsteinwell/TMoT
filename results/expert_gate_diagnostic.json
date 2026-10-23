@@ -1,0 +1,510 @@
+{
+  "diagnostic_only": true,
+  "uses_validation_domain_id": true,
+  "records": [
+    {
+      "run": "air_quality_summary_k1_gaussian_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9920175483094849,
+      "known_domain_rmse": 1.0052725293594467,
+      "mean_correct_domain_mass": 0.5454771288246968
+    },
+    {
+      "run": "air_quality_summary_k1_gaussian_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9938802683822098,
+      "known_domain_rmse": 1.005139420449224,
+      "mean_correct_domain_mass": 0.5456377719631902
+    },
+    {
+      "run": "air_quality_summary_k1_gaussian_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0370385723380406,
+      "known_domain_rmse": 1.0030456858632661,
+      "mean_correct_domain_mass": 0.515504692155907
+    },
+    {
+      "run": "air_quality_summary_k1_gaussian_r100_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.1207743447077054,
+      "known_domain_rmse": 1.0154703051803065,
+      "mean_correct_domain_mass": 0.2125879139858825
+    },
+    {
+      "run": "air_quality_summary_k1_gaussian_r10_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0325322056353268,
+      "known_domain_rmse": 0.9083000858049141,
+      "mean_correct_domain_mass": 0.41325900722541103
+    },
+    {
+      "run": "air_quality_summary_k1_gaussian_r1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9056273482691529,
+      "known_domain_rmse": 0.9675447488002954,
+      "mean_correct_domain_mass": 0.551237225061741
+    },
+    {
+      "run": "air_quality_summary_k1_student_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0400381793791718,
+      "known_domain_rmse": 1.0052725293594467,
+      "mean_correct_domain_mass": 0.5190927230762408
+    },
+    {
+      "run": "air_quality_summary_k1_student_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.054526143373127,
+      "known_domain_rmse": 1.005139420449224,
+      "mean_correct_domain_mass": 0.515175180984644
+    },
+    {
+      "run": "air_quality_summary_k1_student_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.055388603788554,
+      "known_domain_rmse": 1.0030456858632661,
+      "mean_correct_domain_mass": 0.516156548830706
+    },
+    {
+      "run": "air_quality_summary_k1_student_r100_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0470715593556132,
+      "known_domain_rmse": 1.0154703051803065,
+      "mean_correct_domain_mass": 0.5199274946816329
+    },
+    {
+      "run": "air_quality_summary_k1_student_r10_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9135266571821927,
+      "known_domain_rmse": 0.9083000858049141,
+      "mean_correct_domain_mass": 0.5400903841990988
+    },
+    {
+      "run": "air_quality_summary_k1_student_r1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9710846533698703,
+      "known_domain_rmse": 0.9675447488002954,
+      "mean_correct_domain_mass": 0.555749470026704
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9920175483094849,
+      "known_domain_rmse": 1.0052725293594467,
+      "mean_correct_domain_mass": 0.5454771288246968
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9938802683822098,
+      "known_domain_rmse": 1.005139420449224,
+      "mean_correct_domain_mass": 0.5456377719631902
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0370385723380406,
+      "known_domain_rmse": 1.0030456858632661,
+      "mean_correct_domain_mass": 0.515504692155907
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r100_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.1207743447077054,
+      "known_domain_rmse": 1.0154703051803065,
+      "mean_correct_domain_mass": 0.2125879139858825
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r10_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0325322056353268,
+      "known_domain_rmse": 0.9083000858049141,
+      "mean_correct_domain_mass": 0.41325900722541103
+    },
+    {
+      "run": "air_quality_summary_k4_gaussian_r1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9056273482691529,
+      "known_domain_rmse": 0.9675447488002954,
+      "mean_correct_domain_mass": 0.551237225061741
+    },
+    {
+      "run": "air_quality_summary_k4_student_r0.001_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0400381793791718,
+      "known_domain_rmse": 1.0052725293594467,
+      "mean_correct_domain_mass": 0.5190927230762408
+    },
+    {
+      "run": "air_quality_summary_k4_student_r0.01_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.054526143373127,
+      "known_domain_rmse": 1.005139420449224,
+      "mean_correct_domain_mass": 0.515175180984644
+    },
+    {
+      "run": "air_quality_summary_k4_student_r0.1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.055388603788554,
+      "known_domain_rmse": 1.0030456858632661,
+      "mean_correct_domain_mass": 0.516156548830706
+    },
+    {
+      "run": "air_quality_summary_k4_student_r100_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 1.0470715593556132,
+      "known_domain_rmse": 1.0154703051803065,
+      "mean_correct_domain_mass": 0.5199274946816329
+    },
+    {
+      "run": "air_quality_summary_k4_student_r10_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9135266571821927,
+      "known_domain_rmse": 0.9083000858049141,
+      "mean_correct_domain_mass": 0.5400903841990988
+    },
+    {
+      "run": "air_quality_summary_k4_student_r1_o17_s42",
+      "dataset": "air_quality",
+      "actual_rmse": 0.9710846533698703,
+      "known_domain_rmse": 0.9675447488002954,
+      "mean_correct_domain_mass": 0.555749470026704
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.311284203981415,
+      "known_domain_rmse": 68.71067797821117,
+      "mean_correct_domain_mass": 0.09004406599816257
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.34473073810432,
+      "known_domain_rmse": 68.82891194558911,
+      "mean_correct_domain_mass": 0.09112234121944827
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.020821157266155,
+      "known_domain_rmse": 69.5815492922818,
+      "mean_correct_domain_mass": 0.09522740410960519
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 79.55974005235068,
+      "known_domain_rmse": 80.25815939214785,
+      "mean_correct_domain_mass": 0.18850505608128285
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 68.48580554360217,
+      "known_domain_rmse": 71.07419616576425,
+      "mean_correct_domain_mass": 0.17602843154865438
+    },
+    {
+      "run": "beijing_pm25_summary_k1_gaussian_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 59.86361156025164,
+      "known_domain_rmse": 69.08797044655485,
+      "mean_correct_domain_mass": 0.10451891338198693
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.16512941781452,
+      "known_domain_rmse": 68.71067797821117,
+      "mean_correct_domain_mass": 0.08810433475452216
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.20931052926777,
+      "known_domain_rmse": 68.82891194558911,
+      "mean_correct_domain_mass": 0.08859064139963581
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 63.19861981503328,
+      "known_domain_rmse": 69.5815492922818,
+      "mean_correct_domain_mass": 0.0920927520186249
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 77.65407220539991,
+      "known_domain_rmse": 80.25815939214785,
+      "mean_correct_domain_mass": 0.1705727529114884
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 67.68091364692161,
+      "known_domain_rmse": 71.07419616576425,
+      "mean_correct_domain_mass": 0.1038915785941446
+    },
+    {
+      "run": "beijing_pm25_summary_k1_student_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 61.16466114295605,
+      "known_domain_rmse": 69.08797044655485,
+      "mean_correct_domain_mass": 0.08495485262573257
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 65.90226753931535,
+      "known_domain_rmse": 71.2624100974763,
+      "mean_correct_domain_mass": 0.110169749526148
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 65.11192719317994,
+      "known_domain_rmse": 70.81732312500802,
+      "mean_correct_domain_mass": 0.10706877155163841
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 65.24045584797359,
+      "known_domain_rmse": 73.3072969657911,
+      "mean_correct_domain_mass": 0.0983007644157836
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 81.57993537153511,
+      "known_domain_rmse": 85.82124741820235,
+      "mean_correct_domain_mass": 0.18687822852581634
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 75.99755372752163,
+      "known_domain_rmse": 78.42641753830078,
+      "mean_correct_domain_mass": 0.17202103125476176
+    },
+    {
+      "run": "beijing_pm25_summary_k4_gaussian_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 72.85919887642835,
+      "known_domain_rmse": 74.31612153231167,
+      "mean_correct_domain_mass": 0.10107948480241757
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r0.001_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 64.2720464307448,
+      "known_domain_rmse": 73.7322833451209,
+      "mean_correct_domain_mass": 0.10214945351734125
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r0.01_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 64.5296770278884,
+      "known_domain_rmse": 73.79291866628935,
+      "mean_correct_domain_mass": 0.0991642217790088
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r0.1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 67.42915395385035,
+      "known_domain_rmse": 74.16206973518797,
+      "mean_correct_domain_mass": 0.10033305357636643
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r100_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 78.71315390751778,
+      "known_domain_rmse": 80.66698367079236,
+      "mean_correct_domain_mass": 0.14129143344940556
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r10_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 71.09234560502901,
+      "known_domain_rmse": 74.09343667526046,
+      "mean_correct_domain_mass": 0.09012849371850197
+    },
+    {
+      "run": "beijing_pm25_summary_k4_student_r1_o17_s42",
+      "dataset": "beijing_pm25",
+      "actual_rmse": 69.25851712152513,
+      "known_domain_rmse": 75.73693798129453,
+      "mean_correct_domain_mass": 0.0867798388422952
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r0.001_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 76.6694559428396,
+      "known_domain_rmse": 79.808922569583,
+      "mean_correct_domain_mass": 0.5063073676003224
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r0.01_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 76.53010483838797,
+      "known_domain_rmse": 79.72195225806865,
+      "mean_correct_domain_mass": 0.5049251361169733
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r0.1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 75.44529002599036,
+      "known_domain_rmse": 78.8351103556451,
+      "mean_correct_domain_mass": 0.4955569020425804
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r100_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 74.90845230989872,
+      "known_domain_rmse": 75.10577738431651,
+      "mean_correct_domain_mass": 0.19999902139336725
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r10_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 70.91093998093652,
+      "known_domain_rmse": 69.28700063276005,
+      "mean_correct_domain_mass": 0.19958569287754493
+    },
+    {
+      "run": "energy_mantis_k1_gaussian_r1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 71.27609778507622,
+      "known_domain_rmse": 72.94683570720841,
+      "mean_correct_domain_mass": 0.3759035524283496
+    },
+    {
+      "run": "energy_mantis_k1_student_r0.001_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 77.22003901974422,
+      "known_domain_rmse": 79.808922569583,
+      "mean_correct_domain_mass": 0.48820693994996583
+    },
+    {
+      "run": "energy_mantis_k1_student_r0.01_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 77.14067168864617,
+      "known_domain_rmse": 79.72195225806865,
+      "mean_correct_domain_mass": 0.489358610468948
+    },
+    {
+      "run": "energy_mantis_k1_student_r0.1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 75.50215247190958,
+      "known_domain_rmse": 78.8351103556451,
+      "mean_correct_domain_mass": 0.5047753164517699
+    },
+    {
+      "run": "energy_mantis_k1_student_r100_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 74.67803804777522,
+      "known_domain_rmse": 75.10577738431651,
+      "mean_correct_domain_mass": 0.30294139564064476
+    },
+    {
+      "run": "energy_mantis_k1_student_r10_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 69.208272535182,
+      "known_domain_rmse": 69.28700063276005,
+      "mean_correct_domain_mass": 0.4295864732011747
+    },
+    {
+      "run": "energy_mantis_k1_student_r1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 70.00587906601224,
+      "known_domain_rmse": 72.94683570720841,
+      "mean_correct_domain_mass": 0.5065941468932932
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r0.001_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 86.70517098914593,
+      "known_domain_rmse": 79.07062448201555,
+      "mean_correct_domain_mass": 0.3973554432929582
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r0.01_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 86.71063884106643,
+      "known_domain_rmse": 78.73689254852191,
+      "mean_correct_domain_mass": 0.40768183325246937
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r0.1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 81.36448080514138,
+      "known_domain_rmse": 79.53536155999196,
+      "mean_correct_domain_mass": 0.4542597493606964
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r100_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 76.40431558784839,
+      "known_domain_rmse": 77.13920176717332,
+      "mean_correct_domain_mass": 0.2
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r10_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 80.40325736179578,
+      "known_domain_rmse": 74.29398174526571,
+      "mean_correct_domain_mass": 0.27309974985503177
+    },
+    {
+      "run": "energy_mantis_k4_gaussian_r1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 80.41600248809475,
+      "known_domain_rmse": 76.12004250019775,
+      "mean_correct_domain_mass": 0.37472168349446966
+    },
+    {
+      "run": "energy_mantis_k4_student_r0.001_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 78.96386654862073,
+      "known_domain_rmse": 77.94018621764963,
+      "mean_correct_domain_mass": 0.515386777267981
+    },
+    {
+      "run": "energy_mantis_k4_student_r0.01_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 78.90190385641336,
+      "known_domain_rmse": 77.7586230401669,
+      "mean_correct_domain_mass": 0.5051620223054205
+    },
+    {
+      "run": "energy_mantis_k4_student_r0.1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 79.64751843263167,
+      "known_domain_rmse": 76.19524279554493,
+      "mean_correct_domain_mass": 0.48730164442530843
+    },
+    {
+      "run": "energy_mantis_k4_student_r100_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 75.53452915502464,
+      "known_domain_rmse": 76.48810521817565,
+      "mean_correct_domain_mass": 0.34734953713902716
+    },
+    {
+      "run": "energy_mantis_k4_student_r10_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 74.36862906008713,
+      "known_domain_rmse": 73.41523036017026,
+      "mean_correct_domain_mass": 0.4715686709500343
+    },
+    {
+      "run": "energy_mantis_k4_student_r1_o17_s42",
+      "dataset": "energy",
+      "actual_rmse": 77.4751269842384,
+      "known_domain_rmse": 75.94806911810711,
+      "mean_correct_domain_mass": 0.5055702480408693
+    }
+  ]
+}

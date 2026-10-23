@@ -15,7 +15,8 @@ class LocalExpert:
         factor=cell.factor[:dimension].astype(float)
         variance=np.sum(factor**2,axis=1)+cell.residual_sd[:dimension].astype(float)**2
         scale=max(float(variance.mean()),1e-8)
-        noise=cell.residual_sd[:dimension].astype(float)**2+max(ridge,1e-8)*scale
+        self.regularization=max(ridge,1e-8)*scale
+        noise=cell.residual_sd[:dimension].astype(float)**2+self.regularization
         self.invdiag=1/noise
         self.weighted=factor*self.invdiag[:,None]
         middle=np.eye(factor.shape[1])+factor.T@self.weighted
@@ -79,3 +80,40 @@ class GatedLocalLearner:
 
     @property
     def persistent_bytes(self):return self.local.nbytes+sum(e.cache_bytes for e in self.experts)+self.log_priors.nbytes
+
+
+class PriorGatedLocalLearner(GatedLocalLearner):
+    """Local moment regressors shrunk toward a shared cumulative ridge prior.
+
+    Supports one-hot expanding targets and continuous targets. This is a
+    hierarchical-readout candidate, not the original WiMoT MeanPriorDecoder.
+    """
+    def __init__(self,dimension,task='classification',seed=42,ridge=.1,components=4,density='student',global_ridge=.1):
+        super().__init__(dimension,task,seed,ridge,components,density)
+        self.memory=None;self.global_ridge=global_ridge
+
+    def observe(self,x,y):
+        from .moments import ClassificationMoments,RegressionMoments,ridge_readout,augment
+        super().observe(x,y)
+        if self.memory is None:
+            outputs=1 if np.asarray(y).ndim==1 else np.asarray(y).shape[1]
+            self.memory=ClassificationMoments(self.dimension) if self.task=='classification' else RegressionMoments(self.dimension,outputs)
+        self.memory.update(x,y);g,k,_=self.memory.risk_moments(self.classes)
+        self.global_readout=ridge_readout(g,k,self.global_ridge)
+        for expert,label in zip(self.experts,self.labels):
+            if self.task=='classification':
+                target=np.eye(len(self.classes))[self.classes.index(label)]
+                expert.beta=np.zeros((self.dimension,len(self.classes)))
+            else:target=expert.target_mean
+            expert.beta=expert.beta+expert.regularization*expert.solve(self.global_readout[:-1])
+            prior=augment(expert.mean[None])@self.global_readout
+            expert.target_mean=(target+self.ridge*prior[0])/(1+self.ridge)
+
+    def predict(self,x):
+        weights=self.probabilities(x)
+        scores=np.einsum('nk,nkp->np',weights,np.stack([e.conditional_mean(x) for e in self.experts],axis=1))
+        return np.asarray(self.classes)[scores.argmax(1)] if self.task=='classification' else scores
+
+    @property
+    def persistent_bytes(self):
+        return super().persistent_bytes+self.memory.nbytes+self.global_readout.nbytes+sum(e.target_mean.nbytes for e in self.experts)
