@@ -1,0 +1,392 @@
+[
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_er_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.5519198663532734,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1356804096,
+    "gpu_peak_bytes": 69024768,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 68.02372741699219,
+    "average_rmse": 67.3841651916504
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_er_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "er",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.468334451317787,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1356775424,
+    "gpu_peak_bytes": 69024768,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 74.38854217529297,
+    "average_rmse": 67.64866561889649
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_ft_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "ft",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.9786080420017242,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1351483392,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 80.09944152832031,
+    "average_rmse": 67.42070770263672
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_ft_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "ft",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.847716812044382,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1350991872,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 69.22669982910156,
+    "average_rmse": 61.903770446777344
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_no_hist_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "no_hist",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.9093965105712414,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1352478720,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 72.03990599515997,
+    "average_rmse": 64.52103970711303
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_no_hist_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "no_hist",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 1.8495046012103558,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1352626176,
+    "gpu_peak_bytes": 68626944,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 67.1914230254568,
+    "average_rmse": 63.55363578894234
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_ridge_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "ridge",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6263831332325935,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 714878976,
+    "gpu_peak_bytes": 66048,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 84.73601083500569,
+    "average_rmse": 81.99289352025062
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_ridge_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "ridge",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6113728359341621,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 714907648,
+    "gpu_peak_bytes": 66048,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 84.73601083500569,
+    "average_rmse": 81.99289352025062
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_tmot_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.531988240778446,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1539895296,
+    "gpu_peak_bytes": 69161472,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 72.53923350689395,
+    "average_rmse": 67.70224139466428
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/pilot_regression_mantis_v1/energy_tmot_o17_s43",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "method": "tmot",
+      "seed": 43,
+      "order": 17,
+      "dimension": 256,
+      "bottleneck": 64,
+      "epochs": 30,
+      "hist_weight": 1.0,
+      "sc_weight": 0.5,
+      "lr": 0.001,
+      "ridge": 0.01,
+      "device": "cuda",
+      "threads": 2
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 2.467087060213089,
+    "git_commit": "23dcebe05734d66764137fb8c88efd61736455ac",
+    "max_rss_bytes": 1540415488,
+    "gpu_peak_bytes": 69161472,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "test": "bcbba2967cd2f69b902b9a3d54873a0e6479c754f3c3fa10e6518423aa9f270f"
+    },
+    "final_rmse": 68.15182471888834,
+    "average_rmse": 67.40717674991927
+  }
+]
