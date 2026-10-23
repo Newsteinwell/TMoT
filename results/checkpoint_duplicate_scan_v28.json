@@ -1,0 +1,1351 @@
+{
+  "scope": "terminal queues, completed trajectories, regular final.pt files only",
+  "scanned_bytes": 22522150637,
+  "duplicate_groups": [
+    {
+      "size": 51645397,
+      "sha256": "3469966020e2a5f3d186a91cbb67e9036e9d9baae9f297e966a97fde04d09bb6",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 5372560269,
+          "device": 2304,
+          "mtime_ns": 1792788095790320082
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/natops_mantis_d512_b1701_ridge_r0.001_o17_s42/final.pt",
+          "inode": 5372560269,
+          "device": 2304,
+          "mtime_ns": 1792788095790320082
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 19336562421,
+          "device": 2304,
+          "mtime_ns": 1792790584097944271
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 5372560269,
+          "device": 2304,
+          "mtime_ns": 1792788095790320082
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 28996560759,
+          "device": 2304,
+          "mtime_ns": 1792790216511053738
+        }
+      ],
+      "reclaimable_bytes": 103290794
+    },
+    {
+      "size": 51645397,
+      "sha256": "4ec66f92a6c429df1ef04504a60420f90a1b9cd0b121b5f813fb958639a88b32",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 27938441300,
+          "device": 2304,
+          "mtime_ns": 1792788327323767099
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 17277498278,
+          "device": 2304,
+          "mtime_ns": 1792790584077944888
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 27938441300,
+          "device": 2304,
+          "mtime_ns": 1792788327323767099
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 19354942463,
+          "device": 2304,
+          "mtime_ns": 1792790216435056913
+        }
+      ],
+      "reclaimable_bytes": 103290794
+    },
+    {
+      "size": 51644821,
+      "sha256": "d3a06cd46a5fea5f10797c1594a68315754f56b9b915ef8d2ee47469a09fe185",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 32233007684,
+          "device": 2304,
+          "mtime_ns": 1792788327275768275
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 16117032206,
+          "device": 2304,
+          "mtime_ns": 1792790584053945628
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 32233007684,
+          "device": 2304,
+          "mtime_ns": 1792788327275768275
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 26845672315,
+          "device": 2304,
+          "mtime_ns": 1792790216511053738
+        }
+      ],
+      "reclaimable_bytes": 103289642
+    },
+    {
+      "size": 51645269,
+      "sha256": "9dc567038baf304bc4406f16b28c83ddf683b502b348cfd073490292c588d10f",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 24717884067,
+          "device": 2304,
+          "mtime_ns": 1792788327215769746
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 7527017438,
+          "device": 2304,
+          "mtime_ns": 1792790584045945875
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 24717884067,
+          "device": 2304,
+          "mtime_ns": 1792788327215769746
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 25771000747,
+          "device": 2304,
+          "mtime_ns": 1792790216543052400
+        }
+      ],
+      "reclaimable_bytes": 103290538
+    },
+    {
+      "size": 51644693,
+      "sha256": "35a89d9d2da27433e8599e102de06d791dd542a268b3188ce926946df2959ea4",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 25771000847,
+          "device": 2304,
+          "mtime_ns": 1792788327255768766
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 11811875212,
+          "device": 2304,
+          "mtime_ns": 1792790583881950934
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 25771000847,
+          "device": 2304,
+          "mtime_ns": 1792788327255768766
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 20405549781,
+          "device": 2304,
+          "mtime_ns": 1792790216519053403
+        }
+      ],
+      "reclaimable_bytes": 103289386
+    },
+    {
+      "size": 51644437,
+      "sha256": "d3a3dacf7e9b45a07d0d20802e90ab7557e801a84e00f98743bd026c804a16df",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 26845672351,
+          "device": 2304,
+          "mtime_ns": 1792788327307767491
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 10740384923,
+          "device": 2304,
+          "mtime_ns": 1792790583853951798
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/natops_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 26845672351,
+          "device": 2304,
+          "mtime_ns": 1792788327307767491
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 31144192851,
+          "device": 2304,
+          "mtime_ns": 1792790216527053069
+        }
+      ],
+      "reclaimable_bytes": 103288874
+    },
+    {
+      "size": 16586261,
+      "sha256": "b53ff28e5240bfc376006b237b5839d1a0a4ea782b909df8a88b9b34b5e10e92",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 13962457342,
+          "device": 2304,
+          "mtime_ns": 1792788330519688895
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 33291058530,
+          "device": 2304,
+          "mtime_ns": 1792790587489839770
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 13962457342,
+          "device": 2304,
+          "mtime_ns": 1792788330519688895
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 10749606128,
+          "device": 2304,
+          "mtime_ns": 1792790220326894605
+        }
+      ],
+      "reclaimable_bytes": 33172522
+    },
+    {
+      "size": 16586133,
+      "sha256": "d2f83eb7328229a8af72f58a58f7de777dff8a128a118d28bcfa2e3fc1ba102a",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 16117052112,
+          "device": 2304,
+          "mtime_ns": 1792788330695684596
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 1080875947,
+          "device": 2304,
+          "mtime_ns": 1792790587593836569
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 16117052112,
+          "device": 2304,
+          "mtime_ns": 1792788330695684596
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 11811875366,
+          "device": 2304,
+          "mtime_ns": 1792790220322894772
+        }
+      ],
+      "reclaimable_bytes": 33172266
+    },
+    {
+      "size": 16586325,
+      "sha256": "0f9edfe195791e1ffe7a10f29030eef33bb8bb7f030fc0eae8e4f50becea313f",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 15050571779,
+          "device": 2304,
+          "mtime_ns": 1792788330639685964
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 3604734,
+          "device": 2304,
+          "mtime_ns": 1792790587609836077
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 15050571779,
+          "device": 2304,
+          "mtime_ns": 1792788330639685964
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 12891086726,
+          "device": 2304,
+          "mtime_ns": 1792790220322894772
+        }
+      ],
+      "reclaimable_bytes": 33172650
+    },
+    {
+      "size": 16585749,
+      "sha256": "18bf096c17c71b19e2612bf85417819ebde595a66685d6b203a3c8cde30c4f33",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 18257121101,
+          "device": 2304,
+          "mtime_ns": 1792788330907679418
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 3223550573,
+          "device": 2304,
+          "mtime_ns": 1792790587685833738
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 18257121101,
+          "device": 2304,
+          "mtime_ns": 1792788330907679418
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 13962608915,
+          "device": 2304,
+          "mtime_ns": 1792790220394891777
+        }
+      ],
+      "reclaimable_bytes": 33171498
+    },
+    {
+      "size": 16585749,
+      "sha256": "0bf432abf73e1e1f35fe1c8b0babf43dbf3cadda9eabbcf98aa5160749e6f2be",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 13962457842,
+          "device": 2304,
+          "mtime_ns": 1792788097650259327
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/epilepsy_mantis_d512_b1701_ridge_r1_o17_s42/final.pt",
+          "inode": 13962457842,
+          "device": 2304,
+          "mtime_ns": 1792788097650259327
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 2156646397,
+          "device": 2304,
+          "mtime_ns": 1792790587557837677
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 13962457842,
+          "device": 2304,
+          "mtime_ns": 1792788097650259327
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 16120718442,
+          "device": 2304,
+          "mtime_ns": 1792790220430890278
+        }
+      ],
+      "reclaimable_bytes": 33171498
+    },
+    {
+      "size": 16585685,
+      "sha256": "13310eb3ee8ecfcfbfb87413b70e45185cab44414f6a96a2d1fcf0c18184eea8",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 19336992919,
+          "device": 2304,
+          "mtime_ns": 1792788330963678050
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 4310316518,
+          "device": 2304,
+          "mtime_ns": 1792790587709832999
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/epilepsy_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 19336992919,
+          "device": 2304,
+          "mtime_ns": 1792788330963678050
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 15050598114,
+          "device": 2304,
+          "mtime_ns": 1792790220386892109
+        }
+      ],
+      "reclaimable_bytes": 33171370
+    },
+    {
+      "size": 20804501,
+      "sha256": "84cd166fbc67fd419831b76be4d8ac5943020ef5ed118c729f89536bc05e0072",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 33290892461,
+          "device": 2304,
+          "mtime_ns": 1792788334179599684
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 24705194868,
+          "device": 2304,
+          "mtime_ns": 1792790591261723832
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 33290892461,
+          "device": 2304,
+          "mtime_ns": 1792788334179599684
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 3228149535,
+          "device": 2304,
+          "mtime_ns": 1792790224014741382
+        }
+      ],
+      "reclaimable_bytes": 41609002
+    },
+    {
+      "size": 20804437,
+      "sha256": "41b470103561616927099fa53d8ff3df4aba0a432d09aa831a4a9a4d05f227d2",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 3604933,
+          "device": 2304,
+          "mtime_ns": 1792788334235598323
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 25771290555,
+          "device": 2304,
+          "mtime_ns": 1792790591261723832
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 3604933,
+          "device": 2304,
+          "mtime_ns": 1792788334235598323
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 4310322709,
+          "device": 2304,
+          "mtime_ns": 1792790224014741382
+        }
+      ],
+      "reclaimable_bytes": 41608874
+    },
+    {
+      "size": 20804245,
+      "sha256": "14e393a7b718ed90dcf97b60e9cf13246d47de3713d0b7c35da58feaede7069b",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 23626293461,
+          "device": 2304,
+          "mtime_ns": 1792788101274141385
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/racketsports_mantis_d512_b1701_ridge_r0.1_o17_s42/final.pt",
+          "inode": 23626293461,
+          "device": 2304,
+          "mtime_ns": 1792788101274141385
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 26845734221,
+          "device": 2304,
+          "mtime_ns": 1792790591361720762
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 23626293461,
+          "device": 2304,
+          "mtime_ns": 1792788101274141385
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 2156636857,
+          "device": 2304,
+          "mtime_ns": 1792790224034740553
+        }
+      ],
+      "reclaimable_bytes": 41608490
+    },
+    {
+      "size": 20803797,
+      "sha256": "77082ed3528bf60823f11e91e92182375b57d7193c401b1be75663d5157ed46e",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 3223550811,
+          "device": 2304,
+          "mtime_ns": 1792788334447593168
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 27938527300,
+          "device": 2304,
+          "mtime_ns": 1792790591385720026
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 3223550811,
+          "device": 2304,
+          "mtime_ns": 1792788334447593168
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 5387459378,
+          "device": 2304,
+          "mtime_ns": 1792790224114737236
+        }
+      ],
+      "reclaimable_bytes": 41607594
+    },
+    {
+      "size": 20803477,
+      "sha256": "7b164384c6f935ac8192bfd266b8b028c7ba5290464b94cc7b56245597294393",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 5386966813,
+          "device": 2304,
+          "mtime_ns": 1792788334507591709
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 29009013704,
+          "device": 2304,
+          "mtime_ns": 1792790591453717939
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 5386966813,
+          "device": 2304,
+          "mtime_ns": 1792788334507591709
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 7530533877,
+          "device": 2304,
+          "mtime_ns": 1792790224242731930
+        }
+      ],
+      "reclaimable_bytes": 41606954
+    },
+    {
+      "size": 20803669,
+      "sha256": "a2cada1d97b7a8797767f26ba4cba356c40d82d88cecdee566d8b1a441827cf0",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 2156646049,
+          "device": 2304,
+          "mtime_ns": 1792788334419593849
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 30076091221,
+          "device": 2304,
+          "mtime_ns": 1792790591437718430
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/racketsports_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 2156646049,
+          "device": 2304,
+          "mtime_ns": 1792788334419593849
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 6448954081,
+          "device": 2304,
+          "mtime_ns": 1792790224238732097
+        }
+      ],
+      "reclaimable_bytes": 41607338
+    },
+    {
+      "size": 33860117,
+      "sha256": "1c1310e85f4892877e633674711f63e43d973fdcca54b9a5a3a7f49179c5dfb5",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 20405475302,
+          "device": 2304,
+          "mtime_ns": 1792788337291524123
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 16117032221,
+          "device": 2304,
+          "mtime_ns": 1792790595541592626
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 20405475302,
+          "device": 2304,
+          "mtime_ns": 1792788337291524123
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 27938498333,
+          "device": 2304,
+          "mtime_ns": 1792790228286564600
+        }
+      ],
+      "reclaimable_bytes": 67720234
+    },
+    {
+      "size": 33859605,
+      "sha256": "86f64213cdc68938156c77bb8a3572feda62af7b2b69e00e314b3e1449f77cca",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 1081193810,
+          "device": 2304,
+          "mtime_ns": 1792788104110049486
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/pendigits_mantis_d512_b1701_ridge_r0.01_o17_s42/final.pt",
+          "inode": 1081193810,
+          "device": 2304,
+          "mtime_ns": 1792788104110049486
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 17277498293,
+          "device": 2304,
+          "mtime_ns": 1792790595673588585
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 1081193810,
+          "device": 2304,
+          "mtime_ns": 1792788104110049486
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 28999156752,
+          "device": 2304,
+          "mtime_ns": 1792790228414559316
+        }
+      ],
+      "reclaimable_bytes": 67719210
+    },
+    {
+      "size": 33858005,
+      "sha256": "64a3ebace99013fb365886693358908381a67004a78242ac856fff5bc14143fe",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 19353850793,
+          "device": 2304,
+          "mtime_ns": 1792788337295524026
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 18257075680,
+          "device": 2304,
+          "mtime_ns": 1792790595781585278
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 19353850793,
+          "device": 2304,
+          "mtime_ns": 1792788337295524026
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 30084021047,
+          "device": 2304,
+          "mtime_ns": 1792790228430558655
+        }
+      ],
+      "reclaimable_bytes": 67716010
+    },
+    {
+      "size": 33856661,
+      "sha256": "624783033c4e9746fac0c24eba8aeca3753f8a8573a9cdc183ef8948dfde3993",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 22550303968,
+          "device": 2304,
+          "mtime_ns": 1792788337535518210
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 21490045874,
+          "device": 2304,
+          "mtime_ns": 1792790595753586135
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 22550303968,
+          "device": 2304,
+          "mtime_ns": 1792788337535518210
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 1080875914,
+          "device": 2304,
+          "mtime_ns": 1792790228518555022
+        }
+      ],
+      "reclaimable_bytes": 67713322
+    },
+    {
+      "size": 33856469,
+      "sha256": "1f7e9b8026d1e34d4f26191d7fa3433bf0365bbf214f43056979c855cc7dd068",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 21489874921,
+          "device": 2304,
+          "mtime_ns": 1792788337519518598
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 19360827802,
+          "device": 2304,
+          "mtime_ns": 1792790595789585034
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 21489874921,
+          "device": 2304,
+          "mtime_ns": 1792788337519518598
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 31144192867,
+          "device": 2304,
+          "mtime_ns": 1792790228470557004
+        }
+      ],
+      "reclaimable_bytes": 67712938
+    },
+    {
+      "size": 33856597,
+      "sha256": "dfe32a434d3fd6268bc3180cb815270e5ca23d32b9376ca292fe578e09d5b812",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 23626341833,
+          "device": 2304,
+          "mtime_ns": 1792788337571517338
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 22560721712,
+          "device": 2304,
+          "mtime_ns": 1792790595761585891
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/pendigits_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 23626341833,
+          "device": 2304,
+          "mtime_ns": 1792788337571517338
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 33290993409,
+          "device": 2304,
+          "mtime_ns": 1792790228486556343
+        }
+      ],
+      "reclaimable_bytes": 67713194
+    },
+    {
+      "size": 91338965,
+      "sha256": "9ac8d420e3b235cf819a621ac8cfea4882c2a2ebdffe128c232928ce41b026d9",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 12891093983,
+          "device": 2304,
+          "mtime_ns": 1792788108281914932
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/articulary_mantis_d512_b1701_ridge_r0.001_o17_s42/final.pt",
+          "inode": 12891093983,
+          "device": 2304,
+          "mtime_ns": 1792788108281914932
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 7527017466,
+          "device": 2304,
+          "mtime_ns": 1792790600185450672
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 12891093983,
+          "device": 2304,
+          "mtime_ns": 1792788108281914932
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 19345414298,
+          "device": 2304,
+          "mtime_ns": 1792790233450351898
+        }
+      ],
+      "reclaimable_bytes": 182677930
+    },
+    {
+      "size": 91338453,
+      "sha256": "b2c8911926bb7df5728e927f21a1df64e530e221441bd21e551a75d9143b8ff3",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 3223550827,
+          "device": 2304,
+          "mtime_ns": 1792788341843414075
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 8601920390,
+          "device": 2304,
+          "mtime_ns": 1792790600401444081
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 3223550827,
+          "device": 2304,
+          "mtime_ns": 1792788341843414075
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 20405549809,
+          "device": 2304,
+          "mtime_ns": 1792790233482350584
+        }
+      ],
+      "reclaimable_bytes": 182676906
+    },
+    {
+      "size": 91336277,
+      "sha256": "10cf19cae1f8c04f6ff2ffcd1a16def52f6d2ca7f6dfbfe73af5229e69f46e2d",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 5386966829,
+          "device": 2304,
+          "mtime_ns": 1792788342035409444
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 11811875240,
+          "device": 2304,
+          "mtime_ns": 1792790600521440419
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 5386966829,
+          "device": 2304,
+          "mtime_ns": 1792788342035409444
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 21490045834,
+          "device": 2304,
+          "mtime_ns": 1792790233514349269
+        }
+      ],
+      "reclaimable_bytes": 182672554
+    },
+    {
+      "size": 91336277,
+      "sha256": "50fcd299ed7f15f52d4c20a4b8e025a80abd6fc92aa6b5345f45f5829176c6d6",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 8635042452,
+          "device": 2304,
+          "mtime_ns": 1792788342271403758
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 12891095041,
+          "device": 2304,
+          "mtime_ns": 1792790600585438466
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 8635042452,
+          "device": 2304,
+          "mtime_ns": 1792788342271403758
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 25771247794,
+          "device": 2304,
+          "mtime_ns": 1792790233570346968
+        }
+      ],
+      "reclaimable_bytes": 182672554
+    },
+    {
+      "size": 91334485,
+      "sha256": "3ef601ca9507148eb8f46fda8eb988070d2f9d7e00d15f0cf3288d9bbbfa95d4",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 6448952666,
+          "device": 2304,
+          "mtime_ns": 1792788342203405396
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 10740384951,
+          "device": 2304,
+          "mtime_ns": 1792790600589438344
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 6448952666,
+          "device": 2304,
+          "mtime_ns": 1792788342203405396
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 22550284282,
+          "device": 2304,
+          "mtime_ns": 1792790233534348447
+        }
+      ],
+      "reclaimable_bytes": 182668970
+    },
+    {
+      "size": 91335509,
+      "sha256": "ca3bf6d475a9675a2474db6e2aa1b8f4ff91162bb62ca91563b3260a06bb1781",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 7527019653,
+          "device": 2304,
+          "mtime_ns": 1792788342231404722
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 9680839454,
+          "device": 2304,
+          "mtime_ns": 1792790600533440052
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/articulary_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 7527019653,
+          "device": 2304,
+          "mtime_ns": 1792788342231404722
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 24719649575,
+          "device": 2304,
+          "mtime_ns": 1792790233562347297
+        }
+      ],
+      "reclaimable_bytes": 182671018
+    },
+    {
+      "size": 33433493,
+      "sha256": "9c79d9edd7555254d1d50faf4b3112357213dfecf10d3d1edc3bc958da481dc0",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 22550303977,
+          "device": 2304,
+          "mtime_ns": 1792788346451303249
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 33291071724,
+          "device": 2304,
+          "mtime_ns": 1792790605249296366
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 22550303977,
+          "device": 2304,
+          "mtime_ns": 1792788346451303249
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 11811875390,
+          "device": 2304,
+          "mtime_ns": 1792790238622139943
+        }
+      ],
+      "reclaimable_bytes": 66866986
+    },
+    {
+      "size": 33433429,
+      "sha256": "b6123aeac1b1fb90839c7f49def33c17a5f2c98e919a2eee6522bd6934eef7a1",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 24717877986,
+          "device": 2304,
+          "mtime_ns": 1792788346711297012
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/beijing_pm25_mantis_d512_b1701_ridge_r0.01_o17_s42/final.pt",
+          "inode": 24717877986,
+          "device": 2304,
+          "mtime_ns": 1792788346711297012
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 1082323207,
+          "device": 2304,
+          "mtime_ns": 1792790605305294662
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 24717877986,
+          "device": 2304,
+          "mtime_ns": 1792788346711297012
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 10740384907,
+          "device": 2304,
+          "mtime_ns": 1792790238674137817
+        }
+      ],
+      "reclaimable_bytes": 66866858
+    },
+    {
+      "size": 33433429,
+      "sha256": "a64ea253be47b6df9f9b516af09f7f9ce11e08440f96def3e34047c208ac2b8b",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 23626341842,
+          "device": 2304,
+          "mtime_ns": 1792788346679297780
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 3612768,
+          "device": 2304,
+          "mtime_ns": 1792790605333293810
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 23626341842,
+          "device": 2304,
+          "mtime_ns": 1792788346679297780
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 12891096483,
+          "device": 2304,
+          "mtime_ns": 1792790238806132421
+        }
+      ],
+      "reclaimable_bytes": 66866858
+    },
+    {
+      "size": 33433301,
+      "sha256": "c4e0928a68694235fc23237309c031de30c21f998483e7167ec2714983e53e02",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 25771000871,
+          "device": 2304,
+          "mtime_ns": 1792788346803294806
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 2156750882,
+          "device": 2304,
+          "mtime_ns": 1792790605353293202
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 25771000871,
+          "device": 2304,
+          "mtime_ns": 1792788346803294806
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 15050598138,
+          "device": 2304,
+          "mtime_ns": 1792790238958126206
+        }
+      ],
+      "reclaimable_bytes": 66866602
+    },
+    {
+      "size": 33433045,
+      "sha256": "b4a288ecad1f3c7a245d736a2ff58a8b2015dbbafb919f1f3bc772664eded00e",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 26860111694,
+          "device": 2304,
+          "mtime_ns": 1792788346883292886
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 3229535252,
+          "device": 2304,
+          "mtime_ns": 1792790605469289673
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 26860111694,
+          "device": 2304,
+          "mtime_ns": 1792788346883292886
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 16137633285,
+          "device": 2304,
+          "mtime_ns": 1792790238926127515
+        }
+      ],
+      "reclaimable_bytes": 66866090
+    },
+    {
+      "size": 33432981,
+      "sha256": "a2c976a964ed2250bb6f32e5ff219e3a88f1170e4ca8256a46cf8de3e384f0b7",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 27938496789,
+          "device": 2304,
+          "mtime_ns": 1792788346907292311
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 4310316542,
+          "device": 2304,
+          "mtime_ns": 1792790605529287849
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/beijing_pm25_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 27938496789,
+          "device": 2304,
+          "mtime_ns": 1792788346907292311
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 13962945579,
+          "device": 2304,
+          "mtime_ns": 1792790238942126861
+        }
+      ],
+      "reclaimable_bytes": 66865962
+    },
+    {
+      "size": 27954389,
+      "sha256": "6e0adb81af927e927ba5b90e48ac0bfc8af62facce859ca2b51ebdef5f0e0507",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 8635042461,
+          "device": 2304,
+          "mtime_ns": 1792788350551205120
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 25781357202,
+          "device": 2304,
+          "mtime_ns": 1792790609861156266
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r0.001_o17_s42/final.pt",
+          "inode": 8635042461,
+          "device": 2304,
+          "mtime_ns": 1792788350551205120
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+          "inode": 2156646389,
+          "device": 2304,
+          "mtime_ns": 1792790242937963883
+        }
+      ],
+      "reclaimable_bytes": 55908778
+    },
+    {
+      "size": 27954389,
+      "sha256": "4bdeadc507a54810797574e02e76f1d1475329b55237b0b38215320533e1a46a",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 7527019662,
+          "device": 2304,
+          "mtime_ns": 1792788350475206935
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 24704874530,
+          "device": 2304,
+          "mtime_ns": 1792790609849156630
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r0.01_o17_s42/final.pt",
+          "inode": 7527019662,
+          "device": 2304,
+          "mtime_ns": 1792788350475206935
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+          "inode": 5372560276,
+          "device": 2304,
+          "mtime_ns": 1792790243113956721
+        }
+      ],
+      "reclaimable_bytes": 55908778
+    },
+    {
+      "size": 27954389,
+      "sha256": "56f8683a1b86db9f2c8e6f6b8e2918c4c61e694bf90d3276cd9d90e07d5f9d85",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 10740482432,
+          "device": 2304,
+          "mtime_ns": 1792788350707201395
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_seed_v23/air_quality_mantis_d512_b1701_ridge_r0.1_o17_s42/final.pt",
+          "inode": 10740482432,
+          "device": 2304,
+          "mtime_ns": 1792788350707201395
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 27938527335,
+          "device": 2304,
+          "mtime_ns": 1792790609953153475
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r0.1_o17_s42/final.pt",
+          "inode": 10740482432,
+          "device": 2304,
+          "mtime_ns": 1792788350707201395
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+          "inode": 3223550538,
+          "device": 2304,
+          "mtime_ns": 1792790243057958999
+        }
+      ],
+      "reclaimable_bytes": 55908778
+    },
+    {
+      "size": 27954261,
+      "sha256": "d3f40df76ed81be7fc55db92456531af5987896897be68ea03ad48fa1f1386fd",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 9680862070,
+          "device": 2304,
+          "mtime_ns": 1792788350623203401
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 26845734255,
+          "device": 2304,
+          "mtime_ns": 1792790609885155538
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r1_o17_s42/final.pt",
+          "inode": 9680862070,
+          "device": 2304,
+          "mtime_ns": 1792788350623203401
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+          "inode": 4310316481,
+          "device": 2304,
+          "mtime_ns": 1792790243093957534
+        }
+      ],
+      "reclaimable_bytes": 55908522
+    },
+    {
+      "size": 27954005,
+      "sha256": "25418f556a91df40ac499883d3c098e8d7ef661cdce8c9eafbf5020447394cee",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 12891096449,
+          "device": 2304,
+          "mtime_ns": 1792788350771199867
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 31171302448,
+          "device": 2304,
+          "mtime_ns": 1792790610025151291
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r100_o17_s42/final.pt",
+          "inode": 12891096449,
+          "device": 2304,
+          "mtime_ns": 1792788350771199867
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+          "inode": 7527017430,
+          "device": 2304,
+          "mtime_ns": 1792790243173954279
+        }
+      ],
+      "reclaimable_bytes": 55908010
+    },
+    {
+      "size": 27954005,
+      "sha256": "61b0c9627fb7beab04ff0ff2685b27efa57256781b00bc51f4ad91477f4971b6",
+      "files": [
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 11812261848,
+          "device": 2304,
+          "mtime_ns": 1792788350795199293
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 28997041054,
+          "device": 2304,
+          "mtime_ns": 1792790609973152868
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/round3_validation_v9/air_quality_mantis_linear_r10_o17_s42/final.pt",
+          "inode": 11812261848,
+          "device": 2304,
+          "mtime_ns": 1792788350795199293
+        },
+        {
+          "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+          "inode": 6448952322,
+          "device": 2304,
+          "mtime_ns": 1792790243093957534
+        }
+      ],
+      "reclaimable_bytes": 55908010
+    }
+  ],
+  "reclaimable_bytes": 3307405156
+}

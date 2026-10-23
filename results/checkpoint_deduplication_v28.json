@@ -1,0 +1,426 @@
+{
+  "changed": [
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "3469966020e2a5f3d186a91cbb67e9036e9d9baae9f297e966a97fde04d09bb6"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "3469966020e2a5f3d186a91cbb67e9036e9d9baae9f297e966a97fde04d09bb6"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "4ec66f92a6c429df1ef04504a60420f90a1b9cd0b121b5f813fb958639a88b32"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "4ec66f92a6c429df1ef04504a60420f90a1b9cd0b121b5f813fb958639a88b32"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "d3a06cd46a5fea5f10797c1594a68315754f56b9b915ef8d2ee47469a09fe185"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "d3a06cd46a5fea5f10797c1594a68315754f56b9b915ef8d2ee47469a09fe185"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "9dc567038baf304bc4406f16b28c83ddf683b502b348cfd073490292c588d10f"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "9dc567038baf304bc4406f16b28c83ddf683b502b348cfd073490292c588d10f"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "35a89d9d2da27433e8599e102de06d791dd542a268b3188ce926946df2959ea4"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "35a89d9d2da27433e8599e102de06d791dd542a268b3188ce926946df2959ea4"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "d3a3dacf7e9b45a07d0d20802e90ab7557e801a84e00f98743bd026c804a16df"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/natops_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "d3a3dacf7e9b45a07d0d20802e90ab7557e801a84e00f98743bd026c804a16df"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "b53ff28e5240bfc376006b237b5839d1a0a4ea782b909df8a88b9b34b5e10e92"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "b53ff28e5240bfc376006b237b5839d1a0a4ea782b909df8a88b9b34b5e10e92"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "d2f83eb7328229a8af72f58a58f7de777dff8a128a118d28bcfa2e3fc1ba102a"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "d2f83eb7328229a8af72f58a58f7de777dff8a128a118d28bcfa2e3fc1ba102a"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "0f9edfe195791e1ffe7a10f29030eef33bb8bb7f030fc0eae8e4f50becea313f"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "0f9edfe195791e1ffe7a10f29030eef33bb8bb7f030fc0eae8e4f50becea313f"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "18bf096c17c71b19e2612bf85417819ebde595a66685d6b203a3c8cde30c4f33"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "18bf096c17c71b19e2612bf85417819ebde595a66685d6b203a3c8cde30c4f33"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "0bf432abf73e1e1f35fe1c8b0babf43dbf3cadda9eabbcf98aa5160749e6f2be"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "0bf432abf73e1e1f35fe1c8b0babf43dbf3cadda9eabbcf98aa5160749e6f2be"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "13310eb3ee8ecfcfbfb87413b70e45185cab44414f6a96a2d1fcf0c18184eea8"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/epilepsy_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "13310eb3ee8ecfcfbfb87413b70e45185cab44414f6a96a2d1fcf0c18184eea8"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "84cd166fbc67fd419831b76be4d8ac5943020ef5ed118c729f89536bc05e0072"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "84cd166fbc67fd419831b76be4d8ac5943020ef5ed118c729f89536bc05e0072"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "41b470103561616927099fa53d8ff3df4aba0a432d09aa831a4a9a4d05f227d2"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "41b470103561616927099fa53d8ff3df4aba0a432d09aa831a4a9a4d05f227d2"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "14e393a7b718ed90dcf97b60e9cf13246d47de3713d0b7c35da58feaede7069b"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "14e393a7b718ed90dcf97b60e9cf13246d47de3713d0b7c35da58feaede7069b"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "77082ed3528bf60823f11e91e92182375b57d7193c401b1be75663d5157ed46e"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "77082ed3528bf60823f11e91e92182375b57d7193c401b1be75663d5157ed46e"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "7b164384c6f935ac8192bfd266b8b028c7ba5290464b94cc7b56245597294393"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "7b164384c6f935ac8192bfd266b8b028c7ba5290464b94cc7b56245597294393"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "a2cada1d97b7a8797767f26ba4cba356c40d82d88cecdee566d8b1a441827cf0"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/racketsports_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "a2cada1d97b7a8797767f26ba4cba356c40d82d88cecdee566d8b1a441827cf0"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "1c1310e85f4892877e633674711f63e43d973fdcca54b9a5a3a7f49179c5dfb5"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "1c1310e85f4892877e633674711f63e43d973fdcca54b9a5a3a7f49179c5dfb5"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "86f64213cdc68938156c77bb8a3572feda62af7b2b69e00e314b3e1449f77cca"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "86f64213cdc68938156c77bb8a3572feda62af7b2b69e00e314b3e1449f77cca"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "64a3ebace99013fb365886693358908381a67004a78242ac856fff5bc14143fe"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "64a3ebace99013fb365886693358908381a67004a78242ac856fff5bc14143fe"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "624783033c4e9746fac0c24eba8aeca3753f8a8573a9cdc183ef8948dfde3993"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "624783033c4e9746fac0c24eba8aeca3753f8a8573a9cdc183ef8948dfde3993"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "1f7e9b8026d1e34d4f26191d7fa3433bf0365bbf214f43056979c855cc7dd068"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "1f7e9b8026d1e34d4f26191d7fa3433bf0365bbf214f43056979c855cc7dd068"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "dfe32a434d3fd6268bc3180cb815270e5ca23d32b9376ca292fe578e09d5b812"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/pendigits_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "dfe32a434d3fd6268bc3180cb815270e5ca23d32b9376ca292fe578e09d5b812"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "9ac8d420e3b235cf819a621ac8cfea4882c2a2ebdffe128c232928ce41b026d9"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "9ac8d420e3b235cf819a621ac8cfea4882c2a2ebdffe128c232928ce41b026d9"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "b2c8911926bb7df5728e927f21a1df64e530e221441bd21e551a75d9143b8ff3"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "b2c8911926bb7df5728e927f21a1df64e530e221441bd21e551a75d9143b8ff3"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "10cf19cae1f8c04f6ff2ffcd1a16def52f6d2ca7f6dfbfe73af5229e69f46e2d"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "10cf19cae1f8c04f6ff2ffcd1a16def52f6d2ca7f6dfbfe73af5229e69f46e2d"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "50fcd299ed7f15f52d4c20a4b8e025a80abd6fc92aa6b5345f45f5829176c6d6"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "50fcd299ed7f15f52d4c20a4b8e025a80abd6fc92aa6b5345f45f5829176c6d6"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "3ef601ca9507148eb8f46fda8eb988070d2f9d7e00d15f0cf3288d9bbbfa95d4"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "3ef601ca9507148eb8f46fda8eb988070d2f9d7e00d15f0cf3288d9bbbfa95d4"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "ca3bf6d475a9675a2474db6e2aa1b8f4ff91162bb62ca91563b3260a06bb1781"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/articulary_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "ca3bf6d475a9675a2474db6e2aa1b8f4ff91162bb62ca91563b3260a06bb1781"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "9c79d9edd7555254d1d50faf4b3112357213dfecf10d3d1edc3bc958da481dc0"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "9c79d9edd7555254d1d50faf4b3112357213dfecf10d3d1edc3bc958da481dc0"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "b6123aeac1b1fb90839c7f49def33c17a5f2c98e919a2eee6522bd6934eef7a1"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "b6123aeac1b1fb90839c7f49def33c17a5f2c98e919a2eee6522bd6934eef7a1"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "a64ea253be47b6df9f9b516af09f7f9ce11e08440f96def3e34047c208ac2b8b"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "a64ea253be47b6df9f9b516af09f7f9ce11e08440f96def3e34047c208ac2b8b"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "c4e0928a68694235fc23237309c031de30c21f998483e7167ec2714983e53e02"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "c4e0928a68694235fc23237309c031de30c21f998483e7167ec2714983e53e02"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "b4a288ecad1f3c7a245d736a2ff58a8b2015dbbafb919f1f3bc772664eded00e"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "b4a288ecad1f3c7a245d736a2ff58a8b2015dbbafb919f1f3bc772664eded00e"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "a2c976a964ed2250bb6f32e5ff219e3a88f1170e4ca8256a46cf8de3e384f0b7"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/beijing_pm25_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "a2c976a964ed2250bb6f32e5ff219e3a88f1170e4ca8256a46cf8de3e384f0b7"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "6e0adb81af927e927ba5b90e48ac0bfc8af62facce859ca2b51ebdef5f0e0507"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.001_o17_s42/final.pt",
+      "sha256": "6e0adb81af927e927ba5b90e48ac0bfc8af62facce859ca2b51ebdef5f0e0507"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "4bdeadc507a54810797574e02e76f1d1475329b55237b0b38215320533e1a46a"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.01_o17_s42/final.pt",
+      "sha256": "4bdeadc507a54810797574e02e76f1d1475329b55237b0b38215320533e1a46a"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "56f8683a1b86db9f2c8e6f6b8e2918c4c61e694bf90d3276cd9d90e07d5f9d85"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r0.1_o17_s42/final.pt",
+      "sha256": "56f8683a1b86db9f2c8e6f6b8e2918c4c61e694bf90d3276cd9d90e07d5f9d85"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "d3f40df76ed81be7fc55db92456531af5987896897be68ea03ad48fa1f1386fd"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r1_o17_s42/final.pt",
+      "sha256": "d3f40df76ed81be7fc55db92456531af5987896897be68ea03ad48fa1f1386fd"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "25418f556a91df40ac499883d3c098e8d7ef661cdce8c9eafbf5020447394cee"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r100_o17_s42/final.pt",
+      "sha256": "25418f556a91df40ac499883d3c098e8d7ef661cdce8c9eafbf5020447394cee"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/raw_temporal_v28/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "61b0c9627fb7beab04ff0ff2685b27efa57256781b00bc51f4ad91477f4971b6"
+    },
+    {
+      "path": "/root/autodl-tmp/tmot-artifacts/runs/temporal_joint_v27/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "source": "/root/autodl-tmp/tmot-artifacts/runs/projection_diagnostic_v22/air_quality_mantis_d512_ridge_r10_o17_s42/final.pt",
+      "sha256": "61b0c9627fb7beab04ff0ff2685b27efa57256781b00bc51f4ad91477f4971b6"
+    }
+  ],
+  "reclaimed_bytes": 3307405156,
+  "semantics": "hard links of byte-identical immutable checkpoints; all original paths retained"
+}

@@ -1,0 +1,285 @@
+{
+  "scope": "VAL best of same six-point ridge grids; unequal dimensions disclosed; one seed/order",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "metric": "final_rmse",
+      "final": 1.0162368038501508,
+      "average": 0.836444000404829,
+      "ridge": 0.1,
+      "effective_dimension": 512,
+      "persistent_bytes": 2244904
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis_raw_last",
+      "metric": "final_rmse",
+      "final": 1.0290373656009775,
+      "average": 0.7635783918153118,
+      "ridge": 1.0,
+      "effective_dimension": 530,
+      "persistent_bytes": 2400136
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_rmse",
+      "final": 1.2872538893170835,
+      "average": 1.0598198129848915,
+      "ridge": 1.0,
+      "effective_dimension": 674,
+      "persistent_bytes": 3828616
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "raw_windows",
+      "metric": "final_rmse",
+      "final": 1.2887763213135885,
+      "average": 0.9913665333764943,
+      "ridge": 100.0,
+      "effective_dimension": 162,
+      "persistent_bytes": 256904
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.994392684610076,
+      "ridge": 0.001,
+      "effective_dimension": 512,
+      "persistent_bytes": 52970528
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis_raw_last",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 0.9962042788129745,
+      "ridge": 0.001,
+      "effective_dimension": 521,
+      "persistent_bytes": 54839432
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 0.001,
+      "effective_dimension": 593,
+      "persistent_bytes": 70957064
+    },
+    {
+      "dataset": "articulary",
+      "encoder": "raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.98,
+      "average": 0.9983333333333334,
+      "ridge": 0.1,
+      "effective_dimension": 81,
+      "persistent_bytes": 1398792
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "metric": "final_rmse",
+      "final": 44.120007086141115,
+      "average": 53.463375034858835,
+      "ridge": 0.01,
+      "effective_dimension": 512,
+      "persistent_bytes": 2244904
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis_raw_last",
+      "metric": "final_rmse",
+      "final": 30.54747638675299,
+      "average": 38.249817737156704,
+      "ridge": 0.1,
+      "effective_dimension": 534,
+      "persistent_bytes": 2435336
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_rmse",
+      "final": 31.798421918305053,
+      "average": 41.893200002483034,
+      "ridge": 0.1,
+      "effective_dimension": 710,
+      "persistent_bytes": 4237576
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "raw_windows",
+      "metric": "final_rmse",
+      "final": 29.698025427332766,
+      "average": 39.00357612267356,
+      "ridge": 0.01,
+      "effective_dimension": 198,
+      "persistent_bytes": 370952
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0,
+      "effective_dimension": 512,
+      "persistent_bytes": 8585600
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis_raw_last",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0,
+      "effective_dimension": 515,
+      "persistent_bytes": 8685344
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 1.0,
+      "average": 1.0,
+      "ridge": 1.0,
+      "effective_dimension": 539,
+      "persistent_bytes": 9504032
+    },
+    {
+      "dataset": "epilepsy",
+      "encoder": "raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.7261904761904763,
+      "average": 0.7797619047619048,
+      "ridge": 0.1,
+      "effective_dimension": 27,
+      "persistent_bytes": 29936
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.9444444444444445,
+      "average": 0.9120370370370371,
+      "ridge": 0.001,
+      "effective_dimension": 512,
+      "persistent_bytes": 12812736
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis_raw_last",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "ridge": 0.001,
+      "effective_dimension": 536,
+      "persistent_bytes": 14030784
+    },
+    {
+      "dataset": "natops",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.9166666666666666,
+      "average": 0.9027777777777778,
+      "ridge": 0.001,
+      "effective_dimension": 728,
+      "persistent_bytes": 25765824
+    },
+    {
+      "dataset": "natops",
+      "encoder": "raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.888888888888889,
+      "average": 0.8518518518518517,
+      "ridge": 0.1,
+      "effective_dimension": 216,
+      "persistent_bytes": 2336704
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.9959304584304585,
+      "average": 0.9978360528360529,
+      "ridge": 0.01,
+      "effective_dimension": 512,
+      "persistent_bytes": 21267008
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis_raw_last",
+      "metric": "final_macro_accuracy",
+      "final": 0.9952852971401359,
+      "average": 0.9982752023961702,
+      "ridge": 0.001,
+      "effective_dimension": 514,
+      "persistent_bytes": 21432320
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.9959797415845804,
+      "average": 0.9984140912850592,
+      "ridge": 0.001,
+      "effective_dimension": 530,
+      "persistent_bytes": 22777856
+    },
+    {
+      "dataset": "pendigits",
+      "encoder": "raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.8723942276361631,
+      "average": 0.9338180502293405,
+      "ridge": 0.01,
+      "effective_dimension": 18,
+      "persistent_bytes": 33368
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis",
+      "metric": "final_macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9174107142857143,
+      "ridge": 0.1,
+      "effective_dimension": 512,
+      "persistent_bytes": 8585600
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis_raw_last",
+      "metric": "final_macro_accuracy",
+      "final": 0.9330357142857143,
+      "average": 0.9665178571428572,
+      "ridge": 1.0,
+      "effective_dimension": 518,
+      "persistent_bytes": 8785664
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "mantis_raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.9330357142857143,
+      "average": 0.9352678571428572,
+      "ridge": 0.001,
+      "effective_dimension": 566,
+      "persistent_bytes": 10469120
+    },
+    {
+      "dataset": "racketsports",
+      "encoder": "raw_windows",
+      "metric": "final_macro_accuracy",
+      "final": 0.8973214285714286,
+      "average": 0.9486607142857143,
+      "ridge": 1.0,
+      "effective_dimension": 54,
+      "persistent_bytes": 112232
+    }
+  ]
+}

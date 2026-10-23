@@ -1,8 +1,9 @@
 """Read-only SHA256 duplicate scan of terminal experiment queues only."""
 import argparse,collections,hashlib,json
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);a=p.parse_args();sizes=collections.defaultdict(list)
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);p.add_argument('--queues',nargs='*');a=p.parse_args();sizes=collections.defaultdict(list)
 for complete in (a.root/'runs').glob('*/complete.json'):
+    if a.queues and complete.parent.name not in a.queues:continue
     for summary in complete.parent.glob('*/summary.json'):
         path=summary.parent/'final.pt'
         if path.is_file() and not path.is_symlink():sizes[path.stat().st_size].append(path)
