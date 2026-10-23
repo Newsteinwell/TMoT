@@ -1,0 +1,2414 @@
+[
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 8.029552448540926,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1461964800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9280701754385963,
+    "average_macro_accuracy": 0.9676290677941863,
+    "forgetting": 0.049652777777777754,
+    "run_id": "dailysports_static_r0.001_o17_s42",
+    "variant": "static_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.9767874255776405,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1461694464,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9368421052631577,
+    "average_macro_accuracy": 0.9710780932555958,
+    "forgetting": 0.04131944444444445,
+    "run_id": "dailysports_static_r0.01_o17_s42",
+    "variant": "static_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.874770902097225,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1456615424,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9517543859649122,
+    "average_macro_accuracy": 0.9778227433232592,
+    "forgetting": 0.024652777777777773,
+    "run_id": "dailysports_static_r0.1_o17_s42",
+    "variant": "static_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.879127502441406,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1456922624,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9289473684210525,
+    "average_macro_accuracy": 0.9404862213427744,
+    "forgetting": 0.03819444444444445,
+    "run_id": "dailysports_static_r100_o17_s42",
+    "variant": "static_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.972564451396465,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1456455680,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9675438596491228,
+    "average_macro_accuracy": 0.9818815206121708,
+    "forgetting": 0.01701388888888887,
+    "run_id": "dailysports_static_r10_o17_s42",
+    "variant": "static_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_static_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.701630584895611,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1456640000,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9666666666666667,
+    "average_macro_accuracy": 0.9817689717689717,
+    "forgetting": 0.014930555555555558,
+    "run_id": "dailysports_static_r1_o17_s42",
+    "variant": "static_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r0.001_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.646064825356007,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1461841920,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9298245614035087,
+    "average_macro_accuracy": 0.9679912687549427,
+    "forgetting": 0.04756944444444443,
+    "run_id": "dailysports_transport_r0.001_o17_s42",
+    "variant": "transport_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r0.01_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.91764697432518,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1461616640,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9324561403508771,
+    "average_macro_accuracy": 0.9686803116490079,
+    "forgetting": 0.04340277777777779,
+    "run_id": "dailysports_transport_r0.01_o17_s42",
+    "variant": "transport_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r0.1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.870146248489618,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1461800960,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9324561403508771,
+    "average_macro_accuracy": 0.9711879613462001,
+    "forgetting": 0.0423611111111111,
+    "run_id": "dailysports_transport_r0.1_o17_s42",
+    "variant": "transport_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r100_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.933445792645216,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1460932608,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9307017543859649,
+    "average_macro_accuracy": 0.9381393908363292,
+    "forgetting": 0.03888888888888889,
+    "run_id": "dailysports_transport_r100_o17_s42",
+    "variant": "transport_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r10_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.797913774847984,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1463496704,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.9570175438596491,
+    "average_macro_accuracy": 0.9712596393401347,
+    "forgetting": 0.029166666666666632,
+    "run_id": "dailysports_transport_r10_o17_s42",
+    "variant": "transport_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/dailysports_transport_r1_o17_s42",
+      "dataset": "dailysports",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        5,
+        6,
+        4
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "elapsed_s": 7.684792671352625,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 1462190080,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "3bec1195fac5a15a4f8188dfa71e505273a74497c197393854b3a64b27b2a448",
+      "val": "7db208783bd1cfa96cb83f1857410f7fcea3340827e552e8ce5780ce525e65f9"
+    },
+    "final_macro_accuracy": 0.957017543859649,
+    "average_macro_accuracy": 0.9814046287008102,
+    "forgetting": 0.02777777777777779,
+    "run_id": "dailysports_transport_r1_o17_s42",
+    "variant": "transport_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5893151834607124,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618684416,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 127.43964299338649,
+    "average_rmse": 103.75817417247542,
+    "run_id": "energy_static_r0.001_o17_s42",
+    "variant": "static_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5803311616182327,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620642304,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 111.261219378813,
+    "average_rmse": 98.68987200971755,
+    "run_id": "energy_static_r0.01_o17_s42",
+    "variant": "static_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5636639818549156,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 619945984,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 80.60147217021613,
+    "average_rmse": 85.4919544197571,
+    "run_id": "energy_static_r0.1_o17_s42",
+    "variant": "static_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6007700823247433,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620572672,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 75.98220040622546,
+    "average_rmse": 80.84624789284462,
+    "run_id": "energy_static_r100_o17_s42",
+    "variant": "static_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5562270246446133,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620646400,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 70.18950146508593,
+    "average_rmse": 75.7568113910043,
+    "run_id": "energy_static_r10_o17_s42",
+    "variant": "static_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_static_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5727244578301907,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620617728,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 67.69570746920172,
+    "average_rmse": 75.7115599355827,
+    "run_id": "energy_static_r1_o17_s42",
+    "variant": "static_r1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r0.001_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6787996664643288,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620507136,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 113.3959066073983,
+    "average_rmse": 96.92471014165294,
+    "run_id": "energy_transport_r0.001_o17_s42",
+    "variant": "transport_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r0.01_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6290418580174446,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620777472,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 104.55141888173412,
+    "average_rmse": 94.39852539488015,
+    "run_id": "energy_transport_r0.01_o17_s42",
+    "variant": "transport_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r0.1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5747218877077103,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 621010944,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 81.00429464122819,
+    "average_rmse": 85.60022694370738,
+    "run_id": "energy_transport_r0.1_o17_s42",
+    "variant": "transport_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r100_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.6020391955971718,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 614060032,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 75.7821321618365,
+    "average_rmse": 80.38280351269891,
+    "run_id": "energy_transport_r100_o17_s42",
+    "variant": "transport_r100"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r10_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5384472645819187,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 614510592,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 70.11349607826921,
+    "average_rmse": 75.32231109756216,
+    "run_id": "energy_transport_r10_o17_s42",
+    "variant": "transport_r10"
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/energy_transport_r1_o17_s42",
+      "dataset": "energy",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "elapsed_s": 0.5270021930336952,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 620503040,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "402ab7fe1a35aa472a1f84a293c50b7444f79883fc80b0c698fb87644da0acc8",
+      "val": "d05dd8df6c27303fd3eff95d38ee1721c62097bc26f30b7609d909f6813fe17b"
+    },
+    "final_rmse": 68.559546636974,
+    "average_rmse": 76.55369342225364,
+    "run_id": "energy_transport_r1_o17_s42",
+    "variant": "transport_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9797679670155048,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 865751040,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.960358889245815,
+    "average_macro_accuracy": 0.9864004939461358,
+    "forgetting": 0.01590106007067138,
+    "run_id": "har_static_r0.001_o17_s42",
+    "variant": "static_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9437619671225548,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 867856384,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9603165042652675,
+    "average_macro_accuracy": 0.9867721680884225,
+    "forgetting": 0.015017667844522964,
+    "run_id": "har_static_r0.01_o17_s42",
+    "variant": "static_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.900755401700735,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 863588352,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9601144840632473,
+    "average_macro_accuracy": 0.9867048280210824,
+    "forgetting": 0.016267667844522937,
+    "run_id": "har_static_r0.1_o17_s42",
+    "variant": "static_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9753135703504086,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 863879168,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9301050356946069,
+    "average_macro_accuracy": 0.9747019750768103,
+    "forgetting": 0.0026075979732412824,
+    "run_id": "har_static_r100_o17_s42",
+    "variant": "static_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.8586234413087368,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 863113216,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9539339508155763,
+    "average_macro_accuracy": 0.9838113169385254,
+    "forgetting": 0.008833922261484106,
+    "run_id": "har_static_r10_o17_s42",
+    "variant": "static_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_static_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9504000172019005,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 864387072,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9624701966663097,
+    "average_macro_accuracy": 0.98707339888877,
+    "forgetting": 0.011484098939929355,
+    "run_id": "har_static_r1_o17_s42",
+    "variant": "static_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r0.001_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.8969571888446808,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 867815424,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.960358889245815,
+    "average_macro_accuracy": 0.9864004939461358,
+    "forgetting": 0.01590106007067138,
+    "run_id": "har_transport_r0.001_o17_s42",
+    "variant": "transport_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r0.01_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.996051400899887,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 867246080,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9615791305278938,
+    "average_macro_accuracy": 0.9871930435092979,
+    "forgetting": 0.015017667844522964,
+    "run_id": "har_transport_r0.01_o17_s42",
+    "variant": "transport_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r0.1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.950976476073265,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 867045376,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.960358889245815,
+    "average_macro_accuracy": 0.9867862964152717,
+    "forgetting": 0.01590106007067138,
+    "run_id": "har_transport_r0.1_o17_s42",
+    "variant": "transport_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r100_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.9501594938337803,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 867426304,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9271981594508096,
+    "average_macro_accuracy": 0.97406605315027,
+    "forgetting": 0.009505791126815821,
+    "run_id": "har_transport_r100_o17_s42",
+    "variant": "transport_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r10_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 2.023448918014765,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 868081664,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.951678355998144,
+    "average_macro_accuracy": 0.9830594519993814,
+    "forgetting": 0.012217314487632525,
+    "run_id": "har_transport_r10_o17_s42",
+    "variant": "transport_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/har_transport_r1_o17_s42",
+      "dataset": "har",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 1.8840246312320232,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 864165888,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "8ba573ca6601d748373966f2362924f78f5773fa6ac93185d5f1e50da8effb29",
+      "val": "64db9372b99f5cbe2d6927fd4d65bbc1069ea302cb1d05964e5e6c55162bce88"
+    },
+    "final_macro_accuracy": 0.9581357747082128,
+    "average_macro_accuracy": 0.9856285915694043,
+    "forgetting": 0.013250883392226187,
+    "run_id": "har_transport_r1_o17_s42",
+    "variant": "transport_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3768836595118046,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618438656,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.7916666666666666,
+    "average_macro_accuracy": 0.9131944444444443,
+    "forgetting": 0.16666666666666666,
+    "run_id": "uwave_static_r0.001_o17_s42",
+    "variant": "static_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3923819176852703,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618471424,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9236111111111109,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_static_r0.01_o17_s42",
+    "variant": "static_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3251579515635967,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618250240,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9236111111111109,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_static_r0.1_o17_s42",
+    "variant": "static_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3622296527028084,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 613584896,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.7083333333333333,
+    "average_macro_accuracy": 0.84375,
+    "forgetting": 0.22222222222222224,
+    "run_id": "uwave_static_r100_o17_s42",
+    "variant": "static_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3895742632448673,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 614305792,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9236111111111109,
+    "forgetting": 0.1666666666666667,
+    "run_id": "uwave_static_r10_o17_s42",
+    "variant": "static_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_static_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": true,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3678484633564949,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 616546304,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9236111111111109,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_static_r1_o17_s42",
+    "variant": "static_r1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r0.001_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.001,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.441655445843935,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 619683840,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_transport_r0.001_o17_s42",
+    "variant": "transport_r0.001"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r0.01_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.01,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.4468969516456127,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 619356160,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_transport_r0.01_o17_s42",
+    "variant": "transport_r0.01"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r0.1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 0.1,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.38539446890354156,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 617504768,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_transport_r0.1_o17_s42",
+    "variant": "transport_r0.1"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r100_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 100.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3639606460928917,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618061824,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.75,
+    "average_macro_accuracy": 0.8680555555555556,
+    "forgetting": 0.22222222222222224,
+    "run_id": "uwave_transport_r100_o17_s42",
+    "variant": "transport_r100"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r10_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 10.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.35427603125572205,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618188800,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.8333333333333333,
+    "average_macro_accuracy": 0.9097222222222221,
+    "forgetting": 0.1666666666666667,
+    "run_id": "uwave_transport_r10_o17_s42",
+    "variant": "transport_r10"
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "root": "/root/autodl-tmp/tmot-artifacts",
+      "out": "/root/autodl-tmp/tmot-artifacts/runs/kernel_development_v8/uwave_transport_r1_o17_s42",
+      "dataset": "uwave",
+      "encoder": "mantis",
+      "seed": 42,
+      "order": 17,
+      "dimension": 256,
+      "ridge": 1.0,
+      "no_transport": false,
+      "device": "cpu",
+      "threads": 2,
+      "eval_split": "val"
+    },
+    "order": [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "elapsed_s": 0.3548744134604931,
+    "git_commit": "73cf1f8",
+    "max_rss_bytes": 618246144,
+    "gpu_peak_bytes": 0,
+    "input_hashes": {
+      "train": "e6a256ab1761806ddbcb99c3488eeb1dc2587dc8f4f531cad06c3229032e7092",
+      "val": "17ad584c3a11b409666e65979dad84acbc4adecb721c2ee1f454f054fcc35280"
+    },
+    "final_macro_accuracy": 0.875,
+    "average_macro_accuracy": 0.9201388888888888,
+    "forgetting": 0.11111111111111112,
+    "run_id": "uwave_transport_r1_o17_s42",
+    "variant": "transport_r1"
+  }
+]
