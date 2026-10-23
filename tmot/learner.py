@@ -38,13 +38,17 @@ def supcon(h, y, temperature=.1):
 class MomentLearner:
     def __init__(self, dimension, task='classification', method='tmot', seed=42,
                  bottleneck=64, epochs=30, lr=.001, hist_weight=1., sc_weight=.5,
-                 ridge=.01, device='cpu', replay_bytes=4*1024**2):
+                 ridge=.01, device='cpu', replay_bytes=4*1024**2,
+                 readout_mode='ridge', current_loss='ce'):
         if method not in ('tmot','no_hist','frozen_adapter','ft','er','ridge','ranpac','slda'):
             raise ValueError(method)
         if task not in ('classification','regression'): raise ValueError(task)
         if task=='regression' and method=='slda': raise ValueError('SLDA is classification-only')
         self.dimension,self.task,self.method,self.seed=dimension,task,method,seed
         self.epochs,self.lr,self.hist_weight,self.sc_weight=epochs,lr,hist_weight,sc_weight
+        if readout_mode not in ('ridge','trained'): raise ValueError(readout_mode)
+        if current_loss not in ('ce','mse'): raise ValueError(current_loss)
+        self.readout_mode,self.current_loss=readout_mode,current_loss
         self.ridge,self.device,self.replay_bytes=ridge,device,replay_bytes
         self.rng=np.random.default_rng(seed)
         torch.manual_seed(seed)
@@ -100,7 +104,8 @@ class MomentLearner:
                 for start in range(0,len(tx),128):
                     ids=order[start:start+128];h=self.adapter(tx[ids]);scores=self.head(h)
                     if self.task=='classification':
-                        loss=nn.functional.cross_entropy(scores,ty[ids])
+                        loss=(nn.functional.cross_entropy(scores,ty[ids]) if self.current_loss=='ce' else
+                              (scores-nn.functional.one_hot(ty[ids],outputs)).square().sum(1).mean())
                         if self.method in ('tmot','no_hist','frozen_adapter'):
                             loss=loss+self.sc_weight*supcon(h,ty[ids])
                     else:loss=(scores-ty[ids]).square().sum(1).mean()
@@ -143,7 +148,7 @@ class MomentLearner:
         if self.method in ('ft','er','tmot','no_hist','frozen_adapter'):
             with torch.no_grad():
                 h=self.adapter(torch.as_tensor(x,device=self.device))
-                scores=self.head(h).cpu().numpy() if self.method in ('ft','er') else augment(h.cpu().numpy())@self.readout
+                scores=self.head(h).cpu().numpy() if self.method in ('ft','er') or getattr(self,'readout_mode','ridge')=='trained' else augment(h.cpu().numpy())@self.readout
         elif self.method=='slda':
             m=self.lda_means;p=self.lda_precision;scores=x@p@m.T-.5*np.sum((m@p)*m,axis=1)
         else:scores=augment(self.features(x))@self.readout

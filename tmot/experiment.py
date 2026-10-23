@@ -17,7 +17,7 @@ def run(a):
     root=Path(a.root);out=Path(a.out);out.mkdir(parents=True,exist_ok=False)
     started=time.perf_counter()
     train=np.load(root/'features'/a.encoder/f'{a.dataset}_train.npz')
-    test=np.load(root/'features'/a.encoder/f'{a.dataset}_test.npz')
+    test=np.load(root/'features'/a.encoder/f'{a.dataset}_{a.eval_split}.npz')
     task='regression' if a.dataset=='energy' else 'classification'
     x,y=train['x'],train['y'];test_x,test_y=test['x'],test['y']
     stages=[];evals=[]
@@ -37,7 +37,7 @@ def run(a):
         y=(y-target_mu)/target_sd
     basis=FixedBasis(a.dimension).fit(x[stages[0]])
     learner=MomentLearner(a.dimension,task,a.method,a.seed,bottleneck=a.bottleneck,epochs=a.epochs,
-                         device=a.device,hist_weight=a.hist_weight,sc_weight=a.sc_weight,lr=a.lr,ridge=a.ridge)
+                         device=a.device,hist_weight=a.hist_weight,sc_weight=a.sc_weight,lr=a.lr,ridge=a.ridge,readout_mode=a.readout,current_loss=a.current_loss)
     if torch.cuda.is_available():torch.cuda.reset_peak_memory_stats()
     records=[];matrix=[]
     for stage,ids in enumerate(stages):
@@ -67,7 +67,7 @@ def run(a):
                  elapsed_s=time.perf_counter()-started,git_commit=commit,
                  max_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*(1024 if platform.system()=='Linux' else 1),
                  gpu_peak_bytes=torch.cuda.max_memory_allocated() if torch.cuda.is_available() else 0,
-                 input_hashes={s:sha(root/'features'/a.encoder/f'{a.dataset}_{s}.npz') for s in ('train','test')})
+                 input_hashes={s:sha(root/'features'/a.encoder/f'{a.dataset}_{s}.npz') for s in ('train',a.eval_split)})
     if task=='classification':
         summary['final_macro_accuracy']=records[-1]['macro_accuracy'];summary['average_macro_accuracy']=float(np.mean([r['macro_accuracy'] for r in records]))
         summary['forgetting']=float(np.mean([max(matrix[t][s] for t in range(s,len(stages)-1))-matrix[-1][s] for s in range(len(stages)-1)]))
@@ -85,6 +85,9 @@ def parser():
     p.add_argument('--dimension',type=int,default=256);p.add_argument('--bottleneck',type=int,default=64)
     p.add_argument('--epochs',type=int,default=30);p.add_argument('--hist-weight',type=float,default=1.)
     p.add_argument('--sc-weight',type=float,default=.5);p.add_argument('--lr',type=float,default=.001);p.add_argument('--ridge',type=float,default=.01)
+    p.add_argument('--eval-split',choices=['val','test'],default='test')
+    p.add_argument('--readout',choices=['ridge','trained'],default='ridge')
+    p.add_argument('--current-loss',choices=['ce','mse'],default='ce')
     p.add_argument('--device',default='cuda');p.add_argument('--threads',type=int,default=2)
     return p
 
