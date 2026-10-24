@@ -8,7 +8,7 @@ class WarmFunctionalBasis:
     def __init__(self,base,task,mode='trained',seed=42,width=128,epochs=30,device='cuda'):
         self.base=base;self.task=task;self.mode=mode;self.seed=seed
         self.width=width;self.epochs=epochs;self.device=device;self.dimension=base.dimension+width
-    def fit(self,x,y,calibration_x=None,sample_weight=None,input_stats=None,previous=None,distillation=0.,temperature=2.,external_targets=None):
+    def fit(self,x,y,calibration_x=None,sample_weight=None,input_stats=None,previous=None,distillation=0.,temperature=2.,external_targets=None,supervised_weight=None):
         if distillation<0 or temperature<=0:raise ValueError('Invalid distillation parameters')
         if hasattr(self,'net'):raise RuntimeError('Functional basis must remain fixed after first arrival')
         z=self.base.transform(x).astype(np.float32);y=np.asarray(y)
@@ -38,6 +38,11 @@ class WarmFunctionalBasis:
         for p in self.net.parameters():p.requires_grad_(True)
         features=torch.as_tensor((z-self.mean)/self.sd,device=self.device)
         weights=torch.as_tensor(weights,dtype=torch.float32,device=self.device)
+        supervised=weights
+        if supervised_weight is not None:
+            sw=np.asarray(supervised_weight,dtype=np.float64)
+            if sw.shape!=(len(y),) or np.any(sw<0) or not np.isfinite(sw).all() or sw.sum()<=0:raise ValueError('Invalid supervised weights')
+            supervised=torch.as_tensor(sw/sw.sum()*len(y),dtype=torch.float32,device=self.device)
         teacher=None
         if previous is not None and distillation and external_targets is None:
             # Teacher uses its own fixed input calibration; never receives new labels.
@@ -59,7 +64,7 @@ class WarmFunctionalBasis:
                 for batch in torch.randperm(len(y),device=self.device).split(256):
                     prediction=head(self.net(features[batch]))
                     error=nn.functional.cross_entropy(prediction,target[batch],reduction='none') if self.task=='classification' else (prediction-target[batch]).square().mean(1)
-                    loss=(weights[batch]*error).mean()
+                    loss=(supervised[batch]*error).mean()
                     if teacher is not None:
                         kd=distillation_error(prediction,teacher[batch],self.task,temperature)
                         kd=(weights[batch]*kd).mean()
