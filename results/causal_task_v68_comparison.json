@@ -1,0 +1,2367 @@
+{
+  "complete": true,
+  "trajectories": 144,
+  "selected": [
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "append",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6213380161429034,
+          "scores": [
+            0.6213380161429034
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7064052284996808,
+          "scores": [
+            0.26637153883057885,
+            0.9628410549017952
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6486017934053877,
+          "scores": [
+            0.2554532318878061,
+            0.8708384497501195,
+            0.6721245123934475
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0899800245029418,
+          "scores": [
+            0.3557278284780186,
+            0.8918939923005769,
+            0.7798208149572295,
+            1.8086252886110001
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 1.034094364150888,
+          "scores": [
+            0.4706876070500646,
+            0.8274671697627582,
+            0.8708208423653369,
+            1.78450553923329,
+            0.8695318678197905
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 1.034094364150888,
+      "average_rmse": 0.8200838853403603,
+      "shared_state": "../_shared/air_quality_mantis_append.pt",
+      "shared_state_sha256": "8c8f49073a00547a1b4164092553001585ea4a6eb50d390c54a8f09f37695658",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.642076764255762
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "append",
+        "method": "task",
+        "ridge": 10.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.5523108656322709,
+          "scores": [
+            0.5523108656322709
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 7397768,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 0.5986985949183788,
+          "scores": [
+            0.354452938819513,
+            0.7689233572188406
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 9048760,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 0.5772814850771766,
+          "scores": [
+            0.32601233807856445,
+            0.7312436502142594,
+            0.614727823985035
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10146680,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0775961326094925,
+          "scores": [
+            0.30214734004346516,
+            0.7498417985762243,
+            0.6144203159777075,
+            1.905438826784278
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 11263104,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9771866086841406,
+          "scores": [
+            0.4314262478763435,
+            0.7009358735912722,
+            0.6362850008323293,
+            1.8129766903888804,
+            0.7766503444722056
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 12375416,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 0.9771866086841406,
+      "average_rmse": 0.756614737384292,
+      "shared_state": "../_shared/air_quality_mantis_append.pt",
+      "shared_state_sha256": "8c8f49073a00547a1b4164092553001585ea4a6eb50d390c54a8f09f37695658",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.632825318723917
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "none",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6293928159184506,
+          "scores": [
+            0.6293928159184506
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7075785526503808,
+          "scores": [
+            0.23869910697760963,
+            0.9717806093299595
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.694704552729758,
+          "scores": [
+            0.12059178816491536,
+            0.9173781141282625,
+            0.8206985736130196
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.1343072768754054,
+          "scores": [
+            0.4110567787061361,
+            0.8854090569644694,
+            0.9559077358614843,
+            1.8508653583614962
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 1.0162368038501508,
+          "scores": [
+            0.5034265985635641,
+            0.8006909772385161,
+            0.8138224950461468,
+            1.815230434037738,
+            0.7745192713738343
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 1.0162368038501508,
+      "average_rmse": 0.836444000404829,
+      "shared_state": "../_shared/air_quality_mantis_none.pt",
+      "shared_state_sha256": "35634cb43a2685463de35a483b4985529a6ba32b0b16ad7eaf506ea84929a377",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 18.29744642227888
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "none",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.516565941000132,
+          "scores": [
+            0.516565941000132
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 6846132,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.6547736894274615,
+          "scores": [
+            0.45248054565868717,
+            0.8079099730374149
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 8493912,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.7044950338837266,
+          "scores": [
+            0.5297978043432636,
+            0.6874801803619821,
+            0.9566132403772944
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10119120,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0495033917621521,
+          "scores": [
+            0.27478431846632,
+            0.723796711710384,
+            0.6988815161102176,
+            1.838727760279729
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 11233372,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9625986770936513,
+          "scores": [
+            0.42813241420024756,
+            0.722757669680943,
+            0.8444867020692013,
+            1.658856022083506,
+            0.8349645348154816
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 12872944,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 0.9625986770936513,
+      "average_rmse": 0.7775873466334247,
+      "shared_state": "../_shared/air_quality_mantis_none.pt",
+      "shared_state_sha256": "35634cb43a2685463de35a483b4985529a6ba32b0b16ad7eaf506ea84929a377",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 18.285815965384245
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "residual",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.9828854156215469,
+          "scores": [
+            0.9828854156215469
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.8389627490630474,
+          "scores": [
+            0.680833919107482,
+            0.9716903638626855
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.7877528118874267,
+          "scores": [
+            0.6746841330572773,
+            0.8323055584983361,
+            0.8852206381338663
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.1075903464861798,
+          "scores": [
+            0.4994436916229428,
+            0.9465473905904944,
+            0.8530802034026143,
+            1.756578014929684
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 1.1133205274551063,
+          "scores": [
+            0.5475288309917177,
+            0.906330213916027,
+            1.0723904765435364,
+            1.7371088771267758,
+            1.0723287696253347
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 1.1133205274551063,
+      "average_rmse": 0.9661023701026614,
+      "shared_state": "../_shared/air_quality_mantis_residual.pt",
+      "shared_state_sha256": "cf18cdee5bf9c7627bbb01380e6292357c3b3f357e25bd603f50c18c594753c9",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 18.62493086606264
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "reference": "residual",
+        "method": "task",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 1.1286340333985558,
+          "scores": [
+            1.1286340333985558
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 7397768,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 0.9071721468641972,
+          "scores": [
+            0.9195456480769278,
+            0.8946275253954444
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 9048760,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 0.8896985878625587,
+          "scores": [
+            0.8970603820206321,
+            0.7882848093904837,
+            1.032638913470702
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10146680,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 1.1288056237957806,
+          "scores": [
+            0.795748944473407,
+            0.8703782928903047,
+            0.9678856613537247,
+            1.6881063044201694
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 11263104,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 1.1501410423218286,
+          "scores": [
+            0.6410654164132978,
+            1.0180953252364329,
+            0.9354046458148235,
+            1.6679063745120446,
+            1.2169829544361088
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 12375416,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 1.1501410423218286,
+      "average_rmse": 1.040890286848584,
+      "shared_state": "../_shared/air_quality_mantis_residual.pt",
+      "shared_state_sha256": "cf18cdee5bf9c7627bbb01380e6292357c3b3f357e25bd603f50c18c594753c9",
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 18.610732968896627
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "append",
+        "method": "ridge",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6914502490437956,
+          "scores": [
+            0.6914502490437956
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7479706669856222,
+          "scores": [
+            0.6281467652725452,
+            0.8510886432208287
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6989179833829936,
+          "scores": [
+            0.5110827111916681,
+            0.9662971161824495,
+            0.3271867486543048
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0496601592754036,
+          "scores": [
+            0.486218796061886,
+            0.8988854867347472,
+            0.3600517111827062,
+            1.7613204804462073
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9076080665616498,
+          "scores": [
+            0.43727713892917563,
+            0.7818034057787827,
+            0.47255705451196284,
+            1.7296428257887524,
+            0.5501118819116906
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 0.9076080665616498,
+      "average_rmse": 0.819121425049893,
+      "shared_state": "../_shared/air_quality_summary_append.pt",
+      "shared_state_sha256": "54e51d1f7b23abe1ad6802a9eb9fa7862128693eb662dfed171c54253eb2fab7",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.396921146661043
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "append",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6654699461735869,
+          "scores": [
+            0.6654699461735869
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 7397768,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 0.6231890117409208,
+          "scores": [
+            0.46031320254464525,
+            0.7515589426467785
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 9048760,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6102502722791137,
+          "scores": [
+            0.46055777159813116,
+            0.7759698153009134,
+            0.5008988920027154
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10677136,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 0.9713614778064151,
+          "scores": [
+            0.3941044618433535,
+            0.7603051572577924,
+            0.3462440107874598,
+            1.6848253826723463
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 12324016,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 0.8244780452468036,
+          "scores": [
+            0.4563387058439582,
+            0.7331645561953647,
+            0.45489325584821244,
+            1.5777915483508966,
+            0.4010428171328144
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 13436328,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 0.8244780452468036,
+      "average_rmse": 0.7389497506493681,
+      "shared_state": "../_shared/air_quality_summary_append.pt",
+      "shared_state_sha256": "54e51d1f7b23abe1ad6802a9eb9fa7862128693eb662dfed171c54253eb2fab7",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.394842203706503
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "none",
+        "method": "ridge",
+        "ridge": 1.0,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.694402621639273,
+          "scores": [
+            0.694402621639273
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7457360854083508,
+          "scores": [
+            0.6258492176146784,
+            0.8488565102368227
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6939554462852058,
+          "scores": [
+            0.5033887801229306,
+            0.9643496692826525,
+            0.31013749592950246
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0486621362059951,
+          "scores": [
+            0.46951565887246993,
+            0.8935294102941334,
+            0.33403541729849384,
+            1.7708010266045595
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9068621144161777,
+          "scores": [
+            0.41894605697990384,
+            0.7714747173269395,
+            0.4495741001435643,
+            1.7430588818982669,
+            0.5483659740021092
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 0.9068621144161777,
+      "average_rmse": 0.8179236807910005,
+      "shared_state": "../_shared/air_quality_summary_none.pt",
+      "shared_state_sha256": "d3af5fcc4ac51226be867cfbd337875a094680fc4283aac6e71649ff72f165ee",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.89882131293416
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "none",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6363412755625417,
+          "scores": [
+            0.6363412755625417
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 6846132,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.6747590250844842,
+          "scores": [
+            0.5285857721837447,
+            0.7944788010455921
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 8493912,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6489014733650024,
+          "scores": [
+            0.4990229954826949,
+            0.8666515069776727,
+            0.3803139185148661
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10648544,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0013725962621132,
+          "scores": [
+            0.469236526018301,
+            0.7991132548328183,
+            0.2721523268597176,
+            1.7203830920862848
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 12821644,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 0.826535867850703,
+          "scores": [
+            0.38073009481144776,
+            0.7053834727628608,
+            0.45190445715244904,
+            1.59932198207371,
+            0.4573871128493056
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 14461216,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 0.826535867850703,
+      "average_rmse": 0.7575820476249688,
+      "shared_state": "../_shared/air_quality_summary_none.pt",
+      "shared_state_sha256": "d3af5fcc4ac51226be867cfbd337875a094680fc4283aac6e71649ff72f165ee",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.89663004130125
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "residual",
+        "method": "ridge",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.9705281301195146,
+          "scores": [
+            0.9705281301195146
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 0.9636695857117011,
+          "scores": [
+            0.9057119601545005,
+            1.0183339266098403
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 1.0259411149764743,
+          "scores": [
+            0.8602115146220499,
+            1.0605410794498873,
+            1.2137765926604274
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 1.2326152465933957,
+          "scores": [
+            0.8788491539244472,
+            1.0188560370938886,
+            1.2791429776386842,
+            1.6953975473087848
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 1.0329688059325683,
+          "scores": [
+            0.7421149521627403,
+            0.9463272529692018,
+            1.0613854723463543,
+            1.6105303291459536,
+            0.7467646549695663
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 1.0329688059325683,
+      "average_rmse": 1.0451445766667307,
+      "shared_state": "../_shared/air_quality_summary_residual.pt",
+      "shared_state_sha256": "64759252c2d23bcec4390e84477123d054de47221176fa01bded686ce1973278",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.814050041139126
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "reference": "residual",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.921342251711899,
+          "scores": [
+            0.921342251711899
+          ],
+          "current_samples": 21,
+          "persistent_bytes": 7397768,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7883809732855468,
+          "scores": [
+            0.7554477291072047,
+            0.8199925893958426
+          ],
+          "current_samples": 29,
+          "persistent_bytes": 9048760,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 0.9351051029626477,
+          "scores": [
+            0.7260497147721183,
+            0.8711018701092862,
+            1.297865687346164
+          ],
+          "current_samples": 18,
+          "persistent_bytes": 10677136,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 1.1510376513075755,
+          "scores": [
+            0.8268751338809178,
+            0.8459764784285841,
+            1.2890757318147987,
+            1.5997212465746073
+          ],
+          "current_samples": 27,
+          "persistent_bytes": 12324016,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9713343371814933,
+          "scores": [
+            0.7546870627617466,
+            0.8751861760040318,
+            1.128293782052911,
+            1.4278245004544372,
+            0.7041444710311268
+          ],
+          "current_samples": 25,
+          "persistent_bytes": 13436328,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 0.9713343371814933,
+      "average_rmse": 0.9534400632898326,
+      "shared_state": "../_shared/air_quality_summary_residual.pt",
+      "shared_state_sha256": "64759252c2d23bcec4390e84477123d054de47221176fa01bded686ce1973278",
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "raw_input_hashes": {
+        "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+        "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 17.811899442225695
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "append",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 52.969871393255886,
+          "scores": [
+            52.969871393255886
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 38.20068170467516,
+          "scores": [
+            39.50405165653257,
+            36.90845411820962
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 36.00940792505627,
+          "scores": [
+            37.599705669805864,
+            35.68798361894008,
+            34.82503756869377
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 30.465400506288194,
+          "scores": [
+            33.94841782192467,
+            31.179978320370207,
+            32.07635702526378,
+            24.670429584687497
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 30.714778855476887,
+          "scores": [
+            33.78426933685879,
+            31.120172494436602,
+            33.187985112665324,
+            23.379156899541975,
+            31.685903050266756
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 30.714778855476887,
+      "average_rmse": 37.67202807695048,
+      "shared_state": "../_shared/beijing_pm25_mantis_append.pt",
+      "shared_state_sha256": "a684e6fe5c0f25ecbf698ed0c25fab885a82e2bc380275c7a113df2cc5fe8508",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 22.64815514534712
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "append",
+        "method": "task",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 57.93918288363974,
+          "scores": [
+            57.93918288363974
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 8024856,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 39.088444120527136,
+          "scores": [
+            39.84939740057528,
+            38.34502950923662
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10286488,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 35.48101343375541,
+          "scores": [
+            35.58965234264327,
+            35.1630295236828,
+            35.680253867877525
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12529616,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 32.76451161366775,
+          "scores": [
+            33.70926523350613,
+            35.06905181292646,
+            35.046178814975256,
+            27.22297301537107
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14787136,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 33.038125290990905,
+          "scores": [
+            34.57695686700118,
+            29.412181625810216,
+            35.818104999905884,
+            27.517534179360982,
+            36.73608483182143
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 17017928,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 33.038125290990905,
+      "average_rmse": 39.66225546851619,
+      "shared_state": "../_shared/beijing_pm25_mantis_append.pt",
+      "shared_state_sha256": "a684e6fe5c0f25ecbf698ed0c25fab885a82e2bc380275c7a113df2cc5fe8508",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 22.565161917358637
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "none",
+        "method": "ridge",
+        "ridge": 0.01,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 65.93235478021599,
+          "scores": [
+            65.93235478021599
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 53.64530358020391,
+          "scores": [
+            53.96005799741313,
+            53.3419211561284
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 55.879886584956104,
+          "scores": [
+            53.77257598226067,
+            52.447202140053086,
+            60.670902807240644
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 47.73932314277706,
+          "scores": [
+            50.838119009474795,
+            48.17895479870118,
+            49.714372022063934,
+            42.52385769209756
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 44.120007086141115,
+          "scores": [
+            49.500571069795676,
+            46.75604570278295,
+            41.69014605976363,
+            38.829473021043924,
+            44.1399340075984
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 44.120007086141115,
+      "average_rmse": 53.463375034858835,
+      "shared_state": "../_shared/beijing_pm25_mantis_none.pt",
+      "shared_state_sha256": "3498234179d0ad267029bf0136273d53eb05bcaf8382ca4135d06ebc922cd3b5",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 22.88210293278098
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "none",
+        "method": "task",
+        "ridge": 0.1,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 64.0354388177762,
+          "scores": [
+            64.0354388177762
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 7987060,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 49.923371614629666,
+          "scores": [
+            50.157275552052745,
+            49.698180667571854
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10229928,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 48.160173277031596,
+          "scores": [
+            52.27151106486816,
+            49.16122207772179,
+            43.07298771148274
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12474848,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 44.71509558628183,
+          "scores": [
+            50.42654132649519,
+            45.90187319120496,
+            42.81398221816493,
+            40.06754989234236
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14725924,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 43.91215784180677,
+          "scores": [
+            49.36292205662126,
+            49.071907866616115,
+            39.376794559343026,
+            36.7408597724748,
+            44.83333824936828
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 16983156,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 43.91215784180677,
+      "average_rmse": 50.14924742750521,
+      "shared_state": "../_shared/beijing_pm25_mantis_none.pt",
+      "shared_state_sha256": "3498234179d0ad267029bf0136273d53eb05bcaf8382ca4135d06ebc922cd3b5",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 22.809051927179098
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "residual",
+        "method": "ridge",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 37.53405509251535,
+          "scores": [
+            37.53405509251535
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 30.220174276476747,
+          "scores": [
+            34.381911342395405,
+            25.604773180774398
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 29.682115879248403,
+          "scores": [
+            34.180574911282434,
+            25.159907657560627,
+            29.245987298619813
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 27.619633064325075,
+          "scores": [
+            33.80674235739669,
+            24.39525114381048,
+            28.78419290465597,
+            23.031378916743716
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 27.695442132482732,
+          "scores": [
+            33.205094797923806,
+            24.231410278516353,
+            29.223474307304077,
+            22.480349345481738,
+            28.677449733566956
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 27.695442132482732,
+      "average_rmse": 30.550284089009658,
+      "shared_state": "../_shared/beijing_pm25_mantis_residual.pt",
+      "shared_state_sha256": "1f1c2518d26be4cd94c7bc671e22249ed504e5a708c4f5b44c5418092273068c",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 22.04358486458659
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "reference": "residual",
+        "method": "task",
+        "ridge": 10.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 33.74415250702344,
+          "scores": [
+            33.74415250702344
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 8024856,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 29.125817868741112,
+          "scores": [
+            33.00070608774521,
+            24.85177028731271
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10286488,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 28.14991157164228,
+          "scores": [
+            33.10501862226735,
+            23.30163754930628,
+            27.448637864029134
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12529616,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 27.355827099785227,
+          "scores": [
+            32.5259325492208,
+            24.32580316449202,
+            28.573772262467084,
+            23.725688762211195
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14787136,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 27.34193241725665,
+          "scores": [
+            33.6200099549504,
+            23.216626708964107,
+            27.570035721406015,
+            22.469691355089,
+            28.936576595128432
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 17017928,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 27.34193241725665,
+      "average_rmse": 29.143528292889744,
+      "shared_state": "../_shared/beijing_pm25_mantis_residual.pt",
+      "shared_state_sha256": "1f1c2518d26be4cd94c7bc671e22249ed504e5a708c4f5b44c5418092273068c",
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 21.97686743736267
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "append",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 60.28182724091036,
+          "scores": [
+            60.28182724091036
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 42.58082036231287,
+          "scores": [
+            45.143455124588385,
+            39.9710879442481
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 38.883093599246656,
+          "scores": [
+            43.95066307529165,
+            37.98925325371605,
+            34.61144909347752
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 33.53706275901784,
+          "scores": [
+            38.96371661696361,
+            32.492336150233186,
+            33.762490923658156,
+            29.01402571505817
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 33.68062836917764,
+          "scores": [
+            36.99787257620901,
+            33.27133009798589,
+            30.663528523120934,
+            26.820630335810172,
+            39.273694661215075
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 33.68062836917764,
+      "average_rmse": 41.79268646613308,
+      "shared_state": "../_shared/beijing_pm25_summary_append.pt",
+      "shared_state_sha256": "7c1b2713a9976665999457fbc3ac910bd6aad917b52a61e8f6d6aad542fa0a68",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 21.010046865791082
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "append",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 79.02707990193568,
+          "scores": [
+            79.02707990193568
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 8024856,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 52.56765904935473,
+          "scores": [
+            58.38775537107303,
+            46.308689377827406
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10286488,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 43.242474697450625,
+          "scores": [
+            49.89785296217099,
+            41.23359897926348,
+            38.34735876678019
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12548120,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 39.479970365613354,
+          "scores": [
+            46.63720911072366,
+            40.26409387207715,
+            37.67802116729007,
+            33.42930122923167
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14809752,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 38.67074496096692,
+          "scores": [
+            45.40372534726222,
+            41.46833806609464,
+            34.34530458147287,
+            28.486936430107885,
+            42.33562320352603
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 17071384,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 38.67074496096692,
+      "average_rmse": 50.59758579506426,
+      "shared_state": "../_shared/beijing_pm25_summary_append.pt",
+      "shared_state_sha256": "7c1b2713a9976665999457fbc3ac910bd6aad917b52a61e8f6d6aad542fa0a68",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 21.006499029695988
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "none",
+        "method": "ridge",
+        "ridge": 0.1,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 73.23143050637302,
+          "scores": [
+            73.23143050637302
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 55.150154072976974,
+          "scores": [
+            60.43852040928674,
+            49.55536339866462
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 49.66574657844623,
+          "scores": [
+            58.17263826013313,
+            47.797236288996096,
+            42.55177205936095
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 45.30665669198894,
+          "scores": [
+            51.90729894652699,
+            43.89276627454436,
+            46.275729999885385,
+            39.29110827548583
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 43.64984784541407,
+          "scores": [
+            50.2797185213199,
+            43.53837020358379,
+            40.99512215367975,
+            36.653507989292976,
+            46.41231632224072
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2244904,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 43.64984784541407,
+      "average_rmse": 53.40076713903984,
+      "shared_state": "../_shared/beijing_pm25_summary_none.pt",
+      "shared_state_sha256": "409817e89af8688b037f3cdbf7708e6b67684c3e844c56fb73c587a7ae5028fe",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 20.814229235053062
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "none",
+        "method": "task",
+        "ridge": 1.0,
+        "dimension": 512,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 82.05128444196062,
+          "scores": [
+            82.05128444196062
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 8001424,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 60.2285707550011,
+          "scores": [
+            66.38740679678257,
+            53.6671747852384
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10258656,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 49.42177956417117,
+          "scores": [
+            58.33496023227127,
+            47.242334811325065,
+            42.12482393487019
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12515888,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 44.87944113075635,
+          "scores": [
+            52.16087469397369,
+            45.9520201125876,
+            47.00923986742988,
+            34.010292720139454
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14773120,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 44.03081277510135,
+          "scores": [
+            51.08460962491573,
+            43.352831019090964,
+            45.34099748763204,
+            36.31020673430255,
+            44.05568768160501
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 17030352,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 44.03081277510135,
+      "average_rmse": 56.12237773339812,
+      "shared_state": "../_shared/beijing_pm25_summary_none.pt",
+      "shared_state_sha256": "409817e89af8688b037f3cdbf7708e6b67684c3e844c56fb73c587a7ae5028fe",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 20.81071750819683
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "residual",
+        "method": "ridge",
+        "ridge": 10.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 33.326796826062285,
+          "scores": [
+            33.326796826062285
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 2,
+          "rmse": 28.8836866731722,
+          "scores": [
+            32.81696687285266,
+            24.52943765943739
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 3,
+          "rmse": 27.321511446263244,
+          "scores": [
+            32.102801875955514,
+            23.938830527818418,
+            25.561553244793078
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 4,
+          "rmse": 26.21060393409191,
+          "scores": [
+            32.396098389813076,
+            23.67157819191321,
+            25.414800705236317,
+            23.074508020576996
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        },
+        {
+          "stage": 5,
+          "rmse": 27.12686771152464,
+          "scores": [
+            31.91433167408186,
+            23.532544660919484,
+            25.370001004864193,
+            22.29705575616895,
+            31.20812766260313
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 2253392,
+          "control_verified": true
+        }
+      ],
+      "final_rmse": 27.12686771152464,
+      "average_rmse": 28.573893318222854,
+      "shared_state": "../_shared/beijing_pm25_summary_residual.pt",
+      "shared_state_sha256": "7daea3703a51204912da133f7c3840c0c5bd2d57f71dfdd44b198bea590a5012",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 21.082329094409943
+    },
+    {
+      "status": "completed",
+      "task": "regression",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "reference": "residual",
+        "method": "task",
+        "ridge": 10.0,
+        "dimension": 513,
+        "seed": 42,
+        "order": 17,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 35.57364554398188,
+          "scores": [
+            35.57364554398188
+          ],
+          "current_samples": 160,
+          "persistent_bytes": 8024856,
+          "control_verified": false
+        },
+        {
+          "stage": 2,
+          "rmse": 28.747986624529837,
+          "scores": [
+            31.588681222443487,
+            25.733057995935532
+          ],
+          "current_samples": 144,
+          "persistent_bytes": 10286488,
+          "control_verified": false
+        },
+        {
+          "stage": 3,
+          "rmse": 27.586577367448466,
+          "scores": [
+            31.459347020098324,
+            25.339730719192694,
+            25.820319535332295
+          ],
+          "current_samples": 163,
+          "persistent_bytes": 12548120,
+          "control_verified": false
+        },
+        {
+          "stage": 4,
+          "rmse": 26.37993983266912,
+          "scores": [
+            31.35115799100963,
+            23.67345859337583,
+            25.089493067694384,
+            25.212798910127038
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 14809752,
+          "control_verified": false
+        },
+        {
+          "stage": 5,
+          "rmse": 27.092263122291747,
+          "scores": [
+            32.03767442406819,
+            24.903194814033906,
+            23.847680216812755,
+            21.96990498406623,
+            31.37240793447068
+          ],
+          "current_samples": 169,
+          "persistent_bytes": 17071384,
+          "control_verified": false
+        }
+      ],
+      "final_rmse": 27.092263122291747,
+      "average_rmse": 29.076082498184213,
+      "shared_state": "../_shared/beijing_pm25_summary_residual.pt",
+      "shared_state_sha256": "7daea3703a51204912da133f7c3840c0c5bd2d57f71dfdd44b198bea590a5012",
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "raw_input_hashes": {
+        "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+        "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3"
+      },
+      "git_commit": "8cff4ac8702871bfa757347ebaf9ddba8523b888",
+      "elapsed_s_shared": 21.078044470399618
+    }
+  ],
+  "checks": [
+    "first-task calibration",
+    "all-stage metrics and identities",
+    "v19 ridge controls exact",
+    "v54 none TMoT controls exact",
+    "final checkpoint predictions exact",
+    "raw and feature hashes"
+  ],
+  "note": "Single-seed development selection over six ridge values, no TEST and no robustness claim."
+}
