@@ -23,7 +23,7 @@ def frozen(root,d,e):
 
 def run(a):
  torch.set_num_threads(1);torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False;torch.use_deterministic_algorithms(True)
- root=Path(a.root);out=Path(a.out);params=frozen(root,a.dataset,a.encoder)
+ root=Path(a.root);out=Path(a.out);out.mkdir(parents=True,exist_ok=True);params=frozen(root,a.dataset,a.encoder)
  tr=np.load(root/'features'/a.encoder/f'{a.dataset}_train.npz');val=np.load(root/'features'/a.encoder/f'{a.dataset}_val.npz');meta=json.loads((root/'prepared'/f'{a.dataset}_manifest.json').read_text());assert meta['task']=='classification'
  old=root/'runs/synthetic_robustness_v55'/f'{a.dataset}_{a.encoder}_task_o{a.order}_s{a.seed}_r{params["original"]:g}';oldsummary=json.loads((old/'summary.json').read_text())
  labels=np.random.default_rng(a.order).permutation(np.unique(tr['y']));first=3 if len(labels)%2 else 2;order=[labels[:first]]+[labels[i:i+2] for i in range(first,len(labels),2)]
