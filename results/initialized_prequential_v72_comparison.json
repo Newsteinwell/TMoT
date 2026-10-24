@@ -1,0 +1,1608 @@
+{
+  "complete": true,
+  "trajectories": 48,
+  "selected": [
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "policy": "initialized_hard",
+        "method": "ridge",
+        "ridge": 0.1,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.9828854156215469,
+          "scores": [
+            0.9828854156215469
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            16.141912237194884,
+            15.952441499930242,
+            10.708144995557818
+          ],
+          "prequential_count": 5
+        },
+        {
+          "stage": 2,
+          "rmse": 0.7064052284996808,
+          "scores": [
+            0.26637153883057885,
+            0.9628410549017952
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            44.92581847979304,
+            44.560086481017606,
+            51.85099728202923
+          ],
+          "prequential_count": 34
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6486017934053877,
+          "scores": [
+            0.2554532318878061,
+            0.8708384497501195,
+            0.6721245123934475
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            65.99914225812056,
+            61.964109337080814,
+            62.74380951035991
+          ],
+          "prequential_count": 52
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0899800245029418,
+          "scores": [
+            0.3557278284780186,
+            0.8918939923005769,
+            0.7798208149572295,
+            1.8086252886110001
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            108.02787657984243,
+            99.6082795740707,
+            101.7289614837344
+          ],
+          "prequential_count": 79
+        },
+        {
+          "stage": 5,
+          "rmse": 1.034094364150888,
+          "scores": [
+            0.4706876070500646,
+            0.8274671697627582,
+            0.8708208423653369,
+            1.78450553923329,
+            0.8695318678197905
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            167.9505801135581,
+            158.09082209957148,
+            164.18689760705317
+          ],
+          "prequential_count": 104
+        }
+      ],
+      "final_rmse": 1.034094364150888,
+      "average_rmse": 0.892393365236089,
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "policy": "initialized_hard",
+        "method": "task",
+        "ridge": 10.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 1.190126808036698,
+          "scores": [
+            1.190126808036698
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            10.372595042445196,
+            6.170949283951473,
+            5.299109014066315
+          ],
+          "prequential_count": 5
+        },
+        {
+          "stage": 2,
+          "rmse": 0.8579304696086199,
+          "scores": [
+            0.905080531897189,
+            0.8080337939383697
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            38.353724493482545,
+            38.77734715430566,
+            36.94838958502297
+          ],
+          "prequential_count": 34
+        },
+        {
+          "stage": 3,
+          "rmse": 0.8542889649252471,
+          "scores": [
+            0.9190593242453513,
+            0.6938469586568553,
+            0.9815699078564242
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            59.79314464651307,
+            59.63112656111885,
+            47.23354633816632
+          ],
+          "prequential_count": 52
+        },
+        {
+          "stage": 4,
+          "rmse": 1.1382989021225296,
+          "scores": [
+            0.9371444876369497,
+            0.7896311511996533,
+            1.1122223223774512,
+            1.6143590769822203
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            96.27737744156089,
+            94.8297850362616,
+            84.6790180341035
+          ],
+          "prequential_count": 79
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9771866086841406,
+          "scores": [
+            0.4314262478763435,
+            0.7009358735912722,
+            0.6362850008323293,
+            1.8129766903888804,
+            0.7766503444722056
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            149.7575803727461,
+            137.51907346120834,
+            142.32248206704503
+          ],
+          "prequential_count": 104
+        }
+      ],
+      "final_rmse": 0.9771866086841406,
+      "average_rmse": 1.003566350675447,
+      "input_hashes": {
+        "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+        "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "policy": "initialized_hard",
+        "method": "ridge",
+        "ridge": 1.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.9705281301195146,
+          "scores": [
+            0.9705281301195146
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            22.423930790059142,
+            22.40155146021933,
+            20.124066067202538
+          ],
+          "prequential_count": 5
+        },
+        {
+          "stage": 2,
+          "rmse": 0.9636695857117011,
+          "scores": [
+            0.9057119601545005,
+            1.0183339266098403
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            40.15568374317134,
+            39.99145960477617,
+            38.22101532358494
+          ],
+          "prequential_count": 34
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6989179833829936,
+          "scores": [
+            0.5110827111916681,
+            0.9662971161824495,
+            0.3271867486543048
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            50.75717009404278,
+            50.47893071335233,
+            51.15992355977163
+          ],
+          "prequential_count": 52
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0496601592754036,
+          "scores": [
+            0.486218796061886,
+            0.8988854867347472,
+            0.3600517111827062,
+            1.7613204804462073
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            72.43998252185483,
+            71.77808136259914,
+            81.30484677600231
+          ],
+          "prequential_count": 79
+        },
+        {
+          "stage": 5,
+          "rmse": 0.9076080665616498,
+          "scores": [
+            0.43727713892917563,
+            0.7818034057787827,
+            0.47255705451196284,
+            1.7296428257887524,
+            0.5501118819116906
+          ],
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "chosen_reference": "append",
+          "prequential_sse": [
+            104.95709237185574,
+            103.52722412528944,
+            111.5347308230013
+          ],
+          "prequential_count": 104
+        }
+      ],
+      "final_rmse": 0.9076080665616498,
+      "average_rmse": 0.9180767850102527,
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "policy": "initialized_hard",
+        "method": "task",
+        "ridge": 1.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 0.6363412755625417,
+          "scores": [
+            0.6363412755625417
+          ],
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "chosen_reference": "none",
+          "prequential_sse": [
+            7.7339310033598165,
+            24.324045672153538,
+            17.802342312287372
+          ],
+          "prequential_count": 5
+        },
+        {
+          "stage": 2,
+          "rmse": 0.6747590250844842,
+          "scores": [
+            0.5285857721837447,
+            0.7944788010455921
+          ],
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "chosen_reference": "none",
+          "prequential_sse": [
+            24.161966331794765,
+            40.99772696669979,
+            34.28362807109633
+          ],
+          "prequential_count": 34
+        },
+        {
+          "stage": 3,
+          "rmse": 0.6489014733650024,
+          "scores": [
+            0.4990229954826949,
+            0.8666515069776727,
+            0.3803139185148661
+          ],
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "chosen_reference": "none",
+          "prequential_sse": [
+            34.867106397279585,
+            51.38390654690463,
+            43.90854751051556
+          ],
+          "prequential_count": 52
+        },
+        {
+          "stage": 4,
+          "rmse": 1.0013725962621132,
+          "scores": [
+            0.469236526018301,
+            0.7991132548328183,
+            0.2721523268597176,
+            1.7203830920862848
+          ],
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "chosen_reference": "none",
+          "prequential_sse": [
+            57.32801073251897,
+            75.30057536629982,
+            72.01894469481357
+          ],
+          "prequential_count": 79
+        },
+        {
+          "stage": 5,
+          "rmse": 0.826535867850703,
+          "scores": [
+            0.38073009481144776,
+            0.7053834727628608,
+            0.45190445715244904,
+            1.59932198207371,
+            0.4573871128493056
+          ],
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "chosen_reference": "none",
+          "prequential_sse": [
+            87.42226090195328,
+            104.69252458403635,
+            101.74593655824054
+          ],
+          "prequential_count": 104
+        }
+      ],
+      "final_rmse": 0.826535867850703,
+      "average_rmse": 0.7575820476249688,
+      "input_hashes": {
+        "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+        "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "policy": "initialized_hard",
+        "method": "ridge",
+        "ridge": 1.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 37.53405509251535,
+          "scores": [
+            37.53405509251535
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            87463.64702045884,
+            66434.54327329465,
+            41034.754695692754
+          ],
+          "prequential_count": 32
+        },
+        {
+          "stage": 2,
+          "rmse": 30.220174276476747,
+          "scores": [
+            34.381911342395405,
+            25.604773180774398
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            655736.9996477603,
+            477105.25762263243,
+            228312.60165959696
+          ],
+          "prequential_count": 176
+        },
+        {
+          "stage": 3,
+          "rmse": 29.682115879248403,
+          "scores": [
+            34.180574911282434,
+            25.159907657560627,
+            29.245987298619813
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            1131169.5731667192,
+            806228.323092533,
+            444352.534704397
+          ],
+          "prequential_count": 339
+        },
+        {
+          "stage": 4,
+          "rmse": 27.619633064325075,
+          "scores": [
+            33.80674235739669,
+            24.39525114381048,
+            28.78419290465597,
+            23.031378916743716
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2265846.1164807514,
+            1496822.5096782711,
+            680411.1181553896
+          ],
+          "prequential_count": 508
+        },
+        {
+          "stage": 5,
+          "rmse": 27.695442132482732,
+          "scores": [
+            33.205094797923806,
+            24.231410278516353,
+            29.223474307304077,
+            22.480349345481738,
+            28.677449733566956
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2846906.8149079564,
+            1843260.8078145348,
+            921885.3257200954
+          ],
+          "prequential_count": 677
+        }
+      ],
+      "final_rmse": 27.695442132482732,
+      "average_rmse": 30.550284089009658,
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "policy": "initialized_hard",
+        "method": "task",
+        "ridge": 10.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 33.74415250702344,
+          "scores": [
+            33.74415250702344
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            85444.99047576151,
+            75738.2589479581,
+            38696.42214569968
+          ],
+          "prequential_count": 32
+        },
+        {
+          "stage": 2,
+          "rmse": 29.125817868741112,
+          "scores": [
+            33.00070608774521,
+            24.85177028731271
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            535343.9927557927,
+            486181.5053657956,
+            242950.7337688069
+          ],
+          "prequential_count": 176
+        },
+        {
+          "stage": 3,
+          "rmse": 28.14991157164228,
+          "scores": [
+            33.10501862226735,
+            23.30163754930628,
+            27.448637864029134
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            1011808.8491140603,
+            881270.3769890203,
+            466977.60967431555
+          ],
+          "prequential_count": 339
+        },
+        {
+          "stage": 4,
+          "rmse": 27.355827099785227,
+          "scores": [
+            32.5259325492208,
+            24.32580316449202,
+            28.573772262467084,
+            23.725688762211195
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2107537.080277787,
+            1655205.354336091,
+            695004.5957619738
+          ],
+          "prequential_count": 508
+        },
+        {
+          "stage": 5,
+          "rmse": 27.34193241725665,
+          "scores": [
+            33.6200099549504,
+            23.216626708964107,
+            27.570035721406015,
+            22.469691355089,
+            28.936576595128432
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2616993.330379837,
+            2032815.6359603652,
+            945536.458905419
+          ],
+          "prequential_count": 677
+        }
+      ],
+      "final_rmse": 27.34193241725665,
+      "average_rmse": 29.143528292889744,
+      "input_hashes": {
+        "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+        "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "policy": "initialized_hard",
+        "method": "ridge",
+        "ridge": 10.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 33.326796826062285,
+          "scores": [
+            33.326796826062285
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            137166.36116801767,
+            128135.92292848686,
+            27993.614732572973
+          ],
+          "prequential_count": 32
+        },
+        {
+          "stage": 2,
+          "rmse": 28.8836866731722,
+          "scores": [
+            32.81696687285266,
+            24.52943765943739
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            938387.7801692826,
+            872331.6931898241,
+            205662.0131544983
+          ],
+          "prequential_count": 176
+        },
+        {
+          "stage": 3,
+          "rmse": 27.321511446263244,
+          "scores": [
+            32.102801875955514,
+            23.938830527818418,
+            25.561553244793078
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            1581856.3118190148,
+            1452958.4943725467,
+            417681.38095054723
+          ],
+          "prequential_count": 339
+        },
+        {
+          "stage": 4,
+          "rmse": 26.21060393409191,
+          "scores": [
+            32.396098389813076,
+            23.67157819191321,
+            25.414800705236317,
+            23.074508020576996
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2994102.8807562394,
+            2713200.1652553063,
+            643771.1406001279
+          ],
+          "prequential_count": 508
+        },
+        {
+          "stage": 5,
+          "rmse": 27.12686771152464,
+          "scores": [
+            31.91433167408186,
+            23.532544660919484,
+            25.370001004864193,
+            22.29705575616895,
+            31.20812766260313
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            3820461.1748212744,
+            3431964.588024363,
+            869026.403453361
+          ],
+          "prequential_count": 677
+        }
+      ],
+      "final_rmse": 27.12686771152464,
+      "average_rmse": 28.573893318222854,
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    },
+    {
+      "status": "completed",
+      "config": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "policy": "initialized_hard",
+        "method": "task",
+        "ridge": 10.0,
+        "seed": 42,
+        "eval_split": "val"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        {
+          "stage": 1,
+          "rmse": 35.57364554398188,
+          "scores": [
+            35.57364554398188
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            110153.91810288298,
+            100397.8675386351,
+            25611.775857543165
+          ],
+          "prequential_count": 32
+        },
+        {
+          "stage": 2,
+          "rmse": 28.747986624529837,
+          "scores": [
+            31.588681222443487,
+            25.733057995935532
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            724030.9671945337,
+            667463.2289164874,
+            225987.65078531753
+          ],
+          "prequential_count": 176
+        },
+        {
+          "stage": 3,
+          "rmse": 27.586577367448466,
+          "scores": [
+            31.459347020098324,
+            25.339730719192694,
+            25.820319535332295
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            1201260.9984577238,
+            1076529.018294994,
+            434463.33328378596
+          ],
+          "prequential_count": 339
+        },
+        {
+          "stage": 4,
+          "rmse": 26.37993983266912,
+          "scores": [
+            31.35115799100963,
+            23.67345859337583,
+            25.089493067694384,
+            25.212798910127038
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2033329.5115191601,
+            1709242.8627484918,
+            665052.1420441195
+          ],
+          "prequential_count": 508
+        },
+        {
+          "stage": 5,
+          "rmse": 27.092263122291747,
+          "scores": [
+            32.03767442406819,
+            24.903194814033906,
+            23.847680216812755,
+            21.96990498406623,
+            31.37240793447068
+          ],
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "chosen_reference": "residual",
+          "prequential_sse": [
+            2456404.3447989873,
+            2082635.8457848737,
+            885834.8186341336
+          ],
+          "prequential_count": 677
+        }
+      ],
+      "final_rmse": 27.092263122291747,
+      "average_rmse": 29.076082498184213,
+      "input_hashes": {
+        "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+        "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+      },
+      "git_commit": "19a2cecbe65dfb2da2925b04de563c0f733c6e01"
+    }
+  ],
+  "source_hashes": {
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/summary.json": "dff1d26eaed8f2b518bf37438cff553655d73685feb760d052aff36731dc336f",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r0.001.npz": "cd01605131dc4915d43928bdc400b3d63bef56d921ea4fc47df4571676be6e27",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/predictions_stage1.npz": "c5ef3d06946ea910a5a8534e8dd8434c8f5f68a29d1280f862839f1b8f5f4b79",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r0.001.npz": "395796dde87c106f72464f8b785f2b25d5e3a43c8720d67bdc6bffb0df4ad58b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/predictions_stage2.npz": "38ec1472be96bab148189056efa2f4827a15c70733052f399df8f9aadbff5e4c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r0.001.npz": "7c3c3f66b4e8559b77d4b723b96920003b94ce70f9bf04cb505f48aa06bb4e66",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/predictions_stage3.npz": "d43f562bf690cc36c0e3a9d09430ef0e83d25588040b781d6b6170ecc93eb194",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r0.001.npz": "909d935593befb7079e2fdee4f58f455f8911e57ba2da7aed80dadf96dd1d4f5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/predictions_stage4.npz": "08bd98643b6892ab077053894d2d2b43fcfcb5336c74aa2f6f82c5715a52c82b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r0.001.npz": "b3faf72e41897b77a735704b0d07af11c90ac9f4752591cf9d69cb6a71c95011",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.001/predictions_stage5.npz": "7768e076aa603763fe65da0e1f17638afbc2fb6d50f87fce4f084e3a5a14c43f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/summary.json": "d66f280b48f50d29628afe44d23052f0a5247955bff9090ce5b02cea202490b6",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r0.01.npz": "375fec60dc3eae8e3c76e8033f41c80e5d1da9e02c3d0d33cf1dc618beedd6fa",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/predictions_stage1.npz": "2f644883d89ef9581ba67c867f7a0787bc5dc423e75f98f767d31e9a6600cae0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r0.01.npz": "abea7b1188ddfb77c981247e611235bd3701b48d3f60dc26aae3a86d257545bf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/predictions_stage2.npz": "e91464108c2bacfccd383e2485c131cc1764c62f4fb12093fe17f7b9f27b660c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r0.01.npz": "c5b7708a4e413b9730c391adb803ef1ef286226b85a800e4faacb5d53310408b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/predictions_stage3.npz": "82fbf837ee3c548532761dda101cffafa19fb7d791ddd0550e892f5d67ea2880",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r0.01.npz": "acf5951f9e2b941861ca1524f5e0cce28fe7ba7c2b8d38818649016c397b2b15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/predictions_stage4.npz": "cfd179c7104edf099439553864b437013454c6e7c13998123c13f891a99d1e6b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r0.01.npz": "6bdbf6a1038e143e9eb4b2f78437d67e7ee88cdced73fbf1191a84690bd36e15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.01/predictions_stage5.npz": "26939943ef0e2ea409e2428a1d715cce9e2ddb798a8dbab0529d748a278c584c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/summary.json": "5a3d0a54ed52d9f4b3aca42a68c29acef84922d924536f8e39fb4f9337e1a8b7",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r0.1.npz": "1215e3ce73ec64ba4c7ed3cf00152ad105a3cae17ff488c87a8ec4483125bd9b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/predictions_stage1.npz": "6d37d29400935df213d9ac5d81a0f0cc5546155aa90fb7e59ee63525701e7192",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r0.1.npz": "5a62d534b6ada155a7f2919071783fcc12de67085ba0bb554328adf5de667027",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/predictions_stage2.npz": "682693ab8104206afcc3b13b1ddda383e634bdfb4824be5f9d084a5ac0111669",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r0.1.npz": "bff4b514c1923a595e11c2464c37b946ddcf00b12d2d2b95a5aa8391edae3713",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/predictions_stage3.npz": "ff316db2c0b03238b85a6fd7fdb3209d5598d8383107172ab86c384e4d9238de",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r0.1.npz": "ced08d3e2e2982e7fffcf463b3521e1ffadf89a9b087d554f9293d1cf1b2bc9f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/predictions_stage4.npz": "80e3828348cf84524cf31ac0f96e661b35808a36f5133ea807456a182c535756",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r0.1.npz": "8989de70744214b82a6ad8139406f2bea608633970c4f83420dcbed51d087c5f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r0.1/predictions_stage5.npz": "40e2cde59113015d73009e4995542507a721657e83936cbf918ddfca69eec0eb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/summary.json": "d6d36bfaefafefd3bda5e21f502a6a6f4cad2595253768670b9d796916a63b09",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r1.npz": "731cb6d5e024af50568d75e9ca1e66299f1987acde5009ba67b5be2de64cf2e9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/predictions_stage1.npz": "7c30b3b0f51557284d78a956d98cd56f328dc070d662aa856c792035c3cb3c35",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r1.npz": "dfe22270fb41395774559e34cd1a74a2fad332bd05f8970ed93bd927c22bb9c1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/predictions_stage2.npz": "2754cb7dee10c42c97b919ce53b074f69d4bb6e56a11f3a57292e04dd87bca1d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r1.npz": "13901e722fabd60ee1725aa488da43f0ee785536b0fdc11de7653bbda8079925",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/predictions_stage3.npz": "9ea31e0a528cd265ea42164ddcd74c4b42353deee7a0c4d4c9167811c0aafd4c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r1.npz": "466874c06fab478ca68d7b700ff0d5dcee838bfc45ecf166063cbbcd0833d7e4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/predictions_stage4.npz": "85bac55da0f246ed0267e20ed7773c8cc4d3f26b43e4153b5d324bdfd1e009a4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r1.npz": "cc2488d364c3e4a140e1a7f858a2fe856d68affc2730061e4d246057b0ffb915",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r1/predictions_stage5.npz": "01929881d55dfdca97e538f939e1ea4208fd49cc8e5ada02f0244333576436ab",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/summary.json": "08eb12cc12380918e9cb26f483daec8faf0e6fbd72735c7e9663b65ca7e9286d",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r10.npz": "6a5f9442801b7d601078059cd9fc63485440c32c2f587ba5e0f21b37e6011264",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/predictions_stage1.npz": "547db9e114ae57d262310659ce9d59ed53f7229bda877a4d759cb148ab1768fd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r10.npz": "5b69632d3342235606d42a80653da1c84b64d48963d9288a3c6cbe4298472830",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/predictions_stage2.npz": "10d277318fe57721dcf638998baacb9f2d24cbc95379a1b4f7605c027e94a8ed",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r10.npz": "711218c67b5d337045e0adc19e4a40cb491ae330b15935b5f73abd658f121e38",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/predictions_stage3.npz": "d7cd72ff43a57f249ead1878fa3b986ace1b943cf2868d81d6ce29a30dbd8c85",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r10.npz": "b2120826fcfb6a61f2758ab88be0771f05aa097f37630497ebd7c78f36eb50bf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/predictions_stage4.npz": "385f05587fe5a9e16fe1766ce60418e06b292905b4d6008c5fd7686c51a315ff",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r10.npz": "69f82724d29137c09b405bc26247ebdeba589c266e29642e0eb17f59b4f686dc",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r10/predictions_stage5.npz": "f7ca86e19c0510d3468ba6300cafb0272ca371336d3881f2e1fdfed6cced17ce",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/summary.json": "eae00c53971f8b369cf50caefac711df4df6bbf45139bf2cf314cce71788d585",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_ridge_r100.npz": "1a861628b1f037f86bc72ccc305674c4c3f5f24edca794988eddc6e59dcc64d2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/predictions_stage1.npz": "b5f85970331a13d0659b9db02ba207e53ac8442c1b98b441f2bdef98e1cb02cd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_ridge_r100.npz": "b9659c31344aab09934d0cdd6e566bfa12763f4a98750ff724e88cee50f2985d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/predictions_stage2.npz": "87e285f9f547942cf07d5bdde10cbd39b96e4c64842feab7d6436f7f20d9b7bd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_ridge_r100.npz": "d213d7a1b7ff2bfbe98485e25eab11350b0e0d5548e60563583361c472a90fdb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/predictions_stage3.npz": "2a12193b698ad53d29e53c82fd3e7374a7ff437954067510893cd2cb980cf55e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_ridge_r100.npz": "e933036537a6b41ccb4b14885ac5aa318c8e67c9b8556194e022621bcc89e861",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/predictions_stage4.npz": "72869e4091b8bea3acf5161029de79971c646f8cf91e313b822e81d36e66b9e5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_ridge_r100.npz": "901650ffea0c3e09903609e451d7960b901f2f6cf4aec21fa9aa4de3044d822d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_ridge_r100/predictions_stage5.npz": "6cc58b3fa8dcabe1b16c987563558caaf527bd46e0b206d1c194a2222f103c97",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/summary.json": "42076dc0157ff7fe1fa306d1efea202b2d69d9bc31bc0d0015f5b62f97485979",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r0.001.npz": "40ab08dc75e6f80422804f16c52385cff2883d2247d7e1c0915e005b1d56aaea",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/predictions_stage1.npz": "3c3b0b19b50da97c59a30d251d7542362bd03626635f35f54db57b7305020710",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r0.001.npz": "d22f1074bd87294b90b0b2b04b212ca8950d50fc93040b0851fe0a4e6e89f0f1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/predictions_stage2.npz": "319cba16c79429d9dcf09ab837bc0ba4fa19a1b78c41e356cbca0593cf3d2275",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r0.001.npz": "28bd756fd349ef8949aa670d55a4034671ac16411c750dc49bea7e2b1c3f9186",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/predictions_stage3.npz": "26326605b752deaff8209d75233fc9f8b35f246e13becc7b1c600c5c4e86f122",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r0.001.npz": "7a2c390b4f87e6c6525e8903eb051908839b79718290cf1f06008d8b6f14744f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/predictions_stage4.npz": "13b56693502869445d7171753c3fc2283da0383eb335099b2688979b5a25ea4b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r0.001.npz": "8a1d6875b78ceff16628199fbcfd7bc0b9394c8a99a9469e021143ec31037b15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.001/predictions_stage5.npz": "2a64f541afe239d3a087c777ccb62b87666cfaa32397c749feb196273b0dfca8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/summary.json": "39cc47f25dad89a19e81a35a6d45c91a0415431c140795a9c9240100b0028b9b",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r0.01.npz": "8e12339012332c58fd8cecfc328985e4ff15cc5d59c574e9494aa3853fdb2d4a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/predictions_stage1.npz": "3bf997578bd6df4ac47ea5ac657572ab4ff2e9f67cfb3031151057446a59ef7f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r0.01.npz": "fcf18652d008f25414fe22e23cf2e08bf58afaaac4f0610857e7b829a80176a5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/predictions_stage2.npz": "52a512fa06401acfabf080e66d7290fdfbd0bec3c32f88acbf0b12cf580e7310",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r0.01.npz": "5ef959a1a167d8cfef4dbb13b601f08e76430db1b23cbeceefadbda924d66f13",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/predictions_stage3.npz": "e206bde47acfc3292d1e3f06b1e6ecf5c6b35948b630b70035ab2645c3897ceb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r0.01.npz": "34e5c1aec1959a22accd809f5ced8f3d6f14c9133c06d1746bea021de20ce3e2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/predictions_stage4.npz": "c5fddf5800962a27285993293465889e505bb1b76911006bafca2f8e5f115d0e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r0.01.npz": "be13d426fb3e034a2eb1e1ee16297b565f4ce0f7aa2a94acfef1d3ce7d63bacd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.01/predictions_stage5.npz": "19c5edec6b6d8ae923acc9ff30f9fcbebb6a987b6bf0e13e96f3bde09b891110",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/summary.json": "812922d005ffb0647b36fdb1106485ccc1ab6cd005d79bc05bc6d14f7cbaceef",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r0.1.npz": "0d84655d90dcdc84ad269c85215dd1a71b982403cf870f1c1ccd7745aa7c6e1c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/predictions_stage1.npz": "c5c285cf07c4d63ae324efcc19912c320b06a235dcdbe6911ff000e19d00d544",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r0.1.npz": "724a26723679272d6539ec6363b9b9953affd966fd6842c40f084c1e64bdf67e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/predictions_stage2.npz": "21b210182e1e13315ffc19724caefbdc8e1fa55f7389e260d07578a60ec0924a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r0.1.npz": "793391d21118431ceaa34eea2698cdeb7f551abe410aa9c14678d8901d899c0b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/predictions_stage3.npz": "2329aee85a13ccb58a467e99b40e55682021e263a55762047a6aec9903246474",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r0.1.npz": "be1be10d198f966cff16fc5591f5bbf7927ad401f7de51de76c556ea391673c1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/predictions_stage4.npz": "f4bff5b41a716aec586327c9344ef3cad778fa18c8214711c6a167d5448a010f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r0.1.npz": "8cdd37f4888ee554102edbe3c4f82fb474f2c1b7d5bd770d5c07b06ec3ec4a2b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r0.1/predictions_stage5.npz": "8d54e7ca85ff99d2d4ea030675b34e89edda28cd2e20c38e87878cd11f70eed4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/summary.json": "aba4fdd035c023a693136ea1b40aaff17709d6a4f1eea36ed1d99a67157cc6fb",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r1.npz": "a2c9be66fd57f0cfdaaf7c5111fa8baeedd47b966e2a44156498350d50a3d4f3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/predictions_stage1.npz": "3df9f3e87402bca4b68a9aa622de0d05ebbe3a0c43b4b0abfae31b3c22210fc6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r1.npz": "8268825df1238805a6e44d3f12e2094e01079bd174d9f53344f9fddea22d2509",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/predictions_stage2.npz": "fc328f4ad699e86cfc2fe03974b6a41f7706f4241a52b1546cfed32c54af0e6c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r1.npz": "cb26b95990bfbb24a3e416258ceb23b1db127145374551a2a2a4dd6f20f8bee5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/predictions_stage3.npz": "4aec6243c99bc5ee99e08a212da8458a5e2de0f2f586dd96a2040113a4306e14",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r1.npz": "d1e7a1ab3fd7ff5e6f29e0cb1036de6f224c89f4def5e6ee31e1e555e97f354b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/predictions_stage4.npz": "aa99754b32906fbd7bde4efe17a2417badce93efeb2627694c8d5d309fc5bbbf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r1.npz": "b20ee3159cb6ffd398a38f455b59b5ca1559c384b70b40c6cd262106332905c1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r1/predictions_stage5.npz": "4f1fe8ade6474873c8462eb11f0a172e95abc9ab8e2fa5b4032126f44d19d435",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/summary.json": "2b8666ef6607ca69992071ac5bb777fbb1cd756a97fb6814c04540ca1606db1f",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r10.npz": "5f859a20763fdfd952b99c6b255be764cd1fd0a8d61e4d1078890b68367a6a1b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/predictions_stage1.npz": "b8eace72e8b920423ce6a1f299c43ed8345bc4a449f2d6cb19e51d4f1cdc970e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r10.npz": "964f6bf4926048e9751d1e2a391fd3063edcc32dfa56de65c6f6ec30963904f2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/predictions_stage2.npz": "8419c9a3cc458d1d8914f7ea200fea177cf62f164c69247766c12236fe028357",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r10.npz": "8b9d1e9f5ee48b9659a52c836cc8a4742022c02a74d18d35bb36ed1860de5f8c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/predictions_stage3.npz": "e0fbd8e114ac9eb9164a9a683c0723581777c1f505ace63c023d70e611f4842b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r10.npz": "bf740cd2eb34058985dd60a329bd2bb3a7b41015d6556760746ff1280f312986",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/predictions_stage4.npz": "a2def1d1cb864891eb239056c913373898167f5c41a6089264d9e5a623c5d634",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r10.npz": "89e77756c5d53b608c0bbcb1d746c77ce37555a8a7f64033ab30f2feb1356225",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r10/predictions_stage5.npz": "6ec7fa963c40eaa71c8666aee1789d565f6077b5f901af85ecbe7cf085dfde53",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/summary.json": "cd0d16904235b2e01dd38196ac19971d0a8d0ea898adb217fff7e8346466bd99",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_mantis_task_r100.npz": "5f6db06c92f48fd05ca0fc346f968511ceb7f3a41fa3af821fb28bc2906fccc5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/predictions_stage1.npz": "90e2440728d70c457b769c3c02736c390b66641222f64560b4a64c1c7e96db87",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage2_task_r100.npz": "89ec21dc7d1b301ceeb3dcf4225819e04203a3863c40739698c8ce16e54e54df",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/predictions_stage2.npz": "034a389f9404da2418b58f2c034c1673ccc639f9f8467f1268cd0c61193d285f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage3_task_r100.npz": "59588dd5c4ac2e697ad286f4c92170639d7f3cdab7bd5fe09f66d14935078cd9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/predictions_stage3.npz": "b5ac4057efb71b6590df6fb5ee1e5ecbfe691e349d3f4c4784f4d20b5cf93f88",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage4_task_r100.npz": "ed10358929eb34c1a3aec8e805cbc17ccd2d11d826fc7a5b2cf7cb0d6f1d70ee",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/predictions_stage4.npz": "bc96fd74fa3a8aafdd4ed69152c7b725ebbcb945f9d65a6c6566410a6afc9f99",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_pre_stage5_task_r100.npz": "16cdc2dc5b0296ccd64717905e2b79c643255b41385957864825bc03d86092d8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_mantis_prequential_task_r100/predictions_stage5.npz": "cf33a2c45b8d6f6a01023bf4ef2f6198353e5963064fee8770f3101aceae1be6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/summary.json": "658fb8e0f0fad3de925f6fccf4e54ab3edf75598ff154873e8410225cf80ec31",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r0.001.npz": "1c835d27989096abc20eb3c11ce0a52208b6cd5bd343e1ed006969bab0368c47",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/predictions_stage1.npz": "52ed2a7393e5b30c2d0112ce570bc17ad03cfce1e29c255aa2aedcf5bd8ee69f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r0.001.npz": "0d5704439222e12ae075cccd6d0479ce8fcf5f2615433fbe8d45e7390f79170c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/predictions_stage2.npz": "6b18281b78287da248b01b5a931b0692e9cfc619b9aa5cdf6155578ae3a0aa0a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r0.001.npz": "6473d8a8d0bb4fc3a11797d3da0644ffd3239e219c98052f3939a41632533fc6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/predictions_stage3.npz": "7e071df8eb422839361300fa09bf52de58d5bc2f1849845d1c7b69626c4a9a73",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r0.001.npz": "cdf3e6e6e625c7a083510a1a8ebd0741f8e61e1ada0de32c561efb27bb798f3a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/predictions_stage4.npz": "642828e9fada1abffa8f9bb8990eaf885fd04720f3e7bbace464162ef212c216",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r0.001.npz": "22d674388448564aee28989b1602456a6d96f27187fa9cace601999dc9748a05",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.001/predictions_stage5.npz": "9fe4e88742c68719a2e6f39d1b8e144523ab00da9030b527ed677174212331c3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/summary.json": "0eeba0d24d1acda711e5837ad5895db4a39a16cfd9e5988d8aabd06f2ae1dc82",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r0.01.npz": "1c204a08e801c34c21099abb876ec761ae11b31e5ac3329a45f8bfc239d4be14",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/predictions_stage1.npz": "4ed0bff5d475efe523b7dc70514d4a44717da72bd1b894caede1622a046f9932",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r0.01.npz": "b1dc9dacfd6d003190a33da94d0a5fafa3308e30d42d2f34c83a299fd4674c1c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/predictions_stage2.npz": "d074e8ff65c437a3aa9b4e8e90dd2937e5088348a2af3cdc04eabe235d5445bc",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r0.01.npz": "d2f9bb15c1c0f81d8571fd24efcf1e77cf0d77b99a30a25d4b0d36b9d35e9a3c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/predictions_stage3.npz": "6ee71218f9b67aa4b2e07a80e8eb30b26dab7832e678950a4769725ae84b156b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r0.01.npz": "51cde61186b5c69aab565ba7ac2a1a97c73f08183ade80976d5b3a3212ac5442",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/predictions_stage4.npz": "e584c85c2117c915c1bad9987be2b57333a76a9833efe20db87debc5be427f12",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r0.01.npz": "f8d88b7df069295a02273d2c83c267448ddea6d9f6dff7a7f04e23ca665a5dea",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.01/predictions_stage5.npz": "8143e1881ea9b764900799156e19a4df3090ab20927bc993ee681b0be9caf998",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/summary.json": "9ff800ac9ffe50b3aa332236a1e22cbd8ecf96619b2d9005a4b713ddc3fdf38f",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r0.1.npz": "aba64f5a0f30f0ae88a6618677243822f820f4d017f23a41cefc69f6febc166c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/predictions_stage1.npz": "001f0d34c3f9bdc4b6442f010252649672fad9d67c1def9cc9bece7e923cf0a6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r0.1.npz": "819d43c6426d24f9fdfe7d1ecd8b86b5008c7463beaaee4717066ab7085437a9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/predictions_stage2.npz": "2e64fc8657130c277c3e9f92a11bf1aad7ea529a32821796bc0a905b7676ab54",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r0.1.npz": "0a57203820b9a5706abaef850bb591104bab192c667b59e4612772ca6c6df438",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/predictions_stage3.npz": "8bf3fa02e733cfb1798868ce7e77b0c52c5a6109883f90488fac0392bac024d8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r0.1.npz": "12bd6d64e40069bdabafa6f47fed61aaf6355d0d088486187791462f0c5a2c41",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/predictions_stage4.npz": "319c271e19797a19bbea884d4783ac2272827d08e34627cab009df73cd74b2c8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r0.1.npz": "178fb7c1c42e5c1963381c93fde5cad3f0626e760ead9d5844fb0f58b3d92691",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r0.1/predictions_stage5.npz": "5e8ac92be74cec8b3e7f80cc4e4db6a78760b76ed1d7be499ec2d739339018b9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/summary.json": "6bc989514490a6f34ad44b2cdfb6f7645ea3ff7ec176ee55da122bb2a97869a6",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r1.npz": "9a848b82affd4f64295a0f435b61a4d7b688f9aa2c253ab48d1789a840e44020",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/predictions_stage1.npz": "51ac6fa907440c5984def89b63528ffa3ae969c72d8542a5b5a076c55ab3d113",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r1.npz": "d49dd7f63fa34b36389bdbee89e28f5df59670df4f5a38aaa0ac0c3896a2d1f6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/predictions_stage2.npz": "7c6dded19071602c35b30e59cb8a9f08f28d25e2328b0c44725ea62e826d3577",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r1.npz": "4426a284602da2c97a8dcb90798073261c02257ebb41fa41b3f926d6e7c332e8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/predictions_stage3.npz": "1e01b29e0ffafb70a7f02a7d5767b4a290ec28c69acdd5de8adde1e2f17ef058",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r1.npz": "0bc399600bc3b4c8f0e752306330ca59c7d6d624d3d5fadec029386f6b2536e8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/predictions_stage4.npz": "0f5b20280f12a91bcc3c3456b7c010f654bbebe545a57f2ca4e0f237b62c45fe",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r1.npz": "cb8017f5264457b14075b9d0c06d9c22b2ffa96973dc53842cddf7007d98d939",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r1/predictions_stage5.npz": "44552161cb27518ec67feef486f605810fc93e19d6a3b757faaf72efead8002c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/summary.json": "bbc6253b43afde06b92bdb1b87845ec19f0e19b73cacbeac3128ef6e01538525",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r10.npz": "4e04096ebc14031c4bb941a60f9d1a0d1005acd9738aac4cfcb7b6380b50090b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/predictions_stage1.npz": "47764dfdfa2b4a18c80fb72204fcd71870952b4616ac2de546f41fc7431a0733",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r10.npz": "f9cc4a10de6f85eed2c874f282cb5be59a05af4b9d6f848dca0746053c4c8834",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/predictions_stage2.npz": "ef4a5d68d083c6eabbf994a3cf6e98b9f6d9f3f48c85e4c4c1bfd6c58318f5c9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r10.npz": "007bf864a09ebbba27aadd4d54aea5199c9188fd5ad1ef3411a9db3727c2631c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/predictions_stage3.npz": "e4bc4838c367d1f422c7a32a626b90620a6f57560382d284aaada510fdf45dd7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r10.npz": "04aa2d6a1dbdaff94fed8fb6a1b7ade5ce91a65dc3c506468cc58cdda916cebe",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/predictions_stage4.npz": "764bc978406a9203bf872f65c75717213611bd19b89f1f2de88f580d04caee2e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r10.npz": "55d3ae248b32062a5a4aeb5b149852f5950c48cf6325ec759d4aa7572c511761",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r10/predictions_stage5.npz": "3d889db4541ca4922575a7477aad81b1de7a1b3231e1d67a973441845941877f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/summary.json": "c0b25d1f5c05875515a332d78b4d79227d02dd4688b3dcf8cb6901c9170335ca",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_ridge_r100.npz": "9fc27507874c0887481c218c94f54b3ec94f0ba613f5e8b5972bb3e0ff1c4cc0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/predictions_stage1.npz": "89adf2afc15883b1431b2b0883f74d4a1a2e23c8705d4f352f0a1ed52c2488bf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_ridge_r100.npz": "a421bf519cdda3640dc8ebf86cb572f02da4b4a146825b7d6a86d6c1718d13a8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/predictions_stage2.npz": "74b16b44c8d7be12b16fa7e89a6c2ad7a697c399954e8464774ce0ecfc1546b5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_ridge_r100.npz": "9fd2f6153d55f274c0c1231ec38d1890061d9b3d8fdcd73de0cfae92e9be6b92",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/predictions_stage3.npz": "5b46e01c973888d92d327f238940e7e32b6fab4dfdd75fc7afef19229c936c5a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_ridge_r100.npz": "a3384076d374ea604b6f181668da71ed870c5a48020361ef55973a287e80ca4a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/predictions_stage4.npz": "bef5b5882e5cfd1a4e7ba83635da76a5184ada7d66915df8adaa5d3815fed49e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_ridge_r100.npz": "c7fad6e158acc220993499d28f1f6c7a64b2afd4d4fe51a2fbbd3f617db4068c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_ridge_r100/predictions_stage5.npz": "c687282f92f294b37afceda59e0a449fbf2994f59c7eb968f0e94945b4b1c27b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/summary.json": "7c4b6c39256fa48bbf25c6eb641eef08030af60bc1ba0e563cee5715b646c334",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r0.001.npz": "5eebe890dc615a7399343595f38a3e1cf66512865ffa6df8c54076ed684bd9ac",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/predictions_stage1.npz": "9cf70b8aff72974b0b8cb3e0a2d54f69f258c081998913bf798fb70565c46d32",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r0.001.npz": "8aa57e90cee3c30c992c0d76c4fd7e24d2f5930f34dbed22eb5fd0f514f2bd01",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/predictions_stage2.npz": "169cc5bcf85f453558232ddfae2b396407da76f268a7d7d22cdf32e09dded0a0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r0.001.npz": "ec1f8c77ace31ac7ce8b3f415e719ba4f0ffa594d0356e7d08b309313067073c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/predictions_stage3.npz": "a56c9686081926373e8de4ea5e804ff01b69f510af9c10f823b2b78da73e9d12",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r0.001.npz": "d09a7c12ab51151a513b8e9b4f51dc8b6209bd3464e8fef8bcfcca16358c88e0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/predictions_stage4.npz": "70da212e66e3b2dedb14280d838594a6494eac8a68f0bc1c8c064f7a27a50d16",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r0.001.npz": "e5d2ed6a52ed1c4daee73bc00ef4681f6020d1b4665445c673445e241aad0c22",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.001/predictions_stage5.npz": "ebc8dc381f8aadf1db6e56d73457fe56eaf0997d8921df0180160bdf1be0bc3f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/summary.json": "81573a8c6579a69bf5f9bf85c9ed869103e347ad7101e075031a280d45d5f85e",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r0.01.npz": "423ae952184d64f9df9c2e1261cc8160b870155dda8d4c956e54dd1a03cf5fae",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/predictions_stage1.npz": "848ec74b3a0cf11a513c82cfa8b5bba4b0d79fa5570d603d318ae76e58bd45a3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r0.01.npz": "b8e4d1d68f4e7c7e45e4f135a65dca341a8a3a2d3703a0465a336d4486265bc6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/predictions_stage2.npz": "970438bf734544064d82038742c1f54e37c74ac2d66c5d9953b605b939a6c99c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r0.01.npz": "9d96939ae77a330c7eeb5a6424284a5b36627196baac61f1c3d22ab706a5b7d9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/predictions_stage3.npz": "ab8df94199bd6fa1866b0742594ddfa845f13aac273ab38aa3d13cde1afe4a15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r0.01.npz": "74ee06edc225c765659140be55e72cdc6e578b85b6962a623fcdf0ac22fbdf93",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/predictions_stage4.npz": "e967a4bf0a86289fd6a02b3576ce69da51a4b4b30b43d67a3ab6c5d9543a703b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r0.01.npz": "e0b96638a7b710122123968c2c3fff5ffee15fff7947f10c1007f55692ce23b5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.01/predictions_stage5.npz": "d38d56e61ae5dc5bf7170ba30da7866f161d76bbd4ebbf75973b8c3b713ccb1c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/summary.json": "625a014d1a95a7ce03ee7f3174d22f1275e38e995c440dedc0abd54ec94d8925",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r0.1.npz": "d8deb6c25dd9e99889a0ee95ee34102fb0a333022e3ea07065e1fd48773a98fa",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/predictions_stage1.npz": "41251f01731145f863a6046c81452696000618da0dff4cfdc84d566cb9a4830c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r0.1.npz": "46652c250614c797cef92f710866ce51b9e0f9a4545354e34d7e8f843f6e5efb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/predictions_stage2.npz": "334c8290fd6b5babe45818537049b360970386a237fd8da0b28055ad6a627745",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r0.1.npz": "6257d3ffbd2485c0d377e5edb4e6960c42712bbfac8cba736759c7a01a963673",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/predictions_stage3.npz": "edca109de95be9338e8bc93092d784688bf57803a189ec091a078d60208bc369",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r0.1.npz": "b6045dee1afcd22dc99e0b5693f05fc2fb8df0a2427f2d9e7a51e8feeba354a4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/predictions_stage4.npz": "098a4a4d3f42d2ceb3ac3841d711baf862710b045c07e4a8d33cef6a72c97618",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r0.1.npz": "cea8e231ae57aad48c49e98ab241b3350ce6bd5381091b98747380ddbfe711b8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r0.1/predictions_stage5.npz": "1a211cc661457d90501b35fec75fdb4d4d5fe4cd8a2a8f9732c2c2fae7b938fd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/summary.json": "e4ca921b44b27cc36d967cf0d92f4fb5393b1125f2661458ac83bf523ee208c6",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r1.npz": "06be31be773fdaa28a1192679a1d14620b59461ef4e003e3008704e72af5a19b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/predictions_stage1.npz": "80547a8f611a6b9ff544c0b7efde16983e615bae685d9fd6d5aedc7dc63d8a1e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r1.npz": "0e2dd398b51044cc428ea66e6b926a5f5775e16a5ec3da7729c995db15c37910",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/predictions_stage2.npz": "a8ed77970a553d1643dedf50068355d2fff30a72343a36918e52fc5162f52c9c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r1.npz": "61a27200dac2efaa9ffe73a2821f14117a3949fd9886ab20ebce4b0b3e3569b5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/predictions_stage3.npz": "70adbff7a882de9bbf3b30d24f920c36a1dae132ea8f716983afd8a51e793f99",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r1.npz": "5e38a3f94095f995a012cbeadc8000c383eae6b7c89622aa9b88f9bf38d639b8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/predictions_stage4.npz": "0c5a2d8fd8eb0a9114de3f2a301fd55eee70b5b0869d413a77776063e5a82676",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r1.npz": "7655383c43c49662bbc4eb8d5497c19298ec84a8738210cdcf500cd80b0ccf37",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r1/predictions_stage5.npz": "d9bee7efaa76afcda1a6808932ae088bbd4cf5f2161abce8249b8389f7b875ea",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/summary.json": "0656ae36bd7ba94a20a92d353b514fb641b3bc6a50716567abd21a3a07056b32",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r10.npz": "a01303510802d351f89a8e4b6a09eccca48da9447100a38c406aab4f7a68a10f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/predictions_stage1.npz": "79b176a01415eee721e9411d9b343b6fd7c7b67ce63451a2353fe950cc626968",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r10.npz": "ee3adab9b84b0979e8206d03ca5303058068225fb4a4e9d47e1237ae767b4251",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/predictions_stage2.npz": "1e636abe82aba8de05743eecba3a2cb00e59a198de36e5e1ac31f2426822fde0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r10.npz": "4f13df83c0826b94835387465dec306e78a70fde6b974cf6334d3e93ec07e087",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/predictions_stage3.npz": "5f3b7431e07e30aef7f2ba6ce66fc8db732332e65dacc63952778e275019fa0d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r10.npz": "75d300309ca8bded58a3cc20188522748357fd67908f68ffbbab132b3f1c8874",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/predictions_stage4.npz": "3eb9dc7de44b5d6ec1c6037fcf907ac1d24e19d614ddafe1a85579286a8c9878",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r10.npz": "0f6701df55399daee29f70eb4afbddd4637e921dce578497071d6e956e759b45",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r10/predictions_stage5.npz": "33413fae029c199a8eda02b67f5389bdfb4e63b8f4e5f7faf17bd473a47cedd6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/summary.json": "6f66680f7a81b40e92554b86282acfc35665105d72f925a001adc156690af397",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/air_quality_summary_task_r100.npz": "a541ac0fb9419a8bf6d1c4ec06aad143256880b895a230c38d8476820614aa6f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/predictions_stage1.npz": "3fb174c36dcfb21d9f5147768542754d36af37924a0c22998046fec2b34bdb14",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage2_task_r100.npz": "e9525a05573542f11c2a93e8c15c1b6e2d3993daab01d1b9fcb546adeb1795fd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/predictions_stage2.npz": "a44801d1c1324b06405b3895da4dc44ffd0b9c3982a895ce171a6952fc8e9b60",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage3_task_r100.npz": "2251c857f47360c6fc2c11ecd50d8a4f527077759e1845933cca2036697aec59",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/predictions_stage3.npz": "03a8cbed78249960119f48fb3874e0741c32382980a59b9250c808d79f31b228",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage4_task_r100.npz": "952933ff278b382c17e8cb9b758037a8e7ff8729c864ad8a6033d7da342a9344",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/predictions_stage4.npz": "e9c6dfa00a80bf1a33eff31be6a4f4e04b4a8c710d3f11c025aab674fb5a49a3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_pre_stage5_task_r100.npz": "f37697e2fc20616876c4cb72233ab1942b2d973be9632d5607c38120f1ffbaee",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/air_quality_summary_prequential_task_r100/predictions_stage5.npz": "6b14026db1c074db85324b007b1f74037378ac55d347c68dad0e48d055882872",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/summary.json": "e14c1ef02b8a3210fb9e9f72f3a99015ba60cef1bf719832be988a28fd4b7a20",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r0.001.npz": "0557f77a1e676981125271a84056ece56d8aeeb3d083734a4a328be55549436f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/predictions_stage1.npz": "7ea2b31c0e8132748c37b2275d3beb8fff69216befcbfc98a38eb2bd33809d22",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r0.001.npz": "ba8f6b0a135505878403e72c6ef5bdabca1f51660984312cb97d1a7c287a0781",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/predictions_stage2.npz": "d00d952562057dcd982838b1ee8258c5c55f91e10dea83cc4b071ba89f9cac11",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r0.001.npz": "b60181a1953d432df96369df014e04437a8b443b99e9f6f35a628c2b0b4a2282",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/predictions_stage3.npz": "fa9db86c77ed358a55e22a3cbad302a298bc276738a6b69461ae326e5322bc1a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r0.001.npz": "944bf042ec1ba447f8f93c52cad33e116c55242b394f7f7bf76b37e035a72dd6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/predictions_stage4.npz": "8ae5f06cb99c2e0dfb489d5550f20ad4aa4df65ff02bdde814f087ad802de167",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r0.001.npz": "be6f295d4a72ff0cb6628d104072cf6b3013e83a1df11762765c8d372296d1d7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.001/predictions_stage5.npz": "10d6b2d5503715d98deb51f2107e61f104a600f51f62970163c0acc69d5d3329",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/summary.json": "69c5c7cea482a91d412f43a1bff60ce579e2d6e0eec4710a75b0484f0437ae88",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r0.01.npz": "70208a986dc66215dc1b6ecc0716768544f075c4c8312fce5a45759896de6f2b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/predictions_stage1.npz": "531ef6dc8dc4af325ad1ae413e1658c859964a85ab77b0e92855d84786d21451",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r0.01.npz": "19bb5cd04003ca100875bd14ae3050dd43b473ad410b153fbdeb0e88a92198b1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/predictions_stage2.npz": "546a2460dc75bba77d3af3af289ef9a825df985d5471e8b8af8c2fa9fa1dbd54",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r0.01.npz": "096dd7400281f4a878035be278c3e76ffa4867b06ab19a2317fa79a94c2c5095",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/predictions_stage3.npz": "978e1c6eadfe464437e36004bcfc55bc743e80444dc54639c31db5e57dff5f53",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r0.01.npz": "ccc28a832507c2008e8dad1ab8b3a23f8eff51da930ba3ab9870ec918054c6cb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/predictions_stage4.npz": "79a506ba79f964cfab230baf0bc6583350175491f53860dfb329a657e422241e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r0.01.npz": "83d46733dc28cadf5407e00bb40eb3976e9eabae710345c0d793b9acd4538901",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.01/predictions_stage5.npz": "3a32670fe61e814ffa253a65b381c6c039ed1cfd029c117acdd34b975e792d3e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/summary.json": "7b1c1a096fa4486bdf07b136c3988f4245ed23a8fca7a2cbfdc8ec5f9f186150",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r0.1.npz": "ce500e27eed01b2592261022e9bfcc6e384c89fcd30d7f8a935a5fd1b6eae5e2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/predictions_stage1.npz": "aa163a3f42133223914d889870d8122da733625a856ce4b66bf6e28202db0d86",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r0.1.npz": "385d82e5beb334b535103cb80c4fa81919b225a9861c980c9ca28b0cb9a5523a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/predictions_stage2.npz": "7bc6d8ca17132046a05a356554115464aa4f1d414de841165f7510d7d9faa721",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r0.1.npz": "49a3007fa2f2fd1655489fb4368045a768c0fe739cb1b79073fc9d6971052c5f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/predictions_stage3.npz": "0a0cf18eaaf404a0f7540b2594653d04c9212c11d673443590d9b0fb5144e68f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r0.1.npz": "b344d7c126a6e857e0352839fe36b82fe0a9cc57ec1cf5f5807ae7cdc2c61c32",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/predictions_stage4.npz": "8643b1e086ce56e787e70ee4e78b001230736013a14fdb3f13a5e5b9e395d038",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r0.1.npz": "1f1a58accfb9697385c9d74973cc1ad00261f6516c754727f9239b83e53f48ad",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r0.1/predictions_stage5.npz": "353b2af38490fcee418584f55d0097737db41765020f3a5d3e4e027e1acad656",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/summary.json": "53ef694015a37fc2fb19c8422bd1655e3f0106218cfc1be51fa4c4305b2a9aa7",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r1.npz": "b7d5e8a08e36878d6853d57692da18b8ff1b65960b12607d5f68dfac6fd15a86",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/predictions_stage1.npz": "a55e2d43ee169c4ee5a2fb5716458c68121c4d481d824a7631e619e667bd4123",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r1.npz": "4b2dc97df9c2f87b53676ce1476d60c9202541c9503b22577e6d90e2818b1a92",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/predictions_stage2.npz": "cbbba6fef7eab879e937dc40e3f7a8a895d5b92c064a3ba29412ae86c915e879",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r1.npz": "83997c82a80659f7da8efaf0f86d62ebf020a79d5bd3da5182840ca8d28a4cbb",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/predictions_stage3.npz": "a6fbe85ad7d54fedfbe9042e67fc059ff1dfaf3b6d549cb1a135cdc18ce5c586",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r1.npz": "4a18e244fc84ae8e1f277dc71882d22d2534cf216e1e3990a90ba71e4f6db495",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/predictions_stage4.npz": "12d6234cd563549892113e9ae396cf55d37f2eb139f1c96e0343bffc041db29a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r1.npz": "6c6c1e55d1cb9141d54cedcdafa1e98cdf544e385f812d9ee9fa331de8746f41",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r1/predictions_stage5.npz": "eae567612e6f96324f8b02ea46e1f55455a1d07bcab8aaf5d09896bba551dff8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/summary.json": "b471ce91e003ae284a8cfbef2b866f249a56dd7dd31a5ee91681b82f166405e6",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r10.npz": "1ae2d19d98dc5addd48bc3b9790c2bdbd9205208ee486589b6e7a154bea8853b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/predictions_stage1.npz": "f2724d8f61d1b110e512fc20453a04ec418ec7f07bd53b9bcd65bd1ece48a61f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r10.npz": "6e0a3ab5d60564e0493504266991c90dfd04877bb341023fa21e6adaa1e92fbe",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/predictions_stage2.npz": "34b1181759776ec68dae54bb43b85c33e6d2a673daf9a419b7fc40d8638f9324",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r10.npz": "d2e69b27b1abb51ba191491898e63c84b50f7ddca41df6f8a38bf1714833e96c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/predictions_stage3.npz": "5e90ec18f2872e5e1b63600681b54ef4f6aceb4f9d552e05652b921b212d3129",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r10.npz": "911104917987e550d5a27c981cd129892653ddf66cfe1ffc7938195cb491e81c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/predictions_stage4.npz": "2a2ec7ef9fca4aac24c8c5f79774c5c235ad1adb9a3ae2b59fb693a64e7f7e9d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r10.npz": "ec8e6784aa4f3545c9dc4cac8193f09d614995e3d2ecca723f1b4240aa6d178d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r10/predictions_stage5.npz": "4e884dcbd1471c4b58ca2e0c33297d0be72751bbb2a9a32898feee2d103a3778",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/summary.json": "2edabfc8c65076dd670bfc33767b3d978ec2b7e878593dab47c94eda293fb882",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_ridge_r100.npz": "09d219d7248b59972896b2bf8c9d98224563b401f9810eb9dab4e2c888bb19b4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/predictions_stage1.npz": "a625d5d4441f5a94360c0ecb5a60d104d179bb5dfff7177cf9e60999b06403d1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_ridge_r100.npz": "e245103a7e67faa63fdf6d7f97c0efffae8377862ffedd095019e1a7d5c6e015",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/predictions_stage2.npz": "3f5d62701a9985cac4e3af247a26bf88a241eb223643b4263628a207a1802d7d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_ridge_r100.npz": "f02fb0784349e03cb027054b984eabe454b817bb82f7f4f946cb88371625b7ac",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/predictions_stage3.npz": "4941c053ece96f5548114ae5b4a1467f62d296469ef85b68552a07ec5b7ff50b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_ridge_r100.npz": "699a72ba95d4aace1a84a6332efe9ea9f27db618a6e1b2d8771a29ab717899d0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/predictions_stage4.npz": "2484410d1fe096be227ce827fa30846de46318ef84eb512d6865837e0751b3ba",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_ridge_r100.npz": "8c550d16d779f4da5a10fb7cca8596c0cccb97ed8e8dd1a656abcbdca512e3fd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_ridge_r100/predictions_stage5.npz": "ec5336ff9dc49dbd953dcd41abed255b6274e9d3cb80e59ea2669a9716255c2c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/summary.json": "daa649165ea41f6ff78d588e96a5bf3901c1b115858b71bb13d339e00cdd3061",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r0.001.npz": "8279499de8021d74a15411a442cf6b9dd7277bc35997909f1022ff275a58d51e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/predictions_stage1.npz": "f50c8501c15635b7a821771079633e76c68eb61e9a3770235ffa806efb226ca5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r0.001.npz": "5040b34153a93beb62aa903577e7d22038b068d1da2ecff9e2c8d9a64be32837",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/predictions_stage2.npz": "6b1dbec8c8b6d1ce0a7e8a08483ca0968ba478d2e16866088b0fce36001f6423",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r0.001.npz": "8217baeb8ff0b73fac129378ef9f3ceb32afa2a538d1b53a3b84cd804a4348ce",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/predictions_stage3.npz": "195638d57994836702f546adc14fe3ef056c3e30497bffc5b51e4ea1b42a0afd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r0.001.npz": "026e9023d6a01039feee69d3dd6abd8dedbcebe5372066fc2e1c012c20e9287d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/predictions_stage4.npz": "25d77661276cd7d1740cc19f7cb14f878618af4a44cb5c5dec83d601f83bb26c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r0.001.npz": "c45c2172b5f4a704a65a10b01dd48b3f3685194389634719dd14d9b91eb21b4d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.001/predictions_stage5.npz": "9799f749cfcbf10905c24f03d04ab3bc43c950b929f977e7a6c520bea382cf58",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/summary.json": "6b300962dd2a1cef9c4e3c2114f2ccfb6cd4fcd59e65af969120b5ff40ac363d",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r0.01.npz": "2977c588737dff1a7edd19cdbb4cbab302a820170ed14c55329a065b9b441247",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/predictions_stage1.npz": "f3e8a625583a3e77af7b982365adc665fea633a69eba1bcb08cae07aa2c1ea02",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r0.01.npz": "a96753b6fafbb85dd90bd1adaecb60e4d27b6908c44240ad33b9395db441eb72",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/predictions_stage2.npz": "af1f675bf89e7ca54b8928b15f84b8fdaf92f768587f5069dac50725cd8d6df4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r0.01.npz": "ebd078b2f9108270eba6a4f3127a7633c6d78d8be415f42f937e4f97cfa1b065",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/predictions_stage3.npz": "bb78e832a1fb8d7cc35575222240376511e6fe452eefa03b20119ed149cc9ca2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r0.01.npz": "db3dbffdf5bb622a396b4d92d170b74a5962405084875fd09205eb4e4f359a63",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/predictions_stage4.npz": "eac5f651b1dd0b83f959a5cb1b4496964a188b9902b8f548382ba25b1c507364",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r0.01.npz": "559ae2823dac8045ffa05c721eed488d535e5dff9703b93042dbf4946d8779bf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.01/predictions_stage5.npz": "72e201d9c95d4142f90c24ec388d5e7e06d2cf8516ac63c2a144f3573ff3314e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/summary.json": "07b3bb25d4c47442901a0414fe205c7587004c155a24e85458298432b02ce1f6",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r0.1.npz": "87139172d7d1b591c7024c109f0a8c594e8e600712590fa4c15092c0ca34d53e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/predictions_stage1.npz": "3c00d045fe1c2eea010fb78408604aaad76919f3caf32fc0f4b1efb40d564ad2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r0.1.npz": "1c8625bf7e57dbf0e58efdfb71712d65ed0cb800fe98f279ddadbb22510896c7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/predictions_stage2.npz": "3175610506eb38677faa7f87246b585710a981c35384455f10dbafd9d052739e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r0.1.npz": "9564161cd8893aaa67f26d43aa079421a00b1cd1da202a860e576bf21711c1d2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/predictions_stage3.npz": "c30df8f454afbeb5901577ecbe0c2e22fb35ea2fd0b1ac3dc79d7deb0b8a7ed3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r0.1.npz": "cec9a255bd6ae97d10fc213cd7c0e22bfcc6191ec7a7428da33ce0d2892c4a9f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/predictions_stage4.npz": "f781c798da7fa29993cf69178c34d82168d413097b53111d908ea1cefa26d970",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r0.1.npz": "679c110a7b29044ec54bb1c34b1e3ccf8e75259c3c5e4d627e4c59149a1e1c03",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r0.1/predictions_stage5.npz": "c2bdff4652db9c82c7a8150b4589646e21de6b6da9baa3f3cc0d267122ccf93e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/summary.json": "e6cc0cd7095ec4c3c4db14822ec55603b2329e9f75e10f7879d2f3ded119da21",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r1.npz": "bd6d848dbae4d3d5e21da1a9802758295f990a2512c774c23382c2d3922ae191",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/predictions_stage1.npz": "f0d87205722368d1667b8bed96cb7544025c89c196f2e2b16d8711dedecba1e3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r1.npz": "7f38b5860a9960368a4bc355bb9a5209825818353c6509ac42cadccd2a219c81",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/predictions_stage2.npz": "b07bc91a495d27709d14fd318f8f308124210aa61007dd6b52b4d7de9528da03",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r1.npz": "0e386f5db0c90d4914eed6516c5c5857b9df6a91f3650092abcc08cd15ca034b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/predictions_stage3.npz": "3f63ba42d41534acc3d79d10a86d13a6920c4fc2709994539a0be5e92b80efc7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r1.npz": "7fa34ef9af638c31caffe3c64591f492051c51e7e3aa1019bde6676f97f2b39b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/predictions_stage4.npz": "f3119d0a081ac50f0fa32f08418efc608528f3f4391fe1d39d4f637e33cbb807",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r1.npz": "313b5226a491b69d8346817f12a7c9aeb9620eee426bbd2a68127dfc8f467875",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r1/predictions_stage5.npz": "73c37cab54dfd87cb0121549fa79ec33d93fb60611cb9cce9feb2b667772f1f2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/summary.json": "6d64262809ac62cff265437eb00b5d09c7d7cb1bf252b219a8159371fd621b5c",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r10.npz": "21afa745a639f649845e0053e8b6d1c71b540e8e3b2ec6795f3c28cfb41d4926",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/predictions_stage1.npz": "ff190f64eb8fd276ff07e1be4ad6ec636f9c7314886d415724e680875c9b84ce",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r10.npz": "c0df8b9e5cd19733ac6a9ee3f51e8cee5f171b67fd28fc45f26bad74a1a0b799",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/predictions_stage2.npz": "da31d41abb1574745df67df72efe14a83b04abf0f23207f6190845b32a81ccdf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r10.npz": "f9faeacd391b764cf7a10696eface3f28a23cec438b37d21b55eec307a7559f1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/predictions_stage3.npz": "e0f188e0cf5e9a6fccdfb1ab8ffe27c08f3da5764e864b0513d0171c9ec630aa",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r10.npz": "b6ab3f97de707f84e664b11c6311399da740aa1bd0c280dc6a7bca4a1d8a746d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/predictions_stage4.npz": "016133846e0e1eea5655b267d4631b56936e06442db51dbc659574fcf92fe234",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r10.npz": "77fd45cdbc291928034eae3b2ed0ff0e7a95696f4852256e2548fc3a2a9a25ce",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r10/predictions_stage5.npz": "2c1b7b8433997913110118e0206fe1f71f734f44fe83559d8fd1d48d83cfdc73",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/summary.json": "7ed043fd8646593267a1cc9f3d44ce3440349cb5e703a209ff14c283f8a70886",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_mantis_task_r100.npz": "ce2fe332c340e905bce695193e245c505dfb94717554fc2df3675c6277d301e4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/predictions_stage1.npz": "bc9de62fac01ff8da62816daa1d74adcf8f1bfff6e181f1e1a82b4922bd39fcf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage2_task_r100.npz": "f2ef9750263644cb094d08c2749dca253c65a0406342af6e6eba445bf5f53077",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/predictions_stage2.npz": "3220b882a9ddb739f2c44fef3e7912649991acd0a3957a5932f7d7e7a5720db6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage3_task_r100.npz": "6b139045db2c69204e77ef39dd43cc9815076324cf180648391ba9e3d8945b76",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/predictions_stage3.npz": "7b3cc70d8d9cc6ec9712c816fae8e82df39d21ec754d70881334119e438c3034",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage4_task_r100.npz": "ffb6bdab8ef58ca4f4eb2e0cfed1b749e215e903da0e67273f3d943a00e75c17",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/predictions_stage4.npz": "84776717d67de34bdf58c738aa090a6494faa0d950ceb72a8e38f2ae36a83de5",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_pre_stage5_task_r100.npz": "3d604171e7ec6ed6b5478080e35c940d9103831411ace9015976c6186f528e4b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_mantis_prequential_task_r100/predictions_stage5.npz": "ad10a2d3b8ff475de1c50b38e692431296f9910c8b8a53342d89647f0396d7e8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/summary.json": "5944b6aae0c4263821d4be529bbe027b6ed37f69f65f4a3c37fe807fa1c068fa",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r0.001.npz": "7a1933ee86a4b93c2f28d3ee72e903d88279c65a6bd502e51c17a8ba521f4c7f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/predictions_stage1.npz": "b7ebfebf018b3f7c046bcb15a48ace43871d5c1257ef8ccb250f96719f26ae19",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r0.001.npz": "c669b4d447d24bc8f79906b77762aee41f13a067aa62b2f5b6a9f278d863832b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/predictions_stage2.npz": "9582fb1764bef639837150cd012a7d405c5788d651b5ab3ad06b2148b0ba036a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r0.001.npz": "06455b1ae5f446d3ceac9459e55dbfc00124aad865ed334e47bc31a8464856b2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/predictions_stage3.npz": "e428860e80cd607809f112025c4b25432b8837658b72383d825dfbc8ee9cf79f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r0.001.npz": "8b97cc6c587ec6b6dd98c2fd5df5dffa39e553126c32e0bddcca42d43170fc74",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/predictions_stage4.npz": "92be7f180f3fff1254b13aabcee2b049a6498a74fd12e14f107b292bf4c881d3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r0.001.npz": "f8a3732af88e366acdced2690975e3d5936b2bc21b17c8bfb46a2c32c2f847e9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.001/predictions_stage5.npz": "1c091f0b54e5e27c2d16eac915d698edd8f01201f2eca856327f8b9440a20dda",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/summary.json": "01e4d3de853c223452fe07de44be3ad8d1085c985d0f4f5555ea2e085c7e5c56",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r0.01.npz": "8517103abd1742211920085b22f6f2eb94f8591f0d7546ed76ca57d01c993e71",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/predictions_stage1.npz": "a6d68f50151005cd60c4731456f7c7ac96e935bccd971e21d2fd81e3b2977e2d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r0.01.npz": "d882bb170641c56301e96a4a11bfd6934267002542bb0decf25903a2eeac60b7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/predictions_stage2.npz": "101177332ea145b2c7ea9ca8cc5c4c65d82f771e4f96733fdbcf37c9b52c2c2d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r0.01.npz": "830f9bda8021b89f39490402f95a52ec855d2edca29e0430328f7f726b9162fe",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/predictions_stage3.npz": "702666ccebf26cc358d880ceeb8cee52d64de0e262811a652ced5de2be231f77",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r0.01.npz": "e85d6a9d84f65fe508895e8939c95c446bd6b153726548c25f6813f35ba0b48f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/predictions_stage4.npz": "844d4d6ef295276dcb60b26e687cbfb002d72d4e132fd571b50ee5d74b4cc4b4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r0.01.npz": "881ac02efebad20660f44608c8152e2a5a72a16cb7ef8e3d7d62c76f8226a4ec",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.01/predictions_stage5.npz": "80fc54b7724e03619b06033a52409cce55618b96acb677118fdc8b0304d079e0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/summary.json": "b568d1567d221826c106b336668520bffb500fe03599f60c933e28d555a03757",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r0.1.npz": "73e16a3a197995555a6c92d76d0597895c6526942ebcb48c3d5d5b953e15abbd",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/predictions_stage1.npz": "1aa0cf2999b0fbcbc07ddd9f9d11fbc4e007b1df2d6d16de75dc95a9d42a221c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r0.1.npz": "0447384c9da2e2bf73d7669f3b63d05e67346a06c447707eee83b97cb5ea46b0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/predictions_stage2.npz": "17b1cc173dba4deeab799785b9a713d7b359d76da7e1e9776c2adf9d43878c86",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r0.1.npz": "f985e2d9f1b72c30f54681ea52225be0f16821c05dc8d35c6d0953352b7243aa",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/predictions_stage3.npz": "e2a312f027e28848b94c9ab6a9f68ac5fe28427b8eeb6a56ac670c4a72437b6d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r0.1.npz": "a50ea856a10191a9f0e4099daa34749c8f50b753b9284a36197d5f8aceb35ee3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/predictions_stage4.npz": "14535a3601d4718a06215028a14bea23ff86809eb9ec0ce878ae48b149df438a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r0.1.npz": "97e4a121ab27f5a5d99f88139e526cda7e6a1a34c41815acf82f9ea82e25a51b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r0.1/predictions_stage5.npz": "cf94e2a3eb9c8d8145e1ef64ef17d7575f52800a6d8f601f71c6d3cb1208bc21",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/summary.json": "b0068362caad6a79a47970c973439d203901281fba4b3cc1b3d40524fd6c5dea",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r1.npz": "edad948d7a27838ecf1864bbe1dbb71e5437980b6a37fddb7b7bf158f8bbdbc3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/predictions_stage1.npz": "457bcdfc7e8204e6ab0e6d904a5ae5181123e206548b8d08ff37263d0f767688",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r1.npz": "d3f0e122d9e2af54a17363cc83a0b24444af1961457a48a12501d098d82933a0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/predictions_stage2.npz": "42d7f3152fd05101e68ff9c9350a0a886c1bb4f43a5a32da9611d22abcd2df3b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r1.npz": "d015eb778ab375e51c62d1b40a89f759aca97e91ccd75921d3706953cddf57fe",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/predictions_stage3.npz": "ab460e6d626507375f4662fbfc0e6a7de7ed044993de2bdfd501ba9fdf64f16c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r1.npz": "808e5afea82c26e4d76f00bb17430185e9e310819d075e87e5665333d2d8c1c3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/predictions_stage4.npz": "c1737c3799c70b8b6d157b26029bf98fd86a9d3882c54d44dd927a936efaeeb6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r1.npz": "adb56048a09a4cbbee47cb86b39677dcbad66c07f38be3db6956bad4cb387b91",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r1/predictions_stage5.npz": "14dd83b806126e4e8253b69ebde1501cc1c1f9884677b2de5b808ff72301f5ee",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/summary.json": "e24ae8f117b6e430bea2567d9e22389f47de2e35a654915a43138771cbfa85f9",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r10.npz": "f9530e9477187d65807e205a9094902d5cd69a6c435e2657581ab027efb6bb1b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/predictions_stage1.npz": "edf7ab3f88f60e8ebd3f9b73c22b89cf8bf665614d932a14bb1b8da9d5a5af18",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r10.npz": "bca4d0c4edb2ae27b7be412a09f473e8ff2673de8fb74b53e0234935ed394eda",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/predictions_stage2.npz": "9369d6b8196314a54ab90472a0d1b3118f1072c7767ac908df8e377f8f78935c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r10.npz": "e84fe0dd5584133074a90666c9574966238df6b9757989517441a1e5c4422a27",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/predictions_stage3.npz": "d2f070971709f5879198411a854c9cd320405390641564257a090e95a85b49d9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r10.npz": "45f273a5e88e8f0d37b97e181f7fdd3013ba296fd3ed86fe5c7d783205229d19",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/predictions_stage4.npz": "4348567e8dcad4af8248c95f6d4d616bf654b8e9976dfea3cf53378a89c891d6",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r10.npz": "b0ce54e2530316f7685aea0fc32aa1bcdadd366a5beb4146f362f461f74bd973",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r10/predictions_stage5.npz": "53a8ea4e3bcfd7721cbb53b31bdcff7561bdf7327b13685cb64c2626cf308ca0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/summary.json": "59902d482960003bee57bbf35fe5ebd00501d646b84df0c317663c9a84d533a5",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_ridge_r100.npz": "800ba67aee103b1b7de84d2c0c3b882f9aaf0400c2d346cc78bc6a006adea6a3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/predictions_stage1.npz": "0321b17aa9fe43a12a82d3c6d585b9d25964bbf542b802e35d3ce963ed5df1c8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_ridge_r100.npz": "9ce84cd234e697a13b308e7178a707ed15bda12a19a8b242c62aa82cc70d0542",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/predictions_stage2.npz": "0c60cf74a1bf719d17083230e364b29da2ad8815524951391a013c063692baa8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_ridge_r100.npz": "67baf6d6c50373d055c45579782c9b2f4894919f80686050eeb552a1b5f87fce",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/predictions_stage3.npz": "5130271100691d1580ff77cd8f22da63a571ccb4902bb902e50391f089a3f928",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_ridge_r100.npz": "41ddf628f30516261a3a5e5e98529aa146bd81b2071849cbfa3d62182afb2ad0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/predictions_stage4.npz": "564babe211debba9d8da278dc513b94032dadc265ee1b30e85a5b52a75e837bf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_ridge_r100.npz": "f1b4e78dbbfa6dde4aec3622c87a751724b628092d99437b3eb1fc8cf83c07ea",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_ridge_r100/predictions_stage5.npz": "b97587b44fd7cc36bdf77e40700773955e7bd8b37a26d2d53710f43224dd4f5f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/summary.json": "53a34b4f175e3f0b7e1b22323d2298b99ae2275b20b09bc3e03f8f9321f4dd46",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r0.001.npz": "40ea040194863133c53ea5e882b647f0fed38e1650d6e2848ac9033e5e2dca89",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/predictions_stage1.npz": "e76bbfe68cc4ac44a1e3824edf7695ebaeaf9b489c9387a7e17134a93b0673ec",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r0.001.npz": "92a799714e9bf70e6f82cefa4108935f8dd279d9cf918a00da2454e0e4fbc937",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/predictions_stage2.npz": "6c83070b85f922a29f7cb635c67f529229c5fdea2ffe4f2570322f8b61d33f76",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r0.001.npz": "9f3d63fa192c6a8b2c4e7182a8c57c247aa9b187d4a6f994476f23a58757fa81",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/predictions_stage3.npz": "34ef258327438412970ea99af75610ddec165e5889f393a97a95b055dec5ba15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r0.001.npz": "a3cff4f9f0235e2b7d855f3c6be11b1dfc203bcbef1534a861541be282895c36",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/predictions_stage4.npz": "3df87b5ef7871d68337857ecf0973bba965336a3eaa7ada57503bd5fa5e174d9",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r0.001.npz": "e341806627e7981b1dc5678641a251087cddc91df4e90b18f145641a2828beb1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.001/predictions_stage5.npz": "ea70dd38deac858e44bcd6cfa3739747d1a2473a822efdc9b56f66aaa29513f8",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/summary.json": "8f412a18d12c6e4963eb9de61ad0566ae9add62f89f75712a8eb56dbcb781918",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r0.01.npz": "e746d48f2ccb50792128302ca28593c9392a6d24ef8301a8eccf374b177d6110",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/predictions_stage1.npz": "8984e4ef24a619b653a6b4b25c250904c0f81cac3a079caf6c5c5a7be36c26df",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r0.01.npz": "0b52db4e39fc14bef8747c2a8f1c8d107953fc932463376a854f7b284b858608",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/predictions_stage2.npz": "da4bbd8bde39ef85f826642456df5b719e5592a9a721bb2c8ad555da3a8f986f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r0.01.npz": "cee45fb4696b41086b9e133d98d6d5272b337a3ae359509a85d563eb59b61c49",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/predictions_stage3.npz": "3e90bd5e0d67b275f6b603fed0205bfce25b55ccdca894c6e6d5620294c114e3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r0.01.npz": "8a324bf76c9f1884044034a0fc6c7f9aa09c2d19f8fc5918f3870f73afce5049",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/predictions_stage4.npz": "242a6cd4ef8d2770403ccb8306d408c30e3b03f5bf96e53a87d9eb4d94692110",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r0.01.npz": "06c732ef910164d088ba5e7f3deff3f3f860bba4fcf4d5029e61ec927874ff10",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.01/predictions_stage5.npz": "f8d5d29ce6d31766411540244b2965b8ad24b59cb5a5f5b3086f4647e2611411",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/summary.json": "1b59dcc3b503bc26f8d242b0c36f7b05ac9e26c36bb7abefe125767521ec7c1b",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r0.1.npz": "fee30c8932f49379b3e12d3c4249600683a46265dfcbdab0caa521e0ffc4ef99",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/predictions_stage1.npz": "195431fb94c6f7f3c5ab4b9b4918909f58074023ed018f28d73e33b6ac0de6f3",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r0.1.npz": "493fafb819254b87cda9d9f28fe6bba57f6eca0dd2a6661b9aeb80f426d2c29a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/predictions_stage2.npz": "cab52f64a28abbe145f0b64e616df3c934b9ee07ba0e55420ebd522daee7124a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r0.1.npz": "0b442103c21f16ef1093218de378b77de37bb6ce05c386205643f89a099d1301",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/predictions_stage3.npz": "93877435e8d6869330e8d5072ebe41727211650d4413420822fe98b2a9e02d29",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r0.1.npz": "701f95b6cec6c6b63dac685b4a1957435eeb0b2ee7811d4bf83dd07155d47991",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/predictions_stage4.npz": "1fc540d8dcdc5c69b5bfc64b69b804332543803e10b4b3d99c4729d60038bf15",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r0.1.npz": "0d62cca8c902c98ad5ecd8dd993bf0224731b5d079c44785d5c578dd62d3d0c7",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r0.1/predictions_stage5.npz": "5328a9c1a6de7ea5909bc1beb9eb736424da1f7bdf0cc38ee57ab2caa84ade57",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/summary.json": "dddeb7235b8421760c6f4517ff8b5bc46a1d2995b5d3811e42afde0ee9a0294a",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r1.npz": "52477297ca19aa05376716af105e5f468c9644ae0c662434d3a3dabb54323e6c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/predictions_stage1.npz": "5854ec9cb8ee6255eb1795d0f6f46e82fcff5fabf35c8258e686d81101010f5f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r1.npz": "831d47255f95a173ad773e6276a1318b4a2b370a71597367bff266c938dd2e96",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/predictions_stage2.npz": "6979f398fe3413cc30fbba7ed7853361df6b3210871e715aa162a9a43a7d470f",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r1.npz": "4a8ddf72e51d93ec10b8a52cbc7eb9fdced1198f6f65febd4a94e6b7be61b66b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/predictions_stage3.npz": "6d3b363793e32439d761e47b784db90ceff8df1db2ee3f69f11052e06436c6c0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r1.npz": "31be49b517576859d31e5f34bbff793d5da38096bc42ed8f9b914d1dcfd728bc",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/predictions_stage4.npz": "7b9eee18f73c715ca755d107e53c0cd310790e9e03da50ae96f3c194e40552df",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r1.npz": "3915f73718a3ac1d049f0efd28e775cbe982eca4acf6d111b12f121f370a997c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r1/predictions_stage5.npz": "8cf58b5fd8dfbfbdd42cdb2505bb2e854ef922464084fba3922362596845b5e1",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/summary.json": "17deba90b293e488d3481ae7d61b70ec200a468e69fbfb863af01cbacb2b92f4",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r10.npz": "2edc0a6c6c57026cdeefebacaf54aa3e4f0f240da8dc51c4074a6ba79faf4497",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/predictions_stage1.npz": "9344cb7d459a8ba99a8e0e785b29c8864073db4b5f60d61b3aef6b21f8711572",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r10.npz": "b265471948e096f9308ed0e2e45f809e0b18c3b4e763209ffa739d1c398ad74c",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/predictions_stage2.npz": "a31277ddafddd5030c8a753f5383ccf4a5fae25f9d0367131149d8d474e4eabf",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r10.npz": "f28a3204f959b296cc5484ce01affeb8f3380949e035feaacb48346e33de725e",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/predictions_stage3.npz": "850a714dc747bee4cde83c22a03132d9d108874ca3222e0d7900631424364131",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r10.npz": "03c1dcff70b2b22f91fc59a728c026d81deef0c459cfb79a4f12d0fc85c718cc",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/predictions_stage4.npz": "dd26dc63f0154fbc5e2c0dee1d197fd1d154185440215541a16e854f46da7a34",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r10.npz": "108c4917dc8beada0f07d5dbb333b4101505b1f9edd07c0f0e8b13f2761c2779",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r10/predictions_stage5.npz": "acb43bd3e1c40a21e88bbb9838b1239e85e2d2c5dbd7007bb1048e2e691fb67b",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/summary.json": "290067fe67185c9cf4ebccadcf2fd2c3e0718d7e9438d8bb77f6b5955444b852",
+    "/root/autodl-tmp/tmot-artifacts/runs/first_calibration_v72/beijing_pm25_summary_task_r100.npz": "8fc0b2e65f73de0dce0fc3628249575cb75b72b8748007d0ed388d152fd6c633",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/predictions_stage1.npz": "bdd5ea3fc1771a4381ed4936bc59f0b402e9a188ab6d8d712e650b6b2e294293",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage2_task_r100.npz": "1e084b09c93097d1f831006bb9b5e4ce899bedf87249afb9f86e027f131eff1d",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/predictions_stage2.npz": "cde776d1a13db327c25fb753d2c1a7d79fe294aab3cb41cfc35cdecdfa276ab4",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage3_task_r100.npz": "2e24b3c442e2b7cb3d720b3b86a937b3c938772751d327d8aeac7bac73f12048",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/predictions_stage3.npz": "f164feac230714ee7c093ffb2c1af1ad1454e2aec5a3efbafee323c07bee03e0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage4_task_r100.npz": "d55c5864dd36061f85978faab36f7f3906e6346b2a8f55e972e81db5a97fdaf2",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/predictions_stage4.npz": "854cbb73a7daa965b9f35d2990c91a27a5fcd87a84b2a99704332f1b992eada0",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_pre_stage5_task_r100.npz": "47cb9a1443efa37f7aed2a6a168f66a4fc733b9ff76b4b6fbc7761cfd5ea980a",
+    "/root/autodl-tmp/tmot-artifacts/runs/prequential_reference_v70/beijing_pm25_summary_prequential_task_r100/predictions_stage5.npz": "10552025f9e52b1557f7ff74603fc63c178fa3f8198106f03fdcfe43635fd879"
+  },
+  "checks": [
+    "prefix-heldout initialization plus TRAIN-only pre-task loss",
+    "independent hard choice",
+    "prediction mixture equivalence",
+    "VAL identities and metrics",
+    "unchanged source files"
+  ],
+  "note": "Read-only rule replay on development trajectories; no retraining, no TEST; same three experts and six ridge settings as v70."
+}
