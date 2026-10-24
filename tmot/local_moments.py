@@ -112,6 +112,11 @@ class LocalMomentMixture:
         self.preserve_targets=preserve_targets
         self.cells={};self.rng=np.random.default_rng(seed)
 
+    def fit_cell(self,batch):
+        return (LocalCell.fit_target_preserving(batch,self.dimension,self.rank)
+                if self.preserve_targets and self.task=='regression'
+                else LocalCell.fit(batch,self.rank))
+
     def update(self,x,y):
         x=np.asarray(x);y=np.asarray(y)
         labels=np.unique(y) if self.task=='classification' else [None]
@@ -126,9 +131,7 @@ class LocalMomentMixture:
             assignment=merge_small_cells(inputs,assignment,self.min_cell)
             for component in np.unique(assignment):
                 batch=rows[assignment==component]
-                cell=(LocalCell.fit_target_preserving(batch,self.dimension,self.rank)
-                      if self.preserve_targets and self.task=='regression'
-                      else LocalCell.fit(batch,self.rank))
+                cell=self.fit_cell(batch)
                 self.cells.setdefault(label,[]).append(cell)
 
     def sample(self,count,classes,rng):
