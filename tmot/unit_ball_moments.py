@@ -12,7 +12,7 @@ def bound_hidden_moments(mean,cov,population,input_dimension):
     after=float(mu[d:]@mu[d:]+factor*np.trace(result[d:,d:]))
     assert after<=1+1e-12
     np.testing.assert_array_equal(mu[:d],mean[:d]);np.testing.assert_array_equal(result[:d,:d],cov[:d,:d])
-    return mu,result,dict(second_norm_before=before,second_norm_after=after,contraction=scale,changed=scale<1.)
+    return mu,result,dict(second_norm_before=before,second_norm_after=after,contraction=float(scale),changed=bool(scale<1.))
 
 def bound_statistics(stats,unit_memory,classes,input_dimension):
     result=[];diagnostics=[]

@@ -13,3 +13,12 @@ def test_admissible_moments_are_exactly_unchanged_and_bound_idempotent():
  np.testing.assert_array_equal(m,mean);np.testing.assert_array_equal(c,cov);assert not diag['changed']
  m1,c1,_=bound_hidden_moments(mean,cov*100,4,2);m2,c2,_=bound_hidden_moments(m1,c1,4,2)
  np.testing.assert_allclose(m1,m2,atol=1e-14);np.testing.assert_allclose(c1,c2,atol=1e-14)
+
+
+def test_diagnostics_serialize_for_active_and_inactive_contraction():
+ import json
+ for magnitude in (.01, 100.):
+  _,_,diag=bound_hidden_moments(np.zeros(5),np.eye(5)*magnitude,4,2)
+  restored=json.loads(json.dumps(diag))
+  assert isinstance(restored['changed'],bool)
+  assert restored==diag

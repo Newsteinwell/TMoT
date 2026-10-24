@@ -6,7 +6,7 @@ from scipy.linalg import cho_factor,cho_solve,solve_triangular
 from tmot.fecam import unit_rows
 from tmot.unit_ball_moments import bound_statistics
 from tmot.class_distance_completion import statistics,block_features
-root=Path(sys.argv[1]);folder=root/'runs/bounded_completion_v63';torch.set_num_threads(1)
+root=Path(sys.argv[1]);folder=root/'runs/bounded_completion_v63_retry';torch.set_num_threads(1)
 terminal=json.loads((folder/'complete.json').read_text());assert len(terminal)==6 and all(r['status']=='completed' for r in terminal)
 rows=[];max_cov_error=0.;controls=0;geometry=[]
 for path in sorted((folder/'_shared').glob('*.pt')):

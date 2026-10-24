@@ -2,7 +2,7 @@
 import concurrent.futures,json,os,shutil,subprocess,sys
 from pathlib import Path
 root=Path(sys.argv[1]);assert shutil.disk_usage(root).free>2*1024**3
-folder=root/'runs/bounded_completion_v63';folder.mkdir(exist_ok=False)
+folder=root/'runs/bounded_completion_v63_retry';folder.mkdir(exist_ok=False)
 env={**os.environ,'OPENBLAS_NUM_THREADS':'1','OMP_NUM_THREADS':'1','MKL_NUM_THREADS':'1','CUBLAS_WORKSPACE_CONFIG':':4096:8'}
 jobs=[]
 for d in ('phonemespectra','lsst','handwriting'):
