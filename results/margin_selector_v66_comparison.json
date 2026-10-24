@@ -1,0 +1,1461 @@
+{
+  "complete": true,
+  "final_states": 36,
+  "rows": [
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.32692307692307687,
+        "rescue": 0.0,
+        "harm": 0.0,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.25,
+        "reference_accuracy": 0.32692307692307687,
+        "candidate_accuracy": 0.32692307692307687,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.019230769230769232,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.42307692307692313,
+        "reference_accuracy": 0.3269230769230769,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "weighted_selection_rate": 0.6153846153846154,
+      "source_sha256": "5a5c4d8755558bd569eb61074de2e9f5be48b89ff079b64ddfb22e52ffa5b9b4",
+      "model_sha256": "00c7d30b26e4fa2e53e365fdc6f74aae2dc5833e18d0aabd4138cbb628040c4a",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "a628288613b9b7d0224d7adef74b7fae8b483abd9d58ff35fb6be0c74eb9b02d"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.32692307692307687,
+        "rescue": 0.0,
+        "harm": 0.0,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.21153846153846154,
+        "reference_accuracy": 0.32692307692307687,
+        "candidate_accuracy": 0.32692307692307687,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "ungated": {
+        "both_correct": 0.2692307692307693,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.423076923076923,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2692307692307693,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "weighted_selection_rate": 0.673076923076923,
+      "source_sha256": "b4d1df11870e84054bbb30f0efd24d568607712d981319a8e1d796097e55519f",
+      "model_sha256": "4706f30726808a325c8d0c792407242903d210730c61df41e263af54a22c1f63",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "7e386f210487899fde9f480ba4a2063c1bf41c897898bb673dd67195407f5cb8"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.3653846153846154,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.40384615384615385,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "weighted_selection_rate": 0.6346153846153847,
+      "source_sha256": "a1162a2cfa44b87d805555f8788f0aea865b7133883edb4a76c30878626eabaf",
+      "model_sha256": "f05c62ba8b250a828b568509015ebd765b6225f6054fdbbe12530ad0fc522139",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "a3f31dce089efa39386cafb866b08b09f814e6496caa54154794a8a1eea14e8d"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.21153846153846156,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.3653846153846154,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "weighted_selection_rate": 0.576923076923077,
+      "source_sha256": "0bf9271cb3a347c6e72a22be9ddc3b7f578953044396d908402d897a1b24cd63",
+      "model_sha256": "6195428b6c1d3a6ecf68efdcd8ba20232e8a19e83d60eddd6ba07fe21e6b897b",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "794821f8b961ed54f6ca6f93550d2b69baa58cb2886b7b0da121820dbc217bf1"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.326923076923077,
+        "rescue": 0.0,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.23076923076923078,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.326923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6346153846153847,
+        "disagree": 0.4423076923076923,
+        "reference_accuracy": 0.3653846153846154,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.3653846153846153
+      },
+      "weighted_selection_rate": 0.576923076923077,
+      "source_sha256": "fa2b6e2949621cd052b3c22b9213fc26f5f47b13462f80dca005c7442806658e",
+      "model_sha256": "d6643aeb63c4c9fe4d96139b659d92aef0b3195a8aee9bcc574005dee420fc82",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "fc19b84957caaf4ca6d0c9d57ff6f2b52abb5d80275db3c0e06dc3c7595b7719"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 0.5,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.019230769230769232,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.23076923076923078,
+        "reference_accuracy": 0.3269230769230769,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.0,
+        "harm": 0.019230769230769232,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.3846153846153846,
+        "reference_accuracy": 0.3269230769230769,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "weighted_selection_rate": 0.5576923076923077,
+      "source_sha256": "5e507027a2a24d11baf5a402a99da9d84abdef9d01bb0084fa5ac3618325940c",
+      "model_sha256": "fc8059f9f0570b8d41f9a41f1b014da3cf6df206fac690a2c997ae74b192597f",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "8c9333d37a90d81c40f1d82b0ec2dcfc0fe7ca98ae365e24fd71c25b033d6606"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.019230769230769232,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.653846153846154,
+        "disagree": 0.21153846153846156,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.34615384615384603
+      },
+      "ungated": {
+        "both_correct": 0.25,
+        "rescue": 0.019230769230769232,
+        "harm": 0.07692307692307693,
+        "both_wrong": 0.653846153846154,
+        "disagree": 0.40384615384615385,
+        "reference_accuracy": 0.3269230769230769,
+        "candidate_accuracy": 0.2692307692307692,
+        "label_oracle_selector_accuracy": 0.34615384615384603
+      },
+      "weighted_selection_rate": 0.4807692307692307,
+      "source_sha256": "d93bd0b9214002661f16ee89cee83a84eaa4b40a8fbcb65d7124058615646441",
+      "model_sha256": "d0b5301ff83b893324d75adca592b6e13684e758f4ddf686c7f985741b513e82",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "fa553fa70b6fcd53a4bd4c5a774dc4d49aafafbe4dce5149467ff9815e4d662d"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.0,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.23076923076923078,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2884615384615385,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "ungated": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.019230769230769232,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.653846153846154,
+        "disagree": 0.2692307692307693,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.34615384615384603
+      },
+      "weighted_selection_rate": 0.6538461538461539,
+      "source_sha256": "2105389e7df4321008d35f2691f24c5bbcf909345f0bc6cad29fa8bf47aabd17",
+      "model_sha256": "ce5440cbe716513ea75a3d32776e12d3dd5f37d19e970641a5b65163fa500e67",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "defa306fee8efe6df75594bc6b4408834231a64381274c5fbf560cf18bf2d5a6"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.326923076923077,
+        "rescue": 0.0,
+        "harm": 0.0,
+        "both_wrong": 0.673076923076923,
+        "disagree": 0.23076923076923078,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.326923076923077,
+        "label_oracle_selector_accuracy": 0.326923076923077
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.019230769230769232,
+        "harm": 0.019230769230769232,
+        "both_wrong": 0.6538461538461539,
+        "disagree": 0.28846153846153844,
+        "reference_accuracy": 0.3269230769230769,
+        "candidate_accuracy": 0.3269230769230769,
+        "label_oracle_selector_accuracy": 0.34615384615384615
+      },
+      "weighted_selection_rate": 0.7307692307692307,
+      "source_sha256": "ff7509a55fb7ebb8e645df47cac2d3c732a287d7d19bf7c6be1701c1a49a48dc",
+      "model_sha256": "1564286f8e222a8078096bf2e85c4dc0164287c8edf385f278127ccbaca7fae6",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "047163f089805d5480042710e35a7a448ba37fdc58385c11586005b19dc19fab"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.0,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.25,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2884615384615385,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "ungated": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.0,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.6730769230769231,
+        "disagree": 0.2884615384615385,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2884615384615385,
+        "label_oracle_selector_accuracy": 0.32692307692307687
+      },
+      "weighted_selection_rate": 0.7307692307692307,
+      "source_sha256": "d36d72363403291673e44adb4af4d1c8af8a50dc84a54f2649edaadbd49b0c54",
+      "model_sha256": "3c72f3b659adb67d4e294e4ce63574c923e4ec1ffc6e4be26192039081dd3d8d",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "125904d98d20259194e4b65be2b89007c122e79498602dc7b0b92cf8982ba4e2"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.326923076923077,
+        "rescue": 0.0,
+        "harm": 0.0,
+        "both_wrong": 0.673076923076923,
+        "disagree": 0.23076923076923078,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.326923076923077,
+        "label_oracle_selector_accuracy": 0.326923076923077
+      },
+      "ungated": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.0,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.673076923076923,
+        "disagree": 0.3846153846153846,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2884615384615385,
+        "label_oracle_selector_accuracy": 0.326923076923077
+      },
+      "weighted_selection_rate": 0.7115384615384616,
+      "source_sha256": "33edf4399ce0f22ddbe76810e9230fc3887f3459bd549154f8e9ee59594858a9",
+      "model_sha256": "968af90a6dde7d720c99da3e4333dbeca189cca4d4f26b72ca682b671e1df01e",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "141becfd726787ed29244b45d6068e17ea22133a2e746e54a6ea80ac1c42481a"
+    },
+    {
+      "config": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.2884615384615385,
+        "rescue": 0.019230769230769232,
+        "harm": 0.038461538461538464,
+        "both_wrong": 0.6538461538461539,
+        "disagree": 0.21153846153846156,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.3076923076923077,
+        "label_oracle_selector_accuracy": 0.34615384615384615
+      },
+      "ungated": {
+        "both_correct": 0.2692307692307693,
+        "rescue": 0.019230769230769232,
+        "harm": 0.057692307692307696,
+        "both_wrong": 0.6538461538461539,
+        "disagree": 0.3653846153846153,
+        "reference_accuracy": 0.326923076923077,
+        "candidate_accuracy": 0.2884615384615385,
+        "label_oracle_selector_accuracy": 0.34615384615384615
+      },
+      "weighted_selection_rate": 0.6730769230769231,
+      "source_sha256": "98c25d4eea027d76cea7f232c732d60e8712dfa9e463f9a16649ae7ee4ae275b",
+      "model_sha256": "9a12f10b81b9c51fe06ada88737599781b44de61d7e0dd3ae25ad48def44ab96",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "8473501997e6d56a1a2269f1b4c694ea03a196fcfa6fca14dc3aac1cd2d67f46"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.5949714806039084,
+        "rescue": 0.026111347779429268,
+        "harm": 0.025661703887510344,
+        "both_wrong": 0.35325546772915195,
+        "disagree": 0.09790450934338885,
+        "reference_accuracy": 0.6206331844914187,
+        "candidate_accuracy": 0.6210828283833376,
+        "label_oracle_selector_accuracy": 0.646744532270848
+      },
+      "ungated": {
+        "both_correct": 0.5823188813638728,
+        "rescue": 0.034058635353202416,
+        "harm": 0.03831430312754592,
+        "both_wrong": 0.3453081801553788,
+        "disagree": 0.14267571154243483,
+        "reference_accuracy": 0.6206331844914187,
+        "candidate_accuracy": 0.6163775167170752,
+        "label_oracle_selector_accuracy": 0.6546918198446212
+      },
+      "weighted_selection_rate": 0.8167638734277105,
+      "source_sha256": "cabb14d496b084b40a68ec712edf06c3cdfd42df62a5080dcd5102eac6fa5e22",
+      "model_sha256": "f5d89779ce22f978b3ca8c187052a5a1d6c28e9a996791b74f7a3fa00205530e",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "b6d1002e20c3f393aaab199cad9a7a3d469d97c253adad878a68fec4cd48b63c"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.5954686481851167,
+        "rescue": 0.023709363013267933,
+        "harm": 0.04626668684393642,
+        "both_wrong": 0.3345553019576789,
+        "disagree": 0.12204861650956728,
+        "reference_accuracy": 0.6417353350290531,
+        "candidate_accuracy": 0.6191780111983847,
+        "label_oracle_selector_accuracy": 0.6654446980423211
+      },
+      "ungated": {
+        "both_correct": 0.5740633203493984,
+        "rescue": 0.026243925225249494,
+        "harm": 0.06767201467965472,
+        "both_wrong": 0.3320207397456973,
+        "disagree": 0.17015982194250445,
+        "reference_accuracy": 0.6417353350290531,
+        "candidate_accuracy": 0.600307245574648,
+        "label_oracle_selector_accuracy": 0.6679792602543027
+      },
+      "weighted_selection_rate": 0.7754468712448339,
+      "source_sha256": "d31cfa4681b2c74d27ff0b3cad4559daae5396f561d54bd95e2161eba9a52f8a",
+      "model_sha256": "5bd69b92c9e99bd389c8c660945bea6d6ba9b5959775b1dfa1d0170cfeafc777",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "06df7705bcffc90ebdf518ae4396d83c8409629f8d955a4bb445c3800ab80d9e"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.601814036746125,
+        "rescue": 0.02613167188718971,
+        "harm": 0.018819147745293755,
+        "both_wrong": 0.3532351436213915,
+        "disagree": 0.08595858097131442,
+        "reference_accuracy": 0.6206331844914188,
+        "candidate_accuracy": 0.6279457086333147,
+        "label_oracle_selector_accuracy": 0.6467648563786085
+      },
+      "ungated": {
+        "both_correct": 0.5816539470401948,
+        "rescue": 0.03384854471441909,
+        "harm": 0.03897923745122387,
+        "both_wrong": 0.3455182707941622,
+        "disagree": 0.13894670851377136,
+        "reference_accuracy": 0.6206331844914187,
+        "candidate_accuracy": 0.6155024917546139,
+        "label_oracle_selector_accuracy": 0.6544817292058378
+      },
+      "weighted_selection_rate": 0.7768459092313083,
+      "source_sha256": "c7e93b3fe2f672149d7f31da790d37c58b045d8fa0623ca0b9deed39ed0f2b76",
+      "model_sha256": "08d30ccb1525b84e03d9ee7c494d139e4a2098edcd5119ebf519908aa8a61c1d",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "e032002601eb0ba3e5d5ad3f3609cbafad360745e955753b1352e38b7c436800"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.6218853067325054,
+        "rescue": 0.012035015855049814,
+        "harm": 0.019850028296547816,
+        "both_wrong": 0.34622964911589693,
+        "disagree": 0.07122921723940401,
+        "reference_accuracy": 0.6417353350290532,
+        "candidate_accuracy": 0.6339203225875553,
+        "label_oracle_selector_accuracy": 0.6537703508841031
+      },
+      "ungated": {
+        "both_correct": 0.5724452518807357,
+        "rescue": 0.022538088051670395,
+        "harm": 0.06929008314831743,
+        "both_wrong": 0.3357265769192764,
+        "disagree": 0.17411841915237503,
+        "reference_accuracy": 0.6417353350290531,
+        "candidate_accuracy": 0.594983339932406,
+        "label_oracle_selector_accuracy": 0.6642734230807237
+      },
+      "weighted_selection_rate": 0.7493079006449124,
+      "source_sha256": "ac3b7dcca678e162f5095816857a355a1a9633e9261175595b484736be6794e3",
+      "model_sha256": "d0361e118e4d1acb5184cc79b0ffd984ffa490916178e04ce29fc7de9ebaded8",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "4e823cb1e4f55ce2949471bbcc6713ba661d7a498f605fd3138a4c3709930156"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.6025023269505443,
+        "rescue": 0.013900679117147709,
+        "harm": 0.01813085754087452,
+        "both_wrong": 0.36546613639143355,
+        "disagree": 0.09871328445182437,
+        "reference_accuracy": 0.6206331844914188,
+        "candidate_accuracy": 0.616403006067692,
+        "label_oracle_selector_accuracy": 0.6345338636085665
+      },
+      "ungated": {
+        "both_correct": 0.5731052455373338,
+        "rescue": 0.037803177298083926,
+        "harm": 0.04752793895408497,
+        "both_wrong": 0.3415636382104973,
+        "disagree": 0.19258202889357393,
+        "reference_accuracy": 0.6206331844914188,
+        "candidate_accuracy": 0.6109084228354177,
+        "label_oracle_selector_accuracy": 0.6584363617895027
+      },
+      "weighted_selection_rate": 0.7638111511201495,
+      "source_sha256": "d77ef82e0870ea042125ae00b9553b202a1deb4538bbc65c35fedd4c7b7f7681",
+      "model_sha256": "037b0dbbd9db458e2a4ae604bfd31ee1d6e0431c76282a14a14423ff8374cc8c",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "ba3b092b70efa2a7371494beecf7c4e06cb208c8237bc28577b4a5a957baa923"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.6156995569983685,
+        "rescue": 0.03423459047397927,
+        "harm": 0.02603577803068465,
+        "both_wrong": 0.3240300744969675,
+        "disagree": 0.10460188588371949,
+        "reference_accuracy": 0.6417353350290532,
+        "candidate_accuracy": 0.6499341474723478,
+        "label_oracle_selector_accuracy": 0.6759699255030325
+      },
+      "ungated": {
+        "both_correct": 0.5746675414756908,
+        "rescue": 0.04237591151852612,
+        "harm": 0.0670677935533623,
+        "both_wrong": 0.3158887534524207,
+        "disagree": 0.17915520466454254,
+        "reference_accuracy": 0.6417353350290531,
+        "candidate_accuracy": 0.6170434529942169,
+        "label_oracle_selector_accuracy": 0.6841112465475794
+      },
+      "weighted_selection_rate": 0.7790707382600423,
+      "source_sha256": "d17fa72deb15edab48b10dcb05f5592db13e755fa679e39bc9053f8dd5fdab6c",
+      "model_sha256": "801a7e2674938eaaae8c9455922b615ab057da48e54ebd86d0e70c45ea5ee268",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "85350bee89e7b1ffc00b4fd4bce45d7f9802e39f748fac73d27303c0095513c7"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.35815505471702413,
+        "rescue": 0.020826932923707114,
+        "harm": 0.030214649527043412,
+        "both_wrong": 0.5908033628322255,
+        "disagree": 0.12234745776766151,
+        "reference_accuracy": 0.3883697042440675,
+        "candidate_accuracy": 0.37898198764073127,
+        "label_oracle_selector_accuracy": 0.40919663716777455
+      },
+      "ungated": {
+        "both_correct": 0.3333020395626507,
+        "rescue": 0.03572394247266914,
+        "harm": 0.055067664681416814,
+        "both_wrong": 0.5759063532832635,
+        "disagree": 0.2508089133089133,
+        "reference_accuracy": 0.3883697042440675,
+        "candidate_accuracy": 0.36902598203531983,
+        "label_oracle_selector_accuracy": 0.42409364671673655
+      },
+      "weighted_selection_rate": 0.696309330328855,
+      "source_sha256": "4ba6a3c9baf87629ee2784cfa58155abaff02e976359f3a6816b72e4fec84af4",
+      "model_sha256": "ff8959986a17d7a18fad9dec90838a6bc0f17f308b6c273b4f56a11f1d3dc31f",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "71604ebf15c6d47f6af324bcc5099185fec3d9c38885b45d146fee8d4f205577"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.36810555821591473,
+        "rescue": 0.04308014660306682,
+        "harm": 0.020264146028152817,
+        "both_wrong": 0.5685501491528657,
+        "disagree": 0.1295465279548471,
+        "reference_accuracy": 0.3883697042440675,
+        "candidate_accuracy": 0.41118570481898153,
+        "label_oracle_selector_accuracy": 0.4314498508471343
+      },
+      "ungated": {
+        "both_correct": 0.343631402396258,
+        "rescue": 0.06078053556831148,
+        "harm": 0.04473830184780949,
+        "both_wrong": 0.5508497601876211,
+        "disagree": 0.23654026678220227,
+        "reference_accuracy": 0.38836970424406747,
+        "candidate_accuracy": 0.4044119379645695,
+        "label_oracle_selector_accuracy": 0.4491502398123789
+      },
+      "weighted_selection_rate": 0.7601173287506054,
+      "source_sha256": "9c6a6a363feb54bc5d5e9d385946efb0a85c6d7b75412e236ef27236ec968534",
+      "model_sha256": "9249e8711c05a37516887c353655bee71dccde7acf283b0600d05304273c93f1",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "1cae4d50cb42367f3fad58967779c3ce136bfdba382b3534572c52cbdc201fcb"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.3665683370267411,
+        "rescue": 0.019405031395693537,
+        "harm": 0.021801367217326468,
+        "both_wrong": 0.592225264360239,
+        "disagree": 0.14711890872756744,
+        "reference_accuracy": 0.3883697042440675,
+        "candidate_accuracy": 0.3859733684224346,
+        "label_oracle_selector_accuracy": 0.40777473563976097
+      },
+      "ungated": {
+        "both_correct": 0.33170519350485383,
+        "rescue": 0.03501563047403456,
+        "harm": 0.05666451073921363,
+        "both_wrong": 0.576614665281898,
+        "disagree": 0.25183196825811427,
+        "reference_accuracy": 0.38836970424406747,
+        "candidate_accuracy": 0.3667208239788884,
+        "label_oracle_selector_accuracy": 0.423385334718102
+      },
+      "weighted_selection_rate": 0.7360698669060299,
+      "source_sha256": "a8ab7e634304d933e969d741587b6a18027e5ceb789e942b8f5e02d842529be6",
+      "model_sha256": "e16709decc6a4a4afe9e284d9365bf5c80c522d956f5b483fd1899063961d2dd",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "4947c1a92b91b733869b7f8900da004222e5566f6f3d7f72408a36b3c7ab6a0a"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.44090707365325366,
+        "rescue": 0.02916748723200336,
+        "harm": 0.03825457460856442,
+        "both_wrong": 0.4916708645061786,
+        "disagree": 0.12072642662625685,
+        "reference_accuracy": 0.47916164826181806,
+        "candidate_accuracy": 0.470074560885257,
+        "label_oracle_selector_accuracy": 0.5083291354938214
+      },
+      "ungated": {
+        "both_correct": 0.3805891641842406,
+        "rescue": 0.042949702627121986,
+        "harm": 0.09857248407757745,
+        "both_wrong": 0.47788864911105994,
+        "disagree": 0.23299331697039677,
+        "reference_accuracy": 0.47916164826181806,
+        "candidate_accuracy": 0.4235388668113626,
+        "label_oracle_selector_accuracy": 0.5221113508889401
+      },
+      "weighted_selection_rate": 0.6487692210951972,
+      "source_sha256": "907df07df2c32c01835d66ab93aab0519ecde559dd703520164d5934b130ed96",
+      "model_sha256": "44acd21c9b8f4f60026e55a3a1e2fb9ec20e7b5cbd3986f4e4bccd9984675119",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "d153d825aab2d41d61b12123e2b526705753b8c33c07d0732e1491364663daa9"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.4351708468856177,
+        "rescue": 0.0231694828469022,
+        "harm": 0.04399080137620036,
+        "both_wrong": 0.4976688688912797,
+        "disagree": 0.14106026888284956,
+        "reference_accuracy": 0.47916164826181806,
+        "candidate_accuracy": 0.45834032973251987,
+        "label_oracle_selector_accuracy": 0.5023311311087203
+      },
+      "ungated": {
+        "both_correct": 0.3871183680181982,
+        "rescue": 0.03223246287762417,
+        "harm": 0.0920432802436198,
+        "both_wrong": 0.4886058888605578,
+        "disagree": 0.20913659769771825,
+        "reference_accuracy": 0.479161648261818,
+        "candidate_accuracy": 0.41935083089582237,
+        "label_oracle_selector_accuracy": 0.5113941111394422
+      },
+      "weighted_selection_rate": 0.626718203352329,
+      "source_sha256": "b4f6d8088fc6d42f48a2b66b40e613859c949eaafa8eadf32260e1b0060dcd61",
+      "model_sha256": "32b14858c58db52fb6d2b1546694961ed71f2e90f76573b99a620200ff911489",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "ec0b218ef9a2c8de676bb9c09a83848a60a3f75cf12553078ab7bb0877d47bd5"
+    },
+    {
+      "config": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.4397549999205348,
+        "rescue": 0.023016995894754803,
+        "harm": 0.03940664834128332,
+        "both_wrong": 0.4978213558434273,
+        "disagree": 0.09495014590515441,
+        "reference_accuracy": 0.4791616482618181,
+        "candidate_accuracy": 0.4627719958152896,
+        "label_oracle_selector_accuracy": 0.5021786441565728
+      },
+      "ungated": {
+        "both_correct": 0.39018674685058385,
+        "rescue": 0.044058398684884266,
+        "harm": 0.08897490141123417,
+        "both_wrong": 0.47677995305329773,
+        "disagree": 0.21716753974818498,
+        "reference_accuracy": 0.479161648261818,
+        "candidate_accuracy": 0.4342451455354681,
+        "label_oracle_selector_accuracy": 0.5232200469467023
+      },
+      "weighted_selection_rate": 0.6328873344790154,
+      "source_sha256": "9dff477c3417db2ff0c642a178900943f9adb1662c648b1fecfd903c5257d96e",
+      "model_sha256": "f47c08b3711011602b0f3950611662b31656a47ffc4c052f4d991b801a94f5b0",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "327b7c28eb835b22d8ac5e14a6eb5c47289f676ce73d66ab9a5ed93160c89f3e"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.3212669683257919,
+        "rescue": 0.03921568627450981,
+        "harm": 0.03469079939668176,
+        "both_wrong": 0.6048265460030167,
+        "disagree": 0.1704374057315234,
+        "reference_accuracy": 0.3559577677224736,
+        "candidate_accuracy": 0.3604826546003017,
+        "label_oracle_selector_accuracy": 0.39517345399698334
+      },
+      "ungated": {
+        "both_correct": 0.2986425339366516,
+        "rescue": 0.06485671191553544,
+        "harm": 0.05731523378582203,
+        "both_wrong": 0.579185520361991,
+        "disagree": 0.2790346907993967,
+        "reference_accuracy": 0.3559577677224736,
+        "candidate_accuracy": 0.363499245852187,
+        "label_oracle_selector_accuracy": 0.420814479638009
+      },
+      "weighted_selection_rate": 0.6832579185520363,
+      "source_sha256": "b1dce91442a2a1607ab39ec207bc537d458653985b5ca358c545c90959e21849",
+      "model_sha256": "cfff13ea9fe4ea5742ea6e5c00c071427066a1adb4f14b15d676cd09106ef06b",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "94271ee5787ec85676863c2c3e334b1096ba762cc7b1931d46d7839851c90ef3"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.330316742081448,
+        "rescue": 0.03921568627450981,
+        "harm": 0.025641025641025644,
+        "both_wrong": 0.6048265460030167,
+        "disagree": 0.15384615384615383,
+        "reference_accuracy": 0.3559577677224737,
+        "candidate_accuracy": 0.36953242835595784,
+        "label_oracle_selector_accuracy": 0.39517345399698334
+      },
+      "ungated": {
+        "both_correct": 0.3076923076923077,
+        "rescue": 0.055806938159879346,
+        "harm": 0.048265460030165915,
+        "both_wrong": 0.5882352941176471,
+        "disagree": 0.248868778280543,
+        "reference_accuracy": 0.3559577677224736,
+        "candidate_accuracy": 0.36349924585218707,
+        "label_oracle_selector_accuracy": 0.4117647058823529
+      },
+      "weighted_selection_rate": 0.656108597285068,
+      "source_sha256": "d707a0efb0bd4f34ad235ab593bc2443d171434f2e99322668a967577d445886",
+      "model_sha256": "a9a70bd95573070cdf475d6a6c038151d80a2abae23401bbe510c1b547d9968e",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "a6468593210dd4c8d679d41c26dcd3265ca1a5f4c7b69d988fd357a739ffadec"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.330316742081448,
+        "rescue": 0.037707390648567124,
+        "harm": 0.025641025641025644,
+        "both_wrong": 0.6063348416289593,
+        "disagree": 0.13876319758672698,
+        "reference_accuracy": 0.3559577677224737,
+        "candidate_accuracy": 0.3680241327300151,
+        "label_oracle_selector_accuracy": 0.39366515837104066
+      },
+      "ungated": {
+        "both_correct": 0.3092006033182504,
+        "rescue": 0.05882352941176472,
+        "harm": 0.04675716440422324,
+        "both_wrong": 0.5852187028657617,
+        "disagree": 0.2549019607843137,
+        "reference_accuracy": 0.3559577677224736,
+        "candidate_accuracy": 0.3680241327300151,
+        "label_oracle_selector_accuracy": 0.4147812971342383
+      },
+      "weighted_selection_rate": 0.6651583710407241,
+      "source_sha256": "4910a84784d08319fb072feaf2773ace1e2a59142a1f39831346cffcf8dc9a23",
+      "model_sha256": "36c8c40b8af8b5d71b496daebfcaa2544058a55794f682b724a8d978793cefc1",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "786ba1f386ef553bae540693e558a00ec97296d2c4e24a478f510041f60955df"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.33484162895927605,
+        "rescue": 0.03469079939668176,
+        "harm": 0.025641025641025644,
+        "both_wrong": 0.6048265460030167,
+        "disagree": 0.12669683257918551,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.3695324283559578,
+        "label_oracle_selector_accuracy": 0.39517345399698334
+      },
+      "ungated": {
+        "both_correct": 0.30618401206636503,
+        "rescue": 0.0497737556561086,
+        "harm": 0.05429864253393666,
+        "both_wrong": 0.5897435897435898,
+        "disagree": 0.23378582202111614,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.3559577677224736,
+        "label_oracle_selector_accuracy": 0.41025641025641024
+      },
+      "weighted_selection_rate": 0.631975867269985,
+      "source_sha256": "9967dd197b901efcd8868962dd1bfde6760e2ca472e3da2c8859dcd6d2dd23ab",
+      "model_sha256": "f3293691eb7c5e87415b7a1f213f0dff03d802654c1a267d5ecabc958646bf96",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "207f9f035a615988477ca19ae2ccbb68fa62c89f79c45d4f4171bc5d75102036"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.33634992458521873,
+        "rescue": 0.03619909502262444,
+        "harm": 0.024132730015082957,
+        "both_wrong": 0.603318250377074,
+        "disagree": 0.1282051282051282,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.37254901960784315,
+        "label_oracle_selector_accuracy": 0.396681749622926
+      },
+      "ungated": {
+        "both_correct": 0.30316742081447967,
+        "rescue": 0.05882352941176472,
+        "harm": 0.05731523378582203,
+        "both_wrong": 0.5806938159879337,
+        "disagree": 0.25942684766214175,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.3619909502262444,
+        "label_oracle_selector_accuracy": 0.4193061840120663
+      },
+      "weighted_selection_rate": 0.6425339366515839,
+      "source_sha256": "00cbbbadc3008f896ebb1c3a8ad293aba892484f6e44df374a9ed7c4eca42260",
+      "model_sha256": "f83ff137f5e214bda606c685047589ee6c92f14f4dd8b7cbce29de768cf34bec",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "2e32babce4f497ed9f8853396106e89ad124559ba4deb23a84c9de905d4bb05c"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 10.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.330316742081448,
+        "rescue": 0.04223227752639518,
+        "harm": 0.030165912518853703,
+        "both_wrong": 0.5972850678733033,
+        "disagree": 0.15082956259426847,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.3725490196078432,
+        "label_oracle_selector_accuracy": 0.40271493212669673
+      },
+      "ungated": {
+        "both_correct": 0.301659125188537,
+        "rescue": 0.05731523378582203,
+        "harm": 0.05882352941176472,
+        "both_wrong": 0.5822021116138764,
+        "disagree": 0.2669683257918552,
+        "reference_accuracy": 0.3604826546003017,
+        "candidate_accuracy": 0.35897435897435903,
+        "label_oracle_selector_accuracy": 0.41779788838612364
+      },
+      "weighted_selection_rate": 0.636500754147813,
+      "source_sha256": "9aaeb98579f2ed4820b2eae026b8fde6185c8ddd568ce1c01a28608efce1e018",
+      "model_sha256": "07157164e4770c215a5e262173a6b63650b590a7f2b585d870bc586c3f1867db",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "33128fedc6bc28b6a2644d72d447400cab7389d3d8e9988c3776504c8d569410"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.08898944193061839,
+        "rescue": 0.02111613876319759,
+        "harm": 0.025641025641025644,
+        "both_wrong": 0.8642533936651584,
+        "disagree": 0.2730015082956259,
+        "reference_accuracy": 0.11463046757164404,
+        "candidate_accuracy": 0.11010558069381599,
+        "label_oracle_selector_accuracy": 0.1357466063348416
+      },
+      "ungated": {
+        "both_correct": 0.05882352941176472,
+        "rescue": 0.03921568627450981,
+        "harm": 0.055806938159879346,
+        "both_wrong": 0.8461538461538461,
+        "disagree": 0.497737556561086,
+        "reference_accuracy": 0.11463046757164407,
+        "candidate_accuracy": 0.09803921568627452,
+        "label_oracle_selector_accuracy": 0.15384615384615385
+      },
+      "weighted_selection_rate": 0.5565610859728507,
+      "source_sha256": "e87dce60ed29a4dac20c7428c417c67e28ce0b741b96067d9fc4c2e7e4825ba2",
+      "model_sha256": "f64a4f9ffc65ca1b27f3c80aa0b3864b358de861f28a9ab31a109bfbc7858989",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "ba84bf1edf5fe0e8e3b2e5871c179ad7ab2b9df68bf27a694b6780f23bd585ae"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.09200603318250375,
+        "rescue": 0.028657616892911016,
+        "harm": 0.022624434389140278,
+        "both_wrong": 0.856711915535445,
+        "disagree": 0.28054298642533937,
+        "reference_accuracy": 0.11463046757164402,
+        "candidate_accuracy": 0.12066365007541477,
+        "label_oracle_selector_accuracy": 0.143288084464555
+      },
+      "ungated": {
+        "both_correct": 0.06636500754147812,
+        "rescue": 0.04223227752639518,
+        "harm": 0.048265460030165915,
+        "both_wrong": 0.8431372549019607,
+        "disagree": 0.5098039215686274,
+        "reference_accuracy": 0.11463046757164402,
+        "candidate_accuracy": 0.1085972850678733,
+        "label_oracle_selector_accuracy": 0.15686274509803932
+      },
+      "weighted_selection_rate": 0.5580693815987934,
+      "source_sha256": "07384add436178e822246f45f586d7f8dfb219b54fd38b8950588986c427cbf1",
+      "model_sha256": "a2742ef9bbb3900250767c8221c4718da5af57c681bb1308c7a54ce7eb746832",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "a34085a80699784210250c87a8a38c7043b60d270e859694389fcc8354e2d9fb"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 17,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.09653092006033183,
+        "rescue": 0.019607843137254905,
+        "harm": 0.01809954751131222,
+        "both_wrong": 0.8657616892911011,
+        "disagree": 0.2654600301659125,
+        "reference_accuracy": 0.11463046757164405,
+        "candidate_accuracy": 0.11613876319758673,
+        "label_oracle_selector_accuracy": 0.1342383107088989
+      },
+      "ungated": {
+        "both_correct": 0.07239819004524888,
+        "rescue": 0.04223227752639518,
+        "harm": 0.04223227752639518,
+        "both_wrong": 0.8431372549019607,
+        "disagree": 0.4962292609351433,
+        "reference_accuracy": 0.11463046757164405,
+        "candidate_accuracy": 0.11463046757164405,
+        "label_oracle_selector_accuracy": 0.15686274509803932
+      },
+      "weighted_selection_rate": 0.5535444947209653,
+      "source_sha256": "47c04834b840d21e4b3c17244d297cd3e8c083a61a37c4ab83f8cbe4fbb93602",
+      "model_sha256": "569e0305347a995335dd2d510cea778087377ea3f0b9f58cee0966038528f3d2",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "a5677d4d91e5da951b6f0babdaf8789ac7b29d396015547ff82b0f0dc7ac07df"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 42,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.09049773755656107,
+        "rescue": 0.03318250377073907,
+        "harm": 0.016591251885369532,
+        "both_wrong": 0.8597285067873304,
+        "disagree": 0.2790346907993967,
+        "reference_accuracy": 0.1070889894419306,
+        "candidate_accuracy": 0.12368024132730014,
+        "label_oracle_selector_accuracy": 0.14027149321266963
+      },
+      "ungated": {
+        "both_correct": 0.07088989441930615,
+        "rescue": 0.03921568627450981,
+        "harm": 0.03619909502262444,
+        "both_wrong": 0.8536953242835595,
+        "disagree": 0.49924585218702866,
+        "reference_accuracy": 0.1070889894419306,
+        "candidate_accuracy": 0.11010558069381596,
+        "label_oracle_selector_accuracy": 0.14630467571644046
+      },
+      "weighted_selection_rate": 0.5806938159879337,
+      "source_sha256": "74ac12ce3e8e02279a02432f313db3e1249fe87af2694a4c9c6906adbe273efd",
+      "model_sha256": "27e5971ea71f945ec1c9995e41205a771cbfc3a10f99ba5fd4a8e40e40699066",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "62bf2497b174a89779de5b646860edf87c99d665f753bcb6531255d738294845"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 43,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.09049773755656107,
+        "rescue": 0.030165912518853703,
+        "harm": 0.016591251885369532,
+        "both_wrong": 0.8627450980392157,
+        "disagree": 0.28054298642533937,
+        "reference_accuracy": 0.1070889894419306,
+        "candidate_accuracy": 0.12066365007541477,
+        "label_oracle_selector_accuracy": 0.13725490196078427
+      },
+      "ungated": {
+        "both_correct": 0.06184012066365008,
+        "rescue": 0.0497737556561086,
+        "harm": 0.045248868778280556,
+        "both_wrong": 0.8431372549019607,
+        "disagree": 0.5173453996983408,
+        "reference_accuracy": 0.10708898944193063,
+        "candidate_accuracy": 0.11161387631975868,
+        "label_oracle_selector_accuracy": 0.15686274509803932
+      },
+      "weighted_selection_rate": 0.555052790346908,
+      "source_sha256": "7e62181721b7618b5e081eefbae55dc142398bb9fff339ab21ffd68b76c68757",
+      "model_sha256": "3417ceb13a11f01eeb56e3496515a5606692efb43a7557194af9b866d1508dc9",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "e37d9fae124d9a5af1fdf0b6cef999b867081f3871bbd4510cc465a3b0c6663d"
+    },
+    {
+      "config": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "seed": 44,
+        "order": 23,
+        "mode": "bounded",
+        "parameter": 2.0,
+        "eval_split": "val"
+      },
+      "final_only": true,
+      "rule": "candidate relative margin > reference relative margin; tie uses reference",
+      "metrics": {
+        "both_correct": 0.09200603318250375,
+        "rescue": 0.022624434389140278,
+        "harm": 0.015082956259426848,
+        "both_wrong": 0.8702865761689291,
+        "disagree": 0.25339366515837103,
+        "reference_accuracy": 0.1070889894419306,
+        "candidate_accuracy": 0.11463046757164402,
+        "label_oracle_selector_accuracy": 0.12971342383107087
+      },
+      "ungated": {
+        "both_correct": 0.07390648567119155,
+        "rescue": 0.048265460030165915,
+        "harm": 0.03318250377073907,
+        "both_wrong": 0.8446455505279035,
+        "disagree": 0.4720965309200603,
+        "reference_accuracy": 0.10708898944193063,
+        "candidate_accuracy": 0.12217194570135748,
+        "label_oracle_selector_accuracy": 0.15535444947209653
+      },
+      "weighted_selection_rate": 0.5671191553544495,
+      "source_sha256": "3248c6a5dc5d03f3accb6f579d5f795e49252e34bbbbf22056c2059e38c894d3",
+      "model_sha256": "dba29a231c351129a771b99955c3ed75b11e21ccf0916ac0bd2f44f6aac95027",
+      "git_commit": "75f0563ff960f6f5dfc54fb6ee6a1196ea4e4cba",
+      "archive_sha256": "18d25910a054c47f9af7d8377d8ae373b6a138d50b2efc527fdcbd9632b810b6"
+    }
+  ],
+  "summary": [
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "n": 5,
+      "mean_gain_pp": -2.3076923076923075,
+      "min_gain_pp": -5.769230769230771,
+      "max_gain_pp": 0.0,
+      "wins": 0,
+      "at_least_1pp": 0,
+      "mean_rescue_pp": 0.0,
+      "mean_harm_pp": 2.3076923076923075,
+      "mean_ungated_gain_pp": -4.230769230769232
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "n": 5,
+      "mean_gain_pp": -1.5384615384615408,
+      "min_gain_pp": -3.8461538461538494,
+      "max_gain_pp": 0.0,
+      "wins": 0,
+      "at_least_1pp": 0,
+      "mean_rescue_pp": 0.7692307692307693,
+      "mean_harm_pp": 2.3076923076923075,
+      "mean_ungated_gain_pp": -3.0769230769230793
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "n": 5,
+      "mean_gain_pp": -0.5190811672135931,
+      "min_gain_pp": -2.255732383066844,
+      "max_gain_pp": 0.8198812443294567,
+      "wins": 2,
+      "at_least_1pp": 0,
+      "mean_rescue_pp": 2.19981992477748,
+      "mean_harm_pp": 2.718901091991075,
+      "mean_ungated_gain_pp": -2.53704792032466
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "n": 5,
+      "mean_gain_pp": -0.6573954876162003,
+      "min_gain_pp": -2.0821318529298196,
+      "max_gain_pp": 2.281600057491401,
+      "wins": 1,
+      "at_least_1pp": 1,
+      "mean_rescue_pp": 2.785220910008686,
+      "mean_harm_pp": 3.4426163976248865,
+      "mean_ungated_gain_pp": -3.2730318006209336
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "n": 5,
+      "mean_gain_pp": 1.0256410256410253,
+      "min_gain_pp": 0.4524886877828094,
+      "max_gain_pp": 1.357466063348417,
+      "wins": 5,
+      "at_least_1pp": 3,
+      "mean_rescue_pp": 3.83107088989442,
+      "mean_harm_pp": 2.8054298642533944,
+      "mean_ungated_gain_pp": 0.21116138763197512
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "n": 5,
+      "mean_gain_pp": 0.9049773755656112,
+      "min_gain_pp": 0.15082956259426794,
+      "max_gain_pp": 1.6591251885369542,
+      "wins": 5,
+      "at_least_1pp": 2,
+      "mean_rescue_pp": 2.6847662141779796,
+      "mean_harm_pp": 1.7797888386123684,
+      "mean_ungated_gain_pp": 0.33182503770739086
+    }
+  ],
+  "checks": [
+    "independent sorted-margin rule",
+    "exact v64 predictions and identities",
+    "macro metrics",
+    "source archives"
+  ],
+  "note": "Final-state development diagnostic only; no full-stream or held-out claim."
+}
