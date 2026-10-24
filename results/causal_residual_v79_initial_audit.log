@@ -1,0 +1,50 @@
+air_quality_mantis_append_er10_p0.1 verified
+air_quality_mantis_append_er10_p1 verified
+air_quality_mantis_append_local_p0.1 verified
+air_quality_mantis_append_local_p1 verified
+air_quality_mantis_none_er10_p0.1 verified
+air_quality_mantis_none_er10_p1 verified
+air_quality_mantis_none_local_p0.1 verified
+air_quality_mantis_none_local_p1 verified
+air_quality_mantis_residual_er10_p0.1 verified
+air_quality_mantis_residual_er10_p1 verified
+air_quality_mantis_residual_local_p0.1 verified
+air_quality_mantis_residual_local_p1 verified
+air_quality_summary_append_er10_p0.1 verified
+air_quality_summary_append_er10_p1 verified
+air_quality_summary_append_local_p0.1 verified
+air_quality_summary_append_local_p1 verified
+air_quality_summary_none_er10_p0.1 verified
+air_quality_summary_none_er10_p1 verified
+air_quality_summary_none_local_p0.1 verified
+air_quality_summary_none_local_p1 verified
+air_quality_summary_residual_er10_p0.1 verified
+air_quality_summary_residual_er10_p1 verified
+air_quality_summary_residual_local_p0.1 verified
+air_quality_summary_residual_local_p1 verified
+beijing_pm25_mantis_append_er10_p0.1 verified
+beijing_pm25_mantis_append_er10_p1 verified
+beijing_pm25_mantis_append_local_p0.1 verified
+beijing_pm25_mantis_append_local_p1 verified
+beijing_pm25_mantis_none_er10_p0.1 verified
+beijing_pm25_mantis_none_er10_p1 verified
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TMoT/scripts/audit_causal_residual.py", line 50, in <module>
+    for j,g in enumerate(order):np.testing.assert_allclose(pred[v['groups']==g],p[f'pred_{j}'],rtol=1e-5,atol=1e-5)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1718, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 926, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-05, atol=1e-05
+
+Mismatched elements: 1 / 57 (1.75%)
+Max absolute difference among violations: 1.20300708e-05
+Max relative difference among violations: 9.77162171e-05
+ ACTUAL: array([[ 5.433097e+01],
+       [ 7.274523e+01],
+       [-2.100624e+01],...
+ DESIRED: array([[ 5.433098e+01],
+       [ 7.274521e+01],
+       [-2.100627e+01],...
