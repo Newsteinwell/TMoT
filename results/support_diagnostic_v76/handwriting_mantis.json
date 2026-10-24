@@ -1,0 +1,74 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "task": "classification",
+      "support": "current",
+      "source_sha256": "e734d4512904e22003a00764cc011785a6c2734143de470c572880be69ce0c93",
+      "support_sha256": "6a429fe86d16a0bfb1c05cbfc63c3f2f5c51fc7f275a593537fce573247fdd4f",
+      "historical_support": false,
+      "mean_max_probability": 0.08827724924673738,
+      "mean_entropy": 3.1640864782566624,
+      "normalized_entropy": 0.9711457107953257,
+      "teacher_nominal_agreement": 1.0,
+      "student_teacher_agreement": 1.0,
+      "nominal_classes": 2,
+      "teacher_predicted_classes": 2,
+      "seen_classes": 26,
+      "nominal_mean_probability": 0.08827724924673738,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.06724679216064902,
+        "mean_entropy": 3.1770310899325627,
+        "normalized_entropy": 0.9751187703793003
+      }
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "task": "classification",
+      "support": "local",
+      "source_sha256": "36fd9aea0118df55dbaef5ea6152d96818740883d1215f499c7b51ec88f0fb48",
+      "support_sha256": "8bd644c6d870de4757867fdb42330a169d3209ad565e4d6190a8cab183c06f77",
+      "historical_support": true,
+      "mean_max_probability": 0.08259383693043515,
+      "mean_entropy": 3.179221711748626,
+      "normalized_entropy": 0.9757911328432417,
+      "teacher_nominal_agreement": 1.0,
+      "student_teacher_agreement": 0.916748046875,
+      "nominal_classes": 24,
+      "teacher_predicted_classes": 24,
+      "seen_classes": 26,
+      "nominal_mean_probability": 0.08259383693043515,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.06724679216064902,
+        "mean_entropy": 3.1770310899325627,
+        "normalized_entropy": 0.9751187703793003
+      }
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "task": "classification",
+      "support": "er10",
+      "source_sha256": "611c83ef0b50c0a1dbd0f9393cb1aec692cf29e668ab7a4ccfc716da1416ef44",
+      "support_sha256": "2db63972254793f1f4f88360333be1881f464a258e2e8c7e24d772f937606333",
+      "historical_support": true,
+      "mean_max_probability": 0.08720405812449883,
+      "mean_entropy": 3.151924931981524,
+      "normalized_entropy": 0.9674129956553,
+      "teacher_nominal_agreement": 1.0,
+      "student_teacher_agreement": 1.0,
+      "nominal_classes": 5,
+      "teacher_predicted_classes": 5,
+      "seen_classes": 26,
+      "nominal_mean_probability": 0.08720405812449883,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.06724679216064902,
+        "mean_entropy": 3.1770310899325627,
+        "normalized_entropy": 0.9751187703793003
+      }
+    }
+  ]
+}

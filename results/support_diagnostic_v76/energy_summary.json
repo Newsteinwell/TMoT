@@ -1,0 +1,38 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "current",
+      "source_sha256": "692c608a34b66757b8ed59c550d84be85378a807b91fa41ae555ea481fc66e6b",
+      "support_sha256": "077170af2da0b46479f90463be24680ffae848f5a1e27c33444639e3ff1c56bb",
+      "historical_support": false,
+      "teacher_nominal_rmse": 31.76918799639966,
+      "student_teacher_rmse": 4.587280409605602
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "local",
+      "source_sha256": "0bacb7c39920cddf07d67da4031fe6cd69903329b968576045caff3570fc8b9d",
+      "support_sha256": "1c23b9ba321393f3e6f2db71b52617f38a2c937931b9a60d3e196ed227a64b6c",
+      "historical_support": true,
+      "teacher_nominal_rmse": 43.44651425017816,
+      "student_teacher_rmse": 5.274882132012598
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "er10",
+      "source_sha256": "85093ef7e10ccf50cfa7beda68ac773ab47ff69c40307062b986b0745de1d3ff",
+      "support_sha256": "a59c98805a8f17631f764dce3bbeb2bf4e7335859b8989cffa225e6f88ee6c8e",
+      "historical_support": true,
+      "teacher_nominal_rmse": 36.61423183419088,
+      "student_teacher_rmse": 0.5809116558806614
+    }
+  ]
+}

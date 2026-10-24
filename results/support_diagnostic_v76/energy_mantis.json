@@ -1,0 +1,38 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "current",
+      "source_sha256": "6a53d23abc79501bf4b07be79975dbf389d2c90794039ddadf561bb691d2b5c0",
+      "support_sha256": "abd34ede49230a687e26afb70100042149560a73a6d920c06e9a848b220ce5e9",
+      "historical_support": false,
+      "teacher_nominal_rmse": 26.353119656177764,
+      "student_teacher_rmse": 4.528461244839272
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "local",
+      "source_sha256": "dfe8a5cfc87b9159738480e9780908e1a7fa5ce407e942a610c8dbc068bf0109",
+      "support_sha256": "5b135c4aa8253b7fa95c49d7628368461116acd5dc4e09e77a3a52301c37f4f7",
+      "historical_support": true,
+      "teacher_nominal_rmse": 41.1669715732238,
+      "student_teacher_rmse": 7.338883107816089
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "er10",
+      "source_sha256": "9ec98641d4490a8c3f59eaef161dfd39e2d197ff393bf879e8e7378838b6e8ef",
+      "support_sha256": "b54f31112a8ce9ac0eb3115dab263debc4c5ce074618718edca6c0a17a22e22f",
+      "historical_support": true,
+      "teacher_nominal_rmse": 34.36302548041332,
+      "student_teacher_rmse": 2.040436730527713
+    }
+  ]
+}

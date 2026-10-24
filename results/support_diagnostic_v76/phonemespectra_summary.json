@@ -1,0 +1,74 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "task": "classification",
+      "support": "current",
+      "source_sha256": "12ea7fddfddb4a7b375b85b0b737ed80785a14275ec31e1b923611ba8d217d79",
+      "support_sha256": "112a687675d01c35f4b84f56761651bfcd397d543f8355344b1c656c6e0a52c9",
+      "historical_support": false,
+      "mean_max_probability": 0.03767102012053661,
+      "mean_entropy": 3.646093238438739,
+      "normalized_entropy": 0.9952318510296225,
+      "teacher_nominal_agreement": 0.66650390625,
+      "student_teacher_agreement": 0.66650390625,
+      "nominal_classes": 2,
+      "teacher_predicted_classes": 26,
+      "seen_classes": 39,
+      "nominal_mean_probability": 0.03640279296784167,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.03503361898050966,
+        "mean_entropy": 3.648651042992142,
+        "normalized_entropy": 0.9959300253202354
+      }
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "task": "classification",
+      "support": "local",
+      "source_sha256": "46fb9a294ff1d3ce41fed20a0af5d31de4fed80c92d6fb4481c261190de86122",
+      "support_sha256": "cfb0ccef8f37e59b477d2f46522bf046486cf4b05009b38c138c6c7115b89554",
+      "historical_support": true,
+      "mean_max_probability": 0.03443662098418696,
+      "mean_entropy": 3.65275158590248,
+      "normalized_entropy": 0.9970493030358623,
+      "teacher_nominal_agreement": 0.776123046875,
+      "student_teacher_agreement": 0.107666015625,
+      "nominal_classes": 37,
+      "teacher_predicted_classes": 39,
+      "seen_classes": 39,
+      "nominal_mean_probability": 0.034049762854368684,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.03503361898050966,
+        "mean_entropy": 3.648651042992142,
+        "normalized_entropy": 0.9959300253202354
+      }
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "task": "classification",
+      "support": "er10",
+      "source_sha256": "625add09249b90e5573a17574312d66841fbf400090cda176858e9df67b0d430",
+      "support_sha256": "62accbce51858c74a92f24f0dcb3f27576b4075127df08623b8c1280b520e34f",
+      "historical_support": true,
+      "mean_max_probability": 0.036963185866105135,
+      "mean_entropy": 3.6466484772448773,
+      "normalized_entropy": 0.995383408137096,
+      "teacher_nominal_agreement": 0.655029296875,
+      "student_teacher_agreement": 0.4423828125,
+      "nominal_classes": 37,
+      "teacher_predicted_classes": 39,
+      "seen_classes": 39,
+      "nominal_mean_probability": 0.03599894145479522,
+      "old_val_teacher_confidence": {
+        "mean_max_probability": 0.03503361898050966,
+        "mean_entropy": 3.648651042992142,
+        "normalized_entropy": 0.9959300253202354
+      }
+    }
+  ]
+}

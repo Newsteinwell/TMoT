@@ -1,0 +1,38 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "current",
+      "source_sha256": "eadfaa0122fb5905e6e6958d94675ed0c7e80f109e5f9cbd84dfbf63288a6420",
+      "support_sha256": "a203cb1efdbc200b0b9fb4595d835b4d144f00ec3cf1186042da61fa5fcdc023",
+      "historical_support": false,
+      "teacher_nominal_rmse": 0.2524047584079541,
+      "student_teacher_rmse": 0.05911165859842602
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "local",
+      "source_sha256": "bdfdc559eab4cad7a739ca4a37fd59d221a9c976790c1667d349e42f8882e717",
+      "support_sha256": "390b28fe7435a5949eb019d68200ddf15cb77ac571b393079285c3306f25508b",
+      "historical_support": true,
+      "teacher_nominal_rmse": 0.33327178156155235,
+      "student_teacher_rmse": 0.17287612733822658
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "task": "regression",
+      "support": "er10",
+      "source_sha256": "71fb0c7ca65a61ba546d4159f313a3d97b0636aef3e68c279e644e1e89496ecf",
+      "support_sha256": "d1f4324d3a449f5f1b695fe13bac78ae7edeeaf81f048e63b892fa0e3a4e5270",
+      "historical_support": true,
+      "teacher_nominal_rmse": 0.314361296495113,
+      "student_teacher_rmse": 0.07337463308998111
+    }
+  ]
+}

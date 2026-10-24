@@ -1,0 +1,206 @@
+[
+  {
+    "name": "energy_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/energy_summary.json",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/energy_mantis.json",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/beijing_pm25_summary.json",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/beijing_pm25_mantis.json",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/lsst_summary.json",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/air_quality_summary.json",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/air_quality_mantis.json",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/lsst_mantis.json",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/handwriting_summary.json",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/handwriting_mantis.json",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/phonemespectra_summary.json",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "scripts/diagnose_support_targets.py",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_diagnostic_v76/phonemespectra_mantis.json",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "completed",
+    "returncode": 0
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "source": "295afc2564e58734e90de641f8c0cfb37715ddee",
+  "rows": [
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "current",
+      "source_sha256": "865c41d48608f0fd60930fab5b9e6e7d80ddf117a86818dccb23b3082c044084",
+      "support_sha256": "423ca2209880ed1da3e32c0cefd01a6fa1a1d1b8048091c3fdec9db98a143ec0",
+      "historical_support": false,
+      "teacher_nominal_rmse": 43.771038342558285,
+      "student_teacher_rmse": 6.82950991737423
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "local",
+      "source_sha256": "f3263ff104a06e6d8dc6094312cd43c4604cfc2d1227bec731ed34c93602997f",
+      "support_sha256": "81a14bf5516dacf527f78a823d906b7939cadac1a6d2a4525b9717946ad7acf7",
+      "historical_support": true,
+      "teacher_nominal_rmse": 43.579642620435806,
+      "student_teacher_rmse": 5.43777079361324
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "task": "regression",
+      "support": "er10",
+      "source_sha256": "43be747434f5c05fac3122a720ff13246ff6cb67fcf03252b98c3a4e1cb4a349",
+      "support_sha256": "4192848909bc2df44dc7aaf83b9510273ebc5e86cd4c4020571e59c80ac5108c",
+      "historical_support": true,
+      "teacher_nominal_rmse": 54.77791179589942,
+      "student_teacher_rmse": 2.91309753433408
+    }
+  ]
+}
