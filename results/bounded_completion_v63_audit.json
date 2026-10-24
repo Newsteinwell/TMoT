@@ -1,0 +1,2861 @@
+{
+  "complete": true,
+  "trajectories": 72,
+  "unbounded_v62_controls": 36,
+  "max_independent_covariance_relative_error": 7.502570836410494e-14,
+  "geometry": [
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6847317061043694,
+      "hidden_second_norm": 1.0285518057731493,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6657240814327922,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5713153373656914,
+      "hidden_second_norm": 1.0176250834496887,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5614202584599883,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 17,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6093758591274056,
+      "hidden_second_norm": 1.0308252496214207,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 17,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5911534077683913,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 20,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7793193075712369,
+      "hidden_second_norm": 1.0238944909422574,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 20,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7611324354856666,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7364915789547617,
+      "hidden_second_norm": 1.0011080224365765,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7356764329609802,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4650786017100161,
+      "hidden_second_norm": 1.0034201375239689,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4634933905728066,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6116300222463035,
+      "hidden_second_norm": 1.099782060250261,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5561374788265995,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 24,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.9999999999999996,
+      "hidden_second_norm": 0.9999999999999996,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 24,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.9999999999999996,
+      "hidden_second_norm": 0.9999999999999996,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 14,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5468261579343873,
+      "hidden_second_norm": 0.9991163257986704,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 14,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5468261579343873,
+      "hidden_second_norm": 0.9991163257986704,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 22,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5096660352314241,
+      "hidden_second_norm": 1.0825087160576916,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 22,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4708193362983154,
+      "hidden_second_norm": 0.9999999999999997,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 16,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6056782512156487,
+      "hidden_second_norm": 1.011426524737391,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 16,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5988356409506941,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 23,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6033588144669775,
+      "hidden_second_norm": 1.0197690066383682,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 23,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5916622397222367,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4715733731385977,
+      "hidden_second_norm": 0.9982581727407606,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4715733731385977,
+      "hidden_second_norm": 0.9982581727407606,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6517899890472183,
+      "hidden_second_norm": 1.036538116618949,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6288142988636746,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6879170512438659,
+      "hidden_second_norm": 1.0494457711163003,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6555050962872768,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 25,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7956524917630858,
+      "hidden_second_norm": 1.0218583438340039,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 25,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7786328668392573,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3900044933525951,
+      "hidden_second_norm": 0.9926433377499462,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3900044933525951,
+      "hidden_second_norm": 0.9926433377499462,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.42953900624565855,
+      "hidden_second_norm": 0.9837466855081807,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.42953900624565855,
+      "hidden_second_norm": 0.9837466855081807,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6628636162620691,
+      "hidden_second_norm": 1.008344221521963,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6573783060526333,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 15,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.8017741800911159,
+      "hidden_second_norm": 1.018897175193291,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 15,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7869039188758323,
+      "hidden_second_norm": 1.0000000000000004,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 1.0000000000000002,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 1.0000000000000002,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7759072207400317,
+      "hidden_second_norm": 1.004595962756369,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7723574944608869,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3298738391926606,
+      "hidden_second_norm": 0.9797726692667752,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3298738391926606,
+      "hidden_second_norm": 0.9797726692667752,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 18,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5250659136969487,
+      "hidden_second_norm": 0.9812256920636688,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 18,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5250659136969487,
+      "hidden_second_norm": 0.9812256920636688,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 19,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.556768617130805,
+      "hidden_second_norm": 1.042741839609474,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 19,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5339467507502383,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 21,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6536187989413748,
+      "hidden_second_norm": 1.0956799552267316,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "label": 21,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5965417144152465,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6787978033025168,
+      "hidden_second_norm": 1.0654373451948893,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.637107199558836,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5872996284350059,
+      "hidden_second_norm": 0.984711660616095,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5872996284350059,
+      "hidden_second_norm": 0.984711660616095,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 17,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.41822264326177405,
+      "hidden_second_norm": 1.0155788544470181,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 17,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.41180715946424074,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 20,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6318439638093702,
+      "hidden_second_norm": 1.0188062537693248,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 20,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6201806884004766,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5423225587232532,
+      "hidden_second_norm": 1.0020243854623343,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5412269068412197,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7842982471834432,
+      "hidden_second_norm": 1.0023212397792103,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.782481919026486,
+      "hidden_second_norm": 0.9999999999999999,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6257635525008407,
+      "hidden_second_norm": 1.060250284459024,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5902036167055844,
+      "hidden_second_norm": 0.9999999999999999,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 24,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.9999999999999981,
+      "hidden_second_norm": 0.9999999999999981,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 24,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.9999999999999981,
+      "hidden_second_norm": 0.9999999999999981,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 14,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6001366743196825,
+      "hidden_second_norm": 0.9831129787573523,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 14,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6001366743196825,
+      "hidden_second_norm": 0.9831129787573523,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 22,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5742533707851272,
+      "hidden_second_norm": 1.0033974631384261,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 22,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5723089721484622,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 16,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6739345213627722,
+      "hidden_second_norm": 1.0209828584637974,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 16,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6600840707323874,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 23,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5606727401164804,
+      "hidden_second_norm": 1.0325909473887158,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 23,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5429766177345896,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6120546199599255,
+      "hidden_second_norm": 1.0102733949459222,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6058306820924324,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6395327879628658,
+      "hidden_second_norm": 0.9902771630456946,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6395327879628658,
+      "hidden_second_norm": 0.9902771630456946,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.48689949482581063,
+      "hidden_second_norm": 0.9953545164453185,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.48689949482581063,
+      "hidden_second_norm": 0.9953545164453185,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 25,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5560562233355205,
+      "hidden_second_norm": 1.003024986512035,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 25,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5543792336312336,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5226653769998597,
+      "hidden_second_norm": 1.0032285277141049,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5209833677584639,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5777486437041275,
+      "hidden_second_norm": 0.9639324531143301,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5777486437041275,
+      "hidden_second_norm": 0.9639324531143301,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3915496046055102,
+      "hidden_second_norm": 1.0077208579744015,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3885496678043917,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 15,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6234580705691254,
+      "hidden_second_norm": 1.019247193011945,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 15,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6116848541194055,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.9999999999999984,
+      "hidden_second_norm": 0.9999999999999984,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.9999999999999984,
+      "hidden_second_norm": 0.9999999999999984,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7190258112738206,
+      "hidden_second_norm": 1.0182680211075599,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7061262814595152,
+      "hidden_second_norm": 0.9999999999999997,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3734255260857809,
+      "hidden_second_norm": 0.9820257695665444,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3734255260857809,
+      "hidden_second_norm": 0.9820257695665444,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 18,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3454468383747533,
+      "hidden_second_norm": 0.9322613755997194,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 18,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3454468383747533,
+      "hidden_second_norm": 0.9322613755997194,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 19,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3917803741549346,
+      "hidden_second_norm": 0.9527155450605133,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 19,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3917803741549346,
+      "hidden_second_norm": 0.9527155450605133,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 21,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6291207591042516,
+      "hidden_second_norm": 0.9991040156591939,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "label": 21,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6291207591042516,
+      "hidden_second_norm": 0.9991040156591939,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7635278564425576,
+      "hidden_second_norm": 1.0097995469341898,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.756118240259339,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.667225876208859,
+      "hidden_second_norm": 1.0687323192638531,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6243152416953637,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4333570793807745,
+      "hidden_second_norm": 1.1511407436663528,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.37645881423720945,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7980543829413662,
+      "hidden_second_norm": 1.0057350757751098,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7935035797834868,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.8816472879993131,
+      "hidden_second_norm": 1.0055240270292467,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.8768038001081695,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7614716486270188,
+      "hidden_second_norm": 1.1402588932109414,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6678059282508493,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7930547703316805,
+      "hidden_second_norm": 1.0496724108863043,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7555259737293225,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7003885377059154,
+      "hidden_second_norm": 1.0453038858212267,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6700334201433358,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6247909845465044,
+      "hidden_second_norm": 1.0826362463820487,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5771014841175228,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7335874527176347,
+      "hidden_second_norm": 1.0851468626703462,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6760259628935492,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6343434235941772,
+      "hidden_second_norm": 1.013442661364829,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6259292684007309,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7094209523222951,
+      "hidden_second_norm": 1.0300083885633953,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.688752596774246,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7485782476228949,
+      "hidden_second_norm": 0.999084614275924,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7485782476228949,
+      "hidden_second_norm": 0.999084614275924,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 1.2111928680161013,
+      "hidden_second_norm": 3.4268838720289345,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.35343855036995986,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7622844634934891,
+      "hidden_second_norm": 1.0169980383168862,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7495436911117905,
+      "hidden_second_norm": 0.9999999999999999,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6662751842484965,
+      "hidden_second_norm": 0.9951543034969189,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6662751842484965,
+      "hidden_second_norm": 0.9951543034969189,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5269086790083274,
+      "hidden_second_norm": 1.0795568977097711,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4880786553503008,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7693740255938049,
+      "hidden_second_norm": 0.9912517330324241,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7693740255938049,
+      "hidden_second_norm": 0.9912517330324241,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.8506186806687874,
+      "hidden_second_norm": 0.9987664478457116,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.8506186806687874,
+      "hidden_second_norm": 0.9987664478457116,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5607483261549536,
+      "hidden_second_norm": 1.0907466520217488,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5140958490366034,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.753091640209566,
+      "hidden_second_norm": 1.0836710109164023,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6949448980578679,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7941155434976686,
+      "hidden_second_norm": 0.987457405239362,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7941155434976686,
+      "hidden_second_norm": 0.987457405239362,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6189190134870582,
+      "hidden_second_norm": 0.9527993179992771,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6189190134870582,
+      "hidden_second_norm": 0.9527993179992771,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5071249368240374,
+      "hidden_second_norm": 0.9720015245226503,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5071249368240374,
+      "hidden_second_norm": 0.9720015245226503,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.6401357185434283,
+      "hidden_second_norm": 1.0269769181168724,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6233204537033026,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7420597864475955,
+      "hidden_second_norm": 1.027468250679131,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.7222216218915887,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.74682966285886,
+      "hidden_second_norm": 0.9810117608262656,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.74682966285886,
+      "hidden_second_norm": 0.9810117608262656,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 1.0981354738472584,
+      "hidden_second_norm": 2.6867143602605417,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.408728032309608,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3571015797973701,
+      "hidden_second_norm": 1.0173658857647767,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3510060488502902,
+      "hidden_second_norm": 0.9999999999999999,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 36,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.23438744492330993,
+      "hidden_second_norm": 1.0146775853964298,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 36,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.23099696721075763,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 38,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.36912904653791356,
+      "hidden_second_norm": 1.0089530502694743,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 38,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.36585354139057846,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 14,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.47249612339054187,
+      "hidden_second_norm": 1.006903725054039,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 14,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.469256505496773,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 37,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.32338777547088143,
+      "hidden_second_norm": 0.9884584909763263,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 37,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.32338777547088143,
+      "hidden_second_norm": 0.9884584909763263,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.7119356831957048,
+      "hidden_second_norm": 1.0259789504715924,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.6939086643721715,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 24,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3982055974385662,
+      "hidden_second_norm": 1.0009461567612619,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 24,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.39782918866188627,
+      "hidden_second_norm": 0.9999999999999996,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4604919179904827,
+      "hidden_second_norm": 1.0011151897131687,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.45997895419249313,
+      "hidden_second_norm": 0.9999999999999998,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 27,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.23201298355006772,
+      "hidden_second_norm": 0.9894680702383233,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 27,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.23201298355006772,
+      "hidden_second_norm": 0.9894680702383233,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 16,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.39739536918460994,
+      "hidden_second_norm": 0.992418856684915,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 16,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.39739536918460994,
+      "hidden_second_norm": 0.992418856684915,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 20,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.21632164526563635,
+      "hidden_second_norm": 0.9903064692841875,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 20,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.21632164526563635,
+      "hidden_second_norm": 0.9903064692841875,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4520638887634243,
+      "hidden_second_norm": 0.9849897221956503,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4520638887634243,
+      "hidden_second_norm": 0.9849897221956503,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 19,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.32742555202702706,
+      "hidden_second_norm": 0.9802037882171741,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 19,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.32742555202702706,
+      "hidden_second_norm": 0.9802037882171741,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 25,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5123541376169986,
+      "hidden_second_norm": 0.9964286682952093,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 25,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5123541376169986,
+      "hidden_second_norm": 0.9964286682952093,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 33,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.29663031256302697,
+      "hidden_second_norm": 0.9875568647260514,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 33,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.29663031256302697,
+      "hidden_second_norm": 0.9875568647260514,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5170416787054851,
+      "hidden_second_norm": 0.9903741260422665,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5170416787054851,
+      "hidden_second_norm": 0.9903741260422665,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 22,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.36435003460024884,
+      "hidden_second_norm": 0.9882129798617743,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 22,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.36435003460024884,
+      "hidden_second_norm": 0.9882129798617743,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4203748146409396,
+      "hidden_second_norm": 0.9862763014743622,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4203748146409396,
+      "hidden_second_norm": 0.9862763014743622,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 31,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4102599499777062,
+      "hidden_second_norm": 0.9685496379591729,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 31,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4102599499777062,
+      "hidden_second_norm": 0.9685496379591729,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.509536491821031,
+      "hidden_second_norm": 0.9967752271452752,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.509536491821031,
+      "hidden_second_norm": 0.9967752271452752,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 28,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.42517173028103156,
+      "hidden_second_norm": 0.9808299746746358,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 28,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.42517173028103156,
+      "hidden_second_norm": 0.9808299746746358,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 26,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.2480460453571914,
+      "hidden_second_norm": 1.0228516297211243,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 26,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.24250442405299782,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 29,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3670948431640104,
+      "hidden_second_norm": 0.9750324059963089,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 29,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3670948431640104,
+      "hidden_second_norm": 0.9750324059963089,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 30,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.253939929704054,
+      "hidden_second_norm": 0.9589123847419677,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 30,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.253939929704054,
+      "hidden_second_norm": 0.9589123847419677,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 35,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.42574111853448154,
+      "hidden_second_norm": 0.993116248462776,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 35,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.42574111853448154,
+      "hidden_second_norm": 0.993116248462776,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 15,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.23720575360031554,
+      "hidden_second_norm": 0.9380046557912269,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 15,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.23720575360031554,
+      "hidden_second_norm": 0.9380046557912269,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 17,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4596365773934722,
+      "hidden_second_norm": 1.0276296481282015,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 17,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4472784317099914,
+      "hidden_second_norm": 1.0000000000000002,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3881887544047339,
+      "hidden_second_norm": 0.9857028739772123,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3881887544047339,
+      "hidden_second_norm": 0.9857028739772123,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 32,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3621687747228385,
+      "hidden_second_norm": 0.9798341817759548,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 32,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3621687747228385,
+      "hidden_second_norm": 0.9798341817759548,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3418732813964993,
+      "hidden_second_norm": 0.9765018382597379,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3418732813964993,
+      "hidden_second_norm": 0.9765018382597379,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.5118004650399854,
+      "hidden_second_norm": 1.0080004463105148,
+      "outside_unit_ball_moment_bound": true
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.5077383317768147,
+      "hidden_second_norm": 1.0,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.41518593350734256,
+      "hidden_second_norm": 0.975540452873959,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.41518593350734256,
+      "hidden_second_norm": 0.975540452873959,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 23,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3073425085738875,
+      "hidden_second_norm": 0.9971263849111336,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 23,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3073425085738875,
+      "hidden_second_norm": 0.9971263849111336,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4165085437448776,
+      "hidden_second_norm": 0.9998575812713708,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4165085437448776,
+      "hidden_second_norm": 0.9998575812713708,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 34,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.30832759083299743,
+      "hidden_second_norm": 0.9767325006557761,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 34,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.30832759083299743,
+      "hidden_second_norm": 0.9767325006557761,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.4068891178510228,
+      "hidden_second_norm": 0.9716599584473984,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.4068891178510228,
+      "hidden_second_norm": 0.9716599584473984,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 18,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3700711094389621,
+      "hidden_second_norm": 0.9866474117673258,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 18,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3700711094389621,
+      "hidden_second_norm": 0.9866474117673258,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.28443556053728003,
+      "hidden_second_norm": 0.9203074406739487,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.28443556053728003,
+      "hidden_second_norm": 0.9203074406739487,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 21,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.43356608711828826,
+      "hidden_second_norm": 0.9822555995026909,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "label": 21,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.43356608711828826,
+      "hidden_second_norm": 0.9822555995026909,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.14148225655460214,
+      "hidden_second_norm": 0.9468843600803124,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 2,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.14148225655460214,
+      "hidden_second_norm": 0.9468843600803124,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 36,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.18077353165665622,
+      "hidden_second_norm": 0.939748770581603,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 36,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.18077353165665622,
+      "hidden_second_norm": 0.939748770581603,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 38,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.12308957490860266,
+      "hidden_second_norm": 0.935502561781727,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 38,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.12308957490860266,
+      "hidden_second_norm": 0.935502561781727,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 14,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.11913670553254313,
+      "hidden_second_norm": 0.9151029841868494,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 14,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.11913670553254313,
+      "hidden_second_norm": 0.9151029841868494,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 37,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.057485782727134935,
+      "hidden_second_norm": 0.9282822597252788,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 37,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.057485782727134935,
+      "hidden_second_norm": 0.9282822597252788,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.138435785158439,
+      "hidden_second_norm": 0.9309935050007059,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 6,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.138435785158439,
+      "hidden_second_norm": 0.9309935050007059,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 24,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.08182755145198503,
+      "hidden_second_norm": 0.9484886990133,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 24,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.08182755145198503,
+      "hidden_second_norm": 0.9484886990133,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.133794578976332,
+      "hidden_second_norm": 0.9403194489927256,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 3,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.133794578976332,
+      "hidden_second_norm": 0.9403194489927256,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 27,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.06324337034933439,
+      "hidden_second_norm": 0.94317526373289,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 27,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.06324337034933439,
+      "hidden_second_norm": 0.94317526373289,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 16,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1174324887457831,
+      "hidden_second_norm": 0.9392279995596411,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 16,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1174324887457831,
+      "hidden_second_norm": 0.9392279995596411,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 20,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.08139522692518941,
+      "hidden_second_norm": 0.9300344381735792,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 20,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.08139522692518941,
+      "hidden_second_norm": 0.9300344381735792,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.07686124962846913,
+      "hidden_second_norm": 0.9315960974978086,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 13,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.07686124962846913,
+      "hidden_second_norm": 0.9315960974978086,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 19,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.2391912761733727,
+      "hidden_second_norm": 0.9351525715938225,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 19,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.2391912761733727,
+      "hidden_second_norm": 0.9351525715938225,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 25,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.15673119759147186,
+      "hidden_second_norm": 0.9280619890586312,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 25,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.15673119759147186,
+      "hidden_second_norm": 0.9280619890586312,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 33,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.18072249048760508,
+      "hidden_second_norm": 0.951925841514127,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 33,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.18072249048760508,
+      "hidden_second_norm": 0.951925841514127,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.10604934027825676,
+      "hidden_second_norm": 0.9406613906120681,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 5,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.10604934027825676,
+      "hidden_second_norm": 0.9406613906120681,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 22,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.12078946990097354,
+      "hidden_second_norm": 0.9371510561952424,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 22,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.12078946990097354,
+      "hidden_second_norm": 0.9371510561952424,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.14527993466662484,
+      "hidden_second_norm": 0.94467948559166,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 12,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.14527993466662484,
+      "hidden_second_norm": 0.94467948559166,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 31,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.14639813577479238,
+      "hidden_second_norm": 0.9255867077216426,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 31,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.14639813577479238,
+      "hidden_second_norm": 0.9255867077216426,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.12497470667759933,
+      "hidden_second_norm": 0.9402355511821646,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 4,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.12497470667759933,
+      "hidden_second_norm": 0.9402355511821646,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 28,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.07894551940355371,
+      "hidden_second_norm": 0.927446160618268,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 28,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.07894551940355371,
+      "hidden_second_norm": 0.927446160618268,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 26,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.17540295865478375,
+      "hidden_second_norm": 0.9331138671056141,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 26,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.17540295865478375,
+      "hidden_second_norm": 0.9331138671056141,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 29,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.11123798937542087,
+      "hidden_second_norm": 0.919045684469988,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 29,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.11123798937542087,
+      "hidden_second_norm": 0.919045684469988,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 30,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1693119326016064,
+      "hidden_second_norm": 0.9480159748546493,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 30,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1693119326016064,
+      "hidden_second_norm": 0.9480159748546493,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 35,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1384474932215558,
+      "hidden_second_norm": 0.9461388818234783,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 35,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1384474932215558,
+      "hidden_second_norm": 0.9461388818234783,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 15,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.3034489127041141,
+      "hidden_second_norm": 0.9745514971688897,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 15,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.3034489127041141,
+      "hidden_second_norm": 0.9745514971688897,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 17,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.19069720175451493,
+      "hidden_second_norm": 0.9634308179638729,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 17,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.19069720175451493,
+      "hidden_second_norm": 0.9634308179638729,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1393580510163081,
+      "hidden_second_norm": 0.9248464390540112,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 9,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1393580510163081,
+      "hidden_second_norm": 0.9248464390540112,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 32,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1433190875472089,
+      "hidden_second_norm": 0.9307399922707519,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 32,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1433190875472089,
+      "hidden_second_norm": 0.9307399922707519,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.31425299916298277,
+      "hidden_second_norm": 0.9763647781271243,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 7,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.31425299916298277,
+      "hidden_second_norm": 0.9763647781271243,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.11757738621622851,
+      "hidden_second_norm": 0.9041001534952614,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 8,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.11757738621622851,
+      "hidden_second_norm": 0.9041001534952614,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.09648376705084927,
+      "hidden_second_norm": 0.9514003882844865,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 1,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.09648376705084927,
+      "hidden_second_norm": 0.9514003882844865,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 23,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.17073161995770803,
+      "hidden_second_norm": 0.9584446679890641,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 23,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.17073161995770803,
+      "hidden_second_norm": 0.9584446679890641,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.09249444235296744,
+      "hidden_second_norm": 0.9118054669027157,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 0,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.09249444235296744,
+      "hidden_second_norm": 0.9118054669027157,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 34,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.07674526044848484,
+      "hidden_second_norm": 0.9317402269887147,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 34,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.07674526044848484,
+      "hidden_second_norm": 0.9317402269887147,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.1370539901070248,
+      "hidden_second_norm": 0.9259273370703173,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 10,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.1370539901070248,
+      "hidden_second_norm": 0.9259273370703173,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 18,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.15266990140582137,
+      "hidden_second_norm": 0.9327821295606643,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 18,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.15266990140582137,
+      "hidden_second_norm": 0.9327821295606643,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.13235268321863417,
+      "hidden_second_norm": 0.8258583806799037,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 11,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.13235268321863417,
+      "hidden_second_norm": 0.8258583806799037,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 21,
+      "mode": "complete",
+      "hidden_mean_norm_sq": 0.09834103016810022,
+      "hidden_second_norm": 0.8186858896293399,
+      "outside_unit_ball_moment_bound": false
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "label": 21,
+      "mode": "bounded",
+      "hidden_mean_norm_sq": 0.09834103016810022,
+      "hidden_second_norm": 0.8186858896293399,
+      "outside_unit_ball_moment_bound": false
+    }
+  ],
+  "checks": [
+    "direct TRAIN unit statistics",
+    "independent residual covariance",
+    "independent final triangular-solve predictions",
+    "all-stage metrics",
+    "v62 unbounded full trajectories exact",
+    "bounded unit-ball moment bound and exact base",
+    "hashes"
+  ]
+}
