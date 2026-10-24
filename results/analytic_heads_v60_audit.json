@@ -1,0 +1,571 @@
+{
+  "complete": true,
+  "checked": [
+    "handwriting_mantis_raw_ncm",
+    "handwriting_mantis_raw_ridge_0.001",
+    "handwriting_mantis_raw_ridge_0.01",
+    "handwriting_mantis_raw_ridge_0.1",
+    "handwriting_mantis_raw_ridge_1",
+    "handwriting_mantis_raw_ridge_10",
+    "handwriting_mantis_raw_ridge_100",
+    "handwriting_mantis_raw_slda_0.001",
+    "handwriting_mantis_raw_slda_0.01",
+    "handwriting_mantis_raw_slda_0.1",
+    "handwriting_mantis_raw_slda_0.5",
+    "handwriting_mantis_raw_slda_0.9",
+    "handwriting_mantis_raw_slda_1",
+    "handwriting_mantis_unit_ncm",
+    "handwriting_mantis_unit_ridge_0.001",
+    "handwriting_mantis_unit_ridge_0.01",
+    "handwriting_mantis_unit_ridge_0.1",
+    "handwriting_mantis_unit_ridge_1",
+    "handwriting_mantis_unit_ridge_10",
+    "handwriting_mantis_unit_ridge_100",
+    "handwriting_mantis_unit_slda_0.001",
+    "handwriting_mantis_unit_slda_0.01",
+    "handwriting_mantis_unit_slda_0.1",
+    "handwriting_mantis_unit_slda_0.5",
+    "handwriting_mantis_unit_slda_0.9",
+    "handwriting_mantis_unit_slda_1",
+    "handwriting_summary_raw_ncm",
+    "handwriting_summary_raw_ridge_0.001",
+    "handwriting_summary_raw_ridge_0.01",
+    "handwriting_summary_raw_ridge_0.1",
+    "handwriting_summary_raw_ridge_1",
+    "handwriting_summary_raw_ridge_10",
+    "handwriting_summary_raw_ridge_100",
+    "handwriting_summary_raw_slda_0.001",
+    "handwriting_summary_raw_slda_0.01",
+    "handwriting_summary_raw_slda_0.1",
+    "handwriting_summary_raw_slda_0.5",
+    "handwriting_summary_raw_slda_0.9",
+    "handwriting_summary_raw_slda_1",
+    "handwriting_summary_unit_ncm",
+    "handwriting_summary_unit_ridge_0.001",
+    "handwriting_summary_unit_ridge_0.01",
+    "handwriting_summary_unit_ridge_0.1",
+    "handwriting_summary_unit_ridge_1",
+    "handwriting_summary_unit_ridge_10",
+    "handwriting_summary_unit_ridge_100",
+    "handwriting_summary_unit_slda_0.001",
+    "handwriting_summary_unit_slda_0.01",
+    "handwriting_summary_unit_slda_0.1",
+    "handwriting_summary_unit_slda_0.5",
+    "handwriting_summary_unit_slda_0.9",
+    "handwriting_summary_unit_slda_1",
+    "lsst_mantis_raw_ncm",
+    "lsst_mantis_raw_ridge_0.001",
+    "lsst_mantis_raw_ridge_0.01",
+    "lsst_mantis_raw_ridge_0.1",
+    "lsst_mantis_raw_ridge_1",
+    "lsst_mantis_raw_ridge_10",
+    "lsst_mantis_raw_ridge_100",
+    "lsst_mantis_raw_slda_0.001",
+    "lsst_mantis_raw_slda_0.01",
+    "lsst_mantis_raw_slda_0.1",
+    "lsst_mantis_raw_slda_0.5",
+    "lsst_mantis_raw_slda_0.9",
+    "lsst_mantis_raw_slda_1",
+    "lsst_mantis_unit_ncm",
+    "lsst_mantis_unit_ridge_0.001",
+    "lsst_mantis_unit_ridge_0.01",
+    "lsst_mantis_unit_ridge_0.1",
+    "lsst_mantis_unit_ridge_1",
+    "lsst_mantis_unit_ridge_10",
+    "lsst_mantis_unit_ridge_100",
+    "lsst_mantis_unit_slda_0.001",
+    "lsst_mantis_unit_slda_0.01",
+    "lsst_mantis_unit_slda_0.1",
+    "lsst_mantis_unit_slda_0.5",
+    "lsst_mantis_unit_slda_0.9",
+    "lsst_mantis_unit_slda_1",
+    "lsst_summary_raw_ncm",
+    "lsst_summary_raw_ridge_0.001",
+    "lsst_summary_raw_ridge_0.01",
+    "lsst_summary_raw_ridge_0.1",
+    "lsst_summary_raw_ridge_1",
+    "lsst_summary_raw_ridge_10",
+    "lsst_summary_raw_ridge_100",
+    "lsst_summary_raw_slda_0.001",
+    "lsst_summary_raw_slda_0.01",
+    "lsst_summary_raw_slda_0.1",
+    "lsst_summary_raw_slda_0.5",
+    "lsst_summary_raw_slda_0.9",
+    "lsst_summary_raw_slda_1",
+    "lsst_summary_unit_ncm",
+    "lsst_summary_unit_ridge_0.001",
+    "lsst_summary_unit_ridge_0.01",
+    "lsst_summary_unit_ridge_0.1",
+    "lsst_summary_unit_ridge_1",
+    "lsst_summary_unit_ridge_10",
+    "lsst_summary_unit_ridge_100",
+    "lsst_summary_unit_slda_0.001",
+    "lsst_summary_unit_slda_0.01",
+    "lsst_summary_unit_slda_0.1",
+    "lsst_summary_unit_slda_0.5",
+    "lsst_summary_unit_slda_0.9",
+    "lsst_summary_unit_slda_1",
+    "phonemespectra_mantis_raw_ncm",
+    "phonemespectra_mantis_raw_ridge_0.001",
+    "phonemespectra_mantis_raw_ridge_0.01",
+    "phonemespectra_mantis_raw_ridge_0.1",
+    "phonemespectra_mantis_raw_ridge_1",
+    "phonemespectra_mantis_raw_ridge_10",
+    "phonemespectra_mantis_raw_ridge_100",
+    "phonemespectra_mantis_raw_slda_0.001",
+    "phonemespectra_mantis_raw_slda_0.01",
+    "phonemespectra_mantis_raw_slda_0.1",
+    "phonemespectra_mantis_raw_slda_0.5",
+    "phonemespectra_mantis_raw_slda_0.9",
+    "phonemespectra_mantis_raw_slda_1",
+    "phonemespectra_mantis_unit_ncm",
+    "phonemespectra_mantis_unit_ridge_0.001",
+    "phonemespectra_mantis_unit_ridge_0.01",
+    "phonemespectra_mantis_unit_ridge_0.1",
+    "phonemespectra_mantis_unit_ridge_1",
+    "phonemespectra_mantis_unit_ridge_10",
+    "phonemespectra_mantis_unit_ridge_100",
+    "phonemespectra_mantis_unit_slda_0.001",
+    "phonemespectra_mantis_unit_slda_0.01",
+    "phonemespectra_mantis_unit_slda_0.1",
+    "phonemespectra_mantis_unit_slda_0.5",
+    "phonemespectra_mantis_unit_slda_0.9",
+    "phonemespectra_mantis_unit_slda_1",
+    "phonemespectra_summary_raw_ncm",
+    "phonemespectra_summary_raw_ridge_0.001",
+    "phonemespectra_summary_raw_ridge_0.01",
+    "phonemespectra_summary_raw_ridge_0.1",
+    "phonemespectra_summary_raw_ridge_1",
+    "phonemespectra_summary_raw_ridge_10",
+    "phonemespectra_summary_raw_ridge_100",
+    "phonemespectra_summary_raw_slda_0.001",
+    "phonemespectra_summary_raw_slda_0.01",
+    "phonemespectra_summary_raw_slda_0.1",
+    "phonemespectra_summary_raw_slda_0.5",
+    "phonemespectra_summary_raw_slda_0.9",
+    "phonemespectra_summary_raw_slda_1",
+    "phonemespectra_summary_unit_ncm",
+    "phonemespectra_summary_unit_ridge_0.001",
+    "phonemespectra_summary_unit_ridge_0.01",
+    "phonemespectra_summary_unit_ridge_0.1",
+    "phonemespectra_summary_unit_ridge_1",
+    "phonemespectra_summary_unit_ridge_10",
+    "phonemespectra_summary_unit_ridge_100",
+    "phonemespectra_summary_unit_slda_0.001",
+    "phonemespectra_summary_unit_slda_0.01",
+    "phonemespectra_summary_unit_slda_0.1",
+    "phonemespectra_summary_unit_slda_0.5",
+    "phonemespectra_summary_unit_slda_0.9",
+    "phonemespectra_summary_unit_slda_1"
+  ],
+  "old_controls": [
+    "handwriting_mantis_raw_ridge_0.001",
+    "handwriting_mantis_raw_ridge_0.01",
+    "handwriting_mantis_raw_ridge_0.1",
+    "handwriting_mantis_raw_ridge_1",
+    "handwriting_mantis_raw_ridge_10",
+    "handwriting_mantis_raw_ridge_100",
+    "handwriting_summary_raw_ridge_0.001",
+    "handwriting_summary_raw_ridge_0.01",
+    "handwriting_summary_raw_ridge_0.1",
+    "handwriting_summary_raw_ridge_1",
+    "handwriting_summary_raw_ridge_10",
+    "handwriting_summary_raw_ridge_100",
+    "lsst_mantis_raw_ridge_0.001",
+    "lsst_mantis_raw_ridge_0.01",
+    "lsst_mantis_raw_ridge_0.1",
+    "lsst_mantis_raw_ridge_1",
+    "lsst_mantis_raw_ridge_10",
+    "lsst_mantis_raw_ridge_100",
+    "lsst_summary_raw_ridge_0.001",
+    "lsst_summary_raw_ridge_0.01",
+    "lsst_summary_raw_ridge_0.1",
+    "lsst_summary_raw_ridge_1",
+    "lsst_summary_raw_ridge_10",
+    "lsst_summary_raw_ridge_100",
+    "phonemespectra_mantis_raw_ridge_0.001",
+    "phonemespectra_mantis_raw_ridge_0.01",
+    "phonemespectra_mantis_raw_ridge_0.1",
+    "phonemespectra_mantis_raw_ridge_1",
+    "phonemespectra_mantis_raw_ridge_10",
+    "phonemespectra_mantis_raw_ridge_100",
+    "phonemespectra_summary_raw_ridge_0.001",
+    "phonemespectra_summary_raw_ridge_0.01",
+    "phonemespectra_summary_raw_ridge_0.1",
+    "phonemespectra_summary_raw_ridge_1",
+    "phonemespectra_summary_raw_ridge_10",
+    "phonemespectra_summary_raw_ridge_100"
+  ],
+  "shared_states": 12,
+  "inverse_checks": [
+    {
+      "run": "handwriting_mantis_raw_slda_0.001",
+      "relative_matrix_error": 5.8910248071113424e-12,
+      "relative_identity_residual": 6.732159597252084e-12
+    },
+    {
+      "run": "handwriting_mantis_raw_slda_0.01",
+      "relative_matrix_error": 5.724940267112172e-13,
+      "relative_identity_residual": 6.728457465094187e-13
+    },
+    {
+      "run": "handwriting_mantis_raw_slda_0.1",
+      "relative_matrix_error": 4.079568427733918e-14,
+      "relative_identity_residual": 5.945662234108562e-14
+    },
+    {
+      "run": "handwriting_mantis_raw_slda_0.5",
+      "relative_matrix_error": 3.317912478756811e-15,
+      "relative_identity_residual": 6.475613624552471e-15
+    },
+    {
+      "run": "handwriting_mantis_raw_slda_0.9",
+      "relative_matrix_error": 2.569391157134466e-16,
+      "relative_identity_residual": 9.91110692932182e-16
+    },
+    {
+      "run": "handwriting_mantis_raw_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_0.001",
+      "relative_matrix_error": 5.431281877922477e-12,
+      "relative_identity_residual": 6.110928957326301e-12
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_0.01",
+      "relative_matrix_error": 5.134419209659641e-13,
+      "relative_identity_residual": 5.937774397525471e-13
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_0.1",
+      "relative_matrix_error": 3.933428613074203e-14,
+      "relative_identity_residual": 5.351061677287367e-14
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_0.5",
+      "relative_matrix_error": 3.234780524481352e-15,
+      "relative_identity_residual": 5.838251518313866e-15
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_0.9",
+      "relative_matrix_error": 2.6272632571118873e-16,
+      "relative_identity_residual": 9.477372594757469e-16
+    },
+    {
+      "run": "handwriting_mantis_unit_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    },
+    {
+      "run": "handwriting_summary_raw_slda_0.001",
+      "relative_matrix_error": 3.338298438480241e-12,
+      "relative_identity_residual": 3.763612508650789e-12
+    },
+    {
+      "run": "handwriting_summary_raw_slda_0.01",
+      "relative_matrix_error": 3.3289042178196747e-13,
+      "relative_identity_residual": 3.767088122347704e-13
+    },
+    {
+      "run": "handwriting_summary_raw_slda_0.1",
+      "relative_matrix_error": 2.447529557265542e-14,
+      "relative_identity_residual": 3.282210923374413e-14
+    },
+    {
+      "run": "handwriting_summary_raw_slda_0.5",
+      "relative_matrix_error": 1.9382109856802567e-15,
+      "relative_identity_residual": 3.4937917148913553e-15
+    },
+    {
+      "run": "handwriting_summary_raw_slda_0.9",
+      "relative_matrix_error": 1.5838857712738592e-16,
+      "relative_identity_residual": 8.857913193507664e-16
+    },
+    {
+      "run": "handwriting_summary_raw_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    },
+    {
+      "run": "handwriting_summary_unit_slda_0.001",
+      "relative_matrix_error": 3.435358224506949e-12,
+      "relative_identity_residual": 3.947986564815452e-12
+    },
+    {
+      "run": "handwriting_summary_unit_slda_0.01",
+      "relative_matrix_error": 3.3612874238387955e-13,
+      "relative_identity_residual": 3.816905911708062e-13
+    },
+    {
+      "run": "handwriting_summary_unit_slda_0.1",
+      "relative_matrix_error": 2.4949304154756883e-14,
+      "relative_identity_residual": 3.28253843253757e-14
+    },
+    {
+      "run": "handwriting_summary_unit_slda_0.5",
+      "relative_matrix_error": 2.040486020504244e-15,
+      "relative_identity_residual": 3.499684961624856e-15
+    },
+    {
+      "run": "handwriting_summary_unit_slda_0.9",
+      "relative_matrix_error": 2.47619606629481e-16,
+      "relative_identity_residual": 8.023824299402863e-16
+    },
+    {
+      "run": "handwriting_summary_unit_slda_1",
+      "relative_matrix_error": 1.8852250463834955e-16,
+      "relative_identity_residual": 2.220446049250313e-16
+    },
+    {
+      "run": "lsst_mantis_raw_slda_0.001",
+      "relative_matrix_error": 2.5549179606479525e-11,
+      "relative_identity_residual": 8.896247493373566e-12
+    },
+    {
+      "run": "lsst_mantis_raw_slda_0.01",
+      "relative_matrix_error": 1.6904862948248294e-12,
+      "relative_identity_residual": 9.069683123528737e-13
+    },
+    {
+      "run": "lsst_mantis_raw_slda_0.1",
+      "relative_matrix_error": 3.0438031763072344e-14,
+      "relative_identity_residual": 3.18979341280912e-14
+    },
+    {
+      "run": "lsst_mantis_raw_slda_0.5",
+      "relative_matrix_error": 2.8994713341016767e-15,
+      "relative_identity_residual": 3.616409810605427e-15
+    },
+    {
+      "run": "lsst_mantis_raw_slda_0.9",
+      "relative_matrix_error": 5.984957078433179e-16,
+      "relative_identity_residual": 9.89633691042849e-16
+    },
+    {
+      "run": "lsst_mantis_raw_slda_1",
+      "relative_matrix_error": 3.336710863409078e-16,
+      "relative_identity_residual": 4.440892098500626e-16
+    },
+    {
+      "run": "lsst_mantis_unit_slda_0.001",
+      "relative_matrix_error": 7.700522686303728e-13,
+      "relative_identity_residual": 5.795409829709262e-13
+    },
+    {
+      "run": "lsst_mantis_unit_slda_0.01",
+      "relative_matrix_error": 1.095205064604632e-13,
+      "relative_identity_residual": 1.5330992009031318e-13
+    },
+    {
+      "run": "lsst_mantis_unit_slda_0.1",
+      "relative_matrix_error": 2.3334189624386893e-14,
+      "relative_identity_residual": 3.007643043610154e-14
+    },
+    {
+      "run": "lsst_mantis_unit_slda_0.5",
+      "relative_matrix_error": 2.9232375589402358e-15,
+      "relative_identity_residual": 4.345818778060047e-15
+    },
+    {
+      "run": "lsst_mantis_unit_slda_0.9",
+      "relative_matrix_error": 3.5187304668348413e-16,
+      "relative_identity_residual": 9.372063431476463e-16
+    },
+    {
+      "run": "lsst_mantis_unit_slda_1",
+      "relative_matrix_error": 1.8095963370137627e-16,
+      "relative_identity_residual": 2.220446049250313e-16
+    },
+    {
+      "run": "lsst_summary_raw_slda_0.001",
+      "relative_matrix_error": 1.296088071789805e-11,
+      "relative_identity_residual": 1.0763078718998898e-11
+    },
+    {
+      "run": "lsst_summary_raw_slda_0.01",
+      "relative_matrix_error": 3.5922327752465947e-13,
+      "relative_identity_residual": 3.3192358196222226e-13
+    },
+    {
+      "run": "lsst_summary_raw_slda_0.1",
+      "relative_matrix_error": 3.345062791385757e-14,
+      "relative_identity_residual": 3.254554613786294e-14
+    },
+    {
+      "run": "lsst_summary_raw_slda_0.5",
+      "relative_matrix_error": 2.988054532096826e-15,
+      "relative_identity_residual": 3.705826794918405e-15
+    },
+    {
+      "run": "lsst_summary_raw_slda_0.9",
+      "relative_matrix_error": 2.814272590400916e-16,
+      "relative_identity_residual": 8.580603900725508e-16
+    },
+    {
+      "run": "lsst_summary_raw_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    },
+    {
+      "run": "lsst_summary_unit_slda_0.001",
+      "relative_matrix_error": 2.0180868772858794e-12,
+      "relative_identity_residual": 2.2425758513063787e-12
+    },
+    {
+      "run": "lsst_summary_unit_slda_0.01",
+      "relative_matrix_error": 1.9533607883219074e-13,
+      "relative_identity_residual": 2.2156561026990267e-13
+    },
+    {
+      "run": "lsst_summary_unit_slda_0.1",
+      "relative_matrix_error": 1.6442591084125816e-14,
+      "relative_identity_residual": 2.03604120876416e-14
+    },
+    {
+      "run": "lsst_summary_unit_slda_0.5",
+      "relative_matrix_error": 1.5511933545275603e-15,
+      "relative_identity_residual": 2.4333055847437942e-15
+    },
+    {
+      "run": "lsst_summary_unit_slda_0.9",
+      "relative_matrix_error": 1.695076596235724e-16,
+      "relative_identity_residual": 8.005495455177288e-16
+    },
+    {
+      "run": "lsst_summary_unit_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_0.001",
+      "relative_matrix_error": 5.0224858413007495e-12,
+      "relative_identity_residual": 4.5746216173529655e-12
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_0.01",
+      "relative_matrix_error": 5.475570817505773e-13,
+      "relative_identity_residual": 5.499209138721205e-13
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_0.1",
+      "relative_matrix_error": 4.0861845132905895e-14,
+      "relative_identity_residual": 4.915498457590212e-14
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_0.5",
+      "relative_matrix_error": 4.014840918625899e-15,
+      "relative_identity_residual": 5.809884556713636e-15
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_0.9",
+      "relative_matrix_error": 4.3043145211268577e-16,
+      "relative_identity_residual": 1.0466721127891372e-15
+    },
+    {
+      "run": "phonemespectra_mantis_raw_slda_1",
+      "relative_matrix_error": 1.5267025463340182e-16,
+      "relative_identity_residual": 2.220446049250313e-16
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_0.001",
+      "relative_matrix_error": 4.9476720897054465e-12,
+      "relative_identity_residual": 3.272397814351264e-12
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_0.01",
+      "relative_matrix_error": 4.634330437355984e-13,
+      "relative_identity_residual": 3.9577607681902006e-13
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_0.1",
+      "relative_matrix_error": 2.6873443968112477e-14,
+      "relative_identity_residual": 3.424472877256657e-14
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_0.5",
+      "relative_matrix_error": 2.467430805437798e-15,
+      "relative_identity_residual": 4.00633597186888e-15
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_0.9",
+      "relative_matrix_error": 2.8574630401357306e-16,
+      "relative_identity_residual": 8.940884553842977e-16
+    },
+    {
+      "run": "phonemespectra_mantis_unit_slda_1",
+      "relative_matrix_error": 1.6427290246870411e-16,
+      "relative_identity_residual": 1.1102230246251565e-16
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_0.001",
+      "relative_matrix_error": 2.6937286934642963e-12,
+      "relative_identity_residual": 3.2602037039662477e-12
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_0.01",
+      "relative_matrix_error": 2.575874559374428e-13,
+      "relative_identity_residual": 3.251176385286578e-13
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_0.1",
+      "relative_matrix_error": 1.9707715514912115e-14,
+      "relative_identity_residual": 2.696609077336845e-14
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_0.5",
+      "relative_matrix_error": 1.7759337718401732e-15,
+      "relative_identity_residual": 2.822098492685512e-15
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_0.9",
+      "relative_matrix_error": 5.344493470420243e-16,
+      "relative_identity_residual": 9.488043586456307e-16
+    },
+    {
+      "run": "phonemespectra_summary_raw_slda_1",
+      "relative_matrix_error": 4.569255798731831e-16,
+      "relative_identity_residual": 4.440892098500626e-16
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_0.001",
+      "relative_matrix_error": 1.2220621260266547e-11,
+      "relative_identity_residual": 1.0290828767798495e-11
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_0.01",
+      "relative_matrix_error": 2.5921111484776335e-13,
+      "relative_identity_residual": 3.20605053745622e-13
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_0.1",
+      "relative_matrix_error": 1.9145569146009705e-14,
+      "relative_identity_residual": 2.6751829990859984e-14
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_0.5",
+      "relative_matrix_error": 1.571100334716585e-15,
+      "relative_identity_residual": 2.7700585930584908e-15
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_0.9",
+      "relative_matrix_error": 1.536876170358148e-16,
+      "relative_identity_residual": 8.283419982547687e-16
+    },
+    {
+      "run": "phonemespectra_summary_unit_slda_1",
+      "relative_matrix_error": 0.0,
+      "relative_identity_residual": 0.0
+    }
+  ],
+  "checks": [
+    "all-stage metrics",
+    "final direct TRAIN moments",
+    "independent final predictions",
+    "ridge normal equations",
+    "SLDA direct centered covariance",
+    "hashes",
+    "raw ridge v45 exact predictions"
+  ]
+}

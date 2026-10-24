@@ -5,7 +5,7 @@ import torch
 from tmot.fecam import unit_rows
 root=Path(sys.argv[1]);folder=root/'runs/analytic_heads_v60';torch.set_num_threads(1)
 complete=json.loads((folder/'complete.json').read_text());assert len(complete)==12 and all(v['status']=='completed' for v in complete)
-checked=[];controls=[];rows=[]
+checked=[];controls=[];rows=[];inverse_checks=[]
 for shared in sorted((folder/'_shared').glob('*.pt')):
  ck=torch.load(shared,map_location='cpu',weights_only=False);paths=sorted(folder.glob(shared.stem+'_*/summary.json'));assert len(paths)==13
  s=json.loads(paths[0].read_text());c=s['config'];cl=ck['classes'];tr=np.load(root/'features'/c['encoder']/f"{c['dataset']}_train.npz");val=np.load(root/'features'/c['encoder']/f"{c['dataset']}_val.npz")
@@ -23,13 +23,19 @@ for shared in sorted((folder/'_shared').glob('*.pt')):
   mu=xx.mean(0);means.append(mu);scatter+=(xx-mu).T@(xx-mu)
  means=np.array(means);cov=scatter/(len(x)-len(cl));scale=max(float(np.trace(cov)/512),1e-8)
  digest=hashlib.sha256(shared.read_bytes()).hexdigest()
+ final_ids=[np.flatnonzero(np.isin(val['y'],g)) for g in s['order']]
+ final_x=[transform(val['x'][ids]).astype(np.float64) for ids in final_ids]
+ z=np.c_[x,np.ones(len(x))];weights=np.array([1/(len(cl)*np.sum(y==v)) for v in y]);target=np.eye(len(cl))[[cl.index(v) for v in y]];direct_g=z.T@(weights[:,None]*z);direct_k=z.T@(weights[:,None]*target)
  for path in paths:
   s=json.loads(path.read_text());c=s['config'];h=ck['heads'][c['setting']];assert s['shared_state_sha256']==digest
   for split,expected in s['input_hashes'].items():assert hashlib.sha256((root/'features'/c['encoder']/f"{c['dataset']}_{split}.npz").read_bytes()).hexdigest()==expected
   if c['method']=='slda':
-   shrink=h['shrink'];precision=np.linalg.inv((1-shrink)*cov+shrink*scale*np.eye(512));np.testing.assert_allclose(precision,h['precision'],rtol=1e-6,atol=1e-5)
+   shrink=h['shrink'];system=(1-shrink)*cov+shrink*scale*np.eye(512);precision=np.linalg.inv(system)
+   relative=float(np.linalg.norm(precision-h['precision'])/np.linalg.norm(precision));residual=float(np.linalg.norm(system@h['precision']-np.eye(512))/np.sqrt(512))
+   assert relative<1e-9 and residual<1e-9
+   inverse_checks.append(dict(run=path.parent.name,relative_matrix_error=relative,relative_identity_residual=residual))
   elif c['method']=='ridge':
-   z=np.c_[x,np.ones(len(x))];weights=np.array([1/(len(cl)*np.sum(y==v)) for v in y]);target=np.eye(len(cl))[[cl.index(v) for v in y]];g=z.T@(weights[:,None]*z);k=z.T@(weights[:,None]*target);p=np.eye(513)*h['ridge'];p[-1,-1]=0
+   g=direct_g;k=direct_k;p=np.eye(513)*h['ridge'];p[-1,-1]=0
    np.testing.assert_allclose(h['weight'],np.linalg.solve((g+g.T)/2+p,k),rtol=1e-6,atol=1e-7)
   for stage in s['stages']:
    with np.load(path.parent/f"predictions_stage{stage['stage']}.npz") as pred:
@@ -38,7 +44,7 @@ for shared in sorted((folder/'_shared').glob('*.pt')):
      truth=pred[f'y_{i}'];prediction=pred[f'pred_{i}'];ys.append(truth);ps.append(prediction)
      score=np.mean([np.mean(prediction[truth==v]==v) for v in np.unique(truth)]);np.testing.assert_allclose(score,stage['scores'][i],atol=1e-12)
      if stage['stage']==len(s['order']):
-      ids=np.flatnonzero(np.isin(val['y'],s['order'][i]));vx=transform(val['x'][ids]).astype(np.float64)
+      ids=final_ids[i];vx=final_x[i]
       if c['method']=='ridge':score=np.c_[vx,np.ones(len(vx))]@h['weight']
       elif c['method']=='ncm':score=-np.sum((vx[:,None,:]-means[None,:,:])**2,axis=2)
       else:score=np.column_stack([-np.einsum('ni,ni->n',(vx-mu)@precision,vx-mu) for mu in means])
@@ -53,5 +59,5 @@ for shared in sorted((folder/'_shared').glob('*.pt')):
   checked.append(path.parent.name);rows.append(s)
  print(shared.stem,'verified',flush=True)
 assert len(checked)==156 and len(controls)==36
-(root/'analytic_heads_v60_audit.json').write_text(json.dumps(dict(complete=True,checked=checked,old_controls=controls,shared_states=12,checks=['all-stage metrics','final direct TRAIN moments','independent final predictions','ridge normal equations','SLDA direct centered covariance','hashes','raw ridge v45 exact predictions']),indent=2))
+(root/'analytic_heads_v60_audit.json').write_text(json.dumps(dict(complete=True,checked=checked,old_controls=controls,shared_states=12,inverse_checks=inverse_checks,checks=['all-stage metrics','final direct TRAIN moments','independent final predictions','ridge normal equations','SLDA direct centered covariance','hashes','raw ridge v45 exact predictions']),indent=2))
 (root/'analytic_heads_v60_runs.json').write_text(json.dumps(rows,indent=2))

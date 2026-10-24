@@ -6,11 +6,14 @@
 |---|---:|---|
 | fecam_adapted | 132 | articulary, dailysports, epilepsy, handwriting, har, lsst, natops, pendigits, phonemespectra, racketsports, uwave |
 | ft | 16 | dailysports, energy, har, uwave |
+| ncm | 12 | handwriting, lsst, phonemespectra |
 | ranpac | 12 | dailysports, har, uwave |
-| ridge | 1002 | air_quality, articulary, beijing_pm25, dailysports, energy, epilepsy, handwriting, har, lsst, natops, pendigits, phonemespectra, racketsports, uwave |
-| slda | 55 | articulary, dailysports, epilepsy, har, natops, pendigits, racketsports, uwave |
+| ridge | 1074 | air_quality, articulary, beijing_pm25, dailysports, energy, epilepsy, handwriting, har, lsst, natops, pendigits, phonemespectra, racketsports, uwave |
+| slda | 127 | articulary, dailysports, epilepsy, handwriting, har, lsst, natops, pendigits, phonemespectra, racketsports, uwave |
 | stable_residual | 128 | air_quality, beijing_pm25, dailysports, energy, har, uwave |
 
-ranpac 是早期随机特征+累计ridge适配，不能当作完整原论文复现；fecam_adapted 是依据固定来源代码实现的时序特征适配，来源与许可证见 third_party/fecam。SLDA与FeCAM仅分类。当前较难分类集尚缺SLDA/RanPAC等统一表示的结果；EWC、LwF、DER++、A-GEM尚未找到已实现实验，不能填写结果。
+ranpac 是早期随机特征+累计ridge适配，不能当作完整原论文复现；fecam_adapted 是依据固定来源代码实现的时序特征适配，来源与许可证见 third_party/fecam。SLDA与FeCAM仅分类。v60已补齐当前较难分类集的SLDA、NCM和ridge，RanPAC风格等仍缺统一表示结果；EWC、LwF、DER++、A-GEM尚未找到已实现实验，不能填写结果。
 
 本轮FeCAM v59补充PhonemeSpectra/LSST/Handwriting，ER跨任务网络 v58 补充暖启动与监督头；后续仍须补充正则化/蒸馏/其他重放基线，不能把这两轮当作完整基线矩阵。
+
+最新同协议的SLDA/NCM/ridge结果和归一化诊断见 ANALYTIC_HEADS_REPORT.md。
