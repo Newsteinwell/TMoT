@@ -52,11 +52,13 @@ class ReplayFunctionalLearner:
         self.optimizer_steps=self.function.optimizer_steps;self.last_loss=self.function.last_loss
         self.historical_training_samples=0 if hx is None else len(hx)
         self.weight_summary=dict(current=float(w[:len(x)].sum()),history=float(w[len(x):].sum()),total=float(w.sum()))
-        if self.mode=='local':self.local.update(x,y)
+        if self.mode=='local':self.update_local(x,y)
         else:NonlinearMomentLearner._store_buffer(self,x,y)
         if self.task=='classification':
             for c in np.unique(y):self.counts[int(c)]=self.counts.get(int(c),0)+int(np.sum(y==c))
         self.seen+=len(x);self.stage+=1
+    def update_local(self,x,y):
+        self.local.update(x,y)
     def predict(self,x):
         scores=augment(self.function.transform(x))@self.readout
         return np.asarray(self.classes)[scores.argmax(1)] if self.task=='classification' else scores
