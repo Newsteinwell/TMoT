@@ -1,0 +1,942 @@
+{
+  "selected": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "regression",
+      "final": 0.9862612821505219,
+      "average": 0.7503606707634739,
+      "ridge": 10.0,
+      "source_queue": "regularized_innovation_v41",
+      "source_run": "air_quality_mantis_er_reg1_r10_o17_s42",
+      "persistent_bytes": 5991872
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 0.9883202322867797,
+      "average": 0.7727624909683464,
+      "ridge": 10.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "air_quality_mantis_gaussian_r10_o17_s42",
+      "persistent_bytes": 6043888
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 0.9774648127572741,
+      "average": 0.7577545409020747,
+      "ridge": 10.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "air_quality_mantis_rademacher_r10_o17_s42",
+      "persistent_bytes": 6043888
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "regression",
+      "final": 0.7515480874923031,
+      "average": 0.786324022921632,
+      "ridge": 0.01,
+      "source_queue": "regularized_innovation_v41",
+      "source_run": "air_quality_summary_er_reg1_r0.01_o17_s42",
+      "persistent_bytes": 5991872
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 0.8399310627607218,
+      "average": 0.7654045687302625,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "air_quality_summary_gaussian_r1_o17_s42",
+      "persistent_bytes": 6056224
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 0.8072735223010986,
+      "average": 0.7538657575741825,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "air_quality_summary_rademacher_r1_o17_s42",
+      "persistent_bytes": 6056224
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "regression",
+      "final": 42.92421240175181,
+      "average": 50.09247476429035,
+      "ridge": 1.0,
+      "source_queue": "regularized_innovation_v41",
+      "source_run": "beijing_pm25_mantis_er_reg1_r1_o17_s42",
+      "persistent_bytes": 7405712
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 46.149781596884566,
+      "average": 52.688264073743014,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "beijing_pm25_mantis_gaussian_r1_o17_s42",
+      "persistent_bytes": 6476916
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 46.1677054682528,
+      "average": 53.396330401620354,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "beijing_pm25_mantis_rademacher_r1_o17_s42",
+      "persistent_bytes": 6476916
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "regression",
+      "final": 39.28178334844671,
+      "average": 52.68096759885177,
+      "ridge": 1.0,
+      "source_queue": "regularized_innovation_v41",
+      "source_run": "beijing_pm25_summary_er_reg1_r1_o17_s42",
+      "persistent_bytes": 7405712
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 45.587006130195945,
+      "average": 56.36225971723091,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "beijing_pm25_summary_gaussian_r1_o17_s42",
+      "persistent_bytes": 6524112
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 45.92502121896025,
+      "average": 56.27904347726958,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "beijing_pm25_summary_rademacher_r1_o17_s42",
+      "persistent_bytes": 6524112
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "regression",
+      "final": 66.97469662509774,
+      "average": 71.79707560410205,
+      "ridge": 10.0,
+      "source_queue": "history_scale_v42",
+      "source_run": "energy_mantis_er_reg1_r10_o17_s42",
+      "persistent_bytes": 6547592
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 63.71637738635612,
+      "average": 71.54000338330133,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "energy_mantis_gaussian_r1_o17_s42",
+      "persistent_bytes": 6357884
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 65.30186875135196,
+      "average": 71.74963209612221,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "energy_mantis_rademacher_r1_o17_s42",
+      "persistent_bytes": 6357884
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "regression",
+      "final": 68.22038452666405,
+      "average": 77.87035341912744,
+      "ridge": 10.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "energy_summary_er_r10_o17_s42",
+      "persistent_bytes": 6547592
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "regression",
+      "final": 66.54252123455828,
+      "average": 76.43804021362118,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "energy_summary_gaussian_r1_o17_s42",
+      "persistent_bytes": 6442032
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "regression",
+      "final": 65.51846516817359,
+      "average": 75.03739242475696,
+      "ridge": 10.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "energy_summary_rademacher_r10_o17_s42",
+      "persistent_bytes": 6442032
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.4807692307692308,
+      "average": 0.46728874757720906,
+      "ridge": 0.01,
+      "source_queue": "harder_validation_v45",
+      "source_run": "handwriting_mantis_er_r0.01_o17_s42",
+      "persistent_bytes": 58988992
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.5192307692307693,
+      "average": 0.4679746001861386,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "handwriting_mantis_gaussian_r0.1_o17_s42",
+      "persistent_bytes": 59042552
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.4807692307692308,
+      "average": 0.4469923772808388,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "handwriting_mantis_rademacher_r0.1_o17_s42",
+      "persistent_bytes": 59042552
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.3076923076923077,
+      "average": 0.20742377280838817,
+      "ridge": 0.01,
+      "source_queue": "harder_validation_v45",
+      "source_run": "handwriting_summary_er_r0.01_o17_s42",
+      "persistent_bytes": 58988992
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.23076923076923078,
+      "average": 0.20568437972284126,
+      "ridge": 0.001,
+      "source_queue": "latent_replay_v47",
+      "source_run": "handwriting_summary_gaussian_r0.001_o17_s42",
+      "persistent_bytes": 59042552
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.2692307692307692,
+      "average": 0.2185164194779579,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "handwriting_summary_rademacher_r0.1_o17_s42",
+      "persistent_bytes": 59042552
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.6003831089994078,
+      "average": 0.7052181611353736,
+      "ridge": 1.0,
+      "source_queue": "harder_validation_v45",
+      "source_run": "lsst_mantis_er_r1_o17_s42",
+      "persistent_bytes": 37372816
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.5969510642473291,
+      "average": 0.6998564887575721,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "lsst_mantis_gaussian_r1_o17_s42",
+      "persistent_bytes": 34836928
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.5941860872888037,
+      "average": 0.7039268116758214,
+      "ridge": 1.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "lsst_mantis_rademacher_r1_o17_s42",
+      "persistent_bytes": 34836928
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.34777627657508814,
+      "average": 0.49526683205315275,
+      "ridge": 0.1,
+      "source_queue": "harder_validation_v45",
+      "source_run": "lsst_summary_er_r0.1_o17_s42",
+      "persistent_bytes": 37372816
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.2936688288131412,
+      "average": 0.46022483691767785,
+      "ridge": 0.001,
+      "source_queue": "latent_replay_v47",
+      "source_run": "lsst_summary_gaussian_r0.001_o17_s42",
+      "persistent_bytes": 34804144
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.2953551683178169,
+      "average": 0.4819326554089874,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "lsst_summary_rademacher_r0.1_o17_s42",
+      "persistent_bytes": 34804144
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.3363499245852187,
+      "average": 0.5005614751646931,
+      "ridge": 0.1,
+      "source_queue": "harder_validation_v45",
+      "source_run": "phonemespectra_mantis_er_r0.1_o17_s42",
+      "persistent_bytes": 90487592
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.3257918552036199,
+      "average": 0.48936764061179927,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "phonemespectra_mantis_gaussian_r0.1_o17_s42",
+      "persistent_bytes": 90878120
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.33484162895927605,
+      "average": 0.4883514822369903,
+      "ridge": 0.1,
+      "source_queue": "latent_replay_v47",
+      "source_run": "phonemespectra_mantis_rademacher_r0.1_o17_s42",
+      "persistent_bytes": 90878120
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "variant": "er",
+      "task": "classification",
+      "final": 0.10407239819004524,
+      "average": 0.18059020011817759,
+      "ridge": 1.0,
+      "source_queue": "harder_validation_v45",
+      "source_run": "phonemespectra_summary_er_r1_o17_s42",
+      "persistent_bytes": 90487592
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "variant": "gaussian",
+      "task": "classification",
+      "final": 0.1085972850678733,
+      "average": 0.1730335622930841,
+      "ridge": 0.01,
+      "source_queue": "latent_replay_v47",
+      "source_run": "phonemespectra_summary_gaussian_r0.01_o17_s42",
+      "persistent_bytes": 91156720
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "variant": "rademacher",
+      "task": "classification",
+      "final": 0.10256410256410256,
+      "average": 0.17968521559465606,
+      "ridge": 10.0,
+      "source_queue": "latent_replay_v47",
+      "source_run": "phonemespectra_summary_rademacher_r10_o17_s42",
+      "persistent_bytes": 91156720
+    }
+  ],
+  "fixed_ridge_pairs": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": 0.013307284460869484,
+      "average_gain": 0.02294170175458976
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": 0.007982757175440502,
+      "average_gain": 0.005910851106068149
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": 0.010855419529505528,
+      "average_gain": 0.015007950066271647
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": 0.0053310038949188066,
+      "average_gain": 0.00355722741930653
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": 3.633849074979878e-07,
+      "average_gain": 2.1464123308612137e-05
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": 0.013115451570121284,
+      "average_gain": 0.02307373851879979
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": 0.002442237873641284,
+      "average_gain": 0.00017512217189530332
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": 4.682840278813494e-05,
+      "average_gain": 5.626763728283635e-07
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": 0.012883511100429179,
+      "average_gain": 0.004936719307905846
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 0.018052656102335973,
+      "average_gain": 0.006985863490488464
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": 0.02743148650882854,
+      "average_gain": 0.007491025523378658
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": 0.03265754045962321,
+      "average_gain": 0.01153881115608002
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": -0.01792387136823237,
+      "average_gain": -0.70806632787734
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": 0.8592327548087368,
+      "average_gain": -0.05367662143320473
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": 0.9526269560741198,
+      "average_gain": -0.4036988429343751
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": 0.29090916069903017,
+      "average_gain": -0.41676677099728465
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": 2.152968393074545,
+      "average_gain": 1.0083417279525406
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": 0.9514197572236114,
+      "average_gain": -0.2970601170724976
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": 4.274582510188544,
+      "average_gain": 2.297359577131715
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": -0.3380150887643012,
+      "average_gain": 0.08321623996133098
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 0.5089041108565766,
+      "average_gain": 0.6666337560769335
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": -0.18103879996121464,
+      "average_gain": -0.018081668759243996
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": -0.1406712348690533,
+      "average_gain": 0.09103462774142201
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": 0.08144852178835293,
+      "average_gain": 0.10146408185096334
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": -2.0947207980435962,
+      "average_gain": -0.6734645129257615
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": -0.33721389703599414,
+      "average_gain": -0.06735157391433688
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": -1.585491364995839,
+      "average_gain": -0.20962871282088713
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": -0.45190718632082394,
+      "average_gain": -0.029266278089281172
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": -0.05290361380396291,
+      "average_gain": -0.011436248073394495
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": 0.23222568373986974,
+      "average_gain": 0.46162956345611406
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 1.1783720006959868,
+      "average_gain": 0.8645985777120444
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": 1.5991540205380232,
+      "average_gain": 0.8038856312475815
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": -0.14671536089015547,
+      "average_gain": 0.0018923980119467387
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": -0.5256758013838123,
+      "average_gain": 0.13730842855400738
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": -0.0073201797639370625,
+      "average_gain": -0.000870928884779687
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": 0.5383452840927418,
+      "average_gain": 0.8150908896882356
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": -3.8461538461538494,
+      "average_gain": -2.098222290529983
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": 0.0,
+      "average_gain": 0.0
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": 0.0,
+      "average_gain": -4.299450549450551
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": 0.0,
+      "average_gain": -0.2089577089577077
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": 0.0,
+      "average_gain": -2.3305860805860834
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": 0.0,
+      "average_gain": 0.0
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": 0.0,
+      "average_gain": 2.329059829059828
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": 0.0,
+      "average_gain": 0.5494505494505475
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": 3.8461538461538436,
+      "average_gain": 1.5779092702169621
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": -7.6923076923076925,
+      "average_gain": 0.0638784292630451
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": 7.6923076923076925,
+      "average_gain": 0.33530571992110847
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 0.0,
+      "average_gain": 0.0
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": -0.11520737327189723,
+      "average_gain": 0.29342009756756493
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": -0.6210116205871752,
+      "average_gain": 0.4777504798929133
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": -0.29761904761903546,
+      "average_gain": -0.02962866058103808
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": 0.31690233303136583,
+      "average_gain": 0.36316464681732663
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": -0.27649769585254,
+      "average_gain": 0.40703229182492695
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": 1.668882193075738,
+      "average_gain": 0.16814241332190338
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": 0.07608281801830263,
+      "average_gain": 1.16152805208104
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": -0.13238742016331018,
+      "average_gain": 0.027997590573386466
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": -0.822107999527355,
+      "average_gain": 0.9052929730025749
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 0.10923365762075532,
+      "average_gain": 0.26837996020024346
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": 0.7312524141895926,
+      "average_gain": 0.33376997280707976
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": 1.030039255845705,
+      "average_gain": 0.4486720793212884
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 1.0,
+      "final_gain": -0.3016591251885359,
+      "average_gain": -0.38836001890804606
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 100.0,
+      "final_gain": 0.0,
+      "average_gain": -0.32004445917418467
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 0.1,
+      "final_gain": 0.9049773755656132,
+      "average_gain": -0.10161583748089509
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 0.01,
+      "final_gain": 0.4524886877828038,
+      "average_gain": -1.059644172741775
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 0.001,
+      "final_gain": 0.3016591251885359,
+      "average_gain": -0.9741581581435066
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "ridge": 10.0,
+      "final_gain": 0.0,
+      "average_gain": -0.31256622263756695
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 0.01,
+      "final_gain": -1.0558069381598798,
+      "average_gain": -0.4219127056230343
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 1.0,
+      "final_gain": -0.4524886877828066,
+      "average_gain": -0.2651605076604918
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 0.1,
+      "final_gain": -0.3016591251885345,
+      "average_gain": -0.5709626277780572
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 0.001,
+      "final_gain": -1.055806938159877,
+      "average_gain": -0.2031015298421368
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 100.0,
+      "final_gain": 0.4524886877828066,
+      "average_gain": 0.3017125019871836
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "ridge": 10.0,
+      "final_gain": 1.8099547511312222,
+      "average_gain": 0.35140485136203603
+    }
+  ]
+}

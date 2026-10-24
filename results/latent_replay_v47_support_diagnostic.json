@@ -1,0 +1,5622 @@
+{
+  "complete": true,
+  "note": "Empirical TRAIN span is not the true population manifold; outside variance may regularize or harm, not a causal performance verdict",
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "cells": 13,
+      "risk_weighted_variance_fraction_outside": 0.07977464329529033,
+      "details": [
+        {
+          "label": null,
+          "n": 15,
+          "rank": 14,
+          "dimension": 513,
+          "total_variance": 64.00527043998451,
+          "outside_variance": 5.499034499361651,
+          "outside_fraction": 0.0859153388706935,
+          "weight": 0.125
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 1005.9028663626852,
+          "outside_variance": 57.35774247570846,
+          "outside_fraction": 0.057021154222487054,
+          "weight": 0.05
+        },
+        {
+          "label": null,
+          "n": 8,
+          "rank": 7,
+          "dimension": 513,
+          "total_variance": 41.05426836907939,
+          "outside_variance": 3.128823578186621,
+          "outside_fraction": 0.07621189470625518,
+          "weight": 0.06666666666666667
+        },
+        {
+          "label": null,
+          "n": 8,
+          "rank": 7,
+          "dimension": 513,
+          "total_variance": 33.94839697430541,
+          "outside_variance": 2.789329702414218,
+          "outside_fraction": 0.08216381187380904,
+          "weight": 0.06666666666666667
+        },
+        {
+          "label": null,
+          "n": 13,
+          "rank": 12,
+          "dimension": 513,
+          "total_variance": 561.4872733841505,
+          "outside_variance": 43.729244061020665,
+          "outside_fraction": 0.07788109567908692,
+          "weight": 0.10833333333333334
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 48.10509387567493,
+          "outside_variance": 3.6975493392464758,
+          "outside_fraction": 0.07686398760186595,
+          "weight": 0.05
+        },
+        {
+          "label": null,
+          "n": 4,
+          "rank": 3,
+          "dimension": 513,
+          "total_variance": 44.556419582412076,
+          "outside_variance": 3.190858081680809,
+          "outside_fraction": 0.07161387992091602,
+          "weight": 0.03333333333333333
+        },
+        {
+          "label": null,
+          "n": 8,
+          "rank": 7,
+          "dimension": 513,
+          "total_variance": 1317.7802526488504,
+          "outside_variance": 118.51465175929197,
+          "outside_fraction": 0.08993506430307135,
+          "weight": 0.06666666666666667
+        },
+        {
+          "label": null,
+          "n": 11,
+          "rank": 10,
+          "dimension": 513,
+          "total_variance": 127.8287784305615,
+          "outside_variance": 11.219898971745128,
+          "outside_fraction": 0.08777287172340416,
+          "weight": 0.09166666666666666
+        },
+        {
+          "label": null,
+          "n": 16,
+          "rank": 15,
+          "dimension": 513,
+          "total_variance": 81.61655722858006,
+          "outside_variance": 6.473086232804144,
+          "outside_fraction": 0.07931094440402875,
+          "weight": 0.13333333333333333
+        },
+        {
+          "label": null,
+          "n": 9,
+          "rank": 8,
+          "dimension": 513,
+          "total_variance": 698.4811957926004,
+          "outside_variance": 60.443911950726445,
+          "outside_fraction": 0.08653620500425616,
+          "weight": 0.075
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 48.66527199856119,
+          "outside_variance": 3.667167607327179,
+          "outside_fraction": 0.07535491854305469,
+          "weight": 0.05
+        },
+        {
+          "label": null,
+          "n": 10,
+          "rank": 9,
+          "dimension": 513,
+          "total_variance": 109.64898320355547,
+          "outside_variance": 7.657136997218546,
+          "outside_fraction": 0.06983317832508872,
+          "weight": 0.08333333333333333
+        }
+      ]
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "cells": 16,
+      "risk_weighted_variance_fraction_outside": 0.0782484535827461,
+      "details": [
+        {
+          "label": null,
+          "n": 11,
+          "rank": 10,
+          "dimension": 513,
+          "total_variance": 460.19341759415056,
+          "outside_variance": 37.16970345187571,
+          "outside_fraction": 0.08076974165818267,
+          "weight": 0.09166666666666666
+        },
+        {
+          "label": null,
+          "n": 10,
+          "rank": 9,
+          "dimension": 513,
+          "total_variance": 402.7962172158203,
+          "outside_variance": 34.35637581236257,
+          "outside_fraction": 0.08529468337572357,
+          "weight": 0.08333333333333333
+        },
+        {
+          "label": null,
+          "n": 8,
+          "rank": 7,
+          "dimension": 513,
+          "total_variance": 420.3541903093178,
+          "outside_variance": 33.40435523238989,
+          "outside_fraction": 0.07946716365027616,
+          "weight": 0.06666666666666667
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 225.5996517966717,
+          "outside_variance": 13.529786966399893,
+          "outside_fraction": 0.059972552522350564,
+          "weight": 0.05
+        },
+        {
+          "label": null,
+          "n": 15,
+          "rank": 14,
+          "dimension": 513,
+          "total_variance": 365.83495926247195,
+          "outside_variance": 29.678846455934075,
+          "outside_fraction": 0.08112632678890781,
+          "weight": 0.125
+        },
+        {
+          "label": null,
+          "n": 5,
+          "rank": 4,
+          "dimension": 513,
+          "total_variance": 341.5021400198713,
+          "outside_variance": 30.193511400206635,
+          "outside_fraction": 0.08841382779753514,
+          "weight": 0.041666666666666664
+        },
+        {
+          "label": null,
+          "n": 5,
+          "rank": 4,
+          "dimension": 513,
+          "total_variance": 1040.7713218082242,
+          "outside_variance": 83.48534459631618,
+          "outside_fraction": 0.08021487799190094,
+          "weight": 0.041666666666666664
+        },
+        {
+          "label": null,
+          "n": 4,
+          "rank": 3,
+          "dimension": 513,
+          "total_variance": 262.83148516882056,
+          "outside_variance": 21.05111826293921,
+          "outside_fraction": 0.08009359399775778,
+          "weight": 0.03333333333333333
+        },
+        {
+          "label": null,
+          "n": 4,
+          "rank": 3,
+          "dimension": 513,
+          "total_variance": 357.0324618719493,
+          "outside_variance": 21.237381303788915,
+          "outside_fraction": 0.0594830542647009,
+          "weight": 0.03333333333333333
+        },
+        {
+          "label": null,
+          "n": 5,
+          "rank": 4,
+          "dimension": 513,
+          "total_variance": 327.2658372095648,
+          "outside_variance": 25.246406383031,
+          "outside_fraction": 0.07714342137967935,
+          "weight": 0.041666666666666664
+        },
+        {
+          "label": null,
+          "n": 9,
+          "rank": 8,
+          "dimension": 513,
+          "total_variance": 304.6048416249671,
+          "outside_variance": 24.65144841944968,
+          "outside_fraction": 0.0809292731131333,
+          "weight": 0.075
+        },
+        {
+          "label": null,
+          "n": 7,
+          "rank": 6,
+          "dimension": 513,
+          "total_variance": 274.7460538360961,
+          "outside_variance": 21.113940241127796,
+          "outside_fraction": 0.07684892993485408,
+          "weight": 0.058333333333333334
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 202.54447848899946,
+          "outside_variance": 12.645846008449158,
+          "outside_fraction": 0.06243490863235739,
+          "weight": 0.05
+        },
+        {
+          "label": null,
+          "n": 11,
+          "rank": 10,
+          "dimension": 513,
+          "total_variance": 405.3114287089421,
+          "outside_variance": 29.68360036287197,
+          "outside_fraction": 0.07323652446076974,
+          "weight": 0.09166666666666666
+        },
+        {
+          "label": null,
+          "n": 7,
+          "rank": 6,
+          "dimension": 513,
+          "total_variance": 376.07912317403316,
+          "outside_variance": 31.107259095061828,
+          "outside_fraction": 0.08271466608548418,
+          "weight": 0.058333333333333334
+        },
+        {
+          "label": null,
+          "n": 7,
+          "rank": 6,
+          "dimension": 513,
+          "total_variance": 308.1553333813919,
+          "outside_variance": 22.388035895421343,
+          "outside_fraction": 0.07265178781673896,
+          "weight": 0.058333333333333334
+        }
+      ]
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "cells": 20,
+      "risk_weighted_variance_fraction_outside": 0.10922273224575929,
+      "details": [
+        {
+          "label": null,
+          "n": 87,
+          "rank": 86,
+          "dimension": 513,
+          "total_variance": 254.82892690513887,
+          "outside_variance": 29.35731167378419,
+          "outside_fraction": 0.11520399991604002,
+          "weight": 0.10807453416149068
+        },
+        {
+          "label": null,
+          "n": 24,
+          "rank": 23,
+          "dimension": 513,
+          "total_variance": 593.1161701985884,
+          "outside_variance": 48.47256052430493,
+          "outside_fraction": 0.08172523859545971,
+          "weight": 0.02981366459627329
+        },
+        {
+          "label": null,
+          "n": 39,
+          "rank": 38,
+          "dimension": 513,
+          "total_variance": 225.99191858860016,
+          "outside_variance": 28.863479076302156,
+          "outside_fraction": 0.12771907622433953,
+          "weight": 0.0484472049689441
+        },
+        {
+          "label": null,
+          "n": 10,
+          "rank": 9,
+          "dimension": 513,
+          "total_variance": 391.2011803928426,
+          "outside_variance": 33.969039483157786,
+          "outside_fraction": 0.0868326610084515,
+          "weight": 0.012422360248447204
+        },
+        {
+          "label": null,
+          "n": 24,
+          "rank": 23,
+          "dimension": 513,
+          "total_variance": 375.82395866416607,
+          "outside_variance": 35.2228344986725,
+          "outside_fraction": 0.09372163132938366,
+          "weight": 0.02981366459627329
+        },
+        {
+          "label": null,
+          "n": 10,
+          "rank": 9,
+          "dimension": 513,
+          "total_variance": 142.04762393705442,
+          "outside_variance": 12.760314358222153,
+          "outside_fraction": 0.08983124113273892,
+          "weight": 0.012422360248447204
+        },
+        {
+          "label": null,
+          "n": 29,
+          "rank": 28,
+          "dimension": 513,
+          "total_variance": 443.20142632996107,
+          "outside_variance": 36.52439799046917,
+          "outside_fraction": 0.0824103800678587,
+          "weight": 0.03602484472049689
+        },
+        {
+          "label": null,
+          "n": 81,
+          "rank": 80,
+          "dimension": 513,
+          "total_variance": 241.21811329604924,
+          "outside_variance": 31.701233465232526,
+          "outside_fraction": 0.13142144688912855,
+          "weight": 0.10062111801242236
+        },
+        {
+          "label": null,
+          "n": 11,
+          "rank": 10,
+          "dimension": 513,
+          "total_variance": 273.89749033487124,
+          "outside_variance": 24.77096497036964,
+          "outside_fraction": 0.09043881687299976,
+          "weight": 0.013664596273291925
+        },
+        {
+          "label": null,
+          "n": 17,
+          "rank": 16,
+          "dimension": 513,
+          "total_variance": 307.8595449827868,
+          "outside_variance": 27.520422996919788,
+          "outside_fraction": 0.08939278786518873,
+          "weight": 0.02111801242236025
+        },
+        {
+          "label": null,
+          "n": 30,
+          "rank": 29,
+          "dimension": 513,
+          "total_variance": 431.8680836471655,
+          "outside_variance": 40.47036241420111,
+          "outside_fraction": 0.09371000994661424,
+          "weight": 0.037267080745341616
+        },
+        {
+          "label": null,
+          "n": 105,
+          "rank": 104,
+          "dimension": 513,
+          "total_variance": 264.46224001423724,
+          "outside_variance": 32.239630664316294,
+          "outside_fraction": 0.12190636615110227,
+          "weight": 0.13043478260869565
+        },
+        {
+          "label": null,
+          "n": 31,
+          "rank": 30,
+          "dimension": 513,
+          "total_variance": 293.57864013243045,
+          "outside_variance": 30.04779637086596,
+          "outside_fraction": 0.10235007682204568,
+          "weight": 0.03850931677018633
+        },
+        {
+          "label": null,
+          "n": 41,
+          "rank": 40,
+          "dimension": 513,
+          "total_variance": 339.226773754299,
+          "outside_variance": 36.96636220818353,
+          "outside_fraction": 0.10897241924352989,
+          "weight": 0.05093167701863354
+        },
+        {
+          "label": null,
+          "n": 14,
+          "rank": 13,
+          "dimension": 513,
+          "total_variance": 419.40844479778553,
+          "outside_variance": 36.09305447188157,
+          "outside_fraction": 0.08605705230681168,
+          "weight": 0.017391304347826087
+        },
+        {
+          "label": null,
+          "n": 83,
+          "rank": 82,
+          "dimension": 513,
+          "total_variance": 220.85642758800992,
+          "outside_variance": 28.317563762745788,
+          "outside_fraction": 0.1282170687627437,
+          "weight": 0.1031055900621118
+        },
+        {
+          "label": null,
+          "n": 39,
+          "rank": 38,
+          "dimension": 513,
+          "total_variance": 300.2389827462341,
+          "outside_variance": 28.308014876666405,
+          "outside_fraction": 0.09428494134152028,
+          "weight": 0.0484472049689441
+        },
+        {
+          "label": null,
+          "n": 21,
+          "rank": 20,
+          "dimension": 513,
+          "total_variance": 333.01607263229226,
+          "outside_variance": 30.064073852357502,
+          "outside_fraction": 0.09027814668138698,
+          "weight": 0.02608695652173913
+        },
+        {
+          "label": null,
+          "n": 18,
+          "rank": 17,
+          "dimension": 513,
+          "total_variance": 156.63477953113065,
+          "outside_variance": 14.181774012578344,
+          "outside_fraction": 0.09054038991231678,
+          "weight": 0.02236024844720497
+        },
+        {
+          "label": null,
+          "n": 91,
+          "rank": 90,
+          "dimension": 513,
+          "total_variance": 196.857396905531,
+          "outside_variance": 26.827860645483806,
+          "outside_fraction": 0.13628068371928187,
+          "weight": 0.11304347826086956
+        }
+      ]
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "cells": 20,
+      "risk_weighted_variance_fraction_outside": 0.24630446169308007,
+      "details": [
+        {
+          "label": null,
+          "n": 37,
+          "rank": 36,
+          "dimension": 513,
+          "total_variance": 434.19957993656385,
+          "outside_variance": 106.92643719180649,
+          "outside_fraction": 0.24626103324979803,
+          "weight": 0.04596273291925466
+        },
+        {
+          "label": null,
+          "n": 38,
+          "rank": 37,
+          "dimension": 513,
+          "total_variance": 420.90752522717025,
+          "outside_variance": 106.4613365745758,
+          "outside_fraction": 0.25293284199924193,
+          "weight": 0.04720496894409938
+        },
+        {
+          "label": null,
+          "n": 45,
+          "rank": 44,
+          "dimension": 513,
+          "total_variance": 456.76220616701715,
+          "outside_variance": 117.22224608901888,
+          "outside_fraction": 0.25663735857812203,
+          "weight": 0.055900621118012424
+        },
+        {
+          "label": null,
+          "n": 40,
+          "rank": 39,
+          "dimension": 513,
+          "total_variance": 426.90737512124383,
+          "outside_variance": 104.50954962158552,
+          "outside_fraction": 0.2448061469818934,
+          "weight": 0.049689440993788817
+        },
+        {
+          "label": null,
+          "n": 29,
+          "rank": 28,
+          "dimension": 513,
+          "total_variance": 425.1618078147568,
+          "outside_variance": 84.3529467882033,
+          "outside_fraction": 0.19840198540353352,
+          "weight": 0.03602484472049689
+        },
+        {
+          "label": null,
+          "n": 44,
+          "rank": 43,
+          "dimension": 513,
+          "total_variance": 459.4389509570876,
+          "outside_variance": 121.35353857383149,
+          "outside_fraction": 0.2641341974184642,
+          "weight": 0.0546583850931677
+        },
+        {
+          "label": null,
+          "n": 35,
+          "rank": 34,
+          "dimension": 513,
+          "total_variance": 397.97379440743,
+          "outside_variance": 89.51594536826256,
+          "outside_fraction": 0.22492924565937536,
+          "weight": 0.043478260869565216
+        },
+        {
+          "label": null,
+          "n": 36,
+          "rank": 35,
+          "dimension": 513,
+          "total_variance": 401.54530781602,
+          "outside_variance": 91.4540135405501,
+          "outside_fraction": 0.22775515430117413,
+          "weight": 0.04472049689440994
+        },
+        {
+          "label": null,
+          "n": 25,
+          "rank": 24,
+          "dimension": 513,
+          "total_variance": 476.95756175069926,
+          "outside_variance": 75.70246409925804,
+          "outside_fraction": 0.1587194965971143,
+          "weight": 0.031055900621118012
+        },
+        {
+          "label": null,
+          "n": 64,
+          "rank": 63,
+          "dimension": 513,
+          "total_variance": 454.7941444511313,
+          "outside_variance": 133.96145760848646,
+          "outside_fraction": 0.2945540509765313,
+          "weight": 0.07950310559006211
+        },
+        {
+          "label": null,
+          "n": 50,
+          "rank": 49,
+          "dimension": 513,
+          "total_variance": 430.57662164096104,
+          "outside_variance": 118.23926585009886,
+          "outside_fraction": 0.2746067944875405,
+          "weight": 0.062111801242236024
+        },
+        {
+          "label": null,
+          "n": 24,
+          "rank": 23,
+          "dimension": 513,
+          "total_variance": 409.5858693985084,
+          "outside_variance": 64.91996718435782,
+          "outside_fraction": 0.15850148170320214,
+          "weight": 0.02981366459627329
+        },
+        {
+          "label": null,
+          "n": 52,
+          "rank": 51,
+          "dimension": 513,
+          "total_variance": 459.3033234177783,
+          "outside_variance": 132.67109084926653,
+          "outside_fraction": 0.2888528867198944,
+          "weight": 0.06459627329192547
+        },
+        {
+          "label": null,
+          "n": 31,
+          "rank": 30,
+          "dimension": 513,
+          "total_variance": 452.8910025206002,
+          "outside_variance": 94.21124858908802,
+          "outside_fraction": 0.2080219038681448,
+          "weight": 0.03850931677018633
+        },
+        {
+          "label": null,
+          "n": 39,
+          "rank": 38,
+          "dimension": 513,
+          "total_variance": 468.3066669668101,
+          "outside_variance": 108.32204749623507,
+          "outside_fraction": 0.231305798394521,
+          "weight": 0.0484472049689441
+        },
+        {
+          "label": null,
+          "n": 47,
+          "rank": 46,
+          "dimension": 513,
+          "total_variance": 426.9200392262877,
+          "outside_variance": 109.56543014423508,
+          "outside_fraction": 0.25664157237219837,
+          "weight": 0.058385093167701865
+        },
+        {
+          "label": null,
+          "n": 37,
+          "rank": 36,
+          "dimension": 513,
+          "total_variance": 428.8991679150925,
+          "outside_variance": 100.70324817840454,
+          "outside_fraction": 0.23479469234675773,
+          "weight": 0.04596273291925466
+        },
+        {
+          "label": null,
+          "n": 47,
+          "rank": 46,
+          "dimension": 513,
+          "total_variance": 445.5495106342811,
+          "outside_variance": 110.62995015068614,
+          "outside_fraction": 0.24830001494826948,
+          "weight": 0.058385093167701865
+        },
+        {
+          "label": null,
+          "n": 37,
+          "rank": 36,
+          "dimension": 513,
+          "total_variance": 474.84471808460904,
+          "outside_variance": 109.52673758908495,
+          "outside_fraction": 0.23065800969817082,
+          "weight": 0.04596273291925466
+        },
+        {
+          "label": null,
+          "n": 48,
+          "rank": 47,
+          "dimension": 513,
+          "total_variance": 403.7001671935725,
+          "outside_variance": 107.79232153224515,
+          "outside_fraction": 0.26701084193645924,
+          "weight": 0.05962732919254658
+        }
+      ]
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "cells": 18,
+      "risk_weighted_variance_fraction_outside": 0.1672680074530277,
+      "details": [
+        {
+          "label": null,
+          "n": 21,
+          "rank": 20,
+          "dimension": 513,
+          "total_variance": 361.1806828201442,
+          "outside_variance": 45.6466094790961,
+          "outside_fraction": 0.1263816467776782,
+          "weight": 0.05384615384615385
+        },
+        {
+          "label": null,
+          "n": 8,
+          "rank": 7,
+          "dimension": 513,
+          "total_variance": 545.2739679867766,
+          "outside_variance": 46.87357676686305,
+          "outside_fraction": 0.08596334965325134,
+          "weight": 0.020512820512820513
+        },
+        {
+          "label": null,
+          "n": 16,
+          "rank": 15,
+          "dimension": 513,
+          "total_variance": 197.4077038091411,
+          "outside_variance": 18.157092312855397,
+          "outside_fraction": 0.09197762783569047,
+          "weight": 0.041025641025641026
+        },
+        {
+          "label": null,
+          "n": 33,
+          "rank": 32,
+          "dimension": 513,
+          "total_variance": 247.77174494889493,
+          "outside_variance": 65.14911436780652,
+          "outside_fraction": 0.2629400474264896,
+          "weight": 0.08461538461538462
+        },
+        {
+          "label": null,
+          "n": 46,
+          "rank": 45,
+          "dimension": 513,
+          "total_variance": 230.29102806643039,
+          "outside_variance": 76.90122571477909,
+          "outside_fraction": 0.3339306197052364,
+          "weight": 0.11794871794871795
+        },
+        {
+          "label": null,
+          "n": 15,
+          "rank": 14,
+          "dimension": 513,
+          "total_variance": 663.6279522545644,
+          "outside_variance": 50.15830568399589,
+          "outside_fraction": 0.07558196654253559,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": null,
+          "n": 4,
+          "rank": 3,
+          "dimension": 513,
+          "total_variance": 602.3307990331,
+          "outside_variance": 30.366485752883854,
+          "outside_fraction": 0.05041496433791877,
+          "weight": 0.010256410256410256
+        },
+        {
+          "label": null,
+          "n": 13,
+          "rank": 12,
+          "dimension": 513,
+          "total_variance": 285.6114714179,
+          "outside_variance": 25.550104713848697,
+          "outside_fraction": 0.08945755780398744,
+          "weight": 0.03333333333333333
+        },
+        {
+          "label": null,
+          "n": 21,
+          "rank": 20,
+          "dimension": 513,
+          "total_variance": 352.6758258969286,
+          "outside_variance": 44.424977230237026,
+          "outside_fraction": 0.12596547301549516,
+          "weight": 0.05384615384615385
+        },
+        {
+          "label": null,
+          "n": 16,
+          "rank": 15,
+          "dimension": 513,
+          "total_variance": 283.1230924330003,
+          "outside_variance": 25.038661093206123,
+          "outside_fraction": 0.08843736792374646,
+          "weight": 0.041025641025641026
+        },
+        {
+          "label": null,
+          "n": 20,
+          "rank": 19,
+          "dimension": 513,
+          "total_variance": 401.89525944781536,
+          "outside_variance": 42.559782448552866,
+          "outside_fraction": 0.10589769709408353,
+          "weight": 0.05128205128205128
+        },
+        {
+          "label": null,
+          "n": 21,
+          "rank": 20,
+          "dimension": 513,
+          "total_variance": 217.6782568834089,
+          "outside_variance": 30.191675228101836,
+          "outside_fraction": 0.13869862640563527,
+          "weight": 0.05384615384615385
+        },
+        {
+          "label": null,
+          "n": 57,
+          "rank": 56,
+          "dimension": 513,
+          "total_variance": 357.25924712022476,
+          "outside_variance": 98.43134931331372,
+          "outside_fraction": 0.27551798898627144,
+          "weight": 0.14615384615384616
+        },
+        {
+          "label": null,
+          "n": 7,
+          "rank": 6,
+          "dimension": 513,
+          "total_variance": 225.33240239108596,
+          "outside_variance": 19.00082298497705,
+          "outside_fraction": 0.0843235273016763,
+          "weight": 0.017948717948717947
+        },
+        {
+          "label": null,
+          "n": 14,
+          "rank": 13,
+          "dimension": 513,
+          "total_variance": 208.63431260565122,
+          "outside_variance": 18.612038608648255,
+          "outside_fraction": 0.08920890517097098,
+          "weight": 0.035897435897435895
+        },
+        {
+          "label": null,
+          "n": 19,
+          "rank": 18,
+          "dimension": 513,
+          "total_variance": 438.884685721006,
+          "outside_variance": 43.63900088903033,
+          "outside_fraction": 0.09943158717725491,
+          "weight": 0.04871794871794872
+        },
+        {
+          "label": null,
+          "n": 27,
+          "rank": 26,
+          "dimension": 513,
+          "total_variance": 488.15644944586927,
+          "outside_variance": 70.81756070289,
+          "outside_fraction": 0.14507144335238947,
+          "weight": 0.06923076923076923
+        },
+        {
+          "label": null,
+          "n": 32,
+          "rank": 31,
+          "dimension": 513,
+          "total_variance": 420.7954544037615,
+          "outside_variance": 74.68237184737998,
+          "outside_fraction": 0.17747903658607678,
+          "weight": 0.08205128205128205
+        }
+      ]
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "cells": 20,
+      "risk_weighted_variance_fraction_outside": 0.13356473662914609,
+      "details": [
+        {
+          "label": null,
+          "n": 20,
+          "rank": 19,
+          "dimension": 513,
+          "total_variance": 377.33801955438776,
+          "outside_variance": 42.70242150432142,
+          "outside_fraction": 0.11316755612050508,
+          "weight": 0.05128205128205128
+        },
+        {
+          "label": null,
+          "n": 37,
+          "rank": 36,
+          "dimension": 513,
+          "total_variance": 341.2331335240122,
+          "outside_variance": 73.53926883691227,
+          "outside_fraction": 0.21551034062094498,
+          "weight": 0.09487179487179487
+        },
+        {
+          "label": null,
+          "n": 6,
+          "rank": 5,
+          "dimension": 513,
+          "total_variance": 212.10122378388692,
+          "outside_variance": 16.230514090031626,
+          "outside_fraction": 0.07652249148062029,
+          "weight": 0.015384615384615385
+        },
+        {
+          "label": null,
+          "n": 15,
+          "rank": 14,
+          "dimension": 513,
+          "total_variance": 509.01901581032956,
+          "outside_variance": 46.584785238962155,
+          "outside_fraction": 0.09151875232952114,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": null,
+          "n": 28,
+          "rank": 27,
+          "dimension": 513,
+          "total_variance": 330.4841598582612,
+          "outside_variance": 60.96590068393921,
+          "outside_fraction": 0.18447450162236642,
+          "weight": 0.07179487179487179
+        },
+        {
+          "label": null,
+          "n": 20,
+          "rank": 19,
+          "dimension": 513,
+          "total_variance": 304.86920193793514,
+          "outside_variance": 33.51909716060112,
+          "outside_fraction": 0.10994582905565152,
+          "weight": 0.05128205128205128
+        },
+        {
+          "label": null,
+          "n": 21,
+          "rank": 20,
+          "dimension": 513,
+          "total_variance": 296.63522937135525,
+          "outside_variance": 34.07924859274884,
+          "outside_fraction": 0.11488604595270545,
+          "weight": 0.05384615384615385
+        },
+        {
+          "label": null,
+          "n": 9,
+          "rank": 8,
+          "dimension": 513,
+          "total_variance": 280.1103165944076,
+          "outside_variance": 24.520221392263945,
+          "outside_fraction": 0.087537730456992,
+          "weight": 0.023076923076923078
+        },
+        {
+          "label": null,
+          "n": 19,
+          "rank": 18,
+          "dimension": 513,
+          "total_variance": 332.3360330341791,
+          "outside_variance": 33.755603615354055,
+          "outside_fraction": 0.10157070031549201,
+          "weight": 0.04871794871794872
+        },
+        {
+          "label": null,
+          "n": 23,
+          "rank": 22,
+          "dimension": 513,
+          "total_variance": 315.3923359313036,
+          "outside_variance": 45.61682582980381,
+          "outside_fraction": 0.14463517540812953,
+          "weight": 0.05897435897435897
+        },
+        {
+          "label": null,
+          "n": 31,
+          "rank": 30,
+          "dimension": 513,
+          "total_variance": 307.30623688106175,
+          "outside_variance": 56.30639154337805,
+          "outside_fraction": 0.1832256712875326,
+          "weight": 0.07948717948717948
+        },
+        {
+          "label": null,
+          "n": 5,
+          "rank": 4,
+          "dimension": 513,
+          "total_variance": 273.8417940157371,
+          "outside_variance": 18.262288811703698,
+          "outside_fraction": 0.06668919504177001,
+          "weight": 0.01282051282051282
+        },
+        {
+          "label": null,
+          "n": 23,
+          "rank": 22,
+          "dimension": 513,
+          "total_variance": 284.6303329571402,
+          "outside_variance": 37.57183480422032,
+          "outside_fraction": 0.13200221639721693,
+          "weight": 0.05897435897435897
+        },
+        {
+          "label": null,
+          "n": 23,
+          "rank": 22,
+          "dimension": 513,
+          "total_variance": 264.8932481411155,
+          "outside_variance": 37.125194969682425,
+          "outside_fraction": 0.14015153360913477,
+          "weight": 0.05897435897435897
+        },
+        {
+          "label": null,
+          "n": 18,
+          "rank": 17,
+          "dimension": 513,
+          "total_variance": 318.74226618694274,
+          "outside_variance": 28.839600865461996,
+          "outside_fraction": 0.09047937448166204,
+          "weight": 0.046153846153846156
+        },
+        {
+          "label": null,
+          "n": 14,
+          "rank": 13,
+          "dimension": 513,
+          "total_variance": 306.5956416767254,
+          "outside_variance": 27.725304318476535,
+          "outside_fraction": 0.09042954481300197,
+          "weight": 0.035897435897435895
+        },
+        {
+          "label": null,
+          "n": 13,
+          "rank": 12,
+          "dimension": 513,
+          "total_variance": 420.21276370501533,
+          "outside_variance": 34.59454404647791,
+          "outside_fraction": 0.08232625715948716,
+          "weight": 0.03333333333333333
+        },
+        {
+          "label": null,
+          "n": 20,
+          "rank": 19,
+          "dimension": 513,
+          "total_variance": 367.53018288119443,
+          "outside_variance": 37.550773508238635,
+          "outside_fraction": 0.10217058423301541,
+          "weight": 0.05128205128205128
+        },
+        {
+          "label": null,
+          "n": 28,
+          "rank": 27,
+          "dimension": 513,
+          "total_variance": 311.31209572402395,
+          "outside_variance": 53.34780576093619,
+          "outside_fraction": 0.1713643847884043,
+          "weight": 0.07179487179487179
+        },
+        {
+          "label": null,
+          "n": 17,
+          "rank": 16,
+          "dimension": 513,
+          "total_variance": 342.4362912101058,
+          "outside_variance": 30.564812200655602,
+          "outside_fraction": 0.0892569303698661,
+          "weight": 0.04358974358974359
+        }
+      ]
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "cells": 27,
+      "risk_weighted_variance_fraction_outside": 0.09863605578122162,
+      "details": [
+        {
+          "label": 3,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 266.02157666756796,
+          "outside_variance": 26.316600216857807,
+          "outside_fraction": 0.09892656282442897,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 6,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 457.03101012971405,
+          "outside_variance": 44.92386431043985,
+          "outside_fraction": 0.0982950025594316,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 17,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 172.53406381593356,
+          "outside_variance": 17.02732460118871,
+          "outside_fraction": 0.09868963974183186,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 20,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 132.08563701223883,
+          "outside_variance": 13.096972835513911,
+          "outside_fraction": 0.09915516275475408,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 4,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 154.64567576570923,
+          "outside_variance": 15.224056650562122,
+          "outside_fraction": 0.09844476138878155,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 5,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 304.0581464914493,
+          "outside_variance": 30.136583147834248,
+          "outside_fraction": 0.09911453942472068,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 12,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 203.47708730150606,
+          "outside_variance": 20.125278869859343,
+          "outside_fraction": 0.09890685549296431,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 24,
+          "n": 1,
+          "rank": 0,
+          "dimension": 512,
+          "total_variance": 0.0,
+          "outside_variance": 0.0,
+          "outside_fraction": 0.0,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 14,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 441.3946385088185,
+          "outside_variance": 43.64561806873443,
+          "outside_fraction": 0.09888116950442398,
+          "weight": 0.019230769230769232
+        },
+        {
+          "label": 14,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 152.08969825430285,
+          "outside_variance": 15.045336420541792,
+          "outside_fraction": 0.09892409935211464,
+          "weight": 0.019230769230769232
+        },
+        {
+          "label": 22,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 311.6017045189302,
+          "outside_variance": 30.54162702959672,
+          "outside_fraction": 0.09801495494624703,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 16,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 351.49342805116316,
+          "outside_variance": 34.84964147223113,
+          "outside_fraction": 0.09914734868715222,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 23,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 197.55971048094165,
+          "outside_variance": 19.493285642656982,
+          "outside_fraction": 0.09867034930959506,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 8,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 247.03919763973315,
+          "outside_variance": 24.375658502112717,
+          "outside_fraction": 0.0986712179079398,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 9,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 225.59653113331575,
+          "outside_variance": 22.249398897912798,
+          "outside_fraction": 0.0986247385371567,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 7,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 323.1020221327434,
+          "outside_variance": 31.950892338455958,
+          "outside_fraction": 0.09888793678093799,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 25,
+          "n": 2,
+          "rank": 1,
+          "dimension": 512,
+          "total_variance": 109.62430337030821,
+          "outside_variance": 10.89562452751883,
+          "outside_fraction": 0.09939059307600503,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 0,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 418.4003284738149,
+          "outside_variance": 41.111101031865815,
+          "outside_fraction": 0.09825781251612642,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 1,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 280.3044295474688,
+          "outside_variance": 27.60281535157877,
+          "outside_fraction": 0.09847441724749592,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 13,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 165.9625713686699,
+          "outside_variance": 16.412075716937892,
+          "outside_fraction": 0.09889022314844739,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 15,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 180.41407026834992,
+          "outside_variance": 17.897054217729043,
+          "outside_fraction": 0.0991998805365278,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 2,
+          "n": 1,
+          "rank": 0,
+          "dimension": 512,
+          "total_variance": 0.0,
+          "outside_variance": 0.0,
+          "outside_fraction": 0.0,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 10,
+          "n": 2,
+          "rank": 1,
+          "dimension": 512,
+          "total_variance": 106.86156499068795,
+          "outside_variance": 10.614732085265024,
+          "outside_fraction": 0.0993316173704737,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 11,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 336.7916812691752,
+          "outside_variance": 33.23627353055315,
+          "outside_fraction": 0.09868495981048178,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 18,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 269.5873283655677,
+          "outside_variance": 26.354193909596383,
+          "outside_fraction": 0.09775753953041659,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 19,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 437.9206085330466,
+          "outside_variance": 42.932016423224674,
+          "outside_fraction": 0.09803607226213679,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 21,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 201.49093135927814,
+          "outside_variance": 19.93330058663635,
+          "outside_fraction": 0.0989290210341691,
+          "weight": 0.038461538461538464
+        }
+      ]
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "cells": 27,
+      "risk_weighted_variance_fraction_outside": 0.09867182706233875,
+      "details": [
+        {
+          "label": 3,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 370.2631258365359,
+          "outside_variance": 36.630903980112194,
+          "outside_fraction": 0.09893208754545015,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 6,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 427.3288257543336,
+          "outside_variance": 41.967334690127885,
+          "outside_fraction": 0.09820852739350287,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 17,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 424.40274506073683,
+          "outside_variance": 41.85308034724835,
+          "outside_fraction": 0.09861642233548396,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 20,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 310.92882728821104,
+          "outside_variance": 30.81975604560997,
+          "outside_fraction": 0.09912157812579417,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 4,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 404.89986185193266,
+          "outside_variance": 39.858509660807314,
+          "outside_fraction": 0.09844041309004725,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 5,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 274.2493665895511,
+          "outside_variance": 27.18193630284546,
+          "outside_fraction": 0.09911394378360287,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 12,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 387.2083624160904,
+          "outside_variance": 38.267163587741386,
+          "outside_fraction": 0.09882835006187149,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 24,
+          "n": 1,
+          "rank": 0,
+          "dimension": 512,
+          "total_variance": 0.0,
+          "outside_variance": 0.0,
+          "outside_fraction": 0.0,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 14,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 379.1209008762427,
+          "outside_variance": 37.15436675460712,
+          "outside_fraction": 0.09800136755513647,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 22,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 481.807127688103,
+          "outside_variance": 47.19623613784478,
+          "outside_fraction": 0.0979566997364912,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 16,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 268.19806403486297,
+          "outside_variance": 26.551719905880866,
+          "outside_fraction": 0.09900041598521538,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 23,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 445.82082715405716,
+          "outside_variance": 44.00684929195451,
+          "outside_fraction": 0.09870972061327132,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 8,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 331.614655456969,
+          "outside_variance": 32.74539791937066,
+          "outside_fraction": 0.09874532798994395,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 9,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 404.26992413280806,
+          "outside_variance": 39.8921059805124,
+          "outside_fraction": 0.0986769076776716,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 7,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 445.2091156179912,
+          "outside_variance": 44.04273307207679,
+          "outside_fraction": 0.09892594631837542,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 25,
+          "n": 2,
+          "rank": 1,
+          "dimension": 512,
+          "total_variance": 402.8163424093956,
+          "outside_variance": 40.027789944443455,
+          "outside_fraction": 0.09936982622160322,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 0,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 354.01613364026156,
+          "outside_variance": 34.78365181746763,
+          "outside_fraction": 0.09825442546868082,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 1,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 409.8062107474435,
+          "outside_variance": 40.348885967370386,
+          "outside_fraction": 0.09845845404289567,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 13,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 470.98128614673334,
+          "outside_variance": 46.54469578291421,
+          "outside_fraction": 0.0988249366842429,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 15,
+          "n": 3,
+          "rank": 2,
+          "dimension": 512,
+          "total_variance": 332.7037200210938,
+          "outside_variance": 32.99355875266386,
+          "outside_fraction": 0.09916798871552152,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 2,
+          "n": 1,
+          "rank": 0,
+          "dimension": 512,
+          "total_variance": 0.0,
+          "outside_variance": 0.0,
+          "outside_fraction": 0.0,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 10,
+          "n": 2,
+          "rank": 1,
+          "dimension": 512,
+          "total_variance": 270.6061907702786,
+          "outside_variance": 26.8871629983952,
+          "outside_fraction": 0.09935900920027396,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 11,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 486.02548817077553,
+          "outside_variance": 47.96693174011004,
+          "outside_fraction": 0.09869221451870817,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 18,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 434.8244021277339,
+          "outside_variance": 42.493885472728685,
+          "outside_fraction": 0.09772654263374504,
+          "weight": 0.038461538461538464
+        },
+        {
+          "label": 19,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 363.4346522794454,
+          "outside_variance": 35.94807583407242,
+          "outside_fraction": 0.09891207568845663,
+          "weight": 0.019230769230769232
+        },
+        {
+          "label": 19,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 363.4013647641612,
+          "outside_variance": 35.9458866260171,
+          "outside_fraction": 0.0989151118057719,
+          "weight": 0.019230769230769232
+        },
+        {
+          "label": 21,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 381.0173948711878,
+          "outside_variance": 37.69113065436113,
+          "outside_fraction": 0.09892233572985175,
+          "weight": 0.038461538461538464
+        }
+      ]
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "cells": 48,
+      "risk_weighted_variance_fraction_outside": 0.09267743233932153,
+      "details": [
+        {
+          "label": 6,
+          "n": 43,
+          "rank": 42,
+          "dimension": 512,
+          "total_variance": 386.8636865405967,
+          "outside_variance": 81.14346551365033,
+          "outside_fraction": 0.20974691690308156,
+          "weight": 0.02497096399535424
+        },
+        {
+          "label": 6,
+          "n": 35,
+          "rank": 34,
+          "dimension": 512,
+          "total_variance": 244.70192777555198,
+          "outside_variance": 59.417936354754026,
+          "outside_fraction": 0.2428176062807889,
+          "weight": 0.02032520325203252
+        },
+        {
+          "label": 6,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 244.80529345043635,
+          "outside_variance": 35.652719241615216,
+          "outside_fraction": 0.1456370437873457,
+          "weight": 0.0156794425087108
+        },
+        {
+          "label": 6,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 318.8358803503208,
+          "outside_variance": 33.261223674565045,
+          "outside_fraction": 0.10432083000827663,
+          "weight": 0.010452961672473868
+        },
+        {
+          "label": 13,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 355.55516201491383,
+          "outside_variance": 48.31387122325,
+          "outside_fraction": 0.13588291321509055,
+          "weight": 0.03832752613240418
+        },
+        {
+          "label": 13,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 535.4754837403303,
+          "outside_variance": 51.23099330943171,
+          "outside_fraction": 0.0956738354323525,
+          "weight": 0.024390243902439025
+        },
+        {
+          "label": 13,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 401.24823980846105,
+          "outside_variance": 39.51296744311229,
+          "outside_fraction": 0.09847511720418788,
+          "weight": 0.008710801393728223
+        },
+        {
+          "label": 4,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 175349.57941372046,
+          "outside_variance": 15977.988608239251,
+          "outside_fraction": 0.09112076950319181,
+          "weight": 0.07142857142857142
+        },
+        {
+          "label": 9,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 227.76229246780576,
+          "outside_variance": 28.257852576875724,
+          "outside_fraction": 0.12406729959863737,
+          "weight": 0.024675324675324677
+        },
+        {
+          "label": 9,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 226.9724585368468,
+          "outside_variance": 22.13402375242252,
+          "outside_fraction": 0.09751854429875366,
+          "weight": 0.012987012987012988
+        },
+        {
+          "label": 9,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 349.51072477106095,
+          "outside_variance": 35.264182696015204,
+          "outside_fraction": 0.10089585296449545,
+          "weight": 0.023376623376623377
+        },
+        {
+          "label": 9,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 331.5433193627153,
+          "outside_variance": 32.48729571192791,
+          "outside_fraction": 0.097988087271293,
+          "weight": 0.01038961038961039
+        },
+        {
+          "label": 7,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 166.63702669756404,
+          "outside_variance": 16.47610115366284,
+          "outside_fraction": 0.09887419068971957,
+          "weight": 0.015037593984962405
+        },
+        {
+          "label": 7,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 259.1049087084871,
+          "outside_variance": 24.99138878410765,
+          "outside_fraction": 0.09645278010624214,
+          "weight": 0.05639097744360902
+        },
+        {
+          "label": 12,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 5378.12110899147,
+          "outside_variance": 465.73247102349234,
+          "outside_fraction": 0.08659761682288122,
+          "weight": 0.018433179723502304
+        },
+        {
+          "label": 12,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 6303.412523953968,
+          "outside_variance": 580.2993161382019,
+          "outside_fraction": 0.0920611357630446,
+          "weight": 0.0069124423963133645
+        },
+        {
+          "label": 12,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 4294.130304953574,
+          "outside_variance": 438.85086045847345,
+          "outside_fraction": 0.10219784433467911,
+          "weight": 0.02534562211981567
+        },
+        {
+          "label": 12,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 1989.2804120440599,
+          "outside_variance": 185.9813695123451,
+          "outside_fraction": 0.09349178144334228,
+          "weight": 0.020737327188940093
+        },
+        {
+          "label": 1,
+          "n": 108,
+          "rank": 107,
+          "dimension": 512,
+          "total_variance": 507.9364847216834,
+          "outside_variance": 117.82373412461564,
+          "outside_fraction": 0.23196548715963075,
+          "weight": 0.03571428571428571
+        },
+        {
+          "label": 1,
+          "n": 37,
+          "rank": 36,
+          "dimension": 512,
+          "total_variance": 341.5489327748057,
+          "outside_variance": 71.39983212562245,
+          "outside_fraction": 0.20904715334800558,
+          "weight": 0.012235449735449735
+        },
+        {
+          "label": 1,
+          "n": 37,
+          "rank": 36,
+          "dimension": 512,
+          "total_variance": 301.9831713064086,
+          "outside_variance": 62.374329658783424,
+          "outside_fraction": 0.2065490251954968,
+          "weight": 0.012235449735449735
+        },
+        {
+          "label": 1,
+          "n": 34,
+          "rank": 33,
+          "dimension": 512,
+          "total_variance": 836.484954538074,
+          "outside_variance": 130.41243629761857,
+          "outside_fraction": 0.15590529822456314,
+          "weight": 0.011243386243386243
+        },
+        {
+          "label": 8,
+          "n": 54,
+          "rank": 53,
+          "dimension": 512,
+          "total_variance": 319.82913226638607,
+          "outside_variance": 75.38164237898766,
+          "outside_fraction": 0.23569348371993268,
+          "weight": 0.015367103016505406
+        },
+        {
+          "label": 8,
+          "n": 70,
+          "rank": 69,
+          "dimension": 512,
+          "total_variance": 252.42861808655903,
+          "outside_variance": 77.92554062564548,
+          "outside_fraction": 0.3087032730929281,
+          "weight": 0.0199203187250996
+        },
+        {
+          "label": 8,
+          "n": 114,
+          "rank": 113,
+          "dimension": 512,
+          "total_variance": 273.9047535262837,
+          "outside_variance": 82.18918467029994,
+          "outside_fraction": 0.3000648349916758,
+          "weight": 0.032441661923733635
+        },
+        {
+          "label": 8,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 2283.5741908603345,
+          "outside_variance": 214.7372652443379,
+          "outside_fraction": 0.0940355982756294,
+          "weight": 0.003699487763232783
+        },
+        {
+          "label": 0,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 234.1014864545116,
+          "outside_variance": 33.94159723302056,
+          "outside_fraction": 0.1449866796963537,
+          "weight": 0.015873015873015872
+        },
+        {
+          "label": 0,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 1626.608897595654,
+          "outside_variance": 166.5437387828105,
+          "outside_fraction": 0.10238708212464868,
+          "weight": 0.016594516594516596
+        },
+        {
+          "label": 0,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 283.98504242902385,
+          "outside_variance": 40.51885032435858,
+          "outside_fraction": 0.1426795227586165,
+          "weight": 0.015873015873015872
+        },
+        {
+          "label": 0,
+          "n": 32,
+          "rank": 31,
+          "dimension": 512,
+          "total_variance": 289.9253998826549,
+          "outside_variance": 58.30619425258695,
+          "outside_fraction": 0.20110757552179262,
+          "weight": 0.023088023088023088
+        },
+        {
+          "label": 10,
+          "n": 41,
+          "rank": 40,
+          "dimension": 512,
+          "total_variance": 556.053121988357,
+          "outside_variance": 95.45587998583528,
+          "outside_fraction": 0.17166683579529293,
+          "weight": 0.03050595238095238
+        },
+        {
+          "label": 10,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 315.4396466891259,
+          "outside_variance": 40.08121715425844,
+          "outside_fraction": 0.12706461465752128,
+          "weight": 0.01636904761904762
+        },
+        {
+          "label": 10,
+          "n": 33,
+          "rank": 32,
+          "dimension": 512,
+          "total_variance": 385.6791927194565,
+          "outside_variance": 57.3150649033695,
+          "outside_fraction": 0.14860813335362,
+          "weight": 0.024553571428571428
+        },
+        {
+          "label": 2,
+          "n": 114,
+          "rank": 113,
+          "dimension": 512,
+          "total_variance": 294.3865303306379,
+          "outside_variance": 82.46176409917206,
+          "outside_fraction": 0.2801139169192142,
+          "weight": 0.026697892271662763
+        },
+        {
+          "label": 2,
+          "n": 77,
+          "rank": 76,
+          "dimension": 512,
+          "total_variance": 368.3072734098801,
+          "outside_variance": 71.81084942536657,
+          "outside_fraction": 0.19497537683826852,
+          "weight": 0.018032786885245903
+        },
+        {
+          "label": 2,
+          "n": 72,
+          "rank": 71,
+          "dimension": 512,
+          "total_variance": 340.4035848680149,
+          "outside_variance": 76.90394943608149,
+          "outside_fraction": 0.22591991640129042,
+          "weight": 0.01686182669789227
+        },
+        {
+          "label": 2,
+          "n": 42,
+          "rank": 41,
+          "dimension": 512,
+          "total_variance": 5149.736484469075,
+          "outside_variance": 542.3203464386231,
+          "outside_fraction": 0.10531031016328499,
+          "weight": 0.009836065573770493
+        },
+        {
+          "label": 11,
+          "n": 151,
+          "rank": 150,
+          "dimension": 512,
+          "total_variance": 262.9355409155864,
+          "outside_variance": 45.34794102907791,
+          "outside_fraction": 0.17246790171906257,
+          "weight": 0.017340376665135507
+        },
+        {
+          "label": 11,
+          "n": 124,
+          "rank": 123,
+          "dimension": 512,
+          "total_variance": 362.87698864253866,
+          "outside_variance": 83.29819442797614,
+          "outside_fraction": 0.2295493983776171,
+          "weight": 0.01423977951309141
+        },
+        {
+          "label": 11,
+          "n": 204,
+          "rank": 203,
+          "dimension": 512,
+          "total_variance": 267.2630390534922,
+          "outside_variance": 62.55649095565883,
+          "outside_fraction": 0.23406338256573617,
+          "weight": 0.023426734037666513
+        },
+        {
+          "label": 11,
+          "n": 143,
+          "rank": 142,
+          "dimension": 512,
+          "total_variance": 400.3847561537785,
+          "outside_variance": 75.97379782463929,
+          "outside_fraction": 0.18975197396241408,
+          "weight": 0.016421681212677997
+        },
+        {
+          "label": 3,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 278.44220243461814,
+          "outside_variance": 26.88247848642593,
+          "outside_fraction": 0.09654599141715339,
+          "weight": 0.02142857142857143
+        },
+        {
+          "label": 3,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 227.5538399693879,
+          "outside_variance": 21.95789362505324,
+          "outside_fraction": 0.09649537721713318,
+          "weight": 0.02142857142857143
+        },
+        {
+          "label": 3,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 269.74206621989714,
+          "outside_variance": 26.397877193308112,
+          "outside_fraction": 0.09786340544966475,
+          "weight": 0.012857142857142857
+        },
+        {
+          "label": 3,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 228.3428251747817,
+          "outside_variance": 22.225143088235626,
+          "outside_fraction": 0.09733234697093597,
+          "weight": 0.015714285714285715
+        },
+        {
+          "label": 5,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 280.2788929243708,
+          "outside_variance": 27.54753317489009,
+          "outside_fraction": 0.09828614951152742,
+          "weight": 0.017857142857142856
+        },
+        {
+          "label": 5,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 28981.026529030114,
+          "outside_variance": 2647.096032684369,
+          "outside_fraction": 0.09133893273355205,
+          "weight": 0.030612244897959183
+        },
+        {
+          "label": 5,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 6925.860633050537,
+          "outside_variance": 630.8379703354352,
+          "outside_fraction": 0.09108441589555619,
+          "weight": 0.02295918367346939
+        }
+      ]
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "cells": 46,
+      "risk_weighted_variance_fraction_outside": 0.09245813836377668,
+      "details": [
+        {
+          "label": 6,
+          "n": 53,
+          "rank": 52,
+          "dimension": 512,
+          "total_variance": 420.2170187854708,
+          "outside_variance": 116.17861752059405,
+          "outside_fraction": 0.2764728993042177,
+          "weight": 0.03077816492450639
+        },
+        {
+          "label": 6,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 347.9205975261978,
+          "outside_variance": 62.34504396120815,
+          "outside_fraction": 0.17919331136039934,
+          "weight": 0.013937282229965157
+        },
+        {
+          "label": 6,
+          "n": 46,
+          "rank": 45,
+          "dimension": 512,
+          "total_variance": 438.1750001820817,
+          "outside_variance": 109.0355750875829,
+          "outside_fraction": 0.2488402465733409,
+          "weight": 0.026713124274099883
+        },
+        {
+          "label": 13,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 206.43027092498983,
+          "outside_variance": 20.151635539531274,
+          "outside_fraction": 0.09761957608849786,
+          "weight": 0.013937282229965157
+        },
+        {
+          "label": 13,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 393.2819229719036,
+          "outside_variance": 38.029199050741035,
+          "outside_fraction": 0.09669704308646261,
+          "weight": 0.02613240418118467
+        },
+        {
+          "label": 13,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 148.259398594285,
+          "outside_variance": 14.630176278040622,
+          "outside_fraction": 0.09867958737696227,
+          "weight": 0.008710801393728223
+        },
+        {
+          "label": 13,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 667.8518657405648,
+          "outside_variance": 64.263847051152,
+          "outside_fraction": 0.09622470243441092,
+          "weight": 0.02264808362369338
+        },
+        {
+          "label": 4,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 259337.6494985447,
+          "outside_variance": 23449.36969118848,
+          "outside_fraction": 0.09042022913576252,
+          "weight": 0.07142857142857142
+        },
+        {
+          "label": 9,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 397.63851299965404,
+          "outside_variance": 44.78288266867077,
+          "outside_fraction": 0.11262209570909883,
+          "weight": 0.024675324675324677
+        },
+        {
+          "label": 9,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 408.30857587813324,
+          "outside_variance": 40.97802807889254,
+          "outside_fraction": 0.1003604393827945,
+          "weight": 0.023376623376623377
+        },
+        {
+          "label": 9,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 445.6172254803171,
+          "outside_variance": 45.623368261165425,
+          "outside_fraction": 0.10238241623624267,
+          "weight": 0.023376623376623377
+        },
+        {
+          "label": 7,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 369.80115480329874,
+          "outside_variance": 36.16930085067443,
+          "outside_fraction": 0.09780743077969369,
+          "weight": 0.03383458646616541
+        },
+        {
+          "label": 7,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 362.5836901807262,
+          "outside_variance": 35.386226621546854,
+          "outside_fraction": 0.09759464526357747,
+          "weight": 0.03759398496240601
+        },
+        {
+          "label": 12,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 3567.9111623116733,
+          "outside_variance": 322.6843388344716,
+          "outside_fraction": 0.09044068760540615,
+          "weight": 0.018433179723502304
+        },
+        {
+          "label": 12,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 9605.001991057637,
+          "outside_variance": 837.8891976451968,
+          "outside_fraction": 0.08723467193710951,
+          "weight": 0.019585253456221197
+        },
+        {
+          "label": 12,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 6479.491917610499,
+          "outside_variance": 579.0865760962798,
+          "outside_fraction": 0.08937221983754474,
+          "weight": 0.01728110599078341
+        },
+        {
+          "label": 12,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 2381.944245733008,
+          "outside_variance": 219.14400539066304,
+          "outside_fraction": 0.09200215571092209,
+          "weight": 0.016129032258064516
+        },
+        {
+          "label": 1,
+          "n": 103,
+          "rank": 102,
+          "dimension": 512,
+          "total_variance": 445.6153267270857,
+          "outside_variance": 187.41850000579788,
+          "outside_fraction": 0.4205836037605169,
+          "weight": 0.03406084656084656
+        },
+        {
+          "label": 1,
+          "n": 46,
+          "rank": 45,
+          "dimension": 512,
+          "total_variance": 705.3571062217479,
+          "outside_variance": 197.62888831649246,
+          "outside_fraction": 0.2801827422921894,
+          "weight": 0.01521164021164021
+        },
+        {
+          "label": 1,
+          "n": 67,
+          "rank": 66,
+          "dimension": 512,
+          "total_variance": 823.6230220230738,
+          "outside_variance": 243.57149061954954,
+          "outside_fraction": 0.2957317657552388,
+          "weight": 0.022156084656084655
+        },
+        {
+          "label": 8,
+          "n": 58,
+          "rank": 57,
+          "dimension": 512,
+          "total_variance": 915.4584425806665,
+          "outside_variance": 203.56767173352392,
+          "outside_fraction": 0.2223669172351167,
+          "weight": 0.016505406943653957
+        },
+        {
+          "label": 8,
+          "n": 72,
+          "rank": 71,
+          "dimension": 512,
+          "total_variance": 397.86499752177997,
+          "outside_variance": 167.26501918180668,
+          "outside_fraction": 0.42040647009328896,
+          "weight": 0.020489470688673878
+        },
+        {
+          "label": 8,
+          "n": 49,
+          "rank": 48,
+          "dimension": 512,
+          "total_variance": 361.0147415267075,
+          "outside_variance": 142.1932454728488,
+          "outside_fraction": 0.39387102274971636,
+          "weight": 0.013944223107569721
+        },
+        {
+          "label": 8,
+          "n": 72,
+          "rank": 71,
+          "dimension": 512,
+          "total_variance": 378.58352023251217,
+          "outside_variance": 167.2689328955473,
+          "outside_fraction": 0.44182835215018557,
+          "weight": 0.020489470688673878
+        },
+        {
+          "label": 0,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 1632.6833924442103,
+          "outside_variance": 179.03006219220578,
+          "outside_fraction": 0.10965387595704557,
+          "weight": 0.01948051948051948
+        },
+        {
+          "label": 0,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 557.7136073292916,
+          "outside_variance": 60.47944142738178,
+          "outside_fraction": 0.10844175331672126,
+          "weight": 0.01443001443001443
+        },
+        {
+          "label": 0,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 397.9671628007634,
+          "outside_variance": 78.4004278485717,
+          "outside_fraction": 0.1970022533940112,
+          "weight": 0.01948051948051948
+        },
+        {
+          "label": 0,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 393.370511331932,
+          "outside_variance": 69.84687127416629,
+          "outside_fraction": 0.17756000834345317,
+          "weight": 0.018037518037518036
+        },
+        {
+          "label": 10,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 1716.0577608684744,
+          "outside_variance": 165.81179976763227,
+          "outside_fraction": 0.09662367057138979,
+          "weight": 0.006696428571428571
+        },
+        {
+          "label": 10,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 416.40492122818335,
+          "outside_variance": 54.10863899201921,
+          "outside_fraction": 0.12994236195006093,
+          "weight": 0.017857142857142856
+        },
+        {
+          "label": 10,
+          "n": 39,
+          "rank": 38,
+          "dimension": 512,
+          "total_variance": 459.3305295420537,
+          "outside_variance": 72.90728744588742,
+          "outside_fraction": 0.15872510699120088,
+          "weight": 0.029017857142857144
+        },
+        {
+          "label": 10,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 444.0288357772421,
+          "outside_variance": 56.322757440302254,
+          "outside_fraction": 0.1268448193048389,
+          "weight": 0.017857142857142856
+        },
+        {
+          "label": 2,
+          "n": 84,
+          "rank": 83,
+          "dimension": 512,
+          "total_variance": 359.094901816619,
+          "outside_variance": 109.75001876106464,
+          "outside_fraction": 0.30562956534846963,
+          "weight": 0.019672131147540985
+        },
+        {
+          "label": 2,
+          "n": 67,
+          "rank": 66,
+          "dimension": 512,
+          "total_variance": 3946.2011939044355,
+          "outside_variance": 446.5046577388179,
+          "outside_fraction": 0.11314797087095271,
+          "weight": 0.01569086651053864
+        },
+        {
+          "label": 2,
+          "n": 75,
+          "rank": 74,
+          "dimension": 512,
+          "total_variance": 310.9402200564108,
+          "outside_variance": 92.01775195377249,
+          "outside_fraction": 0.29593389988943414,
+          "weight": 0.01756440281030445
+        },
+        {
+          "label": 2,
+          "n": 79,
+          "rank": 78,
+          "dimension": 512,
+          "total_variance": 424.0107234913655,
+          "outside_variance": 129.0156437635498,
+          "outside_fraction": 0.3042744832046142,
+          "weight": 0.018501170960187354
+        },
+        {
+          "label": 11,
+          "n": 193,
+          "rank": 192,
+          "dimension": 512,
+          "total_variance": 543.2100597879185,
+          "outside_variance": 111.31307421347265,
+          "outside_fraction": 0.20491718113050372,
+          "weight": 0.022163527790537436
+        },
+        {
+          "label": 11,
+          "n": 146,
+          "rank": 145,
+          "dimension": 512,
+          "total_variance": 379.9667643637803,
+          "outside_variance": 93.61521252925198,
+          "outside_fraction": 0.2463773711524536,
+          "weight": 0.016766192007349565
+        },
+        {
+          "label": 11,
+          "n": 170,
+          "rank": 169,
+          "dimension": 512,
+          "total_variance": 376.1979311087688,
+          "outside_variance": 104.1587801252004,
+          "outside_fraction": 0.2768722832106308,
+          "weight": 0.019522278364722093
+        },
+        {
+          "label": 11,
+          "n": 113,
+          "rank": 112,
+          "dimension": 512,
+          "total_variance": 346.4791135353221,
+          "outside_variance": 111.69124349979133,
+          "outside_fraction": 0.32236068246695304,
+          "weight": 0.012976573265962334
+        },
+        {
+          "label": 3,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 409.5706994478481,
+          "outside_variance": 39.377008573158996,
+          "outside_fraction": 0.09614215232252715,
+          "weight": 0.024285714285714285
+        },
+        {
+          "label": 3,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 370.92325138207616,
+          "outside_variance": 42.58548264166653,
+          "outside_fraction": 0.11480941807500925,
+          "weight": 0.02857142857142857
+        },
+        {
+          "label": 3,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 238.77156566843186,
+          "outside_variance": 23.158162542831963,
+          "outside_fraction": 0.09698877870152409,
+          "weight": 0.018571428571428572
+        },
+        {
+          "label": 5,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 45708.271281843285,
+          "outside_variance": 4326.67270674452,
+          "outside_fraction": 0.0946584192621436,
+          "weight": 0.012755102040816327
+        },
+        {
+          "label": 5,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 21249.253953867483,
+          "outside_variance": 1927.916221786597,
+          "outside_fraction": 0.09072865456698564,
+          "weight": 0.03316326530612245
+        },
+        {
+          "label": 5,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 3036.4597977089916,
+          "outside_variance": 287.8277863560138,
+          "outside_fraction": 0.09479058032422488,
+          "weight": 0.025510204081632654
+        }
+      ]
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "cells": 144,
+      "risk_weighted_variance_fraction_outside": 0.10565989558742356,
+      "details": [
+        {
+          "label": 2,
+          "n": 35,
+          "rank": 34,
+          "dimension": 512,
+          "total_variance": 286.7771395092428,
+          "outside_variance": 39.98378809015263,
+          "outside_fraction": 0.1394246004356423,
+          "weight": 0.013197586726998492
+        },
+        {
+          "label": 2,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 197.75892647206956,
+          "outside_variance": 19.28002705043953,
+          "outside_fraction": 0.09749257540171032,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 2,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 266.7052583798303,
+          "outside_variance": 26.04691597735254,
+          "outside_fraction": 0.0976618014042214,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 2,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 256.4710025243482,
+          "outside_variance": 24.93309190569929,
+          "outside_fraction": 0.09721602699834363,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 36,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 191.70061875440032,
+          "outside_variance": 24.36095085006952,
+          "outside_fraction": 0.1270781023470762,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 36,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 260.9925513813145,
+          "outside_variance": 25.41361283791106,
+          "outside_fraction": 0.09737294303384675,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 36,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 343.22729959903336,
+          "outside_variance": 33.72436757512892,
+          "outside_fraction": 0.09825665853073624,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 36,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 278.0386121099197,
+          "outside_variance": 27.179440157458984,
+          "outside_fraction": 0.09775419302810313,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 38,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 235.96783966804765,
+          "outside_variance": 24.085622764527443,
+          "outside_fraction": 0.10207163314462836,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 38,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 229.53545318762693,
+          "outside_variance": 23.38053326309192,
+          "outside_fraction": 0.10186022655062439,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 38,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 329.22922569219907,
+          "outside_variance": 31.955025945371386,
+          "outside_fraction": 0.0970601132939716,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 38,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 300.5817387231069,
+          "outside_variance": 28.987668045704606,
+          "outside_fraction": 0.09643855334940282,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 14,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 369.686620516474,
+          "outside_variance": 35.72455794915839,
+          "outside_fraction": 0.09663470617153813,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 14,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 378.9066559832506,
+          "outside_variance": 36.68569943339118,
+          "outside_fraction": 0.09681988651846975,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 14,
+          "n": 41,
+          "rank": 40,
+          "dimension": 512,
+          "total_variance": 229.70231503920533,
+          "outside_variance": 27.73384939751689,
+          "outside_fraction": 0.12073822326424229,
+          "weight": 0.01546003016591252
+        },
+        {
+          "label": 37,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 271.6300619248828,
+          "outside_variance": 26.724664700541286,
+          "outside_fraction": 0.09838625559762891,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 37,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 275.22603154495926,
+          "outside_variance": 26.886831379856627,
+          "outside_fraction": 0.09769000130158312,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 37,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 317.55495823937736,
+          "outside_variance": 31.31273168863554,
+          "outside_fraction": 0.09860570863778347,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 37,
+          "n": 34,
+          "rank": 33,
+          "dimension": 512,
+          "total_variance": 353.6515491184862,
+          "outside_variance": 44.32660171441079,
+          "outside_fraction": 0.12533976402733008,
+          "weight": 0.01282051282051282
+        },
+        {
+          "label": 6,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 304.37899201098867,
+          "outside_variance": 29.991847240155693,
+          "outside_fraction": 0.0985345507651623,
+          "weight": 0.0022624434389140274
+        },
+        {
+          "label": 6,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 134.50401479266986,
+          "outside_variance": 12.993506450493133,
+          "outside_fraction": 0.09660311233476465,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 6,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 1245.0386142600871,
+          "outside_variance": 119.44948344311464,
+          "outside_fraction": 0.09594038455915857,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 6,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 152.51008262132922,
+          "outside_variance": 17.207695336059942,
+          "outside_fraction": 0.112829886655988,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 24,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 271.36220261565364,
+          "outside_variance": 26.15364418723945,
+          "outside_fraction": 0.0963790975130107,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 24,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 275.83746650440787,
+          "outside_variance": 27.082696943925598,
+          "outside_fraction": 0.09818353281421549,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 24,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 233.0635083003225,
+          "outside_variance": 22.551494804938454,
+          "outside_fraction": 0.09676115737466245,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 24,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 300.3235243351237,
+          "outside_variance": 32.05431319811548,
+          "outside_fraction": 0.10673260867286191,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 3,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 298.1443245564633,
+          "outside_variance": 28.679632537579216,
+          "outside_fraction": 0.09619378997150019,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 3,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 333.7397448128728,
+          "outside_variance": 36.80147744775921,
+          "outside_fraction": 0.11026998737712143,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 3,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 337.00428893112104,
+          "outside_variance": 32.65611480976158,
+          "outside_fraction": 0.09690118459126208,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 3,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 221.62565281760794,
+          "outside_variance": 21.422521537501034,
+          "outside_fraction": 0.09666083896493337,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 27,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 239.86181943469546,
+          "outside_variance": 23.127508832168438,
+          "outside_fraction": 0.096420134253443,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 27,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 299.4156129569947,
+          "outside_variance": 29.870843110860275,
+          "outside_fraction": 0.09976381263441544,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 27,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 276.45016186837785,
+          "outside_variance": 27.578741436429766,
+          "outside_fraction": 0.09976026510543491,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 27,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 440.6992382938069,
+          "outside_variance": 42.50746001445734,
+          "outside_fraction": 0.09645458017814479,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 16,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 233.09469487777181,
+          "outside_variance": 22.51367588354489,
+          "outside_fraction": 0.09658596432385738,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 16,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 229.66447508208103,
+          "outside_variance": 23.81595796104741,
+          "outside_fraction": 0.10369891970682751,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 16,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 274.35010043464905,
+          "outside_variance": 29.064364068444732,
+          "outside_fraction": 0.105938959097877,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 16,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 256.1316698902324,
+          "outside_variance": 24.89627389637171,
+          "outside_fraction": 0.09720107594285876,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 20,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 349.383242965203,
+          "outside_variance": 36.74799225246397,
+          "outside_fraction": 0.10517960718603755,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 20,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 292.06469698355653,
+          "outside_variance": 28.539374017203208,
+          "outside_fraction": 0.09771593181907226,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 20,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 250.0231441473584,
+          "outside_variance": 28.69260549119955,
+          "outside_fraction": 0.11475979789410508,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 20,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 195.5909019432066,
+          "outside_variance": 19.0455766209352,
+          "outside_fraction": 0.0973745528637392,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 13,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 486.8584601654975,
+          "outside_variance": 47.66013088527632,
+          "outside_fraction": 0.09789319645195287,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 13,
+          "n": 32,
+          "rank": 31,
+          "dimension": 512,
+          "total_variance": 172.36016062636088,
+          "outside_variance": 25.40104049596486,
+          "outside_fraction": 0.14737187760592055,
+          "weight": 0.012066365007541479
+        },
+        {
+          "label": 13,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 229.17867673648396,
+          "outside_variance": 22.127960334003237,
+          "outside_fraction": 0.09655331224137656,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 13,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 331.5026470580179,
+          "outside_variance": 32.00018386244252,
+          "outside_fraction": 0.0965307038916103,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 19,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 366.6174435887715,
+          "outside_variance": 35.41940943952866,
+          "outside_fraction": 0.09661135894902481,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 19,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 278.6965020275742,
+          "outside_variance": 27.326886912671462,
+          "outside_fraction": 0.09805249335338893,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 19,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 465.95909774529235,
+          "outside_variance": 52.41950668540191,
+          "outside_fraction": 0.11249808607461945,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 19,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 180.67990068321134,
+          "outside_variance": 22.76341161969782,
+          "outside_fraction": 0.12598751456925603,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 25,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 296.4562859075611,
+          "outside_variance": 35.075810228335115,
+          "outside_fraction": 0.11831697250390638,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 25,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 339.8749894155586,
+          "outside_variance": 32.81620408779825,
+          "outside_fraction": 0.09655374802431993,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 25,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 189.67804130267407,
+          "outside_variance": 23.919567458703042,
+          "outside_fraction": 0.12610614963349384,
+          "weight": 0.010180995475113122
+        },
+        {
+          "label": 33,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 317.5540688501522,
+          "outside_variance": 33.065222677568244,
+          "outside_fraction": 0.10412470165252741,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 33,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 348.64631214825056,
+          "outside_variance": 33.852200484753126,
+          "outside_fraction": 0.09709610945306249,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 33,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 394.36015309343327,
+          "outside_variance": 43.72231091832354,
+          "outside_fraction": 0.11086898758750782,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 33,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 248.29798080535747,
+          "outside_variance": 24.213285767563782,
+          "outside_fraction": 0.09751704661080086,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 5,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 233.55228612074467,
+          "outside_variance": 25.093112675023676,
+          "outside_fraction": 0.10744109206471537,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 5,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 303.92761656203595,
+          "outside_variance": 29.294313040630037,
+          "outside_fraction": 0.09638582163740507,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 5,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 278.311598460345,
+          "outside_variance": 30.93136292610199,
+          "outside_fraction": 0.11113932404261341,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 5,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 217.95487162614583,
+          "outside_variance": 21.304304676554743,
+          "outside_fraction": 0.09774640281084263,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 22,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 230.066064653541,
+          "outside_variance": 22.859266459249977,
+          "outside_fraction": 0.09935957523189697,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 22,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 341.30886586422525,
+          "outside_variance": 33.42085853599204,
+          "outside_fraction": 0.09791969057518436,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 22,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 249.80246214131046,
+          "outside_variance": 27.40924480709249,
+          "outside_fraction": 0.10972367754961274,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 22,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 266.2021428788995,
+          "outside_variance": 25.991965256098496,
+          "outside_fraction": 0.09763995501690136,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 12,
+          "n": 29,
+          "rank": 28,
+          "dimension": 512,
+          "total_variance": 263.0198034480111,
+          "outside_variance": 32.44718349309343,
+          "outside_fraction": 0.12336403216690486,
+          "weight": 0.010935143288084464
+        },
+        {
+          "label": 12,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 283.8409208254958,
+          "outside_variance": 27.467931523736947,
+          "outside_fraction": 0.09677227456792291,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 12,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 208.88811992594077,
+          "outside_variance": 20.384194229159846,
+          "outside_fraction": 0.09758426777160358,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 12,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 220.99177562995823,
+          "outside_variance": 21.328453569143846,
+          "outside_fraction": 0.09651243132621133,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 31,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 363.93647964086347,
+          "outside_variance": 36.92020511034276,
+          "outside_fraction": 0.10144683804925526,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 31,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 591.3436622765182,
+          "outside_variance": 57.08952224856934,
+          "outside_fraction": 0.09654203788840761,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 31,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 348.77574343790775,
+          "outside_variance": 33.541520971361024,
+          "outside_fraction": 0.09616930535575617,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 31,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 227.31572522154582,
+          "outside_variance": 25.233247456944895,
+          "outside_fraction": 0.1110052876119861,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 4,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 253.39260691018325,
+          "outside_variance": 31.793877801853743,
+          "outside_fraction": 0.1254727917658754,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 4,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 233.46562036500816,
+          "outside_variance": 22.6143779481945,
+          "outside_fraction": 0.09686384621786458,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 4,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 205.03994435880205,
+          "outside_variance": 19.90275631050597,
+          "outside_fraction": 0.0970677024554683,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 4,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 307.58299338879766,
+          "outside_variance": 29.704469228335544,
+          "outside_fraction": 0.09657383492197133,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 28,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 290.42083288885215,
+          "outside_variance": 34.329768283351406,
+          "outside_fraction": 0.11820697551848788,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 28,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 217.06216602617903,
+          "outside_variance": 21.379363448392432,
+          "outside_fraction": 0.09849419564814418,
+          "weight": 0.0022624434389140274
+        },
+        {
+          "label": 28,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 238.54043039156198,
+          "outside_variance": 30.943404045036605,
+          "outside_fraction": 0.12971974601640185,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 28,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 318.2785984681719,
+          "outside_variance": 30.93651747090891,
+          "outside_fraction": 0.09719949006876938,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 26,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 274.53355141605954,
+          "outside_variance": 26.96266107474019,
+          "outside_fraction": 0.09821262623699459,
+          "weight": 0.0022624434389140274
+        },
+        {
+          "label": 26,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 190.0886672813245,
+          "outside_variance": 23.819515645931695,
+          "outside_fraction": 0.12530739463115734,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 26,
+          "n": 37,
+          "rank": 36,
+          "dimension": 512,
+          "total_variance": 1375.3292148385995,
+          "outside_variance": 142.75007372622406,
+          "outside_fraction": 0.10379338429379352,
+          "weight": 0.013951734539969835
+        },
+        {
+          "label": 29,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 402.6413573680493,
+          "outside_variance": 40.74529603415584,
+          "outside_fraction": 0.10119500962468465,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 29,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 180.90625824256287,
+          "outside_variance": 24.914613120628715,
+          "outside_fraction": 0.13772112342969742,
+          "weight": 0.010180995475113122
+        },
+        {
+          "label": 29,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 181.69848927417695,
+          "outside_variance": 18.793863242270316,
+          "outside_fraction": 0.10343433958832209,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 30,
+          "n": 33,
+          "rank": 32,
+          "dimension": 512,
+          "total_variance": 538.4361676575035,
+          "outside_variance": 67.6640087994647,
+          "outside_fraction": 0.12566765173639938,
+          "weight": 0.012443438914027148
+        },
+        {
+          "label": 30,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 374.4186153683289,
+          "outside_variance": 41.63058509136202,
+          "outside_fraction": 0.1111872737695174,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 30,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 223.14467664324704,
+          "outside_variance": 22.087151400788855,
+          "outside_fraction": 0.09898130546085457,
+          "weight": 0.0015082956259426848
+        },
+        {
+          "label": 30,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 281.54995101147153,
+          "outside_variance": 27.725127155323435,
+          "outside_fraction": 0.09847320894825443,
+          "weight": 0.0022624434389140274
+        },
+        {
+          "label": 35,
+          "n": 29,
+          "rank": 28,
+          "dimension": 512,
+          "total_variance": 351.35110979113574,
+          "outside_variance": 41.48818372782401,
+          "outside_fraction": 0.11808183487021597,
+          "weight": 0.010935143288084464
+        },
+        {
+          "label": 35,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 307.7519233566248,
+          "outside_variance": 29.93140793973867,
+          "outside_fraction": 0.0972582319333029,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 35,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 253.80554161191608,
+          "outside_variance": 29.19238373876917,
+          "outside_fraction": 0.11501870114170351,
+          "weight": 0.010180995475113122
+        },
+        {
+          "label": 15,
+          "n": 43,
+          "rank": 42,
+          "dimension": 512,
+          "total_variance": 554.2364046830039,
+          "outside_variance": 70.84313486531651,
+          "outside_fraction": 0.12782115044542286,
+          "weight": 0.016214177978883863
+        },
+        {
+          "label": 15,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 5811.126785340626,
+          "outside_variance": 562.6353535082567,
+          "outside_fraction": 0.0968203541742683,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 17,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 289.77013308068416,
+          "outside_variance": 29.890730656318354,
+          "outside_fraction": 0.10315324888226324,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 17,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 281.0683460489024,
+          "outside_variance": 27.34220181758338,
+          "outside_fraction": 0.09727954855800865,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 17,
+          "n": 37,
+          "rank": 36,
+          "dimension": 512,
+          "total_variance": 280.50807047851265,
+          "outside_variance": 35.42182166723293,
+          "outside_fraction": 0.12627737093912347,
+          "weight": 0.013951734539969835
+        },
+        {
+          "label": 9,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 226.76211953605255,
+          "outside_variance": 23.620355324539993,
+          "outside_fraction": 0.10416358505056499,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 9,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 297.927598926906,
+          "outside_variance": 29.048448247580446,
+          "outside_fraction": 0.09750170293792498,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 9,
+          "n": 38,
+          "rank": 37,
+          "dimension": 512,
+          "total_variance": 314.5018573181456,
+          "outside_variance": 39.98612310420981,
+          "outside_fraction": 0.12714113501644736,
+          "weight": 0.014328808446455505
+        },
+        {
+          "label": 32,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 272.2049204118715,
+          "outside_variance": 26.35606020799152,
+          "outside_fraction": 0.09682433428503913,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 32,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 239.32509862213826,
+          "outside_variance": 27.06647624165963,
+          "outside_fraction": 0.11309501760362338,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 32,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 201.54749737511864,
+          "outside_variance": 19.59952425402363,
+          "outside_fraction": 0.0972451879049887,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 32,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 313.54625317398194,
+          "outside_variance": 33.09819357418672,
+          "outside_fraction": 0.10556080080415138,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 7,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 267.6344284992267,
+          "outside_variance": 25.800176429822322,
+          "outside_fraction": 0.09640081275977118,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 7,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 321.64898205546734,
+          "outside_variance": 31.024739191070946,
+          "outside_fraction": 0.09645526932126534,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 7,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 287.4925426655869,
+          "outside_variance": 33.516851900973656,
+          "outside_fraction": 0.11658337844248248,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 7,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 277.52310987394816,
+          "outside_variance": 26.873609173476822,
+          "outside_fraction": 0.0968337706567316,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 8,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 408.22368021338934,
+          "outside_variance": 39.99979486391862,
+          "outside_fraction": 0.09798499401849906,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 8,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 505.3324860919301,
+          "outside_variance": 49.47094807663462,
+          "outside_fraction": 0.09789781864060658,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 8,
+          "n": 53,
+          "rank": 52,
+          "dimension": 512,
+          "total_variance": 901.0193517949162,
+          "outside_variance": 92.921212212922,
+          "outside_fraction": 0.10312898610647386,
+          "weight": 0.01998491704374057
+        },
+        {
+          "label": 1,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 372.2715916646863,
+          "outside_variance": 35.81384675276801,
+          "outside_fraction": 0.09620354481688835,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 1,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 233.4338309996794,
+          "outside_variance": 22.71433141615799,
+          "outside_fraction": 0.09730522486343972,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 1,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 257.0252321888355,
+          "outside_variance": 24.8329691787434,
+          "outside_fraction": 0.09661685340098713,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 1,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 261.10317759780304,
+          "outside_variance": 31.92674833305187,
+          "outside_fraction": 0.12227636839499155,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 23,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 305.6534591032052,
+          "outside_variance": 33.5258845213352,
+          "outside_fraction": 0.10968593196916852,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 23,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 323.64552555312923,
+          "outside_variance": 31.300216723626622,
+          "outside_fraction": 0.09671141496590355,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 23,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 164.97856296108029,
+          "outside_variance": 15.89858773465244,
+          "outside_fraction": 0.09636759739750575,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 23,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 509.3091120896527,
+          "outside_variance": 49.060706497076815,
+          "outside_fraction": 0.09632795748692742,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 0,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 303.2989831279684,
+          "outside_variance": 32.56066556910304,
+          "outside_fraction": 0.1073550106673618,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 0,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 285.9732159670694,
+          "outside_variance": 27.627605906037463,
+          "outside_fraction": 0.0966090681346146,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 0,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 309.2808351414064,
+          "outside_variance": 30.345115855525318,
+          "outside_fraction": 0.09811508637983087,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 0,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 262.2321552160246,
+          "outside_variance": 31.318521534002375,
+          "outside_fraction": 0.11943051571308046,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 34,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 199.7271365813176,
+          "outside_variance": 19.22977077199417,
+          "outside_fraction": 0.0962802105970457,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 34,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 308.17492448027065,
+          "outside_variance": 30.11855635082259,
+          "outside_fraction": 0.0977320150288567,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 34,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 227.47824949375445,
+          "outside_variance": 22.063171435948504,
+          "outside_fraction": 0.09699024625452933,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 34,
+          "n": 28,
+          "rank": 27,
+          "dimension": 512,
+          "total_variance": 302.3657021416202,
+          "outside_variance": 32.967175008222775,
+          "outside_fraction": 0.1090308020212617,
+          "weight": 0.010558069381598794
+        },
+        {
+          "label": 10,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 242.5835591706292,
+          "outside_variance": 23.43069444681963,
+          "outside_fraction": 0.09658813864767675,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 10,
+          "n": 28,
+          "rank": 27,
+          "dimension": 512,
+          "total_variance": 275.9287454330284,
+          "outside_variance": 33.182500516297495,
+          "outside_fraction": 0.12025749787041065,
+          "weight": 0.010558069381598794
+        },
+        {
+          "label": 10,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 285.51008628507805,
+          "outside_variance": 34.674897338970226,
+          "outside_fraction": 0.12144894000118721,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 18,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 288.57644538489,
+          "outside_variance": 31.790131029501772,
+          "outside_fraction": 0.11016190523485572,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 18,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 240.7461801086969,
+          "outside_variance": 23.1418782538464,
+          "outside_fraction": 0.0961256300864165,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 18,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 396.9591859707246,
+          "outside_variance": 38.76040673728578,
+          "outside_fraction": 0.09764330466997764,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 18,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 171.81273949758898,
+          "outside_variance": 16.648802159547653,
+          "outside_fraction": 0.09690085966984587,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 11,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 464.22529567116896,
+          "outside_variance": 44.780759271477635,
+          "outside_fraction": 0.09646341913948137,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 11,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 228.46361361395762,
+          "outside_variance": 22.34248570589192,
+          "outside_fraction": 0.09779450369565082,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 11,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 332.68689953223446,
+          "outside_variance": 31.991157114400213,
+          "outside_fraction": 0.0961599544778605,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 11,
+          "n": 29,
+          "rank": 28,
+          "dimension": 512,
+          "total_variance": 232.03768973361406,
+          "outside_variance": 29.462221649516604,
+          "outside_fraction": 0.126971707412447,
+          "weight": 0.010935143288084464
+        },
+        {
+          "label": 21,
+          "n": 33,
+          "rank": 32,
+          "dimension": 512,
+          "total_variance": 243.8213111858416,
+          "outside_variance": 29.353055420901654,
+          "outside_fraction": 0.12038757103774507,
+          "weight": 0.012443438914027148
+        },
+        {
+          "label": 21,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 1258.4431612734277,
+          "outside_variance": 121.48170710824581,
+          "outside_fraction": 0.09653332851784709,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 21,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 388.0088753638763,
+          "outside_variance": 37.46788955348081,
+          "outside_fraction": 0.096564516773858,
+          "weight": 0.004147812971342383
+        }
+      ]
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "cells": 153,
+      "risk_weighted_variance_fraction_outside": 0.11312570500838724,
+      "details": [
+        {
+          "label": 2,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 446.89721392332035,
+          "outside_variance": 60.000184293105306,
+          "outside_fraction": 0.1342594727014796,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 2,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 425.10350838234285,
+          "outside_variance": 40.89203422958717,
+          "outside_fraction": 0.09619312337645639,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 2,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 428.5705738074159,
+          "outside_variance": 42.856815939020265,
+          "outside_fraction": 0.09999943663485998,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 2,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 386.1949639531734,
+          "outside_variance": 37.80965913085669,
+          "outside_fraction": 0.09790303515050795,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 36,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 416.2243978049623,
+          "outside_variance": 41.21232350539609,
+          "outside_fraction": 0.09901467507127655,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 36,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 254.9806244070769,
+          "outside_variance": 24.691942892102745,
+          "outside_fraction": 0.09683850664936025,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 36,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 350.275902212978,
+          "outside_variance": 33.78055169379215,
+          "outside_fraction": 0.09643983922494498,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 36,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 464.0359978776211,
+          "outside_variance": 49.726693219130006,
+          "outside_fraction": 0.10716128370765814,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 38,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 414.93202308700955,
+          "outside_variance": 49.47284852466614,
+          "outside_fraction": 0.11923121323969706,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 38,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 425.8271270827792,
+          "outside_variance": 41.415502597084156,
+          "outside_fraction": 0.09725895783298262,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 38,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 445.5934051721881,
+          "outside_variance": 50.20276328471306,
+          "outside_fraction": 0.11266496025746496,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 38,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 394.1635924880618,
+          "outside_variance": 38.15707308245892,
+          "outside_fraction": 0.0968051687412368,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 14,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 496.34375166409,
+          "outside_variance": 59.24503743146428,
+          "outside_fraction": 0.11936291578736238,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 14,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 454.6921379639236,
+          "outside_variance": 48.436164429831855,
+          "outside_fraction": 0.10652518569317093,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 14,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 443.06788386028427,
+          "outside_variance": 48.32591675980363,
+          "outside_fraction": 0.1090711345150049,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 37,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 426.07460468621764,
+          "outside_variance": 41.13926805716629,
+          "outside_fraction": 0.0965541424076736,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 37,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 500.3122497234347,
+          "outside_variance": 62.18864874110345,
+          "outside_fraction": 0.12429967240554358,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 37,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 396.4592761083792,
+          "outside_variance": 38.633766222396716,
+          "outside_fraction": 0.0974469978395347,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 37,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 449.0537418759508,
+          "outside_variance": 43.2457314511684,
+          "outside_fraction": 0.09630413337723585,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 6,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 357.538360545234,
+          "outside_variance": 34.97039937857863,
+          "outside_fraction": 0.09780880385883613,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 6,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 470.69569670426864,
+          "outside_variance": 51.008614158538506,
+          "outside_fraction": 0.10836855853089833,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 6,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 443.55499424564147,
+          "outside_variance": 44.805131251045,
+          "outside_fraction": 0.10101370029041279,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 6,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 401.43479968314864,
+          "outside_variance": 38.61577156433291,
+          "outside_fraction": 0.09619437974687853,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 24,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 498.89014858419694,
+          "outside_variance": 48.162430279246365,
+          "outside_fraction": 0.09653914878040143,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 24,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 429.53678301988816,
+          "outside_variance": 41.70167002492687,
+          "outside_fraction": 0.09708521289315523,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 24,
+          "n": 29,
+          "rank": 28,
+          "dimension": 512,
+          "total_variance": 495.25315145447234,
+          "outside_variance": 74.66994600084365,
+          "outside_fraction": 0.15077126875730323,
+          "weight": 0.010935143288084464
+        },
+        {
+          "label": 24,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 446.0389246824783,
+          "outside_variance": 43.38280096604825,
+          "outside_fraction": 0.09726236560392383,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 3,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 443.26201844109926,
+          "outside_variance": 64.15748841731296,
+          "outside_fraction": 0.14473942216603028,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 3,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 439.0394934252145,
+          "outside_variance": 42.67083934966841,
+          "outside_fraction": 0.09719134608316715,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 3,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 451.55886854939837,
+          "outside_variance": 50.096087469764996,
+          "outside_fraction": 0.11094032463739492,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 3,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 365.3480475696058,
+          "outside_variance": 35.69142647232336,
+          "outside_fraction": 0.0976915757720683,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 27,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 430.92276378332485,
+          "outside_variance": 55.57760805177292,
+          "outside_fraction": 0.12897347906113002,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 27,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 513.1620651562155,
+          "outside_variance": 50.05254469602324,
+          "outside_fraction": 0.0975374995437092,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 27,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 494.11153479183815,
+          "outside_variance": 48.89435826417009,
+          "outside_fraction": 0.09895409198404678,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 27,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 426.4171191217139,
+          "outside_variance": 41.188583016073736,
+          "outside_fraction": 0.09659223602680247,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 16,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 478.3266812001081,
+          "outside_variance": 45.958948656323074,
+          "outside_fraction": 0.09608276197558825,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 16,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 462.4153675906066,
+          "outside_variance": 66.24589079282343,
+          "outside_fraction": 0.14326057357910596,
+          "weight": 0.010180995475113122
+        },
+        {
+          "label": 16,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 442.9776444118548,
+          "outside_variance": 43.25282477867392,
+          "outside_fraction": 0.09764110068376264,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 16,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 377.72984586069305,
+          "outside_variance": 36.52380214733364,
+          "outside_fraction": 0.0966929210057805,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 20,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 528.7446308005583,
+          "outside_variance": 51.25685709760787,
+          "outside_fraction": 0.09694066683949341,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 20,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 475.575277558504,
+          "outside_variance": 67.99872066323434,
+          "outside_fraction": 0.14298203433181894,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 20,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 417.703871878805,
+          "outside_variance": 40.37386693296271,
+          "outside_fraction": 0.09665667390480168,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 20,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 489.58352968792394,
+          "outside_variance": 47.30328284562384,
+          "outside_fraction": 0.09661943259360961,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 13,
+          "n": 28,
+          "rank": 27,
+          "dimension": 512,
+          "total_variance": 485.20467781120897,
+          "outside_variance": 67.94089291691901,
+          "outside_fraction": 0.14002522239357823,
+          "weight": 0.010558069381598794
+        },
+        {
+          "label": 13,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 433.9897127798476,
+          "outside_variance": 42.09600561850389,
+          "outside_fraction": 0.09699770381391083,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 13,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 330.2934367846576,
+          "outside_variance": 32.192565860813225,
+          "outside_fraction": 0.09746656238223077,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 13,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 345.17634457398,
+          "outside_variance": 33.26483984071005,
+          "outside_fraction": 0.09637056641806044,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 19,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 482.46602994172133,
+          "outside_variance": 53.36263767175252,
+          "outside_fraction": 0.11060392724063572,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 19,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 371.43842518260453,
+          "outside_variance": 35.7079462764096,
+          "outside_fraction": 0.09613422805907886,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 19,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 330.9105371820382,
+          "outside_variance": 32.277086578799675,
+          "outside_fraction": 0.09754021994483551,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 19,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 422.9277199246801,
+          "outside_variance": 51.85142272288993,
+          "outside_fraction": 0.12260114501864346,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 25,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 443.21212807912946,
+          "outside_variance": 60.85871277468621,
+          "outside_fraction": 0.13731283265745994,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 25,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 433.3586045539908,
+          "outside_variance": 41.67217910636218,
+          "outside_fraction": 0.0961609592343294,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 25,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 432.5109032669452,
+          "outside_variance": 41.59007086677737,
+          "outside_fraction": 0.0961595893944621,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 25,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 481.64588930162245,
+          "outside_variance": 47.11312571579472,
+          "outside_fraction": 0.09781693721939136,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 33,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 343.8099644736962,
+          "outside_variance": 33.56292766437766,
+          "outside_fraction": 0.0976205786116634,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 33,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 421.20253024722314,
+          "outside_variance": 41.55832463896463,
+          "outside_fraction": 0.09866589503764883,
+          "weight": 0.001885369532428356
+        },
+        {
+          "label": 33,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 449.5191967410938,
+          "outside_variance": 45.88348303464055,
+          "outside_fraction": 0.1020723550123883,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 33,
+          "n": 34,
+          "rank": 33,
+          "dimension": 512,
+          "total_variance": 465.91454532943,
+          "outside_variance": 80.85529464029595,
+          "outside_fraction": 0.17354103976969926,
+          "weight": 0.01282051282051282
+        },
+        {
+          "label": 5,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 385.08100669499305,
+          "outside_variance": 37.46063614049075,
+          "outside_fraction": 0.09727988524285175,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 5,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 484.1277751198736,
+          "outside_variance": 54.82946848926763,
+          "outside_fraction": 0.11325412692071107,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 5,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 440.33822480361806,
+          "outside_variance": 42.74063651239664,
+          "outside_fraction": 0.09706319847989145,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 5,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 404.40373610294216,
+          "outside_variance": 51.98607289419089,
+          "outside_fraction": 0.1285499322908275,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 22,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 414.5267971886139,
+          "outside_variance": 40.062962194439685,
+          "outside_fraction": 0.09664746034792687,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 22,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 440.24966346337135,
+          "outside_variance": 42.729703803737536,
+          "outside_fraction": 0.09705789089670169,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 22,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 392.9511304141538,
+          "outside_variance": 37.96415531775137,
+          "outside_fraction": 0.09661291794157396,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 22,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 478.75130391829214,
+          "outside_variance": 64.7846675925565,
+          "outside_fraction": 0.13532008594510944,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 12,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 458.4742934354001,
+          "outside_variance": 44.09897201413868,
+          "outside_fraction": 0.09618635689189912,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 12,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 448.54385028709993,
+          "outside_variance": 43.40846770743023,
+          "outside_fraction": 0.09677641925008164,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 12,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 491.6172687812241,
+          "outside_variance": 52.322273719086894,
+          "outside_fraction": 0.1064288767739991,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 12,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 430.6454115134259,
+          "outside_variance": 44.492108017468205,
+          "outside_fraction": 0.1033149473510206,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 31,
+          "n": 34,
+          "rank": 33,
+          "dimension": 512,
+          "total_variance": 467.2878919362313,
+          "outside_variance": 75.4070468646126,
+          "outside_fraction": 0.16137171145642065,
+          "weight": 0.01282051282051282
+        },
+        {
+          "label": 31,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 471.97307488938964,
+          "outside_variance": 45.82368007348654,
+          "outside_fraction": 0.09708960640228398,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 31,
+          "n": 4,
+          "rank": 3,
+          "dimension": 512,
+          "total_variance": 308.51056809178016,
+          "outside_variance": 30.51447889933318,
+          "outside_fraction": 0.09890902307844214,
+          "weight": 0.0015082956259426848
+        },
+        {
+          "label": 31,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 393.3301323206706,
+          "outside_variance": 39.08817888376615,
+          "outside_fraction": 0.09937753472672847,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 4,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 429.0395405976239,
+          "outside_variance": 41.79886050601583,
+          "outside_fraction": 0.09742426175403963,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 4,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 501.4054703283999,
+          "outside_variance": 52.45587134573657,
+          "outside_fraction": 0.10461766863329221,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 4,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 368.6143857195909,
+          "outside_variance": 37.15345402951307,
+          "outside_fraction": 0.10079219767015853,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 4,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 478.94642551103965,
+          "outside_variance": 54.50266850475053,
+          "outside_fraction": 0.1137970044282004,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 28,
+          "n": 29,
+          "rank": 28,
+          "dimension": 512,
+          "total_variance": 431.79598142578743,
+          "outside_variance": 65.72847398426129,
+          "outside_fraction": 0.15222113408102203,
+          "weight": 0.010935143288084464
+        },
+        {
+          "label": 28,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 362.891303900755,
+          "outside_variance": 34.965972962995,
+          "outside_fraction": 0.09635384641941608,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 28,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 406.93011735930224,
+          "outside_variance": 39.30991508675092,
+          "outside_fraction": 0.0966011445450274,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 28,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 413.5097121847239,
+          "outside_variance": 40.549949074327856,
+          "outside_fraction": 0.09806286981770648,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 26,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 341.11712514286006,
+          "outside_variance": 42.000092462002854,
+          "outside_fraction": 0.12312513610805435,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 26,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 272.6587070067312,
+          "outside_variance": 26.919981065781876,
+          "outside_fraction": 0.0987314190744596,
+          "weight": 0.001885369532428356
+        },
+        {
+          "label": 26,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 398.2780543473898,
+          "outside_variance": 39.0559770315607,
+          "outside_fraction": 0.09806208653790131,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 26,
+          "n": 31,
+          "rank": 30,
+          "dimension": 512,
+          "total_variance": 398.75044149195935,
+          "outside_variance": 61.819292626546414,
+          "outside_fraction": 0.1550325371308535,
+          "weight": 0.011689291101055807
+        },
+        {
+          "label": 29,
+          "n": 11,
+          "rank": 10,
+          "dimension": 512,
+          "total_variance": 427.2521751608768,
+          "outside_variance": 41.494871816027654,
+          "outside_fraction": 0.09712032899634332,
+          "weight": 0.004147812971342383
+        },
+        {
+          "label": 29,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 348.0471424534898,
+          "outside_variance": 33.490912090417815,
+          "outside_fraction": 0.09622521780908823,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 29,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 450.80895669614586,
+          "outside_variance": 51.861531008648605,
+          "outside_fraction": 0.11504103953197252,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 29,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 382.88050934037585,
+          "outside_variance": 37.855581524999266,
+          "outside_fraction": 0.09887048465908235,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 30,
+          "n": 15,
+          "rank": 14,
+          "dimension": 512,
+          "total_variance": 530.1866159318953,
+          "outside_variance": 51.09831475306022,
+          "outside_fraction": 0.0963779794087145,
+          "weight": 0.005656108597285068
+        },
+        {
+          "label": 30,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 428.7848807083792,
+          "outside_variance": 41.527226055014424,
+          "outside_fraction": 0.0968486248545165,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 30,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 428.4158312991154,
+          "outside_variance": 41.50786126207516,
+          "outside_fraction": 0.09688685204794593,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 30,
+          "n": 31,
+          "rank": 30,
+          "dimension": 512,
+          "total_variance": 380.5226434610572,
+          "outside_variance": 57.95622225358344,
+          "outside_fraction": 0.1523068948708034,
+          "weight": 0.011689291101055807
+        },
+        {
+          "label": 35,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 444.10449287916356,
+          "outside_variance": 43.544060818118126,
+          "outside_fraction": 0.09804913374286901,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 35,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 459.2145968984379,
+          "outside_variance": 44.252242414276026,
+          "outside_fraction": 0.09636506050364742,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 35,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 491.2336711429711,
+          "outside_variance": 56.88517454943304,
+          "outside_fraction": 0.11580064212022814,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 35,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 370.40364546337946,
+          "outside_variance": 40.12296862635863,
+          "outside_fraction": 0.1083222833192268,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 15,
+          "n": 8,
+          "rank": 7,
+          "dimension": 512,
+          "total_variance": 438.08472032918473,
+          "outside_variance": 42.81148857818407,
+          "outside_fraction": 0.0977242222600568,
+          "weight": 0.0030165912518853697
+        },
+        {
+          "label": 15,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 346.33000437215554,
+          "outside_variance": 33.81817522008859,
+          "outside_fraction": 0.0976472577979372,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 15,
+          "n": 51,
+          "rank": 50,
+          "dimension": 512,
+          "total_variance": 309.399570619311,
+          "outside_variance": 37.351935333016826,
+          "outside_fraction": 0.12072394043162749,
+          "weight": 0.019230769230769232
+        },
+        {
+          "label": 17,
+          "n": 27,
+          "rank": 26,
+          "dimension": 512,
+          "total_variance": 533.3486636905395,
+          "outside_variance": 72.4303329918292,
+          "outside_fraction": 0.13580297078208273,
+          "weight": 0.010180995475113122
+        },
+        {
+          "label": 17,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 361.4809044417668,
+          "outside_variance": 35.28032043836784,
+          "outside_fraction": 0.09759940291410707,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 17,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 477.36329860713306,
+          "outside_variance": 53.053657436349994,
+          "outside_fraction": 0.11113895347872735,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 17,
+          "n": 9,
+          "rank": 8,
+          "dimension": 512,
+          "total_variance": 382.8474101412665,
+          "outside_variance": 37.47317701974354,
+          "outside_fraction": 0.09788018940996975,
+          "weight": 0.003393665158371041
+        },
+        {
+          "label": 9,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 472.310703898974,
+          "outside_variance": 50.199447498251516,
+          "outside_fraction": 0.10628479745186771,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 9,
+          "n": 26,
+          "rank": 25,
+          "dimension": 512,
+          "total_variance": 435.77341852210964,
+          "outside_variance": 55.052581842261944,
+          "outside_fraction": 0.12633304259118955,
+          "weight": 0.00980392156862745
+        },
+        {
+          "label": 9,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 467.95476398932664,
+          "outside_variance": 44.98490583728693,
+          "outside_fraction": 0.09613088550224262,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 9,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 290.9567090279281,
+          "outside_variance": 28.7412503534192,
+          "outside_fraction": 0.09878187875248619,
+          "weight": 0.001885369532428356
+        },
+        {
+          "label": 32,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 409.55445670823127,
+          "outside_variance": 39.39998559857478,
+          "outside_fraction": 0.09620206776712854,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 32,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 399.12732064725355,
+          "outside_variance": 40.16168407302929,
+          "outside_fraction": 0.10062374083513055,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 32,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 444.52599034785993,
+          "outside_variance": 52.61001892449836,
+          "outside_fraction": 0.1183508277734871,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 32,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 459.3842034407473,
+          "outside_variance": 44.656776093680804,
+          "outside_fraction": 0.09721008201676391,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 7,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 354.9388655141416,
+          "outside_variance": 42.975059099346666,
+          "outside_fraction": 0.12107735521466707,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 7,
+          "n": 23,
+          "rank": 22,
+          "dimension": 512,
+          "total_variance": 297.9888478623516,
+          "outside_variance": 35.95802321092454,
+          "outside_fraction": 0.12066902324993867,
+          "weight": 0.008672699849170438
+        },
+        {
+          "label": 7,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 360.7450628257242,
+          "outside_variance": 35.237951496343136,
+          "outside_fraction": 0.09768103607662285,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 7,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 338.4366602456205,
+          "outside_variance": 32.88658198784682,
+          "outside_fraction": 0.09717204384412544,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 8,
+          "n": 5,
+          "rank": 4,
+          "dimension": 512,
+          "total_variance": 474.5014934100939,
+          "outside_variance": 46.79854040643281,
+          "outside_fraction": 0.09862675050842586,
+          "weight": 0.001885369532428356
+        },
+        {
+          "label": 8,
+          "n": 14,
+          "rank": 13,
+          "dimension": 512,
+          "total_variance": 439.4452798749949,
+          "outside_variance": 42.499441231952666,
+          "outside_fraction": 0.09671156609997518,
+          "weight": 0.005279034690799397
+        },
+        {
+          "label": 8,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 353.9543325880806,
+          "outside_variance": 34.35307463030466,
+          "outside_fraction": 0.09705510419696865,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 8,
+          "n": 36,
+          "rank": 35,
+          "dimension": 512,
+          "total_variance": 445.86987545937546,
+          "outside_variance": 59.51517601418323,
+          "outside_fraction": 0.13348104299009955,
+          "weight": 0.013574660633484163
+        },
+        {
+          "label": 1,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 430.56560154864326,
+          "outside_variance": 47.577713386209055,
+          "outside_fraction": 0.11050049798470478,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 1,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 329.3879693800627,
+          "outside_variance": 31.690207691151418,
+          "outside_fraction": 0.09620936596681169,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 1,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 423.37328888715496,
+          "outside_variance": 51.22450433336519,
+          "outside_fraction": 0.12099134659158543,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 1,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 474.7095428149763,
+          "outside_variance": 46.1648355458029,
+          "outside_fraction": 0.09724859389185735,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 23,
+          "n": 24,
+          "rank": 23,
+          "dimension": 512,
+          "total_variance": 471.63052215936347,
+          "outside_variance": 59.4879148369628,
+          "outside_fraction": 0.12613245335479348,
+          "weight": 0.00904977375565611
+        },
+        {
+          "label": 23,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 437.84165149196934,
+          "outside_variance": 42.45774517703521,
+          "outside_fraction": 0.09697054867292347,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 23,
+          "n": 21,
+          "rank": 20,
+          "dimension": 512,
+          "total_variance": 522.6934289836283,
+          "outside_variance": 57.92498809263034,
+          "outside_fraction": 0.1108201957029857,
+          "weight": 0.007918552036199095
+        },
+        {
+          "label": 23,
+          "n": 10,
+          "rank": 9,
+          "dimension": 512,
+          "total_variance": 405.6609025877152,
+          "outside_variance": 39.639033779833156,
+          "outside_fraction": 0.09771470094104544,
+          "weight": 0.003770739064856712
+        },
+        {
+          "label": 0,
+          "n": 7,
+          "rank": 6,
+          "dimension": 512,
+          "total_variance": 392.2347741932298,
+          "outside_variance": 38.558655425965014,
+          "outside_fraction": 0.09830504066161547,
+          "weight": 0.0026395173453996985
+        },
+        {
+          "label": 0,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 427.905608315578,
+          "outside_variance": 41.15971705703941,
+          "outside_fraction": 0.09618877681706932,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 0,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 441.06964183436315,
+          "outside_variance": 42.776004762931095,
+          "outside_fraction": 0.0969824279563429,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 0,
+          "n": 31,
+          "rank": 30,
+          "dimension": 512,
+          "total_variance": 479.605202674849,
+          "outside_variance": 82.04104289339458,
+          "outside_fraction": 0.17105953487542702,
+          "weight": 0.011689291101055807
+        },
+        {
+          "label": 34,
+          "n": 16,
+          "rank": 15,
+          "dimension": 512,
+          "total_variance": 426.2831435641999,
+          "outside_variance": 41.095817948122324,
+          "outside_fraction": 0.09640498004334795,
+          "weight": 0.006033182503770739
+        },
+        {
+          "label": 34,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 424.9583926883226,
+          "outside_variance": 45.02557678440514,
+          "outside_fraction": 0.10595290635294799,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 34,
+          "n": 30,
+          "rank": 29,
+          "dimension": 512,
+          "total_variance": 472.9768871466305,
+          "outside_variance": 69.40521820354678,
+          "outside_fraction": 0.14674124696082674,
+          "weight": 0.011312217194570135
+        },
+        {
+          "label": 10,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 387.41175075302635,
+          "outside_variance": 37.656313172486264,
+          "outside_fraction": 0.09719971864377452,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 10,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 473.5346222582707,
+          "outside_variance": 51.970312986500986,
+          "outside_fraction": 0.10974976388982143,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 10,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 481.67658636072724,
+          "outside_variance": 51.673918181330095,
+          "outside_fraction": 0.10727928166853337,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 10,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 436.23711317907583,
+          "outside_variance": 43.867610887978586,
+          "outside_fraction": 0.10055909862481344,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 18,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 426.15851863214687,
+          "outside_variance": 40.9634864931974,
+          "outside_fraction": 0.09612265084992098,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 18,
+          "n": 20,
+          "rank": 19,
+          "dimension": 512,
+          "total_variance": 440.60605734179234,
+          "outside_variance": 45.58056841246258,
+          "outside_fraction": 0.10344970899277553,
+          "weight": 0.007541478129713424
+        },
+        {
+          "label": 18,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 445.29386194684014,
+          "outside_variance": 43.22115386490421,
+          "outside_fraction": 0.09706209215626695,
+          "weight": 0.006787330316742082
+        },
+        {
+          "label": 18,
+          "n": 13,
+          "rank": 12,
+          "dimension": 512,
+          "total_variance": 409.17104321107115,
+          "outside_variance": 39.65820921208412,
+          "outside_fraction": 0.09692330351839293,
+          "weight": 0.004901960784313725
+        },
+        {
+          "label": 11,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 518.396254950771,
+          "outside_variance": 49.84102920819611,
+          "outside_fraction": 0.0961446552366186,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 11,
+          "n": 22,
+          "rank": 21,
+          "dimension": 512,
+          "total_variance": 503.14408209751974,
+          "outside_variance": 59.502430099067794,
+          "outside_fraction": 0.11826121426493294,
+          "weight": 0.008295625942684766
+        },
+        {
+          "label": 11,
+          "n": 17,
+          "rank": 16,
+          "dimension": 512,
+          "total_variance": 506.37783544897536,
+          "outside_variance": 48.61245481930158,
+          "outside_fraction": 0.09600036063229304,
+          "weight": 0.00641025641025641
+        },
+        {
+          "label": 11,
+          "n": 12,
+          "rank": 11,
+          "dimension": 512,
+          "total_variance": 456.0346385909849,
+          "outside_variance": 44.24958239772199,
+          "outside_fraction": 0.0970311872239363,
+          "weight": 0.004524886877828055
+        },
+        {
+          "label": 21,
+          "n": 19,
+          "rank": 18,
+          "dimension": 512,
+          "total_variance": 655.1614304023501,
+          "outside_variance": 65.23886969947712,
+          "outside_fraction": 0.09957678622719349,
+          "weight": 0.007164404223227752
+        },
+        {
+          "label": 21,
+          "n": 6,
+          "rank": 5,
+          "dimension": 512,
+          "total_variance": 320.7414645494412,
+          "outside_variance": 31.592710624756524,
+          "outside_fraction": 0.09849899098370742,
+          "weight": 0.0022624434389140274
+        },
+        {
+          "label": 21,
+          "n": 25,
+          "rank": 24,
+          "dimension": 512,
+          "total_variance": 492.49482508047726,
+          "outside_variance": 53.7013623381324,
+          "outside_fraction": 0.10903944489032388,
+          "weight": 0.00942684766214178
+        },
+        {
+          "label": 21,
+          "n": 18,
+          "rank": 17,
+          "dimension": 512,
+          "total_variance": 415.11498308791147,
+          "outside_variance": 40.410997653431494,
+          "outside_fraction": 0.09734892571890956,
+          "weight": 0.006787330316742082
+        }
+      ]
+    }
+  ]
+}

@@ -36,10 +36,11 @@ def test_same_component_fit_and_class_or_target_sampling(task):
         a,b=r.sample(10000,classes,np.random.default_rng(9));np.testing.assert_allclose(b[:,1],-1.5*b[:,0],atol=2e-6)
 
 @pytest.mark.parametrize('task',['classification','regression'])
-def test_shared_readout_grid_equals_independent_training(task):
+@pytest.mark.parametrize('mode',['local','er'])
+def test_shared_readout_grid_equals_independent_training(task,mode):
     torch.set_num_threads(1);rng=np.random.default_rng(8);x=rng.normal(size=(24,4)).astype(np.float32)
     y=np.repeat([2,7],12) if task=='classification' else x[:,:1]**2
-    kwargs=dict(dimension=4,task=task,epochs=1,device='cpu',replay_count=32)
+    kwargs=dict(dimension=4,task=task,mode=mode,epochs=1,device='cpu',replay_count=32)
     models={r:RegularizedInnovationLearner(**kwargs,ridge=r) for r in (.001,.01,.1,1.,10.,100.)};shared=LatentReplayLearner(**kwargs,ridge=.1)
     for sl in (slice(0,12),slice(12,24)):
         shared.observe(x[sl],y[sl])
