@@ -1,0 +1,31 @@
+air_quality mantis soft fixed_teacher done
+air_quality mantis soft selected_warm_er10 done
+air_quality mantis soft selected_causal_ridge done
+air_quality summary soft fixed_teacher done
+air_quality summary soft selected_warm_er10 done
+air_quality summary soft selected_causal_ridge done
+beijing_pm25 mantis soft fixed_teacher done
+beijing_pm25 mantis soft selected_warm_er10 done
+beijing_pm25 mantis soft selected_causal_ridge done
+beijing_pm25 summary soft fixed_teacher done
+beijing_pm25 summary soft selected_warm_er10 done
+beijing_pm25 summary soft selected_causal_ridge done
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TMoT/scripts/diagnose_teacher_complementarity.py", line 32, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--manifest',required=True);p.add_argument('--out',required=True);run(p.parse_args())
+                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/TMoT/scripts/diagnose_teacher_complementarity.py", line 26, in run
+    metric='macro_accuracy' if summary['task']=='classification' else 'rmse';actual=row['candidate_accuracy' if metric=='macro_accuracy' else 'candidate_rmse'];np.testing.assert_allclose(actual,summary['stages'][t-1][metric],rtol=0,atol=1e-12)
+                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1718, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 926, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-12
+
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 1.22945222e-06
+Max relative difference among violations: 1.8677697e-08
+ ACTUAL: array(65.824617)
+ DESIRED: array(65.824615)
