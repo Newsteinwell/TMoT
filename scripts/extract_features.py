@@ -15,6 +15,7 @@ def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--datasets',nargs='+',required=True)
     p.add_argument('--encoder',choices=['mantis','summary'],default='mantis');p.add_argument('--weights',type=Path)
+    p.add_argument('--splits',nargs='+',choices=['train','val','test'],default=['train','val','test'])
     p.add_argument('--channel-batch',type=int,default=128);p.add_argument('--device',default='cuda');a=p.parse_args()
     torch.set_num_threads(4)
     model=None
@@ -25,7 +26,7 @@ if __name__=='__main__':
     out=a.root/'features'/a.encoder;out.mkdir(parents=True,exist_ok=True)
     model_hash={p.name:sha(p) for p in a.weights.glob('*') if p.is_file()} if a.weights else {}
     for name in a.datasets:
-        for split in ('train','val','test'):
+        for split in a.splits:
             source=a.root/'prepared'/f'{name}_{split}.npz';target=out/f'{name}_{split}.npz'
             if target.exists():raise FileExistsError(f'Explicitly remove stale cache before replacing: {target}')
             raw=np.load(source);x=raw['x'];start=time.perf_counter();rows=[]
