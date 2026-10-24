@@ -7,7 +7,7 @@ from tmot.fecam import unit_rows
 from tmot.class_distance_completion import statistics,block_features
 root=Path(sys.argv[1]);folder=root/'runs/class_completion_v62';torch.set_num_threads(1)
 terminal=json.loads((folder/'complete.json').read_text());assert len(terminal)==6 and all(r['status']=='completed' for r in terminal)
-rows=[];max_cov_error=0.;controls=0
+rows=[];max_cov_error=0.;controls=0;geometry=[]
 for path in sorted((folder/'_shared').glob('*.pt')):
  ck=torch.load(path,map_location='cpu',weights_only=False);source=Path(ck['source_checkpoint']);assert hashlib.sha256(source.read_bytes()).hexdigest()==ck['source_sha256'];original=torch.load(source,map_location='cpu',weights_only=False);m=original['learner'];basis=original['basis'];um=ck['unit_memory'];stats,_=statistics(m,um)
  summaries=sorted(folder.glob(path.stem+'_*/summary.json'));assert len(summaries)==24;s=json.loads(summaries[0].read_text());c=s['config'];d,e=c['dataset'],c['encoder'];tr=np.load(root/'features'/e/f'{d}_train.npz');val=np.load(root/'features'/e/f'{d}_val.npz')
@@ -24,7 +24,10 @@ for path in sorted((folder/'_shared').glob('*.pt')):
    em,ec=(mu[:512],aa) if mode=='self' else stats['base'][k]
    trans=np.block([[np.eye(512),b],[np.zeros((128,512)),np.eye(128)]]);diag=np.zeros((640,640));diag[:512,:512]=ec;diag[512:,512:]=rc
    expected=trans.T@diag@trans;actual=stats[mode][k][1];err=np.linalg.norm(expected-actual)/max(np.linalg.norm(expected),1e-12);max_cov_error=max(max_cov_error,float(err));assert err<1e-7
- digest=hashlib.sha256(path.read_bytes()).hexdigest();final_ids=[np.flatnonzero(np.isin(val['y'],g)) for g in s['order']];vx=np.concatenate([basis.transform(val['x'][ids]) for ids in final_ids]);features={'base':unit_rows(vx),'approx':block_features(m.function,vx)};features['complete']=features['approx'];features['self']=features['approx']
+  for mode in ('approx','self','complete'):
+   mean,cov=stats[mode][k];hidden_mean_sq=float(mean[512:]@mean[512:]);hidden_second_norm=hidden_mean_sq+float(np.trace(cov[512:,512:]))*max(n-1,1)/n
+   geometry.append(dict(dataset=d,encoder=e,label=int(label),mode=mode,hidden_mean_norm_sq=hidden_mean_sq,hidden_second_norm=hidden_second_norm,outside_unit_ball_moment_bound=hidden_second_norm>1+1e-7))
+ digest=hashlib.sha256(path.read_bytes()).hexdigest();final_ids=[np.flatnonzero(np.isin(val['y'],g)) for g in s['order']];vx_parts=[basis.transform(val['x'][ids]) for ids in final_ids];features={'base':np.concatenate([unit_rows(z) for z in vx_parts]),'approx':np.concatenate([block_features(m.function,z) for z in vx_parts])};features['complete']=features['approx'];features['self']=features['approx']
  for sp in summaries:
   s=json.loads(sp.read_text());c=s['config'];assert s['shared_state_sha256']==digest and s['final_training_state_exact']
   for split,h in s['input_hashes'].items():assert hashlib.sha256((root/'features'/e/f'{d}_{split}.npz').read_bytes()).hexdigest()==h
@@ -46,4 +49,4 @@ for path in sorted((folder/'_shared').glob('*.pt')):
   rows.append(s)
  print(path.stem,'verified',flush=True)
 assert len(rows)==144 and controls==36
-(root/'class_completion_v62_runs.json').write_text(json.dumps(rows,indent=2));(root/'class_completion_v62_audit.json').write_text(json.dumps(dict(complete=True,trajectories=144,base_fecam_controls=36,max_independent_covariance_relative_error=max_cov_error,checks=['direct TRAIN unit statistics','independent residual covariance','independent final triangular-solve predictions','all-stage metrics','base full trajectories exact','hashes']),indent=2))
+(root/'class_completion_v62_runs.json').write_text(json.dumps(rows,indent=2));(root/'class_completion_v62_audit.json').write_text(json.dumps(dict(complete=True,trajectories=144,base_fecam_controls=36,max_independent_covariance_relative_error=max_cov_error,geometry=geometry,checks=['direct TRAIN unit statistics','independent residual covariance','independent final triangular-solve predictions','all-stage metrics','base full trajectories exact','hashes']),indent=2))
