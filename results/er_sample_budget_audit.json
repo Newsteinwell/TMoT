@@ -1,0 +1,108 @@
+{
+  "source": "Server synthetic_robustness_v55 checkpoint buffers and summary stage current_samples; mantis, seed42, order17, er4",
+  "policy": "Each historical task retains at most floor(N_task/10) real examples; no quota transfer; aggregate grows with tasks.",
+  "rows": [
+    {
+      "dataset": "phonemespectra",
+      "task_sizes": [
+        204,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136,
+        136
+      ],
+      "train_samples": 2652,
+      "old_retained": 2032,
+      "new_final_capacity": 254
+    },
+    {
+      "dataset": "lsst",
+      "task_sizes": [
+        164,
+        61,
+        81,
+        467,
+        195,
+        927,
+        78
+      ],
+      "train_samples": 1973,
+      "old_retained": 1973,
+      "new_final_capacity": 194
+    },
+    {
+      "dataset": "handwriting",
+      "task_sizes": [
+        11,
+        8,
+        9,
+        5,
+        16,
+        8,
+        10,
+        6,
+        13,
+        7,
+        3,
+        14,
+        12
+      ],
+      "train_samples": 122,
+      "old_retained": 122,
+      "new_final_capacity": 6
+    },
+    {
+      "dataset": "energy",
+      "task_sizes": [
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "train_samples": 390,
+      "old_retained": 390,
+      "new_final_capacity": 35
+    },
+    {
+      "dataset": "beijing_pm25",
+      "task_sizes": [
+        160,
+        144,
+        163,
+        169,
+        169
+      ],
+      "train_samples": 805,
+      "old_retained": 805,
+      "new_final_capacity": 78
+    },
+    {
+      "dataset": "air_quality",
+      "task_sizes": [
+        21,
+        29,
+        18,
+        27,
+        25
+      ],
+      "train_samples": 120,
+      "old_retained": 120,
+      "new_final_capacity": 9
+    }
+  ]
+}
