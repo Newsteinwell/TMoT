@@ -1,0 +1,41 @@
+{
+  "selected": {
+    "air_quality_mantis_er4": 10.0,
+    "air_quality_mantis_task": 1.0,
+    "air_quality_summary_er4": 0.01,
+    "air_quality_summary_task": 1.0,
+    "beijing_pm25_mantis_er4": 1.0,
+    "beijing_pm25_mantis_task": 0.1,
+    "beijing_pm25_summary_er4": 1.0,
+    "beijing_pm25_summary_task": 1.0,
+    "energy_mantis_er4": 10.0,
+    "energy_mantis_task": 1.0,
+    "energy_summary_er4": 10.0,
+    "energy_summary_task": 1.0,
+    "handwriting_mantis_er4": 0.01,
+    "handwriting_mantis_task": 0.1,
+    "handwriting_summary_er4": 0.01,
+    "handwriting_summary_task": 0.01,
+    "lsst_mantis_er4": 1.0,
+    "lsst_mantis_task": 1.0,
+    "lsst_summary_er4": 0.1,
+    "lsst_summary_task": 0.1,
+    "phonemespectra_mantis_er4": 0.1,
+    "phonemespectra_mantis_task": 0.1,
+    "phonemespectra_summary_er4": 1.0,
+    "phonemespectra_summary_task": 1.0,
+    "phonemespectra_mantis_er64": 0.1,
+    "phonemespectra_summary_er64": 0.01
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "class_orders": [
+    17,
+    23
+  ],
+  "calibration": "ER64 uses only original seed42/order17; no reselection elsewhere",
+  "source": "ede66f3970c4a624ff8e570daf060dcd2d2c125f"
+}
