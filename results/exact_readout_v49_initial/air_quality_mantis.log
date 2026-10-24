@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/autodl-tmp/TMoT/scripts/diagnose_exact_readout.py", line 43, in <module>
+    np.testing.assert_allclose(oldmetric,oldsummary['final_macro_accuracy' if cl else 'final_rmse'],rtol=1e-10,atol=1e-12)
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1718, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/root/miniconda3/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 926, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-10, atol=1e-12
+
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 2.89148705e-10
+Max relative difference among violations: 2.23451177e-10
+ ACTUAL: array(1.294013)
+ DESIRED: array(1.294013)
