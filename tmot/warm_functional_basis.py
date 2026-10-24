@@ -8,7 +8,7 @@ class WarmFunctionalBasis:
     def __init__(self,base,task,mode='trained',seed=42,width=128,epochs=30,device='cuda'):
         self.base=base;self.task=task;self.mode=mode;self.seed=seed
         self.width=width;self.epochs=epochs;self.device=device;self.dimension=base.dimension+width
-    def fit(self,x,y,calibration_x=None,sample_weight=None,input_stats=None,previous=None,distillation=0.,temperature=2.):
+    def fit(self,x,y,calibration_x=None,sample_weight=None,input_stats=None,previous=None,distillation=0.,temperature=2.,external_targets=None):
         if distillation<0 or temperature<=0:raise ValueError('Invalid distillation parameters')
         if hasattr(self,'net'):raise RuntimeError('Functional basis must remain fixed after first arrival')
         z=self.base.transform(x).astype(np.float32);y=np.asarray(y)
@@ -39,13 +39,18 @@ class WarmFunctionalBasis:
         features=torch.as_tensor((z-self.mean)/self.sd,device=self.device)
         weights=torch.as_tensor(weights,dtype=torch.float32,device=self.device)
         teacher=None
-        if previous is not None and distillation:
+        if previous is not None and distillation and external_targets is None:
             # Teacher uses its own fixed input calibration; never receives new labels.
             teacher_net=copy.deepcopy(previous.net).to(self.device).eval()
             teacher_head=copy.deepcopy(previous.head).to(self.device).eval()
             with torch.no_grad():
                 teacher=teacher_head(teacher_net(torch.as_tensor((z-previous.mean)/previous.sd,device=self.device)))
             del teacher_net,teacher_head
+        external=None
+        if external_targets is not None:
+            external=torch.as_tensor(external_targets,dtype=torch.float32,device=self.device)
+            if external.shape!=(len(y),outputs) or not torch.isfinite(external).all():raise ValueError('Invalid external targets')
+            if self.task=='classification' and (torch.any(external<0) or not torch.allclose(external.sum(1),torch.ones(len(y),device=self.device),atol=1e-5)):raise ValueError('Expected aligned class probabilities')
         self.distillation=distillation;self.temperature=temperature;self.last_distillation_loss=0.
         self.optimizer_steps=0;self.last_loss=None
         if self.mode=='trained':
@@ -59,6 +64,9 @@ class WarmFunctionalBasis:
                         kd=distillation_error(prediction,teacher[batch],self.task,temperature)
                         kd=(weights[batch]*kd).mean()
                         loss=loss+distillation*kd;self.last_distillation_loss=float(kd.detach())
+                    if external is not None and distillation:
+                        kd=external_distillation_error(prediction,external[batch],self.task)
+                        kd=(weights[batch]*kd).mean();loss=loss+distillation*kd;self.last_distillation_loss=float(kd.detach())
                     opt.zero_grad();loss.backward();opt.step()
                     self.optimizer_steps+=1;self.last_loss=float(loss.detach())
         elif self.mode!='random':raise ValueError(self.mode)
@@ -93,4 +101,10 @@ def distillation_error(student,teacher,task,temperature=2.):
         # Old class ordering is preserved by WarmFunctionalBasis head expansion.
         old=student[:,:teacher.shape[1]]
         return nn.functional.kl_div(nn.functional.log_softmax(old/temperature,dim=1),nn.functional.softmax(teacher.detach()/temperature,dim=1),reduction='none').sum(1)*temperature**2
+    return (student-teacher.detach()).square().mean(1)
+
+
+def external_distillation_error(student,teacher,task):
+    if task=='classification':
+        return nn.functional.kl_div(nn.functional.log_softmax(student,dim=1),teacher.detach(),reduction='none').sum(1)
     return (student-teacher.detach()).square().mean(1)
