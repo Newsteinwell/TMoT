@@ -1,0 +1,722 @@
+[
+  {
+    "name": "lsst_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_mantis_local",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_mantis_current",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_mantis_er10",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_summary_current",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_summary_er10",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_summary_local",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_summary_current",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_summary_local",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/lsst_summary_er10",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_mantis_current",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_mantis_er10",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/phonemespectra_mantis_local",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_mantis_local",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_mantis_current",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_mantis_er10",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_summary_local",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_summary_current",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_mantis_current",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_mantis_er10",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_mantis_local",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_summary_current",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_summary_local",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/energy_summary_er10",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_mantis_current",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_mantis_local",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_summary_current",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/handwriting_summary_er10",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_summary_local",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_summary_er10",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/beijing_pm25_mantis_er10",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_mantis_current",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_mantis_local",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_mantis_er10",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_local",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_summary_local",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--support",
+      "local"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_current",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_summary_current",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--support",
+      "current"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_support_teacher",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/support_teacher_v75/air_quality_summary_er10",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--support",
+      "er10"
+    ],
+    "status": "completed",
+    "returncode": 0
+  }
+]

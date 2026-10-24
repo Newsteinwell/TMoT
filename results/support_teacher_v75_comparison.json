@@ -1,0 +1,590 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "current",
+        "final": 1.117220547927698,
+        "average": 0.816043840625246,
+        "teacher_final": 1.0162368038501508,
+        "teacher_average": 0.836444000404829,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "er10",
+        "final": 1.026904059196277,
+        "average": 0.7623942079403149,
+        "teacher_final": 1.0162368038501508,
+        "teacher_average": 0.836444000404829,
+        "support_bytes": 18576,
+        "stored_examples": 9,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "local",
+        "final": 0.9721686347344658,
+        "average": 0.7609667378716096,
+        "teacher_final": 1.0162368038501508,
+        "teacher_average": 0.836444000404829,
+        "support_bytes": 299696,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "current",
+        "final": 0.8906352108101365,
+        "average": 0.7614442218913484,
+        "teacher_final": 0.9340101065359246,
+        "teacher_average": 0.8974929521800933,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "er10",
+        "final": 0.8469683352100804,
+        "average": 0.7153086463229733,
+        "teacher_final": 0.9340101065359246,
+        "teacher_average": 0.8974929521800933,
+        "support_bytes": 18576,
+        "stored_examples": 9,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "local",
+        "final": 0.9107651451558281,
+        "average": 0.7570768810817136,
+        "teacher_final": 0.9340101065359246,
+        "teacher_average": 0.8974929521800933,
+        "support_bytes": 312032,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "current",
+        "final": 46.099586695823824,
+        "average": 53.491775358696955,
+        "teacher_final": 44.707670788019136,
+        "teacher_average": 52.947728363986286,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "er10",
+        "final": 45.03640798706464,
+        "average": 52.69420783480372,
+        "teacher_final": 44.707670788019136,
+        "teacher_average": 52.947728363986286,
+        "support_bytes": 160992,
+        "stored_examples": 78,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "local",
+        "final": 44.66571133674152,
+        "average": 52.967582355806584,
+        "teacher_final": 44.707670788019136,
+        "teacher_average": 52.947728363986286,
+        "support_bytes": 732724,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "current",
+        "final": 43.23670353099992,
+        "average": 57.30120680537772,
+        "teacher_final": 43.64984784541407,
+        "teacher_average": 53.40076713903984,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "er10",
+        "final": 41.49128283139064,
+        "average": 56.00016764901329,
+        "teacher_final": 43.64984784541407,
+        "teacher_average": 53.40076713903984,
+        "support_bytes": 160992,
+        "stored_examples": 78,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "local",
+        "final": 43.147946351675756,
+        "average": 54.829441288684485,
+        "teacher_final": 43.64984784541407,
+        "teacher_average": 53.40076713903984,
+        "support_bytes": 779920,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "energy",
+    "encoder": "mantis",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "energy",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "current",
+        "final": 65.76860046386719,
+        "average": 69.76875915527344,
+        "teacher_final": 68.93527051602716,
+        "teacher_average": 78.37633303245408,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "energy",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "er10",
+        "final": 66.09176635742188,
+        "average": 70.15988311767578,
+        "teacher_final": 68.93527051602716,
+        "teacher_average": 78.37633303245408,
+        "support_bytes": 72100,
+        "stored_examples": 35,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "energy",
+        "encoder": "mantis",
+        "task": "regression",
+        "support": "local",
+        "final": 65.24413299560547,
+        "average": 70.61473236083984,
+        "teacher_final": 68.93527051602716,
+        "teacher_average": 78.37633303245408,
+        "support_bytes": 613692,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "energy",
+    "encoder": "summary",
+    "task": "regression",
+    "runs": {
+      "current": {
+        "dataset": "energy",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "current",
+        "final": 65.9703598022461,
+        "average": 75.77170867919922,
+        "teacher_final": 71.61454255107462,
+        "teacher_average": 84.48937194935338,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "er10": {
+        "dataset": "energy",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "er10",
+        "final": 68.36515045166016,
+        "average": 76.20777435302735,
+        "teacher_final": 71.61454255107462,
+        "teacher_average": 84.48937194935338,
+        "support_bytes": 72100,
+        "stored_examples": 35,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      },
+      "local": {
+        "dataset": "energy",
+        "encoder": "summary",
+        "task": "regression",
+        "support": "local",
+        "final": 69.90955352783203,
+        "average": 77.88716430664063,
+        "teacher_final": 71.61454255107462,
+        "teacher_average": 84.48937194935338,
+        "support_bytes": 697840,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244"
+      }
+    }
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "current",
+        "final": 0.038461538461538464,
+        "average": 0.1698722217952987,
+        "teacher_final": 0.36538461538461536,
+        "teacher_average": 0.3602604660296968,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0,
+        "old_predicted_as_new": 0.9230769230769231
+      },
+      "er10": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.07692307692307693,
+        "average": 0.18835139219754599,
+        "teacher_final": 0.36538461538461536,
+        "teacher_average": 0.3602604660296968,
+        "support_bytes": 12384,
+        "stored_examples": 6,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.041666666666666664,
+        "old_predicted_as_new": 0.9230769230769231
+      },
+      "local": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "local",
+        "final": 0.34615384615384615,
+        "average": 0.3380838178915102,
+        "teacher_final": 0.36538461538461536,
+        "teacher_average": 0.3602604660296968,
+        "support_bytes": 305368,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.3333333333333333,
+        "old_predicted_as_new": 0.2692307692307692
+      }
+    }
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "current",
+        "final": 0.07692307692307693,
+        "average": 0.1315012978474517,
+        "teacher_final": 0.28846153846153844,
+        "teacher_average": 0.2126107332838102,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0,
+        "old_predicted_as_new": 1.0
+      },
+      "er10": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.07692307692307693,
+        "average": 0.12435844070459455,
+        "teacher_final": 0.28846153846153844,
+        "teacher_average": 0.2126107332838102,
+        "support_bytes": 12384,
+        "stored_examples": 6,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0,
+        "old_predicted_as_new": 0.8846153846153846
+      },
+      "local": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "local",
+        "final": 0.23076923076923078,
+        "average": 0.14886481040327193,
+        "teacher_final": 0.28846153846153844,
+        "teacher_average": 0.2126107332838102,
+        "support_bytes": 305368,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.16666666666666666,
+        "old_predicted_as_new": 0.3076923076923077
+      }
+    }
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "current",
+        "final": 0.137677302575435,
+        "average": 0.39315355865572127,
+        "teacher_final": 0.6206331844914189,
+        "teacher_average": 0.7491634104413029,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.014790186338007503,
+        "old_predicted_as_new": 0.9444444444444444
+      },
+      "er10": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.38208952039597205,
+        "average": 0.5654607828092953,
+        "teacher_final": 0.6206331844914189,
+        "teacher_average": 0.7491634104413029,
+        "support_bytes": 400416,
+        "stored_examples": 194,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.3068822182397451,
+        "old_predicted_as_new": 0.452991452991453
+      },
+      "local": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "local",
+        "final": 0.4438059323246081,
+        "average": 0.6541348601557591,
+        "teacher_final": 0.6206331844914189,
+        "teacher_average": 0.7491634104413029,
+        "support_bytes": 1536384,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.4136069210453761,
+        "old_predicted_as_new": 0.4166666666666667
+      }
+    }
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "current",
+        "final": 0.1268796992481203,
+        "average": 0.3097148593449831,
+        "teacher_final": 0.3883697042440675,
+        "teacher_average": 0.5649969798259878,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0021929824561403508,
+        "old_predicted_as_new": 0.9658119658119658
+      },
+      "er10": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.15393905911732736,
+        "average": 0.37507830068889975,
+        "teacher_final": 0.3883697042440675,
+        "teacher_average": 0.5649969798259878,
+        "support_bytes": 400416,
+        "stored_examples": 194,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.09626223563688192,
+        "old_predicted_as_new": 0.6645299145299145
+      },
+      "local": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "local",
+        "final": 0.2480888601431895,
+        "average": 0.5108170990548305,
+        "teacher_final": 0.3883697042440675,
+        "teacher_average": 0.5649969798259878,
+        "support_bytes": 1503600,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.19915922572261,
+        "old_predicted_as_new": 0.5405982905982906
+      }
+    }
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "current",
+        "final": 0.048265460030165915,
+        "average": 0.19358207434686991,
+        "teacher_final": 0.35595776772247356,
+        "teacher_average": 0.5107343550557129,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0,
+        "old_predicted_as_new": 0.9745627980922098
+      },
+      "er10": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.13122171945701352,
+        "average": 0.297481770612235,
+        "teacher_final": 0.35595776772247356,
+        "teacher_average": 0.5107343550557129,
+        "support_bytes": 524256,
+        "stored_examples": 254,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.08585055643879173,
+        "old_predicted_as_new": 0.5739268680445151
+      },
+      "local": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "task": "classification",
+        "support": "local",
+        "final": 0.18702865761689294,
+        "average": 0.3864606449897667,
+        "teacher_final": 0.35595776772247356,
+        "teacher_average": 0.5107343550557129,
+        "support_bytes": 4584576,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.151033386327504,
+        "old_predicted_as_new": 0.41017488076311603
+      }
+    }
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "task": "classification",
+    "runs": {
+      "current": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "current",
+        "final": 0.03167420814479638,
+        "average": 0.11425115937796985,
+        "teacher_final": 0.11463046757164402,
+        "teacher_average": 0.18959825445757633,
+        "support_bytes": 0,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.0,
+        "old_predicted_as_new": 0.9984101748807631
+      },
+      "er10": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "er10",
+        "final": 0.042232277526395176,
+        "average": 0.12064978113399837,
+        "teacher_final": 0.11463046757164402,
+        "teacher_average": 0.18959825445757633,
+        "support_bytes": 524256,
+        "stored_examples": 254,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.00794912559618442,
+        "old_predicted_as_new": 0.809220985691574
+      },
+      "local": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "task": "classification",
+        "support": "local",
+        "final": 0.06485671191553544,
+        "average": 0.15455080771267296,
+        "teacher_final": 0.11463046757164402,
+        "teacher_average": 0.18959825445757633,
+        "support_bytes": 4863176,
+        "stored_examples": 0,
+        "source": "ddaa60420a13e01725fc268b36e85d54726d1244",
+        "old_macro": 0.03815580286168522,
+        "old_predicted_as_new": 0.5850556438791733
+      }
+    }
+  }
+]
