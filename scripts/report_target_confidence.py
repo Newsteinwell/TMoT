@@ -19,4 +19,10 @@ for d,e in sorted(set((r['dataset'],r['encoder']) for r in runs if r['task']=='c
  def fmt(m):return f"{g[m]['final']*100:.3f}/{g[m]['average']*100:.3f}"
  t=g['soft'];lines.append(f"| {d} | {e} | {fmt('soft')} | {fmt('sharp')} | {fmt('hard')} | {t['teacher_final']*100:.3f}/{t['teacher_average']*100:.3f} |")
 lines+=['','六个回归控制结果未改变，见v75报告。分类目标锐化结果不外推回归；整个框架仍需两类任务共同验证。新结果是单种子/类序的开发证据，不是稳健泛化证明。']
+lines+=['','## 与既有强读出比较','','下表列各目标形式中最终VAL最高值，仅用于诊断距离强基线还有多远，不把这种事后挑选拼成算法。强基线列为v60中既有FeCAM及全部解析读出的最大最终值。','','| 数据 | 表示 | 本轮最佳最终% | 既有强读出最终% | 差值pp |','|---|---|---:|---:|---:|']
+strong=json.loads(Path('results/analytic_heads_v60_comparison.json').read_text())['rows']
+for r in strong:
+ d,e=r['dataset'],r['encoder'];g=[v for v in runs if v['dataset']==d and v['encoder']==e]
+ best=max(v['final'] for v in g);baseline=max([r['fecam_final']]+[v['final'] for v in r['heads'].values()]);lines.append(f"| {d} | {e} | {100*best:.3f} | {100*baseline:.3f} | {100*(best-baseline):+.3f} |")
+lines+=['','## 结论','','锐化相对soft在四个分类配置改善最终准确率，一个持平、一个退化；硬目标在五个改善、一个退化。LSST+Mantis的锐化改善13.342个百分点，Phoneme+Mantis硬目标改善13.876个百分点。教师argmax、支持输入和更新步数没有变化，因此这是目标形式对当前训练流程的影响，而不是新增教师判别信息。','','本轮最佳结果在六个配置仍全部低于既有强读出。Handwriting+Mantis硬目标40.385%虽高于固定FeCAM 36.538%，但其阶段平均32.822%低于教师36.026%，且低于既有ridge最终51.923%；不能称稳健胜出。其余五个配置即使择优也低于固定教师。','','v75和v77共同表明历史覆盖与软目标平缓都是可改善环节，但没有证明学习模型能够超越强统计读出。保持统计教师的直接推断能力，后续优先验证新增表示/统计信息是否形成互补，而不是继续把一个弱于强基线的模仿模型作为默认预测器。本轮模块不升级为默认TMoT；一般多维时序持续学习目标与分类、回归共同验收要求保持不变。']
 Path('docs/TARGET_CONFIDENCE_REPORT.md').write_text('\n'.join(lines)+'\n');print('\n'.join(lines[6:]))
