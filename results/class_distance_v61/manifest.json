@@ -1,0 +1,73 @@
+{
+  "jobs": [
+    {
+      "name": "phonemespectra_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "phonemespectra",
+        "mantis",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/phonemespectra_mantis"
+      ]
+    },
+    {
+      "name": "phonemespectra_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "phonemespectra",
+        "summary",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/phonemespectra_summary"
+      ]
+    },
+    {
+      "name": "lsst_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "lsst",
+        "mantis",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/lsst_mantis"
+      ]
+    },
+    {
+      "name": "lsst_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "lsst",
+        "summary",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/lsst_summary"
+      ]
+    },
+    {
+      "name": "handwriting_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "handwriting",
+        "mantis",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/handwriting_mantis"
+      ]
+    },
+    {
+      "name": "handwriting_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "scripts/diagnose_class_distance.py",
+        "/root/autodl-tmp/tmot-artifacts",
+        "handwriting",
+        "summary",
+        "/root/autodl-tmp/tmot-artifacts/runs/class_distance_v61/handwriting_summary"
+      ]
+    }
+  ],
+  "pid": 62361,
+  "workers": 6,
+  "source": "240b31cd053da781c1e0990fb28b0aeca5e8d0a0"
+}

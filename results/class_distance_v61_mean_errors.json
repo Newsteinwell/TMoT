@@ -1,0 +1,146 @@
+[
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.06962516243766591,
+    "median_relative_class_mean_error": 0.06621882051074612,
+    "classes": 26
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.06584757194605635,
+    "median_relative_class_mean_error": 0.07114906105992884,
+    "classes": 26
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.06456264244942812,
+    "median_relative_class_mean_error": 0.06369797367205043,
+    "classes": 26
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.07107456240513492,
+    "median_relative_class_mean_error": 0.06852908790392571,
+    "classes": 26
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.05451101972417466,
+    "median_relative_class_mean_error": 0.05773422773359302,
+    "classes": 26
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.06213873466361806,
+    "median_relative_class_mean_error": 0.0634637197189018,
+    "classes": 26
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.03950062642520561,
+    "median_relative_class_mean_error": 0.02372665017308416,
+    "classes": 39
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.07804335820912024,
+    "median_relative_class_mean_error": 0.06344589084248464,
+    "classes": 39
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.04739247440023789,
+    "median_relative_class_mean_error": 0.032504674245164594,
+    "classes": 39
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.06753974278800522,
+    "median_relative_class_mean_error": 0.06579845814388736,
+    "classes": 39
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.24238119600643326,
+    "median_relative_class_mean_error": 0.2282357971390401,
+    "classes": 39
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.1444302439348993,
+    "median_relative_class_mean_error": 0.14641665211968816,
+    "classes": 39
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.20600631869531869,
+    "median_relative_class_mean_error": 0.14294542615246347,
+    "classes": 14
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.09979935156941838,
+    "median_relative_class_mean_error": 0.06397172045947899,
+    "classes": 14
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.1755900688959313,
+    "median_relative_class_mean_error": 0.1184115911976208,
+    "classes": 14
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "space": "input",
+    "mean_relative_class_mean_error": 0.14319676142829169,
+    "median_relative_class_mean_error": 0.08847072579251801,
+    "classes": 14
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "space": "hidden",
+    "mean_relative_class_mean_error": 0.0694286847670952,
+    "median_relative_class_mean_error": 0.028748536509128966,
+    "classes": 14
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "space": "joint",
+    "mean_relative_class_mean_error": 0.12708081223312293,
+    "median_relative_class_mean_error": 0.08014632168624189,
+    "classes": 14
+  }
+]
