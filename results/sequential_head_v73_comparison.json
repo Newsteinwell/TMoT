@@ -1,0 +1,662 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "task": "regression",
+    "ft": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 1.2072024485343915,
+      "average": 0.9088296795451687,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "strength": 1.0,
+      "final": 1.0471278722153636,
+      "average": 0.8141766180141252,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.9783876300946939,
+      "average": 0.7811618982302881,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 0.9625986770936513,
+      "average": 0.7775873466334247,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "air_quality_mantis_task_n256_r1_o17_s42",
+      "persistent_bytes": 12872944
+    }
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "task": "regression",
+    "ft": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 1.1049639937598892,
+      "average": 0.8891782856078653,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "strength": 1.0,
+      "final": 0.9213022964668731,
+      "average": 0.7451642913123594,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.8177044630139518,
+      "average": 0.7158737409911563,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 0.826535867850703,
+      "average": 0.7575820476249688,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "air_quality_summary_task_n256_r1_o17_s42",
+      "persistent_bytes": 14461216
+    }
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "task": "regression",
+    "ft": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 49.72031623123775,
+      "average": 54.675564878767695,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "strength": 1.0,
+      "final": 44.96330100703333,
+      "average": 53.01320312153054,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 50.23668132092346,
+      "average": 54.28974088986844,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 43.91215784180677,
+      "average": 50.14924742750521,
+      "ridge": 0.1,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "beijing_pm25_mantis_task_n256_r0.1_o17_s42",
+      "persistent_bytes": 16983156
+    }
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "task": "regression",
+    "ft": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 43.012309093327076,
+      "average": 59.06739627306534,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "strength": 0.1,
+      "final": 42.92621348896501,
+      "average": 59.005713911559305,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 40.168694348101404,
+      "average": 54.9984350965736,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 44.03081277510135,
+      "average": 56.12237773339812,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "beijing_pm25_summary_task_n256_r1_o17_s42",
+      "persistent_bytes": 17030352
+    }
+  },
+  {
+    "dataset": "energy",
+    "encoder": "mantis",
+    "task": "regression",
+    "ft": {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 70.90816497802734,
+      "average": 75.62151184082032,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "strength": 1.0,
+      "final": 66.90850830078125,
+      "average": 71.73086700439453,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 70.01097869873047,
+      "average": 74.59299011230469,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 64.86424009241227,
+      "average": 72.14555817266276,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "energy_mantis_task_n256_r1_o17_s42",
+      "persistent_bytes": 15813500
+    }
+  },
+  {
+    "dataset": "energy",
+    "encoder": "summary",
+    "task": "regression",
+    "ft": {
+      "dataset": "energy",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 76.14138793945312,
+      "average": 80.4887451171875,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "energy",
+      "encoder": "summary",
+      "strength": 1.0,
+      "final": 69.88978576660156,
+      "average": 78.88148956298828,
+      "stages": 5,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 68.47608947753906,
+      "average": 78.19098663330078,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "energy",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "regression",
+      "final": 66.53118140728355,
+      "average": 77.63817098793623,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "energy_summary_task_n256_r1_o17_s42",
+      "persistent_bytes": 16948272
+    }
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "task": "classification",
+    "ft": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 0.038461538461538464,
+      "average": 0.17051324743632434,
+      "stages": 13,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "strength": 0.1,
+      "final": 0.038461538461538464,
+      "average": 0.16410299102606793,
+      "stages": 13,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.07692307692307693,
+      "average": 0.18925465560080942,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.4423076923076923,
+      "average": 0.4515263048916896,
+      "ridge": 0.1,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "handwriting_mantis_task_n256_r0.1_o17_s42",
+      "persistent_bytes": 73198328
+    }
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "task": "classification",
+    "ft": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 0.07692307692307693,
+      "average": 0.12280166414781798,
+      "stages": 13,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "strength": 0.1,
+      "final": 0.07692307692307693,
+      "average": 0.12600679235294618,
+      "stages": 13,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.038461538461538464,
+      "average": 0.11405720348028041,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.19230769230769232,
+      "average": 0.2108607204761051,
+      "ridge": 0.01,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "handwriting_summary_task_n256_r0.01_o17_s42",
+      "persistent_bytes": 73198328
+    }
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "task": "classification",
+    "ft": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 0.11309523809523811,
+      "average": 0.33275826140245257,
+      "stages": 7,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "strength": 0.1,
+      "final": 0.11904761904761905,
+      "average": 0.32761355118861785,
+      "stages": 7,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.4546088909204359,
+      "average": 0.571268700827982,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        540,
+        510,
+        600,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.596065786536924,
+      "average": 0.7015110860803722,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "lsst_mantis_task_n256_r1_o17_s42",
+      "persistent_bytes": 60002752
+    }
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "task": "classification",
+    "ft": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 0.13972431077694236,
+      "average": 0.30372446092189,
+      "stages": 7,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "strength": 0.1,
+      "final": 0.13972431077694236,
+      "average": 0.3020110600361631,
+      "stages": 7,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.27246240601503763,
+      "average": 0.3998364990044795,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        540,
+        510,
+        600,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.31701426678082034,
+      "average": 0.4984542884068917,
+      "ridge": 0.1,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "lsst_summary_task_n256_r0.1_o17_s42",
+      "persistent_bytes": 58921392
+    }
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "task": "classification",
+    "ft": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "strength": 0.0,
+      "final": 0.04675716440422323,
+      "average": 0.15637099987336994,
+      "stages": 19,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "strength": 0.1,
+      "final": 0.04675716440422323,
+      "average": 0.1564793582266595,
+      "stages": 19,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.16591251885369532,
+      "average": 0.3177556410768421,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.34841628959276016,
+      "average": 0.5038633445116449,
+      "ridge": 0.1,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "phonemespectra_mantis_task_n256_r0.1_o17_s42",
+      "persistent_bytes": 166375592
+    }
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "task": "classification",
+    "ft": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "strength": 0.0,
+      "final": 0.03619909502262443,
+      "average": 0.10803522043513206,
+      "stages": 19,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "distill": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "strength": 1.0,
+      "final": 0.0392156862745098,
+      "average": 0.10686185887530449,
+      "stages": 19,
+      "source": "3e0344ef285f081a0ba542f47a305b0e4df408c2",
+      "control_first_stage_exact": true,
+      "final_checkpoint_exact": true
+    },
+    "er10_head": {
+      "final": 0.05429864253393665,
+      "average": 0.12221868167266128,
+      "source": "23170a3ef1986a8793caf5228300427b99b8e7e1",
+      "optimizer_steps": [
+        30,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510,
+        510
+      ]
+    },
+    "tmot": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "variant": "task_n256",
+      "task": "classification",
+      "final": 0.09954751131221719,
+      "average": 0.17619415292596127,
+      "ridge": 1.0,
+      "source_queue": "synthetic_capacity_v54",
+      "source_run": "phonemespectra_summary_task_n256_r1_o17_s42",
+      "persistent_bytes": 171372784
+    }
+  }
+]

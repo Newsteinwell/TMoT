@@ -1,0 +1,962 @@
+[
+  {
+    "name": "phonemespectra_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_summary_kd0",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_summary_kd1",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_summary_kd0.1",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_summary_kd10",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_mantis_kd0",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_mantis_kd0.1",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_mantis_kd1",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_mantis_kd10",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_summary_kd0",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_summary_kd0.1",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_summary_kd1",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/lsst_summary_kd10",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_mantis_kd0",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_mantis_kd0.1",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_mantis_kd1",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_mantis_kd10",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_mantis_kd0",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_mantis_kd10",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_mantis_kd0.1",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/phonemespectra_mantis_kd1",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_summary_kd0",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_summary_kd0.1",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_summary_kd1",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_mantis_kd0",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/handwriting_summary_kd10",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_mantis_kd1",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_mantis_kd10",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_mantis_kd0.1",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_summary_kd0",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_summary_kd0.1",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_summary_kd1",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "energy_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/energy_summary_kd10",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_summary_kd0",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_mantis_kd0",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_mantis_kd0.1",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_mantis_kd1",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_mantis_kd10",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_summary_kd0.1",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_summary_kd1",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "beijing_pm25_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/beijing_pm25_summary_kd10",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_mantis_kd0",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_mantis_kd0.1",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_kd0",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_summary_kd0",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_mantis_kd1",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_mantis_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_mantis_kd10",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_kd0.1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_summary_kd0.1",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--strength",
+      "0.1"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_kd10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_summary_kd10",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--strength",
+      "10.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  },
+  {
+    "name": "air_quality_summary_kd1",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_sequential_head",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/sequential_head_v73/air_quality_summary_kd1",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--strength",
+      "1.0"
+    ],
+    "status": "completed",
+    "returncode": 0
+  }
+]
