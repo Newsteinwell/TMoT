@@ -8,7 +8,7 @@ from tmot.moments import augment
 
 os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG',':4096:8')
 torch.set_num_threads(1);torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False;torch.use_deterministic_algorithms(True)
-root=Path(sys.argv[1]);q=root/'runs/causal_residual_v79'
+root=Path(sys.argv[1]);q=root/'runs'/(sys.argv[2] if len(sys.argv)>2 else 'causal_residual_v79')
 complete=json.loads((q/'complete.json').read_text());assert len(complete)==48 and all(x['status']=='completed' for x in complete)
 summaries=[];initial={}
 for f in sorted(q.glob('*/summary.json')):
@@ -22,7 +22,8 @@ for f in sorted(q.glob('*/summary.json')):
   expected=0 if stage==1 or (c['mode']=='er10' and not oldquota) else 4096
   assert row['historical_training_samples']==expected
   assert row['optimizer_steps']==30*((len(parts[stage-1])+expected+255)//256)
-  if stage>1:assert row['warm_init_error']<1e-4
+  if c.get('initialization','warm')=='cold':assert row['warm_init_error'] is None
+  elif stage>1:assert row['warm_init_error']<1e-4
   if c['mode']=='er10':
    a=row['buffer_audit'];assert a['quota']==len(parts[stage-1])//10 and a['after']==quota and a['before']==oldquota
    assert len(set(a['selected_indices']))==a['quota'] and all(0<=i<a['current_samples'] for i in a['selected_indices'])
@@ -43,6 +44,14 @@ for f in sorted(q.glob('*/summary.json')):
     key=(c['dataset'],c['encoder'],c['reference'],c['penalty'])
     if key in initial:np.testing.assert_array_equal(pred,initial[key])
     else:initial[key]=pred.copy()
+  if c.get('initialization','warm')=='cold':
+   warm_folder=root/'runs/causal_residual_v79'/folder.name
+   ws=json.loads((warm_folder/'summary.json').read_text());wr=ws['stages'][stage-1]
+   assert all(row[k]==wr[k] for k in ('current_samples','historical_training_samples','optimizer_steps','buffer_count'))
+   if c['mode']=='er10':assert row['buffer_audit']==wr['buffer_audit']
+   with np.load(warm_folder/f'predictions_stage{stage}.npz') as wp,np.load(folder/f'predictions_stage{stage}.npz') as cp:
+    for k in cp.files:
+     if stage==1 or not k.startswith('pred_'):np.testing.assert_array_equal(cp[k],wp[k])
  assert s['final_rmse']==s['stages'][-1]['rmse']
  assert abs(s['average_rmse']-np.mean([r['rmse'] for r in s['stages']]))<1e-12
  assert sha(folder/'final.pt')==s['checkpoint_sha256']

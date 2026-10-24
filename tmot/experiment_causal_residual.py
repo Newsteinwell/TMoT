@@ -23,7 +23,7 @@ def run(a):
  reference=CausalReference(a.reference).fit(past['train'][parts[0]]);sd=np.maximum(tr['y'][parts[0]].std(0),1e-6);target=tr['y']-reference.offset(past['train']);mu=target[parts[0]].mean(0);target=(target-mu)/sd
  basis=StableSemanticBasis(2*meta['shapes']['train'][1],512).fit(tr['x'][parts[0]]);dim=512+(a.reference!='none')
  cls=StrictResidualER if a.mode=='er10' else NonlinearMomentLearner
- model=cls(dim,'regression',42,ridge=a.ridge,mode='er' if a.mode=='er10' else 'local',epochs=30,device='cuda',residual_weight=a.penalty,warm_start=True,preserve_targets=True,local_components=4,local_support=4,local_min_cell=4,replay_count=4096,loss='mse')
+ model=cls(dim,'regression',42,ridge=a.ridge,mode='er' if a.mode=='er10' else 'local',epochs=30,device='cuda',residual_weight=a.penalty,warm_start=a.initialization=='warm',preserve_targets=True,local_components=4,local_support=4,local_min_cell=4,replay_count=4096,loss='mse')
  peer=root/'runs/causal_task_v68'/f'{a.dataset}_{a.encoder}_{a.reference}_ridge_r{a.ridge:g}'
  stages=[]
  for stage,ids in enumerate(parts):
@@ -47,4 +47,5 @@ def run(a):
 if __name__=='__main__':
  p=argparse.ArgumentParser()
  for key in ('root','out','dataset','encoder','reference','mode'):p.add_argument('--'+key,required=True)
+ p.add_argument('--initialization',choices=['warm','cold'],default='warm')
  p.add_argument('--ridge',type=float,required=True);p.add_argument('--penalty',type=float,required=True);run(p.parse_args())
