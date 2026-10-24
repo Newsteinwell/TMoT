@@ -1,0 +1,6386 @@
+[
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.683728770526452,
+        "scores": [
+          0.683728770526452
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8392811109449745,
+        "scores": [
+          0.37482359240582436,
+          1.1261850829033626
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          29.963504483534383,
+          29.91305271244106,
+          45.65149295139354
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6766215652864852,
+        "scores": [
+          0.32313321086156815,
+          0.9479722551346773,
+          0.5520951203654528
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          61.213987980836144,
+          53.876856727038245,
+          58.37061596864589
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1831463351930407,
+        "scores": [
+          0.48589118155105726,
+          1.1355436041735016,
+          1.028467457314437,
+          1.7647576862702266
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          112.11807690178992,
+          98.50106272848711,
+          102.6712853933544
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.2840169190585315,
+        "scores": [
+          0.8853175929731555,
+          1.1260592855858185,
+          1.086717495190932,
+          1.8530739545856363,
+          1.2787748636953566
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          198.1699093011585,
+          182.3353304242341,
+          186.63982944236773
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.2840169190585315,
+    "average_rmse": 0.9333589402018967,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6808214349277315,
+        "scores": [
+          0.6808214349277315
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8195502298858396,
+        "scores": [
+          0.35307960080798706,
+          1.1039293247781479
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          29.837607704578257,
+          29.772774431034914,
+          45.16887979470882
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6723595795141797,
+        "scores": [
+          0.3107677370567741,
+          0.9378641464291001,
+          0.5709757153532701
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          59.41739509059357,
+          52.65942918074312,
+          57.50071267143795
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1461281491623252,
+        "scores": [
+          0.459379253474696,
+          1.0821692171577184,
+          0.927352912852762,
+          1.7517545172265212
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          109.03828063222318,
+          96.3158974442141,
+          101.07117903605555
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.172567127094927,
+        "scores": [
+          0.7478623989975155,
+          1.0343010754013022,
+          1.0190510288797638,
+          1.7768101899245143,
+          1.0991120733525988
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          186.51395432050052,
+          172.11414481841064,
+          177.96524661083834
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.172567127094927,
+    "average_rmse": 0.8982853041170007,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6562013105265334,
+        "scores": [
+          0.6562013105265334
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.7064052284996808,
+        "scores": [
+          0.26637153883057885,
+          0.9628410549017952
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          28.783906242598157,
+          28.60764498108736,
+          41.14285228647142
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6486017934053877,
+        "scores": [
+          0.2554532318878061,
+          0.8708384497501195,
+          0.6721245123934475
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          49.85723002092567,
+          46.01166783715057,
+          52.03566451480209
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0899800245029418,
+        "scores": [
+          0.3557278284780186,
+          0.8918939923005769,
+          0.7798208149572295,
+          1.8086252886110001
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          91.88596434264754,
+          83.65583807414046,
+          91.02081648817658
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.034094364150888,
+        "scores": [
+          0.4706876070500646,
+          0.8274671697627582,
+          0.8708208423653369,
+          1.78450553923329,
+          0.8695318678197905
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          151.80866787636322,
+          142.1383805996412,
+          153.47875261149537
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.034094364150888,
+    "average_rmse": 0.8270565442170863,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.5653491295659617,
+        "scores": [
+          0.5653491295659617
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.5701743772625495,
+        "scores": [
+          0.33349507159775876,
+          0.7341516724720295
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          25.336064152040557,
+          24.969901441046442,
+          28.555191682861093
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.5746465929495237,
+        "scores": [
+          0.3251513815214768,
+          0.7092070598672151,
+          0.6486621230458023
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          40.152874223806776,
+          38.960206752263616,
+          41.94738997713989
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1202521612412542,
+        "scores": [
+          0.37039271119394135,
+          0.6800860022210613,
+          0.6364322359967581,
+          2.012503400984916
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          71.87748098196415,
+          67.99461798967927,
+          70.56150885121723
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.0412358239784196,
+        "scores": [
+          0.4222687231232773,
+          0.6609896922500595,
+          0.6642080275766146,
+          2.0057515166633206,
+          0.7865695934311174
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          118.44384668602964,
+          112.22727652257237,
+          121.55679484205741
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.0412358239784196,
+    "average_rmse": 0.7743316169995418,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.5022327773527764,
+        "scores": [
+          0.5022327773527764
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6306432567861232,
+        "scores": [
+          0.4472600356808782,
+          0.7716089003778767
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          24.46909243832312,
+          24.30130440697509,
+          28.086557614619895
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6091875330553866,
+        "scores": [
+          0.4428766369167017,
+          0.7403134948311706,
+          0.6063298616783219
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          42.69176388196465,
+          42.26832661321305,
+          48.34055792404596
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.218472835401698,
+        "scores": [
+          0.43787057349957603,
+          0.7349458956253528,
+          0.5625873406241682,
+          2.207678810837618
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          75.16540659744521,
+          73.5745916830907,
+          75.95741706348691
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1277683597717691,
+        "scores": [
+          0.453336506608045,
+          0.7330078873692066,
+          0.5978580553406683,
+          2.225280170669165,
+          0.7909739928025098
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          116.1109194186705,
+          113.44052198522859,
+          129.75680705371167
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1277683597717691,
+    "average_rmse": 0.8176609524735508,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.5196485948659333,
+        "scores": [
+          0.5196485948659333
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.713670777571303,
+        "scores": [
+          0.5059619358101799,
+          0.8733009086389822
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          24.21177084407311,
+          24.181058365825102,
+          33.082401800304304
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.7085946289221744,
+        "scores": [
+          0.5059983426847068,
+          0.8548939946689909,
+          0.7296862017379372
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          46.50765831057117,
+          46.422371664430855,
+          56.84197138549159
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.2887255061610687,
+        "scores": [
+          0.49107779481713076,
+          0.8868688215376457,
+          0.6387919862486671,
+          2.274256126315232
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          85.15620837219672,
+          84.82012535348697,
+          88.1398813435928
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1868680294681384,
+        "scores": [
+          0.49701421523665323,
+          0.8884165639551564,
+          0.6590825919194869,
+          2.2847437222475797,
+          0.8282247534834353
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          126.87215942841705,
+          126.29984673541469,
+          147.36811013331402
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1868680294681384,
+    "average_rmse": 0.8835015073977237,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6827480654166698,
+        "scores": [
+          0.6827480654166698
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8374248467572386,
+        "scores": [
+          0.37378628903779565,
+          1.1237635685766483
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          29.80757571789046,
+          29.612240643892,
+          44.7568465056317
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6765869086181631,
+        "scores": [
+          0.32325873078274,
+          0.9476634858491765,
+          0.5527027190020701
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          61.775665495731396,
+          53.65585765509202,
+          57.4521778708337
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.182502858819534,
+        "scores": [
+          0.4855068644342315,
+          1.1348154390245335,
+          1.02686515236588,
+          1.764324381068235
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          112.6261896090692,
+          98.24615590716803,
+          101.7404676774492
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.282898727384397,
+        "scores": [
+          0.8845399316607818,
+          1.1255567770827304,
+          1.0848104730040635,
+          1.8529224094726755,
+          1.2762860768399702
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          198.59643287130586,
+          181.98424707005722,
+          185.59665872068607
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.282898727384397,
+    "average_rmse": 0.9324322813992005,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6751154417860448,
+        "scores": [
+          0.6751154417860448
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.767235098177972,
+        "scores": [
+          0.3296735158302331,
+          1.0337382476780366
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          28.828905043616906,
+          28.412605839820138,
+          38.968080912703925
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.7835042878807066,
+        "scores": [
+          0.7042181416180561,
+          0.861345086804204,
+          0.7721644250860771
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          58.88231571264257,
+          54.179161427130865,
+          50.45541911447699
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1256236621876545,
+        "scores": [
+          0.5248534003507592,
+          1.0967284053229056,
+          0.8407891100065275,
+          1.6947463809621834
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          106.53594564500327,
+          96.59189731910774,
+          93.31307244487977
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.183852657691501,
+        "scores": [
+          0.7143797600393429,
+          1.1149144817541838,
+          1.0460205587386195,
+          1.7180998337298923,
+          1.1493131923806394
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          181.70866473677503,
+          168.46510686335645,
+          166.30753263246743
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.183852657691501,
+    "average_rmse": 0.9070662295447758,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.671867643238414,
+        "scores": [
+          0.671867643238414
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6812255416335213,
+        "scores": [
+          0.44106430184139833,
+          0.8565037996348464
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          30.195086317433333,
+          34.223883188448035,
+          31.778507268989838
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.8896985878625587,
+        "scores": [
+          0.8970603820206321,
+          0.7882848093904837,
+          1.032638913470702
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          55.310235039479956,
+          63.34364090537999,
+          41.54415517503924
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1288056237957806,
+        "scores": [
+          0.795748944473407,
+          0.8703782928903047,
+          0.9678856613537247,
+          1.6881063044201694
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          97.81158220863324,
+          103.59708798164468,
+          82.78253662821622
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1501410423218286,
+        "scores": [
+          0.6410654164132978,
+          1.0180953252364329,
+          0.9354046458148235,
+          1.6679063745120446,
+          1.2169829544361088
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          162.4701340716066,
+          156.24251344732897,
+          140.96264873296278
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1501410423218286,
+    "average_rmse": 0.9043476877704206,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6783986004187897,
+        "scores": [
+          0.6783986004187897
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8865532833842978,
+        "scores": [
+          0.9135894333311406,
+          0.8586662889997743
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          33.85990722089037,
+          40.07129553280987,
+          32.768931388209204
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.8758994645611354,
+        "scores": [
+          0.9399783157265347,
+          0.7321677859446294,
+          0.9838947340359425
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          57.38536608896976,
+          64.66698130694513,
+          42.03581169955616
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1430514054915915,
+        "scores": [
+          0.8836411992164968,
+          0.810669862405755,
+          1.0316262685711686,
+          1.684959622608547
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          99.20485960659951,
+          104.69509154642522,
+          85.29915196700438
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1921603277443484,
+        "scores": [
+          0.7269344748537842,
+          0.9867842496608626,
+          1.0404193190219229,
+          1.6664272812587198,
+          1.3078446734941795
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          165.46096044074488,
+          155.25072673621395,
+          144.6947045204626
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1921603277443484,
+    "average_rmse": 0.9552126163200325,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6371770278664454,
+        "scores": [
+          0.6371770278664454
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6217116318020833,
+        "scores": [
+          0.4438408549866482,
+          0.7589835318903433
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          27.98112945103735,
+          32.606397870354186,
+          31.649280570956655
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.8542889649252471,
+        "scores": [
+          0.9190593242453513,
+          0.6938469586568553,
+          0.9815699078564242
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          49.42054960406787,
+          53.460177277167375,
+          41.9344373241
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1382989021225296,
+        "scores": [
+          0.9371444876369497,
+          0.7896311511996533,
+          1.1122223223774512,
+          1.6143590769822203
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          85.90478239911569,
+          88.65883575231013,
+          79.37990902003719
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.9771866086841406,
+        "scores": [
+          0.4314262478763435,
+          0.7009358735912722,
+          0.6362850008323293,
+          1.8129766903888804,
+          0.7766503444722056
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          139.3849853303009,
+          131.34812417725686,
+          137.02337305297874
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.9771866086841406,
+    "average_rmse": 0.8457326270800893,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.5472378085742003,
+        "scores": [
+          0.5472378085742003
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6674789607363104,
+        "scores": [
+          0.4642306330520722,
+          0.82191620338531
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          23.477470347683056,
+          23.774509999715168,
+          31.337124690395985
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6398695160326001,
+        "scores": [
+          0.40802952930459224,
+          0.7751722612059958,
+          0.7067766685039352
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          44.92768075492995,
+          45.105933039577074,
+          48.524902855800875
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.2484817874590977,
+        "scores": [
+          1.1910897864317693,
+          0.7962636654058215,
+          1.416303367294599,
+          1.5819917153521115
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          81.82824734403927,
+          82.06846791646193,
+          79.20705031875741
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.08998345693629,
+        "scores": [
+          0.42150873475658596,
+          0.8212678949267375,
+          0.632264128094041,
+          2.097799975004837,
+          0.7628481572045656
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          124.19401852539666,
+          121.7212569773844,
+          136.59073890099882
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.08998345693629,
+    "average_rmse": 0.8386103059476996,
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.7321604581947394,
+        "scores": [
+          0.7321604581947394
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.9083691271988789,
+        "scores": [
+          0.7894756913930322,
+          1.0134086417608643
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          19.495208194948194,
+          19.317248543313738,
+          19.677220697897898
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.109996406084426,
+        "scores": [
+          0.6554790320192271,
+          1.5546375712395748,
+          0.7503001419565924
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          35.31876246543614,
+          35.16246425578239,
+          44.86173242944914
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1664364729065417,
+        "scores": [
+          0.8009092997247431,
+          1.4263528654292406,
+          0.9770756267044032,
+          1.2976583105035768
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          76.4692966973943,
+          75.14528662480251,
+          89.17910157105194
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.328501243378775,
+        "scores": [
+          1.0293706463117953,
+          1.581622918779225,
+          1.0032300231286793,
+          1.6327138501951746,
+          1.2153581713009018
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          140.26446707928125,
+          137.84605795173843,
+          134.611459431835
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.328501243378775,
+    "average_rmse": 1.049092741552672,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.7313880862465865,
+        "scores": [
+          0.7313880862465865
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.9001615843401622,
+        "scores": [
+          0.7759316265773892,
+          1.0092134891689413
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          19.475431694098297,
+          19.29789721655742,
+          19.659693628248057
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.0701471333313934,
+        "scores": [
+          0.6157848008652311,
+          1.5113201357155637,
+          0.7019458046070208
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          34.88515271174744,
+          34.723956084247696,
+          44.1010840912618
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.130934720969791,
+        "scores": [
+          0.7673239498478073,
+          1.3516134410298175,
+          0.8779086696389903,
+          1.3356590844656506
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          73.62486461357794,
+          72.41808172916136,
+          86.21447958997774
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1801153809568192,
+        "scores": [
+          0.8651075645853025,
+          1.3498000047292913,
+          1.036405849743654,
+          1.4802884677165677,
+          1.0812295584857456
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          132.0874907041725,
+          129.20313432039495,
+          126.71455674338367
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1801153809568192,
+    "average_rmse": 1.0025493811689503,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.7239113551289896,
+        "scores": [
+          0.7239113551289896
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8513870366977427,
+        "scores": [
+          0.7060756456422612,
+          0.9752830128453953
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          19.28216016756507,
+          19.108758480475927,
+          19.488933053242132
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.8874080799375458,
+        "scores": [
+          0.4697025087484375,
+          1.2913289064094446,
+          0.489341462406271
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          32.450179160865716,
+          32.25737501557484,
+          39.56980736385098
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0757797874870354,
+        "scores": [
+          0.6249962267274982,
+          1.1796617066892232,
+          0.5877529527538192,
+          1.5230388107620292
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          61.10296769170262,
+          60.310860857193234,
+          73.4551046334353
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.9453970344198414,
+        "scores": [
+          0.6032602384180777,
+          1.031553128713576,
+          0.7188174031000301,
+          1.5554409343795905,
+          0.5691364796679634
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          104.1787873259477,
+          101.44824865335677,
+          104.39179205417582
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.9453970344198414,
+    "average_rmse": 0.896776658734231,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.666402231363975,
+        "scores": [
+          0.666402231363975
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.7479706669856222,
+        "scores": [
+          0.6281467652725452,
+          0.8510886432208287
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          17.731752953112192,
+          17.58990814455684,
+          18.096949256382405
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.6989179833829936,
+        "scores": [
+          0.5110827111916681,
+          0.9662971161824495,
+          0.3271867486543048
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          28.333239303983635,
+          28.077379253133003,
+          31.03585749256909
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0496601592754036,
+        "scores": [
+          0.486218796061886,
+          0.8988854867347472,
+          0.3600517111827062,
+          1.7613204804462073
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          50.016051731795685,
+          49.376529902379815,
+          61.18078070879977
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.9076080665616498,
+        "scores": [
+          0.43727713892917563,
+          0.7818034057787827,
+          0.47255705451196284,
+          1.7296428257887524,
+          0.5501118819116906
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          82.53316158179658,
+          81.12567266507011,
+          91.41066475579876
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.9076080665616498,
+    "average_rmse": 0.8141118215139288,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.5034404812775735,
+        "scores": [
+          0.5034404812775735
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8548602787519952,
+        "scores": [
+          0.8867527781729964,
+          0.8217309187187435
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          14.310773192104875,
+          14.245697839081277,
+          13.555983401316835
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.9994092160894019,
+        "scores": [
+          0.8943469197722601,
+          0.8381867869743835,
+          1.3658187601515621
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          27.008761465552606,
+          26.821272012811917,
+          22.990986782207
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0421959404205057,
+        "scores": [
+          0.37055793687792027,
+          0.693583699528229,
+          0.3349650178221599,
+          1.883734327295818
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          52.9100628998866,
+          52.31002212357676,
+          54.067221360617935
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.9167234124003836,
+        "scores": [
+          0.3200538648027824,
+          0.6480075659412554,
+          0.38016281010761777,
+          1.834154618378519,
+          0.6067516316969118
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          81.56558871908985,
+          80.79120178028289,
+          92.9092638771082
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.9167234124003836,
+    "average_rmse": 0.8633258657879719,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.46978426821846425,
+        "scores": [
+          0.46978426821846425
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6751615133417178,
+        "scores": [
+          0.46398735033337285,
+          0.8345069663737824
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          17.440244360655914,
+          17.420031878781902,
+          18.08564155587262
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.0493177849118909,
+        "scores": [
+          1.0568003347927375,
+          0.6906087260411365,
+          1.4716359201979723
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          35.797494098029844,
+          35.736011409719254,
+          31.704535281436883
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.2235388810077705,
+        "scores": [
+          1.105113610524986,
+          0.7156314134762054,
+          1.5312540259583147,
+          1.5500726320187435
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          70.0176686386949,
+          69.78445491722732,
+          62.2777370815857
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.0593461794164143,
+        "scores": [
+          0.3949612846880555,
+          0.8267003413908376,
+          0.5345969330178334,
+          2.076867799126338,
+          0.6777104486098217
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          105.01612821410286,
+          104.65676817228996,
+          113.9731706712938
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.0593461794164143,
+    "average_rmse": 0.8954297253792515,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.7318952975311444,
+        "scores": [
+          0.7318952975311444
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.9081292478826596,
+        "scores": [
+          0.7892380488724801,
+          1.0131637399412845
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          19.487041997642056,
+          19.310297905032247,
+          19.668859003302032
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.1106036279360796,
+        "scores": [
+          0.6778465399575867,
+          1.5604639109010883,
+          0.6964665620519278
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          35.07473159260398,
+          35.14688932390707,
+          44.836553368558725
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1663381974596767,
+        "scores": [
+          0.800669851247573,
+          1.426170109883539,
+          0.9769481897802978,
+          1.297775671888215
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          76.22032857236496,
+          75.12592443010914,
+          89.14538393893713
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.3283130525170161,
+        "scores": [
+          1.0293253083797407,
+          1.5810267550690786,
+          1.0032789526131858,
+          1.6325784080592611,
+          1.2153404711927869
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          140.005289882233,
+          137.81120788989853,
+          134.56647532722843
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.3283130525170161,
+    "average_rmse": 1.0490558846653153,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.7287895847727949,
+        "scores": [
+          0.7287895847727949
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8844963053832084,
+        "scores": [
+          0.7600359964976996,
+          0.9934851345142717
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          19.395906145862806,
+          19.230268389792315,
+          19.578050576171375
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.0621535772267174,
+        "scores": [
+          0.6312307576342705,
+          1.5038143920607439,
+          0.6495563915110257
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          32.56573498262899,
+          34.177695815315516,
+          42.81221227732892
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.119791879172474,
+        "scores": [
+          0.7545733255320056,
+          1.3392735205839528,
+          0.8449276748985053,
+          1.3352627765615375
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          71.06902099566398,
+          71.56227329151658,
+          84.42434803583336
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.1734162088044215,
+        "scores": [
+          0.8598345008767262,
+          1.3349268185111611,
+          1.035647016138494,
+          1.4755111789328967,
+          1.0767962516946752
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          128.91167383270698,
+          127.55535336874796,
+          124.44728475128929
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.1734162088044215,
+    "average_rmse": 0.9937295110719232,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.702381410341983,
+        "scores": [
+          0.702381410341983
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6924168640533277,
+        "scores": [
+          0.5411264762952609,
+          0.8161276639736968
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          18.659826533737853,
+          18.58487901864845,
+          18.83446822935131
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.8206806604142125,
+        "scores": [
+          0.5210093999809178,
+          1.1545439091314478,
+          0.4723199138124863
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          29.09602539565239,
+          29.24998585166358,
+          30.528336954312664
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0117532554834323,
+        "scores": [
+          0.4989491600809575,
+          1.014158653894665,
+          0.5608558443884918,
+          1.5474149524022494
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          56.68533417071889,
+          55.98516536940316,
+          61.3886905762025
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.009280106751495,
+        "scores": [
+          0.7460464108718077,
+          1.089696201281522,
+          1.0495626777089935,
+          1.3975821831780428,
+          0.7660450088436697
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          96.7846434507883,
+          93.54950792592854,
+          91.9382860378667
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.009280106751495,
+    "average_rmse": 0.8473024594088902,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.6012449870095328,
+        "scores": [
+          0.6012449870095328
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.6747590250844842,
+        "scores": [
+          0.5285857721837447,
+          0.7944788010455921
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          16.428035328434948,
+          16.673681294546245,
+          16.48128575880896
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.9351051029626477,
+        "scores": [
+          0.7260497147721183,
+          0.8711018701092862,
+          1.297865687346164
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          27.133175393919768,
+          27.05986087475109,
+          26.10620519822819
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0013725962621132,
+        "scores": [
+          0.469236526018301,
+          0.7991132548328183,
+          0.2721523268597176,
+          1.7203830920862848
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          49.59407972915915,
+          50.976529694146286,
+          54.216602382526204
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.826535867850703,
+        "scores": [
+          0.38073009481144776,
+          0.7053834727628608,
+          0.45190445715244904,
+          1.59932198207371,
+          0.4573871128493056
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          79.68832989859347,
+          80.36847891188282,
+          83.94359424595316
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.826535867850703,
+    "average_rmse": 0.8078035158338961,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.4939599944371784,
+        "scores": [
+          0.4939599944371784
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.7887708987613592,
+        "scores": [
+          0.7819874911909294,
+          0.7954964645342687
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          14.673742581802912,
+          15.039605137841338,
+          14.18659838686162
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 0.9489611037924093,
+        "scores": [
+          0.7960231319708146,
+          0.8321402299267238,
+          1.3159329252407261
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          26.48030735161847,
+          26.54360312687121,
+          23.216802884073015
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.0054742205549956,
+        "scores": [
+          0.3885148933518605,
+          0.6948308340872125,
+          0.28475044942058114,
+          1.8029149799955235
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          49.929305975292664,
+          51.07717310002408,
+          51.35038527567345
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 0.8525303079817892,
+        "scores": [
+          0.31487912543087787,
+          0.6252482173343664,
+          0.39280414475105285,
+          1.7129582230497793,
+          0.5089789946012084
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          76.91671747490369,
+          77.86961313243476,
+          83.54021541423467
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 0.8525303079817892,
+    "average_rmse": 0.8179393051055464,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 0.4584338761297939,
+        "scores": [
+          0.4584338761297939
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 0.8445801484827635,
+        "scores": [
+          0.965741676607553,
+          0.7028330303034761
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          16.485646797490915,
+          16.391954123412944,
+          16.235855483831468
+        ],
+        "prequential_count": 29
+      },
+      {
+        "stage": 3,
+        "rmse": 1.0036740720851527,
+        "scores": [
+          0.9853494345646743,
+          0.6864289228849016,
+          1.4175526756507948
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          32.84576351781911,
+          32.69737889187386,
+          28.093408368133048
+        ],
+        "prequential_count": 47
+      },
+      {
+        "stage": 4,
+        "rmse": 1.1825782911490381,
+        "scores": [
+          1.0390581997952228,
+          0.6785373649229334,
+          1.4645171832658264,
+          1.5386231586116361
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          63.68704678250156,
+          64.30756651466854,
+          56.64464721090084
+        ],
+        "prequential_count": 74
+      },
+      {
+        "stage": 5,
+        "rmse": 1.0012761718082868,
+        "scores": [
+          0.3548010807774766,
+          0.7623314926681332,
+          0.5096943855465303,
+          1.9835499725127772,
+          0.6226353377932493
+        ],
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "chosen_reference": "none",
+        "prequential_sse": [
+          95.38247681667413,
+          95.94370346102878,
+          102.44437029783855
+        ],
+        "prequential_count": 99
+      }
+    ],
+    "final_rmse": 1.0012761718082868,
+    "average_rmse": 0.8981085119310069,
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 61.15559364530142,
+        "scores": [
+          61.15559364530142
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 47.48373692674764,
+        "scores": [
+          43.94227969851125,
+          50.64578670839456
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          488000.9047889273,
+          381339.6372382791,
+          382436.754110452
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 54.50374508335317,
+        "scores": [
+          54.25719790920753,
+          48.92628740735872,
+          59.47929680240987
+        ],
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "chosen_reference": "append",
+        "prequential_sse": [
+          988991.0478699093,
+          735066.976904401,
+          736469.2312902742
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 44.83629472204687,
+        "scores": [
+          43.38789869671114,
+          40.937922766803425,
+          55.35800239773603,
+          37.83443293253066
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1727939.806769296,
+          1132680.652362257,
+          1130495.3630855684
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 38.10735614851303,
+        "scores": [
+          34.79066495841615,
+          39.3386697128073,
+          43.85529196824728,
+          34.31424265702206,
+          37.55699376100127
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2445158.6568044685,
+          1544186.745839443,
+          1540803.132875036
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 38.10735614851303,
+    "average_rmse": 49.21734530519243,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 57.45344908360323,
+        "scores": [
+          57.45344908360323
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 41.867998902044114,
+        "scores": [
+          43.14806529312808,
+          40.603417970080145
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          424686.81897959084,
+          301805.9584904568,
+          290880.67521567014
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 44.69244427065615,
+        "scores": [
+          42.58701784938515,
+          37.71250532905993,
+          52.00487127581536
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          782871.4631811331,
+          549287.9057431514,
+          536727.9925848774
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 32.65005610847751,
+        "scores": [
+          35.85495004223436,
+          31.854815434223276,
+          34.862516843317835,
+          28.08316108955626
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1450595.3003595122,
+          852443.1157814258,
+          823874.1213293965
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 34.028173768158275,
+        "scores": [
+          32.89783852619869,
+          31.086266350014174,
+          44.06425697921611,
+          26.52971382597365,
+          33.4244775241429
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1960566.762513731,
+          1145850.9556031555,
+          1114828.776134505
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 34.028173768158275,
+    "average_rmse": 42.13842442658786,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 53.58351157288794,
+        "scores": [
+          53.58351157288794
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 34.77591812225463,
+        "scores": [
+          38.04287401181562,
+          31.327001510768415
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          448832.1885324392,
+          288104.86680768227,
+          225931.6048333891
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 32.45575698978941,
+        "scores": [
+          34.85681259902444,
+          29.75751112477798,
+          32.64341187708723
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          795317.3327669068,
+          520999.6375982618,
+          444350.6077639902
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 28.091665368376656,
+        "scores": [
+          32.93717957867643,
+          26.775502399751087,
+          29.90387721443251,
+          22.525144343228003
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1584800.2730891658,
+          869295.8116319245,
+          697576.78100001
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 29.194706522800242,
+        "scores": [
+          31.829397649734393,
+          26.9407890243802,
+          34.357052885461194,
+          21.80950960099087,
+          29.984056955923677
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2041661.8211272685,
+          1118632.99459995,
+          936314.5096738753
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 29.194706522800242,
+    "average_rmse": 35.620311715221774,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 58.70795600118478,
+        "scores": [
+          58.70795600118478
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 30.220174276476747,
+        "scores": [
+          34.381911342395405,
+          25.604773180774398
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          568273.3526273015,
+          410670.7143493378,
+          187277.84696390422
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.682115879248403,
+        "scores": [
+          34.180574911282434,
+          25.159907657560627,
+          29.245987298619813
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1043705.9261462602,
+          739793.7798192385,
+          403317.7800087043
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.619633064325075,
+        "scores": [
+          33.80674235739669,
+          24.39525114381048,
+          28.78419290465597,
+          23.031378916743716
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2178382.4694602927,
+          1430387.9664049763,
+          639376.3634596969
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.695442132482732,
+        "scores": [
+          33.205094797923806,
+          24.231410278516353,
+          29.223474307304077,
+          22.480349345481738,
+          28.677449733566956
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2759443.1678874977,
+          1776826.26454124,
+          880850.5710244027
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.695442132482732,
+    "average_rmse": 34.78506427074355,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 68.08304837127106,
+        "scores": [
+          68.08304837127106
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 29.102202030147584,
+        "scores": [
+          34.157622484858315,
+          23.247760343157676
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          766060.5578061116,
+          703526.8878630723,
+          191742.99301153686
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.221598504861653,
+        "scores": [
+          34.67672506083921,
+          23.406389098583645,
+          28.76703837731087
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1455786.469702587,
+          1321558.1376795226,
+          420679.66453859495
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.97014801578755,
+        "scores": [
+          34.707264503403735,
+          23.402801424450598,
+          28.686360826390036,
+          24.419461951352528
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3088918.4167101113,
+          2769172.9886239558,
+          658831.9114957359
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 28.072215677020377,
+        "scores": [
+          34.43029788044576,
+          23.193285567997815,
+          28.58828495525915,
+          24.09873919543853,
+          29.186217607940247
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          4055558.5133013255,
+          3596494.180076353,
+          916986.1606201555
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 28.072215677020377,
+    "average_rmse": 36.48984251981764,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 73.979911632152,
+        "scores": [
+          73.979911632152
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 29.782034904045382,
+        "scores": [
+          35.275102139954704,
+          23.334448987828853
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          952370.5963265281,
+          941099.1880481078,
+          194379.9450056507
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.52907666188815,
+        "scores": [
+          35.39832001875382,
+          23.445063528576352,
+          28.837280636831345
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1764143.8563727937,
+          1740097.88082988,
+          430544.16515989543
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 28.21424716743969,
+        "scores": [
+          35.39965556261482,
+          23.434339220214362,
+          28.76266743124323,
+          24.49957003425735
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3628849.360753794,
+          3574368.3090535556,
+          676009.3165851684
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 28.568217362315885,
+        "scores": [
+          35.350126046122966,
+          23.268832113689122,
+          28.575709926741187,
+          24.304604477520016,
+          30.24527710440944
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          4832989.474343946,
+          4752947.547851713,
+          941191.5749006583
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 28.568217362315885,
+    "average_rmse": 38.01469754556822,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 47.92175935508148,
+        "scores": [
+          47.92175935508148
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 47.49724196533466,
+        "scores": [
+          44.06885897502344,
+          50.56512142419465
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          384114.2466309266,
+          337986.08136991377,
+          308385.0387402334
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 54.4017855172291,
+        "scores": [
+          54.31348175126631,
+          48.767234271377006,
+          59.29021351272173
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          882890.4245352873,
+          692694.5364693566,
+          659687.7800888976
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 44.66563832443625,
+        "scores": [
+          43.096692303897406,
+          42.87844837627488,
+          52.846068144486104,
+          38.8207787933523
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1621901.0345689035,
+          1089665.3559312243,
+          1053389.9289135083
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 38.65372259035864,
+        "scores": [
+          36.44999095758303,
+          40.68376245748071,
+          42.64573544683054,
+          35.07703929014355,
+          38.159186742033505
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2328873.0729287285,
+          1503292.65092838,
+          1461701.7048610914
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 38.65372259035864,
+    "average_rmse": 46.62802955048803,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 48.207158112972174,
+        "scores": [
+          48.207158112972174
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 41.05998431772667,
+        "scores": [
+          42.37395743951351,
+          39.76003357807465
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          392606.2283784631,
+          359811.9094654088,
+          309387.6488250825
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 44.59858464592359,
+        "scores": [
+          42.17943764223226,
+          37.586968938423134,
+          52.160689637870746
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          750342.3284646308,
+          612401.851845706,
+          550830.0333612628
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 33.54706442252511,
+        "scores": [
+          35.39360528308711,
+          34.65309903722381,
+          34.39530624183074,
+          29.99439036748861
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1425651.0831583273,
+          915899.1256239584,
+          836210.4747469325
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 32.90512458384111,
+        "scores": [
+          34.70680299163793,
+          31.771417653701242,
+          35.44634107171899,
+          27.934030199569346,
+          34.388957650123345
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1919697.903698737,
+          1240605.9910431225,
+          1138668.5341920531
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 32.90512458384111,
+    "average_rmse": 40.063583216597735,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 48.54932454673664,
+        "scores": [
+          48.54932454673664
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 34.67701146317282,
+        "scores": [
+          37.13881780774699,
+          32.14132834139736
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          375710.03590326355,
+          342113.2276107123,
+          290879.85855487233
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 31.991663650147316,
+        "scores": [
+          34.17422785794892,
+          30.051046653460624,
+          31.7258873162008
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          746805.9557175043,
+          609984.2023009965,
+          519873.87318888196
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 30.599624228065665,
+        "scores": [
+          32.78491085447982,
+          30.468177524586775,
+          32.15650850726422,
+          27.145841035376815
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1538543.041821427,
+          981053.3105333671,
+          772307.3674546173
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 30.771316034314193,
+        "scores": [
+          34.03376985433951,
+          28.520251053048746,
+          32.79446243731765,
+          24.695381954794442,
+          33.14766528437501
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1988740.1565751364,
+          1282272.89111539,
+          1034938.4323680633
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 30.771316034314193,
+    "average_rmse": 35.31778798448733,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 49.56909173719855,
+        "scores": [
+          49.56909173719855
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 31.60691732136675,
+        "scores": [
+          34.58808370527625,
+          28.458414228069284
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          376086.5059515089,
+          328288.231805044,
+          263528.0077044907
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 28.90262324181222,
+        "scores": [
+          32.81240874294892,
+          26.045291762819588,
+          27.667563643836043
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          804183.7937912077,
+          661765.4929872132,
+          495561.21471554146
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 29.311592123900393,
+        "scores": [
+          32.64522365265655,
+          27.695538201799376,
+          30.849843518682675,
+          26.096250677071357
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1736562.767221272,
+          1211392.585805264,
+          732970.751859483
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 29.387214405790136,
+        "scores": [
+          33.95328814717256,
+          26.290270213514567,
+          30.23651346881917,
+          23.717881007621187,
+          31.946951449702073
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2200182.909624028,
+          1532258.271786429,
+          991802.2714934398
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 29.387214405790136,
+    "average_rmse": 33.75548776601361,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 54.55693814094396,
+        "scores": [
+          54.55693814094396
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 29.125817868741112,
+        "scores": [
+          33.00070608774521,
+          24.85177028731271
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          449899.0022800312,
+          410443.24641783745,
+          204254.31162310723
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 28.14991157164228,
+        "scores": [
+          33.10501862226735,
+          23.30163754930628,
+          27.448637864029134
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          926363.8586382988,
+          805532.1180410621,
+          428281.1875286158
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.355827099785227,
+        "scores": [
+          32.5259325492208,
+          24.32580316449202,
+          28.573772262467084,
+          23.725688762211195
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2022092.0898020254,
+          1579467.095388133,
+          656308.173616274
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.34193241725665,
+        "scores": [
+          33.6200099549504,
+          23.216626708964107,
+          27.570035721406015,
+          22.469691355089,
+          28.936576595128432
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2531548.3399040755,
+          1957077.3770124074,
+          906840.0367597193
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.34193241725665,
+    "average_rmse": 33.30608541967385,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 68.39012501508707,
+        "scores": [
+          68.39012501508707
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 29.151593698137578,
+        "scores": [
+          34.310321102237374,
+          23.15326419252461
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          787306.4169707565,
+          765438.2515304901,
+          187692.97260343772
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.107979215886704,
+        "scores": [
+          34.85269533657384,
+          23.12001174494565,
+          28.46409552754354
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1452769.7549048527,
+          1387068.0389849346,
+          418002.79161226406
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.79818669433024,
+        "scores": [
+          34.58813296727127,
+          23.35653422651129,
+          28.555240118973632,
+          24.02477037510427
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3033125.461355945,
+          2820176.613308444,
+          657880.7491532052
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 28.15337157180002,
+        "scores": [
+          35.007919777087615,
+          23.009775245217323,
+          28.164462640953733,
+          23.70970788512269,
+          29.776632704358317
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3922863.9574372796,
+          3609250.659909852,
+          917971.935556608
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 28.15337157180002,
+    "average_rmse": 36.52025123904832,
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 70.33858165329183,
+        "scores": [
+          70.33858165329183
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 73.0719504491707,
+        "scores": [
+          76.79617830371062,
+          69.31538677417772
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          822524.798535789,
+          557926.7476786876,
+          524718.1726695242
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 53.586943210320506,
+        "scores": [
+          60.92705198525715,
+          52.236661730218486,
+          47.41210767761114
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2400544.372321548,
+          1710511.7937562922,
+          1683469.8895764914
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 40.61866869026098,
+        "scores": [
+          41.013544193092855,
+          39.506957916700244,
+          38.94140788679611,
+          42.71292537960084
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3320579.3554565767,
+          2193680.736084633,
+          2164929.8055156628
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 38.32976382782187,
+        "scores": [
+          36.31401381883221,
+          39.61385185136586,
+          35.31703917145639,
+          36.116989030235885,
+          43.17163034265565
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3954187.373736425,
+          2546377.8406190025,
+          2517477.647970195
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 38.32976382782187,
+    "average_rmse": 55.18918156617318,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 65.91291720764055,
+        "scores": [
+          65.91291720764055
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 50.53156084627258,
+        "scores": [
+          50.42471046495261,
+          50.63374754360839
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          709053.9694102139,
+          502332.0775609131,
+          467521.6546475427
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 44.13394606535708,
+        "scores": [
+          47.55609321860986,
+          44.419078262911526,
+          40.50958844559632
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1397628.9026114459,
+          987334.7946747981,
+          949523.592230779
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 36.461733439600444,
+        "scores": [
+          38.54257872957339,
+          36.87583094698145,
+          36.015587794300224,
+          34.67570841388311
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2181627.106175881,
+          1386106.1312941143,
+          1328416.4003353084
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 35.53238812899639,
+        "scores": [
+          35.16256843745659,
+          36.220833012560085,
+          33.30213014268126,
+          30.496598377364926,
+          41.23410194787926
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2682045.493451128,
+          1669654.407710162,
+          1610314.9901934243
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 35.53238812899639,
+    "average_rmse": 46.514509137573405,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 57.86911134993802,
+        "scores": [
+          57.86911134993802
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 36.417788762396235,
+        "scores": [
+          36.62662784481385,
+          36.21652129588142
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          533856.5772832843,
+          404643.22015793173,
+          343940.4498866333
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 34.10370187167586,
+        "scores": [
+          36.24122172869834,
+          33.93253476134698,
+          32.224228143098415
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          938646.6811494936,
+          701097.3219541023,
+          618277.2241922796
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 30.972699940449512,
+        "scores": [
+          35.43249717488033,
+          30.63464786024795,
+          30.987975290071162,
+          26.998410230473922
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1676493.889951053,
+          1098253.7098422027,
+          904036.1560462078
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 31.659640847359743,
+        "scores": [
+          33.562671834344805,
+          31.132029071860188,
+          29.227303054236337,
+          24.847774470315088,
+          37.86803086837197
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2101934.514805067,
+          1353219.2774135896,
+          1141526.282118432
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 31.659640847359743,
+    "average_rmse": 38.20458855436387,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 61.60213223372769,
+        "scores": [
+          61.60213223372769
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 31.194782615263907,
+        "scores": [
+          33.353770306540014,
+          28.975189012343638
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          583443.7447075007,
+          470921.33924157696,
+          237343.90421347838
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.02553740704604,
+        "scores": [
+          32.77367302118848,
+          27.08656707122881,
+          27.12855922641086
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1030128.9535019093,
+          810472.2839818913,
+          452699.5160591795
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.267924569616877,
+        "scores": [
+          32.8009443579141,
+          26.043665117220133,
+          26.0867248066186,
+          24.103185346652577
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1951275.5253004087,
+          1440986.1804205724,
+          691661.4194773923
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 28.51211793641783,
+        "scores": [
+          31.678325489078293,
+          26.765983919209265,
+          26.079937396001913,
+          23.061016329122445,
+          33.622804086519494
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2433574.813559384,
+          1769630.1499668679,
+          902571.4977779479
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 28.51211793641783,
+    "average_rmse": 35.52049895241447,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 68.96805958799449,
+        "scores": [
+          68.96805958799449
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 28.8836866731722,
+        "scores": [
+          32.81696687285266,
+          24.52943765943739
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          801221.419001265,
+          744195.7702613373,
+          177668.39842192532
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 27.321511446263244,
+        "scores": [
+          32.102801875955514,
+          23.938830527818418,
+          25.561553244793078
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1444689.9506509972,
+          1324822.5714440597,
+          389687.76621797425
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 26.21060393409191,
+        "scores": [
+          32.396098389813076,
+          23.67157819191321,
+          25.414800705236317,
+          23.074508020576996
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2856936.519588222,
+          2585064.2423268193,
+          615777.5258675549
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.12686771152464,
+        "scores": [
+          31.91433167408186,
+          23.532544660919484,
+          25.370001004864193,
+          22.29705575616895,
+          31.20812766260313
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3683294.8136532567,
+          3303828.665095876,
+          841032.7887207881
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.12686771152464,
+    "average_rmse": 35.7021458706093,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "ridge",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 74.79091276068098,
+        "scores": [
+          74.79091276068098
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 29.32129125389989,
+        "scores": [
+          34.6262194690265,
+          23.12219799143045
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1015886.2400624641,
+          1003976.9651147478,
+          185087.42682063289
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 28.601677630352143,
+        "scores": [
+          34.442777746031695,
+          23.060631055089793,
+          27.483341714975477
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1844134.6236310722,
+          1818817.2986025927,
+          411977.26368386886
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 27.289481909216146,
+        "scores": [
+          34.50888342099488,
+          23.020550430743242,
+          27.50772565256853,
+          23.40770884849491
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3663507.4652259415,
+          3607928.0321302544,
+          651073.0238655367
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.914487832090607,
+        "scores": [
+          34.393399778328416,
+          22.848665197534384,
+          27.346270778521678,
+          23.078870354084682,
+          30.594384743947327
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          4826021.210180509,
+          4745955.844309101,
+          905624.6564898666
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.914487832090607,
+    "average_rmse": 37.583570277247944,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.001,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 56.2092758750311,
+        "scores": [
+          56.2092758750311
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 68.99829162260511,
+        "scores": [
+          74.7434998128031,
+          63.00275523844815
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          508114.7099137359,
+          413606.71234962996,
+          308530.26384822023
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 48.97405315411486,
+        "scores": [
+          54.06823305419743,
+          49.583441060523946,
+          43.225888858174926
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1976057.2301802982,
+          1502155.899560785,
+          1382922.2677492031
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 37.92760495353142,
+        "scores": [
+          36.12773459128302,
+          35.35074078245771,
+          36.56652546177497,
+          42.529944968594904
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2725632.1522705234,
+          2034031.0201823888,
+          1780062.5634350497
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 37.506201105758535,
+        "scores": [
+          38.26808612524609,
+          33.47848596342855,
+          32.84644175398127,
+          37.388077678752914,
+          43.62043885170214
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3266114.2951848255,
+          2466248.753012564,
+          2130806.954942981
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 37.506201105758535,
+    "average_rmse": 49.92308534220821,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.01,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 58.69175980296552,
+        "scores": [
+          58.69175980296552
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 47.33262587188771,
+        "scores": [
+          48.92129004785608,
+          45.75842860512684
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          533889.5281294978,
+          472316.1670900214,
+          246894.73778895335
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 40.034455314788815,
+        "scores": [
+          41.61933002507743,
+          42.26576209640256,
+          36.238088981027
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1147168.2815117217,
+          925096.1549861515,
+          671085.8667384315
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 33.52332018518794,
+        "scores": [
+          33.918354996346146,
+          31.934728738722818,
+          32.94851935145821,
+          35.0387151346433
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1782246.2829468844,
+          1399249.569317367,
+          986547.3180887833
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 34.41954154514823,
+        "scores": [
+          37.37709536564583,
+          30.738202128413093,
+          31.275148777001892,
+          31.490141913292767,
+          39.83041069908724
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2210618.722709307,
+          1775317.5285954329,
+          1268831.9545666054
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 34.41954154514823,
+    "average_rmse": 42.80034054399564,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 0.1,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 60.04424304520698,
+        "scores": [
+          60.04424304520698
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 33.699782889292095,
+        "scores": [
+          35.023942331565365,
+          32.380023355898096
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          549532.7477098072,
+          501907.3445673066,
+          240073.3227839212
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 31.694500319646636,
+        "scores": [
+          32.75954252197798,
+          33.35200748279217,
+          29.00262248671015
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          930958.2091202613,
+          811625.381555249,
+          475488.6036725817
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 29.76516507328196,
+        "scores": [
+          32.397618501932286,
+          27.51493090089404,
+          28.675813011278294,
+          30.341782099235015
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1537988.8742176073,
+          1281129.0087152286,
+          737231.3286643552
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 31.24393748325725,
+        "scores": [
+          36.29670521978921,
+          28.324880877741805,
+          27.47184264879498,
+          26.670806673469087,
+          36.06841556973936
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1931204.6308675997,
+          1641955.114515615,
+          992261.5532575438
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 31.24393748325725,
+    "average_rmse": 37.28952576213698,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 1.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 60.73920866901409,
+        "scores": [
+          60.73920866901409
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 30.85938454044411,
+        "scores": [
+          33.1480922095253,
+          28.494054550969945
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          559086.967803956,
+          512038.28164986,
+          232746.49087474443
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 29.245613362649628,
+        "scores": [
+          32.386858216428344,
+          28.45980296523158,
+          26.895390031208592
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          977885.3166245897,
+          866154.4750972849,
+          436987.3141880152
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 28.57754200282735,
+        "scores": [
+          32.433737802285975,
+          25.98230570434762,
+          26.530464338320765,
+          29.12187896035229
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1648951.3353286488,
+          1373766.9407502625,
+          682522.5648826505
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 29.349113191426245,
+        "scores": [
+          34.64553929032424,
+          27.885669417389128,
+          24.893417810095606,
+          24.50219283581167,
+          33.562987860720746
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2043612.7812445867,
+          1729567.9205374478,
+          923281.5338884216
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 29.349113191426245,
+    "average_rmse": 35.75417235327229,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 10.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 63.135681630836196,
+        "scores": [
+          63.135681630836196
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 28.747986624529837,
+        "scores": [
+          31.588681222443487,
+          25.733057995935532
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          613877.0490916506,
+          567065.3613778524,
+          200375.87492777436
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 27.586577367448466,
+        "scores": [
+          31.459347020098324,
+          25.339730719192694,
+          25.820319535332295
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1091107.080354841,
+          976131.1507563589,
+          408851.5574262428
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 26.37993983266912,
+        "scores": [
+          31.35115799100963,
+          23.67345859337583,
+          25.089493067694384,
+          25.212798910127038
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1923175.5934162773,
+          1608844.9952098567,
+          639440.3661865764
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.092263122291747,
+        "scores": [
+          32.03767442406819,
+          24.903194814033906,
+          23.847680216812755,
+          21.96990498406623,
+          31.37240793447068
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2346250.4266961045,
+          1982237.9782462385,
+          860223.0427765904
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.092263122291747,
+    "average_rmse": 34.58848971555507,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  },
+  {
+    "status": "completed",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "policy": "hard",
+      "method": "task",
+      "ridge": 100.0,
+      "seed": 42,
+      "eval_split": "val"
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "rmse": 70.15400044457346,
+        "scores": [
+          70.15400044457346
+        ],
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "chosen_reference": null,
+        "prequential_sse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "prequential_count": 0
+      },
+      {
+        "stage": 2,
+        "rmse": 28.255849300182586,
+        "scores": [
+          32.91329280154871,
+          22.920987957525373
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          857630.50540837,
+          814252.7303583504,
+          176351.9961947071
+        ],
+        "prequential_count": 144
+      },
+      {
+        "stage": 3,
+        "rmse": 27.56119957307369,
+        "scores": [
+          33.014540277380604,
+          22.58372322166504,
+          26.392782380319613
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          1502718.981919455,
+          1394027.2710885392,
+          394333.54972958163
+        ],
+        "prequential_count": 307
+      },
+      {
+        "stage": 4,
+        "rmse": 26.486136807238065,
+        "scores": [
+          33.35205075507969,
+          22.382515990536817,
+          26.41498805469384,
+          23.160441558258995
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          2899975.0068121124,
+          2606002.7732193954,
+          624910.2533017811
+        ],
+        "prequential_count": 476
+      },
+      {
+        "stage": 5,
+        "rmse": 27.2323799603856,
+        "scores": [
+          33.48484677153619,
+          22.498578738194325,
+          26.211058268513952,
+          22.215460262425044,
+          30.35929386320481
+        ],
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "chosen_reference": "residual",
+        "prequential_sse": [
+          3658644.0058296276,
+          3275615.2205943703,
+          866623.1106763028
+        ],
+        "prequential_count": 645
+      }
+    ],
+    "final_rmse": 27.2323799603856,
+    "average_rmse": 35.93791321709068,
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "git_commit": "9a80d09bd3bb7578c0514e16f7a5ea47c0537e20"
+  }
+]
