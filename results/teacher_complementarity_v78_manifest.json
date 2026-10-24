@@ -1,0 +1,538 @@
+[
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_mantis_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/air_quality_mantis_warm_er10_o17_s42_r0.001"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_mantis_soft",
+    "reference": "selected_causal_ridge",
+    "reference_folder": "runs/causal_task_v68/air_quality_mantis_none_ridge_r0.1"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_summary_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/air_quality_summary_warm_er10_o17_s42_r0.001"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/air_quality_summary_soft",
+    "reference": "selected_causal_ridge",
+    "reference_folder": "runs/causal_task_v68/air_quality_summary_none_ridge_r1"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_mantis_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/beijing_pm25_mantis_warm_er10_o17_s42_r1"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_mantis_soft",
+    "reference": "selected_causal_ridge",
+    "reference_folder": "runs/causal_task_v68/beijing_pm25_mantis_residual_ridge_r1"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_summary_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/beijing_pm25_summary_warm_er10_o17_s42_r0.1"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/beijing_pm25_summary_soft",
+    "reference": "selected_causal_ridge",
+    "reference_folder": "runs/causal_task_v68/beijing_pm25_summary_residual_ridge_r10"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/energy_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/energy_mantis_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/energy_mantis_warm_er10_o17_s42_r10"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/energy_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/energy_summary_soft",
+    "reference": "selected_warm_er10",
+    "reference_folder": "runs/warm_budget_v58_retry/energy_summary_warm_er10_o17_s42_r0.001"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_mantis_fecam_a1_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_mantis_raw_ridge_0.1"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_mantis_fecam_a1_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_mantis_raw_ridge_0.1"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_mantis_fecam_a1_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_mantis_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_mantis_raw_ridge_0.1"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_summary_fecam_a2_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_summary_raw_ridge_0.001"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_summary_fecam_a2_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_summary_raw_ridge_0.001"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/handwriting_summary_fecam_a2_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/handwriting_summary_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/handwriting_summary_raw_ridge_0.001"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_mantis_raw_ridge_1"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_mantis_raw_ridge_1"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_mantis_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_mantis_raw_ridge_1"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_summary_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_summary_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/lsst_summary_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_summary_raw_ridge_100"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_summary_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_summary_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/lsst_summary_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_summary_raw_ridge_100"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_summary_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/lsst_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/lsst_summary_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/lsst_summary_raw_ridge_100"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_mantis_raw_ridge_0.01"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_mantis_raw_ridge_0.01"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_mantis_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_mantis_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_mantis_raw_ridge_0.01"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_hard",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_hard",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "hard",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_hard",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_summary_raw_ridge_100"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_sharp",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_sharp",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "sharp",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_sharp",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_summary_raw_ridge_100"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_soft",
+    "reference": "fixed_teacher"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_soft",
+    "reference": "selected_fecam",
+    "reference_folder": "runs/fecam_harder_v59/phonemespectra_summary_fecam_a10_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "mode": "soft",
+    "candidate": "runs/target_confidence_v77/phonemespectra_summary_soft",
+    "reference": "selected_raw_ridge",
+    "reference_folder": "runs/analytic_heads_v60/phonemespectra_summary_raw_ridge_100"
+  }
+]
