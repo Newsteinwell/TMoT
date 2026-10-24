@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "status": "completed"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "status": "completed"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "status": "completed"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "status": "completed"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "status": "completed"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "status": "completed"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "mantis",
+    "status": "completed"
+  },
+  {
+    "dataset": "energy",
+    "encoder": "summary",
+    "status": "completed"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "mantis",
+    "status": "completed"
+  },
+  {
+    "dataset": "beijing_pm25",
+    "encoder": "summary",
+    "status": "completed"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "mantis",
+    "status": "failed"
+  },
+  {
+    "dataset": "air_quality",
+    "encoder": "summary",
+    "status": "failed"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    [
+      "phonemespectra",
+      "mantis"
+    ],
+    [
+      "phonemespectra",
+      "summary"
+    ],
+    [
+      "lsst",
+      "mantis"
+    ],
+    [
+      "lsst",
+      "summary"
+    ],
+    [
+      "handwriting",
+      "mantis"
+    ],
+    [
+      "handwriting",
+      "summary"
+    ],
+    [
+      "energy",
+      "mantis"
+    ],
+    [
+      "energy",
+      "summary"
+    ],
+    [
+      "beijing_pm25",
+      "mantis"
+    ],
+    [
+      "beijing_pm25",
+      "summary"
+    ],
+    [
+      "air_quality",
+      "mantis"
+    ],
+    [
+      "air_quality",
+      "summary"
+    ]
+  ],
+  "pid": 53854,
+  "workers": 12,
+  "source": "74c322fa89c1b3fdeb98b972f922bd25c873491b"
+}
