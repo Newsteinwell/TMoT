@@ -28,7 +28,7 @@ def audit_group(folder):
  for split in ('train','val'):
   assert sha(root/'features'/c['encoder']/f"{c['dataset']}_{split}.npz")==rows[0]['input_hashes'][split]
   assert sha(root/'prepared'/f"{c['dataset']}_{split}.npz")==rows[0]['raw_hashes'][split]
- index={str(v):i for i,v in enumerate(v['ids'])};assert len(index)==len(v['ids'])
+ index={str(v):i for i,v in enumerate(v['ids'])};assert len(index)==len(v['ids']);feature_cache={}
  for s in rows:
   c=s['config'];assert s['shared_sha256']==h;dest=folder/f"{c['method']}_{c['param']:g}"
   for row in s['stages']:
@@ -44,7 +44,10 @@ def audit_group(folder):
   else:learner=None
   with np.load(dest/f"predictions_stage{len(s['stages'])}.npz") as p:
    for j in range(len(s['stages'])):
-    ix=np.array([index[str(i)] for i in p[f'ids_{j}']]);z=state['basis'].transform(v['x'][ix],rawx[ix]);z=state['reference'].features(z,rawx[ix,0,-1,None])
+    ix=np.array([index[str(i)] for i in p[f'ids_{j}']]);cache_key=tuple(ix.tolist())
+    if cache_key not in feature_cache:
+     z=state['basis'].transform(v['x'][ix],rawx[ix]);feature_cache[cache_key]=state['reference'].features(z,rawx[ix,0,-1,None])
+    z=feature_cache[cache_key]
     if learner is not None:pred=learner.predict(z)
     else:
      score=augment(z)@state['weights'][('ridge',c['param'])];pred=np.asarray(state['classes'])[score.argmax(1)] if cl else score

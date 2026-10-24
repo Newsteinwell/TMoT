@@ -1,0 +1,4954 @@
+[
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 8939120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.5,
+        "persistent_bytes": 14247632,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.5,
+        "persistent_bytes": 19558192,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.25,
+        "persistent_bytes": 24860560,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5,
+        "persistent_bytes": 30711800,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.375,
+        "persistent_bytes": 36020312,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.6071428571428571,
+        "persistent_bytes": 41332920,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.46875,
+        "persistent_bytes": 46637336,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.5277777777777778,
+        "persistent_bytes": 51956088,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.375,
+        "persistent_bytes": 57262552,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.38636363636363635,
+        "persistent_bytes": 62560824,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.4375,
+        "persistent_bytes": 67881624,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.4423076923076923,
+        "persistent_bytes": 73198328,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.4423076923076923,
+    "average": 0.4515263048916896,
+    "shared_sha256": "58292094004ff02602dfbbfc71e721ecd262f335c9cd9adba0611a6358f23e75",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.13549579679966
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "ridge",
+      "param": 0.1,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 4227136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.5,
+        "persistent_bytes": 8454272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.5,
+        "persistent_bytes": 12681408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.5,
+        "persistent_bytes": 16908544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5,
+        "persistent_bytes": 21135680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.4583333333333333,
+        "persistent_bytes": 25362816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.5714285714285714,
+        "persistent_bytes": 29589952,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.40625,
+        "persistent_bytes": 33817088,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.4722222222222222,
+        "persistent_bytes": 38044224,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.375,
+        "persistent_bytes": 42271360,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.38636363636363635,
+        "persistent_bytes": 46498496,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.4375,
+        "persistent_bytes": 50725632,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.5192307692307693,
+        "persistent_bytes": 54952768,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.5192307692307693,
+    "average": 0.4712560409675794,
+    "shared_sha256": "58292094004ff02602dfbbfc71e721ecd262f335c9cd9adba0611a6358f23e75",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.14045900851488
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "fecam",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 8421424,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.25,
+        "persistent_bytes": 16842848,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 25264272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.125,
+        "persistent_bytes": 33685696,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.2,
+        "persistent_bytes": 42107120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.25,
+        "persistent_bytes": 50528544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.35714285714285715,
+        "persistent_bytes": 58949968,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.3125,
+        "persistent_bytes": 67371392,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.3888888888888889,
+        "persistent_bytes": 75792816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.35,
+        "persistent_bytes": 84214240,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.36363636363636365,
+        "persistent_bytes": 92635664,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.3958333333333333,
+        "persistent_bytes": 101057088,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.36538461538461536,
+        "persistent_bytes": 109478512,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.36538461538461536,
+    "average": 0.3096194403886712,
+    "shared_sha256": "58292094004ff02602dfbbfc71e721ecd262f335c9cd9adba0611a6358f23e75",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.14625969901681
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 10915696,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.5,
+        "persistent_bytes": 17477072,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.5,
+        "persistent_bytes": 24040752,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.375,
+        "persistent_bytes": 30595216,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.45,
+        "persistent_bytes": 37767160,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.375,
+        "persistent_bytes": 44328536,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.4642857142857143,
+        "persistent_bytes": 50894520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.40625,
+        "persistent_bytes": 57451288,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.5833333333333334,
+        "persistent_bytes": 64024184,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.375,
+        "persistent_bytes": 70583256,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.4772727272727273,
+        "persistent_bytes": 77133112,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.4791666666666667,
+        "persistent_bytes": 84300448,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.5192307692307693,
+        "persistent_bytes": 90871040,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.5192307692307693,
+    "average": 0.4618876315991701,
+    "shared_sha256": "e1175d00d735e06270da3cc28b0781869c8f9d6300a39bcf2816ee7b45a36b9e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 60.738990146666765
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 5345344,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.5,
+        "persistent_bytes": 10690688,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.5,
+        "persistent_bytes": 16036032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.625,
+        "persistent_bytes": 21381376,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.55,
+        "persistent_bytes": 26726720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.4583333333333333,
+        "persistent_bytes": 32072064,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.4642857142857143,
+        "persistent_bytes": 37417408,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.40625,
+        "persistent_bytes": 42762752,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.4722222222222222,
+        "persistent_bytes": 48108096,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.425,
+        "persistent_bytes": 53453440,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.4318181818181818,
+        "persistent_bytes": 58798784,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.5208333333333334,
+        "persistent_bytes": 64144128,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.5192307692307693,
+        "persistent_bytes": 69489472,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.5192307692307693,
+    "average": 0.4902287349402734,
+    "shared_sha256": "e1175d00d735e06270da3cc28b0781869c8f9d6300a39bcf2816ee7b45a36b9e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 60.744857255369425
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 10653744,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.25,
+        "persistent_bytes": 21307488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 31961232,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.125,
+        "persistent_bytes": 42614976,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.3,
+        "persistent_bytes": 53268720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.3333333333333333,
+        "persistent_bytes": 63922464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.35714285714285715,
+        "persistent_bytes": 74576208,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.3125,
+        "persistent_bytes": 85229952,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.3888888888888889,
+        "persistent_bytes": 95883696,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.35,
+        "persistent_bytes": 106537440,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.36363636363636365,
+        "persistent_bytes": 117191184,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.3958333333333333,
+        "persistent_bytes": 127844928,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.40384615384615385,
+        "persistent_bytes": 138498672,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.40384615384615385,
+    "average": 0.32668058437289205,
+    "shared_sha256": "e1175d00d735e06270da3cc28b0781869c8f9d6300a39bcf2816ee7b45a36b9e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f7bf3ae460c78aedfb3372cdc2fe20ee36d11c798c8c4152481619743e6acf85",
+      "val": "569319b6fa8fcf50fb913fd583166c53bb67771efdbadc02322a7c4b51d66578"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 60.74983073398471
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "base",
+      "method": "task",
+      "param": 0.01,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 8939120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.0,
+        "persistent_bytes": 14247632,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.3333333333333333,
+        "persistent_bytes": 19558192,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.375,
+        "persistent_bytes": 24860560,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.1,
+        "persistent_bytes": 30185456,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.25,
+        "persistent_bytes": 35493968,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.21428571428571427,
+        "persistent_bytes": 40806576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.125,
+        "persistent_bytes": 46110992,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.1111111111111111,
+        "persistent_bytes": 51429744,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.15,
+        "persistent_bytes": 56736208,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.18181818181818182,
+        "persistent_bytes": 62034480,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.20833333333333334,
+        "persistent_bytes": 67355280,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.19230769230769232,
+        "persistent_bytes": 73198328,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.19230769230769232,
+    "average": 0.2108607204761051,
+    "shared_sha256": "5af6d195b7915b33fd431eca9a14bdad9513435eb623c5795ee803e50f78f6e7",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 52.86326413229108
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "base",
+      "method": "ridge",
+      "param": 0.001,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 4227136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.0,
+        "persistent_bytes": 8454272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.3333333333333333,
+        "persistent_bytes": 12681408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.375,
+        "persistent_bytes": 16908544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.1,
+        "persistent_bytes": 21135680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 25362816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.10714285714285714,
+        "persistent_bytes": 29589952,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.1875,
+        "persistent_bytes": 33817088,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 38044224,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.15,
+        "persistent_bytes": 42271360,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.18181818181818182,
+        "persistent_bytes": 46498496,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.14583333333333334,
+        "persistent_bytes": 50725632,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.15384615384615385,
+        "persistent_bytes": 54952768,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.15384615384615385,
+    "average": 0.19752363021593788,
+    "shared_sha256": "5af6d195b7915b33fd431eca9a14bdad9513435eb623c5795ee803e50f78f6e7",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 52.86450108513236
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "base",
+      "method": "fecam",
+      "param": 2.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 8421424,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.25,
+        "persistent_bytes": 16842848,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 25264272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.125,
+        "persistent_bytes": 33685696,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.15,
+        "persistent_bytes": 42107120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.125,
+        "persistent_bytes": 50528544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.17857142857142858,
+        "persistent_bytes": 58949968,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.15625,
+        "persistent_bytes": 67371392,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.19444444444444445,
+        "persistent_bytes": 75792816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.225,
+        "persistent_bytes": 84214240,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.25,
+        "persistent_bytes": 92635664,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.2916666666666667,
+        "persistent_bytes": 101057088,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.3269230769230769,
+        "persistent_bytes": 109478512,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.3269230769230769,
+    "average": 0.22611709871325256,
+    "shared_sha256": "5af6d195b7915b33fd431eca9a14bdad9513435eb623c5795ee803e50f78f6e7",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 52.866797007620335
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 10915696,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.0,
+        "persistent_bytes": 17477072,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.0,
+        "persistent_bytes": 24040752,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.125,
+        "persistent_bytes": 30595216,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.0,
+        "persistent_bytes": 37175024,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.0,
+        "persistent_bytes": 43736400,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.07142857142857142,
+        "persistent_bytes": 50302384,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.0625,
+        "persistent_bytes": 56859152,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 63432048,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.15,
+        "persistent_bytes": 69991120,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.18181818181818182,
+        "persistent_bytes": 76540976,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.20833333333333334,
+        "persistent_bytes": 83116176,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.2692307692307692,
+        "persistent_bytes": 89686768,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.2692307692307692,
+    "average": 0.13345980942134789,
+    "shared_sha256": "31c7367a73cbf3587339b3440f2b78427eb772d16f98217b333f70aa3f9b9179",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.78653014451265
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 0.1,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 5345344,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.0,
+        "persistent_bytes": 10690688,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.3333333333333333,
+        "persistent_bytes": 16036032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.375,
+        "persistent_bytes": 21381376,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.1,
+        "persistent_bytes": 26726720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.08333333333333333,
+        "persistent_bytes": 32072064,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.10714285714285714,
+        "persistent_bytes": 37417408,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.0625,
+        "persistent_bytes": 42762752,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.2222222222222222,
+        "persistent_bytes": 48108096,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.175,
+        "persistent_bytes": 53453440,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.20454545454545456,
+        "persistent_bytes": 58798784,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 64144128,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.2692307692307692,
+        "persistent_bytes": 69489472,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.2692307692307692,
+    "average": 0.19992112588266434,
+    "shared_sha256": "31c7367a73cbf3587339b3440f2b78427eb772d16f98217b333f70aa3f9b9179",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.787455312907696
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5,
+        "persistent_bytes": 10653744,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.25,
+        "persistent_bytes": 21307488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.16666666666666666,
+        "persistent_bytes": 31961232,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.125,
+        "persistent_bytes": 42614976,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.15,
+        "persistent_bytes": 53268720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.125,
+        "persistent_bytes": 63922464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.17857142857142858,
+        "persistent_bytes": 74576208,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.15625,
+        "persistent_bytes": 85229952,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.19444444444444445,
+        "persistent_bytes": 95883696,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.225,
+        "persistent_bytes": 106537440,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.25,
+        "persistent_bytes": 117191184,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.2916666666666667,
+        "persistent_bytes": 127844928,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.3269230769230769,
+        "persistent_bytes": 138498672,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.3269230769230769,
+    "average": 0.22611709871325256,
+    "shared_sha256": "31c7367a73cbf3587339b3440f2b78427eb772d16f98217b333f70aa3f9b9179",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "2d24bc6ff434656ec5de069e42b49d31affc7fc6363579680268eedadccf5e7e",
+      "val": "e30b6fe4cdc899e161de2e4444c06affc3c22aff53e2f7bbab158c46e940adcb"
+    },
+    "raw_hashes": {
+      "train": "884e0b1dc4b54e2b32b9e3ad4edc6f05ede121fac10137fe0e24432fc4b3fc83",
+      "val": "98fe018f74318fe0bfc120bb547683d1885dd478bd3128adeb38b9a242afb665",
+      "test": "f0c5aa8512a2676ffa7c4e1d4f74a7835e42f5a3e6d9e0f87215cd008b80a541"
+    },
+    "elapsed_s_shared": 57.78904892876744
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "task",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7166666666666667,
+        "persistent_bytes": 11761304,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7564102564102564,
+        "persistent_bytes": 18751248,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.7442307692307693,
+        "persistent_bytes": 26302352,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.7109755537174892,
+        "persistent_bytes": 35022880,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.7385396562815918,
+        "persistent_bytes": 43190440,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.647688913718908,
+        "persistent_bytes": 51919160,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.596065786536924,
+        "persistent_bytes": 60002752,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.596065786536924,
+    "average": 0.7015110860803722,
+    "shared_sha256": "5528f2c75beb95f6b8a53e7b9ad5cc93e6163debdb2a197653f2bf1c781924fe",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 59.54137971997261
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7833333333333333,
+        "persistent_bytes": 4227136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7480769230769231,
+        "persistent_bytes": 8454272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.7442307692307693,
+        "persistent_bytes": 12681408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.7498248093006157,
+        "persistent_bytes": 16908544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.759619060748093,
+        "persistent_bytes": 21135680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.6600838899933411,
+        "persistent_bytes": 25362816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.5880053127718663,
+        "persistent_bytes": 29589952,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.5880053127718663,
+    "average": 0.7190248712078489,
+    "shared_sha256": "5528f2c75beb95f6b8a53e7b9ad5cc93e6163debdb2a197653f2bf1c781924fe",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 59.67483852058649
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8166666666666667,
+        "persistent_bytes": 8421424,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7897435897435898,
+        "persistent_bytes": 16842848,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.7903846153846154,
+        "persistent_bytes": 25264272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.7848979873173421,
+        "persistent_bytes": 33685696,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.7689130135097877,
+        "persistent_bytes": 42107120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.672904815975699,
+        "persistent_bytes": 50528544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.6206331844914189,
+        "persistent_bytes": 58949968,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.6206331844914189,
+    "average": 0.7491634104413029,
+    "shared_sha256": "5528f2c75beb95f6b8a53e7b9ad5cc93e6163debdb2a197653f2bf1c781924fe",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 60.05401410534978
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6833333333333333,
+        "persistent_bytes": 14694304,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6705128205128205,
+        "persistent_bytes": 22543632,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6935897435897437,
+        "persistent_bytes": 32192408,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.6819082575130962,
+        "persistent_bytes": 41970208,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.6844214686150171,
+        "persistent_bytes": 52351664,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.6038023284592329,
+        "persistent_bytes": 62129464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.5911989703373405,
+        "persistent_bytes": 71812800,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.5911989703373405,
+    "average": 0.6583952746229407,
+    "shared_sha256": "dcbc87cf1ec9d52bce26e562ce4811dafb5cc8777db7fb42b57e0f7a5035916e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 64.91812687367201
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8,
+        "persistent_bytes": 5345344,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.7756410256410255,
+        "persistent_bytes": 10690688,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.7314102564102564,
+        "persistent_bytes": 16036032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.7653518748276813,
+        "persistent_bytes": 21381376,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.7576279753699109,
+        "persistent_bytes": 26726720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.6453728694956765,
+        "persistent_bytes": 32072064,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.583104620180172,
+        "persistent_bytes": 37417408,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.583104620180172,
+    "average": 0.7226440888463889,
+    "shared_sha256": "dcbc87cf1ec9d52bce26e562ce4811dafb5cc8777db7fb42b57e0f7a5035916e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 65.10414603725076
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8333333333333333,
+        "persistent_bytes": 10653744,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.7980769230769231,
+        "persistent_bytes": 21307488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.7959401709401711,
+        "persistent_bytes": 31961232,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.7578146539840088,
+        "persistent_bytes": 42614976,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.7403873724841468,
+        "persistent_bytes": 53268720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.6571518919990906,
+        "persistent_bytes": 63922464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.6046729209292877,
+        "persistent_bytes": 74576208,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.6046729209292877,
+    "average": 0.7410538952495659,
+    "shared_sha256": "dcbc87cf1ec9d52bce26e562ce4811dafb5cc8777db7fb42b57e0f7a5035916e",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "b7bd7ab3607114800b44ae0852792a4fc57c22e3484ff489e756327c103aaf33",
+      "val": "8f3fda53cab32099f198c80697d4aa9d596c2ef37f612eb3c1d2aee0e26ad266"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 65.26728536561131
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "base",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7,
+        "persistent_bytes": 11736728,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.6929487179487179,
+        "persistent_bytes": 18198280,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.5363247863247863,
+        "persistent_bytes": 25761672,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.48965628159176544,
+        "persistent_bytes": 33929232,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.4059999080966823,
+        "persistent_bytes": 42641568,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.3472360581054696,
+        "persistent_bytes": 51370288,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.31701426678082034,
+        "persistent_bytes": 58921392,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.31701426678082034,
+    "average": 0.4984542884068917,
+    "shared_sha256": "e62ef8784eb666202051ad34df1893d3aafb433cf187296940851dd19eccda8b",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 41.212145641446114
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "base",
+      "method": "ridge",
+      "param": 100.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.65,
+        "persistent_bytes": 4227136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.6044871794871794,
+        "persistent_bytes": 8454272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.5117521367521368,
+        "persistent_bytes": 12681408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.3999431348221671,
+        "persistent_bytes": 16908544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.30981596360628616,
+        "persistent_bytes": 21135680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.2745943254538331,
+        "persistent_bytes": 25362816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.24324007910595347,
+        "persistent_bytes": 29589952,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.24324007910595347,
+    "average": 0.42769040274679376,
+    "shared_sha256": "e62ef8784eb666202051ad34df1893d3aafb433cf187296940851dd19eccda8b",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 41.22615887969732
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "base",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7666666666666666,
+        "persistent_bytes": 8421424,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.6519230769230769,
+        "persistent_bytes": 16842848,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.5901709401709402,
+        "persistent_bytes": 25264272,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.5744233066813712,
+        "persistent_bytes": 33685696,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5505332690010111,
+        "persistent_bytes": 42107120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.4328918950947814,
+        "persistent_bytes": 50528544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.3883697042440675,
+        "persistent_bytes": 58949968,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.3883697042440675,
+    "average": 0.5649969798259878,
+    "shared_sha256": "e62ef8784eb666202051ad34df1893d3aafb433cf187296940851dd19eccda8b",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 41.23549187555909
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6000000000000001,
+        "persistent_bytes": 13470864,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6128205128205129,
+        "persistent_bytes": 21324800,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.5491452991452992,
+        "persistent_bytes": 30402176,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.5047824188953222,
+        "persistent_bytes": 40170760,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.480637119750023,
+        "persistent_bytes": 49948560,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.40537008619563797,
+        "persistent_bytes": 59726360,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.36033309424650684,
+        "persistent_bytes": 70001832,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.36033309424650684,
+    "average": 0.5018697901504717,
+    "shared_sha256": "c780774b3bcfebf0e487d7684e13c061daea0a04b30a36712cd322e95b3cadb5",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 43.31125046312809
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6333333333333333,
+        "persistent_bytes": 5345344,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6846153846153846,
+        "persistent_bytes": 10690688,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.669017094017094,
+        "persistent_bytes": 16036032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.5462670021137763,
+        "persistent_bytes": 21381376,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.44847118830989796,
+        "persistent_bytes": 26726720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.39291563476976604,
+        "persistent_bytes": 32072064,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.34281502626154575,
+        "persistent_bytes": 37417408,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.34281502626154575,
+    "average": 0.5310620947743997,
+    "shared_sha256": "c780774b3bcfebf0e487d7684e13c061daea0a04b30a36712cd322e95b3cadb5",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 43.323852594941854
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7833333333333333,
+        "persistent_bytes": 10653744,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6878205128205128,
+        "persistent_bytes": 21307488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6141025641025641,
+        "persistent_bytes": 31961232,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.5840386912967558,
+        "persistent_bytes": 42614976,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.5623922433599853,
+        "persistent_bytes": 53268720,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.46454236984797265,
+        "persistent_bytes": 63922464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.4171115858297522,
+        "persistent_bytes": 74576208,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.4171115858297522,
+    "average": 0.5876201857986966,
+    "shared_sha256": "c780774b3bcfebf0e487d7684e13c061daea0a04b30a36712cd322e95b3cadb5",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "8eb947a32aad156eac64da7de7084260a63212db77683cb09c3b4d979c5e18ea",
+      "val": "621aadf0f2f2b876bdca4b17b1818a2647f134f8bbc013f5e10cdc3b5a4f0858"
+    },
+    "raw_hashes": {
+      "train": "b78a299586078117e82d03efb7e7882c15b2471b9722b108757c68d55e037dea",
+      "val": "fa4e0d4ec70f3879917f5e51f4c3bcc84036ace0f51e983970bbaa9aab03e353",
+      "test": "5bb7bdfa12905f8ae97b14abda499b85bc3799479f8c987690cdee5ff886fb58"
+    },
+    "elapsed_s_shared": 43.33472392708063
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "task",
+      "param": 0.1,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8431372549019608,
+        "persistent_bytes": 16649960,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.8,
+        "persistent_bytes": 24766320,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.7394957983193277,
+        "persistent_bytes": 33460224,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.6143790849673203,
+        "persistent_bytes": 42172560,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5561497326203209,
+        "persistent_bytes": 50860320,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.5475113122171946,
+        "persistent_bytes": 59531696,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.5098039215686275,
+        "persistent_bytes": 67670584,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.5121107266435986,
+        "persistent_bytes": 76362440,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.48916408668730643,
+        "persistent_bytes": 85054296,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.46498599439775906,
+        "persistent_bytes": 93731816,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.43222506393861887,
+        "persistent_bytes": 101315688,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.4235294117647059,
+        "persistent_bytes": 109423856,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.4335511982570806,
+        "persistent_bytes": 116456808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.4178498985801217,
+        "persistent_bytes": 124593648,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.3889943074003795,
+        "persistent_bytes": 132710008,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.36007130124777187,
+        "persistent_bytes": 141412104,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.3613445378151261,
+        "persistent_bytes": 150095768,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.33068362480127184,
+        "persistent_bytes": 158244896,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.34841628959276016,
+        "persistent_bytes": 166375592,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.34841628959276016,
+    "average": 0.5038633445116449,
+    "shared_sha256": "60b0c3633d061dfb7cce9656367131897c23261bd4a59b9ddee1f7f9c57d058a",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 463.33475824072957
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "ridge",
+      "param": 0.01,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.784313725490196,
+        "persistent_bytes": 6340704,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7882352941176471,
+        "persistent_bytes": 10567840,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.689075630252101,
+        "persistent_bytes": 14794976,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.6143790849673203,
+        "persistent_bytes": 19022112,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5668449197860963,
+        "persistent_bytes": 23249248,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.5791855203619909,
+        "persistent_bytes": 27476384,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.5137254901960784,
+        "persistent_bytes": 31703520,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.4878892733564013,
+        "persistent_bytes": 35930656,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.436532507739938,
+        "persistent_bytes": 40157792,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.42857142857142855,
+        "persistent_bytes": 44384928,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.4194373401534527,
+        "persistent_bytes": 48612064,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.4023529411764706,
+        "persistent_bytes": 52839200,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.39869281045751637,
+        "persistent_bytes": 57066336,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.38945233265720075,
+        "persistent_bytes": 61293472,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.36053130929791266,
+        "persistent_bytes": 65520608,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.36007130124777187,
+        "persistent_bytes": 69747744,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.346218487394958,
+        "persistent_bytes": 73974880,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.33068362480127184,
+        "persistent_bytes": 78202016,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.32579185520361986,
+        "persistent_bytes": 82429152,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.32579185520361986,
+    "average": 0.4853676251173355,
+    "shared_sha256": "60b0c3633d061dfb7cce9656367131897c23261bd4a59b9ddee1f7f9c57d058a",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 463.5837785117328
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8039215686274509,
+        "persistent_bytes": 12632136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7882352941176471,
+        "persistent_bytes": 21053560,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.6806722689075629,
+        "persistent_bytes": 29474984,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.6143790849673203,
+        "persistent_bytes": 37896408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.5614973262032086,
+        "persistent_bytes": 46317832,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.5746606334841629,
+        "persistent_bytes": 54739256,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.5490196078431372,
+        "persistent_bytes": 63160680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.5294117647058824,
+        "persistent_bytes": 71582104,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.4829721362229102,
+        "persistent_bytes": 80003528,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.47619047619047616,
+        "persistent_bytes": 88424952,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.45524296675191817,
+        "persistent_bytes": 96846376,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.44000000000000006,
+        "persistent_bytes": 105267800,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.4357298474945534,
+        "persistent_bytes": 113689224,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.4219066937119676,
+        "persistent_bytes": 122110648,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.39848197343453506,
+        "persistent_bytes": 130532072,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.38859180035650626,
+        "persistent_bytes": 138953496,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.37983193277310934,
+        "persistent_bytes": 147374920,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.36724960254372024,
+        "persistent_bytes": 155796344,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.35595776772247356,
+        "persistent_bytes": 164217768,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.35595776772247356,
+    "average": 0.5107343550557129,
+    "shared_sha256": "60b0c3633d061dfb7cce9656367131897c23261bd4a59b9ddee1f7f9c57d058a",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 464.07383619993925
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "task",
+      "param": 0.001,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8431372549019608,
+        "persistent_bytes": 19875816,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6705882352941177,
+        "persistent_bytes": 30236536,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6638655462184875,
+        "persistent_bytes": 39991296,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.5686274509803922,
+        "persistent_bytes": 49739144,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.5294117647058824,
+        "persistent_bytes": 60120600,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.5384615384615384,
+        "persistent_bytes": 69868448,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.5254901960784314,
+        "persistent_bytes": 80192304,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.48442906574394456,
+        "persistent_bytes": 89334192,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.436532507739938,
+        "persistent_bytes": 99694912,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.4397759103641456,
+        "persistent_bytes": 110055632,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.39641943734015345,
+        "persistent_bytes": 119794264,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.4235294117647059,
+        "persistent_bytes": 130145768,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.411764705882353,
+        "persistent_bytes": 140511096,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.4056795131845843,
+        "persistent_bytes": 150265856,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.396584440227704,
+        "persistent_bytes": 159992968,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.37076648841354726,
+        "persistent_bytes": 169717776,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.3647058823529412,
+        "persistent_bytes": 180096928,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.34340222575516693,
+        "persistent_bytes": 190441520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.3408748114630467,
+        "persistent_bytes": 200189368,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.3408748114630467,
+    "average": 0.4817919150985811,
+    "shared_sha256": "1b173351201695a00f25ec7f096d6a1f925ea4af76fd722213f0bf0ae26c4fad",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 483.83510729670525
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 0.01,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7647058823529411,
+        "persistent_bytes": 8018016,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.7647058823529412,
+        "persistent_bytes": 13363360,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.689075630252101,
+        "persistent_bytes": 18708704,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.6274509803921569,
+        "persistent_bytes": 24054048,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.5561497326203209,
+        "persistent_bytes": 29399392,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.583710407239819,
+        "persistent_bytes": 34744736,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.5098039215686274,
+        "persistent_bytes": 40090080,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.4948096885813148,
+        "persistent_bytes": 45435424,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.44272445820433437,
+        "persistent_bytes": 50780768,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.42857142857142855,
+        "persistent_bytes": 56126112,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.4245524296675192,
+        "persistent_bytes": 61471456,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.40470588235294125,
+        "persistent_bytes": 66816800,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.39869281045751637,
+        "persistent_bytes": 72162144,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.38742393509127787,
+        "persistent_bytes": 77507488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.3586337760910816,
+        "persistent_bytes": 82852832,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.35650623885918004,
+        "persistent_bytes": 88198176,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.3445378151260505,
+        "persistent_bytes": 93543520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.33386327503974567,
+        "persistent_bytes": 98888864,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.3257918552036199,
+        "persistent_bytes": 104234208,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.3257918552036199,
+    "average": 0.48402189631710096,
+    "shared_sha256": "1b173351201695a00f25ec7f096d6a1f925ea4af76fd722213f0bf0ae26c4fad",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 484.18499698117375
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.8039215686274509,
+        "persistent_bytes": 15980616,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.7882352941176471,
+        "persistent_bytes": 26634360,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6806722689075629,
+        "persistent_bytes": 37288104,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.6143790849673203,
+        "persistent_bytes": 47941848,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.5668449197860963,
+        "persistent_bytes": 58595592,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.5791855203619909,
+        "persistent_bytes": 69249336,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.5450980392156862,
+        "persistent_bytes": 79903080,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.5294117647058822,
+        "persistent_bytes": 90556824,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.4829721362229102,
+        "persistent_bytes": 101210568,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.4733893557422969,
+        "persistent_bytes": 111864312,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.45524296675191817,
+        "persistent_bytes": 122518056,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.44235294117647067,
+        "persistent_bytes": 133171800,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.43790849673202614,
+        "persistent_bytes": 143825544,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.4239350912778905,
+        "persistent_bytes": 154479288,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.40037950664136623,
+        "persistent_bytes": 165133032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.3868092691622103,
+        "persistent_bytes": 175786776,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.37983193277310934,
+        "persistent_bytes": 186440520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.36724960254372024,
+        "persistent_bytes": 197094264,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.3574660633484163,
+        "persistent_bytes": 207748008,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.3574660633484163,
+    "average": 0.5113308327927355,
+    "shared_sha256": "1b173351201695a00f25ec7f096d6a1f925ea4af76fd722213f0bf0ae26c4fad",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f3e5e4be72eec62810fba56c03124abc0c12555dbb474af8d66059692812bab9",
+      "val": "bfc41eb49ca6a5a8e5e10e151a6a1b63a10ec2eefe578905e60cc8766dba2333"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 484.6743003986776
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "base",
+      "method": "task",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5098039215686274,
+        "persistent_bytes": 16676584,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.36470588235294116,
+        "persistent_bytes": 24825712,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.3109243697478992,
+        "persistent_bytes": 33513472,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.21568627450980393,
+        "persistent_bytes": 42199184,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.1925133689839572,
+        "persistent_bytes": 50888992,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.1583710407239819,
+        "persistent_bytes": 59576752,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.1686274509803921,
+        "persistent_bytes": 68250176,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.15224913494809686,
+        "persistent_bytes": 76944080,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.16408668730650153,
+        "persistent_bytes": 85627744,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.14285714285714285,
+        "persistent_bytes": 94319600,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.10997442455242964,
+        "persistent_bytes": 102993024,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.10588235294117647,
+        "persistent_bytes": 111672592,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.11546840958605664,
+        "persistent_bytes": 119774616,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.10141987829614604,
+        "persistent_bytes": 128468520,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.12523719165085387,
+        "persistent_bytes": 137133752,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.1176470588235294,
+        "persistent_bytes": 145829704,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.09411764705882353,
+        "persistent_bytes": 153966544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.0985691573926868,
+        "persistent_bytes": 162676832,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.09954751131221719,
+        "persistent_bytes": 171372784,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.09954751131221719,
+    "average": 0.17619415292596127,
+    "shared_sha256": "86329a2d381a7e11b3a94928733a44fc1c3ba4db1f74edce139dc79191b40175",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 148.54068149626255
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "base",
+      "method": "ridge",
+      "param": 100.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6274509803921569,
+        "persistent_bytes": 6340704,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.3529411764705882,
+        "persistent_bytes": 10567840,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.2689075630252101,
+        "persistent_bytes": 14794976,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.21568627450980393,
+        "persistent_bytes": 19022112,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.1711229946524064,
+        "persistent_bytes": 23249248,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.167420814479638,
+        "persistent_bytes": 27476384,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.1411764705882353,
+        "persistent_bytes": 31703520,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.10726643598615916,
+        "persistent_bytes": 35930656,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.10526315789473684,
+        "persistent_bytes": 40157792,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.09523809523809523,
+        "persistent_bytes": 44384928,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.0971867007672634,
+        "persistent_bytes": 48612064,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.09411764705882351,
+        "persistent_bytes": 52839200,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.11328976034858386,
+        "persistent_bytes": 57066336,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.10141987829614604,
+        "persistent_bytes": 61293472,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.08349146110056925,
+        "persistent_bytes": 65520608,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.08734402852049909,
+        "persistent_bytes": 69747744,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.08067226890756302,
+        "persistent_bytes": 73974880,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.07949125596184418,
+        "persistent_bytes": 78202016,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.07390648567119154,
+        "persistent_bytes": 82429152,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.07390648567119154,
+    "average": 0.16123123420365865,
+    "shared_sha256": "86329a2d381a7e11b3a94928733a44fc1c3ba4db1f74edce139dc79191b40175",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 148.56657081469893
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "base",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.45098039215686275,
+        "persistent_bytes": 12632136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.32941176470588235,
+        "persistent_bytes": 21053560,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.2941176470588235,
+        "persistent_bytes": 29474984,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 0.2287581699346405,
+        "persistent_bytes": 37896408,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.19786096256684493,
+        "persistent_bytes": 46317832,
+        "base_control_exact": true
+      },
+      {
+        "stage": 6,
+        "metric": 0.20361990950226244,
+        "persistent_bytes": 54739256,
+        "base_control_exact": true
+      },
+      {
+        "stage": 7,
+        "metric": 0.18431372549019603,
+        "persistent_bytes": 63160680,
+        "base_control_exact": true
+      },
+      {
+        "stage": 8,
+        "metric": 0.17301038062283736,
+        "persistent_bytes": 71582104,
+        "base_control_exact": true
+      },
+      {
+        "stage": 9,
+        "metric": 0.16718266253869968,
+        "persistent_bytes": 80003528,
+        "base_control_exact": true
+      },
+      {
+        "stage": 10,
+        "metric": 0.14285714285714285,
+        "persistent_bytes": 88424952,
+        "base_control_exact": true
+      },
+      {
+        "stage": 11,
+        "metric": 0.14322250639386186,
+        "persistent_bytes": 96846376,
+        "base_control_exact": true
+      },
+      {
+        "stage": 12,
+        "metric": 0.14352941176470588,
+        "persistent_bytes": 105267800,
+        "base_control_exact": true
+      },
+      {
+        "stage": 13,
+        "metric": 0.16122004357298472,
+        "persistent_bytes": 113689224,
+        "base_control_exact": true
+      },
+      {
+        "stage": 14,
+        "metric": 0.15212981744421908,
+        "persistent_bytes": 122110648,
+        "base_control_exact": true
+      },
+      {
+        "stage": 15,
+        "metric": 0.13851992409867173,
+        "persistent_bytes": 130532072,
+        "base_control_exact": true
+      },
+      {
+        "stage": 16,
+        "metric": 0.1301247771836007,
+        "persistent_bytes": 138953496,
+        "base_control_exact": true
+      },
+      {
+        "stage": 17,
+        "metric": 0.12605042016806722,
+        "persistent_bytes": 147374920,
+        "base_control_exact": true
+      },
+      {
+        "stage": 18,
+        "metric": 0.12082670906200318,
+        "persistent_bytes": 155796344,
+        "base_control_exact": true
+      },
+      {
+        "stage": 19,
+        "metric": 0.11463046757164402,
+        "persistent_bytes": 164217768,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.11463046757164402,
+    "average": 0.18959825445757633,
+    "shared_sha256": "86329a2d381a7e11b3a94928733a44fc1c3ba4db1f74edce139dc79191b40175",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 148.58613868430257
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7254901960784315,
+        "persistent_bytes": 19910376,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.5058823529411766,
+        "persistent_bytes": 30291832,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.42857142857142855,
+        "persistent_bytes": 40030464,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.35294117647058826,
+        "persistent_bytes": 50395792,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.32085561497326204,
+        "persistent_bytes": 60784160,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.30769230769230765,
+        "persistent_bytes": 71124144,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.22745098039215686,
+        "persistent_bytes": 81471040,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.23875432525951557,
+        "persistent_bytes": 91218888,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.21052631578947367,
+        "persistent_bytes": 101581912,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.1848739495798319,
+        "persistent_bytes": 111949544,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.1713554987212276,
+        "persistent_bytes": 122312568,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.15529411764705883,
+        "persistent_bytes": 132673288,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.18082788671023967,
+        "persistent_bytes": 143040920,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.18458417849898578,
+        "persistent_bytes": 152791072,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.16508538899430736,
+        "persistent_bytes": 163156400,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.16221033868092694,
+        "persistent_bytes": 173535552,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.16134453781512603,
+        "persistent_bytes": 183912400,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.13990461049284578,
+        "persistent_bytes": 194263904,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.14027149321266968,
+        "persistent_bytes": 204007144,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.14027149321266968,
+    "average": 0.26125877360639793,
+    "shared_sha256": "7ecf0ee3701753c2a81ae82d359efb6f6e80a4592815a46ea1212e9b2b382f10",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 165.39459869638085
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.7058823529411765,
+        "persistent_bytes": 8018016,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.48235294117647065,
+        "persistent_bytes": 13363360,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.42857142857142855,
+        "persistent_bytes": 18708704,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.3594771241830065,
+        "persistent_bytes": 24054048,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.27807486631016043,
+        "persistent_bytes": 29399392,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.28959276018099545,
+        "persistent_bytes": 34744736,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.23921568627450976,
+        "persistent_bytes": 40090080,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.20069204152249134,
+        "persistent_bytes": 45435424,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.18575851393188852,
+        "persistent_bytes": 50780768,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.15406162464985995,
+        "persistent_bytes": 56126112,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.15089514066496162,
+        "persistent_bytes": 61471456,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.1388235294117647,
+        "persistent_bytes": 66816800,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.15686274509803919,
+        "persistent_bytes": 72162144,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.16227180527383364,
+        "persistent_bytes": 77507488,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.14800759013282733,
+        "persistent_bytes": 82852832,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.14260249554367202,
+        "persistent_bytes": 88198176,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.1411764705882353,
+        "persistent_bytes": 93543520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.13036565977742445,
+        "persistent_bytes": 98888864,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.1251885369532428,
+        "persistent_bytes": 104234208,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.1251885369532428,
+    "average": 0.24315122700978886,
+    "shared_sha256": "7ecf0ee3701753c2a81ae82d359efb6f6e80a4592815a46ea1212e9b2b382f10",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 165.41083040460944
+  },
+  {
+    "status": "completed",
+    "task": "classification",
+    "config": {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "fecam",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5294117647058824,
+        "persistent_bytes": 15980616,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.4235294117647059,
+        "persistent_bytes": 26634360,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.3529411764705882,
+        "persistent_bytes": 37288104,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.3006535947712418,
+        "persistent_bytes": 47941848,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.2620320855614973,
+        "persistent_bytes": 58595592,
+        "base_control_exact": false
+      },
+      {
+        "stage": 6,
+        "metric": 0.2624434389140271,
+        "persistent_bytes": 69249336,
+        "base_control_exact": false
+      },
+      {
+        "stage": 7,
+        "metric": 0.23137254901960783,
+        "persistent_bytes": 79903080,
+        "base_control_exact": false
+      },
+      {
+        "stage": 8,
+        "metric": 0.21799307958477507,
+        "persistent_bytes": 90556824,
+        "base_control_exact": false
+      },
+      {
+        "stage": 9,
+        "metric": 0.20743034055727552,
+        "persistent_bytes": 101210568,
+        "base_control_exact": false
+      },
+      {
+        "stage": 10,
+        "metric": 0.1932773109243697,
+        "persistent_bytes": 111864312,
+        "base_control_exact": false
+      },
+      {
+        "stage": 11,
+        "metric": 0.17902813299232734,
+        "persistent_bytes": 122518056,
+        "base_control_exact": false
+      },
+      {
+        "stage": 12,
+        "metric": 0.16941176470588232,
+        "persistent_bytes": 133171800,
+        "base_control_exact": false
+      },
+      {
+        "stage": 13,
+        "metric": 0.17864923747276684,
+        "persistent_bytes": 143825544,
+        "base_control_exact": false
+      },
+      {
+        "stage": 14,
+        "metric": 0.16430020283975655,
+        "persistent_bytes": 154479288,
+        "base_control_exact": false
+      },
+      {
+        "stage": 15,
+        "metric": 0.15749525616698287,
+        "persistent_bytes": 165133032,
+        "base_control_exact": false
+      },
+      {
+        "stage": 16,
+        "metric": 0.15686274509803919,
+        "persistent_bytes": 175786776,
+        "base_control_exact": false
+      },
+      {
+        "stage": 17,
+        "metric": 0.1529411764705882,
+        "persistent_bytes": 186440520,
+        "base_control_exact": false
+      },
+      {
+        "stage": 18,
+        "metric": 0.1430842607313195,
+        "persistent_bytes": 197094264,
+        "base_control_exact": false
+      },
+      {
+        "stage": 19,
+        "metric": 0.13273001508295623,
+        "persistent_bytes": 207748008,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.13273001508295623,
+    "average": 0.23239934441234686,
+    "shared_sha256": "7ecf0ee3701753c2a81ae82d359efb6f6e80a4592815a46ea1212e9b2b382f10",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "a6b49065dac24f33781399155ad3ba78f9ec575273a70b0f6fe41d771068ee86",
+      "val": "3af53d585e3797b0436d7487474331dcd84191306482a52003ac074bf18cb811"
+    },
+    "raw_hashes": {
+      "train": "d87de6b291455271642311f139ac51f5f7e4be5a6e245568b420c85533b70b22",
+      "val": "b7a37e71f17dd32784337888e594d71469b511ef501c985d3d47eb7a3fab84f6",
+      "test": "39f8b277512b1ad857fc6df247dad5bd367c598bfcb4978f657ab38edbbd1962"
+    },
+    "elapsed_s_shared": 165.43675987422466
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "task",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.516565941000132,
+        "persistent_bytes": 6846132,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.6547736894274615,
+        "persistent_bytes": 8493912,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.7044950338837266,
+        "persistent_bytes": 10119120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 1.0495033917621521,
+        "persistent_bytes": 11233372,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.9625986770936513,
+        "persistent_bytes": 12872944,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.9625986770936513,
+    "average": 0.7775873466334247,
+    "shared_sha256": "3d9b73f581937b692c0cbe318fd3c35c20bb03ec2e05f4f12750599e9cf5870c",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 18.97040605917573
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "ridge",
+      "param": 0.1,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6293928159184506,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7075785526503808,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.694704552729758,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 1.1343072768754054,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 1.0162368038501508,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      }
+    ],
+    "final": 1.0162368038501508,
+    "average": 0.836444000404829,
+    "shared_sha256": "3d9b73f581937b692c0cbe318fd3c35c20bb03ec2e05f4f12750599e9cf5870c",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 18.981834158301353
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.5634965268410851,
+        "persistent_bytes": 9457108,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6289029813764202,
+        "persistent_bytes": 11310456,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.5491722499560412,
+        "persistent_bytes": 12542944,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 1.1045102727111673,
+        "persistent_bytes": 14987148,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.9986116850683755,
+        "persistent_bytes": 16831264,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.9986116850683755,
+    "average": 0.7689387431906178,
+    "shared_sha256": "e24f79f62accdbabc187b86a247a927657a6572b2d86b55afefd94d96d07a003",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 21.0322136990726
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 0.1,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.730938188955534,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.8911992698975713,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6340455775207563,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 1.2189277991100773,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 1.0217898580561782,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      }
+    ],
+    "final": 1.0217898580561782,
+    "average": 0.8993801387080234,
+    "shared_sha256": "e24f79f62accdbabc187b86a247a927657a6572b2d86b55afefd94d96d07a003",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "f87f555a49785dd8e796d12b644fa3a3edb59e7bbd32fa60266ca24cb1310944",
+      "val": "f22c36c26162fc1cedcca8e1707cfa74bebc4099f9b5a5ff52984a3f349adcf2"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 21.041347790509462
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "features": "base",
+      "method": "task",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6363412755625417,
+        "persistent_bytes": 6846132,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.6747590250844842,
+        "persistent_bytes": 8493912,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.6489014733650024,
+        "persistent_bytes": 10648544,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 1.0013725962621132,
+        "persistent_bytes": 12821644,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.826535867850703,
+        "persistent_bytes": 14461216,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.826535867850703,
+    "average": 0.7575820476249688,
+    "shared_sha256": "a99a6855c4ca1234cbe89dcab43a52df10930749b48f1733b071d590ccac02df",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 18.11185745149851
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "features": "base",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 512,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.694402621639273,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 0.7457360854083508,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 0.6939554462852058,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 1.0486621362059951,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 0.9068621144161777,
+        "persistent_bytes": 2113576,
+        "base_control_exact": true
+      }
+    ],
+    "final": 0.9068621144161777,
+    "average": 0.8179236807910005,
+    "shared_sha256": "a99a6855c4ca1234cbe89dcab43a52df10930749b48f1733b071d590ccac02df",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 18.113833256065845
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "task",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.638726999767305,
+        "persistent_bytes": 9457108,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.6469864709566893,
+        "persistent_bytes": 11905928,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6349718990106479,
+        "persistent_bytes": 13733888,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 0.9561667356870127,
+        "persistent_bytes": 15582620,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.8216862135961422,
+        "persistent_bytes": 18022208,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.8216862135961422,
+    "average": 0.7397076638035595,
+    "shared_sha256": "543d21402b62ec48e56d1ff54b944b0108756c030f682d532375b25cce9dd524",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 19.709835678339005
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 576,
+      "reference": "none",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 0.6632070305565748,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 0.7728608340878883,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 0.6761455703323972,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 1.0182131101821257,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 0.8803058916826019,
+        "persistent_bytes": 2672680,
+        "base_control_exact": false
+      }
+    ],
+    "final": 0.8803058916826019,
+    "average": 0.8021464873683175,
+    "shared_sha256": "543d21402b62ec48e56d1ff54b944b0108756c030f682d532375b25cce9dd524",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "1e07c69902dc0857b07b6c83455c9f9ed8625f05a5684de7727c2b241adb8f97",
+      "val": "e965ff5d09c08353f811d636be410ea16a3aac9bfcc65587894e13b081a378a5"
+    },
+    "raw_hashes": {
+      "train": "57c808d10f376d3ac678e3355a23a56c93a4cce5595ba3223d9d97d94d68758b",
+      "val": "f3c0d041a57cb89f4c3c3533c6a511c59b01b5650d34f21a8d83d7076f0f5991",
+      "test": "d3bdb9266a18d53cc5024242883e570ecd4f48292fa7cdfe3703b6deef6fcee7"
+    },
+    "elapsed_s_shared": 19.711839579045773
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 513,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 33.74415250702344,
+        "persistent_bytes": 8024856,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 29.125817868741112,
+        "persistent_bytes": 10286488,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 28.14991157164228,
+        "persistent_bytes": 12529616,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 27.355827099785227,
+        "persistent_bytes": 14787136,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 27.34193241725665,
+        "persistent_bytes": 17017928,
+        "base_control_exact": true
+      }
+    ],
+    "final": 27.34193241725665,
+    "average": 29.143528292889744,
+    "shared_sha256": "904ddda67c2b46340b8e55949da401f46910a56b8e034f1e9e5aba7f0f1d3194",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 29.146339617669582
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "features": "base",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 513,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 37.53405509251535,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 30.220174276476747,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 29.682115879248403,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 27.619633064325075,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 27.695442132482732,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      }
+    ],
+    "final": 27.695442132482732,
+    "average": 30.550284089009658,
+    "shared_sha256": "904ddda67c2b46340b8e55949da401f46910a56b8e034f1e9e5aba7f0f1d3194",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 29.219670839607716
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 577,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 36.917178441754885,
+        "persistent_bytes": 9574880,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 29.07169958581546,
+        "persistent_bytes": 12092680,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 28.041122345514275,
+        "persistent_bytes": 14624352,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 26.34935943481784,
+        "persistent_bytes": 17160648,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 27.576818019839177,
+        "persistent_bytes": 19692320,
+        "base_control_exact": false
+      }
+    ],
+    "final": 27.576818019839177,
+    "average": 29.591235565548327,
+    "shared_sha256": "69eb981cb21a74af02cd5aba891d942bdd299288d35ceca6c1039b0488b60efb",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 30.14240124449134
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 1.0,
+      "dimension": 577,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 39.35476430928438,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 30.430450239706197,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 29.1910324035686,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 26.934319969580283,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 27.25856866487177,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      }
+    ],
+    "final": 27.25856866487177,
+    "average": 30.633827117402245,
+    "shared_sha256": "69eb981cb21a74af02cd5aba891d942bdd299288d35ceca6c1039b0488b60efb",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "9ca5dd9edd5f326dd090a7346c5334178d0b8657fecd93d2de38aa09f92e7301",
+      "val": "25ac22cc0205208867eeacf4c1ba7db052a5ce3a981f1f11b729dd03f0b8f604"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 30.213743928819895
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "features": "base",
+      "method": "task",
+      "param": 10.0,
+      "dimension": 513,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 35.57364554398188,
+        "persistent_bytes": 8024856,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 28.747986624529837,
+        "persistent_bytes": 10286488,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 27.586577367448466,
+        "persistent_bytes": 12548120,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 26.37993983266912,
+        "persistent_bytes": 14809752,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 27.092263122291747,
+        "persistent_bytes": 17071384,
+        "base_control_exact": true
+      }
+    ],
+    "final": 27.092263122291747,
+    "average": 29.076082498184213,
+    "shared_sha256": "d497e47bfac2cee8041ae7fb49d8e69ac1f59f09f5628d013c79883f3b273683",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 19.28071154281497
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "features": "base",
+      "method": "ridge",
+      "param": 10.0,
+      "dimension": 513,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 33.326796826062285,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 2,
+        "metric": 28.8836866731722,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 3,
+        "metric": 27.321511446263244,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 4,
+        "metric": 26.21060393409191,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      },
+      {
+        "stage": 5,
+        "metric": 27.12686771152464,
+        "persistent_bytes": 2121808,
+        "base_control_exact": true
+      }
+    ],
+    "final": 27.12686771152464,
+    "average": 28.573893318222854,
+    "shared_sha256": "d497e47bfac2cee8041ae7fb49d8e69ac1f59f09f5628d013c79883f3b273683",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 19.284805305302143
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "task",
+      "param": 100.0,
+      "dimension": 577,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 33.86908522171076,
+        "persistent_bytes": 9591064,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 28.58963689949402,
+        "persistent_bytes": 12134296,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 27.510165000444967,
+        "persistent_bytes": 14677528,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 26.258515818245204,
+        "persistent_bytes": 17220760,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 27.039753821793916,
+        "persistent_bytes": 19763992,
+        "base_control_exact": false
+      }
+    ],
+    "final": 27.039753821793916,
+    "average": 28.653431352337776,
+    "shared_sha256": "fead1a0fe5f43bc1bc7e35a979154b03ba83d7d53a5ed8231e3f257fe7ececbe",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 19.506394378840923
+  },
+  {
+    "status": "completed",
+    "task": "regression",
+    "config": {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "features": "interaction",
+      "method": "ridge",
+      "param": 10.0,
+      "dimension": 577,
+      "reference": "residual",
+      "seed": 42,
+      "order": 17,
+      "eval_split": "val"
+    },
+    "stages": [
+      {
+        "stage": 1,
+        "metric": 33.32699618056044,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 2,
+        "metric": 28.66059261239967,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 3,
+        "metric": 26.995570408350474,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 4,
+        "metric": 25.910114014413825,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      },
+      {
+        "stage": 5,
+        "metric": 26.926454827329735,
+        "persistent_bytes": 2681936,
+        "base_control_exact": false
+      }
+    ],
+    "final": 26.926454827329735,
+    "average": 28.363945608610827,
+    "shared_sha256": "fead1a0fe5f43bc1bc7e35a979154b03ba83d7d53a5ed8231e3f257fe7ececbe",
+    "git_commit": "6bd3d4575dc6fcb4eaab798ad8db43ef15b1b0ff",
+    "input_hashes": {
+      "train": "c405413b669db5e8684d021ac40d314fc8d7df68a6056ff8d2c8467ef404c0e8",
+      "val": "e2654c469d54f668d1487c36947b675fd1ba2862a7fd86e44329dd4b52c41c39"
+    },
+    "raw_hashes": {
+      "train": "2797aa45b0ad28261dcf1365fa467e0b1ed8ec10fa422f2e209ffddd3d685d2e",
+      "val": "78959bffa1e52f759df5679f5e1078db98e36e916106f076280edfe14b7ad3c3",
+      "test": "deb9ce478d91e31996ee6d2b81d9142c8ed2a471eb35e041b43629bebccbc6f9"
+    },
+    "elapsed_s_shared": 19.509803481400013
+  }
+]
