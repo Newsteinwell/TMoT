@@ -25,7 +25,9 @@ for variant in ('rank16_shrink01','rank16_shrink0','full_shrink01','full_shrink0
     np.testing.assert_allclose(m.g[np.ix_(phi,phi)],g[np.ix_(phi,phi)],rtol=1e-7,atol=1e-7);np.testing.assert_allclose(m.k[phi],k[phi],rtol=1e-7,atol=1e-7)
     err=dict(hidden_gram_relative=float(np.linalg.norm((m.g-g)[np.ix_(hi,hi)])/max(np.linalg.norm(g[np.ix_(hi,hi)]),1e-12)),hidden_target_relative=float(np.linalg.norm((m.k-k)[hi])/max(np.linalg.norm(k[hi]),1e-12)),cross_gram_relative=float(np.linalg.norm((m.g-g)[np.ix_(phi,hi)])/max(np.linalg.norm(g[np.ix_(phi,hi)]),1e-12)))
     with np.load(a.root/'features'/a.encoder/f'{a.dataset}_val.npz') as val:
-        vx=np.c_[m.function.transform(ck['basis'].transform(val['x'])).astype(float),np.ones(len(val['y']))];vy=val['y'].copy();vid=val['ids'].copy()
+        evals=[np.flatnonzero(np.isin(val['y'],labels)) for labels in s['order']] if cl else [np.flatnonzero(val['groups']==group) for group in s['order']]
+        vx=[np.c_[m.function.transform(ck['basis'].transform(val['x'][ids])).astype(float),np.ones(len(ids))] for ids in evals]
+        vy=np.concatenate([val['y'][ids] for ids in evals]);vid=np.concatenate([val['ids'][ids] for ids in evals])
     for ridge in (.001,.01,.1,1.,10.,100.):
         readout,_=regularized_innovation_readout(g,k,512,ridge)
         # Independent augmented residual-feature normal equations.
@@ -36,10 +38,14 @@ for variant in ('rank16_shrink01','rank16_shrink0','full_shrink01','full_shrink0
         np.testing.assert_allclose(readout,independent,rtol=1e-6,atol=2e-7)
         original=source.with_name(source.name.replace('_r0.1_','_r'+f'{ridge:g}'+'_'));old=torch.load(original/'final.pt',map_location='cpu',weights_only=False)['readout'];oldsummary=json.loads((original/'summary.json').read_text())
         def predict(weights):
-            scores=vx@weights
+            scores=np.concatenate([part@weights for part in vx])
             return np.asarray(m.classes)[scores.argmax(1)] if cl else scores*ck['target_sd']+ck['target_mean']
         def metric(pred):return float(np.mean([np.mean(pred[vy==c]==vy[vy==c]) for c in np.unique(vy)])) if cl else float(np.sqrt(np.mean((pred-vy)**2)))
-        oldpred=predict(old);pred=predict(readout);oldmetric=metric(oldpred);newmetric=metric(pred)
+        oldpred=predict(old);pred=predict(readout)
+        with np.load(original/f"predictions_stage{len(s['order'])}.npz") as saved:
+            np.testing.assert_array_equal(oldpred,np.concatenate([saved[f'pred_{i}'] for i in range(len(evals))]))
+            np.testing.assert_array_equal(vid,np.concatenate([saved[f'ids_{i}'] for i in range(len(evals))]))
+        oldmetric=metric(oldpred);newmetric=metric(pred)
         np.testing.assert_allclose(oldmetric,oldsummary['final_macro_accuracy' if cl else 'final_rmse'],rtol=1e-10,atol=1e-12)
         oldrisk=float(np.sum(w[:,None]*(z@old-target)**2));newrisk=float(np.sum(w[:,None]*(z@readout-target)**2));approx=float(np.sum(old*(m.g@old))-2*np.sum(old*m.k)+np.sum(w[:,None]*target**2))
         name=f'{variant}_r{ridge:g}'

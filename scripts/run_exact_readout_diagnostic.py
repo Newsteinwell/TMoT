@@ -1,6 +1,6 @@
 import concurrent.futures,json,os,subprocess,sys
 from pathlib import Path
-root=Path(sys.argv[1]);folder=root/'exact_readout_v49';folder.mkdir(exist_ok=False);jobs=[(d,e) for d in ('phonemespectra','lsst','handwriting','energy','beijing_pm25','air_quality') for e in ('mantis','summary')]
+root=Path(sys.argv[1]);folder=root/'exact_readout_v49_retry';folder.mkdir(exist_ok=False);jobs=[(d,e) for d in ('phonemespectra','lsst','handwriting','energy','beijing_pm25','air_quality') for e in ('mantis','summary')]
 (folder/'manifest.json').write_text(json.dumps(dict(jobs=jobs,pid=os.getpid(),workers=12,source=os.environ['TMOT_SOURCE_COMMIT']),indent=2))
 def run(job):
  d,e=job;name=d+'_'+e
