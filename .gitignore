@@ -13,3 +13,5 @@ models/
 .env*
 *.log
 SOURCE_COMMIT
+results/certified_v82_runs/
+results/certified_v82_analysis/
