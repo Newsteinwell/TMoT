@@ -1,0 +1,482 @@
+[
+  {
+    "name": "phonemespectra_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "handwriting_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "phonemespectra_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "handwriting_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "handwriting_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "phonemespectra_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "handwriting_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "phonemespectra_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "energy_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "energy_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "energy_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "energy_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "energy",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "beijing_pm25_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "beijing_pm25_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "air_quality_mantis_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "air_quality_summary_warm_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "beijing_pm25_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "beijing_pm25_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "beijing_pm25",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "air_quality_summary_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "summary",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "air_quality_mantis_warm_moment_er10",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_warm_budget",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/warm_budget_v58",
+      "--dataset",
+      "air_quality",
+      "--encoder",
+      "mantis",
+      "--variant",
+      "warm_moment_er10"
+    ],
+    "status": "failed",
+    "returncode": 1
+  }
+]

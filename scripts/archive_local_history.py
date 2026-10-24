@@ -24,8 +24,8 @@ def archive(p):
     tmp.rename(dest);p.unlink()
     return dict(path=str(p),archive=str(dest),sha256=sha,original_bytes=st.st_size,archive_bytes=dest.stat().st_size,action='archived_verified')
 
-p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('report',type=Path);a=p.parse_args();r=a.root.resolve();assert r.name=='tmot-artifacts' and not a.report.exists()
-queues=['local_warm_v32','local_support_v33','local_merge_v34'];candidates=[];evidence={}
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('report',type=Path);p.add_argument('--queues',nargs='+',default=['local_warm_v32','local_support_v33','local_merge_v34']);a=p.parse_args();r=a.root.resolve();assert r.name=='tmot-artifacts' and not a.report.exists()
+queues=a.queues;assert all(re.fullmatch(r'[a-z0-9_]+',q) for q in queues);candidates=[];evidence={}
 for queue in queues:
  folder=r/'runs'/queue
  for file in folder.rglob('*'):
@@ -33,7 +33,7 @@ for queue in queues:
  for file in folder.glob('*/final.pt'):
   assert json.loads((file.parent/'summary.json').read_text())['status']=='completed'
   if file.stat().st_nlink==1:candidates.append(file)
-report=dict(complete=False,before=shutil.disk_usage(r)._asdict(),archive_candidates=[str(p) for p in candidates],evidence_sha256=evidence,policy='Lossless only; v32-v34 completed models. Preserve v31 diagnostic anchors and all later queues.')
+report=dict(complete=False,before=shutil.disk_usage(r)._asdict(),archive_candidates=[str(p) for p in candidates],evidence_sha256=evidence,policy='Lossless only; completed models in explicitly selected queues.',queues=queues)
 a.report.write_text(json.dumps(report,indent=2));archives=[]
 with a.report.with_suffix('.journal.jsonl').open('x') as log:
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:

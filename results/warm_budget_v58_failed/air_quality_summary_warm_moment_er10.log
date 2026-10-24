@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/autodl-tmp/TMoT/tmot/experiment_warm_budget.py", line 57, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--out',required=True);p.add_argument('--dataset',required=True);p.add_argument('--encoder',choices=['mantis','summary'],required=True);p.add_argument('--variant',choices=['warm_er10','warm_moment_er10'],required=True);p.add_argument('--seed',type=int,default=42);p.add_argument('--order',type=int,default=17);p.add_argument('--ridge',type=float);run(p.parse_args())
+                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/TMoT/tmot/experiment_warm_budget.py", line 44, in run
+    row=dict(stage=stage+1,fit_s_shared=fit_s,current_samples=len(ids),persistent_bytes=m.persistent_bytes,loss=m.last_loss,scores=scores,optimizer_steps=m.optimizer_steps,historical_training_samples=m.historical_training_samples,representative_mass=m.weight_summary,warm_init_error=m.function.warm_init_error,buffer_audit=m.buffer_audit[-1],completion=getattr(m,'completion_diagnostics',None),innovation=diagnostics)
+                                                                                        ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/TMoT/tmot/warm_task_budget.py", line 10, in persistent_bytes
+    return super().persistent_bytes+sum(p.numel()*p.element_size() for p in self.function.head.parameters())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/TMoT/tmot/exact_base_completion.py", line 54, in persistent_bytes
+    def persistent_bytes(self):return super().persistent_bytes+self.exact_memory.nbytes
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/TMoT/tmot/replay_functional.py", line 75, in persistent_bytes
+    size=self.g.nbytes+self.k.nbytes+self.readout.nbytes+sum(v.nbytes for v in self.input_stats)
+                                     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'nbytes'
