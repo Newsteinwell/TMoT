@@ -36,6 +36,9 @@ for path in sorted(folder.glob('*/summary.json')):
       np.testing.assert_array_equal(pred,saved['prediction'])
       for key in ('reference_distances','candidate_distances','choose_candidate'):np.testing.assert_array_equal(data[key],saved[key])
  np.testing.assert_allclose(s['final_macro_accuracy'],s['stages'][-1]['macro_accuracy']);np.testing.assert_allclose(s['average_macro_accuracy'],np.mean([r['macro_accuracy'] for r in s['stages']]))
+ count=len(s['stages'])
+ s['mean_old_task_forgetting_pp']=float(100*np.mean([max(s['stages'][t]['scores'][j] for t in range(j,count))-s['stages'][-1]['scores'][j] for j in range(count-1)]))
+ s['backward_transfer_pp']=float(100*np.mean([s['stages'][-1]['scores'][j]-s['stages'][j]['scores'][j] for j in range(count-1)]))
  rows.append(s)
 assert len(rows)==216
 (root/'margin_stream_v67_runs.json').write_text(json.dumps(rows,indent=2))
@@ -45,9 +48,9 @@ for r in rows:
  if c['mode']!='selector':continue
  for ref in ('fecam','ridge','original','bounded'):
   peer=next(p for p in rows if all(p['config'][k]==c[k] for k in ('dataset','encoder','seed','order')) and p['config']['mode']==ref)
-  pairs.append(dict(dataset=c['dataset'],encoder=c['encoder'],seed=c['seed'],order=c['order'],reference=ref,development_control=(c['seed'],c['order'])==(42,17),final_gain_pp=100*(r['final_macro_accuracy']-peer['final_macro_accuracy']),average_gain_pp=100*(r['average_macro_accuracy']-peer['average_macro_accuracy'])))
+  pairs.append(dict(dataset=c['dataset'],encoder=c['encoder'],seed=c['seed'],order=c['order'],reference=ref,development_control=(c['seed'],c['order'])==(42,17),final_gain_pp=100*(r['final_macro_accuracy']-peer['final_macro_accuracy']),average_gain_pp=100*(r['average_macro_accuracy']-peer['average_macro_accuracy']),forgetting_reduction_pp=peer['mean_old_task_forgetting_pp']-r['mean_old_task_forgetting_pp'],backward_transfer_gain_pp=r['backward_transfer_pp']-peer['backward_transfer_pp']))
 for key in sorted({(p['dataset'],p['encoder'],p['reference']) for p in pairs}):
  selected=[p for p in pairs if (p['dataset'],p['encoder'],p['reference'])==key and not p['development_control']];final=[p['final_gain_pp'] for p in selected];avg=[p['average_gain_pp'] for p in selected]
- item=dict(zip(('dataset','encoder','reference'),key));item.update(n=len(selected),mean_final_gain_pp=float(np.mean(final)),min_final_gain_pp=min(final),max_final_gain_pp=max(final),mean_average_gain_pp=float(np.mean(avg)),min_average_gain_pp=min(avg),max_average_gain_pp=max(avg),final_wins=sum(v>1e-10 for v in final),average_wins=sum(v>1e-10 for v in avg));summary.append(item)
+ item=dict(zip(('dataset','encoder','reference'),key));item.update(n=len(selected),mean_final_gain_pp=float(np.mean(final)),min_final_gain_pp=min(final),max_final_gain_pp=max(final),mean_average_gain_pp=float(np.mean(avg)),min_average_gain_pp=min(avg),max_average_gain_pp=max(avg),final_wins=sum(v>1e-10 for v in final),average_wins=sum(v>1e-10 for v in avg));item['mean_forgetting_reduction_pp']=float(np.mean([p['forgetting_reduction_pp'] for p in selected]));item['mean_backward_transfer_gain_pp']=float(np.mean([p['backward_transfer_gain_pp'] for p in selected]));summary.append(item)
  if key[2]=='fecam':print(json.dumps(item),flush=True)
 (root/'margin_stream_v67_comparison.json').write_text(json.dumps(dict(complete=True,trajectories=216,pairs=pairs,summary=summary,checks=['exact v64 controls every stage','independent margin selection every stage','sample identities and metrics','exact v66 final scores and predictions','frozen parameters and source hashes']),indent=2))
