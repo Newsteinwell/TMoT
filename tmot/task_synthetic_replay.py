@@ -28,22 +28,23 @@ def fit_task_points(rows,initial,input_dim,teacher,steps=80):
             if np.isfinite(score) and score<best_loss:best_loss=score;best=points.detach().clone()
     return (best.numpy()*sd+mean).astype(np.float32),dict(initial=initial_loss,final=best_loss,steps=steps)
 class TaskSyntheticMixture(CovarianceMixture):
-    def __init__(self,*args,variant='gaussian',**kwargs):
+    def __init__(self,*args,variant='gaussian',points_per_cell=16,**kwargs):
         if variant not in VARIANTS:raise ValueError(variant)
-        self.variant=variant;self.teacher=None;super().__init__(*args,**kwargs)
+        assert isinstance(points_per_cell,int) and points_per_cell>0
+        self.points_per_cell=points_per_cell;self.variant=variant;self.teacher=None;super().__init__(*args,**kwargs)
     def fit_cell(self,batch):
         cell=super().fit_cell(batch);seed=32452843+self.cell_serial*7919;points=None;fitting=None
         if self.variant!='gaussian':
-            points=cell.sample(16,np.random.default_rng(seed))
+            points=cell.sample(self.points_per_cell,np.random.default_rng(seed))
             if self.variant=='random':points,fitting=fit_points(batch,points,self.dimension,seed+1)
             elif self.variant=='task':
                 assert self.teacher is not None
                 points,fitting=fit_task_points(batch,points,self.dimension,self.teacher)
         return SyntheticCell(cell.n,cell.mean,cell.factor,cell.residual_sd,cell.reference_width,cell.extra_rng,points,np.random.default_rng(seed+2),self.variant,fitting)
 class TaskSyntheticLearner(RegularizedInnovationLearner):
-    def __init__(self,*args,variant='gaussian',**kwargs):
-        super().__init__(*args,**kwargs);assert self.mode=='local';self.variant=variant
-        self.local=TaskSyntheticMixture(self.dimension,self.task,self.seed+676,components=4,preserve_targets=True,support=4,min_cell=4,variant=variant)
+    def __init__(self,*args,variant='gaussian',points_per_cell=16,**kwargs):
+        super().__init__(*args,**kwargs);assert self.mode=='local';self.variant=variant;self.points_per_cell=points_per_cell
+        self.local=TaskSyntheticMixture(self.dimension,self.task,self.seed+676,components=4,preserve_targets=True,support=4,min_cell=4,variant=variant,points_per_cell=points_per_cell)
     def update_local(self,x,y):
         self.local.teacher=self.function
         try:self.local.update(x,y)
