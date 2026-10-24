@@ -36,10 +36,10 @@ class ReplayFunctionalLearner:
         if self.task=='regression' and y.ndim==1:y=y[:,None]
         historical=None
         if self.seen:
-            historical=self.local.sample(self.replay_count,self.classes,self.rng) if self.mode=='local' else empirical_sample(*self.buffer,self.replay_count,self.rng,self.classes)
+            historical=self.local.sample(self.replay_count,self.classes,self.rng) if self.mode=='local' else self.sample_buffer()
         hx,hy=historical if historical is not None else (None,None)
         tx=x if hx is None else np.r_[x,hx];ty=y if hy is None else np.r_[y,hy]
-        w=representative_weights(y,hy,self.task,self.counts,self.seen)
+        w=self.replay_weights(y,hy)
         np.testing.assert_allclose(w.sum(),1,atol=1e-12)
         self.function=FunctionalBasis(IdentityBasis(self.dimension),self.task,seed=self.seed,epochs=self.epochs,device=self.device).fit(tx,ty,sample_weight=w,input_stats=self.input_stats)
         if self.input_stats is None:self.input_stats=(self.function.mean.copy(),self.function.sd.copy())
@@ -53,10 +53,16 @@ class ReplayFunctionalLearner:
         self.historical_training_samples=0 if hx is None else len(hx)
         self.weight_summary=dict(current=float(w[:len(x)].sum()),history=float(w[len(x):].sum()),total=float(w.sum()))
         if self.mode=='local':self.update_local(x,y)
-        else:NonlinearMomentLearner._store_buffer(self,x,y)
+        else:self.store_buffer(x,y)
         if self.task=='classification':
             for c in np.unique(y):self.counts[int(c)]=self.counts.get(int(c),0)+int(np.sum(y==c))
         self.seen+=len(x);self.stage+=1
+    def sample_buffer(self):
+        return empirical_sample(*self.buffer,self.replay_count,self.rng,self.classes)
+    def replay_weights(self,y,hy):
+        return representative_weights(y,hy,self.task,self.counts,self.seen)
+    def store_buffer(self,x,y):
+        NonlinearMomentLearner._store_buffer(self,x,y)
     def update_local(self,x,y):
         self.local.update(x,y)
     def predict(self,x):
