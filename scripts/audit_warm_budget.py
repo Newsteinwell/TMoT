@@ -3,7 +3,7 @@ import json,hashlib,sys
 from pathlib import Path
 import numpy as np
 import torch
-root=Path(sys.argv[1]);folder=root/'runs/warm_budget_v58';torch.set_num_threads(1)
+root=Path(sys.argv[1]);folder=root/'runs/warm_budget_v58_retry';torch.set_num_threads(1)
 terminal=json.loads((folder/'complete.json').read_text());assert len(terminal)==24 and all(v['status']=='completed' for v in terminal)
 checked=[];summaries=[]
 for shared in sorted((folder/'_shared').glob('*.pt')):

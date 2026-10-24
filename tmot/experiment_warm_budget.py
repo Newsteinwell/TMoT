@@ -35,7 +35,7 @@ def run(a):
         weights={r:(regularized_innovation_readout(m.g,m.k,512,r) if a.variant=='warm_moment_er10' else (ridge_readout(m.g,m.k,r),None)) if r else (None,None) for r in ridges}
         vx=[basis.transform(val['x'][inds]) for inds in evals[:stage+1]]
         for r,(readout,diagnostics) in weights.items():
-            m.readout=readout;ys=[];ps=[];scores=[];predictions={}
+            m.readout=readout if readout is not None else m.readout;ys=[];ps=[];scores=[];predictions={}
             for k,(z,inds) in enumerate(zip(vx,evals[:stage+1])):
                 pred=m.function.predict_head(z) if r==0 else m.predict(z);pred=pred if cl else pred*sd+mu;truth=val['y'][inds]
                 ys.append(truth);ps.append(pred);scores.append(macro(truth,pred) if cl else float(np.sqrt(np.mean((truth-pred)**2))))
