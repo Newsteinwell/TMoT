@@ -23,7 +23,10 @@ def run(a):
     for key in ('ids','y'):np.testing.assert_array_equal(p[f'{key}_{k}'],q[f'{key}_{k}'])
     ys.append(p[f'y_{k}']);cs.append(p[f'pred_{k}']);rs.append(q[f'pred_{k}'] if refdir else q[f'teacher_{k}'])
    y,c,r=map(np.concatenate,(ys,cs,rs));row=decomposition(y,r,c) if summary['task']=='classification' else residual_decomposition(y,r,c)
-   metric='macro_accuracy' if summary['task']=='classification' else 'rmse';actual=row['candidate_accuracy' if metric=='macro_accuracy' else 'candidate_rmse'];np.testing.assert_allclose(actual,summary['stages'][t-1][metric],rtol=0,atol=1e-12)
+   metric='macro_accuracy' if summary['task']=='classification' else 'rmse'
+   actual=row['candidate_accuracy'] if metric=='macro_accuracy' else float(np.sqrt(np.mean((y-c)**2)))
+   np.testing.assert_allclose(actual,summary['stages'][t-1][metric],rtol=0,atol=1e-12)
+   if metric=='rmse':row.update(source_candidate_rmse=actual,float64_rmse_difference=row['candidate_rmse']-actual)
    row['stage']=t;stages.append(row)
   rows.append(dict(**job,task=summary['task'],stages=stages));print(job['dataset'],job['encoder'],job['mode'],job['reference'],'done',flush=True)
  assert all(sha(Path(p))==value for p,value in sources.items())
