@@ -65,7 +65,7 @@ def run(a):
         np.savez_compressed(out/f'predictions_stage{stage+1}.npz',**predictions)
         with (out/'stages.jsonl').open('a') as f:f.write(json.dumps(item)+'\n')
         print(json.dumps(item),flush=True)
-    try:commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True,stderr=subprocess.DEVNULL).strip()
+    try:commit=os.environ.get('TMOT_SOURCE_COMMIT') or subprocess.check_output(['git','rev-parse','HEAD'],text=True,stderr=subprocess.DEVNULL).strip()
     except subprocess.CalledProcessError:commit=Path('SOURCE_COMMIT').read_text().strip() if Path('SOURCE_COMMIT').exists() else 'uncommitted'
     commit=os.environ.get('TMOT_SOURCE_COMMIT',commit)
     summary=dict(status='completed',task=task,config=vars(a),order=order,stages=records,matrix=matrix,
