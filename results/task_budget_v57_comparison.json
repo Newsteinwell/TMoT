@@ -1,0 +1,449 @@
+{
+  "rows": [
+    {
+      "dataset": "air_quality",
+      "encoder": "mantis",
+      "task": "regression",
+      "tmot": {
+        "dataset": "air_quality",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 0.9625986770936513,
+        "average": 0.7775873466334247,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "air_quality_mantis_task_n256_r1_o17_s42",
+        "persistent_bytes": 12872944
+      },
+      "er10": {
+        "final": 1.0278419278256643,
+        "average": 0.8825132073528377,
+        "ridge": 0.001,
+        "persistent_bytes": 3653296,
+        "cache": 9,
+        "tmot_final_gain": 0.06524325073201298,
+        "tmot_average_gain": 0.10492586071941301,
+        "tmot_relative_rmse_gain": 0.06347595769908998
+      },
+      "moment_er10": {
+        "final": 0.981242826191806,
+        "average": 0.8406991504519852,
+        "ridge": 1.0,
+        "persistent_bytes": 5762768,
+        "cache": 9,
+        "tmot_final_gain": 0.018644149098154705,
+        "tmot_average_gain": 0.06311180381856052,
+        "tmot_relative_rmse_gain": 0.019000545635082466
+      }
+    },
+    {
+      "dataset": "air_quality",
+      "encoder": "summary",
+      "task": "regression",
+      "tmot": {
+        "dataset": "air_quality",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 0.826535867850703,
+        "average": 0.7575820476249688,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "air_quality_summary_task_n256_r1_o17_s42",
+        "persistent_bytes": 14461216
+      },
+      "er10": {
+        "final": 0.9122025228922844,
+        "average": 0.8148880749804428,
+        "ridge": 0.001,
+        "persistent_bytes": 3653296,
+        "cache": 9,
+        "tmot_final_gain": 0.08566665504158144,
+        "tmot_average_gain": 0.057306027355473965,
+        "tmot_relative_rmse_gain": 0.09391188128921368
+      },
+      "moment_er10": {
+        "final": 0.8988201443367858,
+        "average": 0.7283452305129812,
+        "ridge": 10.0,
+        "persistent_bytes": 5762768,
+        "cache": 9,
+        "tmot_final_gain": 0.07228427648608282,
+        "tmot_average_gain": -0.029236817111987667,
+        "tmot_relative_rmse_gain": 0.08042129111316187
+      }
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "mantis",
+      "task": "regression",
+      "tmot": {
+        "dataset": "beijing_pm25",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 43.91215784180677,
+        "average": 50.14924742750521,
+        "ridge": 0.1,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "beijing_pm25_mantis_task_n256_r0.1_o17_s42",
+        "persistent_bytes": 16983156
+      },
+      "er10": {
+        "final": 50.10600651113907,
+        "average": 52.97556864829892,
+        "ridge": 1.0,
+        "persistent_bytes": 3795712,
+        "cache": 78,
+        "tmot_final_gain": 6.193848669332304,
+        "tmot_average_gain": 2.8263212207937087,
+        "tmot_relative_rmse_gain": 0.12361489371449608
+      },
+      "moment_er10": {
+        "final": 45.67250644695189,
+        "average": 51.69158388023468,
+        "ridge": 0.1,
+        "persistent_bytes": 5905184,
+        "cache": 78,
+        "tmot_final_gain": 1.7603486051451256,
+        "tmot_average_gain": 1.5423364527294723,
+        "tmot_relative_rmse_gain": 0.03854285087659359
+      }
+    },
+    {
+      "dataset": "beijing_pm25",
+      "encoder": "summary",
+      "task": "regression",
+      "tmot": {
+        "dataset": "beijing_pm25",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 44.03081277510135,
+        "average": 56.12237773339812,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "beijing_pm25_summary_task_n256_r1_o17_s42",
+        "persistent_bytes": 17030352
+      },
+      "er10": {
+        "final": 50.22374255598489,
+        "average": 60.68200878268409,
+        "ridge": 0.1,
+        "persistent_bytes": 3795712,
+        "cache": 78,
+        "tmot_final_gain": 6.192929780883539,
+        "tmot_average_gain": 4.559631049285976,
+        "tmot_relative_rmse_gain": 0.1233068159741425
+      },
+      "moment_er10": {
+        "final": 45.85227420592775,
+        "average": 59.13850621302972,
+        "ridge": 0.1,
+        "persistent_bytes": 5905184,
+        "cache": 78,
+        "tmot_final_gain": 1.821461430826396,
+        "tmot_average_gain": 3.016128479631604,
+        "tmot_relative_rmse_gain": 0.03972456028344429
+      }
+    },
+    {
+      "dataset": "energy",
+      "encoder": "mantis",
+      "task": "regression",
+      "tmot": {
+        "dataset": "energy",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 64.86424009241227,
+        "average": 72.14555817266276,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "energy_mantis_task_n256_r1_o17_s42",
+        "persistent_bytes": 15813500
+      },
+      "er10": {
+        "final": 72.52645238363644,
+        "average": 75.90622915810141,
+        "ridge": 0.1,
+        "persistent_bytes": 3706820,
+        "cache": 35,
+        "tmot_final_gain": 7.662212291224165,
+        "tmot_average_gain": 3.760670985438651,
+        "tmot_relative_rmse_gain": 0.10564714031087685
+      },
+      "moment_er10": {
+        "final": 67.55051318659807,
+        "average": 71.79082483493214,
+        "ridge": 1.0,
+        "persistent_bytes": 5816292,
+        "cache": 35,
+        "tmot_final_gain": 2.6862730941857933,
+        "tmot_average_gain": -0.35473333773062166,
+        "tmot_relative_rmse_gain": 0.039766879146652334
+      }
+    },
+    {
+      "dataset": "energy",
+      "encoder": "summary",
+      "task": "regression",
+      "tmot": {
+        "dataset": "energy",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "regression",
+        "final": 66.53118140728355,
+        "average": 77.63817098793623,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "energy_summary_task_n256_r1_o17_s42",
+        "persistent_bytes": 16948272
+      },
+      "er10": {
+        "final": 73.66411303019737,
+        "average": 81.03809693380892,
+        "ridge": 0.001,
+        "persistent_bytes": 3706820,
+        "cache": 35,
+        "tmot_final_gain": 7.132931622913816,
+        "tmot_average_gain": 3.399925945872681,
+        "tmot_relative_rmse_gain": 0.09683048270722805
+      },
+      "moment_er10": {
+        "final": 69.0635211724999,
+        "average": 76.50656178210936,
+        "ridge": 1.0,
+        "persistent_bytes": 5816292,
+        "cache": 35,
+        "tmot_final_gain": 2.5323397652163493,
+        "tmot_average_gain": -1.1316092058268765,
+        "tmot_relative_rmse_gain": 0.03666682095300822
+      }
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "mantis",
+      "task": "classification",
+      "tmot": {
+        "dataset": "handwriting",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.4423076923076923,
+        "average": 0.4515263048916896,
+        "ridge": 0.1,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "handwriting_mantis_task_n256_r0.1_o17_s42",
+        "persistent_bytes": 73198328
+      },
+      "er10": {
+        "final": 0.1346153846153846,
+        "average": 0.19238133661210582,
+        "ridge": 0.001,
+        "persistent_bytes": 3903504,
+        "cache": 6,
+        "tmot_final_gain": 30.76923076923077,
+        "tmot_average_gain": 25.914496827958377,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.5,
+        "average": 0.428277972027972,
+        "ridge": 1.0,
+        "persistent_bytes": 58749568,
+        "cache": 6,
+        "tmot_final_gain": -5.769230769230771,
+        "tmot_average_gain": 2.3248332863717582,
+        "tmot_relative_rmse_gain": null
+      }
+    },
+    {
+      "dataset": "handwriting",
+      "encoder": "summary",
+      "task": "classification",
+      "tmot": {
+        "dataset": "handwriting",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.19230769230769232,
+        "average": 0.2108607204761051,
+        "ridge": 0.01,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "handwriting_summary_task_n256_r0.01_o17_s42",
+        "persistent_bytes": 73198328
+      },
+      "er10": {
+        "final": 0.09615384615384616,
+        "average": 0.14413609894379126,
+        "ridge": 100.0,
+        "persistent_bytes": 3903504,
+        "cache": 6,
+        "tmot_final_gain": 9.615384615384617,
+        "tmot_average_gain": 6.672462153231384,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.15384615384615385,
+        "average": 0.19752363021593788,
+        "ridge": 0.001,
+        "persistent_bytes": 58749568,
+        "cache": 6,
+        "tmot_final_gain": 3.8461538461538463,
+        "tmot_average_gain": 1.3337090260167217,
+        "tmot_relative_rmse_gain": null
+      }
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "mantis",
+      "task": "classification",
+      "tmot": {
+        "dataset": "lsst",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.596065786536924,
+        "average": 0.7015110860803722,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "lsst_mantis_task_n256_r1_o17_s42",
+        "persistent_bytes": 60002752
+      },
+      "er10": {
+        "final": 0.4812966901676579,
+        "average": 0.6305949399359335,
+        "ridge": 100.0,
+        "persistent_bytes": 4168464,
+        "cache": 194,
+        "tmot_final_gain": 11.476909636926608,
+        "tmot_average_gain": 7.0916146144438645,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.5791693788510427,
+        "average": 0.7099166736671789,
+        "ridge": 10.0,
+        "persistent_bytes": 33700960,
+        "cache": 194,
+        "tmot_final_gain": 1.6896407685881298,
+        "tmot_average_gain": -0.8405587586806762,
+        "tmot_relative_rmse_gain": null
+      }
+    },
+    {
+      "dataset": "lsst",
+      "encoder": "summary",
+      "task": "classification",
+      "tmot": {
+        "dataset": "lsst",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.31701426678082034,
+        "average": 0.4984542884068917,
+        "ridge": 0.1,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "lsst_summary_task_n256_r0.1_o17_s42",
+        "persistent_bytes": 58921392
+      },
+      "er10": {
+        "final": 0.25137439511378395,
+        "average": 0.43744070150661235,
+        "ridge": 10.0,
+        "persistent_bytes": 4168464,
+        "cache": 194,
+        "tmot_final_gain": 6.5639871667036385,
+        "tmot_average_gain": 6.101358690027936,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.24519515807716147,
+        "average": 0.44957952196158596,
+        "ridge": 10.0,
+        "persistent_bytes": 33700960,
+        "cache": 194,
+        "tmot_final_gain": 7.181910870365887,
+        "tmot_average_gain": 4.887476644530575,
+        "tmot_relative_rmse_gain": null
+      }
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "mantis",
+      "task": "classification",
+      "tmot": {
+        "dataset": "phonemespectra",
+        "encoder": "mantis",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.34841628959276016,
+        "average": 0.5038633445116449,
+        "ridge": 0.1,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "phonemespectra_mantis_task_n256_r0.1_o17_s42",
+        "persistent_bytes": 166375592
+      },
+      "er10": {
+        "final": 0.2066365007541478,
+        "average": 0.3607540465287585,
+        "ridge": 1.0,
+        "persistent_bytes": 4548704,
+        "cache": 254,
+        "tmot_final_gain": 14.177978883861236,
+        "tmot_average_gain": 14.310929798288646,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.2941176470588235,
+        "average": 0.4599130394094947,
+        "ridge": 0.01,
+        "persistent_bytes": 86817800,
+        "cache": 254,
+        "tmot_final_gain": 5.429864253393668,
+        "tmot_average_gain": 4.395030510215026,
+        "tmot_relative_rmse_gain": null
+      }
+    },
+    {
+      "dataset": "phonemespectra",
+      "encoder": "summary",
+      "task": "classification",
+      "tmot": {
+        "dataset": "phonemespectra",
+        "encoder": "summary",
+        "variant": "task_n256",
+        "task": "classification",
+        "final": 0.09954751131221719,
+        "average": 0.17619415292596127,
+        "ridge": 1.0,
+        "source_queue": "synthetic_capacity_v54",
+        "source_run": "phonemespectra_summary_task_n256_r1_o17_s42",
+        "persistent_bytes": 171372784
+      },
+      "er10": {
+        "final": 0.06636500754147812,
+        "average": 0.142745509830284,
+        "ridge": 0.1,
+        "persistent_bytes": 4548704,
+        "cache": 254,
+        "tmot_final_gain": 3.318250377073907,
+        "tmot_average_gain": 3.3448643095677273,
+        "tmot_relative_rmse_gain": null
+      },
+      "moment_er10": {
+        "final": 0.07541478129713423,
+        "average": 0.15899697042387706,
+        "ridge": 10.0,
+        "persistent_bytes": 86817800,
+        "cache": 254,
+        "tmot_final_gain": 2.4132730015082955,
+        "tmot_average_gain": 1.7197182502084214,
+        "tmot_relative_rmse_gain": null
+      }
+    }
+  ],
+  "note": "Development-only, seed42/order17, best final validation ridge per variant; no TEST; ordinary ER uses standard ridge, moment ER uses regularized innovation; synthetic/moment memory not matched by sample-count constraint."
+}
