@@ -1,0 +1,148 @@
+{
+  "complete": true,
+  "paired_streams": 20,
+  "exact_v43_controls": 20,
+  "exact_first_stage_pairs": 20,
+  "checked": [
+    {
+      "run": "dailysports_mantis_er_r0.001_o17_s42_arrived",
+      "control": "dailysports_mantis_er_r0.001_o17_s42_first",
+      "prior": "dailysports_mantis_er_r0.001_o17_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "dailysports_mantis_er_r0.001_o23_s42_arrived",
+      "control": "dailysports_mantis_er_r0.001_o23_s42_first",
+      "prior": "dailysports_mantis_er_r0.001_o23_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "dailysports_mantis_er_r0.001_o29_s42_arrived",
+      "control": "dailysports_mantis_er_r0.001_o29_s42_first",
+      "prior": "dailysports_mantis_er_r0.001_o29_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "dailysports_mantis_local_r0.1_o17_s42_arrived",
+      "control": "dailysports_mantis_local_r0.1_o17_s42_first",
+      "prior": "dailysports_mantis_local_r0.1_o17_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "dailysports_mantis_local_r0.1_o23_s42_arrived",
+      "control": "dailysports_mantis_local_r0.1_o23_s42_first",
+      "prior": "dailysports_mantis_local_r0.1_o23_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "dailysports_mantis_local_r0.1_o29_s42_arrived",
+      "control": "dailysports_mantis_local_r0.1_o29_s42_first",
+      "prior": "dailysports_mantis_local_r0.1_o29_s42",
+      "calibration_samples": 5700,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "energy_mantis_er_r10_o17_s42_arrived",
+      "control": "energy_mantis_er_r10_o17_s42_first",
+      "prior": "energy_mantis_er_r10_o17_s42",
+      "calibration_samples": 390,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "energy_mantis_local_r1_o17_s42_arrived",
+      "control": "energy_mantis_local_r1_o17_s42_first",
+      "prior": "energy_mantis_local_r1_o17_s42",
+      "calibration_samples": 390,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_er_r0.001_o17_s42_arrived",
+      "control": "har_mantis_er_r0.001_o17_s42_first",
+      "prior": "har_mantis_er_r0.001_o17_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_er_r0.001_o23_s42_arrived",
+      "control": "har_mantis_er_r0.001_o23_s42_first",
+      "prior": "har_mantis_er_r0.001_o23_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_er_r0.001_o29_s42_arrived",
+      "control": "har_mantis_er_r0.001_o29_s42_first",
+      "prior": "har_mantis_er_r0.001_o29_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_local_r0.01_o17_s42_arrived",
+      "control": "har_mantis_local_r0.01_o17_s42_first",
+      "prior": "har_mantis_local_r0.01_o17_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_local_r0.01_o23_s42_arrived",
+      "control": "har_mantis_local_r0.01_o23_s42_first",
+      "prior": "har_mantis_local_r0.01_o23_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "har_mantis_local_r0.01_o29_s42_arrived",
+      "control": "har_mantis_local_r0.01_o29_s42_first",
+      "prior": "har_mantis_local_r0.01_o29_s42",
+      "calibration_samples": 5867,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_er_r0.01_o17_s42_arrived",
+      "control": "uwave_mantis_er_r0.01_o17_s42_first",
+      "prior": "uwave_mantis_er_r0.01_o17_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_er_r0.01_o23_s42_arrived",
+      "control": "uwave_mantis_er_r0.01_o23_s42_first",
+      "prior": "uwave_mantis_er_r0.01_o23_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_er_r0.01_o29_s42_arrived",
+      "control": "uwave_mantis_er_r0.01_o29_s42_first",
+      "prior": "uwave_mantis_er_r0.01_o29_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_local_r0.1_o17_s42_arrived",
+      "control": "uwave_mantis_local_r0.1_o17_s42_first",
+      "prior": "uwave_mantis_local_r0.1_o17_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_local_r0.1_o23_s42_arrived",
+      "control": "uwave_mantis_local_r0.1_o23_s42_first",
+      "prior": "uwave_mantis_local_r0.1_o23_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    },
+    {
+      "run": "uwave_mantis_local_r0.1_o29_s42_arrived",
+      "control": "uwave_mantis_local_r0.1_o29_s42_first",
+      "prior": "uwave_mantis_local_r0.1_o29_s42",
+      "calibration_samples": 96,
+      "extra_stat_bytes": 8200
+    }
+  ]
+}

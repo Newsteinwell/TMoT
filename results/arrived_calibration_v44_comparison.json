@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "dailysports",
+    "mode": "er",
+    "order": 17,
+    "first": 0.9807017543859649,
+    "arrived": 0.9833333333333334,
+    "final_gain": 0.263157894736854,
+    "average_gain": 0.15942258253920372
+  },
+  {
+    "dataset": "dailysports",
+    "mode": "er",
+    "order": 23,
+    "first": 0.9605263157894737,
+    "arrived": 0.9543859649122807,
+    "final_gain": -0.6140350877193002,
+    "average_gain": -0.029450565742294987
+  },
+  {
+    "dataset": "dailysports",
+    "mode": "er",
+    "order": 29,
+    "first": 0.9771929824561404,
+    "arrived": 0.9570175438596491,
+    "final_gain": -2.017543859649129,
+    "average_gain": -0.3307577641943116
+  },
+  {
+    "dataset": "dailysports",
+    "mode": "local",
+    "order": 17,
+    "first": 0.9736842105263156,
+    "arrived": 0.970175438596491,
+    "final_gain": -0.35087719298245723,
+    "average_gain": 0.7546496872262498
+  },
+  {
+    "dataset": "dailysports",
+    "mode": "local",
+    "order": 23,
+    "first": 0.9710526315789473,
+    "arrived": 0.9622807017543861,
+    "final_gain": -0.8771929824561209,
+    "average_gain": -0.044841435622311465
+  },
+  {
+    "dataset": "dailysports",
+    "mode": "local",
+    "order": 29,
+    "first": 0.9833333333333332,
+    "arrived": 0.9789473684210526,
+    "final_gain": -0.43859649122806044,
+    "average_gain": -0.03303549639980252
+  },
+  {
+    "dataset": "energy",
+    "mode": "er",
+    "order": 17,
+    "first": 66.97469662509774,
+    "arrived": 66.43800371724505,
+    "final_gain": 0.5366929078526823,
+    "average_gain": 0.9351737392629218
+  },
+  {
+    "dataset": "energy",
+    "mode": "local",
+    "order": 17,
+    "first": 63.71637738635612,
+    "arrived": 64.86548423997728,
+    "final_gain": -1.1491068536211557,
+    "average_gain": 0.1875402527566905
+  },
+  {
+    "dataset": "har",
+    "mode": "er",
+    "order": 17,
+    "first": 0.9677943550146141,
+    "arrived": 0.9652135806434982,
+    "final_gain": -0.25807743711159237,
+    "average_gain": -0.08602581237053819
+  },
+  {
+    "dataset": "har",
+    "mode": "er",
+    "order": 23,
+    "first": 0.9628819566642924,
+    "arrived": 0.9622930285135269,
+    "final_gain": -0.058892815076549976,
+    "average_gain": 0.01193471820680747
+  },
+  {
+    "dataset": "har",
+    "mode": "er",
+    "order": 29,
+    "first": 0.9625450619266873,
+    "arrived": 0.9626722168683299,
+    "final_gain": 0.012715494164261543,
+    "average_gain": -0.027327158510903615
+  },
+  {
+    "dataset": "har",
+    "mode": "local",
+    "order": 17,
+    "first": 0.974247778134704,
+    "arrived": 0.9688626548167184,
+    "final_gain": -0.5385123317985574,
+    "average_gain": -0.17950411059951543
+  },
+  {
+    "dataset": "har",
+    "mode": "local",
+    "order": 23,
+    "first": 0.9553176499616701,
+    "arrived": 0.9546439518498094,
+    "final_gain": -0.06736981118606877,
+    "average_gain": 0.009109052836975273
+  },
+  {
+    "dataset": "har",
+    "mode": "local",
+    "order": 29,
+    "first": 0.9638076881893136,
+    "arrived": 0.9657016275832531,
+    "final_gain": 0.18939393939394478,
+    "average_gain": 0.06313131313131493
+  },
+  {
+    "dataset": "uwave",
+    "mode": "er",
+    "order": 17,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": 0.0
+  },
+  {
+    "dataset": "uwave",
+    "mode": "er",
+    "order": 23,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": -2.083333333333326
+  },
+  {
+    "dataset": "uwave",
+    "mode": "er",
+    "order": 29,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": 0.0
+  },
+  {
+    "dataset": "uwave",
+    "mode": "local",
+    "order": 17,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": 0.0
+  },
+  {
+    "dataset": "uwave",
+    "mode": "local",
+    "order": 23,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": 1.388888888888884
+  },
+  {
+    "dataset": "uwave",
+    "mode": "local",
+    "order": 29,
+    "first": 0.9166666666666666,
+    "arrived": 0.9166666666666666,
+    "final_gain": 0.0,
+    "average_gain": 0.0
+  }
+]
