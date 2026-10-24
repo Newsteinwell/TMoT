@@ -41,7 +41,7 @@ class ReplayFunctionalLearner:
         tx=x if hx is None else np.r_[x,hx];ty=y if hy is None else np.r_[y,hy]
         w=self.replay_weights(y,hy)
         np.testing.assert_allclose(w.sum(),1,atol=1e-12)
-        self.function=FunctionalBasis(IdentityBasis(self.dimension),self.task,seed=self.seed,epochs=self.epochs,device=self.device).fit(tx,ty,sample_weight=w,input_stats=self.input_stats)
+        self.function=self.fit_function(tx,ty,w)
         if self.input_stats is None:self.input_stats=(self.function.mean.copy(),self.function.sd.copy())
         if self.task=='classification':
             self.classes.extend(sorted(set(y.tolist())-set(self.classes)))
@@ -57,6 +57,8 @@ class ReplayFunctionalLearner:
         if self.task=='classification':
             for c in np.unique(y):self.counts[int(c)]=self.counts.get(int(c),0)+int(np.sum(y==c))
         self.seen+=len(x);self.stage+=1
+    def fit_function(self,x,y,w):
+        return FunctionalBasis(IdentityBasis(self.dimension),self.task,seed=self.seed,epochs=self.epochs,device=self.device).fit(x,y,sample_weight=w,input_stats=self.input_stats)
     def sample_buffer(self):
         return empirical_sample(*self.buffer,self.replay_count,self.rng,self.classes)
     def replay_weights(self,y,hy):
