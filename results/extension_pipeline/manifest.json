@@ -1,0 +1,139 @@
+{
+  "pid": 48857,
+  "source": "d6c389c072f54ef8a866fab04826092098fb839d",
+  "feature_workers": 2,
+  "jobs": [
+    {
+      "name": "phonemespectra_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "phonemespectra",
+        "--encoder",
+        "mantis",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cuda",
+        "--channel-batch",
+        "512",
+        "--weights",
+        "/root/autodl-tmp/tmot-artifacts/models/MantisV2"
+      ]
+    },
+    {
+      "name": "phonemespectra_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "phonemespectra",
+        "--encoder",
+        "summary",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cpu",
+        "--channel-batch",
+        "512"
+      ]
+    },
+    {
+      "name": "lsst_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "lsst",
+        "--encoder",
+        "mantis",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cuda",
+        "--channel-batch",
+        "512",
+        "--weights",
+        "/root/autodl-tmp/tmot-artifacts/models/MantisV2"
+      ]
+    },
+    {
+      "name": "lsst_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "lsst",
+        "--encoder",
+        "summary",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cpu",
+        "--channel-batch",
+        "512"
+      ]
+    },
+    {
+      "name": "handwriting_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "handwriting",
+        "--encoder",
+        "mantis",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cuda",
+        "--channel-batch",
+        "512",
+        "--weights",
+        "/root/autodl-tmp/tmot-artifacts/models/MantisV2"
+      ]
+    },
+    {
+      "name": "handwriting_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "scripts.extract_features",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--datasets",
+        "handwriting",
+        "--encoder",
+        "summary",
+        "--splits",
+        "train",
+        "val",
+        "--device",
+        "cpu",
+        "--channel-batch",
+        "512"
+      ]
+    }
+  ]
+}

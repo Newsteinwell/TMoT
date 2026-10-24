@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "method": "er",
+    "final": 0.4807692307692308,
+    "average": 0.46728874757720906,
+    "ridge": 0.01,
+    "persistent_bytes": 58988992,
+    "run": "handwriting_mantis_er_r0.01_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "method": "local",
+    "final": 0.5192307692307693,
+    "average": 0.4679746001861386,
+    "ridge": 0.1,
+    "persistent_bytes": 59042552,
+    "run": "handwriting_mantis_local_r0.1_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "mantis",
+    "method": "ridge",
+    "final": 0.5192307692307693,
+    "average": 0.4712560409675794,
+    "ridge": 0.1,
+    "persistent_bytes": 55084096,
+    "run": "handwriting_mantis_linear_r0.1_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "method": "er",
+    "final": 0.3076923076923077,
+    "average": 0.20742377280838817,
+    "ridge": 0.01,
+    "persistent_bytes": 58988992,
+    "run": "handwriting_summary_er_r0.01_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "method": "local",
+    "final": 0.23076923076923078,
+    "average": 0.20568437972284126,
+    "ridge": 0.001,
+    "persistent_bytes": 59042552,
+    "run": "handwriting_summary_local_r0.001_o17_s42"
+  },
+  {
+    "dataset": "handwriting",
+    "encoder": "summary",
+    "method": "ridge",
+    "final": 0.15384615384615385,
+    "average": 0.19752363021593788,
+    "ridge": 0.001,
+    "persistent_bytes": 55084096,
+    "run": "handwriting_summary_linear_r0.001_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "method": "er",
+    "final": 0.6003831089994078,
+    "average": 0.7052181611353736,
+    "ridge": 1.0,
+    "persistent_bytes": 37372816,
+    "run": "lsst_mantis_er_r1_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "method": "local",
+    "final": 0.5969510642473291,
+    "average": 0.6998564887575721,
+    "ridge": 1.0,
+    "persistent_bytes": 34836928,
+    "run": "lsst_mantis_local_r1_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "mantis",
+    "method": "ridge",
+    "final": 0.5880053127718663,
+    "average": 0.7190248712078489,
+    "ridge": 1.0,
+    "persistent_bytes": 29721280,
+    "run": "lsst_mantis_linear_r1_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "method": "er",
+    "final": 0.34777627657508814,
+    "average": 0.49526683205315275,
+    "ridge": 0.1,
+    "persistent_bytes": 37372816,
+    "run": "lsst_summary_er_r0.1_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "method": "local",
+    "final": 0.2936688288131412,
+    "average": 0.46022483691767785,
+    "ridge": 0.001,
+    "persistent_bytes": 34804144,
+    "run": "lsst_summary_local_r0.001_o17_s42"
+  },
+  {
+    "dataset": "lsst",
+    "encoder": "summary",
+    "method": "ridge",
+    "final": 0.24324007910595347,
+    "average": 0.42769040274679376,
+    "ridge": 100.0,
+    "persistent_bytes": 29721280,
+    "run": "lsst_summary_linear_r100_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "method": "er",
+    "final": 0.3363499245852187,
+    "average": 0.5005614751646931,
+    "ridge": 0.1,
+    "persistent_bytes": 90487592,
+    "run": "phonemespectra_mantis_er_r0.1_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "method": "local",
+    "final": 0.3257918552036199,
+    "average": 0.48936764061179927,
+    "ridge": 0.1,
+    "persistent_bytes": 90878120,
+    "run": "phonemespectra_mantis_local_r0.1_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "mantis",
+    "method": "ridge",
+    "final": 0.32579185520361986,
+    "average": 0.4853676251173355,
+    "ridge": 0.01,
+    "persistent_bytes": 82560480,
+    "run": "phonemespectra_mantis_linear_r0.01_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "method": "er",
+    "final": 0.10407239819004524,
+    "average": 0.18059020011817759,
+    "ridge": 1.0,
+    "persistent_bytes": 90487592,
+    "run": "phonemespectra_summary_er_r1_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "method": "local",
+    "final": 0.1085972850678733,
+    "average": 0.1730335622930841,
+    "ridge": 0.01,
+    "persistent_bytes": 91156720,
+    "run": "phonemespectra_summary_local_r0.01_o17_s42"
+  },
+  {
+    "dataset": "phonemespectra",
+    "encoder": "summary",
+    "method": "ridge",
+    "final": 0.07390648567119154,
+    "average": 0.16123123420365865,
+    "ridge": 100.0,
+    "persistent_bytes": 82560480,
+    "run": "phonemespectra_summary_linear_r100_o17_s42"
+  }
+]

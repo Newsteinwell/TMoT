@@ -1,0 +1,26 @@
+[
+  {
+    "name": "phonemespectra_mantis",
+    "returncode": 0
+  },
+  {
+    "name": "phonemespectra_summary",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_mantis",
+    "returncode": 0
+  },
+  {
+    "name": "lsst_summary",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_mantis",
+    "returncode": 0
+  },
+  {
+    "name": "handwriting_summary",
+    "returncode": 0
+  }
+]

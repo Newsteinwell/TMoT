@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "checked": [
+    {
+      "dataset": "phonemespectra",
+      "sizes": {
+        "train": 2652,
+        "val": 663,
+        "test": 3353
+      },
+      "exact_input_duplicates": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "test_predictions_evaluated": false
+    },
+    {
+      "dataset": "lsst",
+      "sizes": {
+        "train": 1973,
+        "val": 486,
+        "test": 2466
+      },
+      "exact_input_duplicates": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "test_predictions_evaluated": false
+    },
+    {
+      "dataset": "handwriting",
+      "sizes": {
+        "train": 122,
+        "val": 28,
+        "test": 850
+      },
+      "exact_input_duplicates": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "test_predictions_evaluated": false
+    }
+  ]
+}
