@@ -1,0 +1,110 @@
+[
+  {
+    "name": "handwriting_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "handwriting_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "handwriting",
+      "--encoder",
+      "summary"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "summary"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "lsst_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "lsst",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "phonemespectra_mantis",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "mantis"
+    ],
+    "status": "failed",
+    "returncode": 1
+  },
+  {
+    "name": "phonemespectra_summary",
+    "command": [
+      "/root/autodl-tmp/TMoT/.venv/bin/python",
+      "-m",
+      "tmot.experiment_bounded_completion",
+      "--root",
+      "/root/autodl-tmp/tmot-artifacts",
+      "--out",
+      "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+      "--dataset",
+      "phonemespectra",
+      "--encoder",
+      "summary"
+    ],
+    "status": "completed",
+    "returncode": 0
+  }
+]

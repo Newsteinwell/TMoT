@@ -1,0 +1,103 @@
+{
+  "jobs": [
+    {
+      "name": "phonemespectra_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "phonemespectra",
+        "--encoder",
+        "mantis"
+      ]
+    },
+    {
+      "name": "phonemespectra_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "phonemespectra",
+        "--encoder",
+        "summary"
+      ]
+    },
+    {
+      "name": "lsst_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "lsst",
+        "--encoder",
+        "mantis"
+      ]
+    },
+    {
+      "name": "lsst_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "lsst",
+        "--encoder",
+        "summary"
+      ]
+    },
+    {
+      "name": "handwriting_mantis",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "handwriting",
+        "--encoder",
+        "mantis"
+      ]
+    },
+    {
+      "name": "handwriting_summary",
+      "command": [
+        "/root/autodl-tmp/TMoT/.venv/bin/python",
+        "-m",
+        "tmot.experiment_bounded_completion",
+        "--root",
+        "/root/autodl-tmp/tmot-artifacts",
+        "--out",
+        "/root/autodl-tmp/tmot-artifacts/runs/bounded_completion_v63",
+        "--dataset",
+        "handwriting",
+        "--encoder",
+        "summary"
+      ]
+    }
+  ],
+  "pid": 64005,
+  "workers": 6,
+  "source": "2d1ac0d401860f8e7c9a96d67161f9d563904668"
+}
