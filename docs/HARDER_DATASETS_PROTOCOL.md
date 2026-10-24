@@ -25,3 +25,9 @@
 保留已有预处理，冻结Mantis与无预训练summary两种表示；本轮只提取TRAIN/VAL特征。首次筛选固定seed42/order17，分类每阶段2类，奇数类别首阶段3类；三数据×两表示×（累计ridge、local正则化创新、ER正则化创新）×六个ridge（.001/.01/.1/1/10/100），共108条。后两者保持既有网络/步数/回放，输入校准暂固定first，避免新表示效应和新校准改动混杂。每方法同6点选择预算；记录实际内存与时间，不能把ER 4MiB与按类别增长的矩内存声称为等字节。后续强基线仍包括原迁移版与SLDA；不能只相对这轮两个对照给出最终胜出结论。
 
 保持训练与测试严格分离；Mantis预训练重叠仍未知，summary对照不能使该不确定性自动消失。PenDigits仍保留但属于空间轨迹；新增EthanolConcentration不纳入，因为其轴为波长而非时间，避免扩大时间序列证据的解释范围。
+
+## 归档资格检查完成
+
+三个官方归档全部通过TRAIN-only有限性、矩形结构、类别样本数核验。固定划分后的train/val/test分别为PhonemeSpectra 2652/663/3353、LSST 1973/486/2466、Handwriting 122/28/850；全部十个数据集因此正式进入上述固定验收集合。Handwriting三通道差异已按文件解决。归档、划分SHA256将随inventory和manifest保存；官方TEST仅按固定规则存档，未计算模型评分。
+
+执行方式：`python -m scripts.inspect_extension_archives ROOT`、`python -m scripts.prepare_extension --root ROOT`。使用模块入口使共享预处理导入路径明确。流水线先2并发提取6组TRAIN/VAL缓存，成功后自动启动16并发的108条VAL实验；每阶段启动前要求剩余空间至少15GiB。源码、数据资格与实验方案在新增成绩前锁定。
